@@ -1,66 +1,47 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="bg-light min-vh-100 d-flex flex-column justify-content-center align-items-center p-4">
+      <div className="text-center" style={{ maxWidth: '600px' }}>
+        <h1 className="display-4 fw-bold mb-4">Aavedanpatra.in is Coming Soon</h1>
+        <p className="lead mb-4">
+          Your one-stop platform for <strong>government scheme applications</strong>, <strong>job application assistance</strong>, <strong>resume help</strong>, and <strong>education & career guidance</strong>—all in your language.
+        </p>
+
+        <div className="text-start mb-4">
+          <h3 className="mb-3">Features you can expect:</h3>
+          <ul className="list-group list-group-flush fs-5">
+            <li className="list-group-item">📝 Guided application assistance for jobs, schemes, & certificates</li>
+            <li className="list-group-item">📃 Comprehensive, multilingual government schemes blog in Hindi & English</li>
+            <li className="list-group-item">💼 Job portal with expert resume building and interview tips</li>
+            <li className="list-group-item">🎓 Education & internship guides with scholarship information</li>
+            <li className="list-group-item">🌐 Support for Hindi, English, Tamil, Telugu, Malayalam, and more</li>
+            <li className="list-group-item">🚀 AI-assisted form filling combined with human verification</li>
+            <li className="list-group-item">📊 Interactive tools such as eligibility checkers and calculators</li>
+            <li className="list-group-item">🔒 Trusted, secure, and user-friendly experience</li>
+          </ul>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+
+        <p className="mb-4 fst-italic">
+          Stay tuned! We're working hard to launch soon and empower millions with easy access to government services, jobs, and education.
+        </p>
+
+        <form className="d-flex justify-content-center" >
+          <input
+            type="email"
+            className="form-control me-2"
+            placeholder="Enter your email to get notified"
+            aria-label="Email"
+            required
+          />
+          <button type="submit" className="btn btn-primary">Notify Me</button>
+        </form>
+
+        <footer className="mt-5 text-muted small">
+          © 2025 Aavedanpatra.in | All rights reserved
+        </footer>
+      </div>
     </div>
   );
 }
