@@ -1,10 +1,20 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { ArrowDown, Sparkles, FileText, Award, Mail } from "lucide-react";
 
 export function Hero() {
+
+   const [windowSize, setWindowSize] = useState<{ width: number; height: number } | null>(null);
+
+  useEffect(() => {
+    setWindowSize({
+      width: window.innerWidth,
+      height: window.innerHeight
+    });
+  }, []);
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated gradient background */}
@@ -12,28 +22,34 @@ export function Hero() {
       
       {/* Animated particles */}
       <div className="absolute inset-0">
-        {[...Array(20)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute"
-            initial={{ 
-              x: Math.random() * window.innerWidth, 
-              y: Math.random() * window.innerHeight,
-              opacity: 0 
-            }}
-            animate={{ 
-              y: [null, Math.random() * window.innerHeight],
-              opacity: [0, 0.5, 0],
-            }}
-            transition={{ 
-              duration: Math.random() * 10 + 10,
-              repeat: Infinity,
-              ease: "linear"
-            }}
-          >
-            <FileText className="w-4 h-4 text-cyan-400/30 dark:text-cyan-400/30" />
-          </motion.div>
-        ))}
+   {/* Animated particles */}
+{windowSize && (
+  <div className="absolute inset-0">
+    {[...Array(20)].map((_, i) => (
+      <motion.div
+        key={i}
+        className="absolute"
+        initial={{
+          x: Math.random() * windowSize.width,
+          y: Math.random() * windowSize.height,
+          opacity: 0,
+        }}
+        animate={{
+          y: [null, Math.random() * windowSize.height],
+          opacity: [0, 0.5, 0],
+        }}
+        transition={{
+          duration: Math.random() * 10 + 10,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+      >
+        <FileText className="w-4 h-4 text-cyan-400/30 dark:text-cyan-400/30" />
+      </motion.div>
+    ))}
+  </div>
+)}
+
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
