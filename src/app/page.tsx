@@ -14,7 +14,7 @@ import Image from "next/image";
 export default function Home() {
   return (
  <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       <Hero />
       <CategoryGrid />
       <TrendingTemplates />
