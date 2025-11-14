@@ -63,7 +63,7 @@ export function Newsletter() {
               </motion.div>
 
               <h2 className="text-4xl lg:text-5xl mb-4 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
-                Join 10,000+ creators using Sample Files
+                Join 10,000+ creators using Aavedan Patra
               </h2>
               
               <p className="text-slate-600 dark:text-white/70 text-lg mb-8 max-w-2xl mx-auto">

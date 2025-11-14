@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "Are the templates completely free to use?",
-    answer: "Absolutely! All templates on Sample Files are 100% free to download and use for personal and professional purposes. There are no hidden fees or premium tiers. We believe everyone should have access to quality professional templates."
+    answer: "Absolutely! All templates on Aavedan Patra are 100% free to download and use for personal and professional purposes. There are no hidden fees or premium tiers. We believe everyone should have access to quality professional templates."
   },
   {
     question: "Can I customize the templates?",
@@ -48,7 +48,7 @@ export function FAQ() {
               Frequently Asked Questions
             </h2>
           </div>
-          <p className="text-slate-600 dark:text-white/60 text-lg">Everything you need to know about Sample Files</p>
+          <p className="text-slate-600 dark:text-white/60 text-lg">Everything you need to know about Aavedan Patra</p>
         </motion.div>
 
         <motion.div

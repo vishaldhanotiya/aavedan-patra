@@ -40,7 +40,7 @@ export function Footer() {
           {/* Brand section */}
           <div className="lg:col-span-2">
             <h3 className="text-2xl mb-4 bg-gradient-to-r from-cyan-600 to-violet-600 dark:from-cyan-400 dark:to-violet-400 bg-clip-text text-transparent">
-              Sample Files
+              Aavedan Patra
             </h3>
             <p className="text-slate-600 dark:text-white/60 mb-6 max-w-sm">
               Your go-to platform for professional templates. Crafted with care for job seekers, students, and professionals.
@@ -88,7 +88,7 @@ export function Footer() {
         {/* Bottom footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 dark:text-white/50">
-            © 2025 Sample Files. All rights reserved.
+            © 2025 Aavedan Patra. All rights reserved.
           </p>
           
           <motion.p 
