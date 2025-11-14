@@ -1,3 +1,4 @@
+"use client"
 import { BlogSection } from "@/components/BlogSection";
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { FAQ } from "@/components/FAQ";
