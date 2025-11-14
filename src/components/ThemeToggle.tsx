@@ -1,26 +1,24 @@
 
 "use client";
-
 import { Moon, Sun } from "lucide-react";
 import { motion } from "motion/react";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 
 export function ThemeToggle() {
   const [theme, setTheme] = useState<"light" | "dark">("dark");
 
-  useEffect(() => {
+ useEffect(() => {
+    if (typeof window === "undefined") return;
+
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
-   // const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const initialTheme = savedTheme ||  "dark" ;
-    
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
+
     setTheme(initialTheme);
-    
-    if (initialTheme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
+
+    document.documentElement.classList.toggle("dark", initialTheme === "dark");
   }, []);
 
   const toggleTheme = () => {
