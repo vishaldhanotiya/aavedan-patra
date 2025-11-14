@@ -3,7 +3,7 @@
 
 import { Moon, Sun } from "lucide-react";
 import { motion } from "motion/react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 
 export function ThemeToggle() {
