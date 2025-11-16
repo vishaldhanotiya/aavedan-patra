@@ -3,28 +3,36 @@ import { motion } from "motion/react";
 import { BookOpen, Clock, User, ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import Link from "next/link";
 
 const blogs = [
-  {
+  { 
+    key:1,
     title: "How to Write a Professional Job Application",
     excerpt: "Master the art of writing compelling job applications that get noticed by recruiters",
     author: "Vishal Dhanotiya",
     readTime: "5 min read",
-    category: "Writing Tips"
+    category: "Writing Tips",
+    href:'/blog/how-to-write-a-job-application'
+
   },
-  {
+  { 
+    key:2,
     title: "Resume Format Guide 2025",
     excerpt: "Latest trends and best practices for creating standout resumes in the modern job market",
     author: "Vishal Dhanotiya",
     readTime: "8 min read",
-    category: "Career Guides"
+    category: "Career Guides",
+    href:'/blog'
   },
   {
+    key:3,
     title: "Email Etiquette for Business Communication",
     excerpt: "Essential tips for professional email writing that leaves a lasting impression",
     author: "Vishal Dhanotiya",
     readTime: "6 min read",
-    category: "Communication"
+    category: "Communication",
+    href:'/blog'
   }
 ];
 
@@ -91,6 +99,8 @@ export function BlogSection() {
                     </div>
                   </div>
 
+                  <Link key={blog.key} href={blog.href}>
+
                   <Button 
                     variant="ghost" 
                     className="w-full text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 hover:bg-cyan-50 dark:hover:bg-cyan-500/10 group/btn"
@@ -98,6 +108,7 @@ export function BlogSection() {
                     Read More
                     <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
                   </Button>
+                  </Link>
                 </div>
               </div>
             </motion.div>

@@ -13,20 +13,20 @@ const templates = [
     tag: "Popular",
     tagColor: "bg-rose-500"
   },
-  {
-    title: "Modern Resume Template",
-    category: "Resumes",
-    views: "10.2k",
-    tag: "Trending",
-    tagColor: "bg-violet-500"
-  },
-  {
-    title: "Experience Certificate",
-    category: "Certificates",
-    views: "8.9k",
-    tag: "New",
-    tagColor: "bg-cyan-500"
-  },
+  // {
+  //   title: "Modern Resume Template",
+  //   category: "Resumes",
+  //   views: "10.2k",
+  //   tag: "Trending",
+  //   tagColor: "bg-violet-500"
+  // },
+  // {
+  //   title: "Experience Certificate",
+  //   category: "Certificates",
+  //   views: "8.9k",
+  //   tag: "New",
+  //   tagColor: "bg-cyan-500"
+  // },
   {
     title: "Resignation Letter",
     category: "Letters",

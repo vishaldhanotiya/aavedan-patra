@@ -1,5 +1,6 @@
-"use client"
+"use client";
 
+import { BlogExample } from "@/components/BlogExample";
 import { BlogSection } from "@/components/BlogSection";
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { FAQ } from "@/components/FAQ";
@@ -13,8 +14,9 @@ import { TrendingTemplates } from "@/components/TrendingTemplates";
 
 export default function Home() {
   return (
- <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
-      <ThemeToggle/>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
+      <ThemeToggle />
+      {/* <BlogExample/> */}
       <Hero />
       <CategoryGrid />
       <TrendingTemplates />

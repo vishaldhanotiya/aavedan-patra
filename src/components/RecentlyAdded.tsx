@@ -5,18 +5,18 @@ import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 
 const recentTemplates = [
-  {
-    title: "Internship Completion Certificate",
-    excerpt: "Professional certificate format for internship completion with modern design",
-    date: "Nov 12, 2025",
-    category: "Certificates"
-  },
-  {
-    title: "Project Report Format",
-    excerpt: "Comprehensive project report template for academic and professional use",
-    date: "Nov 10, 2025",
-    category: "Reports"
-  },
+  // {
+  //   title: "Internship Completion Certificate",
+  //   excerpt: "Professional certificate format for internship completion with modern design",
+  //   date: "Nov 12, 2025",
+  //   category: "Certificates"
+  // },
+  // {
+  //   title: "Project Report Format",
+  //   excerpt: "Comprehensive project report template for academic and professional use",
+  //   date: "Nov 10, 2025",
+  //   category: "Reports"
+  // },
   {
     title: "Follow-up Email Template",
     excerpt: "Effective follow-up email formats for job applications and business communication",
