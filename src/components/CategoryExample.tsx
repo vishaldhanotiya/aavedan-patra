@@ -26,24 +26,31 @@ const applicationsCategory = {
       title: "Job Applications",
       description: "Professional formats for job positions",
       count: 45,
+      href: "/applications/job",
     },
     {
       icon: GraduationCap,
       title: "Leave Applications",
       description: "Templates for sick, casual, and emergency leaves",
       count: 32,
+      href: "/applications/letters",
+
     },
     {
       icon: HomeIcon,
       title: "Admission Applications",
       description: "College and school admission formats",
       count: 28,
+      href: "/application/admission-application",
+
     },
     {
       icon: DollarSign,
       title: "Loan Applications",
       description: "Bank loan and financial aid requests",
       count: 18,
+      href: "/application/loan-application",
+
     },
   ],
   templates: [

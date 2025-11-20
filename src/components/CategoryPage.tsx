@@ -41,6 +41,7 @@ interface CategoryPageProps {
       title: string;
       description: string;
       count: number;
+      href?:string;
     }[];
     templates: {
       title: string;
@@ -169,7 +170,10 @@ export function CategoryPage({ category }: CategoryPageProps) {
                   <span className="text-xs text-slate-500 dark:text-white/50">
                     {sub.count} templates
                   </span>
+                                    <Link href={sub.href ?? "/"}>
+
                   <ArrowRight className="w-4 h-4 text-cyan-600 dark:text-cyan-400 group-hover:translate-x-1 transition-transform" />
+                </Link>
                 </div>
               </motion.div>
             ))}

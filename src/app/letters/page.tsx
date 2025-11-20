@@ -1,6 +1,7 @@
 "use client"
-import { LettersCategory } from "@/components/LettersCategory";
+import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
+import { lettersCategory } from "@/data/categoryData";
 
-export default function Page() {
-  return <LettersCategory />;
+export default async function Page() {
+  return <DynamicCategoryPage category={lettersCategory} />;
 }

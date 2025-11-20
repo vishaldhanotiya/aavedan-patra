@@ -17,7 +17,8 @@ const categories = [
     title: "Applications",
     description: "Job, Leave, Loan, Admission",
     gradient: "from-sky-400 to-cyan-500",
-    href: "/application",
+    href: "/applications",
+    slug: "applications",
   },
   {
     icon: Mail,
@@ -25,6 +26,7 @@ const categories = [
     description: "Resignation, Request, Complaint, Invitation",
     gradient: "from-violet-400 to-purple-500",
     href: "/letters",
+    slug: "letters",
   },
   {
     icon: Award,
@@ -32,35 +34,41 @@ const categories = [
     description: "Experience, Bonafide, Character, Internship",
     gradient: "from-pink-400 to-rose-500",
     href: "/certificates",
+    slug: "certificates",
   },
-  // {
-  //   icon: FileUser,
-  //   title: "Resumes",
-  //   description: "Resume Format, Cover Letter, CV Template",
-  //   gradient: "from-amber-400 to-orange-500",
-  //   href: "/resumes",
-  // },
-   {
+  {
+    icon: FileUser,
+    title: "Resumes",
+    description: "Resume Format, Cover Letter, CV Template",
+    gradient: "from-amber-400 to-orange-500",
+    href: "/resumes",
+    slug: "resumes",
+  },
+  {
     icon: FileUser,
     title: "Essays & Paragraphs",
     description: "Essay, Paragraphs, Speech Writing",
     gradient: "from-amber-400 to-orange-500",
     href: "/essays",
+    slug: "essays",
   },
   {
     icon: FileBarChart,
     title: "Notices & Reports",
     description: "Office Notice, Project Report, Meeting Minutes",
     gradient: "from-emerald-400 to-teal-500",
-    href: "/notices-and-reports",
+    href: "/notices",
+    slug: "notices",
   },
-  {
-    icon: AtSign,
-    title: "Emails",
-    description: "Job Email, Follow-up, Welcome Speech",
-    gradient: "from-blue-400 to-indigo-500",
-    href: "/emails",
-  },
+  //   {
+  //     icon: AtSign,
+  //     title: "Emails",
+  //     description: "Job Email, Follow-up, Welcome Speech",
+  //     gradient: "from-blue-400 to-indigo-500",
+  //     href: "/emails",
+  //     slug:"emails"
+
+  //   },
 ];
 
 export function CategoryGrid() {
@@ -117,10 +125,11 @@ export function CategoryGrid() {
                   </p>
 
                   {/* Arrow */}
-                  <Link
+                  {/* <Link
                     key={category.title}
-                    href={category?.href || "/application"}
-                  >
+                    href={category?.href +"/"+ category.slug || "/application"}
+                  > */}
+                  <Link href={`${category.href}`}>
                     <div className="flex items-center gap-2 text-cyan-600 dark:text-cyan-400 group-hover:gap-3 transition-all duration-300">
                       <span>Explore</span>
                       <ArrowRight className="w-4 h-4" />

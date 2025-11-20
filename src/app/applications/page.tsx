@@ -1,7 +1,7 @@
 "use client"
 import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
-import { certificatesCategory } from "@/data/categoryData";
+import { applicationsCategory } from "@/data/categoryData";
 
 export default async function Page() {
-  return <DynamicCategoryPage category={certificatesCategory} />;
+  return <DynamicCategoryPage category={applicationsCategory} />;
 }

@@ -1,6 +1,7 @@
 "use client"
-import CategoryExample from "@/components/CategoryExample";
+import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
+import { resumesCategory } from "@/data/categoryData";
 
-export default function Page() {
-  return <CategoryExample />;
+export default async function Page() {
+  return <DynamicCategoryPage category={resumesCategory} /> ;
 }

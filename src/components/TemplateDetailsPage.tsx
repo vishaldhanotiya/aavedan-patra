@@ -16,6 +16,7 @@ import {
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { toast } from "sonner";
+import Link from "next/link";
 
 interface TemplateDetailsPageProps {
   template: {
@@ -95,21 +96,20 @@ export function TemplateDetailsPage({ template }: TemplateDetailsPageProps) {
           <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
               <Home className="w-4 h-4" />
-              <a href="#">Home</a>
+              <Link href="/">Home</Link>
             </li>
             {template.breadcrumbs.map((crumb, index) => (
               <li key={index} className="flex items-center gap-2">
                 <ChevronRight className="w-4 h-4" />
-                <a 
-                  href="#" 
+               
+                 <Link href={'/applications'}> <div 
                   className={`hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors ${
                     index === template.breadcrumbs.length - 1 
                       ? 'text-slate-900 dark:text-white font-medium' 
                       : ''
                   }`}
-                >
-                  {crumb}
-                </a>
+                > {crumb}    </div> </Link>
+            
               </li>
             ))}
           </ol>

@@ -8,7 +8,7 @@ const sampleTemplate = {
   title: "Job Application for Teacher",
   subtitle: "A formal job application template suitable for teachers applying to schools or colleges.",
   category: "Applications",
-  breadcrumbs: ["Applications", "Job Application for Teacher"],
+  breadcrumbs: ["Applications", "Job Applications", "Job Application for Teacher"],
   updatedDate: "November 2025",
   author: "Sample Files Team",
   content: {

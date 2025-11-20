@@ -1,9 +1,9 @@
-
 "use client";
 import { motion } from "motion/react";
 import { Flame, Eye, TrendingUp } from "lucide-react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
+import Link from "next/link";
 
 const templates = [
   {
@@ -11,7 +11,7 @@ const templates = [
     category: "Applications",
     views: "12.5k",
     tag: "Popular",
-    tagColor: "bg-rose-500"
+    tagColor: "bg-rose-500",
   },
   // {
   //   title: "Modern Resume Template",
@@ -32,15 +32,15 @@ const templates = [
     category: "Letters",
     views: "15.3k",
     tag: "Popular",
-    tagColor: "bg-rose-500"
+    tagColor: "bg-rose-500",
   },
   {
     title: "Leave Application Format",
     category: "Applications",
     views: "11.1k",
     tag: "Trending",
-    tagColor: "bg-violet-500"
-  }
+    tagColor: "bg-violet-500",
+  },
 ];
 
 export function TrendingTemplates() {
@@ -60,7 +60,9 @@ export function TrendingTemplates() {
               Trending Templates
             </h2>
           </div>
-          <p className="text-slate-600 dark:text-white/60 text-lg">Most viewed and downloaded templates this month</p>
+          <p className="text-slate-600 dark:text-white/60 text-lg">
+            Most viewed and downloaded templates this month
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -71,10 +73,10 @@ export function TrendingTemplates() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ 
+              whileHover={{
                 scale: 1.03,
                 rotateX: 2,
-                rotateY: 2
+                rotateY: 2,
               }}
               style={{ perspective: 1000 }}
               className="group relative"
@@ -88,21 +90,26 @@ export function TrendingTemplates() {
                 </div>
 
                 <div className="mt-8 mb-4">
-                  <h3 className="text-xl text-slate-900 dark:text-white mb-2">{template.title}</h3>
-                  <p className="text-slate-600 dark:text-white/50 mb-4">{template.category}</p>
-                  
+                  <h3 className="text-xl text-slate-900 dark:text-white mb-2">
+                    {template.title}
+                  </h3>
+                  <p className="text-slate-600 dark:text-white/50 mb-4">
+                    {template.category}
+                  </p>
+
                   <div className="flex items-center gap-2 text-slate-600 dark:text-white/60 mb-6">
                     <Eye className="w-4 h-4" />
                     <span>{template.views} views</span>
                   </div>
                 </div>
-
-                <Button 
-                  className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white border-0"
-                  size="sm"
-                >
-                  View Template
-                </Button>
+                <Link href={"/application/job-application-for-teacher"}>
+                  <Button
+                    className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white border-0"
+                    size="sm"
+                  >
+                    View Template
+                  </Button>
+                </Link>
               </div>
             </motion.div>
           ))}
@@ -114,7 +121,7 @@ export function TrendingTemplates() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <Button 
+          <Button
             variant="outline"
             size="lg"
             className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/10 backdrop-blur-md"
