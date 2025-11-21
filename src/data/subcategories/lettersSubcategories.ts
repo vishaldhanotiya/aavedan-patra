@@ -42,6 +42,7 @@ export const formalLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "22.4k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "formal-2",
@@ -56,6 +57,7 @@ export const formalLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "20.8k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "formal-3",
@@ -69,6 +71,7 @@ export const formalLettersData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "18.6k",
+      templateSlug:'/'
     },
     {
       id: "formal-4",
@@ -82,6 +85,7 @@ export const formalLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "16.2k",
+      templateSlug:'/'
     },
     {
       id: "formal-5",
@@ -95,6 +99,7 @@ export const formalLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "15.1k",
+      templateSlug:'/'
     },
     {
       id: "formal-6",
@@ -108,6 +113,7 @@ export const formalLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.3k",
+      templateSlug:'/'
     },
   ],
   seoTitle: {
@@ -249,6 +255,7 @@ export const informalLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "19.7k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "informal-2",
@@ -263,6 +270,7 @@ export const informalLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.3k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "informal-3",
@@ -276,6 +284,7 @@ export const informalLettersData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "16.1k",
+      templateSlug:'/'
     },
     {
       id: "informal-4",
@@ -289,6 +298,7 @@ export const informalLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.8k",
+      templateSlug:'/'
     },
     {
       id: "informal-5",
@@ -302,6 +312,7 @@ export const informalLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.2k",
+      templateSlug:'/'
     },
     {
       id: "informal-6",
@@ -315,6 +326,7 @@ export const informalLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.5k",
+      templateSlug:'/'
     },
   ],
   seoTitle: {
@@ -456,6 +468,7 @@ export const requestLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "21.2k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "request-2",
@@ -470,6 +483,7 @@ export const requestLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "18.9k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "request-3",
@@ -483,6 +497,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "17.4k",
+      templateSlug:'/'
     },
     {
       id: "request-4",
@@ -496,6 +511,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "15.6k",
+      templateSlug:'/'
     },
     {
       id: "request-5",
@@ -509,6 +525,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.2k",
+      templateSlug:'/'
     },
     {
       id: "request-6",
@@ -522,6 +539,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.1k",
+      templateSlug:'/'
     },
   ],
   seoTitle: {

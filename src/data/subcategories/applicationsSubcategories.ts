@@ -45,6 +45,7 @@ export const loanApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "15.7k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "loan-2",
@@ -59,6 +60,7 @@ export const loanApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "13.4k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "loan-3",
@@ -72,6 +74,7 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.2k",
+      templateSlug:'/'
     },
     {
       id: "loan-4",
@@ -85,6 +88,7 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.8k",
+      templateSlug:'/'
     },
     {
       id: "loan-5",
@@ -98,6 +102,7 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "10.5k",
+      templateSlug:'/'
     },
     {
       id: "loan-6",
@@ -111,6 +116,7 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.3k",
+      templateSlug:'/'
     },
   ],
   seoTitle: {
@@ -252,6 +258,7 @@ export const admissionApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "18.5k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "admission-2",
@@ -266,6 +273,7 @@ export const admissionApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "16.2k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "admission-3",
@@ -279,6 +287,7 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.7k",
+      templateSlug:'/'
     },
     {
       id: "admission-4",
@@ -292,6 +301,7 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.3k",
+      templateSlug:'/'
     },
     {
       id: "admission-5",
@@ -305,6 +315,7 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.1k",
+      templateSlug:'/'
     },
     {
       id: "admission-6",
@@ -318,6 +329,7 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.8k",
+      templateSlug:'/'
     },
   ],
   seoTitle: {
@@ -459,6 +471,7 @@ export const scholarshipApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.3k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "scholarship-2",
@@ -473,6 +486,7 @@ export const scholarshipApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "15.8k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "scholarship-3",
@@ -486,6 +500,7 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.1k",
+      templateSlug:'/'
     },
     {
       id: "scholarship-4",
@@ -499,6 +514,7 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.6k",
+      templateSlug:'/'
     },
     {
       id: "scholarship-5",
@@ -512,6 +528,7 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "10.2k",
+      templateSlug:'/'
     },
     {
       id: "scholarship-6",
@@ -525,6 +542,7 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.4k",
+      templateSlug:'/'
     },
   ],
   seoTitle: {
@@ -666,6 +684,7 @@ export const certificateRequestData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "19.2k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "cert-req-2",
@@ -680,6 +699,7 @@ export const certificateRequestData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.5k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "cert-req-3",
@@ -693,6 +713,7 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "16.3k",
+      templateSlug:'/'
     },
     {
       id: "cert-req-4",
@@ -706,6 +727,7 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.8k",
+      templateSlug:'/'
     },
     {
       id: "cert-req-5",
@@ -719,6 +741,7 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.1k",
+      templateSlug:'/'
     },
     {
       id: "cert-req-6",
@@ -732,6 +755,7 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.4k",
+      templateSlug:'/'
     },
   ],
   seoTitle: {

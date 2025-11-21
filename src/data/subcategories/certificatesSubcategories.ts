@@ -30,6 +30,7 @@ export const experienceCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "28.3k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "exp-2",
@@ -38,6 +39,7 @@ export const experienceCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "25.7k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "exp-3",
@@ -45,6 +47,7 @@ export const experienceCertificatesData: SubcategoryData = {
       description: { en: "Official relieving letter format after resignation.", hi: "इस्तीफे के बाद आधिकारिक राहत पत्र प्रारूप।" },
       lastUpdated: "Nov 2025",
       views: "24.2k",
+      templateSlug:'/'
     },
     {
       id: "exp-4",
@@ -52,6 +55,7 @@ export const experienceCertificatesData: SubcategoryData = {
       description: { en: "Employment proof certificate for visa and loan applications.", hi: "वीजा और ऋण आवेदन के लिए रोजगार प्रमाण प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "21.9k",
+      templateSlug:'/'
     },
     {
       id: "exp-5",
@@ -59,6 +63,7 @@ export const experienceCertificatesData: SubcategoryData = {
       description: { en: "Certificate format for internship completion and experience.", hi: "इंटर्नशिप पूर्णता और अनुभव के लिए प्रमाणपत्र प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "20.1k",
+      templateSlug:'/'
     },
     {
       id: "exp-6",
@@ -66,6 +71,7 @@ export const experienceCertificatesData: SubcategoryData = {
       description: { en: "Official salary certificate for financial purposes.", hi: "वित्तीय उद्देश्यों के लिए आधिकारिक वेतन प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "18.6k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Experience Certificate Templates", hi: "अनुभव प्रमाणपत्र टेम्पलेट के बारे में" },
@@ -116,6 +122,7 @@ export const bonafideCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "26.4k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "bonafide-2",
@@ -124,6 +131,7 @@ export const bonafideCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "24.8k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "bonafide-3",
@@ -131,6 +139,7 @@ export const bonafideCertificatesData: SubcategoryData = {
       description: { en: "Student enrollment and identity verification certificate.", hi: "छात्र नामांकन और पहचान सत्यापन प्रमाणपत्र।" },
       lastUpdated: "Nov 2025",
       views: "22.3k",
+      templateSlug:'/'
     },
     {
       id: "bonafide-4",
@@ -138,6 +147,7 @@ export const bonafideCertificatesData: SubcategoryData = {
       description: { en: "Bonafide certificate format for opening student bank accounts.", hi: "छात्र बैंक खाते खोलने के लिए प्रामाणिक प्रमाणपत्र प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "20.7k",
+      templateSlug:'/'
     },
     {
       id: "bonafide-5",
@@ -145,6 +155,7 @@ export const bonafideCertificatesData: SubcategoryData = {
       description: { en: "Educational bonafide certificate for passport applications.", hi: "पासपोर्ट आवेदन के लिए शैक्षिक प्रामाणिक प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "19.1k",
+      templateSlug:'/'
     },
     {
       id: "bonafide-6",
@@ -152,6 +163,7 @@ export const bonafideCertificatesData: SubcategoryData = {
       description: { en: "Certificate confirming student's current enrollment and study.", hi: "छात्र के वर्तमान नामांकन और अध्ययन की पुष्टि करने वाला प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "17.5k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Bonafide Certificate Templates", hi: "प्रामाणिक प्रमाणपत्र टेम्पलेट के बारे में" },
@@ -202,6 +214,7 @@ export const characterCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "23.6k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "character-2",
@@ -210,6 +223,7 @@ export const characterCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "21.4k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "character-3",
@@ -217,6 +231,7 @@ export const characterCertificatesData: SubcategoryData = {
       description: { en: "Professional character reference for employees.", hi: "कर्मचारियों के लिए पेशेवर चरित्र संदर्भ।" },
       lastUpdated: "Nov 2025",
       views: "19.8k",
+      templateSlug:'/'
     },
     {
       id: "character-4",
@@ -224,6 +239,7 @@ export const characterCertificatesData: SubcategoryData = {
       description: { en: "Character certificate issued when leaving school.", hi: "स्कूल छोड़ते समय जारी किया गया चरित्र प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "18.2k",
+      templateSlug:'/'
     },
     {
       id: "character-5",
@@ -231,6 +247,7 @@ export const characterCertificatesData: SubcategoryData = {
       description: { en: "Certificate verifying moral and ethical behavior.", hi: "नैतिक और नैतिक व्यवहार सत्यापित करने वाला प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "16.9k",
+      templateSlug:'/'
     },
     {
       id: "character-6",
@@ -238,6 +255,7 @@ export const characterCertificatesData: SubcategoryData = {
       description: { en: "Character certificate for police verification purposes.", hi: "पुलिस सत्यापन उद्देश्यों के लिए चरित्र प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "15.3k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Character Certificate Templates", hi: "चरित्र प्रमाणपत्र टेम्पलेट के बारे में" },
@@ -288,6 +306,7 @@ export const internshipCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "27.6k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "intern-2",
@@ -296,6 +315,7 @@ export const internshipCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "24.9k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "intern-3",
@@ -303,6 +323,7 @@ export const internshipCertificatesData: SubcategoryData = {
       description: { en: "Certificate for industrial training and on-site work experience.", hi: "औद्योगिक प्रशिक्षण और ऑन-साइट कार्य अनुभव के लिए प्रमाणपत्र।" },
       lastUpdated: "Nov 2025",
       views: "22.3k",
+      templateSlug:'/'
     },
     {
       id: "intern-4",
@@ -310,6 +331,7 @@ export const internshipCertificatesData: SubcategoryData = {
       description: { en: "Certificate format for project-based internship work.", hi: "परियोजना-आधारित इंटर्नशिप कार्य के लिए प्रमाणपत्र प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "20.7k",
+      templateSlug:'/'
     },
     {
       id: "intern-5",
@@ -317,6 +339,7 @@ export const internshipCertificatesData: SubcategoryData = {
       description: { en: "Certificate for online and remote internship programs.", hi: "ऑनलाइन और रिमोट इंटर्नशिप कार्यक्रमों के लिए प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "18.4k",
+      templateSlug:'/'
     },
     {
       id: "intern-6",
@@ -324,6 +347,7 @@ export const internshipCertificatesData: SubcategoryData = {
       description: { en: "Recommendation letter format for outstanding interns.", hi: "उत्कृष्ट इंटर्न के लिए सिफारिश पत्र प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "16.8k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Internship Certificate Templates", hi: "इंटर्नशिप प्रमाणपत्र टेम्पलेट के बारे में" },
@@ -374,6 +398,7 @@ export const courseCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "29.4k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "course-2",
@@ -382,6 +407,7 @@ export const courseCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "26.8k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "course-3",
@@ -389,6 +415,7 @@ export const courseCertificatesData: SubcategoryData = {
       description: { en: "Certificate for professional development and upskilling programs.", hi: "पेशेवर विकास कार्यक्रमों के लिए प्रमाणपत्र।" },
       lastUpdated: "Nov 2025",
       views: "24.1k",
+      templateSlug:'/'
     },
     {
       id: "course-4",
@@ -396,6 +423,7 @@ export const courseCertificatesData: SubcategoryData = {
       description: { en: "Certificate for workshop attendance and participation.", hi: "कार्यशाला उपस्थिति और भागीदारी के लिए प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "21.5k",
+      templateSlug:'/'
     },
     {
       id: "course-5",
@@ -403,6 +431,7 @@ export const courseCertificatesData: SubcategoryData = {
       description: { en: "Certificate for technical and soft skill training completion.", hi: "तकनीकी कौशल प्रशिक्षण पूर्णता के लिए प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "19.7k",
+      templateSlug:'/'
     },
     {
       id: "course-6",
@@ -410,6 +439,7 @@ export const courseCertificatesData: SubcategoryData = {
       description: { en: "Certificate for professional certification programs.", hi: "पेशेवर प्रमाणन कार्यक्रमों के लिए प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "17.9k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Course Certificate Templates", hi: "पाठ्यक्रम प्रमाणपत्र टेम्पलेट के बारे में" },
@@ -460,6 +490,7 @@ export const appreciationCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "25.3k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "apprec-2",
@@ -468,6 +499,7 @@ export const appreciationCertificatesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "23.7k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "apprec-3",
@@ -475,6 +507,7 @@ export const appreciationCertificatesData: SubcategoryData = {
       description: { en: "Certificate for appreciating volunteer work.", hi: "स्वयंसेवी कार्य की सराहना के लिए प्रमाणपत्र।" },
       lastUpdated: "Nov 2025",
       views: "21.2k",
+      templateSlug:'/'
     },
     {
       id: "apprec-4",
@@ -482,6 +515,7 @@ export const appreciationCertificatesData: SubcategoryData = {
       description: { en: "Certificate for sports competitions and achievements.", hi: "खेल प्रतियोगिताओं और उपलब्धियों के लिए प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "19.6k",
+      templateSlug:'/'
     },
     {
       id: "apprec-5",
@@ -489,6 +523,7 @@ export const appreciationCertificatesData: SubcategoryData = {
       description: { en: "Certificate for winners and participants.", hi: "विजेताओं और प्रतिभागियों के लिए प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "17.8k",
+      templateSlug:'/'
     },
     {
       id: "apprec-6",
@@ -496,6 +531,7 @@ export const appreciationCertificatesData: SubcategoryData = {
       description: { en: "Certificate for event participation.", hi: "कार्यक्रम भागीदारी के लिए प्रमाणपत्र।" },
       lastUpdated: "Oct 2025",
       views: "16.4k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Appreciation Certificate Templates", hi: "प्रशंसा प्रमाणपत्र टेम्पलेट के बारे में" },

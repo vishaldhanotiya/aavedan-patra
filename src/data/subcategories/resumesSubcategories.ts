@@ -30,6 +30,8 @@ export const professionalResumesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "35.2k",
       badge: "Popular",
+      templateSlug:'/'
+
     },
     {
       id: "prof-res-2",
@@ -38,6 +40,7 @@ export const professionalResumesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "31.8k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "prof-res-3",
@@ -45,6 +48,7 @@ export const professionalResumesData: SubcategoryData = {
       description: { en: "Professional format for corporate job applications.", hi: "कॉर्पोरेट नौकरी आवेदन के लिए पेशेवर प्रारूप।" },
       lastUpdated: "Nov 2025",
       views: "28.9k",
+      templateSlug:'/'
     },
     {
       id: "prof-res-4",
@@ -52,6 +56,7 @@ export const professionalResumesData: SubcategoryData = {
       description: { en: "Resume format for professionals with 5-10 years experience.", hi: "5-10 वर्ष के अनुभव वाले पेशेवरों के लिए रिज्यूमे प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "26.4k",
+      templateSlug:'/'
     },
     {
       id: "prof-res-5",
@@ -59,6 +64,7 @@ export const professionalResumesData: SubcategoryData = {
       description: { en: "Resume template for professionals switching careers.", hi: "करियर बदलने वाले पेशेवरों के लिए रिज्यूमे टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "24.7k",
+      templateSlug:'/'
     },
     {
       id: "prof-res-6",
@@ -66,6 +72,7 @@ export const professionalResumesData: SubcategoryData = {
       description: { en: "Resume format for experienced professionals with 10+ years.", hi: "10+ वर्ष के अनुभव वाले पेशेवरों के लिए रिज्यूमे प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "22.3k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Professional Resume Templates", hi: "पेशेवर रिज्यूमे टेम्पलेट के बारे में" },
@@ -116,6 +123,7 @@ export const fresherResumesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "42.6k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "fresh-res-2",
@@ -124,6 +132,7 @@ export const fresherResumesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "39.4k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "fresh-res-3",
@@ -131,6 +140,7 @@ export const fresherResumesData: SubcategoryData = {
       description: { en: "Resume format for students seeking internships and first jobs.", hi: "इंटर्नशिप और पहली नौकरी चाहने वाले छात्रों के लिए रिज्यूमे प्रारूप।" },
       lastUpdated: "Nov 2025",
       views: "36.8k",
+      templateSlug:'/'
     },
     {
       id: "fresh-res-4",
@@ -138,6 +148,7 @@ export const fresherResumesData: SubcategoryData = {
       description: { en: "Resume template for applying to internship programs.", hi: "इंटर्नशिप कार्यक्रमों में आवेदन के लिए रिज्यूमे टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "33.2k",
+      templateSlug:'/'
     },
     {
       id: "fresh-res-5",
@@ -145,6 +156,7 @@ export const fresherResumesData: SubcategoryData = {
       description: { en: "Resume format highlighting education and skills for first job.", hi: "पहली नौकरी के लिए शिक्षा और कौशल को हाइलाइट करने वाला रिज्यूमे प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "30.7k",
+      templateSlug:'/'
     },
     {
       id: "fresh-res-6",
@@ -152,6 +164,7 @@ export const fresherResumesData: SubcategoryData = {
       description: { en: "Resume template for college students with academic projects.", hi: "शैक्षिक परियोजनाओं के साथ कॉलेज के छात्रों के लिए रिज्यूमे टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "28.1k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Fresher Resume Templates", hi: "फ्रेशर रिज्यूमे टेम्पलेट के बारे में" },
@@ -192,12 +205,12 @@ export const coverLettersData: SubcategoryData = {
   searchPlaceholder: { en: "Search cover letter templates…", hi: "कवर लेटर टेम्पलेट खोजें..." },
   tags: ["Job Application", "Entry Level", "Professional", "Email Cover Letter", "Internship", "Career Change"],
   templates: [
-    { id: "cover-1", title: { en: "Professional Cover Letter", hi: "पेशेवर कवर लेटर" }, description: { en: "Standard cover letter for job applications.", hi: "नौकरी आवेदन के लिए मानक कवर लेटर।" }, lastUpdated: "Nov 2025", views: "38.4k", badge: "Popular" },
-    { id: "cover-2", title: { en: "Email Cover Letter", hi: "ईमेल कवर लेटर" }, description: { en: "Cover letter format for email job applications.", hi: "ईमेल नौकरी आवेदन के लिए कवर लेटर प्रारूप।" }, lastUpdated: "Nov 2025", views: "34.9k", badge: "Trending" },
-    { id: "cover-3", title: { en: "Entry Level Cover Letter", hi: "प्रवेश स्तर कवर लेटर" }, description: { en: "Cover letter template for freshers and beginners.", hi: "फ्रेशर्स और शुरुआती के लिए कवर लेटर टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "31.6k" },
-    { id: "cover-4", title: { en: "Career Change Cover Letter", hi: "करियर परिवर्तन कवर लेटर" }, description: { en: "Cover letter for switching industries or roles.", hi: "उद्योगों या भूमिकाओं को बदलने के लिए कवर लेटर।" }, lastUpdated: "Oct 2025", views: "28.2k" },
-    { id: "cover-5", title: { en: "Internship Cover Letter", hi: "इंटर्नशिप कवर लेटर" }, description: { en: "Cover letter format for internship applications.", hi: "इंटर्नशिप आवेदन के लिए कवर लेटर प्रारूप।" }, lastUpdated: "Oct 2025", views: "25.8k" },
-    { id: "cover-6", title: { en: "Executive Cover Letter", hi: "कार्यकारी कवर लेटर" }, description: { en: "Premium cover letter for executive positions.", hi: "कार्यकारी पदों के लिए प्रीमियम कवर लेटर।" }, lastUpdated: "Oct 2025", views: "23.4k" },
+    { id: "cover-1", title: { en: "Professional Cover Letter", hi: "पेशेवर कवर लेटर" }, description: { en: "Standard cover letter for job applications.", hi: "नौकरी आवेदन के लिए मानक कवर लेटर।" }, lastUpdated: "Nov 2025", views: "38.4k", badge: "Popular",templateSlug:'/' },
+    { id: "cover-2", title: { en: "Email Cover Letter", hi: "ईमेल कवर लेटर" }, description: { en: "Cover letter format for email job applications.", hi: "ईमेल नौकरी आवेदन के लिए कवर लेटर प्रारूप।" }, lastUpdated: "Nov 2025", views: "34.9k", badge: "Trending",templateSlug:'/' },
+    { id: "cover-3", title: { en: "Entry Level Cover Letter", hi: "प्रवेश स्तर कवर लेटर" }, description: { en: "Cover letter template for freshers and beginners.", hi: "फ्रेशर्स और शुरुआती के लिए कवर लेटर टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "31.6k",templateSlug:'/' },
+    { id: "cover-4", title: { en: "Career Change Cover Letter", hi: "करियर परिवर्तन कवर लेटर" }, description: { en: "Cover letter for switching industries or roles.", hi: "उद्योगों या भूमिकाओं को बदलने के लिए कवर लेटर।" }, lastUpdated: "Oct 2025", views: "28.2k",templateSlug:'/' },
+    { id: "cover-5", title: { en: "Internship Cover Letter", hi: "इंटर्नशिप कवर लेटर" }, description: { en: "Cover letter format for internship applications.", hi: "इंटर्नशिप आवेदन के लिए कवर लेटर प्रारूप।" }, lastUpdated: "Oct 2025", views: "25.8k",templateSlug:'/' },
+    { id: "cover-6", title: { en: "Executive Cover Letter", hi: "कार्यकारी कवर लेटर" }, description: { en: "Premium cover letter for executive positions.", hi: "कार्यकारी पदों के लिए प्रीमियम कवर लेटर।" }, lastUpdated: "Oct 2025", views: "23.4k",templateSlug:'/' },
   ],
   seoTitle: { en: "About Cover Letter Templates", hi: "कवर लेटर टेम्पलेट के बारे में" },
   seoDescription: { en: "Cover letters accompany resumes to introduce candidates and explain their interest in positions. Our templates include professional cover letters for standard applications, email cover letters for online submissions, entry-level cover letters for freshers, career change cover letters explaining transitions, internship cover letters for students, and executive cover letters for senior roles.", hi: "कवर लेटर उम्मीदवारों को पेश करने और पदों में उनकी रुचि को समझाने के लिए रिज्यूमे के साथ होते हैं।" },
@@ -231,12 +244,12 @@ export const executiveResumesData: SubcategoryData = {
   searchPlaceholder: { en: "Search executive resume templates…", hi: "कार्यकारी रिज्यूमे टेम्पलेट खोजें..." },
   tags: ["C-Level", "Senior Management", "Director", "VP Resume", "CEO Resume", "Leadership"],
   templates: [
-    { id: "exec-1", title: { en: "C-Level Executive Resume", hi: "सी-लेवल कार्यकारी रिज्यूमे" }, description: { en: "Premium format for CEO, CFO, COO positions.", hi: "CEO, CFO, COO पदों के लिए प्रीमियम प्रारूप।" }, lastUpdated: "Nov 2025", views: "29.3k", badge: "Popular" },
-    { id: "exec-2", title: { en: "Senior Management Resume", hi: "वरिष्ठ प्रबंधन रिज्यूमे" }, description: { en: "Resume for senior leadership and management roles.", hi: "वरिष्ठ नेतृत्व और प्रबंधन भूमिकाओं के लिए रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "26.8k", badge: "Trending" },
-    { id: "exec-3", title: { en: "Director Level Resume", hi: "निदेशक स्तर रिज्यूमे" }, description: { en: "Resume template for director positions.", hi: "निदेशक पदों के लिए रिज्यूमे टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "24.2k" },
-    { id: "exec-4", title: { en: "VP Resume Template", hi: "वीपी रिज्यूमे टेम्पलेट" }, description: { en: "Vice President resume format with achievements.", hi: "उपलब्धियों के साथ उपाध्यक्ष रिज्यूमे प्रारूप।" }, lastUpdated: "Oct 2025", views: "21.7k" },
-    { id: "exec-5", title: { en: "Executive Leadership Resume", hi: "कार्यकारी नेतृत्व रिज्यूमे" }, description: { en: "Resume showcasing strategic leadership experience.", hi: "रणनीतिक नेतृत्व अनुभव प्रदर्शित करने वाला रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "19.4k" },
-    { id: "exec-6", title: { en: "Board Member Resume", hi: "बोर्ड सदस्य रिज्यूमे" }, description: { en: "Resume for board of directors positions.", hi: "निदेशक मंडल पदों के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "17.1k" },
+    { id: "exec-1", title: { en: "C-Level Executive Resume", hi: "सी-लेवल कार्यकारी रिज्यूमे" }, description: { en: "Premium format for CEO, CFO, COO positions.", hi: "CEO, CFO, COO पदों के लिए प्रीमियम प्रारूप।" }, lastUpdated: "Nov 2025", views: "29.3k", badge: "Popular",templateSlug:'/' },
+    { id: "exec-2", title: { en: "Senior Management Resume", hi: "वरिष्ठ प्रबंधन रिज्यूमे" }, description: { en: "Resume for senior leadership and management roles.", hi: "वरिष्ठ नेतृत्व और प्रबंधन भूमिकाओं के लिए रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "26.8k", badge: "Trending",templateSlug:'/' },
+    { id: "exec-3", title: { en: "Director Level Resume", hi: "निदेशक स्तर रिज्यूमे" }, description: { en: "Resume template for director positions.", hi: "निदेशक पदों के लिए रिज्यूमे टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "24.2k",templateSlug:'/' },
+    { id: "exec-4", title: { en: "VP Resume Template", hi: "वीपी रिज्यूमे टेम्पलेट" }, description: { en: "Vice President resume format with achievements.", hi: "उपलब्धियों के साथ उपाध्यक्ष रिज्यूमे प्रारूप।" }, lastUpdated: "Oct 2025", views: "21.7k",templateSlug:'/' },
+    { id: "exec-5", title: { en: "Executive Leadership Resume", hi: "कार्यकारी नेतृत्व रिज्यूमे" }, description: { en: "Resume showcasing strategic leadership experience.", hi: "रणनीतिक नेतृत्व अनुभव प्रदर्शित करने वाला रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "19.4k",templateSlug:'/' },
+    { id: "exec-6", title: { en: "Board Member Resume", hi: "बोर्ड सदस्य रिज्यूमे" }, description: { en: "Resume for board of directors positions.", hi: "निदेशक मंडल पदों के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "17.1k",templateSlug:'/' },
   ],
   seoTitle: { en: "About Executive Resume Templates", hi: "कार्यकारी रिज्यूमे टेम्पलेट के बारे में" },
   seoDescription: { en: "Executive resumes showcase senior leadership experience and strategic achievements. Our templates include C-level executive resumes for top positions, senior management resumes, director-level formats, VP resumes, executive leadership templates, and board member resumes emphasizing governance and strategic impact.", hi: "कार्यकारी रिज्यूमे वरिष्ठ नेतृत्व अनुभव और रणनीतिक उपलब्धियों को प्रदर्शित करते हैं।" },
@@ -270,12 +283,12 @@ export const industryResumesData: SubcategoryData = {
   searchPlaceholder: { en: "Search industry resume templates…", hi: "उद्योग रिज्यूमे टेम्पलेट खोजें..." },
   tags: ["IT Resume", "Healthcare", "Finance", "Marketing", "Engineering", "Teaching"],
   templates: [
-    { id: "ind-1", title: { en: "IT Professional Resume", hi: "आईटी पेशेवर रिज्यूमे" }, description: { en: "Resume for software developers and IT professionals.", hi: "सॉफ्टवेयर डेवलपर्स और आईटी पेशेवरों के लिए रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "41.2k", badge: "Popular" },
-    { id: "ind-2", title: { en: "Healthcare Resume", hi: "स्वास्थ्य सेवा रिज्यूमे" }, description: { en: "Resume template for doctors, nurses, healthcare workers.", hi: "डॉक्टरों, नर्सों, स्वास्थ्य कार्यकर्ताओं के लिए रिज्यूमे टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "37.8k", badge: "Trending" },
-    { id: "ind-3", title: { en: "Finance Resume", hi: "वित्त रिज्यूमे" }, description: { en: "Resume for accounting, finance, banking professionals.", hi: "लेखा, वित्त, बैंकिंग पेशेवरों के लिए रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "34.6k" },
-    { id: "ind-4", title: { en: "Marketing Resume", hi: "विपणन रिज्यूमे" }, description: { en: "Resume for marketing, advertising, digital marketing roles.", hi: "विपणन, विज्ञापन, डिजिटल विपणन भूमिकाओं के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "31.2k" },
-    { id: "ind-5", title: { en: "Engineering Resume", hi: "इंजीनियरिंग रिज्यूमे" }, description: { en: "Resume for mechanical, civil, electrical engineers.", hi: "मैकेनिकल, सिविल, इलेक्ट्रिकल इंजीनियरों के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "28.9k" },
-    { id: "ind-6", title: { en: "Teaching Resume", hi: "शिक्षण रिज्यूमे" }, description: { en: "Resume for teachers, professors, educators.", hi: "शिक्षकों, प्रोफेसरों, शिक्षकों के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "26.4k" },
+    { id: "ind-1", title: { en: "IT Professional Resume", hi: "आईटी पेशेवर रिज्यूमे" }, description: { en: "Resume for software developers and IT professionals.", hi: "सॉफ्टवेयर डेवलपर्स और आईटी पेशेवरों के लिए रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "41.2k", badge: "Popular",templateSlug:'/' },
+    { id: "ind-2", title: { en: "Healthcare Resume", hi: "स्वास्थ्य सेवा रिज्यूमे" }, description: { en: "Resume template for doctors, nurses, healthcare workers.", hi: "डॉक्टरों, नर्सों, स्वास्थ्य कार्यकर्ताओं के लिए रिज्यूमे टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "37.8k", badge: "Trending" ,templateSlug:'/'},
+    { id: "ind-3", title: { en: "Finance Resume", hi: "वित्त रिज्यूमे" }, description: { en: "Resume for accounting, finance, banking professionals.", hi: "लेखा, वित्त, बैंकिंग पेशेवरों के लिए रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "34.6k",templateSlug:'/' },
+    { id: "ind-4", title: { en: "Marketing Resume", hi: "विपणन रिज्यूमे" }, description: { en: "Resume for marketing, advertising, digital marketing roles.", hi: "विपणन, विज्ञापन, डिजिटल विपणन भूमिकाओं के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "31.2k",templateSlug:'/' },
+    { id: "ind-5", title: { en: "Engineering Resume", hi: "इंजीनियरिंग रिज्यूमे" }, description: { en: "Resume for mechanical, civil, electrical engineers.", hi: "मैकेनिकल, सिविल, इलेक्ट्रिकल इंजीनियरों के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "28.9k",templateSlug:'/' },
+    { id: "ind-6", title: { en: "Teaching Resume", hi: "शिक्षण रिज्यूमे" }, description: { en: "Resume for teachers, professors, educators.", hi: "शिक्षकों, प्रोफेसरों, शिक्षकों के लिए रिज्यूमे।" }, lastUpdated: "Oct 2025", views: "26.4k",templateSlug:'/' },
   ],
   seoTitle: { en: "About Industry-Specific Resume Templates", hi: "उद्योग-विशिष्ट रिज्यूमे टेम्पलेट के बारे में" },
   seoDescription: { en: "Industry-specific resumes are tailored to particular fields and professions. Our templates include IT resumes for tech professionals, healthcare resumes for medical staff, finance resumes for accounting roles, marketing resumes for creative positions, engineering resumes for technical fields, and teaching resumes for educators with industry-relevant keywords and formats.", hi: "उद्योग-विशिष्ट रिज्यूमे विशेष क्ष��त्रों और व्यवसायों के लिए तैयार किए गए हैं।" },
@@ -309,12 +322,12 @@ export const atsFriendlyResumesData: SubcategoryData = {
   searchPlaceholder: { en: "Search ATS resume templates…", hi: "ATS रिज्यूमे टेम्पलेट खोजें..." },
   tags: ["ATS Optimized", "Keyword Rich", "Simple Format", "Scannable", "Recruiter Friendly", "Application System"],
   templates: [
-    { id: "ats-1", title: { en: "ATS-Optimized Resume", hi: "ATS-अनुकूलित रिज्यूमे" }, description: { en: "Resume format that passes ATS screening systems.", hi: "ATS स्क्रीनिंग सिस्टम पास करने वाला रिज्यूमे प्रारूप।" }, lastUpdated: "Nov 2025", views: "44.7k", badge: "Popular" },
-    { id: "ats-2", title: { en: "Simple ATS Resume", hi: "सरल ATS रिज्यूमे" }, description: { en: "Clean, scannable resume format for ATS systems.", hi: "ATS सिस्टम के लिए स्वच्छ, स्कैन करने योग्य रिज्यूमे प्रारूप।" }, lastUpdated: "Nov 2025", views: "40.3k", badge: "Trending" },
-    { id: "ats-3", title: { en: "Keyword-Optimized Resume", hi: "कीवर्ड-अनुकूलित रिज्यूमे" }, description: { en: "Resume with industry keywords for ATS matching.", hi: "ATS मिलान के लिए उद्योग कीवर्ड के साथ रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "36.8k" },
-    { id: "ats-4", title: { en: "Standard ATS Format Resume", hi: "मानक ATS प्रारूप रिज्यूमे" }, description: { en: "Traditional format that works with all ATS systems.", hi: "पारंपरिक प्रारूप जो सभी ATS सिस्टम के साथ काम करता है।" }, lastUpdated: "Oct 2025", views: "33.4k" },
-    { id: "ats-5", title: { en: "Recruiter-Friendly Resume", hi: "भर्तीकर्ता-फ्रेंडली रिज्यूमे" }, description: { en: "Resume format optimized for both ATS and human review.", hi: "ATS और मानव समीक्षा दोनों के लिए अनुकूलित रिज्यूमे प्रारूप।" }, lastUpdated: "Oct 2025", views: "30.1k" },
-    { id: "ats-6", title: { en: "Text-Based ATS Resume", hi: "पाठ-आधारित ATS रिज्यूमे" }, description: { en: "Plain text resume that ATS systems can easily parse.", hi: "सादा पाठ रिज्यूमे जिसे ATS सिस्टम आसानी से पार्स कर सकते हैं।" }, lastUpdated: "Oct 2025", views: "27.6k" },
+    { id: "ats-1", title: { en: "ATS-Optimized Resume", hi: "ATS-अनुकूलित रिज्यूमे" }, description: { en: "Resume format that passes ATS screening systems.", hi: "ATS स्क्रीनिंग सिस्टम पास करने वाला रिज्यूमे प्रारूप।" }, lastUpdated: "Nov 2025", views: "44.7k", badge: "Popular",templateSlug:'/' },
+    { id: "ats-2", title: { en: "Simple ATS Resume", hi: "सरल ATS रिज्यूमे" }, description: { en: "Clean, scannable resume format for ATS systems.", hi: "ATS सिस्टम के लिए स्वच्छ, स्कैन करने योग्य रिज्यूमे प्रारूप।" }, lastUpdated: "Nov 2025", views: "40.3k", badge: "Trending",templateSlug:'/' },
+    { id: "ats-3", title: { en: "Keyword-Optimized Resume", hi: "कीवर्ड-अनुकूलित रिज्यूमे" }, description: { en: "Resume with industry keywords for ATS matching.", hi: "ATS मिलान के लिए उद्योग कीवर्ड के साथ रिज्यूमे।" }, lastUpdated: "Nov 2025", views: "36.8k" ,templateSlug:'/'},
+    { id: "ats-4", title: { en: "Standard ATS Format Resume", hi: "मानक ATS प्रारूप रिज्यूमे" }, description: { en: "Traditional format that works with all ATS systems.", hi: "पारंपरिक प्रारूप जो सभी ATS सिस्टम के साथ काम करता है।" }, lastUpdated: "Oct 2025", views: "33.4k",templateSlug:'/' },
+    { id: "ats-5", title: { en: "Recruiter-Friendly Resume", hi: "भर्तीकर्ता-फ्रेंडली रिज्यूमे" }, description: { en: "Resume format optimized for both ATS and human review.", hi: "ATS और मानव समीक्षा दोनों के लिए अनुकूलित रिज्यूमे प्रारूप।" }, lastUpdated: "Oct 2025", views: "30.1k",templateSlug:'/' },
+    { id: "ats-6", title: { en: "Text-Based ATS Resume", hi: "पाठ-आधारित ATS रिज्यूमे" }, description: { en: "Plain text resume that ATS systems can easily parse.", hi: "सादा पाठ रिज्यूमे जिसे ATS सिस्टम आसानी से पार्स कर सकते हैं।" }, lastUpdated: "Oct 2025", views: "27.6k",templateSlug:'/' },
   ],
   seoTitle: { en: "About ATS-Friendly Resume Templates", hi: "ATS-फ्रेंडली रिज्यूमे टेम्पलेट के बारे में" },
   seoDescription: { en: "ATS-friendly resumes are optimized for Applicant Tracking Systems used by employers to screen applications. Our templates include ATS-optimized resumes with proper formatting, simple ATS resumes without graphics, keyword-optimized resumes matching job descriptions, standard format resumes readable by all systems, recruiter-friendly formats, and text-based resumes ensuring maximum compatibility and screening success.", hi: "ATS-फ्रेंडली रिज्यूमे आवेदक ट्रैकिंग सिस्टम के लिए अनुकूलित होते हैं।" },

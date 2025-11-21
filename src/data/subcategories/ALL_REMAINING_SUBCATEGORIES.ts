@@ -35,6 +35,7 @@ export const complaintLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "20.3k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "complaint-2",
@@ -43,6 +44,8 @@ export const complaintLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "18.7k",
       badge: "Trending",
+            templateSlug:'/'
+
     },
     {
       id: "complaint-3",
@@ -50,6 +53,8 @@ export const complaintLettersData: SubcategoryData = {
       description: { en: "Template for workplace grievances and HR complaints.", hi: "कार्यस्थल शिकायतों और एचआर शिकायतों के लिए टेम्पलेट।" },
       lastUpdated: "Nov 2025",
       views: "17.2k",
+            templateSlug:'/'
+
     },
     {
       id: "complaint-4",
@@ -57,6 +62,7 @@ export const complaintLettersData: SubcategoryData = {
       description: { en: "Polite complaint format for neighborhood issues and disputes.", hi: "पड़ोस के मुद्दों और विवादों के लिए विनम्र शिकायत प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "15.4k",
+      templateSlug:'/'
     },
     {
       id: "complaint-5",
@@ -64,6 +70,7 @@ export const complaintLettersData: SubcategoryData = {
       description: { en: "Format for e-commerce complaints and delivery issues.", hi: "ई-कॉमर्स शिकायतों और डिलीवरी मुद्दों के लिए प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "14.1k",
+      templateSlug:'/'
     },
     {
       id: "complaint-6",
@@ -71,6 +78,7 @@ export const complaintLettersData: SubcategoryData = {
       description: { en: "Professional template for requesting refunds and compensation.", hi: "रिफंड और मुआवजे का अनुरोध करने के लिए पेशेवर टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "13.6k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Complaint Letter Templates", hi: "शिकायत पत्र टेम्पलेट के बारे में" },
@@ -121,6 +129,7 @@ export const resignationLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "24.5k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "resign-2",
@@ -129,6 +138,7 @@ export const resignationLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "21.3k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "resign-3",
@@ -136,6 +146,7 @@ export const resignationLettersData: SubcategoryData = {
       description: { en: "Format for urgent resignation due to personal or emergency reasons.", hi: "व्यक्तिगत या आपातकालीन कारणों से तत्काल इस्तीफे के लिए प्रारूप।" },
       lastUpdated: "Nov 2025",
       views: "19.8k",
+      templateSlug:'/'
     },
     {
       id: "resign-4",
@@ -143,6 +154,7 @@ export const resignationLettersData: SubcategoryData = {
       description: { en: "Professional resignation for career transitions and new opportunities.", hi: "करियर संक्रमण और नए अवसरों के लिए पेशेवर इस्तीफा।" },
       lastUpdated: "Oct 2025",
       views: "17.6k",
+      templateSlug:'/'
     },
     {
       id: "resign-5",
@@ -150,6 +162,7 @@ export const resignationLettersData: SubcategoryData = {
       description: { en: "Resignation format for retirement with appreciation message.", hi: "सराहना संदेश के साथ सेवानिवृत्ति के लिए इस्तीफा प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "15.2k",
+      templateSlug:'/'
     },
     {
       id: "resign-6",
@@ -157,6 +170,7 @@ export const resignationLettersData: SubcategoryData = {
       description: { en: "Resignation letter due to relocation or family reasons.", hi: "स्थानांतरण या पारिवारिक कारणों से इस्तीफा पत्र।" },
       lastUpdated: "Oct 2025",
       views: "14.4k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Resignation Letter Templates", hi: "इस्तीफा पत्र टेम्पलेट के बारे में" },
@@ -207,6 +221,7 @@ export const invitationLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "22.1k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "invite-2",
@@ -215,6 +230,7 @@ export const invitationLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "20.4k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "invite-3",
@@ -222,6 +238,7 @@ export const invitationLettersData: SubcategoryData = {
       description: { en: "Warm wedding invitation format for family and friends.", hi: "परिवार और दोस्तों के लिए गर्म विवाह निमंत्रण प्रारूप।" },
       lastUpdated: "Nov 2025",
       views: "19.3k",
+      templateSlug:'/'
     },
     {
       id: "invite-4",
@@ -229,6 +246,7 @@ export const invitationLettersData: SubcategoryData = {
       description: { en: "Fun and friendly birthday party invitation template.", hi: "मजेदार और मैत्रीपूर्ण जन्मदिन पार्टी निमंत्रण टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "17.8k",
+      templateSlug:'/'
     },
     {
       id: "invite-5",
@@ -236,6 +254,7 @@ export const invitationLettersData: SubcategoryData = {
       description: { en: "Professional invitation for workshops, seminars, and training.", hi: "कार्यशालाओं, सेमिनारों और प्रशिक्षण के लिए पेशेवर निमंत्रण।" },
       lastUpdated: "Oct 2025",
       views: "16.2k",
+      templateSlug:'/'
     },
     {
       id: "invite-6",
@@ -243,6 +262,7 @@ export const invitationLettersData: SubcategoryData = {
       description: { en: "Formal invitation for inviting guest speakers to events.", hi: "कार्यक्रमों में अतिथि वक्ताओं को आमंत्रित करने के लिए औपचारिक निमंत्रण।" },
       lastUpdated: "Oct 2025",
       views: "14.9k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Invitation Letter Templates", hi: "निमंत्रण पत्र टेम्पलेट के बारे में" },

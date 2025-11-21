@@ -30,6 +30,7 @@ export const schoolNoticesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "38.9k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "school-2",
@@ -38,6 +39,7 @@ export const schoolNoticesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "35.4k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "school-3",
@@ -45,6 +47,7 @@ export const schoolNoticesData: SubcategoryData = {
       description: { en: "Notice template for school holidays and vacation announcements.", hi: "स्कूल की छुट्टियों और छुट्टियों की घोषणाओं के लिए नोटिस टेम्पलेट।" },
       lastUpdated: "Nov 2025",
       views: "32.7k",
+      templateSlug:'/'
     },
     {
       id: "school-4",
@@ -52,6 +55,7 @@ export const schoolNoticesData: SubcategoryData = {
       description: { en: "Notice format for fee payment reminders and due dates.", hi: "शुल्क भुगतान अनुस्मारक और नियत तिथियों के लिए नोटिस प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "29.8k",
+      templateSlug:'/'
     },
     {
       id: "school-5",
@@ -59,6 +63,7 @@ export const schoolNoticesData: SubcategoryData = {
       description: { en: "Notice template for new admission announcements and dates.", hi: "नए प्रवेश घोषणाओं और तिथियों के लिए नोटिस टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "27.3k",
+      templateSlug:'/'
     },
     {
       id: "school-6",
@@ -66,6 +71,7 @@ export const schoolNoticesData: SubcategoryData = {
       description: { en: "Notice format for school events, functions, and programs.", hi: "स्कूल कार्यक्रमों, समारोहों और कार्यक्रमों के लिए नोटिस प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "25.1k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About School Notice Templates", hi: "स्कूल नोटिस टेम्पलेट के बारे में" },
@@ -116,6 +122,7 @@ export const officeNoticesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "34.2k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "office-2",
@@ -124,6 +131,7 @@ export const officeNoticesData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "31.8k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "office-3",
@@ -131,6 +139,7 @@ export const officeNoticesData: SubcategoryData = {
       description: { en: "Notice format for official meetings and conferences.", hi: "आधिकारिक बैठकों और सम्मेलनों के लिए नोटिस प्रारूप।" },
       lastUpdated: "Nov 2025",
       views: "28.9k",
+      templateSlug:'/'
     },
     {
       id: "office-4",
@@ -138,6 +147,7 @@ export const officeNoticesData: SubcategoryData = {
       description: { en: "Notice template for office holidays and closures.", hi: "कार्यालय छुट्टियों और बंद करने के लिए नोटिस टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "26.4k",
+      templateSlug:'/'
     },
     {
       id: "office-5",
@@ -145,6 +155,7 @@ export const officeNoticesData: SubcategoryData = {
       description: { en: "Notice format for employee-related announcements.", hi: "कर्मचारी-संबंधित घोषणाओं के लिए नोटिस प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "24.1k",
+      templateSlug:'/'
     },
     {
       id: "office-6",
@@ -152,6 +163,7 @@ export const officeNoticesData: SubcategoryData = {
       description: { en: "Notice template for department-specific communications.", hi: "विभाग-विशिष्ट संचार के लिए नोटिस टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "22.7k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Office Notice Templates", hi: "कार्यालय नोटिस टेम्पलेट के बारे में" },
@@ -202,6 +214,7 @@ export const meetingReportsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "36.7k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "meeting-2",
@@ -210,6 +223,7 @@ export const meetingReportsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "33.2k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "meeting-3",
@@ -217,6 +231,7 @@ export const meetingReportsData: SubcategoryData = {
       description: { en: "Summary template for team and department meetings.", hi: "टीम और विभाग बैठकों के लिए सारांश टेम्पलेट।" },
       lastUpdated: "Nov 2025",
       views: "30.4k",
+      templateSlug:'/'
     },
     {
       id: "meeting-4",
@@ -224,6 +239,7 @@ export const meetingReportsData: SubcategoryData = {
       description: { en: "Annual General Meeting report with resolutions.", hi: "प्रस्तावों के साथ वार्षिक आम बैठक रिपोर्ट।" },
       lastUpdated: "Oct 2025",
       views: "27.8k",
+      templateSlug:'/'
     },
     {
       id: "meeting-5",
@@ -231,6 +247,7 @@ export const meetingReportsData: SubcategoryData = {
       description: { en: "Meeting notes template for project discussions.", hi: "परियोजना चर्चाओं के लिए बैठक नोट्स टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "25.3k",
+      templateSlug:'/'
     },
     {
       id: "meeting-6",
@@ -238,6 +255,7 @@ export const meetingReportsData: SubcategoryData = {
       description: { en: "Report format tracking meeting action items and follow-ups.", hi: "बैठक कार्य वस्तुओं और फॉलो-अप को ट्रैक करने के लिए रिपोर्ट प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "23.1k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Meeting Report Templates", hi: "बैठक रिपोर्ट टेम्पलेट के बारे में" },
@@ -288,6 +306,7 @@ export const projectReportsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "39.8k",
       badge: "Popular",
+      templateSlug:'/'
     },
     {
       id: "project-2",
@@ -296,6 +315,7 @@ export const projectReportsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "35.9k",
       badge: "Trending",
+      templateSlug:'/'
     },
     {
       id: "project-3",
@@ -303,6 +323,7 @@ export const projectReportsData: SubcategoryData = {
       description: { en: "Final report format for completed projects with outcomes.", hi: "परिणामों के साथ पूर्ण परियोजनाओं के लिए अंतिम रिपोर्ट प्रारूप।" },
       lastUpdated: "Nov 2025",
       views: "32.4k",
+      templateSlug:'/'
     },
     {
       id: "project-4",
@@ -310,6 +331,7 @@ export const projectReportsData: SubcategoryData = {
       description: { en: "Monthly report template for project updates and status.", hi: "परियोजना अपडेट और स्थिति के लिए मासिक रिपोर्ट टेम्पलेट।" },
       lastUpdated: "Oct 2025",
       views: "29.1k",
+      templateSlug:'/'
     },
     {
       id: "project-5",
@@ -317,6 +339,7 @@ export const projectReportsData: SubcategoryData = {
       description: { en: "Executive summary format for project overview.", hi: "परियोजना अवलोकन के लिए कार्यकारी सारांश प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "26.7k",
+      templateSlug:'/'
     },
     {
       id: "project-6",
@@ -324,6 +347,7 @@ export const projectReportsData: SubcategoryData = {
       description: { en: "Report format for documenting milestone achievements.", hi: "मील के पत्थर उपलब्धियों को दस्तावेज करने के लिए रिपोर्ट प्रारूप।" },
       lastUpdated: "Oct 2025",
       views: "24.3k",
+      templateSlug:'/'
     },
   ],
   seoTitle: { en: "About Project Report Templates", hi: "परियोजना रिपोर्ट टेम्पलेट के बारे में" },
@@ -363,12 +387,12 @@ export const eventNoticesData: SubcategoryData = {
   searchPlaceholder: { en: "Search event notice templates…", hi: "कार्यक्रम नोटिस टेम्पलेट खोजें..." },
   tags: ["Event Announcement", "Seminar Notice", "Workshop Notice", "Conference", "Cultural Event", "Sports Event"],
   templates: [
-    { id: "event-1", title: { en: "Event Announcement Notice", hi: "कार्यक्रम घोषणा नोटिस" }, description: { en: "General event announcement with details and RSVP.", hi: "विवरण और आरएसवीपी के साथ सामान्य कार्यक्रम घोषणा।" }, lastUpdated: "Nov 2025", views: "37.4k", badge: "Popular" },
-    { id: "event-2", title: { en: "Seminar Notice Format", hi: "सेमिनार नोटिस प्रारूप" }, description: { en: "Notice template for academic and professional seminars.", hi: "शैक्षिक और पेशेवर सेमिनारों के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "33.8k", badge: "Trending" },
-    { id: "event-3", title: { en: "Workshop Notice", hi: "कार्यशाला नोटिस" }, description: { en: "Notice format for workshops and training sessions.", hi: "कार्यशालाओं और प्रशिक्षण सत्रों के लिए नोटिस प्रारूप।" }, lastUpdated: "Nov 2025", views: "30.6k" },
-    { id: "event-4", title: { en: "Conference Notice", hi: "सम्मेलन नोटिस" }, description: { en: "Professional notice for conferences and symposiums.", hi: "सम्मेलनों और संगोष्ठियों के लिए पेशेवर नोटिस।" }, lastUpdated: "Oct 2025", views: "27.9k" },
-    { id: "event-5", title: { en: "Cultural Event Notice", hi: "सांस्कृतिक कार्यक्रम नोटिस" }, description: { en: "Notice template for cultural programs and festivals.", hi: "सांस्कृतिक कार्यक्रमों और त्योहारों के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Oct 2025", views: "25.2k" },
-    { id: "event-6", title: { en: "Sports Event Notice", hi: "खेल कार्यक्रम नोटिस" }, description: { en: "Notice format for sports competitions and tournaments.", hi: "खेल प्रतियोगिताओं और टूर्नामेंट के लिए नोटिस प्रारूप।" }, lastUpdated: "Oct 2025", views: "22.8k" },
+    { id: "event-1", title: { en: "Event Announcement Notice", hi: "कार्यक्रम घोषणा नोटिस" }, description: { en: "General event announcement with details and RSVP.", hi: "विवरण और आरएसवीपी के साथ सामान्य कार्यक्रम घोषणा।" }, lastUpdated: "Nov 2025", views: "37.4k", badge: "Popular",templateSlug:'/' },
+    { id: "event-2", title: { en: "Seminar Notice Format", hi: "सेमिनार नोटिस प्रारूप" }, description: { en: "Notice template for academic and professional seminars.", hi: "शैक्षिक और पेशेवर सेमिनारों के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "33.8k", badge: "Trending",templateSlug:'/' },
+    { id: "event-3", title: { en: "Workshop Notice", hi: "कार्यशाला नोटिस" }, description: { en: "Notice format for workshops and training sessions.", hi: "कार्यशालाओं और प्रशिक्षण सत्रों के लिए नोटिस प्रारूप।" }, lastUpdated: "Nov 2025", views: "30.6k",templateSlug:'/' },
+    { id: "event-4", title: { en: "Conference Notice", hi: "सम्मेलन नोटिस" }, description: { en: "Professional notice for conferences and symposiums.", hi: "सम्मेलनों और संगोष्ठियों के लिए पेशेवर नोटिस।" }, lastUpdated: "Oct 2025", views: "27.9k",templateSlug:'/' },
+    { id: "event-5", title: { en: "Cultural Event Notice", hi: "सांस्कृतिक कार्यक्रम नोटिस" }, description: { en: "Notice template for cultural programs and festivals.", hi: "सांस्कृतिक कार्यक्रमों और त्योहारों के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Oct 2025", views: "25.2k",templateSlug:'/' },
+    { id: "event-6", title: { en: "Sports Event Notice", hi: "खेल कार्यक्रम नोटिस" }, description: { en: "Notice format for sports competitions and tournaments.", hi: "खेल प्रतियोगिताओं और टूर्नामेंट के लिए नोटिस प्रारूप।" }, lastUpdated: "Oct 2025", views: "22.8k",templateSlug:'/' },
   ],
   seoTitle: { en: "About Event Notice Templates", hi: "कार्यक्रम नोटिस टेम्पलेट के बारे में" },
   seoDescription: { en: "Event notices announce and promote upcoming events, programs, and activities. Our templates include event announcement notices with details, seminar notices for academic events, workshop notices for training sessions, conference notices for professional gatherings, cultural event notices for celebrations, and sports event notices for competitions with schedules and registration information.", hi: "कार्यक्रम नोटिस आगामी कार्यक्रमों, कार्यक्रमों और गतिविधियों की घोषणा और प्रचार करते हैं।" },
@@ -402,12 +426,12 @@ export const policyNoticesData: SubcategoryData = {
   searchPlaceholder: { en: "Search policy notice templates…", hi: "नीति नोटिस टेम्पलेट खोजें..." },
   tags: ["Policy Update", "Compliance Notice", "Regulation", "Guidelines", "Procedure", "SOP"],
   templates: [
-    { id: "policy-1", title: { en: "Policy Update Notice", hi: "नीति अद्यतन नोटिस" }, description: { en: "Notice format for company policy changes and updates.", hi: "कंपनी नीति परिवर्तन और अपडेट के लिए नोटिस प्रारूप।" }, lastUpdated: "Nov 2025", views: "35.6k", badge: "Popular" },
-    { id: "policy-2", title: { en: "New Policy Announcement", hi: "नई नीति घोषणा" }, description: { en: "Announcement template for introducing new policies.", hi: "नई नीतियों को पेश करने के लिए घोषणा टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "32.1k", badge: "Trending" },
-    { id: "policy-3", title: { en: "Compliance Notice", hi: "अनुपालन नोटिस" }, description: { en: "Notice template for compliance and regulatory requirements.", hi: "अनुपालन और नियामक आवश्यकताओं के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "29.4k" },
-    { id: "policy-4", title: { en: "Regulatory Notice", hi: "नियामक नोटिस" }, description: { en: "Notice format for regulatory changes and compliance.", hi: "नियामक परिवर्तनों और अनुपालन के लिए नोटिस प्रारूप।" }, lastUpdated: "Oct 2025", views: "26.8k" },
-    { id: "policy-5", title: { en: "Guidelines Notice", hi: "दिशानिर्देश नोटिस" }, description: { en: "Notice template for new guidelines and procedures.", hi: "नए दिशानिर्देशों और प्रक्रियाओं के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Oct 2025", views: "24.2k" },
-    { id: "policy-6", title: { en: "SOP Update Notice", hi: "एसओपी अद्यतन नोटिस" }, description: { en: "Notice format for Standard Operating Procedure updates.", hi: "मानक संचालन प्रक्रिया अपडेट के लिए नोटिस प्रारूप।" }, lastUpdated: "Oct 2025", views: "21.9k" },
+    { id: "policy-1", title: { en: "Policy Update Notice", hi: "नीति अद्यतन नोटिस" }, description: { en: "Notice format for company policy changes and updates.", hi: "कंपनी नीति परिवर्तन और अपडेट के लिए नोटिस प्रारूप।" }, lastUpdated: "Nov 2025", views: "35.6k", badge: "Popular",templateSlug:'/' },
+    { id: "policy-2", title: { en: "New Policy Announcement", hi: "नई नीति घोषणा" }, description: { en: "Announcement template for introducing new policies.", hi: "नई नीतियों को पेश करने के लिए घोषणा टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "32.1k", badge: "Trending",templateSlug:'/' },
+    { id: "policy-3", title: { en: "Compliance Notice", hi: "अनुपालन नोटिस" }, description: { en: "Notice template for compliance and regulatory requirements.", hi: "अनुपालन और नियामक आवश्यकताओं के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Nov 2025", views: "29.4k" ,templateSlug:'/'},
+    { id: "policy-4", title: { en: "Regulatory Notice", hi: "नियामक नोटिस" }, description: { en: "Notice format for regulatory changes and compliance.", hi: "नियामक परिवर्तनों और अनुपालन के लिए नोटिस प्रारूप।" }, lastUpdated: "Oct 2025", views: "26.8k" ,templateSlug:'/'},
+    { id: "policy-5", title: { en: "Guidelines Notice", hi: "दिशानिर्देश नोटिस" }, description: { en: "Notice template for new guidelines and procedures.", hi: "नए दिशानिर्देशों और प्रक्रियाओं के लिए नोटिस टेम्पलेट।" }, lastUpdated: "Oct 2025", views: "24.2k",templateSlug:'/' },
+    { id: "policy-6", title: { en: "SOP Update Notice", hi: "एसओपी अद्यतन नोटिस" }, description: { en: "Notice format for Standard Operating Procedure updates.", hi: "मानक संचालन प्रक्रिया अपडेट के लिए नोटिस प्रारूप।" }, lastUpdated: "Oct 2025", views: "21.9k",templateSlug:'/' },
   ],
   seoTitle: { en: "About Policy Notice Templates", hi: "नीति नोटिस टेम्पलेट के बारे में" },
   seoDescription: { en: "Policy notices communicate organizational policies, regulations, and procedural changes. Our templates include policy update notices for changes, new policy announcements for implementations, compliance notices for regulatory requirements, regulatory notices for legal updates, guidelines notices for procedural instructions, and SOP update notices for operational changes ensuring clear policy communication.", hi: "नीति नोटिस संगठनात्मक नीतियों, विनियमों और प्रक्रियात्मक परिवर्तनों को संप्रेषित करते हैं।" },
