@@ -11,7 +11,7 @@ const sampleArticle = {
   publishedDate: "November 13, 2025",
   readTime: "5 min read",
   lastUpdated: "November 14, 2025",
-  coverImage: true,
+  //coverImage: true,
   sections: [
     {
       id: "introduction",

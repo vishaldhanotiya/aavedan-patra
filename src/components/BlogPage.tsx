@@ -173,11 +173,11 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
                 </div>
 
                 {/* Cover Image Placeholder */}
-                {article.coverImage && (
+                {/* {article.coverImage && (
                   <div className="mt-8 rounded-[24px] overflow-hidden bg-gradient-to-br from-cyan-100 to-violet-100 dark:from-cyan-900/20 dark:to-violet-900/20 h-64 flex items-center justify-center">
                     <div className="text-slate-400 dark:text-white/40">Cover Image Placeholder</div>
                   </div>
-                )}
+                )} */}
               </motion.header>
 
               {/* Mobile TOC Toggle */}
