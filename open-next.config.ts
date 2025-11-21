@@ -1,14 +1,28 @@
 export default {
   outDir: ".open-next",
 
-  // App directory for Next.js (yours is in src/)
-  appDirectory: "src/app",
-
-  // Cloudflare requires Edge runtime for dynamic routes
   default: {
-    runtime: "edge",
+    override: {
+      wrapper: "cloudflare-node",
+      converter: "edge",
+      proxyExternalRequest: "fetch",
+      incrementalCache: "dummy",
+      tagCache: "dummy",
+      queue: "dummy",
+    },
   },
 
-  // Optional — makes worker smaller (helps with 3MB limit)
-  minify: true,
+  edgeExternals: ["node:crypto"],
+
+  middleware: {
+    external: true,
+    override: {
+      wrapper: "cloudflare-edge",
+      converter: "edge",
+      proxyExternalRequest: "fetch",
+      incrementalCache: "dummy",
+      tagCache: "dummy",
+      queue: "dummy",
+    },
+  },
 };
