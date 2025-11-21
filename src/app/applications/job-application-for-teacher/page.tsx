@@ -1,6 +1,14 @@
-"use client"
-import { TemplateExample } from "@/components/TemplateExample";
+"use client";
+import { DynamicTemplateDetailsPage } from "@/components/DynamicTemplateDetailsPage";
+import { jobApplicationTeacherTemplate } from "@/data/sampleTemplateDetails";
 
 export default function Page() {
-  return <TemplateExample />;
+  return (
+    <>
+      <DynamicTemplateDetailsPage
+        data={jobApplicationTeacherTemplate}
+        language="en"
+      />
+    </>
+  );
 }

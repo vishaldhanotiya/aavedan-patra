@@ -6,25 +6,30 @@ import { Footer } from "./Footer";
 // Sample template data
 const sampleTemplate = {
   title: "Job Application for Teacher",
-  subtitle: "A formal job application template suitable for teachers applying to schools or colleges.",
+  subtitle:
+    "A formal job application template suitable for teachers applying to schools or colleges.",
   category: "Applications",
-  breadcrumbs: ["Applications", "Job Applications", "Job Application for Teacher"],
+  breadcrumbs: [
+    "Applications",
+    "Job Applications",
+    "Job Application for Teacher",
+  ],
   updatedDate: "November 2025",
-  author: "Sample Files Team",
+  author: "Aavedan Patra Team",
   content: {
     senderInfo: [
       "Your Name",
       "Your Address",
       "City, State ZIP Code",
       "Email Address",
-      "Phone Number"
+      "Phone Number",
     ],
     date: "Date: [Current Date]",
     receiverInfo: [
       "The Principal",
       "[School/College Name]",
       "[School Address]",
-      "City, State ZIP Code"
+      "City, State ZIP Code",
     ],
     subject: "Application for the Position of Teacher",
     body: [
@@ -34,7 +39,7 @@ const sampleTemplate = {
       "My teaching philosophy centers around creating an inclusive and stimulating learning environment where every student can thrive. I am proficient in using modern educational technology and digital tools to enhance the learning experience. I am also committed to continuous professional development and staying updated with the latest pedagogical approaches.",
       "I am particularly drawn to your institution because of its excellent reputation for academic excellence and commitment to holistic student development. I am confident that my passion for teaching, combined with my skills and experience, would enable me to make a meaningful contribution to your school.",
       "I have enclosed my resume, educational certificates, and experience letters for your kind consideration. I would be grateful for the opportunity to discuss my application in detail at your convenience.",
-      "Thank you for considering my application. I look forward to hearing from you soon."
+      "Thank you for considering my application. I look forward to hearing from you soon.",
     ],
     signature: [
       "Yours sincerely,",
@@ -45,9 +50,9 @@ const sampleTemplate = {
       "1. Resume/CV",
       "2. Educational Certificates",
       "3. Experience Letters",
-      "4. Reference Letters"
-    ]
-  }
+      "4. Reference Letters",
+    ],
+  },
 };
 
 export function TemplateExample() {
