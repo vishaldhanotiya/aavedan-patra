@@ -1,7 +1,0 @@
-name = "aavedan-patra"
-type = "javascript"
-
-[build]
-command = "npm run build"
-upload_format = "service-worker"
-pages_build_output_dir = ".open-next"
