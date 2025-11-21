@@ -9,7 +9,6 @@ import {
   requestLettersData,
   resignationLettersData,
 } from "@/data/subcategories";
-export const runtime = "edge";
 
 export default async function Page(props: any) {
   const { type } = await props.params;

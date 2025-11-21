@@ -9,7 +9,6 @@ import {
   admissionApplicationsData,
   scholarshipApplicationsData,
 } from "@/data/subcategories";
-export const runtime = "edge";
 
 export default async function Page({ params }: any) {
   const { type } = await params; // ❗ No await needed
