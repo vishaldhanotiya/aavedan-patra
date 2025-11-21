@@ -1,29 +1,21 @@
 import { SubcategoryExample } from "@/components/SubcategoryExample";
 import { UniversalSubcategoryPage } from "@/components/UniversalSubcategoryPage";
-import { formalLettersData, informalLettersData, requestLettersData } from "@/data/subcategories";
+import {
+  formalLettersData,
+  informalLettersData,
+  requestLettersData,
+} from "@/data/subcategories";
 
 export default async function Page(props: any) {
   const { type } = await props.params;
-  
-  console.log("Sub category====", type)
-   if(type==='formal'){
-  
-            console.log("Application Type==== 3555", type)
-  
-          return <UniversalSubcategoryPage data={formalLettersData} />;
-    
-      } else    if(type==='informal'){
-  
-            console.log("Application Type==== 3555", type)
-  
-          return <UniversalSubcategoryPage data={informalLettersData} />;
-    
-      }else    if(type==='request'){
-  
-            console.log("Application Type==== 3555", type)
-  
-          return <UniversalSubcategoryPage data={requestLettersData} />;
-    
-      }
-  return <SubcategoryExample  />;
+
+  console.log("Sub category====", type);
+  if (type === "formal") {
+    return <UniversalSubcategoryPage data={formalLettersData} />;
+  } else if (type === "informal") {
+    return <UniversalSubcategoryPage data={informalLettersData} />;
+  } else if (type === "request") {
+    return <UniversalSubcategoryPage data={requestLettersData} />;
+  }
+  return <SubcategoryExample />;
 }

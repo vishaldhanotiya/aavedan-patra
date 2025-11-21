@@ -13,9 +13,9 @@ export function SubcategoryExample() {
       const type=params.type
   // Simulate URL routing - in production this would come from router params
   // Options: 'job', 'leave', 'loan', 'admission', 'scholarship'
-  const [currentSubcategory, setCurrentSubcategory] = useState<string>(type || "job");
+  //const [currentSubcategory, setCurrentSubcategory] = useState<string>(type || "job");
 
-  const subcategoryData = getSubcategoryData(currentSubcategory);
+  const subcategoryData = getSubcategoryData('job');
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
