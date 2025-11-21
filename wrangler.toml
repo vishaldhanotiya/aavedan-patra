@@ -1,5 +1,7 @@
 name = "aavedan-patra"
-compatibility_date = "2024-10-01"
+type = "javascript"
 
 [build]
 command = "npm run build"
+upload_format = "service-worker"
+pages_build_output_dir = ".open-next"
