@@ -4,8 +4,10 @@ import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { ArrowDown, Sparkles, FileText, Award, Mail } from "lucide-react";
+import { useTranslations } from 'next-intl';
 
 export function Hero() {
+  const t = useTranslations('Header');
 
    const [windowSize, setWindowSize] = useState<{ width: number; height: number } | null>(null);
 
@@ -71,7 +73,7 @@ export function Hero() {
             </motion.div>
 
             <h1 className="text-5xl lg:text-7xl mb-6 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
-              Welcome to Aavedan Patra
+              {t('title')}
             </h1>
 
             <p className="text-xl text-slate-600 dark:text-white/80 mb-8 max-w-xl">

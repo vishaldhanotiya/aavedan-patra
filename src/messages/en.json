@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "title": "School Management System",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "Navigation": {
+    "home": "Home",
+    "application": "Applications",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "HomeScreen": {
+    "title": "Join Our Teaching Team",
+    "description": "We're looking for passionate educators to shape the future of our students",
+    "learnMore": "Learn More",
+    "features": [
+      {
+        "title": "Competitive Salary",
+        "description": "We offer competitive compensation packages"
+      },
+      {
+        "title": "Professional Growth",
+        "description": "Continuous learning and development opportunities"
+      },
+      {
+        "title": "Supportive Environment",
+        "description": "Work in a collaborative and innovative school culture"
+      }
+    ]
+  },
+  "ApplicationScreen": {
+    "title": "Teacher Application",
+    "description": "Fill out the form below to apply for teaching positions",
+    "formTitle": "Personal Information",
+    "submitSuccess": "Application submitted successfully!",
+    "note": {
+      "title": "Application Note",
+      "description": "We'll contact you within 3-5 business days after reviewing your application"
+    }
+  },
+  "ApplicationForm": {
+    "fullName": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone Number",
+    "experience": "Teaching Experience",
+    "selectExperience": "Select years of experience",
+    "years": "years"
+  },
+  "Common": {
+    "submit": "Submit",
+    "applyNow": "Apply Now",
+    "loading": "Loading...",
+    "success": "Success!",
+    "error": "Error occurred"
+  }
+}

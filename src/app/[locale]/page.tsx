@@ -9,10 +9,14 @@ import { QuickLinks } from "@/components/QuickLinks";
 import { RecentlyAdded } from "@/components/RecentlyAdded";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { TrendingTemplates } from "@/components/TrendingTemplates";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+
+ const t= useTranslations("Header")
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
+     <>{t('title')}</>
       <ThemeToggle />
       <Hero />
       <CategoryGrid />
