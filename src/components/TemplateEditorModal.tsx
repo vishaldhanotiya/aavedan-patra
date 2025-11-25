@@ -70,7 +70,7 @@ export function TemplateEditorModal({
   const [copiedState, setCopiedState] = useState(false);
 
   // Get active variation
-  const activeVariation = variations.find(v => v.id === activeVariationId) || variations[0];
+  const activeVariation = variations.find(v => v.id === defaultVariationId) || variations[0];
 
   // Initialize field values
   useEffect(() => {

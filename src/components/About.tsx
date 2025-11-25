@@ -499,10 +499,10 @@ export function About({ language = "en" }: AboutProps) {
                 asChild
                 className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/30 px-8 py-6 text-lg"
               >
-                <a href="/category/applications">
+                <Link href="/applications">
                   {language === "en" ? "Explore Templates" : "टेम्पलेट्स देखें"}
                   <ArrowRight className="w-5 h-5 ml-2" />
-                </a>
+                </Link>
               </Button>
 
               <Button
@@ -510,12 +510,12 @@ export function About({ language = "en" }: AboutProps) {
                 variant="outline"
                 className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/10 px-8 py-6 text-lg"
               >
-                <a href="/blog">
+                <Link href="/blog">
                   {language === "en"
                     ? "Read Writing Guides"
                     : "लेखन गाइड पढ़ें"}
                   <BookOpen className="w-5 h-5 ml-2" />
-                </a>
+                </Link>
               </Button>
             </div>
 
@@ -527,30 +527,30 @@ export function About({ language = "en" }: AboutProps) {
                   : "लोकप्रिय श्रेणियाँ:"}
               </p>
               <div className="flex flex-wrap items-center justify-center gap-3">
-                <a
-                  href="/category/applications"
+                <Link
+                  href="/applications"
                   className="px-4 py-2 bg-white dark:bg-white/10 rounded-full text-sm text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/20 transition-colors border border-slate-200 dark:border-white/10"
                 >
                   {language === "en" ? "Applications" : "आवेदन"}
-                </a>
-                <a
-                  href="/category/letters"
+                </Link>
+                 <Link
+                  href="/letters"
                   className="px-4 py-2 bg-white dark:bg-white/10 rounded-full text-sm text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/20 transition-colors border border-slate-200 dark:border-white/10"
                 >
                   {language === "en" ? "Letters" : "पत्र"}
-                </a>
-                <a
-                  href="/category/certificates"
+                </Link>
+                 <Link
+                  href="/certificates"
                   className="px-4 py-2 bg-white dark:bg-white/10 rounded-full text-sm text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/20 transition-colors border border-slate-200 dark:border-white/10"
                 >
                   {language === "en" ? "Certificates" : "प्रमाण पत्र"}
-                </a>
-                <a
-                  href="/category/resumes"
+                </Link>
+                 <Link
+                  href="/resumes"
                   className="px-4 py-2 bg-white dark:bg-white/10 rounded-full text-sm text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/20 transition-colors border border-slate-200 dark:border-white/10"
                 >
                   {language === "en" ? "Resumes" : "रिज्यूमे"}
-                </a>
+                </Link>
               </div>
             </div>
           </motion.div>

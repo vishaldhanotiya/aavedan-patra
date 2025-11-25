@@ -25,7 +25,7 @@ const applicationsCategory = {
       icon: Briefcase,
       title: "Job Applications",
       description: "Professional formats for job positions",
-      count: 45,
+      count: 6,
       href: "/applications/job",
     },
     {

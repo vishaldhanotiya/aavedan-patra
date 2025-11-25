@@ -112,7 +112,7 @@ export const applicationsCategory: CategoryData = {
       icon: Briefcase,
       title: { en: "Job Applications", hi: "नौकरी आवेदन" },
       description: { en: "Professional job application formats", hi: "पेशेवर नौकरी आवेदन प्रारूप" },
-      count: 45,
+      count: 6,
       slug: "job",
     },
     {

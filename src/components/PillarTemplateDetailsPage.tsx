@@ -28,7 +28,7 @@ import {
 import { Button } from "./ui/button";
 import { toast } from "sonner";
 import { TemplateEditorModal } from "./TemplateEditorModal";
-
+import Link from "next/link";
 interface TemplateVariation {
   id: string;
   title: { en: string; hi: string };
@@ -64,9 +64,9 @@ interface FAQ {
 
 interface PillarTemplateData {
   breadcrumb: {
-    category: { en: string; hi: string };
-    subcategory: { en: string; hi: string };
-    template: { en: string; hi: string };
+    category: { en: string; hi: string,linkSlug?:string };
+    subcategory: { en: string; hi: string,linkSlug?:string };
+    template: { en: string; hi: string,linkSlug?:string };
   };
   title: { en: string; hi: string };
   subtitle: { en: string; hi: string };
@@ -244,18 +244,18 @@ export function PillarTemplateDetailsPage({
         <section className="bg-white dark:bg-white/5 border-b border-slate-200 dark:border-white/10">
           <div className="container mx-auto px-4 max-w-7xl py-4">
             <nav className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/70 flex-wrap">
-              <a href="/" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors flex items-center gap-1">
+              <Link href="/" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors flex items-center gap-1">
                 <Home className="w-4 h-4" />
                 {language === "en" ? "Home" : "होम"}
-              </a>
+              </Link>
               <ChevronRight className="w-4 h-4" />
-              <a href={`/category/${data.breadcrumb.category.en.toLowerCase()}`} className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
+              <Link href="/applications" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                 {data.breadcrumb.category[language]}
-              </a>
+              </Link>
               <ChevronRight className="w-4 h-4" />
-              <a href={`/subcategory/${data.breadcrumb.subcategory.en.toLowerCase()}`} className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
+              <Link href="/applications/job" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                 {data.breadcrumb.subcategory[language]}
-              </a>
+              </Link>
               <ChevronRight className="w-4 h-4" />
               <span className="text-slate-900 dark:text-white font-medium">
                 {data.breadcrumb.template[language]}
@@ -746,10 +746,10 @@ export function PillarTemplateDetailsPage({
             {/* Back to Category */}
             <div className="max-w-4xl mx-auto mt-16 text-center">
               <Button asChild variant="outline" size="lg">
-                <a href={`/category/${data.breadcrumb.category.en.toLowerCase()}`}>
+                <Link href={`/${data.breadcrumb.category.en.toLowerCase()}`}>
                   <ChevronRight className="w-5 h-5 mr-2 rotate-180" />
                   {language === "en" ? "Back to" : "वापस जाएं"} {data.breadcrumb.category[language]}
-                </a>
+                </Link>
               </Button>
             </div>
           </div>
