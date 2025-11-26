@@ -10,68 +10,70 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Link from "next/link";
-
-const categories = [
-  {
-    icon: FileText,
-    title: "Applications",
-    description: "Job, Leave, Loan, Admission",
-    gradient: "from-sky-400 to-cyan-500",
-    href: "/applications",
-    slug: "applications",
-  },
-  {
-    icon: Mail,
-    title: "Letters",
-    description: "Resignation, Request, Complaint, Invitation",
-    gradient: "from-violet-400 to-purple-500",
-    href: "/letters",
-    slug: "letters",
-  },
-  {
-    icon: Award,
-    title: "Certificates",
-    description: "Experience, Bonafide, Character, Internship",
-    gradient: "from-pink-400 to-rose-500",
-    href: "/certificates",
-    slug: "certificates",
-  },
-  {
-    icon: FileUser,
-    title: "Resumes",
-    description: "Resume Format, Cover Letter, CV Template",
-    gradient: "from-amber-400 to-orange-500",
-    href: "/resumes",
-    slug: "resumes",
-  },
-  {
-    icon: FileUser,
-    title: "Essays & Paragraphs",
-    description: "Essay, Paragraphs, Speech Writing",
-    gradient: "from-amber-400 to-orange-500",
-    href: "/essays",
-    slug: "essays",
-  },
-  {
-    icon: FileBarChart,
-    title: "Notices & Reports",
-    description: "Office Notice, Project Report, Meeting Minutes",
-    gradient: "from-emerald-400 to-teal-500",
-    href: "/notices",
-    slug: "notices",
-  },
-  //   {
-  //     icon: AtSign,
-  //     title: "Emails",
-  //     description: "Job Email, Follow-up, Welcome Speech",
-  //     gradient: "from-blue-400 to-indigo-500",
-  //     href: "/emails",
-  //     slug:"emails"
-
-  //   },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export function CategoryGrid() {
+  const { t } = useLanguage();
+  const categories = [
+    {
+      icon: FileText,
+      title: t.categories.applications,
+      description: t.categories.applicationType,
+      gradient: "from-sky-400 to-cyan-500",
+      href: "/applications",
+      slug: "applications",
+    },
+    {
+      icon: Mail,
+      title: t.categories.letters,
+      description: t.categories.letterType,
+      gradient: "from-violet-400 to-purple-500",
+      href: "/letters",
+      slug: "letters",
+    },
+    {
+      icon: Award,
+      title: t.categories.certificates,
+      description:  t.categories.certificateType,
+      gradient: "from-pink-400 to-rose-500",
+      href: "/certificates",
+      slug: "certificates",
+    },
+    // {
+    //   icon: FileUser,
+    //   title: "Resumes",
+    //   description: "Resume Format, Cover Letter, CV Template",
+    //   gradient: "from-amber-400 to-orange-500",
+    //   href: "/resumes",
+    //   slug: "resumes",
+    // },
+    // {
+    //   icon: FileUser,
+    //   title: "Essays & Paragraphs",
+    //   description: "Essay, Paragraphs, Speech Writing",
+    //   gradient: "from-amber-400 to-orange-500",
+    //   href: "/essays",
+    //   slug: "essays",
+    // },
+    // {
+    //   icon: FileBarChart,
+    //   title: "Notices & Reports",
+    //   description: "Office Notice, Project Report, Meeting Minutes",
+    //   gradient: "from-emerald-400 to-teal-500",
+    //   href: "/notices",
+    //   slug: "notices",
+    // },
+    //   {
+    //     icon: AtSign,
+    //     title: "Emails",
+    //     description: "Job Email, Follow-up, Welcome Speech",
+    //     gradient: "from-blue-400 to-indigo-500",
+    //     href: "/emails",
+    //     slug:"emails"
+
+    //   },
+  ];
+
   return (
     <section className="py-24 relative">
       <div className="container mx-auto px-4">
@@ -83,10 +85,10 @@ export function CategoryGrid() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl mb-4 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
-            Explore by Category
+            {t.categories.exploreBy}
           </h2>
           <p className="text-slate-600 dark:text-white/60 text-lg">
-            Browse through our curated collection of professional templates
+            {t.categories.browseBy}
           </p>
         </motion.div>
 
@@ -131,7 +133,7 @@ export function CategoryGrid() {
                   > */}
                   <Link href={`${category.href}`}>
                     <div className="flex items-center gap-2 text-cyan-600 dark:text-cyan-400 group-hover:gap-3 transition-all duration-300">
-                      <span>Explore</span>
+                      <span>{t.categories.explore}</span>
                       <ArrowRight className="w-4 h-4" />
                     </div>
                   </Link>

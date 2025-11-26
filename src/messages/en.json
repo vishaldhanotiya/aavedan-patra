@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "welcomeText": "Welcome to Aavedan Patra",
+    "subHeading": "Explore 1000+ free professional templates — crafted for your job, study, and business needs",
+    "exploreTemp": "Explore Templates",
+    "viewCategories": "View Categories",
+    "applications": "Applications",
+    "letters": "Letters",
+    "certificates": "Certificates",
+    "templates": "Templates",
+    "professionalTemp": "1000+ Professional Templates",
+    "liveUpdate": "Live Updates",
+    "weeklyUpdate": "New templates added weekly"
+  },
+
+  "categories": {
+    "exploreBy": "Explore by Category",
+    "browseBy": "Browse through our curated collection of professional templates",
+    "applications": "Applications",
+    "letters": "Letters",
+    "certificates": "Certificates",
+    "applicationType": "Job, Leave, Loan, Admission",
+    "letterType": "Resignation, Request, Complaint, Invitation",
+    "certificateType": "Experience, Bonafide, Character, Internship",
+    "explore": "Explore"
+  },
+  "footer":{
+    "name":"Aavedan Patra",
+    "subText":"Your go-to platform for professional templates. Crafted with care for job seekers, students, and professionals."
+  },
+
+  "title": "Welcome to our website",
+  "description": "This is an English description."
+}

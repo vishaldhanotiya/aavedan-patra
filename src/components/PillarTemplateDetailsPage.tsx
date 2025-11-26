@@ -33,7 +33,7 @@ interface TemplateVariation {
   id: string;
   title: { en: string; hi: string };
   description: { en: string; hi: string };
-  content: string;
+  content: { en: string; hi: string };
   bestFor: { en: string; hi: string };
   length: { en: string; hi: string };
   difficulty: { en: string; hi: string };
@@ -110,7 +110,7 @@ export function PillarTemplateDetailsPage({
   const handleCopy = (variationId: string) => {
     const variation = data.variations.find(v => v.id === variationId);
     if (variation) {
-      navigator.clipboard.writeText(variation.content);
+      navigator.clipboard.writeText(variation.content[language]);
       setCopiedVariation(variationId);
       toast.success(language === "en" ? "Template copied!" : "टेम्पलेट कॉपी हो गया!");
       setTimeout(() => setCopiedVariation(null), 2000);
@@ -120,7 +120,7 @@ export function PillarTemplateDetailsPage({
   const handleDownload = (variationId: string, format: "txt" | "pdf" | "doc") => {
     const variation = data.variations.find(v => v.id === variationId);
     if (variation) {
-      const blob = new Blob([variation.content], { type: "text/plain" });
+      const blob = new Blob([variation.content[language]], { type: "text/plain" });
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
@@ -456,7 +456,7 @@ export function PillarTemplateDetailsPage({
                             <div className="p-6 lg:p-8">
                               <div className="bg-slate-50 dark:bg-slate-900/50 rounded-2xl p-6 lg:p-8 border border-slate-200 dark:border-white/10">
                                 <pre className="whitespace-pre-wrap font-mono text-sm text-slate-800 dark:text-white/90 leading-relaxed">
-                                  {variation.content}
+                                  {variation.content[language]}
                                 </pre>
                               </div>
                             </div>

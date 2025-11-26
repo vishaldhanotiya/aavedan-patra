@@ -113,22 +113,22 @@ export const jobApplicationsData: SubcategoryData = {
       templateSlug: "job-application-for-teacher",
 
     },
-    {
-      id: "job-2",
-      title: { 
-        en: "Job Application for Fresher", 
-        hi: "फ्रेशर के लिए नौकरी आवेदन" 
-      },
-      description: {
-        en: "Entry-level job application template perfect for recent graduates and first-time applicants.",
-        hi: "हाल के स्नातकों और पहली बार आवेदकों के लिए एंट्री-लेवल नौकरी आवेदन टेम्पलेट।",
-      },
-      lastUpdated: "Nov 2025",
-      views: "18.2k",
-      badge: "Trending",
-            templateSlug: "job-application-for-teacher",
+    // {
+    //   id: "job-2",
+    //   title: { 
+    //     en: "Job Application for Fresher", 
+    //     hi: "फ्रेशर के लिए नौकरी आवेदन" 
+    //   },
+    //   description: {
+    //     en: "Entry-level job application template perfect for recent graduates and first-time applicants.",
+    //     hi: "हाल के स्नातकों और पहली बार आवेदकों के लिए एंट्री-लेवल नौकरी आवेदन टेम्पलेट।",
+    //   },
+    //   lastUpdated: "Nov 2025",
+    //   views: "18.2k",
+    //   badge: "Trending",
+    //         templateSlug: "job-application-for-teacher",
 
-    },
+    // },
     {
       id: "job-3",
       title: { 
@@ -141,7 +141,7 @@ export const jobApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "15.8k",
-      templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-software-engineer",
 
     },
     {

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
 import { applicationsCategory } from "@/data/categoryData";
 

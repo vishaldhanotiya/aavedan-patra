@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { teacherJobApplicationPillarWithEditor } from "@/data/samplePillarTemplateWithEditor";
+import { softwareJobApplicationPillarWithEditor } from "@/data/subcategories/softwareJobApplicationPillarWithEditor";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={teacherJobApplicationPillarWithEditor}
+        data={softwareJobApplicationPillarWithEditor}
         language={lang}
       />
     </>

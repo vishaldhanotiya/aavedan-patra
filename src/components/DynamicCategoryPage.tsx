@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import {
@@ -11,8 +11,6 @@ import {
   SlidersHorizontal,
   Search,
   Languages,
-  Download,
-  FileText,
   X,
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -35,17 +33,18 @@ import { Checkbox } from "./ui/checkbox";
 import { Label } from "./ui/label";
 import type { CategoryData } from "../data/categoryData";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface DynamicCategoryPageProps {
   category: CategoryData;
 }
 
 export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
-  console.log("DynamicCategoryPage===",category)
+  const { lang } = useLanguage();
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [language, setLanguage] = useState<"en" | "hi">("en");
+  const [language, setLanguage] = useState<"en" | "hi">(lang);
   const [selectedFormat, setSelectedFormat] = useState<string>("all");
   const [selectedDocLanguage, setSelectedDocLanguage] = useState<string>("all");
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
@@ -67,7 +66,10 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
   const sortedTemplates = [...filteredTemplates].sort((a, b) => {
     switch (sortBy) {
       case "popular":
-        return parseFloat(b.views.replace("k", "")) - parseFloat(a.views.replace("k", ""));
+        return (
+          parseFloat(b.views.replace("k", "")) -
+          parseFloat(a.views.replace("k", ""))
+        );
       case "newest":
         return new Date(b.date).getTime() - new Date(a.date).getTime();
       case "a-z":
@@ -81,7 +83,7 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
 
   // Get dynamic type filters based on category
   const getTypeFilters = () => {
-    return category.subcategories.slice(0, 4).map(sub => getText(sub.title));
+    return category.subcategories.slice(0, 4).map((sub) => getText(sub.title));
   };
 
   const typeFilters = getTypeFilters();
@@ -129,7 +131,7 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
           <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer">
               <Home className="w-4 h-4" />
-                <Link href={'/'}> {language === "en" ? "Home" : "होम"}</Link>
+              <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
             </li>
             {category.breadcrumbs.map((crumb, index) => (
               <li key={index} className="flex items-center gap-2">
@@ -167,7 +169,10 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                     {getText(category.name)}
                   </h1>
                   <p className="text-sm text-slate-500 dark:text-white/50 mt-1">
-                    {category.templates.length} {language === "en" ? "templates available" : "टेम्पलेट उपलब्ध"}
+                    {category.templates.length}{" "}
+                    {language === "en"
+                      ? "templates available"
+                      : "टेम्पलेट उपलब्ध"}
                   </p>
                 </div>
               </div>
@@ -190,7 +195,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
           className="mb-16"
         >
           <h2 className="text-2xl text-slate-900 dark:text-white mb-6">
-            {language === "en" ? "Browse by Type" : "प्रकार के अनुसार ब्राउज़ करें"}
+            {language === "en"
+              ? "Browse by Type"
+              : "प्रकार के अनुसार ब्राउज़ करें"}
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {category.subcategories.map((sub, index) => (
@@ -218,7 +225,7 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                   </span>
                   {/* <Link href={'/letters/formal'}> */}
                   <ArrowRight className="w-4 h-4 text-cyan-600 dark:text-cyan-400 group-hover:translate-x-1 transition-transform" />
-               {/* </Link> */}
+                  {/* </Link> */}
                 </div>
               </motion.a>
             ))}
@@ -238,7 +245,11 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-white/40" />
                 <Input
                   type="text"
-                  placeholder={language === "en" ? "Search templates..." : "टेम्पलेट खोजें..."}
+                  placeholder={
+                    language === "en"
+                      ? "Search templates..."
+                      : "टेम्पलेट खोजें..."
+                  }
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-10 bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white"
@@ -255,11 +266,19 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
               <div className="flex gap-3">
                 <Select value={sortBy} onValueChange={setSortBy}>
                   <SelectTrigger className="w-[140px] bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                    <SelectValue placeholder={language === "en" ? "Sort by" : "क्रमबद्ध करें"} />
+                    <SelectValue
+                      placeholder={
+                        language === "en" ? "Sort by" : "क्रमबद्ध करें"
+                      }
+                    />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="popular">{language === "en" ? "Popular" : "लोकप्रिय"}</SelectItem>
-                    <SelectItem value="newest">{language === "en" ? "Newest" : "नवीनतम"}</SelectItem>
+                    <SelectItem value="popular">
+                      {language === "en" ? "Popular" : "लोकप्रिय"}
+                    </SelectItem>
+                    <SelectItem value="newest">
+                      {language === "en" ? "Newest" : "नवीनतम"}
+                    </SelectItem>
                     <SelectItem value="a-z">A-Z</SelectItem>
                     <SelectItem value="z-a">Z-A</SelectItem>
                   </SelectContent>
@@ -292,12 +311,17 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                       <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
                         {language === "en" ? "Format" : "प्रारूप"}
                       </label>
-                      <Select value={selectedFormat} onValueChange={setSelectedFormat}>
+                      <Select
+                        value={selectedFormat}
+                        onValueChange={setSelectedFormat}
+                      >
                         <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
                           <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="all">{language === "en" ? "All Formats" : "सभी प्रारूप"}</SelectItem>
+                          <SelectItem value="all">
+                            {language === "en" ? "All Formats" : "सभी प्रारूप"}
+                          </SelectItem>
                           <SelectItem value="docx">DOCX</SelectItem>
                           <SelectItem value="pdf">PDF</SelectItem>
                           <SelectItem value="txt">TXT</SelectItem>
@@ -308,17 +332,26 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                     {/* Document Language Filter */}
                     <div>
                       <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
-                        {language === "en" ? "Document Language" : "दस्तावेज़ भाषा"}
+                        {language === "en"
+                          ? "Document Language"
+                          : "दस्तावेज़ भाषा"}
                       </label>
-                      <Select value={selectedDocLanguage} onValueChange={setSelectedDocLanguage}>
+                      <Select
+                        value={selectedDocLanguage}
+                        onValueChange={setSelectedDocLanguage}
+                      >
                         <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
                           <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="all">{language === "en" ? "All Languages" : "सभी भाषाएं"}</SelectItem>
+                          <SelectItem value="all">
+                            {language === "en" ? "All Languages" : "सभी भाषाएं"}
+                          </SelectItem>
                           <SelectItem value="en">English</SelectItem>
                           <SelectItem value="hi">हिंदी</SelectItem>
-                          <SelectItem value="both">{language === "en" ? "Both" : "दोनों"}</SelectItem>
+                          <SelectItem value="both">
+                            {language === "en" ? "Both" : "दोनों"}
+                          </SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -330,7 +363,10 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                       </label>
                       <div className="space-y-2 max-h-32 overflow-y-auto custom-scrollbar">
                         {typeFilters.map((type, index) => (
-                          <div key={index} className="flex items-center space-x-2">
+                          <div
+                            key={index}
+                            className="flex items-center space-x-2"
+                          >
                             <Checkbox
                               id={`type-${index}`}
                               checked={selectedTypes.includes(type)}
@@ -338,7 +374,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                                 if (checked) {
                                   setSelectedTypes([...selectedTypes, type]);
                                 } else {
-                                  setSelectedTypes(selectedTypes.filter(t => t !== type));
+                                  setSelectedTypes(
+                                    selectedTypes.filter((t) => t !== type)
+                                  );
                                 }
                               }}
                             />
@@ -355,7 +393,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                   </div>
 
                   {/* Clear Filters */}
-                  {(selectedFormat !== "all" || selectedDocLanguage !== "all" || selectedTypes.length > 0) && (
+                  {(selectedFormat !== "all" ||
+                    selectedDocLanguage !== "all" ||
+                    selectedTypes.length > 0) && (
                     <div className="mt-4 flex justify-end">
                       <Button
                         variant="ghost"
@@ -367,7 +407,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                         }}
                         className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300"
                       >
-                        {language === "en" ? "Clear All Filters" : "सभी फ़िल्टर साफ़ करें"}
+                        {language === "en"
+                          ? "Clear All Filters"
+                          : "सभी फ़िल्टर साफ़ करें"}
                       </Button>
                     </div>
                   )}
@@ -389,7 +431,8 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
               {language === "en" ? "All Templates" : "सभी टेम्पलेट"}
             </h2>
             <span className="text-sm text-slate-600 dark:text-white/60">
-              {sortedTemplates.length} {language === "en" ? "results" : "परिणाम"}
+              {sortedTemplates.length}{" "}
+              {language === "en" ? "results" : "परिणाम"}
             </span>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -445,7 +488,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
         >
           <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-8 shadow-lg">
             <h2 className="text-2xl text-slate-900 dark:text-white mb-4">
-              {language === "en" ? `About ${getText(category.name)}` : `${getText(category.name)} के बारे में`}
+              {language === "en"
+                ? `About ${getText(category.name)}`
+                : `${getText(category.name)} के बारे में`}
             </h2>
             <p className="text-slate-700 dark:text-white/70 leading-relaxed">
               {getText(category.aboutContent)}
@@ -496,7 +541,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
           className="mb-16"
         >
           <h2 className="text-2xl text-slate-900 dark:text-white mb-6">
-            {language === "en" ? "Related Articles & Guides" : "संबंधित लेख और गाइड"}
+            {language === "en"
+              ? "Related Articles & Guides"
+              : "संबंधित लेख और गाइड"}
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {category.blogs.map((blog, index) => (
@@ -517,7 +564,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
                     {getText(blog.excerpt)}
                   </p>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="text-slate-500 dark:text-white/50">{blog.readTime}</span>
+                    <span className="text-slate-500 dark:text-white/50">
+                      {blog.readTime}
+                    </span>
                     <span className="text-pink-600 dark:text-pink-400">
                       {language === "en" ? "Read More →" : "और पढ़ें →"}
                     </span>
@@ -536,7 +585,9 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
           className="mb-16"
         >
           <h2 className="text-2xl text-slate-900 dark:text-white mb-6">
-            {language === "en" ? "Frequently Asked Questions" : "अक्सर पूछे जाने वाले प्रश्न"}
+            {language === "en"
+              ? "Frequently Asked Questions"
+              : "अक्सर पूछे जाने वाले प्रश्न"}
           </h2>
           <Accordion type="single" collapsible className="space-y-4">
             {category.faqs.map((faq, index) => (

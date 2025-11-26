@@ -71,7 +71,6 @@ export function TemplateEditorModal({
 
   // Get active variation
   const activeVariation = variations.find(v => v.id === defaultVariationId) || variations[0];
-
   // Initialize field values
   useEffect(() => {
     if (activeVariation) {
@@ -276,7 +275,10 @@ export function TemplateEditorModal({
                       </h3>
                     </div>
 
-                    {activeVariation.fields.map((field) => (
+                    {activeVariation.fields.map((field) => {
+                      console.log("=====>>>>>",field)
+
+                      return(
                       <div key={field.id} className="space-y-2">
                         <div className="flex items-center gap-2">
                           <Label htmlFor={field.id} className="text-slate-700 dark:text-white/90">
@@ -321,7 +323,7 @@ export function TemplateEditorModal({
                           />
                         )}
                       </div>
-                    ))}
+                    )})}
 
                     {/* Mobile Preview Button */}
                     <div className="lg:hidden mt-6">

@@ -32,6 +32,7 @@ import {
 } from "./ui/accordion";
 import type { SubcategoryData } from "../data/allSubcategoryData";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface UniversalSubcategoryPageProps {
   data: SubcategoryData;
@@ -42,6 +43,8 @@ export function UniversalSubcategoryPage({
   data,
   language = "en",
 }: UniversalSubcategoryPageProps) {
+    const {lang}=useLanguage()
+
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState("popular");
@@ -49,9 +52,10 @@ export function UniversalSubcategoryPage({
   const [selectedType, setSelectedType] = useState("all");
   const [selectedFormat, setSelectedFormat] = useState("all");
   const [selectedLanguage, setSelectedLanguage] = useState("all");
+  console.log("======>>>>>>>>>",language)
 
   // Get localized content
-  const t = (content: { en: string; hi: string }) => content[language];
+  const t = (content: { en: string; hi: string }) => content[lang];
 
   // Filter templates based on search, tag, and filters
   const filteredTemplates = data.templates.filter((template) => {

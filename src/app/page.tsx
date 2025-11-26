@@ -4,6 +4,7 @@ import { CategoryGrid } from "@/components/CategoryGrid";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Newsletter } from "@/components/Newsletter";
 import { QuickLinks } from "@/components/QuickLinks";
 import { RecentlyAdded } from "@/components/RecentlyAdded";
@@ -14,14 +15,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
       <ThemeToggle />
+      <LanguageSwitcher />
       <Hero />
       <CategoryGrid />
-      <TrendingTemplates />
-      <RecentlyAdded />
-      <BlogSection />
-      <FAQ />
-      <QuickLinks />
-      <Newsletter />
+      {/* <TrendingTemplates /> */}
+      {/* <RecentlyAdded /> */}
+      {/* <BlogSection /> */}
+      {/* <FAQ /> */}
+      {/* <QuickLinks /> */}
+      {/* <Newsletter /> */}
       <Footer />
     </div>
   );
