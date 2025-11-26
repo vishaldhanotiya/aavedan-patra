@@ -31,14 +31,14 @@ export function CategoryGrid() {
       href: "/letters",
       slug: "letters",
     },
-    {
-      icon: Award,
-      title: t.categories.certificates,
-      description:  t.categories.certificateType,
-      gradient: "from-pink-400 to-rose-500",
-      href: "/certificates",
-      slug: "certificates",
-    },
+    // {
+    //   icon: Award,
+    //   title: t.categories.certificates,
+    //   description:  t.categories.certificateType,
+    //   gradient: "from-pink-400 to-rose-500",
+    //   href: "/certificates",
+    //   slug: "certificates",
+    // },
     // {
     //   icon: FileUser,
     //   title: "Resumes",

@@ -10,7 +10,12 @@ export default function LanguageSwitcher() {
   const { lang, setLang } = useLanguage();
 
   return (
-    <>
+   <motion.div
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ delay: 0.5 }}
+      className="fixed top-7 right-20  z-50"
+    >
       <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -50,6 +55,6 @@ export default function LanguageSwitcher() {
     >
       {lang === "hi" ? "Switch to English" : "हिंदी में देखें"}
     </button> */}
-    </>
+    </motion.div>
   );
 }
