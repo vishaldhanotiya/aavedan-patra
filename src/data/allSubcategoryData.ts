@@ -21,7 +21,7 @@ export interface SubcategoryData {
   subcategoryName: { en: string; hi: string };
   
   // Breadcrumb
-  breadcrumb: { en: string; hi: string }[];
+  breadcrumb: { en: string; hi: string,breadcrumb?:string }[];
   
   // Hero Section
   heroTitle: { en: string; hi: string };
@@ -80,7 +80,7 @@ export const jobApplicationsData: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Job Applications", hi: "नौकरी आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन" },
+    { en: "Applications", hi: "आवेदन"},
     { en: "Job Applications", hi: "नौकरी आवेदन" },
   ],
   heroTitle: { 
@@ -156,7 +156,7 @@ export const jobApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.4k",
-      templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-manager-position",
 
     },
     {
@@ -171,7 +171,7 @@ export const jobApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.2k",
-            templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-office-assistant",
 
     },
     {
@@ -186,7 +186,7 @@ export const jobApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.7k",
-            templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-bank",
 
     },
   ],
@@ -298,7 +298,7 @@ export const leaveApplicationsData: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Leave Applications", hi: "छुट्टी आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन" },
+    { en: "Applications", hi: "आवेदन",},
     { en: "Leave Applications", hi: "छुट्टी आवेदन" },
   ],
   heroTitle: { 
@@ -328,7 +328,7 @@ export const leaveApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "14.3k",
       badge: "Popular",
-            templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-sick-leave",
 
     },
     {
@@ -344,7 +344,7 @@ export const leaveApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "16.8k",
       badge: "Trending",
-            templateSlug: "job-application-for-teacher",
+            templateSlug: "job-application-for-casual-leave",
 
     },
     {
@@ -359,7 +359,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "12.1k",
-            templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-urgent-leave",
 
     },
     {
@@ -374,7 +374,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "10.9k",
-            templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-personal-leave",
 
     },
     {
@@ -389,7 +389,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.4k",
-            templateSlug: "job-application-for-teacher",
+      templateSlug: "job-application-for-school-leave",
 
     },
     {
@@ -404,7 +404,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.7k",
-            templateSlug: "job-application-for-teacher",
+            templateSlug: "job-application-for-vacation-leave",
 
     },
   ],

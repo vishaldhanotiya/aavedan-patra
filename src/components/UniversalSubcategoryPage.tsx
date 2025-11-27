@@ -52,7 +52,6 @@ export function UniversalSubcategoryPage({
   const [selectedType, setSelectedType] = useState("all");
   const [selectedFormat, setSelectedFormat] = useState("all");
   const [selectedLanguage, setSelectedLanguage] = useState("all");
-  console.log("======>>>>>>>>>",language)
 
   // Get localized content
   const t = (content: { en: string; hi: string }) => content[lang];

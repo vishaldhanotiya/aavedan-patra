@@ -14,8 +14,6 @@ import {
 
 export default async function Page({ params }: any) {
   const { type } =  await params; // ❗ No await needed
-
-  console.log("====>>>>",type)
   if (type === "job") {
     return <UniversalSubcategoryPage data={jobApplicationsData}  />;
   } else if (type === "leave") {

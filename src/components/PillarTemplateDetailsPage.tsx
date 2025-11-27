@@ -64,9 +64,9 @@ interface FAQ {
 
 interface PillarTemplateData {
   breadcrumb: {
-    category: { en: string; hi: string,linkSlug?:string };
-    subcategory: { en: string; hi: string,linkSlug?:string };
-    template: { en: string; hi: string,linkSlug?:string };
+    category: { en: string; hi: string,slug?:string };
+    subcategory: { en: string; hi: string,slug?:string };
+    template: { en: string; hi: string,slug?:string };
   };
   title: { en: string; hi: string };
   subtitle: { en: string; hi: string };
@@ -237,11 +237,37 @@ export function PillarTemplateDetailsPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(generateArticleSchema()) }}
       />
-
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
-        
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
+      <div className="container mx-auto px-4 py-12">
         {/* Breadcrumb Navigation */}
-        <section className="bg-white dark:bg-white/5 border-b border-slate-200 dark:border-white/10">
+        <motion.nav
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mb-8"
+        >
+          <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
+           <nav className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/70 flex-wrap">
+              <Link href="/" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors flex items-center gap-1">
+                <Home className="w-4 h-4" />
+                {language === "en" ? "Home" : "होम"}
+              </Link>
+              <ChevronRight className="w-4 h-4" />
+              <Link href={`${data.breadcrumb.category.slug}`}  className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
+                {data.breadcrumb.category[language]}
+              </Link>
+              <ChevronRight className="w-4 h-4" />
+              <Link href={`${data.breadcrumb.subcategory.slug}`} className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
+                {data.breadcrumb.subcategory[language]}
+              </Link>
+              <ChevronRight className="w-4 h-4" />
+              <span className="text-slate-900 dark:text-white font-medium">
+                {data.breadcrumb.template[language]}
+              </span>
+            </nav>
+          </ol>
+        </motion.nav>
+
+        {/* <section className="bg-white dark:bg-white/5 border-b border-slate-200 dark:border-white/10">
           <div className="container mx-auto px-4 max-w-7xl py-4">
             <nav className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/70 flex-wrap">
               <Link href="/" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors flex items-center gap-1">
@@ -262,7 +288,7 @@ export function PillarTemplateDetailsPage({
               </span>
             </nav>
           </div>
-        </section>
+        </section> */}
 
         {/* Title & Meta Section */}
         <section className="py-12 lg:py-20">
@@ -755,7 +781,7 @@ export function PillarTemplateDetailsPage({
           </div>
         </section>
       </div>
-
+</div>
       {/* Template Editor Modal */}
       {data.editorVariations && data.editorVariations.length > 0 && (
         <TemplateEditorModal

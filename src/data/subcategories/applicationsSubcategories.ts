@@ -18,9 +18,9 @@ export const loanApplicationsData: SubcategoryData = {
     { en: "Applications", hi: "आवेदन" },
     { en: "Loan Applications", hi: "ऋण आवेदन" },
   ],
-  heroTitle: { 
-    en: "Loan Application Templates", 
-    hi: "ऋण आवेदन टेम्पलेट" 
+  heroTitle: {
+    en: "Loan Application Templates",
+    hi: "ऋण आवेदन टेम्पलेट",
   },
   heroDescription: {
     en: "Professional loan application formats for personal loans, business loans, education loans and more - ready to download and customize.",
@@ -30,13 +30,20 @@ export const loanApplicationsData: SubcategoryData = {
     en: "Search loan application templates…",
     hi: "ऋण आवेदन टेम्पलेट खोजें...",
   },
-  tags: ["Personal Loan", "Business Loan", "Education Loan", "Home Loan", "Car Loan", "Emergency Loan"],
+  tags: [
+    "Personal Loan",
+    "Business Loan",
+    "Education Loan",
+    "Home Loan",
+    "Car Loan",
+    "Emergency Loan",
+  ],
   templates: [
     {
       id: "loan-1",
-      title: { 
-        en: "Personal Loan Application to Bank", 
-        hi: "बैंक को व्यक्तिगत ऋण आवेदन" 
+      title: {
+        en: "Personal Loan Application to Bank",
+        hi: "बैंक को व्यक्तिगत ऋण आवेदन",
       },
       description: {
         en: "Formal application format for requesting personal loans from banks with proper documentation.",
@@ -45,13 +52,13 @@ export const loanApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "15.7k",
       badge: "Popular",
-      templateSlug:'/'
+      templateSlug: "application-for-personal-loan",
     },
     {
       id: "loan-2",
-      title: { 
-        en: "Business Loan Application Format", 
-        hi: "व्यवसाय ऋण आवेदन प्रारूप" 
+      title: {
+        en: "Business Loan Application Format",
+        hi: "व्यवसाय ऋण आवेदन प्रारूप",
       },
       description: {
         en: "Professional template for business loan requests with financial details and business plan.",
@@ -60,13 +67,13 @@ export const loanApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "13.4k",
       badge: "Trending",
-      templateSlug:'/'
+      templateSlug: "application-for-business-loan",
     },
     {
       id: "loan-3",
-      title: { 
-        en: "Education Loan Application", 
-        hi: "शिक्षा ऋण आवेदन" 
+      title: {
+        en: "Education Loan Application",
+        hi: "शिक्षा ऋण आवेदन",
       },
       description: {
         en: "Student loan application format for higher education and professional courses.",
@@ -74,13 +81,13 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.2k",
-      templateSlug:'/'
+      templateSlug: "application-for-education-loan",
     },
     {
       id: "loan-4",
-      title: { 
-        en: "Home Loan Application Letter", 
-        hi: "गृह ऋण आवेदन पत्र" 
+      title: {
+        en: "Home Loan Application Letter",
+        hi: "गृह ऋण आवेदन पत्र",
       },
       description: {
         en: "Complete application format for home purchase and construction loans.",
@@ -88,13 +95,13 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.8k",
-      templateSlug:'/'
+      templateSlug: "application-for-home-loan",
     },
     {
       id: "loan-5",
-      title: { 
-        en: "Car Loan Application Format", 
-        hi: "कार ऋण आवेदन प्रारूप" 
+      title: {
+        en: "Car Loan Application Format",
+        hi: "कार ऋण आवेदन प्रारूप",
       },
       description: {
         en: "Auto loan application template for vehicle purchase financing.",
@@ -102,13 +109,13 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "10.5k",
-      templateSlug:'/'
+      templateSlug: "application-for-car-loan",
     },
     {
       id: "loan-6",
-      title: { 
-        en: "Emergency Loan Request Letter", 
-        hi: "आपातकालीन ऋण अनुरोध पत्र" 
+      title: {
+        en: "Emergency Loan Request Letter",
+        hi: "आपातकालीन ऋण अनुरोध पत्र",
       },
       description: {
         en: "Urgent loan application format for medical and personal emergencies.",
@@ -116,7 +123,7 @@ export const loanApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.3k",
-      templateSlug:'/'
+      templateSlug: "application-for-emergency-loan",
     },
   ],
   seoTitle: {
@@ -151,9 +158,9 @@ export const loanApplicationsData: SubcategoryData = {
   ],
   blogPosts: [
     {
-      title: { 
-        en: "How to Write a Loan Application That Gets Approved", 
-        hi: "ऋण आवेदन कैसे लिखें जो स्वीकृत हो" 
+      title: {
+        en: "How to Write a Loan Application That Gets Approved",
+        hi: "ऋण आवेदन कैसे लिखें जो स्वीकृत हो",
       },
       excerpt: {
         en: "Expert tips for writing effective loan applications with higher approval rates",
@@ -163,9 +170,9 @@ export const loanApplicationsData: SubcategoryData = {
       slug: "how-to-write-loan-application",
     },
     {
-      title: { 
-        en: "Documents Required for Loan Application", 
-        hi: "ऋण आवेदन के लिए आवश्यक दस्तावेज" 
+      title: {
+        en: "Documents Required for Loan Application",
+        hi: "ऋण आवेदन के लिए आवश्यक दस्तावेज",
       },
       excerpt: {
         en: "Complete checklist of documents needed for different types of loans",
@@ -175,9 +182,9 @@ export const loanApplicationsData: SubcategoryData = {
       slug: "loan-application-documents",
     },
     {
-      title: { 
-        en: "Personal Loan vs Business Loan: Which to Apply For?", 
-        hi: "व्यक्तिगत ऋण बनाम व्यवसाय ऋण: किसके लिए आवेदन करें?" 
+      title: {
+        en: "Personal Loan vs Business Loan: Which to Apply For?",
+        hi: "व्यक्तिगत ऋण बनाम व्यवसाय ऋण: किसके लिए आवेदन करें?",
       },
       excerpt: {
         en: "Understand the differences and choose the right loan for your needs",
@@ -189,9 +196,9 @@ export const loanApplicationsData: SubcategoryData = {
   ],
   faqs: [
     {
-      question: { 
-        en: "What should I include in a loan application?", 
-        hi: "मुझे ऋण आवेदन में क्या शामिल करना चाहिए?" 
+      question: {
+        en: "What should I include in a loan application?",
+        hi: "मुझे ऋण आवेदन में क्या शामिल करना चाहिए?",
       },
       answer: {
         en: "A loan application should include your personal details, employment information, loan amount required, purpose of the loan, repayment plan, and list of supporting documents. Also mention your income sources, existing liabilities, and collateral if any. Be honest and provide accurate information to increase approval chances.",
@@ -199,9 +206,9 @@ export const loanApplicationsData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "How long does loan approval take?", 
-        hi: "ऋण स्वीकृति में कितना समय लगता है?" 
+      question: {
+        en: "How long does loan approval take?",
+        hi: "ऋण स्वीकृति में कितना समय लगता है?",
       },
       answer: {
         en: "Loan approval time varies by type and lender. Personal loans may take 2-7 days, while home loans can take 2-4 weeks. Business loans typically require 1-3 weeks. Having complete documentation ready can speed up the process significantly.",
@@ -209,9 +216,9 @@ export const loanApplicationsData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "Can I apply for multiple loans simultaneously?", 
-        hi: "क्या मैं एक साथ कई ऋणों के लिए आवेदन कर सकता हूं?" 
+      question: {
+        en: "Can I apply for multiple loans simultaneously?",
+        hi: "क्या मैं एक साथ कई ऋणों के लिए आवेदन कर सकता हूं?",
       },
       answer: {
         en: "While you can apply for multiple loans, it's generally not recommended as multiple credit inquiries can lower your credit score. Focus on one application at a time and ensure you meet the eligibility criteria before applying.",
@@ -231,9 +238,9 @@ export const admissionApplicationsData: SubcategoryData = {
     { en: "Applications", hi: "आवेदन" },
     { en: "Admission Applications", hi: "प्रवेश आवेदन" },
   ],
-  heroTitle: { 
-    en: "Admission Application Templates", 
-    hi: "प्रवेश आवेदन टेम्पलेट" 
+  heroTitle: {
+    en: "Admission Application Templates",
+    hi: "प्रवेश आवेदन टेम्पलेट",
   },
   heroDescription: {
     en: "College, school, and course admission application formats for students - easy to customize for any educational institution.",
@@ -243,13 +250,20 @@ export const admissionApplicationsData: SubcategoryData = {
     en: "Search admission application templates…",
     hi: "प्रवेश आवेदन टेम्पलेट खोजें...",
   },
-  tags: ["College Admission", "School Admission", "Course Admission", "University", "Transfer", "Readmission"],
+  tags: [
+    "College Admission",
+    "School Admission",
+    "Course Admission",
+    "University",
+    "Transfer",
+    "Readmission",
+  ],
   templates: [
     {
       id: "admission-1",
-      title: { 
-        en: "College Admission Application", 
-        hi: "कॉलेज प्रवेश आवेदन" 
+      title: {
+        en: "College Admission Application",
+        hi: "कॉलेज प्रवेश आवेदन",
       },
       description: {
         en: "Professional format for undergraduate and postgraduate college admission applications.",
@@ -258,13 +272,13 @@ export const admissionApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "18.5k",
       badge: "Popular",
-      templateSlug:'/'
+      templateSlug: "application-for-college-admission",
     },
     {
       id: "admission-2",
-      title: { 
-        en: "School Admission Application for Students", 
-        hi: "छात्रों के लिए स्कूल प्रवेश आवेदन" 
+      title: {
+        en: "School Admission Application for Students",
+        hi: "छात्रों के लिए स्कूल प्रवेश आवेदन",
       },
       description: {
         en: "Application template for admission in primary, middle, and high schools.",
@@ -273,13 +287,13 @@ export const admissionApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "16.2k",
       badge: "Trending",
-      templateSlug:'/'
+      templateSlug: "application-for-school-admission",
     },
     {
       id: "admission-3",
-      title: { 
-        en: "University Admission Request Letter", 
-        hi: "विश्वविद्यालय प्रवेश अनुरोध पत्र" 
+      title: {
+        en: "University Admission Request Letter",
+        hi: "विश्वविद्यालय प्रवेश अनुरोध पत्र",
       },
       description: {
         en: "Formal application for university admission with academic achievements and goals.",
@@ -287,13 +301,13 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.7k",
-      templateSlug:'/'
+      templateSlug: "application-for-university-admission",
     },
     {
       id: "admission-4",
-      title: { 
-        en: "Course Admission Application", 
-        hi: "पाठ्यक्रम प्रवेश आवेदन" 
+      title: {
+        en: "Course Admission Application",
+        hi: "पाठ्यक्रम प्रवेश आवेदन",
       },
       description: {
         en: "Application format for professional courses and certification programs.",
@@ -301,13 +315,13 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.3k",
-      templateSlug:'/'
+      templateSlug: "application-for-course-admission",
     },
     {
       id: "admission-5",
-      title: { 
-        en: "School Transfer Application", 
-        hi: "स्कूल स्थानांतरण आवेदन" 
+      title: {
+        en: "School Transfer Application",
+        hi: "स्कूल स्थानांतरण आवेदन",
       },
       description: {
         en: "Transfer application template for changing schools with valid reasons.",
@@ -315,13 +329,13 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.1k",
-      templateSlug:'/'
+      templateSlug: "application-for-school-transfer",
     },
     {
       id: "admission-6",
-      title: { 
-        en: "Readmission Application Letter", 
-        hi: "पुनः प्रवेश आवेदन पत्र" 
+      title: {
+        en: "Readmission Application Letter",
+        hi: "पुनः प्रवेश आवेदन पत्र",
       },
       description: {
         en: "Application format for rejoining school or college after a break.",
@@ -329,7 +343,7 @@ export const admissionApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.8k",
-      templateSlug:'/'
+      templateSlug: "application-for-readmission",
     },
   ],
   seoTitle: {
@@ -352,21 +366,27 @@ export const admissionApplicationsData: SubcategoryData = {
       slug: "certificate-request",
     },
     {
-      title: { en: "Leave Application for Students", hi: "छात्रों के लिए छुट्टी आवेदन" },
+      title: {
+        en: "Leave Application for Students",
+        hi: "छात्रों के लिए छुट्टी आवेदन",
+      },
       category: { en: "Leave Applications", hi: "छुट्टी आवेदन" },
       slug: "leave",
     },
     {
-      title: { en: "Request Letter to Principal", hi: "प्रधानाचार्य को अनुरोध पत्र" },
+      title: {
+        en: "Request Letter to Principal",
+        hi: "प्रधानाचार्य को अनुरोध पत्र",
+      },
       category: { en: "Letters", hi: "पत्र" },
       slug: "request",
     },
   ],
   blogPosts: [
     {
-      title: { 
-        en: "How to Write a College Admission Application", 
-        hi: "कॉलेज प्रवेश आवेदन कैसे लिखें" 
+      title: {
+        en: "How to Write a College Admission Application",
+        hi: "कॉलेज प्रवेश आवेदन कैसे लिखें",
       },
       excerpt: {
         en: "Step-by-step guide to creating winning college admission applications",
@@ -376,9 +396,9 @@ export const admissionApplicationsData: SubcategoryData = {
       slug: "college-admission-application-guide",
     },
     {
-      title: { 
-        en: "School Admission: Tips for Parents", 
-        hi: "स्कूल प्रवेश: माता-पिता के लिए सुझाव" 
+      title: {
+        en: "School Admission: Tips for Parents",
+        hi: "स्कूल प्रवेश: माता-पिता के लिए सुझाव",
       },
       excerpt: {
         en: "Essential tips for parents applying for their child's school admission",
@@ -388,9 +408,9 @@ export const admissionApplicationsData: SubcategoryData = {
       slug: "school-admission-tips-parents",
     },
     {
-      title: { 
-        en: "Transfer Application: When and How to Apply", 
-        hi: "स्थानांतरण आवेदन: कब और कैसे आवेदन करें" 
+      title: {
+        en: "Transfer Application: When and How to Apply",
+        hi: "स्थानांतरण आवेदन: कब और कैसे आवेदन करें",
       },
       excerpt: {
         en: "Complete guide to school and college transfer applications",
@@ -402,9 +422,9 @@ export const admissionApplicationsData: SubcategoryData = {
   ],
   faqs: [
     {
-      question: { 
-        en: "When should I apply for college admission?", 
-        hi: "मुझे कॉलेज प्रवेश के लिए कब आवेदन करना चाहिए?" 
+      question: {
+        en: "When should I apply for college admission?",
+        hi: "मुझे कॉलेज प्रवेश के लिए कब आवेदन करना चाहिए?",
       },
       answer: {
         en: "Most colleges have admission cycles in spring and fall. Start the application process 6-12 months before your intended start date. Check specific deadlines on the college website as they vary by institution and program.",
@@ -412,9 +432,9 @@ export const admissionApplicationsData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "What documents are needed for admission?", 
-        hi: "प्रवेश के लिए कौन से दस्तावेज आवश्यक हैं?" 
+      question: {
+        en: "What documents are needed for admission?",
+        hi: "प्रवेश के लिए कौन से दस्तावेज आवश्यक हैं?",
       },
       answer: {
         en: "Common documents include previous academic certificates, mark sheets, transfer certificate (if applicable), birth certificate, passport-size photos, ID proof, and caste certificate (if applicable). Some institutions may require entrance exam scores or recommendation letters.",
@@ -422,9 +442,9 @@ export const admissionApplicationsData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "Can I apply to multiple colleges at once?", 
-        hi: "क्या मैं एक साथ कई कॉलेजों में आवेदन कर सकता हूं?" 
+      question: {
+        en: "Can I apply to multiple colleges at once?",
+        hi: "क्या मैं एक साथ कई कॉलेजों में आवेदन कर सकता हूं?",
       },
       answer: {
         en: "Yes, you can and should apply to multiple colleges to increase your chances of admission. However, be mindful of application fees and ensure you can meet all deadlines. Apply to a mix of reach, match, and safety schools.",
@@ -444,9 +464,9 @@ export const scholarshipApplicationsData: SubcategoryData = {
     { en: "Applications", hi: "आवेदन" },
     { en: "Scholarship Applications", hi: "छात्रवृत्ति आवेदन" },
   ],
-  heroTitle: { 
-    en: "Scholarship Application Templates", 
-    hi: "छात्रवृत्ति आवेदन टेम्पलेट" 
+  heroTitle: {
+    en: "Scholarship Application Templates",
+    hi: "छात्रवृत्ति आवेदन टेम्पलेट",
   },
   heroDescription: {
     en: "Merit-based and need-based scholarship application formats for students - increase your chances of financial aid approval.",
@@ -456,13 +476,20 @@ export const scholarshipApplicationsData: SubcategoryData = {
     en: "Search scholarship application templates…",
     hi: "छात्रवृत्ति आवेदन टेम्पलेट खोजें...",
   },
-  tags: ["Merit Scholarship", "Need-Based", "Sports Scholarship", "Government", "Private", "Research Grant"],
+  tags: [
+    "Merit Scholarship",
+    "Need-Based",
+    "Sports Scholarship",
+    "Government",
+    "Private",
+    "Research Grant",
+  ],
   templates: [
     {
       id: "scholarship-1",
-      title: { 
-        en: "Merit-Based Scholarship Application", 
-        hi: "योग्यता-आधारित छात्रवृत्ति आवेदन" 
+      title: {
+        en: "Merit-Based Scholarship Application",
+        hi: "योग्यता-आधारित छात्रवृत्ति आवेदन",
       },
       description: {
         en: "Application format for academic excellence and merit-based scholarships.",
@@ -471,13 +498,13 @@ export const scholarshipApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.3k",
       badge: "Popular",
-      templateSlug:'/'
+      templateSlug: "application-for-merit-scholarship",
     },
     {
       id: "scholarship-2",
-      title: { 
-        en: "Need-Based Financial Aid Application", 
-        hi: "आवश्यकता-आधारित वित्तीय सहायता आवेदन" 
+      title: {
+        en: "Need-Based Financial Aid Application",
+        hi: "आवश्यकता-आधारित वित्तीय सहायता आवेदन",
       },
       description: {
         en: "Template for applying for scholarships based on financial need and family income.",
@@ -486,13 +513,13 @@ export const scholarshipApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "15.8k",
       badge: "Trending",
-      templateSlug:'/'
+      templateSlug: "application-for-need-based-scholarship",
     },
     {
       id: "scholarship-3",
-      title: { 
-        en: "Government Scholarship Application", 
-        hi: "सरकारी छात्रवृत्ति आवेदन" 
+      title: {
+        en: "Government Scholarship Application",
+        hi: "सरकारी छात्रवृत्ति आवेदन",
       },
       description: {
         en: "Official format for applying to government and state-funded scholarship programs.",
@@ -500,13 +527,13 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.1k",
-      templateSlug:'/'
+      templateSlug: "application-for-government-scholarship",
     },
     {
       id: "scholarship-4",
-      title: { 
-        en: "Sports Scholarship Application Letter", 
-        hi: "खेल छात्रवृत्ति आवेदन पत्र" 
+      title: {
+        en: "Sports Scholarship Application Letter",
+        hi: "खेल छात्रवृत्ति आवेदन पत्र",
       },
       description: {
         en: "Application template for athletes seeking sports-based scholarships.",
@@ -514,13 +541,13 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.6k",
-      templateSlug:'/'
+      templateSlug: "application-for-sports-scholarship",
     },
     {
       id: "scholarship-5",
-      title: { 
-        en: "Private Scholarship Application", 
-        hi: "निजी छात्रवृत्ति आवेदन" 
+      title: {
+        en: "Private Scholarship Application",
+        hi: "निजी छात्रवृत्ति आवेदन",
       },
       description: {
         en: "Format for corporate and private foundation scholarship applications.",
@@ -528,13 +555,13 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "10.2k",
-      templateSlug:'/'
+      templateSlug: "application-for-private-scholarship",
     },
     {
       id: "scholarship-6",
-      title: { 
-        en: "Research Grant Application", 
-        hi: "अनुसंधान अनुदान आवेदन" 
+      title: {
+        en: "Research Grant Application",
+        hi: "अनुसंधान अनुदान आवेदन",
       },
       description: {
         en: "Application template for academic research grants and fellowships.",
@@ -542,7 +569,7 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.4k",
-      templateSlug:'/'
+      templateSlug: "application-for-research-grant",
     },
   ],
   seoTitle: {
@@ -570,16 +597,19 @@ export const scholarshipApplicationsData: SubcategoryData = {
       slug: "certificate-request",
     },
     {
-      title: { en: "Request Letter to Principal", hi: "प्रधानाचार्य को अनुरोध पत्र" },
+      title: {
+        en: "Request Letter to Principal",
+        hi: "प्रधानाचार्य को अनुरोध पत्र",
+      },
       category: { en: "Letters", hi: "पत्र" },
       slug: "request",
     },
   ],
   blogPosts: [
     {
-      title: { 
-        en: "How to Write a Winning Scholarship Application", 
-        hi: "विजयी छात्रवृत्ति आवेदन कैसे लिखें" 
+      title: {
+        en: "How to Write a Winning Scholarship Application",
+        hi: "विजयी छात्रवृत्ति आवेदन कैसे लिखें",
       },
       excerpt: {
         en: "Proven strategies to make your scholarship application stand out",
@@ -589,9 +619,9 @@ export const scholarshipApplicationsData: SubcategoryData = {
       slug: "winning-scholarship-application",
     },
     {
-      title: { 
-        en: "Top Government Scholarships for Students in India", 
-        hi: "भारत में छात्रों के लिए शीर्ष सरकारी छात्रवृत्तियां" 
+      title: {
+        en: "Top Government Scholarships for Students in India",
+        hi: "भारत में छात्रों के लिए शीर्ष सरकारी छात्रवृत्तियां",
       },
       excerpt: {
         en: "Complete list of government scholarships and how to apply",
@@ -601,9 +631,9 @@ export const scholarshipApplicationsData: SubcategoryData = {
       slug: "government-scholarships-india",
     },
     {
-      title: { 
-        en: "Scholarship Essay Writing Tips", 
-        hi: "छात्रवृत्ति निबंध लेखन सुझाव" 
+      title: {
+        en: "Scholarship Essay Writing Tips",
+        hi: "छात्रवृत्ति निबंध लेखन सुझाव",
       },
       excerpt: {
         en: "Expert tips for writing compelling scholarship essays that get funded",
@@ -615,9 +645,9 @@ export const scholarshipApplicationsData: SubcategoryData = {
   ],
   faqs: [
     {
-      question: { 
-        en: "When should I apply for scholarships?", 
-        hi: "मुझे छात्रवृत्ति के लिए कब आवेदन करना चाहिए?" 
+      question: {
+        en: "When should I apply for scholarships?",
+        hi: "मुझे छात्रवृत्ति के लिए कब आवेदन करना चाहिए?",
       },
       answer: {
         en: "Start researching and applying for scholarships as early as possible, ideally 6-12 months before you need the funds. Many scholarships have specific deadlines throughout the year. Create a calendar of deadlines and start applications early to avoid last-minute rush.",
@@ -625,9 +655,9 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "Can I apply for multiple scholarships?", 
-        hi: "क्या मैं कई छात्रवृत्तियों के लिए आवेदन कर सकता हूं?" 
+      question: {
+        en: "Can I apply for multiple scholarships?",
+        hi: "क्या मैं कई छात्रवृत्तियों के लिए आवेदन कर सकता हूं?",
       },
       answer: {
         en: "Yes, you should apply for as many scholarships as you qualify for. There's no limit to the number of scholarships you can receive. Each application increases your chances of securing financial aid. However, some scholarships may have restrictions on combining with others.",
@@ -635,9 +665,9 @@ export const scholarshipApplicationsData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "What makes a scholarship application strong?", 
-        hi: "छात्रवृत्ति आवेदन को मजबूत क्या बनाता है?" 
+      question: {
+        en: "What makes a scholarship application strong?",
+        hi: "छात्रवृत्ति आवेदन को मजबूत क्या बनाता है?",
       },
       answer: {
         en: "A strong scholarship application includes excellent academic records, compelling personal statement, clear demonstration of need or merit, strong recommendations, relevant achievements and extracurricular activities, and error-free writing. Tailor each application to the specific scholarship requirements.",
@@ -652,14 +682,17 @@ export const certificateRequestData: SubcategoryData = {
   slug: "certificate-request",
   categorySlug: "applications",
   categoryName: { en: "Applications", hi: "आवेदन" },
-  subcategoryName: { en: "Certificate Request Applications", hi: "प्रमाणपत्र अनुरोध आवेदन" },
+  subcategoryName: {
+    en: "Certificate Request Applications",
+    hi: "प्रमाणपत्र अनुरोध आवेदन",
+  },
   breadcrumb: [
     { en: "Applications", hi: "आवेदन" },
     { en: "Certificate Requests", hi: "प्रमाणपत्र अनुरोध" },
   ],
-  heroTitle: { 
-    en: "Certificate Request Application Templates", 
-    hi: "प्रमाणपत्र अनुरोध आवेदन टेम्पलेट" 
+  heroTitle: {
+    en: "Certificate Request Application Templates",
+    hi: "प्रमाणपत्र अनुरोध आवेदन टेम्पलेट",
   },
   heroDescription: {
     en: "Professional formats for requesting various certificates from schools, colleges, offices, and government departments.",
@@ -669,13 +702,20 @@ export const certificateRequestData: SubcategoryData = {
     en: "Search certificate request templates…",
     hi: "प्रमाणपत्र अनुरोध टेम्पलेट खोजें...",
   },
-  tags: ["Experience Certificate", "Transfer Certificate", "Income Certificate", "Caste Certificate", "Bonafide", "Character Certificate"],
+  tags: [
+    "Experience Certificate",
+    "Transfer Certificate",
+    "Income Certificate",
+    "Caste Certificate",
+    "Bonafide",
+    "Character Certificate",
+  ],
   templates: [
     {
       id: "cert-req-1",
-      title: { 
-        en: "Experience Certificate Request Letter", 
-        hi: "अनुभव प्रमाणपत्र अनुरोध पत्र" 
+      title: {
+        en: "Experience Certificate Request Letter",
+        hi: "अनुभव प्रमाणपत्र अनुरोध पत्र",
       },
       description: {
         en: "Formal request to employer for experience or service certificate.",
@@ -684,13 +724,13 @@ export const certificateRequestData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "19.2k",
       badge: "Popular",
-      templateSlug:'/'
+      templateSlug: "application-for-experience-certificate-request",
     },
     {
       id: "cert-req-2",
-      title: { 
-        en: "Transfer Certificate Request", 
-        hi: "स्थानांतरण प्रमाणपत्र अनुरोध" 
+      title: {
+        en: "Transfer Certificate Request",
+        hi: "स्थानांतरण प्रमाणपत्र अनुरोध",
       },
       description: {
         en: "Application to school or college for transfer certificate and documents.",
@@ -699,13 +739,13 @@ export const certificateRequestData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.5k",
       badge: "Trending",
-      templateSlug:'/'
+      templateSlug: "application-for-transfer-certificate-request",
     },
     {
       id: "cert-req-3",
-      title: { 
-        en: "Income Certificate Application", 
-        hi: "आय प्रमाणपत्र आवेदन" 
+      title: {
+        en: "Income Certificate Application",
+        hi: "आय प्रमाणपत्र आवेदन",
       },
       description: {
         en: "Request format for income certificate from government authorities.",
@@ -713,13 +753,13 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "16.3k",
-      templateSlug:'/'
+      templateSlug: "application-for-income-certificate",
     },
     {
       id: "cert-req-4",
-      title: { 
-        en: "Bonafide Certificate Request", 
-        hi: "बोनाफाइड प्रमाणपत्र अनुरोध" 
+      title: {
+        en: "Bonafide Certificate Request",
+        hi: "बोनाफाइड प्रमाणपत्र अनुरोध",
       },
       description: {
         en: "Application template for student bonafide certificate from educational institutions.",
@@ -727,13 +767,13 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.8k",
-      templateSlug:'/'
+      templateSlug: "application-for-bonafide-certificate-request",
     },
     {
       id: "cert-req-5",
-      title: { 
-        en: "Character Certificate Request", 
-        hi: "चरित्र प्रमाणपत्र अनुरोध" 
+      title: {
+        en: "Character Certificate Request",
+        hi: "चरित्र प्रमाणपत्र अनुरोध",
       },
       description: {
         en: "Formal request for character certificate from school, college, or employer.",
@@ -741,13 +781,13 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.1k",
-      templateSlug:'/'
+      templateSlug: "application-for-character-certificate-request",
     },
     {
       id: "cert-req-6",
-      title: { 
-        en: "Caste Certificate Application", 
-        hi: "जाति प्रमाणपत्र आवेदन" 
+      title: {
+        en: "Caste Certificate Application",
+        hi: "जाति प्रमाणपत्र आवेदन",
       },
       description: {
         en: "Application format for caste certificate from competent authority.",
@@ -755,7 +795,7 @@ export const certificateRequestData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.4k",
-      templateSlug:'/'
+      templateSlug: "application-for-caste-certificate-request",
     },
   ],
   seoTitle: {
@@ -768,7 +808,10 @@ export const certificateRequestData: SubcategoryData = {
   },
   relatedTemplates: [
     {
-      title: { en: "Experience Certificate Format", hi: "अनुभव प्रमाणपत्र प्रारूप" },
+      title: {
+        en: "Experience Certificate Format",
+        hi: "अनुभव प्रमाणपत्र प्रारूप",
+      },
       category: { en: "Certificates", hi: "प्रमाणपत्र" },
       slug: "experience",
     },
@@ -778,7 +821,10 @@ export const certificateRequestData: SubcategoryData = {
       slug: "resignation",
     },
     {
-      title: { en: "School Transfer Application", hi: "स्कूल स्थानांतरण आवेदन" },
+      title: {
+        en: "School Transfer Application",
+        hi: "स्कूल स्थानांतरण आवेदन",
+      },
       category: { en: "Admission Applications", hi: "प्रवेश आवेदन" },
       slug: "admission",
     },
@@ -790,9 +836,9 @@ export const certificateRequestData: SubcategoryData = {
   ],
   blogPosts: [
     {
-      title: { 
-        en: "How to Request Experience Certificate from Employer", 
-        hi: "नियोक्ता से अनुभव प्रमाणपत्र का अनुरोध कैसे करें" 
+      title: {
+        en: "How to Request Experience Certificate from Employer",
+        hi: "नियोक्ता से अनुभव प्रमाणपत्र का अनुरोध कैसे करें",
       },
       excerpt: {
         en: "Professional guidelines for requesting experience certificates",
@@ -802,9 +848,9 @@ export const certificateRequestData: SubcategoryData = {
       slug: "request-experience-certificate",
     },
     {
-      title: { 
-        en: "Transfer Certificate: Complete Process Guide", 
-        hi: "स्थानांतरण प्रमाणपत्र: पूर्ण प्रक्रिया गाइड" 
+      title: {
+        en: "Transfer Certificate: Complete Process Guide",
+        hi: "स्थानांतरण प्रमाणपत्र: पूर्ण प्रक्रिया गाइड",
       },
       excerpt: {
         en: "Everything you need to know about obtaining transfer certificates",
@@ -814,9 +860,9 @@ export const certificateRequestData: SubcategoryData = {
       slug: "transfer-certificate-guide",
     },
     {
-      title: { 
-        en: "Income Certificate: Documents and Procedure", 
-        hi: "आय प्रमाणपत्र: दस्तावेज और प्रक्रिया" 
+      title: {
+        en: "Income Certificate: Documents and Procedure",
+        hi: "आय प्रमाणपत्र: दस्तावेज और प्रक्रिया",
       },
       excerpt: {
         en: "Step-by-step guide to apply for income certificate online and offline",
@@ -828,9 +874,9 @@ export const certificateRequestData: SubcategoryData = {
   ],
   faqs: [
     {
-      question: { 
-        en: "How do I request an experience certificate?", 
-        hi: "मैं अनुभव प्रमाणपत्र का अनुरोध कैसे करूं?" 
+      question: {
+        en: "How do I request an experience certificate?",
+        hi: "मैं अनुभव प्रमाणपत्र का अनुरोध कैसे करूं?",
       },
       answer: {
         en: "Write a formal letter to your HR department or manager requesting the experience certificate. Include your employee ID, designation, dates of employment, and reason for request. Submit it at least 2 weeks before you need it. Follow up politely if you don't receive it within the promised timeframe.",
@@ -838,9 +884,9 @@ export const certificateRequestData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "What documents are needed for income certificate?", 
-        hi: "आय प्रमाणपत्र के लिए कौन से दस्तावेज आवश्यक हैं?" 
+      question: {
+        en: "What documents are needed for income certificate?",
+        hi: "आय प्रमाणपत्र के लिए कौन से दस्तावेज आवश्यक हैं?",
       },
       answer: {
         en: "Required documents typically include application form, ID proof (Aadhaar/PAN), address proof, salary slips or income statements, property documents (if applicable), and passport-size photographs. Self-employed individuals may need business registration and ITR documents.",
@@ -848,9 +894,9 @@ export const certificateRequestData: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "How long does it take to get a transfer certificate?", 
-        hi: "स्थानांतरण प्रमाणपत्र प्राप्त करने में कितना समय लगता है?" 
+      question: {
+        en: "How long does it take to get a transfer certificate?",
+        hi: "स्थानांतरण प्रमाणपत्र प्राप्त करने में कितना समय लगता है?",
       },
       answer: {
         en: "Most schools and colleges issue transfer certificates within 7-15 days of application, provided all dues are cleared and necessary documents are submitted. Some institutions may take longer during peak admission seasons. Apply well in advance if you have a deadline.",

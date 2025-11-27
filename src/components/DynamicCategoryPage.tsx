@@ -92,7 +92,7 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
       <div className="container mx-auto px-4 py-12">
         {/* Language Toggle - Top Right */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           className="flex justify-end mb-4"
@@ -120,7 +120,7 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
               हिंदी
             </button>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Breadcrumb Navigation */}
         <motion.nav

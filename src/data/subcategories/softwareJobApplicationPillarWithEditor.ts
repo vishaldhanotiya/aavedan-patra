@@ -7,16 +7,16 @@ import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const softwareJobApplicationPillarWithEditor = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", linkSlug: "/applications" },
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
     subcategory: {
       en: "Job Applications",
       hi: "नौकरी आवेदन",
-      linkSlug: "/applications/jobs",
+      slug: "/applications/job",
     },
     template: {
       en: "Software & IT Job Application",
       hi: "सॉफ्टवेयर और आईटी नौकरी आवेदन",
-      linkSlug: "",
+      slug: "",
     },
   },
 
