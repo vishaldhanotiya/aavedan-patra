@@ -110,7 +110,7 @@ export function UniversalSubcategoryPage({
                       : ""
                   }`}
                 >
-                  <Link href={`/${crumb.en}`.toLowerCase()}>{t(crumb)}</Link>
+                  <Link href={`${crumb.slug}`}>{t(crumb)}</Link>
                 </span>
               </li>
             ))}

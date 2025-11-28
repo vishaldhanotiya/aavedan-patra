@@ -21,7 +21,7 @@ export interface SubcategoryData {
   subcategoryName: { en: string; hi: string };
   
   // Breadcrumb
-  breadcrumb: { en: string; hi: string,breadcrumb?:string }[];
+  breadcrumb: { en: string; hi: string, slug?:string }[];
   
   // Hero Section
   heroTitle: { en: string; hi: string };
@@ -80,8 +80,8 @@ export const jobApplicationsData: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Job Applications", hi: "नौकरी आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन"},
-    { en: "Job Applications", hi: "नौकरी आवेदन" },
+    { en: "Applications", hi: "आवेदन", slug:"/applications"},
+    { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
   ],
   heroTitle: { 
     en: "Job Application Templates", 
@@ -298,8 +298,8 @@ export const leaveApplicationsData: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Leave Applications", hi: "छुट्टी आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन",},
-    { en: "Leave Applications", hi: "छुट्टी आवेदन" },
+    { en: "Applications", hi: "आवेदन",slug:"/applications"},
+    { en: "Leave Applications", hi: "छुट्टी आवेदन",slug:"/applications/leave" },
   ],
   heroTitle: { 
     en: "Leave Application Templates", 

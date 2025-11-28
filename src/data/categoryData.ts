@@ -36,6 +36,7 @@ import {
 interface MultilingualContent {
   en: string;
   hi: string;
+  slug?:string 
 }
 
 interface CategoryTemplate {
@@ -44,6 +45,8 @@ interface CategoryTemplate {
   views: string;
   date: string;
   tag?: string;
+  slug?:string 
+
 }
 
 interface CategorySubcategory {
@@ -337,24 +340,24 @@ export const lettersCategory: CategoryData = {
     hi: "सभी स्थितियों के लिए पेशेवर और व्यक्तिगत पत्र प्रारूप खोजें - त्यागपत्र, अनुरोध, शिकायत, माफी और निमंत्रण पत्र। तुरंत कॉपी, संपादित या डाउनलोड करें।",
   },
   breadcrumbs: [
-    { en: "Letters", hi: "पत्र" },
+    { en: "Letters", hi: "पत्र",  slug:'/letters' },
   ],
   icon: Mail,
   subcategories: [
-    {
-      icon: FileText,
-      title: { en: "Formal Letters", hi: "औपचारिक पत्र" },
-      description: { en: "Official and business letter formats", hi: "आधिकारिक और व्यावसायिक पत्र प्रारूप" },
-      count: 48,
-      slug: "formal",
-    },
-    {
-      icon: MessageSquare,
-      title: { en: "Informal Letters", hi: "अनौपचारिक पत्र" },
-      description: { en: "Personal and casual letter templates", hi: "व्यक्तिगत और आकस्मिक पत्र टेम्पलेट" },
-      count: 34,
-      slug: "informal",
-    },
+    // {
+    //   icon: FileText,
+    //   title: { en: "Formal Letters", hi: "औपचारिक पत्र" },
+    //   description: { en: "Official and business letter formats", hi: "आधिकारिक और व्यावसायिक पत्र प्रारूप" },
+    //   count: 48,
+    //   slug: "formal",
+    // },
+    // {
+    //   icon: MessageSquare,
+    //   title: { en: "Informal Letters", hi: "अनौपचारिक पत्र" },
+    //   description: { en: "Personal and casual letter templates", hi: "व्यक्तिगत और आकस्मिक पत्र टेम्पलेट" },
+    //   count: 34,
+    //   slug: "informal",
+    // },
     {
       icon: ClipboardCheck,
       title: { en: "Request Letters", hi: "अनुरोध पत्र" },

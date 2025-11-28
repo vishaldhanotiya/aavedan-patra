@@ -12,8 +12,8 @@ export const formalLettersData: SubcategoryData = {
   categoryName: { en: "Letters", hi: "पत्र" },
   subcategoryName: { en: "Formal Letters", hi: "औपचारिक पत्र" },
   breadcrumb: [
-    { en: "Letters", hi: "पत्र" },
-    { en: "Formal Letters", hi: "औपचारिक पत्र" },
+    { en: "Letters", hi: "पत्र", slug:"/letters" },
+    { en: "Formal Letters", hi: "औपचारिक पत्र",slug:"/letters" },
   ],
   heroTitle: { 
     en: "Formal Letter Templates", 
@@ -438,8 +438,8 @@ export const requestLettersData: SubcategoryData = {
   categoryName: { en: "Letters", hi: "पत्र" },
   subcategoryName: { en: "Request Letters", hi: "अनुरोध पत्र" },
   breadcrumb: [
-    { en: "Letters", hi: "पत्र" },
-    { en: "Request Letters", hi: "अनुरोध पत्र" },
+    { en: "Letters", hi: "पत्र", slug:'/letters'},
+    { en: "Request Letters", hi: "अनुरोध पत्र", slug:'/letters/request' },
   ],
   heroTitle: { 
     en: "Request Letter Templates", 
@@ -468,7 +468,7 @@ export const requestLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "21.2k",
       badge: "Popular",
-      templateSlug:'/'
+      templateSlug:'permission-request-letter'
     },
     {
       id: "request-2",
@@ -483,7 +483,7 @@ export const requestLettersData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "18.9k",
       badge: "Trending",
-      templateSlug:'/'
+      templateSlug:'information-request-letter'
     },
     {
       id: "request-3",
@@ -497,7 +497,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "17.4k",
-      templateSlug:'/'
+      templateSlug:'meeting-request-letter'
     },
     {
       id: "request-4",
@@ -511,7 +511,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "15.6k",
-      templateSlug:'/'
+      templateSlug:'sponsorship-request-letter'
     },
     {
       id: "request-5",
@@ -525,7 +525,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.2k",
-      templateSlug:'/'
+      templateSlug:'donation-request-letter'
     },
     {
       id: "request-6",
@@ -539,7 +539,7 @@ export const requestLettersData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.1k",
-      templateSlug:'/'
+      templateSlug:'recommendation-request-letter'
     },
   ],
   seoTitle: {

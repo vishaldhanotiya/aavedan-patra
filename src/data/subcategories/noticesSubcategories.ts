@@ -12,8 +12,8 @@ export const schoolNoticesData: SubcategoryData = {
   categoryName: { en: "Notices", hi: "नोटिस" },
   subcategoryName: { en: "School Notices", hi: "स्कूल नोटिस" },
   breadcrumb: [
-    { en: "Notices", hi: "नोटिस" },
-    { en: "School Notices", hi: "स्कूल नोटिस" },
+    { en: "Notices", hi: "नोटिस", slug:"/letters" },
+    { en: "School Notices", hi: "स्कूल नोटिस", slug:"/letters" },
   ],
   heroTitle: { en: "School Notice Templates", hi: "स्कूल नोटिस टेम्पलेट" },
   heroDescription: {
@@ -104,8 +104,8 @@ export const officeNoticesData: SubcategoryData = {
   categoryName: { en: "Notices", hi: "नोटिस" },
   subcategoryName: { en: "Office Notices", hi: "कार्यालय नोटिस" },
   breadcrumb: [
-    { en: "Notices", hi: "नोटिस" },
-    { en: "Office Notices", hi: "कार्यालय नोटिस" },
+    { en: "Notices", hi: "नोटिस", slug:"/letters" },
+    { en: "Office Notices", hi: "कार्यालय नोटिस", slug:"/letters" },
   ],
   heroTitle: { en: "Office Notice Templates", hi: "कार्यालय नोटिस टेम्पलेट" },
   heroDescription: {
@@ -196,8 +196,8 @@ export const meetingReportsData: SubcategoryData = {
   categoryName: { en: "Notices", hi: "नोटिस" },
   subcategoryName: { en: "Meeting Reports", hi: "बैठक रिपोर्ट" },
   breadcrumb: [
-    { en: "Notices", hi: "नोटिस" },
-    { en: "Meeting Reports", hi: "बैठक रिपोर्ट" },
+    { en: "Notices", hi: "नोटिस", slug:"/letters" },
+    { en: "Meeting Reports", hi: "बैठक रिपोर्ट", slug:"/letters" },
   ],
   heroTitle: { en: "Meeting Report Templates", hi: "बैठक रिपोर्ट टेम्पलेट" },
   heroDescription: {
@@ -288,8 +288,8 @@ export const projectReportsData: SubcategoryData = {
   categoryName: { en: "Notices", hi: "नोटिस" },
   subcategoryName: { en: "Project Reports", hi: "परियोजना रिपोर्ट" },
   breadcrumb: [
-    { en: "Notices", hi: "नोटिस" },
-    { en: "Project Reports", hi: "परियोजना रिपोर्ट" },
+    { en: "Notices", hi: "नोटिस", slug:"/letters" },
+    { en: "Project Reports", hi: "परियोजना रिपोर्ट", slug:"/letters" },
   ],
   heroTitle: { en: "Project Report Templates", hi: "परियोजना रिपोर्ट टेम्पलेट" },
   heroDescription: {
@@ -381,7 +381,7 @@ export const eventNoticesData: SubcategoryData = {
   categorySlug: "notices",
   categoryName: { en: "Notices", hi: "नोटिस" },
   subcategoryName: { en: "Event Notices", hi: "कार्यक्रम नोटिस" },
-  breadcrumb: [{ en: "Notices", hi: "नोटिस" }, { en: "Event Notices", hi: "कार्यक्रम नोटिस" }],
+  breadcrumb: [{ en: "Notices", hi: "नोटिस", slug:"/letters" }, { en: "Event Notices", hi: "कार्यक्रम नोटिस", slug:"/letters" }],
   heroTitle: { en: "Event Notice Templates", hi: "कार्यक्रम नोटिस टेम्पलेट" },
   heroDescription: { en: "Professional event announcement formats for seminars, workshops, and programs - engaging event notice templates.", hi: "सेमिनार, कार्यशालाओं और कार्यक्रमों के लिए पेशेवर कार्यक्रम घोषणा प्रारूप।" },
   searchPlaceholder: { en: "Search event notice templates…", hi: "कार्यक्रम नोटिस टेम्पलेट खोजें..." },
@@ -420,7 +420,7 @@ export const policyNoticesData: SubcategoryData = {
   categorySlug: "notices",
   categoryName: { en: "Notices", hi: "नोटिस" },
   subcategoryName: { en: "Policy Notices", hi: "नीति नोटिस" },
-  breadcrumb: [{ en: "Notices", hi: "नोटिस" }, { en: "Policy Notices", hi: "नीति नोटिस" }],
+  breadcrumb: [{ en: "Notices", hi: "नोटिस", slug:"/letters" }, { en: "Policy Notices", hi: "नीति नोटिस", slug:"/letters" }],
   heroTitle: { en: "Policy Notice Templates", hi: "नीति नोटिस टेम्पलेट" },
   heroDescription: { en: "Professional policy update and compliance notice formats - official policy announcement templates.", hi: "पेशेवर नीति अद्यतन और अनुपालन नोटिस प्रारूप - आधिकारिक नीति घोषणा टेम्पलेट।" },
   searchPlaceholder: { en: "Search policy notice templates…", hi: "नीति नोटिस टेम्पलेट खोजें..." },

@@ -15,8 +15,8 @@ export const loanApplicationsData: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Loan Applications", hi: "ऋण आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन" },
-    { en: "Loan Applications", hi: "ऋण आवेदन" },
+    { en: "Applications", hi: "आवेदन",slug:"/applications" },
+    { en: "Loan Applications", hi: "ऋण आवेदन",slug:"/applications/loan" },
   ],
   heroTitle: {
     en: "Loan Application Templates",
@@ -235,8 +235,8 @@ export const admissionApplicationsData: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Admission Applications", hi: "प्रवेश आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन" },
-    { en: "Admission Applications", hi: "प्रवेश आवेदन" },
+    { en: "Applications", hi: "आवेदन", slug:"/applications" },
+    { en: "Admission Applications", hi: "प्रवेश आवेदन",slug:"/applications/admission" },
   ],
   heroTitle: {
     en: "Admission Application Templates",
@@ -461,8 +461,8 @@ export const scholarshipApplicationsData: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Scholarship Applications", hi: "छात्रवृत्ति आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन" },
-    { en: "Scholarship Applications", hi: "छात्रवृत्ति आवेदन" },
+    { en: "Applications", hi: "आवेदन",slug:"/applications" },
+    { en: "Scholarship Applications", hi: "छात्रवृत्ति आवेदन",slug:"/applications/scholarship" },
   ],
   heroTitle: {
     en: "Scholarship Application Templates",
@@ -687,8 +687,8 @@ export const certificateRequestData: SubcategoryData = {
     hi: "प्रमाणपत्र अनुरोध आवेदन",
   },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन" },
-    { en: "Certificate Requests", hi: "प्रमाणपत्र अनुरोध" },
+    { en: "Applications", hi: "आवेदन",slug:"/applications" },
+    { en: "Certificate Requests", hi: "प्रमाणपत्र अनुरोध",slug:"/applications/certificate-request" },
   ],
   heroTitle: {
     en: "Certificate Request Application Templates",

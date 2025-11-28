@@ -12,8 +12,8 @@ export const experienceCertificatesData: SubcategoryData = {
   categoryName: { en: "Certificates", hi: "प्रमाणपत्र" },
   subcategoryName: { en: "Experience Certificates", hi: "अनुभव प्रमाणपत्र" },
   breadcrumb: [
-    { en: "Certificates", hi: "प्रमाणपत्र" },
-    { en: "Experience Certificates", hi: "अनुभव प्रमाणपत्र" },
+    { en: "Certificates", hi: "प्रमाणपत्र", slug:"/letters"},
+    { en: "Experience Certificates", hi: "अनुभव प्रमाणपत्र", slug:"/letters" },
   ],
   heroTitle: { en: "Experience Certificate Templates", hi: "अनुभव प्रमाणपत्र टेम्पलेट" },
   heroDescription: {
@@ -196,8 +196,8 @@ export const characterCertificatesData: SubcategoryData = {
   categoryName: { en: "Certificates", hi: "प्रमाणपत्र" },
   subcategoryName: { en: "Character Certificates", hi: "चरित्र प्रमाणपत्र" },
   breadcrumb: [
-    { en: "Certificates", hi: "प्रमाणपत्र" },
-    { en: "Character Certificates", hi: "चरित्र प्रमाणपत्र" },
+    { en: "Certificates", hi: "प्रमाणपत्र", slug:"/letters" },
+    { en: "Character Certificates", hi: "चरित्र प्रमाणपत्र", slug:"/letters"},
   ],
   heroTitle: { en: "Character Certificate Templates", hi: "चरित्र प्रमाणपत्र टेम्पलेट" },
   heroDescription: {
