@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 //import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -15,7 +16,8 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 
 export const metadata: Metadata = {
   title: "Aavedan Patra",
-  description: "Explore 1000+ free professional templates — crafted for your job, study, and business needs. Explore Templates",
+  description:
+    "Explore 1000+ free professional templates — crafted for your job, study, and business needs. Explore Templates",
 };
 
 export default function RootLayout({
@@ -25,10 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-24ZQVM678J" />
       <body>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );

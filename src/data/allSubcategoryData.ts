@@ -328,7 +328,7 @@ export const leaveApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "14.3k",
       badge: "Popular",
-      templateSlug: "job-application-for-sick-leave",
+      templateSlug: "application-for-sick-leave",
 
     },
     {
@@ -344,7 +344,7 @@ export const leaveApplicationsData: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "16.8k",
       badge: "Trending",
-            templateSlug: "job-application-for-casual-leave",
+            templateSlug: "application-for-casual-leave",
 
     },
     {
@@ -359,7 +359,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "12.1k",
-      templateSlug: "job-application-for-urgent-leave",
+      templateSlug: "application-for-urgent-leave",
 
     },
     {
@@ -374,7 +374,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "10.9k",
-      templateSlug: "job-application-for-personal-leave",
+      templateSlug: "application-for-personal-leave",
 
     },
     {
@@ -389,7 +389,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.4k",
-      templateSlug: "job-application-for-school-leave",
+      templateSlug: "application-for-school-leave",
 
     },
     {
@@ -404,7 +404,7 @@ export const leaveApplicationsData: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.7k",
-            templateSlug: "job-application-for-vacation-leave",
+            templateSlug: "application-for-vacation-leave",
 
     },
   ],
