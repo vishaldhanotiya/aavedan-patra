@@ -29,6 +29,7 @@ import {
   AccordionTrigger,
 } from "./ui/accordion";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface CategoryPageProps {
   category: {
@@ -41,7 +42,7 @@ interface CategoryPageProps {
       title: string;
       description: string;
       count: number;
-      href?:string;
+      href?: string;
     }[];
     templates: {
       title: string;
@@ -49,7 +50,7 @@ interface CategoryPageProps {
       views: string;
       date: string;
       tag?: string;
-      href?:string
+      href?: string;
     }[];
     aboutContent: string;
     relatedCategories: {
@@ -75,6 +76,7 @@ export function CategoryPage({ category }: CategoryPageProps) {
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const { lang } = useLanguage();
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
@@ -88,9 +90,7 @@ export function CategoryPage({ category }: CategoryPageProps) {
           <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
               <Home className="w-4 h-4" />
-              <Link href={"/"}>
-                Home
-              </Link>
+              <Link href={"/"}> {lang === "en" ? "Home" : "होम"}</Link>
             </li>
             {category.breadcrumbs.map((crumb, index) => (
               <li key={index} className="flex items-center gap-2">
@@ -170,10 +170,9 @@ export function CategoryPage({ category }: CategoryPageProps) {
                   <span className="text-xs text-slate-500 dark:text-white/50">
                     {sub.count} templates
                   </span>
-                                    <Link href={sub.href ?? "/"}>
-
-                  <ArrowRight className="w-4 h-4 text-cyan-600 dark:text-cyan-400 group-hover:translate-x-1 transition-transform" />
-                </Link>
+                  <Link href={sub.href ?? "/"}>
+                    <ArrowRight className="w-4 h-4 text-cyan-600 dark:text-cyan-400 group-hover:translate-x-1 transition-transform" />
+                  </Link>
                 </div>
               </motion.div>
             ))}
@@ -331,10 +330,10 @@ export function CategoryPage({ category }: CategoryPageProps) {
                     </span>
                   </div>
                 </div>
-              <Link href={template.href || ''}>
-                <Button className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white" >
-                  View Template
-                </Button>
+                <Link href={template.href || ""}>
+                  <Button className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white">
+                    View Template
+                  </Button>
                 </Link>
               </motion.div>
             ))}

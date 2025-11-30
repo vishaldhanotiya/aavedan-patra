@@ -21,6 +21,7 @@ import {
 import { Button } from "./ui/button";
 import { toast } from "sonner";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface ContactUsProps {
   language?: "en" | "hi";
@@ -82,6 +83,7 @@ export function ContactUs({ language = "en" }: ContactUsProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
+  const {lang}=useLanguage()
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -126,7 +128,7 @@ export function ContactUs({ language = "en" }: ContactUsProps) {
             <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
               <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                 <Home className="w-4 h-4" />
-                <Link href={"/"}>Home</Link>
+              <Link href={"/"}> {lang === "en" ? "Home" : "होम"}</Link>
               </li>
               <li className="flex items-center gap-2">
                 <ChevronRight className="w-4 h-4" />

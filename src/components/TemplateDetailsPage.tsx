@@ -17,6 +17,7 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { toast } from "sonner";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface TemplateDetailsPageProps {
   template: {
@@ -46,6 +47,7 @@ const relatedTemplates = [
 
 export function TemplateDetailsPage({ template }: TemplateDetailsPageProps) {
   const [copied, setCopied] = useState(false);
+  const {lang}=useLanguage()
 
   const handleCopy = () => {
     const fullText = [
@@ -96,7 +98,7 @@ export function TemplateDetailsPage({ template }: TemplateDetailsPageProps) {
           <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
               <Home className="w-4 h-4" />
-              <Link href="/">Home</Link>
+              <Link href={"/"}> {lang === "en" ? "Home" : "होम"}</Link>
             </li>
             {template.breadcrumbs.map((crumb, index) => (
               <li key={index} className="flex items-center gap-2">

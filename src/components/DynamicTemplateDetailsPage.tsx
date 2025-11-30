@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import { Button } from "./ui/button";
 import { toast } from "sonner";
+import Link from "next/link";
 export interface TemplateDetailData {
   // Basic Info
   title: { en: string; hi: string };
@@ -155,7 +156,7 @@ export function DynamicTemplateDetailsPage({
           <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60 flex-wrap">
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer">
               <Home className="w-4 h-4" />
-              <a href="/">{language === "en" ? "Home" : "होम"}</a>
+              <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
             </li>
             <li className="flex items-center gap-2">
               <ChevronRight className="w-4 h-4" />

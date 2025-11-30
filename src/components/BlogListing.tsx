@@ -7,6 +7,7 @@ import { Badge } from "./ui/badge";
 import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const categories = [
   "All",
@@ -164,6 +165,7 @@ export function BlogListing() {
     return matchesCategory && matchesSearch;
   });
 
+  const {lang}=useLanguage()
   const loadMore = () => {
     setVisiblePosts(prev => prev + 6);
   };
@@ -182,7 +184,7 @@ export function BlogListing() {
           <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
               <Home className="w-4 h-4" />
-              <Link href={'/'}>Home</Link>
+              <Link href={"/"}> {lang === "en" ? "Home" : "होम"}</Link>
             </li>
             <li className="flex items-center gap-2">
               <ChevronRight className="w-4 h-4" />
