@@ -1,17 +1,10 @@
 'use client'
-import { useState } from "react";
 import { SubcategoryListingPage } from "./SubcategoryListingPage";
 import { getSubcategoryData } from "../data/subcategoryData";
-import { ThemeToggle } from "./ThemeToggle";
+// import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
-import { useParams } from "next/navigation";
 
 export function SubcategoryExample() {
-    const params = useParams();
-
-      console.log("SubcategoryExample===",params.type)
-      const type=params.type
-  // Simulate URL routing - in production this would come from router params
   // Options: 'job', 'leave', 'loan', 'admission', 'scholarship'
   //const [currentSubcategory, setCurrentSubcategory] = useState<string>(type || "job");
 
@@ -19,7 +12,7 @@ export function SubcategoryExample() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       
       {/* Demo Navigation - Remove in production */}
       {/* <div className="fixed top-4 left-4 z-50 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 shadow-lg">

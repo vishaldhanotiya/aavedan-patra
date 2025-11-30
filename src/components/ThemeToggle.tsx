@@ -1,37 +1,38 @@
 
-"use client";
 import { Moon, Sun } from "lucide-react";
 import { motion } from "motion/react";
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
+import { useTheme } from "@/contexts/ThemeProvider";
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
+  //const [theme, setTheme] = useState<"light" | "dark">("dark");
+  const { toggleTheme,theme } = useTheme();
 
- useEffect(() => {
-    if (typeof window === "undefined") return;
+//  useEffect(() => {
+//     if (typeof window === "undefined") return;
 
-    const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+//     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
+//     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-    const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
+//     const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
 
-    setTheme(initialTheme);
+//     setTheme(initialTheme);
 
-    document.documentElement.classList.toggle("dark", initialTheme === "dark");
-  }, []);
+//     document.documentElement.classList.toggle("dark", initialTheme === "dark");
+//   }, []);
 
-  const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    localStorage.setItem("theme", newTheme);
+  // const toggleTheme = () => {
+  //   const newTheme = theme === "light" ? "dark" : "light";
+  //   setTheme(newTheme);
+  //   localStorage.setItem("theme", newTheme);
     
-    if (newTheme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  };
+  //   if (newTheme === "dark") {
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //   }
+  // };
 
   return (
     <motion.div

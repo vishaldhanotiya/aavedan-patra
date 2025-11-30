@@ -9,6 +9,7 @@ import { Newsletter } from "@/components/Newsletter";
 import { QuickLinks } from "@/components/QuickLinks";
 import { RecentlyAdded } from "@/components/RecentlyAdded";
 import { ThemeToggle } from "@/components/ThemeToggle";
+//import { ThemeToggle } from "@/components/ThemeToggle";
 import { TrendingTemplates } from "@/components/TrendingTemplates";
 
 export default function Home() {
