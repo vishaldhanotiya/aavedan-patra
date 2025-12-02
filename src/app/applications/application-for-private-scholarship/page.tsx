@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { privateScholarship } from "@/data/scholarship/privateScholarship";
+import { privateScholarshipTemplate } from "@/data/scholarshipTemplate/privateScholarshipTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={privateScholarship}
+        data={privateScholarshipTemplate}
         language={lang}
       />
     </>

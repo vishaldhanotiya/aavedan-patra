@@ -1,37 +1,16 @@
+import { resignationLetters } from './resignationLetters';
+import { leaveCategory } from "./../category/leaveCategory";
+import { jobCategory, SubcategoryData } from "./../category/jobCategory";
 /**
  * MASTER INDEX FOR ALL SUBCATEGORY DATA
  * Central export point for all 42 subcategories across 7 categories
  */
 
-import type { SubcategoryData } from "../allSubcategoryData";
-
 // Import from allSubcategoryData (original 2)
-import { 
-  jobApplicationsData, 
-  leaveApplicationsData 
-} from "../allSubcategoryData";
 
-// Import Applications subcategories (4 more)
-import {
-  loanApplicationsData,
-  admissionApplicationsData,
-  scholarshipApplicationsData,
-  certificateRequestData,
-} from "./applicationsSubcategories";
 
 // Import Letters subcategories (3 created, 3 to add)
-import {
-  formalLettersData,
-  informalLettersData,
-  requestLettersData,
-} from "./lettersSubcategories";
 
-// Import additional Letters subcategories from ALL_REMAINING
-import {
-  complaintLettersData,
-  resignationLettersData,
-  invitationLettersData,
-} from "./ALL_REMAINING_SUBCATEGORIES";
 
 // Import Certificates subcategories (3 created)
 import {
@@ -82,6 +61,15 @@ import {
   legalFormsData,
   applicationFormsData,
 } from "./agreementsSubcategories";
+import { complaintLetters } from "./complaintLetters";
+import { invitationLetters } from './invitationLetters';
+import { formalLetters } from './formalLetters';
+import { informalLetters } from './informalLetters';
+import { requestLetters } from './requestLetters';
+import { loanApplications } from './loanApplications';
+import { admissionApplications } from './admissionApplications';
+import { scholarshipApplications } from './scholarshipApplications';
+import { certificateRequest } from './certificateRequest';
 
 // ============================================
 // COMPLETE SUBCATEGORY REGISTRY
@@ -89,21 +77,21 @@ import {
 
 export const allSubcategoriesRegistry: Record<string, SubcategoryData[]> = {
   applications: [
-    jobApplicationsData,
-    leaveApplicationsData,
-    loanApplicationsData,
-    admissionApplicationsData,
-    scholarshipApplicationsData,
-    certificateRequestData,
+    jobCategory,
+    leaveCategory,
+    loanApplications,
+    admissionApplications,
+    scholarshipApplications,
+    certificateRequest,
   ],
   letters: [
-    formalLettersData,
-    informalLettersData,
-    requestLettersData,
+    formalLetters,
+    informalLetters,
+    requestLetters,
     // Add: complaint, resignation, invitation
-    complaintLettersData,
-    resignationLettersData,
-    invitationLettersData,
+    complaintLetters,
+    resignationLetters,
+    invitationLetters,
   ],
   certificates: [
     // Add all 6: experience, bonafide, character, internship, course, appreciation
@@ -179,7 +167,7 @@ export function getSubcategory(
 ): SubcategoryData | undefined {
   const categorySubcategories = allSubcategoriesRegistry[categorySlug];
   if (!categorySubcategories) return undefined;
-  
+
   return categorySubcategories.find((sub) => sub.slug === subcategorySlug);
 }
 
@@ -201,9 +189,7 @@ export function getTotalSubcategoryCount(): number {
  * Get all subcategory slugs for a category (useful for routing)
  */
 export function getSubcategorySlugs(categorySlug: string): string[] {
-  return (
-    allSubcategoriesRegistry[categorySlug]?.map((sub) => sub.slug) || []
-  );
+  return allSubcategoriesRegistry[categorySlug]?.map((sub) => sub.slug) || [];
 }
 
 // ============================================
@@ -212,23 +198,23 @@ export function getSubcategorySlugs(categorySlug: string): string[] {
 
 // Applications
 export {
-  jobApplicationsData,
-  leaveApplicationsData,
-  loanApplicationsData,
-  admissionApplicationsData,
-  scholarshipApplicationsData,
-  certificateRequestData,
+  jobCategory,
+  leaveCategory,
+  loanApplications,
+  admissionApplications,
+  scholarshipApplications,
+  certificateRequest,
 };
 
 // Letters
 export {
-  formalLettersData,
-  informalLettersData,
-  requestLettersData,
+  formalLetters,
+  informalLetters,
+  requestLetters,
   // Add: complaint, resignation, invitation
-  complaintLettersData,
-  resignationLettersData,
-  invitationLettersData,
+  complaintLetters,
+  resignationLetters,
+  invitationLetters,
 };
 
 // Certificates
@@ -295,10 +281,7 @@ export const subcategoryStats = {
     (sum, sub) => sum + (sub.blogPosts?.length || 0),
     0
   ),
-  totalFAQs: allSubcategories.reduce(
-    (sum, sub) => sum + sub.faqs.length,
-    0
-  ),
+  totalFAQs: allSubcategories.reduce((sum, sub) => sum + sub.faqs.length, 0),
   byCategory: Object.fromEntries(
     Object.entries(allSubcategoriesRegistry).map(([category, subs]) => [
       category,

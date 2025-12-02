@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { relocationResignation } from "@/data/resignation/relocationResignation";
+import { relocationResignationTemplate } from "@/data/resignationTemplate/relocationResignationTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={relocationResignation}
+        data={relocationResignationTemplate}
         language={lang}
       />
     </>

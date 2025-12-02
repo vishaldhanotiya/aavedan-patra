@@ -30,9 +30,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "./ui/accordion";
-import type { SubcategoryData } from "../data/allSubcategoryData";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { SubcategoryData } from "@/data/category/jobCategory";
 
 interface UniversalSubcategoryPageProps {
   data: SubcategoryData;

@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { neighborComplaint } from "@/data/complaint/neighborComplaint";
+import { neighborComplaintTemplate } from "@/data/complaintTemplate/neighborComplaintTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={neighborComplaint}
+        data={neighborComplaintTemplate}
         language={lang}
       />
     </>

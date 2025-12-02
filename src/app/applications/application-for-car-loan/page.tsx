@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { carLoan } from "@/data/loan/carLoan";
+import { carLoanTemplate } from "@/data/loanTemplate/carLoanTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={carLoan}
+        data={carLoanTemplate}
         language={lang}
       />
     </>

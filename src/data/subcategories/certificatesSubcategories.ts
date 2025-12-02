@@ -3,7 +3,8 @@
  * Complete data for Certificates category subcategories
  */
 
-import type { SubcategoryData } from "../allSubcategoryData";
+import { SubcategoryData } from "../category/jobCategory";
+
 
 // 1. EXPERIENCE CERTIFICATES
 export const experienceCertificatesData: SubcategoryData = {

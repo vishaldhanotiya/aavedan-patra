@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { donationRequest } from "@/data/request/donationRequest";
+import { donationRequestTemplate } from "@/data/requestTemplate/donationRequestTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={donationRequest}
+        data={donationRequestTemplate}
         language={lang}
       />
     </>

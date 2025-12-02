@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { transferCertificate } from "@/data/certificate/transferCertificate";
+import { transferCertificateTemplate } from "@/data/certificateTemplate/transferCertificateTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={transferCertificate}
+        data={transferCertificateTemplate}
         language={lang}
       />
     </>

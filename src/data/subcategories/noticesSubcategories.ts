@@ -3,7 +3,8 @@
  * Complete data for Notices category subcategories
  */
 
-import type { SubcategoryData } from "../allSubcategoryData";
+import { SubcategoryData } from "../category/jobCategory";
+
 
 // 1. SCHOOL NOTICES
 export const schoolNoticesData: SubcategoryData = {

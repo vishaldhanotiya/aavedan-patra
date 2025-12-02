@@ -4,8 +4,8 @@ import {
   bonafideCertificatesData,
   characterCertificatesData,
   experienceCertificatesData,
-  informalLettersData,
-  requestLettersData,
+  informalLetters,
+  requestLetters,
 } from "@/data/subcategories";
 
 export default async function Page(props: any) {
@@ -18,11 +18,11 @@ export default async function Page(props: any) {
   } else if (type === "character") {
     return <UniversalSubcategoryPage data={characterCertificatesData} />;
   } else if (type === "internship") {
-    return <UniversalSubcategoryPage data={informalLettersData} />;
+    return <UniversalSubcategoryPage data={informalLetters} />;
   } else if (type === "course") {
-    return <UniversalSubcategoryPage data={requestLettersData} />;
+    return <UniversalSubcategoryPage data={requestLetters} />;
   } else if (type === "appreciation") {
-    return <UniversalSubcategoryPage data={requestLettersData} />;
+    return <UniversalSubcategoryPage data={requestLetters} />;
   }
   return <SubcategoryExample />;
 }

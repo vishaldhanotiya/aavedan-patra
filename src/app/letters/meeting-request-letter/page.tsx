@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { meetingRequest } from "@/data/request/meetingRequest";
+import { meetingRequestTemplate } from "@/data/requestTemplate/meetingRequestTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={meetingRequest}
+        data={meetingRequestTemplate}
         language={lang}
       />
     </>

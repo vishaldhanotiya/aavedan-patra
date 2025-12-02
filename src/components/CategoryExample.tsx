@@ -62,7 +62,7 @@ const applicationsCategory = {
       views: "12.5k",
       date: "Nov 2025",
       tag: "Popular",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 2,
@@ -70,7 +70,7 @@ const applicationsCategory = {
       description: "Formal leave application template for office employees",
       views: "10.2k",
       date: "Nov 2025",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 3,
@@ -80,7 +80,7 @@ const applicationsCategory = {
       views: "8.9k",
       date: "Oct 2025",
       tag: "New",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 4,
@@ -88,7 +88,7 @@ const applicationsCategory = {
       description: "Medical leave application with doctor's note reference",
       views: "15.3k",
       date: "Nov 2025",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 5,
@@ -96,7 +96,7 @@ const applicationsCategory = {
       description: "Entry-level job application template for fresh graduates",
       views: "11.1k",
       date: "Oct 2025",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 6,
@@ -105,7 +105,7 @@ const applicationsCategory = {
         "Comprehensive college admission application with course details",
       views: "9.7k",
       date: "Nov 2025",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 7,
@@ -113,7 +113,7 @@ const applicationsCategory = {
       description: "Simple format for requesting casual leave from work",
       views: "13.2k",
       date: "Oct 2025",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 8,
@@ -123,7 +123,7 @@ const applicationsCategory = {
       views: "7.8k",
       date: "Nov 2025",
       tag: "New",
-      href: "/application/job-application-for-teacher",
+      href: "/application/application-for-teacher-job",
     },
     {
       key: 9,
@@ -132,7 +132,7 @@ const applicationsCategory = {
         "Job or school transfer application with proper justification",
       views: "6.5k",
       date: "Oct 2025",
-      href: "/application/job-application-for-teacher",
+    href: "/application/application-for-teacher-job",
     },
   ],
   aboutContent:

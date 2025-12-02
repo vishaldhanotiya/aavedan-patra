@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { serviceComplaint } from "@/data/complaint/serviceComplaint";
+import { serviceComplaintTemplate } from "@/data/complaintTemplate/serviceComplaintTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={serviceComplaint}
+        data={serviceComplaintTemplate}
         language={lang}
       />
     </>

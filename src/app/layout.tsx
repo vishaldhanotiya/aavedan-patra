@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-24ZQVM678J" />
+      {/* <GoogleAnalytics gaId="G-24ZQVM678J" /> */}
       <body>
         <ThemeProvider>
         <LanguageProvider>{children}</LanguageProvider>

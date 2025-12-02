@@ -3,10 +3,11 @@
  * Complete data for Resumes category subcategories
  */
 
-import type { SubcategoryData } from "../allSubcategoryData";
+import { SubcategoryData } from "../category/jobCategory";
+
 
 // 1. PROFESSIONAL RESUMES
-export const professionalResumesData: SubcategoryData = {
+export const professionalResumesData: SubcategoryData= {
   slug: "professional",
   categorySlug: "resumes",
   categoryName: { en: "Resumes", hi: "रिज्यूमे" },

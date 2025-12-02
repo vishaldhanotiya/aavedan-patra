@@ -3,7 +3,8 @@
  * Complete data for Essays category subcategories
  */
 
-import type { SubcategoryData } from "../allSubcategoryData";
+import { SubcategoryData } from "../category/jobCategory";
+
 
 // 1. 100 WORDS ESSAYS
 export const essays100WordsData: SubcategoryData = {

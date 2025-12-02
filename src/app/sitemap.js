@@ -13,7 +13,7 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: "https://aavedanpatra.in/applications/job-application-for-teacher",
+      url: "https://aavedanpatra.in/applications/application-for-teacher-job",
       lastModified: new Date(),
     },
     {
