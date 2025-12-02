@@ -1,6 +1,6 @@
 import { FileText,Briefcase,GraduationCap } from "lucide-react";
 
-export const courseAdmission = {
+export const schoolAdmissionTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Admission Applications", hi: "प्रवेश आवेदन", slug:"/applications/admission" },
@@ -26,58 +26,60 @@ export const courseAdmission = {
 
   variations: [
     {
-      id: "courseAdmission",
+      id: "schoolAdmission",
       title: { 
-        en: "Course Admission Application", 
-        hi: "कोर्स प्रवेश आवेदन" 
+        en: "School Admission Application for Students", 
+        hi: "छात्रों हेतु स्कूल प्रवेश आवेदन" 
       },
       description: {
-        en: "Application for joining a short-term or professional course.",
-        hi: "शॉर्ट-टर्म या प्रोफेशनल कोर्स में प्रवेश हेतु आवेदन।"
+        en: "Format for requesting new school admission.",
+        hi: "नए स्कूल में प्रवेश के लिए आवेदन प्रारूप।"
       },
       bestFor: { 
-        en: "Skill, coaching & training programs", 
-        hi: "कौशल, कोचिंग और प्रशिक्षण कार्यक्रम" 
+        en: "Primary, middle, or high-school admission", 
+        hi: "प्राथमिक, माध्यमिक या उच्च विद्यालय प्रवेश" 
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
         en: `To,
-The Course Coordinator
-[Institute Name]
+The Principal
+[School Name]
 [Address]
 
-Subject: Application for Course Admission
+Subject: Application for School Admission
 
 Respected Sir/Madam,
 
-I request admission into the [Course Name] course offered by your institution. This program will help improve my skills and career opportunities.
+I request admission for my ward [Student Name] in class [Class]. My child previously studied at [Previous School Name].
 
-I assure regular attendance and complete discipline during the course. Kindly consider my application.
+Your school is known for discipline and quality education. I believe it will help in my child's overall development.
 
-Thank you.
+Kindly accept this admission request.
 
 Sincerely,
-[Your Name]`,
+[Parent/Guardian Name]`,
 
         hi: `सेवा में,
-कोर्स कोऑर्डिनेटर
-[संस्थान का नाम]
+प्राचार्य महोदय/महोदया
+[स्कूल का नाम]
 [पता]
 
-विषय: कोर्स प्रवेश हेतु आवेदन
+विषय: स्कूल प्रवेश हेतु आवेदन
 
 महोदय/महोदया,
 
-मैं आपके संस्थान द्वारा संचालित [Course Name] कोर्स में प्रवेश लेने हेतु आवेदन करता/करती हूँ। यह कोर्स मेरे कौशल और करियर अवसरों को बढ़ाने में सहायक होगा।
+मैं अपने बच्चे [Student Name] को कक्षा [Class] में प्रवेश दिलाने हेतु आवेदन प्रस्तुत करता/करती हूँ। वह पूर्व में [Previous School Name] में अध्ययनरत था/थी।
 
-मैं नियमित उपस्थिति और पूर्ण अनुशासन का पालन करने का आश्वासन देता/देती हूँ। कृपया मेरे आवेदन पर विचार करें।
+आपका विद्यालय अनुशासन और गुणवत्तापूर्ण शिक्षा के लिए प्रसिद्ध है। मुझे विश्वास है कि यह मेरे बच्चे के सर्वांगीण विकास में सहायक होगा।
+
+कृपया इस प्रवेश आवेदन को स्वीकार करने की कृपा करें।
 
 धन्यवाद।
 
 भवदीय,
-[आपका नाम]`
+[अभिभावक का नाम]`
       }
     }
   ],

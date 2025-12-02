@@ -1,6 +1,6 @@
 import { FileText,Briefcase,GraduationCap } from "lucide-react";
 
-export const collegeAdmission = {
+export const readmissionTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Admission Applications", hi: "प्रवेश आवेदन", slug:"/applications/admission" },
@@ -26,18 +26,18 @@ export const collegeAdmission = {
 
   variations: [
     {
-      id: "collegeAdmission",
+      id: "readmission",
       title: { 
-        en: "College Admission Application", 
-        hi: "कॉलेज प्रवेश आवेदन" 
+        en: "Readmission Application Letter", 
+        hi: "पुनः प्रवेश आवेदन पत्र" 
       },
       description: {
-        en: "A formal application format for requesting admission into a college.",
-        hi: "कॉलेज में प्रवेश का अनुरोध करने के लिए औपचारिक आवेदन प्रारूप।"
+        en: "Application for rejoining after a gap.",
+        hi: "अंतराल के बाद पुनः प्रवेश हेतु आवेदन।"
       },
       bestFor: { 
-        en: "First-year admission, New college admission", 
-        hi: "पहले वर्ष का प्रवेश, नया कॉलेज प्रवेश" 
+        en: "Students rejoining after absence", 
+        hi: "अनुपस्थिति के बाद लौटने वाले छात्र" 
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -45,45 +45,41 @@ export const collegeAdmission = {
       content: {
         en: `To,
 The Principal
-[College Name]
+[School/College Name]
 [Address]
 
-Subject: Application for College Admission
+Subject: Application for Readmission
 
 Respected Sir/Madam,
 
-I am writing to request admission in the [Course/Program] at your esteemed college. I have completed my [Previous Class/Qualification] with good academic performance.
+I request readmission to [Class/Course] after a break due to [Reason]. I apologize for the inconvenience caused by my absence.
 
-I am highly motivated to pursue my studies at your institution due to its excellent academic environment. I assure full discipline and dedication to my studies.
-
-I kindly request you to consider my admission application.
+I assure complete discipline, regular attendance, and full focus on my studies. Kindly allow me to continue my education.
 
 Thank you.
 
-Yours sincerely,
+Sincerely,
 [Your Name]`,
 
         hi: `सेवा में,
 प्राचार्य महोदय/महोदया
-[कॉलेज का नाम]
+[स्कूल/कॉलेज का नाम]
 [पता]
 
-विषय: कॉलेज प्रवेश हेतु आवेदन
+विषय: पुनः प्रवेश हेतु आवेदन
 
 महोदय/महोदया,
 
-मैं आपके प्रतिष्ठित कॉलेज में [Course/Program] में प्रवेश हेतु आवेदन प्रस्तुत करता/करती हूँ। मैंने [Previous Class/Qualification] अच्छे अंकों से पूर्ण की है।
+मैं [Reason] के कारण हुए अंतराल के बाद कक्षा/कोर्स [Class/Course] में पुनः प्रवेश का अनुरोध करता/करती हूँ। मेरी अनुपस्थिति से हुई असुविधा के लिए क्षमा प्रार्थी हूँ।
 
-आपके संस्थान के उत्कृष्ट शैक्षणिक वातावरण के कारण मैं यहाँ अध्ययन करना चाहता/चाहती हूँ। मैं पूर्ण अनुशासन और समर्पण का आश्वासन देता/देती हूँ।
-
-कृपया मेरे प्रवेश आवेदन पर सहानुभूतिपूर्वक विचार करें।
+मैं अनुशासन बनाए रखने, नियमित उपस्थिति और पढ़ाई पर पूर्ण ध्यान देने का आश्वासन देता/देती हूँ। कृपया मुझे पुनः प्रवेश प्रदान करें।
 
 धन्यवाद।
 
 भवदीय,
 [आपका नाम]`
       }
-    },
+    }
   ],
 
   howToWrite: {

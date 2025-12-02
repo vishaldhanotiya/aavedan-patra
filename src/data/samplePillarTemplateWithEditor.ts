@@ -39,173 +39,173 @@ export const teacherJobApplicationPillarWithEditor = {
 
   // Editor variations with fields
   editorVariations: [
-    {
-      id: "general",
-      title: {
-        en: "General Teacher Job Application",
-        hi: "सामान्य शिक्षक नौकरी आवेदन",
-      },
-      content: `To,
-The Principal
-[schoolName]
-[schoolAddress]
-[schoolCity]
+//     {
+//       id: "general",
+//       title: {
+//         en: "General Teacher Job Application",
+//         hi: "सामान्य शिक्षक नौकरी आवेदन",
+//       },
+//       content: `To,
+// The Principal
+// [schoolName]
+// [schoolAddress]
+// [schoolCity]
 
-Subject: [subject]
+// Subject: [subject]
 
-[greeting],
+// [greeting],
 
-[bodyText]
+// [bodyText]
 
-Yours sincerely,
-[signatureName]
-[yourEmail]
-[yourPhone]
+// Yours sincerely,
+// [signatureName]
+// [yourEmail]
+// [yourPhone]
 
 
-Enclosures:
-1. Resume
-2. Educational Certificates
-3. Experience Letters`,
-      fields: [
-        // {
-        //   id: "yourName",
-        //   label: { en: "Your Name", hi: "आपका नाम" },
-        //   type: "text" as const,
-        //   placeholder: { en: "John Smith", hi: "जॉन स्मिथ" },
-        //   defaultValue: "",
-        //   required: true
-        // },
-        // {
-        //   id: "yourAddress",
-        //   label: { en: "Your Address", hi: "आपका पता" },
-        //   type: "text" as const,
-        //   placeholder: { en: "123 Main Street", hi: "123 मेन स्ट्रीट" },
-        //   defaultValue: ""
-        // },
-        // {
-        //   id: "yourCity",
-        //   label: { en: "Your City & PIN", hi: "आपका शहर और पिन" },
-        //   type: "text" as const,
-        //   placeholder: { en: "New Delhi - 110001", hi: "नई दिल्ली - 110001" },
-        //   defaultValue: ""
-        // },
-        // {
-        //   id: "yourEmail",
-        //   label: { en: "Your Email", hi: "आपका ईमेल" },
-        //   type: "text" as const,
-        //   placeholder: { en: "john.smith@email.com", hi: "john.smith@email.com" },
-        //   defaultValue: ""
-        // },
-        // {
-        //   id: "yourPhone",
-        //   label: { en: "Your Phone Number", hi: "आपका फोन नंबर" },
-        //   type: "text" as const,
-        //   placeholder: { en: "+91 98765 43210", hi: "+91 98765 43210" },
-        //   defaultValue: ""
-        // },
-        // {
-        //   id: "date",
-        //   label: { en: "Date", hi: "तारीख" },
-        //   type: "date" as const,
-        //   placeholder: { en: "DD/MM/YYYY", hi: "DD/MM/YYYY" }
-        // },
-        {
-          id: "schoolName",
-          label: { en: "School Name", hi: "स्कूल का नाम" },
-          type: "text" as const,
-          placeholder: {
-            en: "ABC International School",
-            hi: "ABC इंटरनेशनल स्कूल",
-          },
-          defaultValue: "",
-          required: true,
-          tooltip: {
-            en: "Name of the school you're applying to",
-            hi: "जिस स्कूल में आप आवेदन कर रहे हैं उसका नाम",
-          },
-        },
-        {
-          id: "schoolAddress",
-          label: { en: "School Address", hi: "स्कूल का पता" },
-          type: "text" as const,
-          placeholder: { en: "456 School Road", hi: "456 स्कूल रोड" },
-          defaultValue: "",
-        },
-        {
-          id: "schoolCity",
-          label: { en: "School City & PIN", hi: "स्कूल शहर और पिन" },
-          type: "text" as const,
-          placeholder: { en: "Mumbai - 400001", hi: "मुंबई - 400001" },
-          defaultValue: "",
-        },
-        {
-          id: "subject",
-          label: { en: "Subject Line", hi: "विषय पंक्ति" },
-          type: "text" as const,
-          placeholder: {
-            en: "Application for the Position of Teacher",
-            hi: "शिक्षक पद के लिए आवेदन",
-          },
-          defaultValue: "Application for the Position of Teacher",
-        },
-        {
-          id: "greeting",
-          label: { en: "Greeting", hi: "अभिवादन" },
-          type: "text" as const,
-          placeholder: { en: "Respected Sir/Madam", hi: "आदरणीय महोदय/महोदया" },
-          defaultValue: "Respected Sir/Madam",
-        },
-        {
-          id: "bodyText",
-          label: { en: "Main Body Text", hi: "मुख्य सामग्री" },
-          type: "textarea" as const,
-          placeholder: {
-            en: "I am writing to express my interest in the teaching position...",
-            hi: "मैं शिक्षण पद में अपनी रुचि व्यक्त करने के लिए लिख रहा हूं...",
-          },
-          defaultValue: `I am writing to express my interest in the teaching position at your esteemed institution. I have recently completed my B. Ed from Oxford Institute and I am eager to begin my teaching career.
+// Enclosures:
+// 1. Resume
+// 2. Educational Certificates
+// 3. Experience Letters`,
+//       fields: [
+//         // {
+//         //   id: "yourName",
+//         //   label: { en: "Your Name", hi: "आपका नाम" },
+//         //   type: "text" as const,
+//         //   placeholder: { en: "John Smith", hi: "जॉन स्मिथ" },
+//         //   defaultValue: "",
+//         //   required: true
+//         // },
+//         // {
+//         //   id: "yourAddress",
+//         //   label: { en: "Your Address", hi: "आपका पता" },
+//         //   type: "text" as const,
+//         //   placeholder: { en: "123 Main Street", hi: "123 मेन स्ट्रीट" },
+//         //   defaultValue: ""
+//         // },
+//         // {
+//         //   id: "yourCity",
+//         //   label: { en: "Your City & PIN", hi: "आपका शहर और पिन" },
+//         //   type: "text" as const,
+//         //   placeholder: { en: "New Delhi - 110001", hi: "नई दिल्ली - 110001" },
+//         //   defaultValue: ""
+//         // },
+//         // {
+//         //   id: "yourEmail",
+//         //   label: { en: "Your Email", hi: "आपका ईमेल" },
+//         //   type: "text" as const,
+//         //   placeholder: { en: "john.smith@email.com", hi: "john.smith@email.com" },
+//         //   defaultValue: ""
+//         // },
+//         // {
+//         //   id: "yourPhone",
+//         //   label: { en: "Your Phone Number", hi: "आपका फोन नंबर" },
+//         //   type: "text" as const,
+//         //   placeholder: { en: "+91 98765 43210", hi: "+91 98765 43210" },
+//         //   defaultValue: ""
+//         // },
+//         // {
+//         //   id: "date",
+//         //   label: { en: "Date", hi: "तारीख" },
+//         //   type: "date" as const,
+//         //   placeholder: { en: "DD/MM/YYYY", hi: "DD/MM/YYYY" }
+//         // },
+//         {
+//           id: "schoolName",
+//           label: { en: "School Name", hi: "स्कूल का नाम" },
+//           type: "text" as const,
+//           placeholder: {
+//             en: "ABC International School",
+//             hi: "ABC इंटरनेशनल स्कूल",
+//           },
+//           defaultValue: "",
+//           required: true,
+//           tooltip: {
+//             en: "Name of the school you're applying to",
+//             hi: "जिस स्कूल में आप आवेदन कर रहे हैं उसका नाम",
+//           },
+//         },
+//         {
+//           id: "schoolAddress",
+//           label: { en: "School Address", hi: "स्कूल का पता" },
+//           type: "text" as const,
+//           placeholder: { en: "456 School Road", hi: "456 स्कूल रोड" },
+//           defaultValue: "",
+//         },
+//         {
+//           id: "schoolCity",
+//           label: { en: "School City & PIN", hi: "स्कूल शहर और पिन" },
+//           type: "text" as const,
+//           placeholder: { en: "Mumbai - 400001", hi: "मुंबई - 400001" },
+//           defaultValue: "",
+//         },
+//         {
+//           id: "subject",
+//           label: { en: "Subject Line", hi: "विषय पंक्ति" },
+//           type: "text" as const,
+//           placeholder: {
+//             en: "Application for the Position of Teacher",
+//             hi: "शिक्षक पद के लिए आवेदन",
+//           },
+//           defaultValue: "Application for the Position of Teacher",
+//         },
+//         {
+//           id: "greeting",
+//           label: { en: "Greeting", hi: "अभिवादन" },
+//           type: "text" as const,
+//           placeholder: { en: "Respected Sir/Madam", hi: "आदरणीय महोदय/महोदया" },
+//           defaultValue: "Respected Sir/Madam",
+//         },
+//         {
+//           id: "bodyText",
+//           label: { en: "Main Body Text", hi: "मुख्य सामग्री" },
+//           type: "textarea" as const,
+//           placeholder: {
+//             en: "I am writing to express my interest in the teaching position...",
+//             hi: "मैं शिक्षण पद में अपनी रुचि व्यक्त करने के लिए लिख रहा हूं...",
+//           },
+//           defaultValue: `I am writing to express my interest in the teaching position at your esteemed institution. I have recently completed my B. Ed from Oxford Institute and I am eager to begin my teaching career.
 
-I am passionate about education and have strong communication skills. During my academic years, I have participated in various teaching workshops and seminars which have equipped me with modern teaching methodologies.
+// I am passionate about education and have strong communication skills. During my academic years, I have participated in various teaching workshops and seminars which have equipped me with modern teaching methodologies.
 
-I am confident that my dedication to teaching and my subject knowledge will make me a valuable addition to your school. I have attached my resume for your review and would welcome the opportunity to discuss my application in person.
+// I am confident that my dedication to teaching and my subject knowledge will make me a valuable addition to your school. I have attached my resume for your review and would welcome the opportunity to discuss my application in person.
 
-Thank you for considering my application. I look forward to hearing from you.`,
-        },
-        // {
-        //   id: "qualification",
-        //   label: { en: "Your Qualification", hi: "आपकी योग्यता" },
-        //   type: "text" as const,
-        //   placeholder: { en: "B.Ed. degree", hi: "B.Ed. डिग्री" },
-        //   defaultValue: "B.Ed. degree"
-        // },
-        {
-          id: "signatureName",
-          label: { en: "Signature Name", hi: "हस्ताक्षर नाम" },
-          type: "text" as const,
-          placeholder: { en: "John Smith", hi: "जॉन स्मिथ" },
-          defaultValue: "",
-          required: true,
-        },
-        {
-          id: "yourEmail",
-          label: { en: "Your Email", hi: "आपका ईमेल" },
-          type: "text" as const,
-          placeholder: {
-            en: "john.smith@email.com",
-            hi: "john.smith@email.com",
-          },
-          defaultValue: "",
-        },
-        {
-          id: "yourPhone",
-          label: { en: "Your Phone Number", hi: "आपका फोन नंबर" },
-          type: "text" as const,
-          placeholder: { en: "+91 98765 43210", hi: "+91 98765 43210" },
-          defaultValue: "",
-        },
-      ],
-    },
+// Thank you for considering my application. I look forward to hearing from you.`,
+//         },
+//         // {
+//         //   id: "qualification",
+//         //   label: { en: "Your Qualification", hi: "आपकी योग्यता" },
+//         //   type: "text" as const,
+//         //   placeholder: { en: "B.Ed. degree", hi: "B.Ed. डिग्री" },
+//         //   defaultValue: "B.Ed. degree"
+//         // },
+//         {
+//           id: "signatureName",
+//           label: { en: "Signature Name", hi: "हस्ताक्षर नाम" },
+//           type: "text" as const,
+//           placeholder: { en: "John Smith", hi: "जॉन स्मिथ" },
+//           defaultValue: "",
+//           required: true,
+//         },
+//         {
+//           id: "yourEmail",
+//           label: { en: "Your Email", hi: "आपका ईमेल" },
+//           type: "text" as const,
+//           placeholder: {
+//             en: "john.smith@email.com",
+//             hi: "john.smith@email.com",
+//           },
+//           defaultValue: "",
+//         },
+//         {
+//           id: "yourPhone",
+//           label: { en: "Your Phone Number", hi: "आपका फोन नंबर" },
+//           type: "text" as const,
+//           placeholder: { en: "+91 98765 43210", hi: "+91 98765 43210" },
+//           defaultValue: "",
+//         },
+//       ],
+//     },
 
     {
       id: "fresher",
@@ -944,85 +944,85 @@ Thank you for your consideration.`,
 
   // Display variations (original format for the page)
   variations: [
-    {
-      id: "general",
-      title: {
-        en: "General Teacher Job Application",
-        hi: "सामान्य शिक्षक नौकरी आवेदन",
-      },
-      description: {
-        en: "A universal format suitable for all teaching positions. Use this when applying for any teacher role.",
-        hi: "सभी शिक्षण पदों के लिए उपयुक्त एक सार्वभौमिक प्रारूप।",
-      },
-      bestFor: {
-        en: "Any teaching position",
-        hi: "कोई भी शिक्षण पद",
-      },
-      length: {
-        en: "Medium",
-        hi: "मध्यम",
-      },
-      difficulty: {
-        en: "Easy",
-        hi: "आसान",
-      },
-      content: {
-        hi: `सेवा में,
-प्रधानाचार्य महोदय/महोदया
-[विद्यालय का नाम]
-[विद्यालय का पता]
-[नगर, राज्य – पिन कोड]
+//     {
+//       id: "general",
+//       title: {
+//         en: "General Teacher Job Application",
+//         hi: "सामान्य शिक्षक नौकरी आवेदन",
+//       },
+//       description: {
+//         en: "A universal format suitable for all teaching positions. Use this when applying for any teacher role.",
+//         hi: "सभी शिक्षण पदों के लिए उपयुक्त एक सार्वभौमिक प्रारूप।",
+//       },
+//       bestFor: {
+//         en: "Any teaching position",
+//         hi: "कोई भी शिक्षण पद",
+//       },
+//       length: {
+//         en: "Medium",
+//         hi: "मध्यम",
+//       },
+//       difficulty: {
+//         en: "Easy",
+//         hi: "आसान",
+//       },
+//       content: {
+//         hi: `सेवा में,
+// प्रधानाचार्य महोदय/महोदया
+// [विद्यालय का नाम]
+// [विद्यालय का पता]
+// [नगर, राज्य – पिन कोड]
 
-विषय: शिक्षक पद हेतु आवेदन
+// विषय: शिक्षक पद हेतु आवेदन
 
-माननीय महोदय/महोदया,
+// माननीय महोदय/महोदया,
 
-सविनय निवेदन है कि मैं आपके विद्यालय में शिक्षक पद के लिए आवेदन करना चाहता/चाहती हूँ। मैंने [विश्वविद्यालय का नाम] से [डिग्री का नाम] पूर्ण की है और विद्यार्थियों को गुणवत्तापूर्ण शिक्षा प्रदान करने का उत्साह रखता/रखती हूँ।
+// सविनय निवेदन है कि मैं आपके विद्यालय में शिक्षक पद के लिए आवेदन करना चाहता/चाहती हूँ। मैंने [विश्वविद्यालय का नाम] से [डिग्री का नाम] पूर्ण की है और विद्यार्थियों को गुणवत्तापूर्ण शिक्षा प्रदान करने का उत्साह रखता/रखती हूँ।
 
-अपनी पढ़ाई के दौरान मैंने कई शिक्षण कार्यशालाओं और प्रशिक्षण कार्यक्रमों में भाग लिया है, जिससे आधुनिक शिक्षण पद्धतियों और कक्षा प्रबंधन का अच्छा अनुभव प्राप्त हुआ है। मुझे विश्वास है कि मेरी मेहनत, विषय ज्ञान और स्पष्ट संप्रेषण कौशल आपके विद्यालय के लिए उपयोगी सिद्ध होंगे।
+// अपनी पढ़ाई के दौरान मैंने कई शिक्षण कार्यशालाओं और प्रशिक्षण कार्यक्रमों में भाग लिया है, जिससे आधुनिक शिक्षण पद्धतियों और कक्षा प्रबंधन का अच्छा अनुभव प्राप्त हुआ है। मुझे विश्वास है कि मेरी मेहनत, विषय ज्ञान और स्पष्ट संप्रेषण कौशल आपके विद्यालय के लिए उपयोगी सिद्ध होंगे।
 
-कृपया मेरे संलग्न बायोडाटा और प्रमाणपत्रों की समीक्षा करें। यदि मुझे अवसर दिया जाए, तो मैं अपना सर्वश्रेष्ठ कार्य करने का पूर्ण प्रयास करूँगा/करूँगी।
+// कृपया मेरे संलग्न बायोडाटा और प्रमाणपत्रों की समीक्षा करें। यदि मुझे अवसर दिया जाए, तो मैं अपना सर्वश्रेष्ठ कार्य करने का पूर्ण प्रयास करूँगा/करूँगी।
 
-आपके समय और विचार के लिए धन्यवाद। उत्तर की प्रतीक्षा रहेगी।
+// आपके समय और विचार के लिए धन्यवाद। उत्तर की प्रतीक्षा रहेगी।
 
-भवदीय,
-[आपका हस्ताक्षर]
-[आपका नाम]
+// भवदीय,
+// [आपका हस्ताक्षर]
+// [आपका नाम]
 
-संलग्नक:
+// संलग्नक:
 
-1. बायोडाटा
-2. शैक्षणिक प्रमाणपत्र
-3. अनुभव प्रमाणपत्र (यदि कोई हो)`,
+// 1. बायोडाटा
+// 2. शैक्षणिक प्रमाणपत्र
+// 3. अनुभव प्रमाणपत्र (यदि कोई हो)`,
 
-        en: `To,
-The Principal
-[School Name]
-[School Address]
-[City, State - PIN Code]
+//         en: `To,
+// The Principal
+// [School Name]
+// [School Address]
+// [City, State - PIN Code]
 
-Subject: Application for the Position of Teacher
+// Subject: Application for the Position of Teacher
 
-Respected Sir/Madam,
+// Respected Sir/Madam,
 
-I am writing to express my interest in the teaching position at your esteemed institution. I have recently completed my [Degree Name] from [University Name] and am eager to begin my teaching career.
+// I am writing to express my interest in the teaching position at your esteemed institution. I have recently completed my [Degree Name] from [University Name] and am eager to begin my teaching career.
 
-I am passionate about education and have strong communication skills. During my academic years, I have participated in various teaching workshops and seminars which have equipped me with modern teaching methodologies.
+// I am passionate about education and have strong communication skills. During my academic years, I have participated in various teaching workshops and seminars which have equipped me with modern teaching methodologies.
 
-I am confident that my dedication to teaching and my subject knowledge will make me a valuable addition to your school. I have attached my resume for your review and would welcome the opportunity to discuss my application in person.
+// I am confident that my dedication to teaching and my subject knowledge will make me a valuable addition to your school. I have attached my resume for your review and would welcome the opportunity to discuss my application in person.
 
-Thank you for considering my application. I look forward to hearing from you.
+// Thank you for considering my application. I look forward to hearing from you.
 
-Yours sincerely,
-[Your Signature]
-[Your Name]
+// Yours sincerely,
+// [Your Signature]
+// [Your Name]
 
-Enclosures:
-1. Resume
-2. Educational Certificates
-3. Experience Letters (if any)`,
-      },
-    },
+// Enclosures:
+// 1. Resume
+// 2. Educational Certificates
+// 3. Experience Letters (if any)`,
+//       },
+//     },
     {
       id: "fresher",
       title: {
@@ -1056,24 +1056,18 @@ Enclosures:
 
 माननीय महोदय/महोदया,
 
-सविनय निवेदन है कि मैं आपके विद्यालय में प्राथमिक शिक्षक के पद के लिए आवेदन करना चाहता/चाहती हूँ। मुझे यह अवसर [Facebook/LinkedIn/अन्य माध्यम] के माध्यम से प्राप्त हुआ। मैंने हाल ही में [कॉलेज का नाम] से [शैक्षणिक योग्यता] पूर्ण की है। मुझे छोटे बच्चों के साथ काम करना पसंद है और मैं अपने शिक्षण करियर की शुरुआत सकारात्मक और प्रेरणादायक वातावरण में करना चाहता/चाहती हूँ।
+सविनय निवेदन है कि मैं आपके प्रतिष्ठित विद्यालय में प्राथमिक शिक्षक के पद हेतु आवेदन कर रहा/रही हूँ। मुझे [समाचार पत्र/Facebook/LinkedIn/अन्य माध्यम] के माध्यम से ज्ञात हुआ कि आपके विद्यालय में शिक्षक की आवश्यकता है। मैंने हाल ही में [कॉलेज का नाम] से [शैक्षणिक योग्यता, जैसे B.Ed. या D.El.Ed.] प्राप्त की है। मुझे बच्चों के समग्र विकास पर केंद्रित शिक्षण में गहन रुचि है, और मैं चाहता/चाहती हूँ कि उन्हें केवल ज्ञान ही नहीं, बल्कि जीवन मूल्यों से भी परिचित करा सकूँ।
 
-स्नातक के दौरान मैंने एक स्थानीय एनजीओ में स्वयंसेवक के रूप में बच्चों को पढ़ाया। इसके अलावा मैंने होम ट्यूशन दिए और बच्चों की दैनिक पढ़ाई में सहायता की। बाद में, मैंने कोचिंग क्लास में भी पढ़ाया, जहाँ मुझे छोटे समूहों के साथ कार्य करने का अनुभव मिला। इन सभी अनुभवों ने मुझे धैर्य, सरल तरीके से समझाने की कला और बच्चों के लिए सीखने की प्रक्रिया को आनंददायक बनाने में मदद की है।
+स्नातक के दौरान मैंने एक स्थानीय एनजीओ में स्वयंसेवक के रूप में 20+ ग्रामीण बच्चों को 6 महीनों तक हिंदी और गणित पढ़ाया। इसके अलावा, मैंने होम ट्यूशन दिए और छात्रों की दैनिक पढ़ाई में लगभग 80% सुधार सुनिश्चित किया। बाद में, एक कोचिंग क्लास में छोटे समूहों (5–10 बच्चे)के साथ कार्य करने का अनुभव प्राप्त हुआ। इन अनुभवों ने मुझे धैर्य, सरल एवं रोचक तरीके से पढ़ाने की क्षमता, तथा कक्षा प्रबंधन के मूल कौशल विकसित करने में सहायता की है।
 
-मुख्य कौशल एवं अनुभव:
-• शिक्षण में बुनियादी तकनीक और डिजिटल टूल्स का उपयोग
-• धैर्य और सहानुभूति के साथ कक्षा प्रबंधन
-• सरल शैक्षणिक रिकॉर्ड बनाए रखना और दैनिक गतिविधियों में सहायता
-• विद्यार्थियों, अभिभावकों और शिक्षकों के साथ अच्छा संवाद स्थापित करना
+कृपया मेरे संलग्न बायोडाटा, शैक्षणिक प्रमाणपत्रों और अनुशंसा पत्रों पर विचार करने की कृपा करें। यदि मुझे अवसर प्राप्त होता है, तो मैं आपके विद्यालय की उत्कृष्टता में पूर्ण निष्ठा एवं समर्पण के साथ योगदान देने का प्रयास करूँगा/करूँगी।
 
-कृपया मेरे संलग्न बायोडाटा, शैक्षणिक प्रमाणपत्रों और अनुशंसा पत्रों पर विचार करने की कृपा करें। यदि मुझे अवसर दिया जाए, तो मैं आपके विद्यालय के लिए अपना सर्वोत्तम योगदान देने का प्रयास करूँगा/करूँगी।
-
-आपके समय और विचार के लिए धन्यवाद। आपके विद्यालय का हिस्सा बनने की आशा है।
+आपके मूल्यवान समय और विचार के लिए हार्दिक धन्यवाद।
 
 भवदीय,
 नाम: [आपका नाम]
 मोबाइल: [मोबाइल नंबर]
-ईमेल: [xxx@gmail.com](mailto:xxx@gmail.com)
+ईमेल: [xxx@gmail.com]
 
 संलग्नक:
 
@@ -1084,30 +1078,25 @@ Enclosures:
 The Principal
 [School Name]
 [School Address]
-[City, State - PIN Code]
+[City, State – PIN Code]
 
-Subject: Application for Teacher Position - Fresher
+Subject: Application for Primary Teacher Position (Fresher)
 
 Respected Sir/Madam,
 
-I am applying for the position of Primary School Teacher at [School Name], as advertised on [heard from like facebook linkedin]. I have recently completed my [Education] from the [College name]. I enjoy being around young children, and I’m excited to begin my teaching career where I can help them learn and grow in a positive way.
+I would like to apply for the post of Primary Teacher in your school. I came to know through [Newspaper/Facebook/LinkedIn/Other Source] that a teaching position is available. I have recently completed my [Educational Qualification, such as B.Ed. or D.El.Ed.] from [College Name]. I am very interested in teaching and want to help children learn not only their subjects but also good values in life.
 
-During my graduation, I taught children as a volunteer at a local NGO. I also gave home tuitions and helped students with their daily studies. Later, I taught at a coaching class, where I worked with small groups of kids. These experiences helped me learn how to stay patient, explain things clearly, and make learning enjoyable for children.
+During my graduation, I volunteered at a local NGO, teaching Hindi and Mathematics to over 20 rural children for six months. I also provided home tuition, helping students improve their daily studies by about 80%. These experiences built my patience, simple and engaging teaching skills, and basic classroom management abilities.
 
-Key Skills & Experience
-• Using basic technology and digital tools to support learning
-• Managing classrooms with patience and empathy
-• Keeping simple academic records and helping with basic tasks
-• Building good relationships with students, parents, and teachers
+Please review my attached resume, academic certificates, and recommendation letters. If selected, I will contribute with full dedication to your school's success.
 
-My resume, educational certificates, and recommendation letters are attached for your kind consideration. I would be happy to talk further about my application. Please feel free to contact me by phone or email.
+Thank you for your time and consideration. I look forward to the opportunity to discuss this further.
 
-Thank you for your time. I look forward to the opportunity to be a part of your school.
 
-Sincerely,
-Name: [Your Name]
-Phone: [Mobile Number]
-Email: xxx@gmail.com
+Sincerely,  
+[Your Name]  
+Mobile: [Mobile Number]  
+Email: [xxx@gmail.com]
 
 Enclosures:
 1. Resume

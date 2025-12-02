@@ -7,8 +7,9 @@ import {
   informalLetters,
   requestLetters,
 } from "@/data/subcategories";
+import { PropsType } from "@/data/type/type";
 
-export default async function Page(props: any) {
+export default async function Page(props: PropsType) {
   const { type } = await props.params;
 
   if (type === "experience") {

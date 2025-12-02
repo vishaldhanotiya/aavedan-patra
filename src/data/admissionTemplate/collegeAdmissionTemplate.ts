@@ -1,6 +1,6 @@
 import { FileText,Briefcase,GraduationCap } from "lucide-react";
 
-export const universityAdmission = {
+export const collegeAdmissionTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Admission Applications", hi: "प्रवेश आवेदन", slug:"/applications/admission" },
@@ -25,57 +25,58 @@ export const universityAdmission = {
   updatedDate: "January 2025",
 
   variations: [
-
     {
-      id: "universityAdmission",
+      id: "collegeAdmission",
       title: { 
-        en: "University Admission Request Letter", 
-        hi: "विश्वविद्यालय प्रवेश आवेदन पत्र" 
+        en: "College Admission Application", 
+        hi: "कॉलेज प्रवेश आवेदन" 
       },
       description: {
-        en: "A professional format for requesting admission to a university program.",
-        hi: "विश्वविद्यालय कार्यक्रम में प्रवेश का अनुरोध करने का पेशेवर प्रारूप।"
+        en: "A formal application format for requesting admission into a college.",
+        hi: "कॉलेज में प्रवेश का अनुरोध करने के लिए औपचारिक आवेदन प्रारूप।"
       },
       bestFor: { 
-        en: "UG & PG university admissions", 
-        hi: "स्नातक और स्नातकोत्तर प्रवेश" 
+        en: "First-year admission, New college admission", 
+        hi: "पहले वर्ष का प्रवेश, नया कॉलेज प्रवेश" 
       },
       length: { en: "Medium", hi: "मध्यम" },
-      difficulty: { en: "Moderate", hi: "मध्यम" },
+      difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
         en: `To,
-The Admission Officer
-[University Name]
+The Principal
+[College Name]
 [Address]
 
-Subject: Application for Admission
+Subject: Application for College Admission
 
 Respected Sir/Madam,
 
-I request admission into the [Course/Department] program. I have completed my previous studies from [Institution Name] with excellent results.
+I am writing to request admission in the [Course/Program] at your esteemed college. I have completed my [Previous Class/Qualification] with good academic performance.
 
-Your university’s academic environment motivates me to study here. I assure full dedication and discipline throughout the course.
+I am highly motivated to pursue my studies at your institution due to its excellent academic environment. I assure full discipline and dedication to my studies.
 
-I request you to kindly approve my admission.
+I kindly request you to consider my admission application.
 
-Sincerely,
+Thank you.
+
+Yours sincerely,
 [Your Name]`,
 
         hi: `सेवा में,
-प्रवेश अधिकारी
-[विश्वविद्यालय का नाम]
+प्राचार्य महोदय/महोदया
+[कॉलेज का नाम]
 [पता]
 
-विषय: प्रवेश हेतु आवेदन
+विषय: कॉलेज प्रवेश हेतु आवेदन
 
 महोदय/महोदया,
 
-मैं [Course/Department] में प्रवेश हेतु आवेदन प्रस्तुत करता/करती हूँ। मैंने अपनी पूर्व शिक्षा [Institution Name] से उत्कृष्ट अंकों के साथ पूर्ण की है।
+मैं आपके प्रतिष्ठित कॉलेज में [Course/Program] में प्रवेश हेतु आवेदन प्रस्तुत करता/करती हूँ। मैंने [Previous Class/Qualification] अच्छे अंकों से पूर्ण की है।
 
-आपके विश्वविद्यालय का शैक्षणिक वातावरण मुझे आकर्षित करता है। मैं पूरे कोर्स के दौरान अनुशासन और समर्पण बनाए रखने का आश्वासन देता/देती हूँ।
+आपके संस्थान के उत्कृष्ट शैक्षणिक वातावरण के कारण मैं यहाँ अध्ययन करना चाहता/चाहती हूँ। मैं पूर्ण अनुशासन और समर्पण का आश्वासन देता/देती हूँ।
 
-कृपया मेरे प्रवेश आवेदन को स्वीकृत करने की कृपा करें।
+कृपया मेरे प्रवेश आवेदन पर सहानुभूतिपूर्वक विचार करें।
 
 धन्यवाद।
 

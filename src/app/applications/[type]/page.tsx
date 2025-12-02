@@ -6,8 +6,9 @@ import { admissionApplications } from "@/data/subcategories/admissionApplication
 import { certificateRequest } from "@/data/subcategories/certificateRequest";
 import { loanApplications } from "@/data/subcategories/loanApplications";
 import { scholarshipApplications } from "@/data/subcategories/scholarshipApplications";
+import { PropsType } from "@/data/type/type";
 
-export default async function Page({ params }: any) {
+export default async function Page({ params }: PropsType) {
   const { type } =  await params; // ❗ No await needed
   if (type === "job") {
     return <UniversalSubcategoryPage data={jobCategory}  />;

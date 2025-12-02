@@ -1,8 +1,9 @@
 import { SubcategoryExample } from "@/components/SubcategoryExample";
 import { UniversalSubcategoryPage } from "@/components/UniversalSubcategoryPage";
 import { formalLetters, informalLetters, requestLetters } from "@/data/subcategories";
+import { PropsType } from "@/data/type/type";
 
-export default async function Page(props: any) {
+export default async function Page(props: PropsType) {
   const { type } = await props.params;
 
   console.log("Sub category====", type);

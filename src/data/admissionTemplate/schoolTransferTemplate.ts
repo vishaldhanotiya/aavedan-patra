@@ -1,6 +1,6 @@
 import { FileText,Briefcase,GraduationCap } from "lucide-react";
 
-export const reAdmission = {
+export const schoolTransferTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Admission Applications", hi: "प्रवेश आवेदन", slug:"/applications/admission" },
@@ -26,18 +26,18 @@ export const reAdmission = {
 
   variations: [
     {
-      id: "readmission",
+      id: "schoolTransfer",
       title: { 
-        en: "Readmission Application Letter", 
-        hi: "पुनः प्रवेश आवेदन पत्र" 
+        en: "School Transfer Application", 
+        hi: "स्कूल ट्रांसफर आवेदन" 
       },
       description: {
-        en: "Application for rejoining after a gap.",
-        hi: "अंतराल के बाद पुनः प्रवेश हेतु आवेदन।"
+        en: "Application for requesting Transfer Certificate (TC).",
+        hi: "टीसी के लिए स्कूल ट्रांसफर आवेदन।"
       },
       bestFor: { 
-        en: "Students rejoining after absence", 
-        hi: "अनुपस्थिति के बाद लौटने वाले छात्र" 
+        en: "Relocation, school change", 
+        hi: "स्थानांतरण, स्कूल परिवर्तन" 
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -45,41 +45,41 @@ export const reAdmission = {
       content: {
         en: `To,
 The Principal
-[School/College Name]
+[School Name]
 [Address]
 
-Subject: Application for Readmission
+Subject: Application for School Transfer
 
 Respected Sir/Madam,
 
-I request readmission to [Class/Course] after a break due to [Reason]. I apologize for the inconvenience caused by my absence.
+I request a transfer certificate for my ward [Student Name] of class [Class], as we are relocating due to [Reason].
 
-I assure complete discipline, regular attendance, and full focus on my studies. Kindly allow me to continue my education.
+My child has studied in your school for [X] years with good academic progress. Kindly issue the TC at the earliest.
 
 Thank you.
 
 Sincerely,
-[Your Name]`,
+[Parent/Guardian Name]`,
 
         hi: `सेवा में,
 प्राचार्य महोदय/महोदया
-[स्कूल/कॉलेज का नाम]
+[स्कूल का नाम]
 [पता]
 
-विषय: पुनः प्रवेश हेतु आवेदन
+विषय: स्कूल ट्रांसफर हेतु आवेदन
 
 महोदय/महोदया,
 
-मैं [Reason] के कारण हुए अंतराल के बाद कक्षा/कोर्स [Class/Course] में पुनः प्रवेश का अनुरोध करता/करती हूँ। मेरी अनुपस्थिति से हुई असुविधा के लिए क्षमा प्रार्थी हूँ।
+मैं अपने बच्चे [Student Name] (कक्षा [Class]) के लिए ट्रांसफर सर्टिफिकेट का अनुरोध करता/करती हूँ, क्योंकि [Reason] के कारण हमें स्थानांतरण करना पड़ रहा है।
 
-मैं अनुशासन बनाए रखने, नियमित उपस्थिति और पढ़ाई पर पूर्ण ध्यान देने का आश्वासन देता/देती हूँ। कृपया मुझे पुनः प्रवेश प्रदान करें।
+मेरा बच्चा पिछले [X] वर्षों से आपके विद्यालय में पढ़ रहा/रही है और उसका प्रदर्शन अच्छा रहा है। कृपया शीघ्र टीसी प्रदान करने की कृपा करें।
 
 धन्यवाद।
 
 भवदीय,
-[आपका नाम]`
+[अभिभावक का नाम]`
       }
-    }
+    },
   ],
 
   howToWrite: {

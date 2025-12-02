@@ -1,6 +1,6 @@
 import { FileText,Briefcase,GraduationCap } from "lucide-react";
 
-export const schoolTransferAdmission = {
+export const universityAdmissionTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Admission Applications", hi: "प्रवेश आवेदन", slug:"/applications/admission" },
@@ -25,59 +25,62 @@ export const schoolTransferAdmission = {
   updatedDate: "January 2025",
 
   variations: [
+
     {
-      id: "schoolTransfer",
+      id: "universityAdmission",
       title: { 
-        en: "School Transfer Application", 
-        hi: "स्कूल ट्रांसफर आवेदन" 
+        en: "University Admission Request Letter", 
+        hi: "विश्वविद्यालय प्रवेश आवेदन पत्र" 
       },
       description: {
-        en: "Application for requesting Transfer Certificate (TC).",
-        hi: "टीसी के लिए स्कूल ट्रांसफर आवेदन।"
+        en: "A professional format for requesting admission to a university program.",
+        hi: "विश्वविद्यालय कार्यक्रम में प्रवेश का अनुरोध करने का पेशेवर प्रारूप।"
       },
       bestFor: { 
-        en: "Relocation, school change", 
-        hi: "स्थानांतरण, स्कूल परिवर्तन" 
+        en: "UG & PG university admissions", 
+        hi: "स्नातक और स्नातकोत्तर प्रवेश" 
       },
       length: { en: "Medium", hi: "मध्यम" },
-      difficulty: { en: "Easy", hi: "आसान" },
+      difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
         en: `To,
-The Principal
-[School Name]
+The Admission Officer
+[University Name]
 [Address]
 
-Subject: Application for School Transfer
+Subject: Application for Admission
 
 Respected Sir/Madam,
 
-I request a transfer certificate for my ward [Student Name] of class [Class], as we are relocating due to [Reason].
+I request admission into the [Course/Department] program. I have completed my previous studies from [Institution Name] with excellent results.
 
-My child has studied in your school for [X] years with good academic progress. Kindly issue the TC at the earliest.
+Your university’s academic environment motivates me to study here. I assure full dedication and discipline throughout the course.
 
-Thank you.
+I request you to kindly approve my admission.
 
 Sincerely,
-[Parent/Guardian Name]`,
+[Your Name]`,
 
         hi: `सेवा में,
-प्राचार्य महोदय/महोदया
-[स्कूल का नाम]
+प्रवेश अधिकारी
+[विश्वविद्यालय का नाम]
 [पता]
 
-विषय: स्कूल ट्रांसफर हेतु आवेदन
+विषय: प्रवेश हेतु आवेदन
 
 महोदय/महोदया,
 
-मैं अपने बच्चे [Student Name] (कक्षा [Class]) के लिए ट्रांसफर सर्टिफिकेट का अनुरोध करता/करती हूँ, क्योंकि [Reason] के कारण हमें स्थानांतरण करना पड़ रहा है।
+मैं [Course/Department] में प्रवेश हेतु आवेदन प्रस्तुत करता/करती हूँ। मैंने अपनी पूर्व शिक्षा [Institution Name] से उत्कृष्ट अंकों के साथ पूर्ण की है।
 
-मेरा बच्चा पिछले [X] वर्षों से आपके विद्यालय में पढ़ रहा/रही है और उसका प्रदर्शन अच्छा रहा है। कृपया शीघ्र टीसी प्रदान करने की कृपा करें।
+आपके विश्वविद्यालय का शैक्षणिक वातावरण मुझे आकर्षित करता है। मैं पूरे कोर्स के दौरान अनुशासन और समर्पण बनाए रखने का आश्वासन देता/देती हूँ।
+
+कृपया मेरे प्रवेश आवेदन को स्वीकृत करने की कृपा करें।
 
 धन्यवाद।
 
 भवदीय,
-[अभिभावक का नाम]`
+[आपका नाम]`
       }
     },
   ],

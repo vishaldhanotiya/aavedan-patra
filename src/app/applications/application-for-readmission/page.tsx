@@ -1,14 +1,14 @@
 "use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { reAdmission } from "@/data/admission/readmission";
+import { readmissionTemplate } from "@/data/admissionTemplate/readmissionTemplate";
 
 export default function Page() {
   const { lang } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
-        data={reAdmission}
+        data={readmissionTemplate}
         language={lang}
       />
     </>

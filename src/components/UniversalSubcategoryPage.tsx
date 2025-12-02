@@ -97,7 +97,7 @@ export function UniversalSubcategoryPage({
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer">
               <Home className="w-4 h-4" />
               <Link href={"/"}>
-                <span>{language === "en" ? "Home" : "होम"}</span>
+                <span>{lang === "en" ? "Home" : "होम"}</span>
               </Link>
             </li>
             {data.breadcrumb.map((crumb, index) => (
