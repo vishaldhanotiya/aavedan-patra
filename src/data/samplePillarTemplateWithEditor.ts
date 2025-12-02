@@ -1217,17 +1217,11 @@ Enclosures:
 
 माननीय महोदय/महोदया,
 
-मैं आपके विद्यालय में वरिष्ठ शिक्षक के पद के लिए आवेदन प्रस्तुत कर रहा/रही हूँ। पिछले [सालों की संख्या] वर्षों से मैं [विद्यालय का नाम] में शिक्षण कार्य कर रहा/रही हूँ, और इस दौरान अपने विद्यार्थियों के अंकों तथा आत्मविश्वास—दोनों में उत्कृष्ट वृद्धि देखने का अनुभव अत्यंत प्रेरणादायक रहा है।
+मैं आपके विद्यालय में वरिष्ठ शिक्षक के पद हेतु अपना आवेदन प्रस्तुत करना चाहता/चाहती हूँ। मुझे गणित और विज्ञान पढ़ाने का [X साल] का अनुभव है, जो मैंने [अपने पिछले विद्यालय का नाम] में कार्यरत रहते हुए प्राप्त किया है। वहाँ मेरा लक्ष्य हमेशा यही रहा है कि विद्यार्थियों की बुनियादी समझ मजबूत हो और उनमें पढ़ाई के प्रति रुचि जागृत रहे।
 
-अपने वर्तमान विद्यालय में, मैंने मुख्य रूप से निम्न कार्यों पर ध्यान केंद्रित किया है:
+मैंने [कक्षा X] तक के विद्यार्थियों को पढ़ाया है। आसान उदाहरणों, नियमित मूल्यांकन और प्रत्येक बच्चे पर व्यक्तिगत ध्यान देने के मेरे तरीकों से, मेरी कक्षाओं के औसत शैक्षणिक परिणामों में प्रतिवर्ष लगभग 15-20% का सुधार देखा गया है। इससे विद्यार्थियों को कठिन विषय भी आसानी से समझ आ जाते हैं
 
-• कक्षा [कक्षा संख्या] तक के विद्यार्थियों को गणित और विज्ञान का प्रभावी शिक्षण।
-• मेरे विद्यार्थियों ने बोर्ड परीक्षाओं में लगातार उल्लेखनीय सुधार और अच्छे परिणाम प्राप्त किए हैं।
-• मैं सरल तकनीकी उपकरणों और व्यावहारिक गतिविधियों का उपयोग करके कठिन विषयों को आसानी से समझाने का प्रयास करता/करती हूँ, जिससे सीखना अधिक रोचक और प्रभावी बन सके।
-
-वरिष्ठ कक्षाओं के विद्यार्थियों का मार्गदर्शन करना मुझे अत्यंत संतोष देता है। मेरी शिक्षण शैली स्पष्ट व्याख्या, नियमित अभ्यास, और विद्यार्थियों को स्वतंत्र रूप से सोचने के लिए प्रोत्साहित करने पर आधारित है। विद्यार्थियों में जिज्ञासा, समझ, और आत्मनिर्भरता का विकास होते देखना मेरे लिए सबसे बड़ी उपलब्धि रही है।
-
-मैंने अपना विस्तृत बायोडाटा और प्रमाणपत्र संलग्न किए हैं। मेरे आवेदन पर विचार करने के लिए आपका हार्दिक धन्यवाद। मुझे इस अवसर पर आपसे चर्चा करने का सौभाग्य मिले तो मैं अत्यंत प्रसन्नता महसूस करूँगा/करूँगी।
+यदि मुझे अवसर दिया जाए, तो मैं अपने अनुभव और समर्पण से आपके विद्यालय के लिए मूल्यवान योगदान देने का पूर्ण प्रयास करूँगा/करूँगी। मेरे आवेदन पर विचार करने के लिए आपका धन्यवाद। मैं आपसे आगे चर्चा करने के अवसर की प्रतीक्षा करूँगा/करूँगी।
 
 भवदीय,
 [आपका हस्ताक्षर]
@@ -1250,17 +1244,11 @@ Subject: Application for Senior Teacher Position
 
 Respected Sir/Madam,
 
-I'm writing to apply for the Senior Teacher position at your school. For the past [no. of years] years, I've been teaching at [school name], and I've loved helping my students grow in both their grades and their self-confidence.
+I am writing to apply for the Senior Teacher position at your school. I have [X years] of experience teaching Mathematics and Science at [Previous School Name], where I have worked closely with students to develop their conceptual understanding interest in learning.
 
-In my time there, I've focused on a few key things:
+I have taught classes up to [Class X], and have consistently helped students improve their academic performance by 15–20% through structured lessons, regular assessments, and personalized support. My teaching approach combines clear explanations, practical examples and interactive learning methods, which makes complex topics easier for students to grasp..
 
-*   I taught Maths and Science upto Class [mention grade] students.
-*   My students have consistently shown great improvement in their board exam results.
-*   I like to use simple tech tools and hands-on activities to make complex topics easier and more engaging for everyone.
-
-I really enjoy guiding students through such an important year. My approach is based on clear explanations, consistent practice, and encouraging students to find their own answers. It's been wonderful to see them not only improve their scores but also become more curious and independent learners.
-
-I've attached my resume and certificates for more detail. Thank you so much for your time and consideration. I'd be thrilled to have the chance to discuss this opportunity with you.
+Please find attached my resume and relevant documents for your kind consideration. I would be happy to discuss how my experience can contribute to your school’s continued academic excellence.
 
 Yours sincerely,
 [Your Signature]
