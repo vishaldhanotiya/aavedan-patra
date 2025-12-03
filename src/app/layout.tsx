@@ -4,6 +4,8 @@ import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { ThemeProvider } from "@/contexts/ThemeProvider";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -28,10 +30,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <GoogleAnalytics gaId="G-24ZQVM678J" /> */}
+      <GoogleAnalytics gaId="G-24ZQVM678J" />
       <body>
         <ThemeProvider>
-        <LanguageProvider>{children}</LanguageProvider>
+          <LanguageProvider>
+            <LanguageSwitcher />
+            <ThemeToggle />
+            {children}
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>
