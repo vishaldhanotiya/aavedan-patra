@@ -5,7 +5,7 @@
 
 import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
-export const teacherJobApplicationPillarWithEditor = {
+export const teacherJobApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
     subcategory: {

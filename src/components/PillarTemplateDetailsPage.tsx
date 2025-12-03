@@ -454,7 +454,7 @@ export function PillarTemplateDetailsPage({
                             <Share2 className="w-4 h-4 mr-2" />
                             {language === "en" ? "Share" : "शेयर"}
                           </Button>
-                          {data.editorVariations && data.editorVariations.length > 0 && (
+                          {/* {data.editorVariations && data.editorVariations.length > 0 && (
                             <Button
                               size="sm"
                               variant="outline"
@@ -466,7 +466,7 @@ export function PillarTemplateDetailsPage({
                               <Edit className="w-4 h-4 mr-2" />
                               {language === "en" ? "Edit" : "संपादन"}
                             </Button>
-                          )}
+                          )} */}
                         </div>
                       </div>
 
@@ -591,7 +591,7 @@ export function PillarTemplateDetailsPage({
             </div>
 
             {/* Related Templates */}
-            <div className="max-w-6xl mx-auto mt-16">
+            {/* <div className="max-w-6xl mx-auto mt-16">
               <h2 className="text-3xl text-slate-900 dark:text-white mb-8 text-center">
                 {language === "en" ? "Related Templates" : "संबंधित टेम्पलेट्स"}
               </h2>
@@ -623,10 +623,10 @@ export function PillarTemplateDetailsPage({
                   );
                 })}
               </div>
-            </div>
+            </div> */}
 
             {/* Related Blog Articles */}
-            <div className="max-w-6xl mx-auto mt-16">
+            {/* <div className="max-w-6xl mx-auto mt-16">
               <h2 className="text-3xl text-slate-900 dark:text-white mb-8 text-center">
                 {language === "en" ? "Related Articles" : "संबंधित लेख"}
               </h2>
@@ -660,7 +660,7 @@ export function PillarTemplateDetailsPage({
                   </motion.a>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* FAQ Section */}
             <div className="max-w-4xl mx-auto mt-16">

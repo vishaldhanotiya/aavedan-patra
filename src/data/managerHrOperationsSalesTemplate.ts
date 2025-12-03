@@ -5,7 +5,7 @@
 
 import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
-export const managerHrOperationsSalesPillar = {
+export const managerHrOperationsSalesTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
@@ -51,23 +51,9 @@ export const managerHrOperationsSalesPillar = {
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
+        en: `Subject: Application for Manager Position
 
-Date: [DD/MM/YYYY]
-
-To,  
-The Hiring Manager  
-[Company Name]  
-[Company Address]  
-[City, State - PIN Code]
-
-Subject: Application for Manager Position
-
-Respected Sir/Madam,
+Dear Hiring Manager  
 
 I am writing to express my interest in the Manager position at your esteemed organization. With over [X] years of experience in leading teams, managing operations, and driving business growth, I believe my expertise aligns well with the requirements of this role.
 
@@ -80,23 +66,9 @@ Thank you for considering my application. I look forward to the opportunity to c
 Sincerely,  
 [Your Name]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
+        hi: `विषय: मैनेजर पद हेतु आवेदन
 
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
-हायरिंग मैनेजर  
-[कंपनी का नाम]  
-[कंपनी का पता]  
-[शहर, राज्य - पिन कोड]
-
-विषय: मैनेजर पद हेतु आवेदन
-
-माननीय महोदय/महोदया,
+आदरणीय हायरिंग मैनेजर,
 
 मैं आपके प्रतिष्ठित संगठन में मैनेजर पद के लिए आवेदन प्रस्तुत कर रहा/रही हूँ। टीम प्रबंधन, संचालन सुधार और व्यवसाय वृद्धि में [X] वर्षों के अनुभव के साथ, मुझे विश्वास है कि मेरी क्षमताएँ इस भूमिका की आवश्यकताओं के अनुरूप हैं।
 
@@ -132,23 +104,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
-The Hiring Manager  
-[Company Name]  
-[Company Address]  
-[City, State - PIN Code]
-
-Subject: Application for HR Position
-
-Respected Sir/Madam,
+        en: `Dear Hiring Manager,
 
 I am writing to apply for the HR position at your esteemed company. With experience in recruitment, employee onboarding, training coordination, and HR operations, I believe I can contribute effectively to your team.
 
@@ -163,23 +119,9 @@ Thank you for your time and consideration.
 Sincerely,  
 [Your Name]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
+        hi: `विषय: एचआर पद हेतु आवेदन
 
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
-हायरिंग मैनेजर  
-[कंपनी का नाम]  
-[कंपनी का पता]  
-[शहर, राज्य - पिन कोड]
-
-विषय: एचआर पद हेतु आवेदन
-
-माननीय महोदय/महोदया,
+आदरणीय हायरिंग मैनेजर,
 
 मैं आपके प्रतिष्ठित संगठन में एचआर पद के लिए आवेदन प्रस्तुत करना चाहता/चाहती हूँ। भर्ती, कर्मचारी ऑनबोर्डिंग, प्रशिक्षण समन्वय और एचआर संचालन में मिले अनुभव के आधार पर मैं आपके संगठन में प्रभावी योगदान दे सकता/सकती हूँ।
 
@@ -215,23 +157,9 @@ Sincerely,
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
+        en: `Subject: Application for Operations Position
 
-Date: [DD/MM/YYYY]
-
-To,  
-The Hiring Manager  
-[Company Name]  
-[Company Address]  
-[City, State - PIN Code]
-
-Subject: Application for Operations Position
-
-Respected Sir/Madam,
+Dear Hiring Manager,
 
 I am writing to express my interest in the Operations position at your organization. With experience in process management, daily operations handling, coordination, and workflow optimization, I am confident in my ability to support your team effectively.
 
@@ -244,23 +172,7 @@ Thank you for your consideration.
 Sincerely,  
 [Your Name]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
-हायरिंग मैनेजर  
-[कंपनी का नाम]  
-[कंपनी का पता]  
-[शहर, राज्य - पिन कोड]
-
-विषय: ऑपरेशंस पद हेतु आवेदन
-
-माननीय महोदय/महोदया,
+        hi: `आदरणीय हायरिंग मैनेजर,
 
 मैं आपके संगठन में ऑपरेशंस पद के लिए आवेदन करना चाहता/चाहती हूँ। प्रक्रिया प्रबंधन, दैनिक संचालन, समन्वय और वर्कफ़्लो अनुकूलन में अनुभव के आधार पर मैं आपकी टीम में महत्वपूर्ण योगदान दे सकता/सकती हूँ।
 
@@ -296,23 +208,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
-The Hiring Manager  
-[Company Name]  
-[Company Address]  
-[City, State - PIN Code]
-
-Subject: Application for Sales/Marketing Position
-
-Respected Sir/Madam,
+        en: `Dear Hiring Manager  
 
 I am writing to apply for the Sales/Marketing position at your organization. With experience in lead generation, customer relationship management, marketing campaigns, and business development, I believe I can add value to your team.
 
@@ -325,23 +221,7 @@ I look forward to the opportunity to contribute to your company's growth.
 Sincerely,  
 [Your Name]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
-हायरिंग मैनेजर  
-[कंपनी का नाम]  
-[कंपनी का पता]  
-[शहर, राज्य - पिन कोड]
-
-विषय: सेल्स/मार्केटिंग पद हेतु आवेदन
-
-माननीय महोदय/महोदया,
+        hi: `आदरणीय हायरिंग मैनेजर,
 
 मैं आपके संगठन में सेल्स/मार्केटिंग पद हेतु आवेदन प्रस्तुत कर रहा/रही हूँ। लीड जनरेशन, ग्राहक संबंध प्रबंधन, मार्केटिंग कैंपेन और बिजनेस डेवलपमेंट में मिले अनुभव के आधार पर मैं आपकी टीम में प्रभावी योगदान दे सकता/सकती हूँ।
 

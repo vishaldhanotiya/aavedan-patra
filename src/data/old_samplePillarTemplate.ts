@@ -218,7 +218,7 @@ Enclosures:
       id: "math",
       title: { 
         en: "Math Teacher Job Application", 
-        hi: "गणित शिक्���क नौकरी आवेदन" 
+        hi: "गणित शिक्षण नौकरी आवेदन" 
       },
       description: { 
         en: "Specialized application for Mathematics teaching positions. Emphasizes subject expertise and analytical skills.",
