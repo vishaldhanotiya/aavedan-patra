@@ -31,16 +31,22 @@ import {
 } from "./ui/accordion";
 import { Checkbox } from "./ui/checkbox";
 import { Label } from "./ui/label";
-import type { CategoryData } from "../data/categoryData";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { CategoryData } from "@/data/category/applicationsCategory";
+import { iconMap } from "./icon";
 
 interface DynamicCategoryPageProps {
   category: CategoryData;
+  language?: "en" | "hi";
 }
-
-export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
-  const { language } = useLanguage();
+export const metadata = {
+  title: "Applications for job, software engineers etc | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
+export function DynamicCategoryPage({
+  category,
+  language = "hi",
+}: DynamicCategoryPageProps) {
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -86,7 +92,7 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
   };
 
   const typeFilters = getTypeFilters();
-
+  const Icons = iconMap[category.icon as keyof typeof iconMap];
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
       <div className="container mx-auto px-4 py-12">
@@ -161,7 +167,7 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
             <div className="flex-1">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-violet-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
-                  <category.icon className="w-8 h-8 text-white" />
+                  <Icons className="w-8 h-8 text-white" />
                 </div>
                 <div>
                   <h1 className="text-4xl lg:text-5xl bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
@@ -199,35 +205,39 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
               : "प्रकार के अनुसार ब्राउज़ करें"}
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {category.subcategories.map((sub, index) => (
-              <motion.a
-                key={index}
-                href={`/${category.slug}/${sub.slug}`}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 + index * 0.05 }}
-                whileHover={{ scale: 1.03, y: -5 }}
-                className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-cyan-300 dark:hover:border-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/20 transition-all duration-300 cursor-pointer"
-              >
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-violet-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-lg shadow-cyan-500/20">
-                  <sub.icon className="w-6 h-6 text-white" />
-                </div>
-                <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
-                  {getText(sub.title)}
-                </h3>
-                <p className="text-sm text-slate-600 dark:text-white/60 mb-3 line-clamp-2">
-                  {getText(sub.description)}
-                </p>
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-slate-500 dark:text-white/50">
-                    {sub.count} {language === "en" ? "templates" : "टेम्पलेट"}
-                  </span>
-                  {/* <Link href={'/letters/formal'}> */}
-                  <ArrowRight className="w-4 h-4 text-cyan-600 dark:text-cyan-400 group-hover:translate-x-1 transition-transform" />
-                  {/* </Link> */}
-                </div>
-              </motion.a>
-            ))}
+            {category.subcategories.map((sub, index) => {
+              const Icons = iconMap[sub.icon as keyof typeof iconMap];
+
+              return (
+                <motion.a
+                  key={index}
+                  href={`/${category.slug}/${sub.slug}`}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3 + index * 0.05 }}
+                  whileHover={{ scale: 1.03, y: -5 }}
+                  className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-cyan-300 dark:hover:border-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/20 transition-all duration-300 cursor-pointer"
+                >
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-violet-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-lg shadow-cyan-500/20">
+                    <Icons className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+                    {getText(sub.title)}
+                  </h3>
+                  <p className="text-sm text-slate-600 dark:text-white/60 mb-3 line-clamp-2">
+                    {getText(sub.description)}
+                  </p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs text-slate-500 dark:text-white/50">
+                      {sub.count} {language === "en" ? "templates" : "टेम्पलेट"}
+                    </span>
+                    {/* <Link href={'/letters/formal'}> */}
+                    <ArrowRight className="w-4 h-4 text-cyan-600 dark:text-cyan-400 group-hover:translate-x-1 transition-transform" />
+                    {/* </Link> */}
+                  </div>
+                </motion.a>
+              );
+            })}
           </div>
         </motion.section>
 
@@ -508,27 +518,32 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
             {language === "en" ? "Related Categories" : "संबंधित श्रेणियां"}
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {category.relatedCategories.map((related, index) => (
-              <motion.a
-                key={index}
-                href={`/${related.slug}`}
-                whileHover={{ scale: 1.05, y: -5 }}
-                className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-violet-300 dark:hover:border-violet-500/50 hover:shadow-xl hover:shadow-violet-500/10 transition-all duration-300"
-              >
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-500 to-pink-600 flex items-center justify-center mb-4 shadow-lg shadow-violet-500/20">
-                  <related.icon className="w-6 h-6 text-white" />
-                </div>
-                <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
-                  {getText(related.title)}
-                </h3>
-                <p className="text-sm text-slate-600 dark:text-white/60 mb-3 line-clamp-2">
-                  {getText(related.description)}
-                </p>
-                <span className="text-xs text-slate-500 dark:text-white/50">
-                  {related.count} {language === "en" ? "templates" : "टेम्पलेट"}
-                </span>
-              </motion.a>
-            ))}
+            {category.relatedCategories.map((related, index) => {
+              const Icons = iconMap[related.icon as keyof typeof iconMap];
+
+              return (
+                <motion.a
+                  key={index}
+                  href={`/${related.slug}`}
+                  whileHover={{ scale: 1.05, y: -5 }}
+                  className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-violet-300 dark:hover:border-violet-500/50 hover:shadow-xl hover:shadow-violet-500/10 transition-all duration-300"
+                >
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-500 to-pink-600 flex items-center justify-center mb-4 shadow-lg shadow-violet-500/20">
+                    <Icons className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
+                    {getText(related.title)}
+                  </h3>
+                  <p className="text-sm text-slate-600 dark:text-white/60 mb-3 line-clamp-2">
+                    {getText(related.description)}
+                  </p>
+                  <span className="text-xs text-slate-500 dark:text-white/50">
+                    {related.count}{" "}
+                    {language === "en" ? "templates" : "टेम्पलेट"}
+                  </span>
+                </motion.a>
+              );
+            })}
           </div>
         </motion.section>
 
@@ -545,34 +560,38 @@ export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
               : "संबंधित लेख और गाइड"}
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            {category.blogs.map((blog, index) => (
-              <motion.a
-                key={index}
-                href={`/blog/${blog.slug}`}
-                whileHover={{ y: -8 }}
-                className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] overflow-hidden hover:border-pink-300 dark:hover:border-pink-500/50 hover:shadow-xl hover:shadow-pink-500/10 transition-all duration-300"
-              >
-                <div className="h-40 bg-gradient-to-br from-pink-500/30 via-violet-500/30 to-cyan-500/30 flex items-center justify-center">
-                  <blog.thumbnail className="w-12 h-12 text-white/40" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors line-clamp-2">
-                    {getText(blog.title)}
-                  </h3>
-                  <p className="text-slate-600 dark:text-white/60 mb-4 line-clamp-2">
-                    {getText(blog.excerpt)}
-                  </p>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-slate-500 dark:text-white/50">
-                      {blog.readTime}
-                    </span>
-                    <span className="text-pink-600 dark:text-pink-400">
-                      {language === "en" ? "Read More →" : "और पढ़ें →"}
-                    </span>
+            {category.blogs.map((blog, index) => {
+              const Icons = iconMap[blog.thumbnail as keyof typeof iconMap];
+
+              return (
+                <motion.a
+                  key={index}
+                  href={`/blog/${blog.slug}`}
+                  whileHover={{ y: -8 }}
+                  className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] overflow-hidden hover:border-pink-300 dark:hover:border-pink-500/50 hover:shadow-xl hover:shadow-pink-500/10 transition-all duration-300"
+                >
+                  <div className="h-40 bg-gradient-to-br from-pink-500/30 via-violet-500/30 to-cyan-500/30 flex items-center justify-center">
+                    <Icons className="w-12 h-12 text-white/40" />
                   </div>
-                </div>
-              </motion.a>
-            ))}
+                  <div className="p-6">
+                    <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors line-clamp-2">
+                      {getText(blog.title)}
+                    </h3>
+                    <p className="text-slate-600 dark:text-white/60 mb-4 line-clamp-2">
+                      {getText(blog.excerpt)}
+                    </p>
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-slate-500 dark:text-white/50">
+                        {blog.readTime}
+                      </span>
+                      <span className="text-pink-600 dark:text-pink-400">
+                        {language === "en" ? "Read More →" : "और पढ़ें →"}
+                      </span>
+                    </div>
+                  </div>
+                </motion.a>
+              );
+            })}
           </div>
         </motion.section>
 

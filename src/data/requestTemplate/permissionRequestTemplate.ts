@@ -91,13 +91,13 @@ Sincerely,
     {
       title: { en: "Approval Request Letter", hi: "अनुमोदन हेतु अनुरोध पत्र" },
       description: { en: "For requesting official approval.", hi: "आधिकारिक अनुमोदन हेतु अनुरोध।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/approval-request"
     },
     {
       title: { en: "Official Email Request Format", hi: "आधिकारिक ईमेल अनुरोध प्रारूप" },
       description: { en: "For professional email requests.", hi: "पेशेवर ईमेल अनुरोध हेतु प्रारूप।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/request-email"
     }
   ],

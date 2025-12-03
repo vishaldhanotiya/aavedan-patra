@@ -145,19 +145,19 @@ Sincerely,
     {
       title: { en: "Application for Bank Statement", hi: "बैंक स्टेटमेंट के लिए आवेदन" },
       description: { en: "Useful for banking-related requests.", hi: "बैंकिंग संबंधित अनुरोधों के लिए उपयोगी।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/bank-statement"
     },
     {
       title: { en: "Application for ATM Card Issue", hi: "एटीएम कार्ड जारी करने के लिए आवेदन" },
       description: { en: "Format for applying for a new ATM card.", hi: "नया एटीएम कार्ड पाने के लिए प्रारूप।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/atm-card"
     },
     {
       title: { en: "Application for Address Change in Bank", hi: "बैंक में पता बदलने के लिए आवेदन" },
       description: { en: "Update address details in bank records.", hi: "बैंक रिकॉर्ड में पता अपडेट करने हेतु।" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/address-change"
     }
   ],

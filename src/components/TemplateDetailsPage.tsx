@@ -14,10 +14,8 @@ import {
   ArrowRight
 } from "lucide-react";
 import { Button } from "./ui/button";
-import { Badge } from "./ui/badge";
 import { toast } from "sonner";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
 
 interface TemplateDetailsPageProps {
   template: {
@@ -36,6 +34,7 @@ interface TemplateDetailsPageProps {
       signature?: string[];
     };
   };
+  language:'hi' | 'en'
 }
 
 const relatedTemplates = [
@@ -45,9 +44,8 @@ const relatedTemplates = [
   { title: "School Teacher Resume", category: "Resumes" }
 ];
 
-export function TemplateDetailsPage({ template }: TemplateDetailsPageProps) {
+export function TemplateDetailsPage({ template, language='hi' }: TemplateDetailsPageProps) {
   const [copied, setCopied] = useState(false);
-  const {language}=useLanguage()
 
   const handleCopy = () => {
     const fullText = [

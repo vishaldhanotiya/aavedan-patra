@@ -1,15 +1,14 @@
-"use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { schoolTransferTemplate } from "@/data/admissionTemplate/schoolTransferTemplate";
-
+export const metadata = {
+  title: "Application for school transfer certificate | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 export default function Page() {
-  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={schoolTransferTemplate}
-        language={language}
       />
     </>
   );

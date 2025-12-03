@@ -304,19 +304,19 @@ Thank you,
     {
       title: { en: "Casual Leave Application", hi: "साधारण अवकाश आवेदन" },
       description: { en: "Short personal leaves and quick breaks", hi: "छोटे व्यक्तिगत अवकाश" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/casual-leave"
     },
     {
       title: { en: "Long Leave / Sabbatical", hi: "लंबी छुट्टी / सैबटिकल" },
       description: { en: "Requests for extended unpaid or sabbatical leave", hi: "लंबे अवकाश के लिए अनुरोध" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/long-leave"
     },
     {
       title: { en: "Pre-Planned Leave Request", hi: "पूर्व-योजित अवकाश अनुरोध" },
       description: { en: "Formal advance notice templates", hi: "पूर्व में सूचित करने के लिए औपचारिक प्रारूप" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/pre-planned-leave"
     }
   ],

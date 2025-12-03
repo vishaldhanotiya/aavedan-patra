@@ -24,7 +24,7 @@ import {
 } from "./ui/accordion";
 import { toast } from "sonner";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { Language } from "./Hero";
 
 interface BlogPageProps {
   article: {
@@ -57,9 +57,10 @@ interface BlogPageProps {
     readTime: string;
     link: string;
   }[];
+  language:Language
 }
 
-export function BlogPage({ article, relatedPosts }: BlogPageProps) {
+export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps) {
   const [tocOpen, setTocOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [feedback, setFeedback] = useState<"helpful" | "not-helpful" | null>(null);
@@ -99,7 +100,6 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
     toast.success("Successfully subscribed to our newsletter!");
   };
 
-  const {language}=useLanguage()
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
       <div className="container mx-auto px-4 py-12">

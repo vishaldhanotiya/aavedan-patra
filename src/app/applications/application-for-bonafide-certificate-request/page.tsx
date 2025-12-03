@@ -1,15 +1,15 @@
-"use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { bonafideCertificateTemplate } from "@/data/certificateTemplate/bonafideCertificateTemplate";
-
+export const metadata = {
+  title: "Application for bonafide certificate | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 export default function Page() {
-  const { language } = useLanguage();
+
   return (
     <>
       <PillarTemplateDetailsPage
         data={bonafideCertificateTemplate}
-        language={language}
       />
     </>
   );

@@ -21,7 +21,6 @@ import {
 import { Button } from "./ui/button";
 import { toast } from "sonner";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
 
 interface ContactUsProps {
   language?: "en" | "hi";
@@ -83,7 +82,6 @@ export function ContactUs() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const {language}=useLanguage()
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);

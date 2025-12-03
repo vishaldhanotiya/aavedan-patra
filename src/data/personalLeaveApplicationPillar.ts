@@ -318,19 +318,19 @@ Sincerely,
     {
       title: { en: "Casual Leave Application", hi: "साधारण अवकाश आवेदन" },
       description: { en: "For non-urgent personal leave", hi: "गैर-आपात व्यक्तिगत छुट्टियाँ" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/casual-leave"
     },
     {
       title: { en: "Urgent Leave Application", hi: "आपात अवकाश आवेदन" },
       description: { en: "For sudden emergency situations", hi: "अचानक आपात स्थितियों के लिए" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/urgent-leave"
     },
     {
       title: { en: "Sick Leave Application", hi: "बीमार छुट्टी आवेदन" },
       description: { en: "For health-related leave", hi: "बीमारी में उपयोगी" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/sick-leave"
     }
   ],

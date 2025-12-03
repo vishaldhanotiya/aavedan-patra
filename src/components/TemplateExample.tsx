@@ -58,7 +58,6 @@ const sampleTemplate = {
 export function TemplateExample() {
   return (
     <div>
-      <ThemeToggle />
       <TemplateDetailsPage template={sampleTemplate} />
       <Footer />
       <Toaster />

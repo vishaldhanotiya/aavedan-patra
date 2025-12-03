@@ -790,7 +790,7 @@ Sincerely,
       en: "Format for administrative support roles.",
       hi: "प्रशासनिक सहायता भूमिकाओं के लिए प्रारूप।"
     },
-    icon: Briefcase,
+    icon: 'Briefcase',
     link: "/templates/admin-assistant"
   },
   {
@@ -802,7 +802,7 @@ Sincerely,
       en: "For clerical and record-keeping job roles.",
       hi: "क्लेरिकल और रिकॉर्ड प्रबंधन की नौकरियों के लिए।"
     },
-    icon: FileText,
+    icon: 'FileText',
     link: "/templates/clerk-job"
   },
   {
@@ -814,7 +814,7 @@ Sincerely,
       en: "For customer service and support executive roles.",
       hi: "कस्टमर सर्विस और सपोर्ट एक्जीक्यूटिव भूमिकाओं के लिए।"
     },
-    icon: UserCheck,
+    icon: 'UserCheck',
     link: "/templates/customer-support"
   }
 ],

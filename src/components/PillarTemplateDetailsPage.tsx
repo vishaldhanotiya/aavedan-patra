@@ -2,7 +2,7 @@
  * PILLAR TEMPLATE DETAILS PAGE - Sample Files
  * SEO-optimized multi-variation template page for pillar content
  */
-
+"use client"
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
@@ -29,6 +29,7 @@ import { Button } from "./ui/button";
 import { toast } from "sonner";
 import { TemplateEditorModal } from "./TemplateEditorModal";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 interface TemplateVariation {
   id: string;
   title: { en: string; hi: string };
@@ -46,7 +47,7 @@ interface HowToTip {
 interface RelatedTemplate {
   title: { en: string; hi: string };
   description: { en: string; hi: string };
-  icon: React.ElementType;
+  icon: string;
   link: string;
 }
 
@@ -90,7 +91,6 @@ interface PillarTemplateDetailsPageProps {
 
 export function PillarTemplateDetailsPage({ 
   data, 
-  language = "en" 
 }: PillarTemplateDetailsPageProps) {
   const [activeVariation, setActiveVariation] = useState<string>(data.variations[0]?.id || "");
   const [copiedVariation, setCopiedVariation] = useState<string | null>(null);
@@ -98,6 +98,7 @@ export function PillarTemplateDetailsPage({
   const [feedback, setFeedback] = useState<"positive" | "negative" | null>(null);
   const [isEditorOpen, setIsEditorOpen] = useState(false);
   const [editorContent, setEditorContent] = useState("");
+  const { language } = useLanguage();
 
   useEffect(() => {
     // Reset active variation when data changes

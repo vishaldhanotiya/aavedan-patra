@@ -7,7 +7,7 @@ import { Badge } from "./ui/badge";
 import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { Language } from "./Hero";
 
 const categories = [
   "All",
@@ -153,7 +153,7 @@ const tags = [
   "report", "pdf", "word", "email", "letter", "certificate"
 ];
 
-export function BlogListing() {
+export function BlogListing({language='hi'}:{language:Language}) {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [visiblePosts, setVisiblePosts] = useState(9);
@@ -165,7 +165,6 @@ export function BlogListing() {
     return matchesCategory && matchesSearch;
   });
 
-  const {language}=useLanguage()
   const loadMore = () => {
     setVisiblePosts(prev => prev + 6);
   };

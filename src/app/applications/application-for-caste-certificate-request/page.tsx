@@ -1,15 +1,14 @@
-"use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { casteCertificateTemplate } from "@/data/certificateTemplate/casteCertificateTemplate";
-
+export const metadata = {
+  title: "Application for caste certificate | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 export default function Page() {
-  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={casteCertificateTemplate}
-        language={language}
       />
     </>
   );

@@ -27,7 +27,7 @@ interface CategoryTemplate {
 }
 
 interface CategorySubcategory {
-  icon: React.ElementType;
+  icon: string;
   title: MultilingualContent;
   description: MultilingualContent;
   count: number;
@@ -35,7 +35,7 @@ interface CategorySubcategory {
 }
 
 interface CategoryRelated {
-  icon: React.ElementType;
+  icon: string;
   title: MultilingualContent;
   description: MultilingualContent;
   count: number;
@@ -46,7 +46,7 @@ interface CategoryBlog {
   title: MultilingualContent;
   excerpt: MultilingualContent;
   readTime: string;
-  thumbnail: React.ElementType;
+  thumbnail: string;
   slug: string;
 }
 
@@ -60,7 +60,7 @@ export interface CategoryData {
   name: MultilingualContent;
   description: MultilingualContent;
   breadcrumbs: MultilingualContent[];
-  icon: React.ElementType;
+  icon: string;
   subcategories: CategorySubcategory[];
   templates: CategoryTemplate[];
   aboutContent: MultilingualContent;
@@ -86,7 +86,7 @@ export const lettersCategory: CategoryData = {
   breadcrumbs: [
     { en: "Letters", hi: "पत्र",  slug:'/letters' },
   ],
-  icon: Mail,
+  icon: 'Mail',
   subcategories: [
     // {
     //   icon: FileText,
@@ -103,28 +103,28 @@ export const lettersCategory: CategoryData = {
     //   slug: "informal",
     // },
     {
-      icon: ClipboardCheck,
+      icon: 'ClipboardCheck',
       title: { en: "Request Letters", hi: "अनुरोध पत्र" },
       description: { en: "Letters for making formal requests", hi: "औपचारिक अनुरोध के लिए पत्र" },
       count: 41,
       slug: "request",
     },
     {
-      icon: AlertCircle,
+      icon: 'AlertCircle',
       title: { en: "Complaint Letters", hi: "शिकायत पत्र" },
       description: { en: "Complaint and grievance formats", hi: "शिकायत और परेशानी प्रारूप" },
       count: 29,
       slug: "complaint",
     },
     {
-      icon: LogOut,
+      icon: 'LogOut',
       title: { en: "Resignation Letters", hi: "त्यागपत्र" },
       description: { en: "Professional resignation templates", hi: "पेशेवर त्यागपत्र टेम्पलेट" },
       count: 25,
       slug: "resignation",
     },
     {
-      icon: PartyPopper,
+      icon: 'PartyPopper',
       title: { en: "Invitation Letters", hi: "निमंत्रण पत्र" },
       description: { en: "Event and occasion invitations", hi: "कार्यक्रम और अवसर निमंत्रण" },
       count: 32,
@@ -195,28 +195,28 @@ export const lettersCategory: CategoryData = {
   },
   relatedCategories: [
     {
-      icon: FileText,
+      icon: 'FileText',
       title: { en: "Application Templates", hi: "आवेदन टेम्पलेट" },
       description: { en: "Job, leave, and loan applications", hi: "नौकरी, छुट्टी और ऋण आवेदन" },
       count: 189,
       slug: "applications",
     },
     {
-      icon: FileSpreadsheet,
+      icon: 'FileSpreadsheet',
       title: { en: "Resumes & Cover Letters", hi: "रिज्यूमे और कवर लेटर" },
       description: { en: "Professional CV and cover letters", hi: "पेशेवर सीवी और कवर लेटर" },
       count: 67,
       slug: "resumes",
     },
     {
-      icon: BookOpen,
+      icon: 'BookOpen',
       title: { en: "Essays & Paragraphs", hi: "निबंध और पैराग्राफ" },
       description: { en: "Essay writing templates", hi: "निबंध लेखन टेम्पलेट" },
       count: 124,
       slug: "essays",
     },
     {
-      icon: ClipboardCheck,
+      icon: 'ClipboardCheck',
       title: { en: "Notices & Reports", hi: "नोटिस और रिपोर्ट" },
       description: { en: "Notice and report formats", hi: "नोटिस और रिपोर्ट प्रारूप" },
       count: 78,
@@ -231,7 +231,7 @@ export const lettersCategory: CategoryData = {
         hi: "उचित प्रारूप और स्वर के साथ पेशेवर औपचारिक पत्र लिखने के लिए चरण-दर-चरण गाइड",
       },
       readTime: "5 min read",
-      thumbnail: FileText,
+      thumbnail: 'FileText',
       slug: "formal-letter-guide",
     },
     {
@@ -241,7 +241,7 @@ export const lettersCategory: CategoryData = {
         hi: "सकारात्मक संबंध बनाए रखने वाले पेशेवर त्यागपत्र लिखने पर विशेषज्ञ सलाह",
       },
       readTime: "4 min read",
-      thumbnail: LogOut,
+      thumbnail: 'LogOut',
       slug: "resignation-letter-tips",
     },
     {
@@ -251,7 +251,7 @@ export const lettersCategory: CategoryData = {
         hi: "जानें कि प्रभावी शिकायत पत्र कैसे लिखें जो पेशेवर रहते हुए परिणाम प्राप्त करें",
       },
       readTime: "6 min read",
-      thumbnail: AlertCircle,
+      thumbnail: 'AlertCircle',
       slug: "complaint-letter-writing",
     },
   ],

@@ -1,7 +1,9 @@
-"use client"
 import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
-import { essaysCategory } from "@/data/categoryData";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { essaysCategory } from "@/data/category/essaysCategory";
 
 export default function Page() {
-  return <DynamicCategoryPage category={essaysCategory} /> ;
+   const {language}= useLanguage()
+  
+  return <DynamicCategoryPage category={essaysCategory} language={language}/> ;
 }

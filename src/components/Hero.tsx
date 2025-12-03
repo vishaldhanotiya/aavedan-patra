@@ -4,14 +4,15 @@ import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { ArrowDown, Sparkles, FileText, Award, Mail } from "lucide-react";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { heroString } from "@/data/hero";
+export type Language = "en" | "hi";
 
-export function Hero() {
-  const [windowSize, setWindowSize] = useState<{
+export function Hero({ language = "hi" }: { language?: Language }) {
+    const [windowSize, setWindowSize] = useState<{
     width: number;
     height: number;
   } | null>(null);
-  const {  t } = useLanguage();
+  // Helper function to get text in current language
 
   useEffect(() => {
     setWindowSize({
@@ -71,16 +72,16 @@ export function Hero() {
             >
               <Sparkles className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
               <span className="text-slate-700 dark:text-white/90">
-                {t.hero.professionalTemp}
+                {heroString.professionalTemp[language]}
               </span>
             </motion.div>
 
             <h1 className="text-5xl lg:text-7xl mb-6 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
-              {t.hero.welcomeText}
+              {heroString.welcomeText[language]}
             </h1>
 
             <p className="text-xl text-slate-600 dark:text-white/80 mb-8 max-w-xl">
-              {t.hero.subHeading}
+              {heroString.subHeading[language]}
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -88,14 +89,14 @@ export function Hero() {
                 size="lg"
                 className="bg-gradient-to-r from-sky-500 to-violet-600 hover:from-sky-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/50 hover:shadow-xl hover:shadow-violet-500/60 transition-all duration-300"
               >
-                {t.hero.exploreTemp}
+                {heroString.exploreTemp[language]}
               </Button>
               <Button
                 size="lg"
                 variant="outline"
                 className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/10 backdrop-blur-md"
               >
-                {t.hero.viewCategories}
+                {heroString.viewCategories[language]}
               </Button>
             </div>
           </motion.div>
@@ -127,22 +128,22 @@ export function Hero() {
                   {[
                     {
                       icon: FileText,
-                      label: t.hero.applications,
+                      label: heroString.applications,
                       color: "from-sky-400 to-cyan-400",
                     },
                     {
                       icon: Mail,
-                      label: t.hero.letters,
+                      label: heroString.letters,
                       color: "from-violet-400 to-purple-400",
                     },
                     {
                       icon: Award,
-                      label: t.hero.certificates,
+                      label: heroString.certificates,
                       color: "from-pink-400 to-rose-400",
                     },
                     {
                       icon: Sparkles,
-                      label: t.hero.templates,
+                      label: heroString.templates,
                       color: "from-amber-400 to-orange-400",
                     },
                   ].map((item, i) => (
@@ -157,7 +158,7 @@ export function Hero() {
                         <item.icon className="w-6 h-6 text-white" />
                       </div>
                       <p className="text-slate-700 dark:text-white/90">
-                        {item.label}
+                        {item.label[language]}
                       </p>
                     </motion.div>
                   ))}
@@ -167,11 +168,11 @@ export function Hero() {
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-2 h-2 rounded-full bg-green-500 dark:bg-green-400 animate-pulse" />
                     <span className="text-slate-600 dark:text-white/70">
-                      {t.hero.liveUpdate}
+                      {heroString.liveUpdate[language]}
                     </span>
                   </div>
                   <p className="text-slate-700 dark:text-white/90">
-                      {t.hero.weeklyUpdate}
+                      {heroString.weeklyUpdate[language]}
                   </p>
                 </div>
               </div>

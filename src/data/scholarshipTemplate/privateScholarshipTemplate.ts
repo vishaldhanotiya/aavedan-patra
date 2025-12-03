@@ -89,19 +89,19 @@ Sincerely,
     {
       title: { en: "Fee Concession Application", hi: "फीस रियायत आवेदन" },
       description: { en: "Format for requesting fee reduction.", hi: "फीस में रियायत हेतु आवेदन प्रारूप।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/fee-concession"
     },
     {
       title: { en: "Education Loan Application", hi: "शिक्षा ऋण आवेदन" },
       description: { en: "For requesting a student education loan.", hi: "शिक्षा ऋण हेतु आवेदन।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/education-loan"
     },
     {
       title: { en: "Bonafide Certificate Request", hi: "बोनाफाइड प्रमाणपत्र आवेदन" },
       description: { en: "Required for scholarship and admission.", hi: "छात्रवृत्ति और प्रवेश के लिए आवश्यक।" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/bonafide-certificate"
     }
   ],

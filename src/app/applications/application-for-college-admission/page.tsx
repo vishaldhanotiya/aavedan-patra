@@ -1,15 +1,14 @@
-"use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { collegeAdmissionTemplate } from "@/data/admissionTemplate/collegeAdmissionTemplate";
-
+export const metadata = {
+  title: "Application for college admission | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 export default function Page() {
-  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={collegeAdmissionTemplate}
-        language={language}
       />
     </>
   );

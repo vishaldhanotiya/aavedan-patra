@@ -30,7 +30,7 @@ interface CategoryTemplate {
 }
 
 interface CategorySubcategory {
-  icon: React.ElementType;
+  icon: string;
   title: MultilingualContent;
   description: MultilingualContent;
   count: number;
@@ -38,7 +38,7 @@ interface CategorySubcategory {
 }
 
 interface CategoryRelated {
-  icon: React.ElementType;
+  icon: string;
   title: MultilingualContent;
   description: MultilingualContent;
   count: number;
@@ -49,7 +49,7 @@ interface CategoryBlog {
   title: MultilingualContent;
   excerpt: MultilingualContent;
   readTime: string;
-  thumbnail: React.ElementType;
+  thumbnail: string;
   slug: string;
 }
 
@@ -63,7 +63,7 @@ export interface CategoryData {
   name: MultilingualContent;
   description: MultilingualContent;
   breadcrumbs: MultilingualContent[];
-  icon: React.ElementType;
+  icon: string;
   subcategories: CategorySubcategory[];
   templates: CategoryTemplate[];
   aboutContent: MultilingualContent;
@@ -89,45 +89,45 @@ export const certificatesCategory: CategoryData = {
   breadcrumbs: [
     { en: "Certificates", hi: "प्रमाणपत्र" },
   ],
-  icon: Award,
+  icon: 'Award',
   subcategories: [
     {
-      icon: Briefcase,
+      icon: 'Briefcase',
       title: { en: "Experience Certificates", hi: "अनुभव प्रमाणपत्र" },
       description: { en: "Work experience certificate formats", hi: "कार्य अनुभव प्रमाणपत्र प्रारूप" },
       count: 28,
       slug: "experience",
     },
     {
-      icon: School,
+      icon: 'School',
       title: { en: "Bonafide Certificates", hi: "बोनाफाइड प्रमाणपत्र" },
       description: { en: "School and college bonafide formats", hi: "स्कूल और कॉलेज बोनाफाइड प्रारूप" },
       count: 22,
       slug: "bonafide",
     },
     {
-      icon: Shield,
+      icon: 'Shield',
       title: { en: "Character Certificates", hi: "चरित्र प्रमाणपत्र" },
       description: { en: "Character and conduct certificates", hi: "चरित्र और आचरण प्रमाणपत्र" },
       count: 19,
       slug: "character",
     },
     {
-      icon: UserCheck,
+      icon: 'UserCheck',
       title: { en: "Internship Certificates", hi: "इंटर्नशिप प्रमाणपत्र" },
       description: { en: "Internship completion certificates", hi: "इंटर्नशिप पूर्णता प्रमाणपत्र" },
       count: 24,
       slug: "internship",
     },
     {
-      icon: Trophy,
+      icon: 'Trophy',
       title: { en: "Course Certificates", hi: "पाठ्यक्रम प्रमाणपत्र" },
       description: { en: "Course and training certificates", hi: "पाठ्यक्रम और प्रशिक्षण प्रमाणपत्र" },
       count: 31,
       slug: "course",
     },
     {
-      icon: Gift,
+      icon: 'Gift',
       title: { en: "Appreciation Certificates", hi: "प्रशंसा प्रमाणपत्र" },
       description: { en: "Recognition and appreciation formats", hi: "पहचान और प्रशंसा प्रारूप" },
       count: 26,
@@ -198,28 +198,28 @@ export const certificatesCategory: CategoryData = {
   },
   relatedCategories: [
     {
-      icon: FileText,
+      icon: 'FileText',
       title: { en: "Application Templates", hi: "आवेदन टेम्पलेट" },
       description: { en: "Certificate request applications", hi: "प्रमाणपत्र अनुरोध आवेदन" },
       count: 189,
       slug: "applications",
     },
     {
-      icon: Mail,
+      icon: 'Mail',
       title: { en: "Letter Templates", hi: "पत्र टेम्पलेट" },
       description: { en: "Formal letter formats", hi: "औपचारिक पत्र प्रारूप" },
       count: 156,
       slug: "letters",
     },
     {
-      icon: FileSpreadsheet,
+      icon: 'FileSpreadsheet',
       title: { en: "Resumes & Cover Letters", hi: "रिज्यूमे और कवर लेटर" },
       description: { en: "Professional CV templates", hi: "पेशेवर सीवी टेम्पलेट" },
       count: 67,
       slug: "resumes",
     },
     {
-      icon: BookOpen,
+      icon: 'BookOpen',
       title: { en: "Notices & Reports", hi: "नोटिस और रिपोर्ट" },
       description: { en: "Official notice formats", hi: "आधिकारिक नोटिस प्रारूप" },
       count: 78,
@@ -234,7 +234,7 @@ export const certificatesCategory: CategoryData = {
         hi: "नियोक्ताओं से अनुभव प्रमाणपत्र का अनुरोध और प्राप्त करने पर पूर्ण गाइड",
       },
       readTime: "4 min read",
-      thumbnail: Briefcase,
+      thumbnail: 'Briefcase',
       slug: "experience-certificate-guide",
     },
     {
@@ -244,7 +244,7 @@ export const certificatesCategory: CategoryData = {
         hi: "बोनाफाइड प्रमाणपत्र, उनके उद्देश्य और उनके लिए आवेदन कैसे करें को समझना",
       },
       readTime: "5 min read",
-      thumbnail: School,
+      thumbnail: 'School',
       slug: "bonafide-certificate-uses",
     },
     {
@@ -254,7 +254,7 @@ export const certificatesCategory: CategoryData = {
         hi: "पाठ्यक्रम पूर्णता प्रमाणपत्र डिजाइन और जारी करने के लिए सर्वोत्तम प्रथाएं",
       },
       readTime: "6 min read",
-      thumbnail: Trophy,
+      thumbnail: 'Trophy',
       slug: "course-certificate-guide",
     },
   ],

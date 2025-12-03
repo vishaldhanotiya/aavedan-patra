@@ -2,6 +2,7 @@
  * ABOUT US PAGE - Aavedan Patra
  * Clean, professional, SEO-optimized, AdSense-safe
  */
+"use client";
 
 import { motion } from "motion/react";
 import {

@@ -2,7 +2,8 @@
 import { motion } from "motion/react";
 import { Heart, Github, Twitter, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { heroString } from "@/data/hero";
+import { Language } from "./Hero";
 
 const footerLinks = [
   {
@@ -32,8 +33,7 @@ const socialLinks = [
   { icon: Mail, href: "#", label: "Email" },
 ];
 
-export function Footer() {
-    const { t } = useLanguage();
+export function Footer({language='hi'}:{language:Language}) {
   
   return (
     <footer className="relative pt-20 pb-8 overflow-hidden">
@@ -50,10 +50,10 @@ export function Footer() {
           {/* Brand section */}
           <div className="lg:col-span-2">
             <h3 className="text-2xl mb-4 bg-gradient-to-r from-cyan-600 to-violet-600 dark:from-cyan-400 dark:to-violet-400 bg-clip-text text-transparent">
-              {t.footer.name}
+              {heroString.name[language]}
             </h3>
             <p className="text-slate-600 dark:text-white/60 mb-6 max-w-sm">
-              {t.footer.subText}
+              {heroString.subText[language]}
             </p>
 
             {/* Social links */}

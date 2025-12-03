@@ -932,7 +932,7 @@ Sincerely,
         en: "A simple and effective format for applying to Bank Clerk roles.",
         hi: "बैंक क्लर्क पद के लिए सरल और प्रभावी प्रारूप।"
       },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/bank-clerk"
     },
     {
@@ -944,7 +944,7 @@ Sincerely,
         en: "Professional format for Manager, Senior Manager, and Assistant Manager posts.",
         hi: "मैनेजर, सीनियर मैनेजर और असिस्टेंट मैनेजर पदों के लिए पेशेवर प्रारूप।"
       },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/bank-manager"
     },
     {
@@ -956,7 +956,7 @@ Sincerely,
         en: "Best format for bank cashier and teller positions.",
         hi: "बैंक कैशियर और टेलर पदों के लिए सर्वोत्तम प्रारूप।"
       },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/bank-cashier"
     }
   ],

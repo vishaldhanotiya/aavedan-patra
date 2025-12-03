@@ -24,7 +24,6 @@ import {
   SelectValue,
 } from "./ui/select";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
 
 interface Template {
   id: string;
@@ -62,15 +61,15 @@ interface SubcategoryData {
 
 interface SubcategoryListingPageProps {
   data: SubcategoryData;
+  language?:'hi' | 'en'
 }
 
-export function SubcategoryListingPage({ data }: SubcategoryListingPageProps) {
+export function SubcategoryListingPage({ data, language='en' }: SubcategoryListingPageProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
 
-  const {language}=useLanguage()
 
   // Filter templates based on search and tag
   const filteredTemplates = data.templates.filter((template) => {

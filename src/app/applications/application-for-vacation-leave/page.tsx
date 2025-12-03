@@ -1,15 +1,14 @@
-"use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { vacationLeaveApplicationPillar } from "@/data/vacationLeaveApplicationPillar";
-
+export const metadata = {
+  title: "Application for vacation leave | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 export default function Page() {
-  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={vacationLeaveApplicationPillar}
-        language={language}
       />
     </>
   );

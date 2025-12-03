@@ -102,19 +102,19 @@ Sincerely,
     {
       title: { en: "Bonafide Certificate Application", hi: "बोनाफाइड प्रमाणपत्र आवेदन" },
       description: { en: "Format for requesting a bonafide certificate.", hi: "बोनाफाइड प्रमाणपत्र प्राप्त करने का प्रारूप।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/bonafide-certificate"
     },
     {
       title: { en: "Character Certificate Application", hi: "चरित्र प्रमाणपत्र आवेदन" },
       description: { en: "For school/college character certificates.", hi: "स्कूल/कॉलेज चरित्र प्रमाणपत्र के लिए आवेदन।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/character-certificate"
     },
     {
       title: { en: "TC Application Letter", hi: "टीसी आवेदन पत्र" },
       description: { en: "Transfer certificate application format.", hi: "टीसी आवेदन का प्रारूप।" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/transfer-certificate"
     }
   ],

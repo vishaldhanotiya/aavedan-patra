@@ -7,11 +7,14 @@ import { certificateRequest } from "@/data/subcategories/certificateRequest";
 import { loanApplications } from "@/data/subcategories/loanApplications";
 import { scholarshipApplications } from "@/data/subcategories/scholarshipApplications";
 import { PropsType } from "@/data/type/type";
-
+export const metadata = {
+  title: "Job Application | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 export default async function Page({ params }: PropsType) {
   const { type } =  await params; // ❗ No await needed
   if (type === "job") {
-    return <UniversalSubcategoryPage data={jobCategory}  />;
+    return <UniversalSubcategoryPage data={jobCategory} />;
   } else if (type === "leave") {
     return <UniversalSubcategoryPage data={leaveCategory} />;
   } else if (type === "certificate-request") {

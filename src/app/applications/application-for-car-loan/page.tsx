@@ -1,15 +1,14 @@
-"use client";
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { carLoanTemplate } from "@/data/loanTemplate/carLoanTemplate";
-
+export const metadata = {
+  title: "Application for car loan | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 export default function Page() {
-  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={carLoanTemplate}
-        language={language}
       />
     </>
   );

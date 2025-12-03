@@ -603,19 +603,19 @@ Sincerely,
     {
       title: { en: "Emergency Leave Application", hi: "आपातकालीन अवकाश आवेदन" },
       description: { en: "Format for sudden urgent leave", hi: "अचानक छुट्टी के लिए प्रारूप" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/emergency-leave"
     },
     {
       title: { en: "Medical Leave Application", hi: "मेडिकल अवकाश आवेदन" },
       description: { en: "Best for long-term sickness", hi: "दीर्घ बीमारी के लिए उपयुक्त" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/medical-leave"
     },
     {
       title: { en: "Leave Application for Office", hi: "ऑफिस के लिए अवकाश आवेदन" },
       description: { en: "General leave application formats", hi: "सामान्य छुट्टी आवेदन प्रारूप" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/office-leave"
     }
   ],

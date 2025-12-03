@@ -31,17 +31,16 @@ import {
   AccordionTrigger,
 } from "./ui/accordion";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { SubcategoryData } from "@/data/category/jobCategory";
 
 interface UniversalSubcategoryPageProps {
   data: SubcategoryData;
+  language?:"hi" | "en" ;
 }
 
 export function UniversalSubcategoryPage({
-  data,
+  data,language='hi'
 }: UniversalSubcategoryPageProps) {
-    const {language}=useLanguage()
 
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);

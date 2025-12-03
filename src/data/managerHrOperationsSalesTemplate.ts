@@ -292,7 +292,7 @@ Sincerely,
         en: "Simple format for general office roles.",
         hi: "सामान्य ऑफिस नौकरियों के लिए सरल प्रारूप।"
       },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/office-job"
     },
     {
@@ -304,7 +304,7 @@ Sincerely,
         en: "Ideal for students and freshers applying for internships.",
         hi: "इंटर्नशिप के लिए आवेदन करने वाले छात्रों के लिए उपयुक्त।"
       },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/internship"
     },
     {
@@ -316,7 +316,7 @@ Sincerely,
         en: "Useful for BD, sales and client communication roles.",
         hi: "बीडी, सेल्स और क्लाइंट कम्युनिकेशन भूमिकाओं के लिए उपयोगी।"
       },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/business-development"
     }
   ],

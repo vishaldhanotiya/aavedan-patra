@@ -2,6 +2,7 @@
  * DISCLAIMER -  Aavedan Patra
  * Legal disclaimer page for AdSense compliance
  */
+"use client";
 
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
@@ -19,12 +20,7 @@ import {
   Home,
 } from "lucide-react";
 import Link from "next/link";
-import { useLanguage } from "@/contexts/LanguageContext";
-
-interface DisclaimerProps {
-  language?: "en" | "hi";
-}
-
+import { Language } from "./Hero";
 interface Section {
   id: string;
   title: { en: string; hi: string };
@@ -64,10 +60,9 @@ const sections: Section[] = [
   },
 ];
 
-export function Disclaimer() {
+export function Disclaimer({language="hi"}:{language:Language}) {
   const [activeSection, setActiveSection] = useState<string>("general");
 
-  const {language}=useLanguage()
   useEffect(() => {
     const handleScroll = () => {
       const sectionElements = sections.map((section) =>

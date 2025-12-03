@@ -1584,7 +1584,7 @@ Enclosures:
         en: "Specialized format for private school teaching positions",
         hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
       },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/private-school-teacher",
     },
     {
@@ -1596,7 +1596,7 @@ Enclosures:
         en: "Template for class teacher or homeroom teacher role",
         hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
       },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/class-teacher",
     },
     {
@@ -1608,7 +1608,7 @@ Enclosures:
         en: "Format for private tuition or coaching teaching jobs",
         hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
       },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/tuition-teacher",
     },
   ],

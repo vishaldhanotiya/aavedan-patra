@@ -1,7 +1,8 @@
-"use client"
 import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { certificatesCategory } from "@/data/category/certificatesCategory";
 
 export default function Page() {
-  return <DynamicCategoryPage category={certificatesCategory} />;
+ const {language}= useLanguage()
+  return <DynamicCategoryPage category={certificatesCategory} language={language}/>;
 }

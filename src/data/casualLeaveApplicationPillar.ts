@@ -304,19 +304,19 @@ Sincerely,
     {
       title: { en: "Emergency Leave Application", hi: "आपातकालीन अवकाश आवेदन" },
       description: { en: "For sudden urgent leave needs", hi: "अचानक जरूरत में छुट्टी" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/emergency-leave"
     },
     {
       title: { en: "Sick Leave Application", hi: "बीमार छुट्टी आवेदन" },
       description: { en: "Use for illness or medical leave", hi: "बीमारी या चिकित्सा अवकाश के लिए" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/sick-leave"
     },
     {
       title: { en: "Short Leave Application", hi: "शॉर्ट लीव आवेदन" },
       description: { en: "Best for 2–3 hour leave", hi: "2–3 घंटे के अवकाश के लिए सबसे अच्छा" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/short-leave"
     }
   ],

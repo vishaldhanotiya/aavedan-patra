@@ -73,13 +73,13 @@ Best wishes,
     {
       title: { en: "Function Invitation Letter", hi: "कार्यक्रम निमंत्रण पत्र" },
       description: { en: "Useful for cultural or social events.", hi: "सांस्कृतिक या सामाजिक कार्यक्रमों के लिए उपयोगी।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/function-invitation"
     },
     {
       title: { en: "RSVP Email Format", hi: "RSVP ईमेल प्रारूप" },
       description: { en: "For confirming invitations.", hi: "निमंत्रण की पुष्टि के लिए।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/rsvp-email"
     }
   ],

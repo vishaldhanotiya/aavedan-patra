@@ -31,7 +31,7 @@ interface CategoryTemplate {
 }
 
 interface CategorySubcategory {
-  icon: React.ElementType;
+  icon: string;
   title: MultilingualContent;
   description: MultilingualContent;
   count: number;
@@ -39,7 +39,7 @@ interface CategorySubcategory {
 }
 
 interface CategoryRelated {
-  icon: React.ElementType;
+  icon: string;
   title: MultilingualContent;
   description: MultilingualContent;
   count: number;
@@ -50,7 +50,7 @@ interface CategoryBlog {
   title: MultilingualContent;
   excerpt: MultilingualContent;
   readTime: string;
-  thumbnail: React.ElementType;
+  thumbnail: string;
   slug: string;
 }
 
@@ -64,7 +64,7 @@ export interface CategoryData {
   name: MultilingualContent;
   description: MultilingualContent;
   breadcrumbs: MultilingualContent[];
-  icon: React.ElementType;
+  icon: string;
   subcategories: CategorySubcategory[];
   templates: CategoryTemplate[];
   aboutContent: MultilingualContent;
@@ -90,45 +90,45 @@ export const applicationsCategory: CategoryData = {
   breadcrumbs: [
     { en: "Applications", hi: "आवेदन" },
   ],
-  icon: FileText,
+  icon: 'FileText',
   subcategories: [
     {
-      icon: Briefcase,
+      icon: 'Briefcase',
       title: { en: "Job Applications", hi: "नौकरी आवेदन" },
       description: { en: "Professional job application formats", hi: "पेशेवर नौकरी आवेदन प्रारूप" },
       count: 6,
       slug: "job",
     },
     {
-      icon: Calendar,
+      icon: 'Calendar',
       title: { en: "Leave Applications", hi: "छुट्टी आवेदन" },
       description: { en: "Leave request templates for office & school", hi: "कार्यालय और स्कूल के लिए छुट्टी आवेदन" },
       count: 38,
       slug: "leave",
     },
     {
-      icon: DollarSign,
+      icon: 'DollarSign',
       title: { en: "Loan Applications", hi: "ऋण आवेदन" },
       description: { en: "Bank loan application formats", hi: "बैंक ऋण आवेदन प्रारूप" },
       count: 32,
       slug: "loan",
     },
     {
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       title: { en: "Admission Applications", hi: "प्रवेश आवेदन" },
       description: { en: "School & college admission templates", hi: "स्कूल और कॉलेज प्रवेश टेम्पलेट" },
       count: 29,
       slug: "admission",
     },
     {
-      icon: Trophy,
+      icon: 'Trophy',
       title: { en: "Scholarship Applications", hi: "छात्रवृत्ति आवेदन" },
       description: { en: "Scholarship request letter formats", hi: "छात्रवृत्ति अनुरोध पत्र प्रारूप" },
       count: 24,
       slug: "scholarship",
     },
     {
-      icon: Shield,
+      icon: 'Shield',
       title: { en: "Certificate Applications", hi: "प्रमाणपत्र आवेदन" },
       description: { en: "Request letters for certificates", hi: "प्रमाणपत्र के लिए अनुरोध पत्र" },
       count: 21,
@@ -199,28 +199,28 @@ export const applicationsCategory: CategoryData = {
   },
   relatedCategories: [
     {
-      icon: Mail,
+      icon: 'Mail',
       title: { en: "Letter Templates", hi: "पत्र टेम्पलेट" },
       description: { en: "Formal and informal letter formats", hi: "औपचारिक और अनौपचारिक पत्र प्रारूप" },
       count: 156,
       slug: "letters",
     },
     {
-      icon: Award,
+      icon: 'Award',
       title: { en: "Certificates", hi: "प्रमाणपत्र" },
       description: { en: "Professional certificate templates", hi: "पेशेवर प्रमाणपत्र टेम्पलेट" },
       count: 89,
       slug: "certificates",
     },
     {
-      icon: FileSpreadsheet,
+      icon: 'FileSpreadsheet',
       title: { en: "Resumes & Cover Letters", hi: "रिज्यूमे और कवर लेटर" },
       description: { en: "CV and cover letter formats", hi: "सीवी और कवर लेटर प्रारूप" },
       count: 67,
       slug: "resumes",
     },
     {
-      icon: FileSignature,
+      icon: 'FileSignature',
       title: { en: "Agreements & Forms", hi: "समझौते और फॉर्म" },
       description: { en: "Legal agreement templates", hi: "कानूनी समझौता टेम्पलेट" },
       count: 54,
@@ -235,7 +235,7 @@ export const applicationsCategory: CategoryData = {
         hi: "पेशेवर नौकरी आवेदन बनाने के लिए आवश्यक कदम और सर्वोत्तम प्रथाएं सीखें",
       },
       readTime: "5 min read",
-      thumbnail: BookOpen,
+      thumbnail: 'BookOpen',
       slug: "how-to-write-job-application",
     },
     {
@@ -245,7 +245,7 @@ export const applicationsCategory: CategoryData = {
         hi: "कार्यालय और स्कूल के लिए प्रभावी छुट्टी आवेदन लिखने के बारे में सब कुछ जानें",
       },
       readTime: "4 min read",
-      thumbnail: Calendar,
+      thumbnail: 'Calendar',
       slug: "leave-application-guide",
     },
     {
@@ -255,7 +255,7 @@ export const applicationsCategory: CategoryData = {
         hi: "बैंकों में सफल ऋण आवेदन के लिए विशेषज्ञ सुझाव और आवश्यक दस्तावेज",
       },
       readTime: "6 min read",
-      thumbnail: DollarSign,
+      thumbnail: 'DollarSign',
       slug: "loan-application-tips",
     },
   ],

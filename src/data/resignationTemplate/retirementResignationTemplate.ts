@@ -86,13 +86,13 @@ Sincerely,
     {
       title: { en: "Appointment Letter", hi: "नियुक्ति पत्र" },
       description: { en: "Official joining/appointment format.", hi: "आधिकारिक नियुक्ति पत्र प्रारूप।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/appointment-letter"
     },
     {
       title: { en: "Work Handover Format", hi: "कार्य हस्तांतरण प्रारूप" },
       description: { en: "For smooth transition of responsibilities.", hi: "जिम्मेदारियों के सुचारू हस्तांतरण हेतु।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/work-handover"
     }
   ],

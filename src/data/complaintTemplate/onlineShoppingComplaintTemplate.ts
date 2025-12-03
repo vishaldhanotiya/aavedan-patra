@@ -90,13 +90,13 @@ Sincerely,
     {
       title: { en: "Refund Request Email", hi: "रिफंड अनुरोध ईमेल" },
       description: { en: "For quick online refund requests.", hi: "ऑनलाइन रिफंड अनुरोधों के लिए।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/refund-email"
     },
     {
       title: { en: "Complaint to Customer Care", hi: "कस्टमर केयर को शिकायत पत्र" },
       description: { en: "Easy format for customer care complaints.", hi: "कस्टमर केयर शिकायतों के लिए सरल प्रारूप।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/customer-care-complaint"
     }
   ],

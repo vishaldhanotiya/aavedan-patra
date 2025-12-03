@@ -324,19 +324,19 @@ Yours obediently,
     {
       title: { en: "Sick Leave (Student)", hi: "बीमार अवकाश (छात्र)" },
       description: { en: "For fever or illness", hi: "बीमारी या बुखार के लिए" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/sick-leave-student"
     },
     {
       title: { en: "Absent Note for School", hi: "स्कूल अनुपस्थिति नोट" },
       description: { en: "For single-day absence", hi: "एक दिन की अनुपस्थिति के लिए" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/absent-note"
     },
     {
       title: { en: "Parent to Teacher Leave Request", hi: "अभिभावक द्वारा शिक्षक को अवकाश आवेदन" },
       description: { en: "For parents writing on behalf of child", hi: "अभिभावक द्वारा बच्चे के लिए" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/parent-leave"
     }
   ],

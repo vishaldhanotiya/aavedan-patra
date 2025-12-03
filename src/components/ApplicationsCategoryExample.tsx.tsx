@@ -1,7 +1,6 @@
 import { DynamicCategoryPage } from "./DynamicCategoryPage";
-import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
-import { applicationsCategory } from "../data/categoryData";
+import { applicationsCategory } from "@/data/category/applicationsCategory";
 
 /**
  * Applications Category Page
@@ -15,9 +14,9 @@ export function ApplicationsCategoryExample() {
   return (
     <div className="min-h-screen">
       {/* Theme Toggle - Fixed Position */}
-      <div className="fixed top-6 right-6 z-50">
+      {/* <div className="fixed top-6 right-6 z-50">
         <ThemeToggle />
-      </div>
+      </div> */}
 
       {/* Dynamic Category Page */}
       <DynamicCategoryPage category={applicationsCategory} />

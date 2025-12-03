@@ -97,19 +97,19 @@ Sincerely,
     {
       title: { en: "Address Proof Letter", hi: "पते का प्रमाण पत्र" },
       description: { en: "For verifying residence details.", hi: "निवास विवरण सत्यापन हेतु पत्र।" },
-      icon: FileText,
+      icon: 'FileText',
       link: "/templates/address-proof"
     },
     {
       title: { en: "ID Proof Request Letter", hi: "पहचान प्रमाणपत्र हेतु आवेदन" },
       description: { en: "For official ID verification letters.", hi: "आधिकारिक पहचान प्रमाण हेतु पत्र।" },
-      icon: Briefcase,
+      icon: 'Briefcase',
       link: "/templates/id-proof"
     },
     {
       title: { en: "NOC Application Letter", hi: "एनओसी आवेदन पत्र" },
       description: { en: "Request for No Objection Certificate.", hi: "एनओसी के लिए आवेदन।" },
-      icon: GraduationCap,
+      icon: 'GraduationCap',
       link: "/templates/noc-application"
     }
   ],
