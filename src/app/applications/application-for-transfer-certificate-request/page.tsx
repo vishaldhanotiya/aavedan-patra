@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { transferCertificateTemplate } from "@/data/certificateTemplate/transferCertificateTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={transferCertificateTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

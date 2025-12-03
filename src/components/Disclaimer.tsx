@@ -64,10 +64,10 @@ const sections: Section[] = [
   },
 ];
 
-export function Disclaimer({ language = "en" }: DisclaimerProps) {
+export function Disclaimer() {
   const [activeSection, setActiveSection] = useState<string>("general");
 
-  const {lang}=useLanguage()
+  const {language}=useLanguage()
   useEffect(() => {
     const handleScroll = () => {
       const sectionElements = sections.map((section) =>
@@ -113,7 +113,7 @@ export function Disclaimer({ language = "en" }: DisclaimerProps) {
             <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
               <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                 <Home className="w-4 h-4" />
-              <Link href={"/"}> {lang === "en" ? "Home" : "होम"}</Link>
+              <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
               </li>
               <li className="flex items-center gap-2">
                 <ChevronRight className="w-4 h-4" />

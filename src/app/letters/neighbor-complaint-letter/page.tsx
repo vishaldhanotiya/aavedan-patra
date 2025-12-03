@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { neighborComplaintTemplate } from "@/data/complaintTemplate/neighborComplaintTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={neighborComplaintTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

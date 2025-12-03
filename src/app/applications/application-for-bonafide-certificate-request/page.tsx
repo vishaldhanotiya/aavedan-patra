@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { bonafideCertificateTemplate } from "@/data/certificateTemplate/bonafideCertificateTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={bonafideCertificateTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

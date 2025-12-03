@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { personalLeaveApplicationPillar } from "@/data/personalLeaveApplicationPillar";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={personalLeaveApplicationPillar}
-        language={lang}
+        language={language}
       />
     </>
   );

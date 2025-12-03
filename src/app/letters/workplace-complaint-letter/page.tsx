@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { workplaceComplaintTemplate } from "@/data/complaintTemplate/workplaceComplaintTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={workplaceComplaintTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

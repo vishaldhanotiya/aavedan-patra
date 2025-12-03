@@ -36,14 +36,12 @@ import { SubcategoryData } from "@/data/category/jobCategory";
 
 interface UniversalSubcategoryPageProps {
   data: SubcategoryData;
-  language?: "en" | "hi";
 }
 
 export function UniversalSubcategoryPage({
   data,
-  language = "en",
 }: UniversalSubcategoryPageProps) {
-    const {lang}=useLanguage()
+    const {language}=useLanguage()
 
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
@@ -54,7 +52,7 @@ export function UniversalSubcategoryPage({
   const [selectedLanguage, setSelectedLanguage] = useState("all");
 
   // Get localized content
-  const t = (content: { en: string; hi: string }) => content[lang];
+  const t = (content: { en: string; hi: string }) => content[language];
 
   // Filter templates based on search, tag, and filters
   const filteredTemplates = data.templates.filter((template) => {
@@ -97,7 +95,7 @@ export function UniversalSubcategoryPage({
             <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer">
               <Home className="w-4 h-4" />
               <Link href={"/"}>
-                <span>{lang === "en" ? "Home" : "होम"}</span>
+                <span>{language === "en" ? "Home" : "होम"}</span>
               </Link>
             </li>
             {data.breadcrumb.map((crumb, index) => (

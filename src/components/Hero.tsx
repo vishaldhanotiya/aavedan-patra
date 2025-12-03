@@ -11,7 +11,7 @@ export function Hero() {
     width: number;
     height: number;
   } | null>(null);
-  const { t } = useLanguage();
+  const {  t } = useLanguage();
 
   useEffect(() => {
     setWindowSize({

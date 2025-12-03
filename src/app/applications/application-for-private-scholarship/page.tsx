@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { privateScholarshipTemplate } from "@/data/scholarshipTemplate/privateScholarshipTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={privateScholarshipTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

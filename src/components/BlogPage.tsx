@@ -99,7 +99,7 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
     toast.success("Successfully subscribed to our newsletter!");
   };
 
-  const {lang}=useLanguage()
+  const {language}=useLanguage()
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
       <div className="container mx-auto px-4 py-12">
@@ -113,7 +113,7 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
             <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
               <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                 <Home className="w-4 h-4" />
-              <Link href={"/"}> {lang === "en" ? "Home" : "होम"}</Link>
+              <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
               </li>
               {article.breadcrumbs.map((crumb, index) => (
                 <li key={index} className="flex items-center gap-2">

@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { managerHrOperationsSalesPillar } from "@/data/managerHrOperationsSalesPillar";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={managerHrOperationsSalesPillar}
-        language={lang}
+        language={language}
       />
     </>
   );

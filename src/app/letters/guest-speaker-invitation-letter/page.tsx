@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { guestSpeakerInvitationTemplate } from "@/data/invitationTemplate/guestSpeakerInvitationTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={guestSpeakerInvitationTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

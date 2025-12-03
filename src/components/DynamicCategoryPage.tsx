@@ -40,11 +40,10 @@ interface DynamicCategoryPageProps {
 }
 
 export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [language, setLanguage] = useState<"en" | "hi">(lang);
   const [selectedFormat, setSelectedFormat] = useState<string>("all");
   const [selectedDocLanguage, setSelectedDocLanguage] = useState<string>("all");
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);

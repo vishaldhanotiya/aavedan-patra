@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { carLoanTemplate } from "@/data/loanTemplate/carLoanTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={carLoanTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

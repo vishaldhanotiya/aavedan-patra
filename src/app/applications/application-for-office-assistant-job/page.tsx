@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { officeAssistantApplicationData } from "@/data/officeAssistantApplicationData";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={officeAssistantApplicationData}
-        language={lang}
+        language={language}
       />
     </>
   );

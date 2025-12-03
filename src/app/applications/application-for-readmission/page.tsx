@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { readmissionTemplate } from "@/data/admissionTemplate/readmissionTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={readmissionTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );

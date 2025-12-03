@@ -1,5 +1,4 @@
 "use client";
-
 import { useLanguage } from "../contexts/LanguageContext";
 import { motion } from "motion/react";
 import {
@@ -7,7 +6,7 @@ import {
 } from "lucide-react";
 
 export default function LanguageSwitcher() {
-  const { lang, setLang } = useLanguage();
+  const { language, setLanguage } = useLanguage();
 
   return (
    <motion.div
@@ -24,9 +23,9 @@ export default function LanguageSwitcher() {
           <div className="flex items-center gap-2 bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-full px-4 py-2 shadow-lg shadow-cyan-500/10">
             <Languages className="w-4 h-4 text-slate-600 dark:text-white/60" />
             <button
-              onClick={() => setLang("en")}
+              onClick={() => setLanguage("en")}
               className={`px-3 py-1 rounded-full text-sm transition-all ${
-                lang === "en"
+                language === "en"
                   ? "bg-gradient-to-r from-cyan-500 to-violet-600 text-white shadow-lg"
                   : "text-slate-600 dark:text-white/60 hover:text-slate-900 dark:hover:text-white"
               }`}
@@ -34,9 +33,9 @@ export default function LanguageSwitcher() {
               English
             </button>
             <button
-              onClick={() => setLang("hi")}
+              onClick={() => setLanguage("hi")}
               className={`px-3 py-1 rounded-full text-sm transition-all ${
-                lang === "hi"
+                language === "hi"
                   ? "bg-gradient-to-r from-cyan-500 to-violet-600 text-white shadow-lg"
                   : "text-slate-600 dark:text-white/60 hover:text-slate-900 dark:hover:text-white"
               }`}

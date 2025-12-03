@@ -4,12 +4,12 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { collegeAdmissionTemplate } from "@/data/admissionTemplate/collegeAdmissionTemplate";
 
 export default function Page() {
-  const { lang } = useLanguage();
+  const { language } = useLanguage();
   return (
     <>
       <PillarTemplateDetailsPage
         data={collegeAdmissionTemplate}
-        language={lang}
+        language={language}
       />
     </>
   );
