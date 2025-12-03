@@ -1,8 +1,10 @@
-import { SubcategoryExample } from "@/components/SubcategoryExample";
 import { UniversalSubcategoryPage } from "@/components/UniversalSubcategoryPage";
 import { complaintLetters, formalLetters, informalLetters, invitationLetters, requestLetters, resignationLetters } from "@/data/subcategories";
 import { PropsType } from "@/data/type/type";
-
+export const metadata = {
+  title: "Letters | Aavedan Patra",
+  description: "Learn more about our aavedan patra",
+};
 
 export default async function Page(props: PropsType) {
   const { type } = await props.params;
@@ -19,5 +21,5 @@ export default async function Page(props: PropsType) {
   } else if (type === "invitation") {
     return <UniversalSubcategoryPage data={invitationLetters} />;
   }
-  return <SubcategoryExample />;
+  return  <UniversalSubcategoryPage data={formalLetters} />;
 }

@@ -32,6 +32,7 @@ import {
 } from "./ui/accordion";
 import Link from "next/link";
 import { SubcategoryData } from "@/data/category/jobCategory";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface UniversalSubcategoryPageProps {
   data: SubcategoryData;
@@ -39,7 +40,7 @@ interface UniversalSubcategoryPageProps {
 }
 
 export function UniversalSubcategoryPage({
-  data,language='hi'
+  data
 }: UniversalSubcategoryPageProps) {
 
   const [searchQuery, setSearchQuery] = useState("");
@@ -49,7 +50,7 @@ export function UniversalSubcategoryPage({
   const [selectedType, setSelectedType] = useState("all");
   const [selectedFormat, setSelectedFormat] = useState("all");
   const [selectedLanguage, setSelectedLanguage] = useState("all");
-
+const {language}=useLanguage()
   // Get localized content
   const t = (content: { en: string; hi: string }) => content[language];
 
