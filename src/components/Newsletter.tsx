@@ -1,4 +1,3 @@
-"use client";
 import { motion } from "motion/react";
 import { Mail, Send, Sparkles } from "lucide-react";
 import { Button } from "./ui/button";

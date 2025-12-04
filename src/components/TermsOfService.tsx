@@ -2,7 +2,7 @@
  * TERMS OF SERVICE - Aavedan Patra
  * Legal-compliant terms with sticky navigation
  */
-
+"use client"
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import {

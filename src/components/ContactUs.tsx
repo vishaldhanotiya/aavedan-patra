@@ -3,6 +3,7 @@
  * Professional contact page with form and business information
  */
 
+"use client"
 import { useState } from "react";
 import { motion } from "motion/react";
 import {

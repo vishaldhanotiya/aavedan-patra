@@ -2,7 +2,7 @@
  * SUPPORT CENTER - Sample Files
  * Comprehensive help and support hub
  */
-
+"use client"
 import { useState } from "react";
 import { motion } from "motion/react";
 import {

@@ -2,7 +2,7 @@
  * FAQ PAGE - Aavedan Patra
  * Comprehensive FAQ page with accordion, search, and schema markup
  */
-
+"use client"
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import {

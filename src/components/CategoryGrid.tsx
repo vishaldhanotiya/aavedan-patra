@@ -14,7 +14,7 @@ import { Language } from "./Hero";
 import { heroString } from "@/data/hero";
 import { iconMap } from "./icon";
 
-export function CategoryGrid({ language = "hi" }: { language: Language }) {
+export function CategoryGrid({ language = "hi" }: { language?: Language }) {
   const categories = [
     {
       icon: "FileText",

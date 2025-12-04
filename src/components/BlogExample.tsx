@@ -1,3 +1,4 @@
+"use client"
 import { BlogPage } from "./BlogPage";
 import { ThemeToggle } from "./ThemeToggle";
 import { Toaster } from "./ui/toaster";
