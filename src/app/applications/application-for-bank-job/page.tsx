@@ -3,8 +3,8 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { bankJobApplicationPillar } from "@/data/bankJobApplicationPillar";
 
 export const metadata = {
-  title: "Application for banking job | Aavedan Patra",
-  description: "Learn more about our aavedan patra",
+  title: "Application for Banking Job | Aavedan Patra",
+  description: "Write a professional banking job application with correct format, sample letter, and tips for freshers and experienced candidates.",
 };
 
 export default function Page() {

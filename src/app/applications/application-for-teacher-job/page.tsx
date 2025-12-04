@@ -3,10 +3,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { teacherJobApplicationTemplate } from "@/data/teacherJobApplicationTemplate";
 
 export const metadata = {
-  title: "Application for teacher job | Aavedan Patra",
-  description: "Learn more about our aavedan patra",
+  title: "Application for Teacher Job | Aavedan Patra",
+  description: "Formal job application format for school teacher positions with sample examples.",
 };
-
 export default function Page() {
   return (
     <>

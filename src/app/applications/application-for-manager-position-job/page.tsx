@@ -1,8 +1,8 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { managerHrOperationsSalesTemplate } from "@/data/managerHrOperationsSalesTemplate";
 export const metadata = {
-  title: "Application for manager position job | Aavedan Patra",
-  description: "Learn more about our aavedan patra",
+  title: "Application for Manager Position | Aavedan Patra",
+  description: "Professional job application letter format for applying to manager-level positions.",
 };
 export default function Page() {
   return (

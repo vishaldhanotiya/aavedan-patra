@@ -3,7 +3,7 @@ import { complaintLetters, formalLetters, informalLetters, invitationLetters, re
 import { PropsType } from "@/data/type/type";
 export const metadata = {
   title: "Letters | Aavedan Patra",
-  description: "Learn more about our aavedan patra",
+  description: "Find all types of formal and informal letter formats and samples.",
 };
 
 export default async function Page(props: PropsType) {

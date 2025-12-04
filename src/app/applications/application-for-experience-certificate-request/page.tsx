@@ -1,8 +1,8 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { experienceCertificateTemplate } from "@/data/certificateTemplate/experienceCertificateTemplate";
 export const metadata = {
-  title: "Application for experience certificate | Aavedan Patra",
-  description: "Learn more about our aavedan patra",
+  title: "Application for Experience Certificate | Aavedan Patra",
+  description: "Proper format to request an experience certificate from employer with sample letter.",
 };
 export default function Page() {
   return (
