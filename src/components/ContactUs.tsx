@@ -73,7 +73,7 @@ const faqs = [
   },
 ];
 
-export function ContactUs() {
+export function ContactUs({language='en'}:ContactUsProps) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",

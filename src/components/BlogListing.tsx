@@ -414,7 +414,7 @@ export function BlogListing({language='hi'}:{language?:Language}) {
         >
           <h2 className="text-2xl text-slate-900 dark:text-white mb-4">Why Our Blog Helps</h2>
           <p className="text-slate-700 dark:text-white/70 leading-relaxed">
-            Our writing guides and templates help you master professional communication in all formats. Whether you're learning how to write a job application, crafting the perfect resignation letter, creating a standout resume, or understanding formal document formats, our comprehensive tutorials provide step-by-step guidance. We cover everything from basic letter writing to advanced business communication, offering practical tips, real-world examples, and downloadable samples. Students, professionals, and job seekers trust our guides to improve their writing skills and create polished, professional documents that make the right impression.
+            Our writing guides and templates help you master professional communication in all formats. Whether you are learning how to write a job application, crafting the perfect resignation letter, creating a standout resume, or understanding formal document formats, our comprehensive tutorials provide step-by-step guidance. We cover everything from basic letter writing to advanced business communication, offering practical tips, real-world examples, and downloadable samples. Students, professionals, and job seekers trust our guides to improve their writing skills and create polished, professional documents that make the right impression.
           </p>
         </motion.section>
 

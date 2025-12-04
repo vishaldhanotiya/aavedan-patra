@@ -74,7 +74,7 @@ interface DynamicTemplateDetailsPageProps {
 
 export function DynamicTemplateDetailsPage({
   data,
-  language,
+  language='en',
 }: DynamicTemplateDetailsPageProps) {
   const [copied, setCopied] = useState(false);
   const [feedback, setFeedback] = useState<"up" | "down" | null>(null);

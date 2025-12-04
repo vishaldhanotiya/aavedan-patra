@@ -25,8 +25,8 @@ const sampleArticle = {
             communication skills and professionalism.
           </p>
           <p>
-            In this comprehensive guide, we'll walk you through every step of writing an effective job application that stands out 
-            to recruiters and hiring managers. Whether you're applying for your first job or looking to advance your career, 
+            In this comprehensive guide, we will walk you through every step of writing an effective job application that stands out 
+            to recruiters and hiring managers. Whether you are applying for your first job or looking to advance your career, 
             these principles will help you create a compelling application.
           </p>
           <p>
@@ -76,19 +76,19 @@ const sampleArticle = {
           <h3 className="text-2xl text-slate-900 dark:text-white mt-6 mb-4">Step 5: Craft Your Opening Paragraph</h3>
           <p>
             Begin with a respectful salutation (Dear Sir/Madam, or Dear [Name]), then introduce yourself and state the position 
-            you're applying for. Mention how you learned about the opportunity and express your enthusiasm.
+            you are applying for. Mention how you learned about the opportunity and express your enthusiasm.
           </p>
 
           <h3 className="text-2xl text-slate-900 dark:text-white mt-6 mb-4">Step 6: Highlight Your Qualifications</h3>
           <p>
-            In the body paragraphs, explain why you're the ideal candidate. Highlight relevant experience, skills, and achievements 
+            In the body paragraphs, explain why you are the ideal candidate. Highlight relevant experience, skills, and achievements 
             that match the job requirements. Use specific examples and quantifiable results when possible.
           </p>
           <ul className="list-disc pl-6 space-y-2 my-4">
             <li>Reference the job description and address key requirements</li>
             <li>Showcase your most relevant accomplishments</li>
             <li>Demonstrate your knowledge of the company</li>
-            <li>Explain how you'll add value to the organization</li>
+            <li>Explain how you will add value to the organization</li>
           </ul>
 
           <h3 className="text-2xl text-slate-900 dark:text-white mt-6 mb-4">Step 7: Close Professionally</h3>
