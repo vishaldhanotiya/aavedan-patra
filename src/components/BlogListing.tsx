@@ -153,7 +153,7 @@ const tags = [
   "report", "pdf", "word", "email", "letter", "certificate"
 ];
 
-export function BlogListing({language='hi'}:{language:Language}) {
+export function BlogListing({language='hi'}:{language?:Language}) {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [visiblePosts, setVisiblePosts] = useState(9);
