@@ -69,7 +69,7 @@ export interface TemplateDetailData {
 }
 interface DynamicTemplateDetailsPageProps {
   data: TemplateDetailData;
-  language: "en" | "hi";
+  language?: "en" | "hi";
 }
 
 export function DynamicTemplateDetailsPage({

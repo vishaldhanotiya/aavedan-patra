@@ -70,7 +70,7 @@ interface CategoryPageProps {
       answer: string;
     }[];
   };
-  language:Language
+  language?:Language
 }
 
 export function CategoryPage({ category, language }: CategoryPageProps) {
