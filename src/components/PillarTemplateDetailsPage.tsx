@@ -148,7 +148,7 @@ export function PillarTemplateDetailsPage({
             </head>
             <body>
               <h1>${variation.title[language]}</h1>
-              <pre>${variation.content}</pre>
+              <pre>${variation.content[language]}</pre>
             </body>
           </html>
         `);
