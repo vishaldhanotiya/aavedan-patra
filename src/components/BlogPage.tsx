@@ -57,7 +57,7 @@ interface BlogPageProps {
     readTime: string;
     link: string;
   }[];
-  language:Language
+  language?:Language
 }
 
 export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps) {

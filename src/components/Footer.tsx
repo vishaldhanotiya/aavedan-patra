@@ -33,7 +33,7 @@ const socialLinks = [
   { icon: Mail, href: "#", label: "Email" },
 ];
 
-export function Footer({language='hi'}:{language:Language}) {
+export function Footer({language='hi'}:{language?:Language}) {
   
   return (
     <footer className="relative pt-20 pb-8 overflow-hidden">

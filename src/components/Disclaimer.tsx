@@ -60,7 +60,7 @@ const sections: Section[] = [
   },
 ];
 
-export function Disclaimer({language="hi"}:{language:Language}) {
+export function Disclaimer({language="hi"}:{language?:Language}) {
   const [activeSection, setActiveSection] = useState<string>("general");
 
   useEffect(() => {

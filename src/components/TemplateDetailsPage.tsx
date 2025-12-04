@@ -34,7 +34,7 @@ interface TemplateDetailsPageProps {
       signature?: string[];
     };
   };
-  language:'hi' | 'en'
+  language?:'hi' | 'en'
 }
 
 const relatedTemplates = [
