@@ -1,7 +1,7 @@
-import { TemplateDetailsPage } from "./TemplateDetailsPage";
 import { ThemeToggle } from "./ThemeToggle";
 import { Toaster } from "./ui/toaster";
 import { Footer } from "./Footer";
+import { Old_TemplateDetailsPage } from "./Old_TemplateDetailsPage";
 
 // Sample template data
 const sampleTemplate = {
@@ -55,10 +55,10 @@ const sampleTemplate = {
   },
 };
 
-export function TemplateExample() {
+export function Old_TemplateExample() {
   return (
     <div>
-      <TemplateDetailsPage template={sampleTemplate} />
+      <Old_TemplateDetailsPage template={sampleTemplate} />
       <Footer />
       <Toaster />
     </div>

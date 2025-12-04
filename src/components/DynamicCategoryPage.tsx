@@ -10,7 +10,6 @@ import {
   ArrowRight,
   SlidersHorizontal,
   Search,
-  Languages,
   X,
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -34,10 +33,10 @@ import { Label } from "./ui/label";
 import Link from "next/link";
 import { CategoryData } from "@/data/category/applicationsCategory";
 import { iconMap } from "./icon";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface DynamicCategoryPageProps {
   category: CategoryData;
-  language?: "en" | "hi";
 }
 export const metadata = {
   title: "Applications for job, software engineers etc | Aavedan Patra",
@@ -45,7 +44,6 @@ export const metadata = {
 };
 export function DynamicCategoryPage({
   category,
-  language = "hi",
 }: DynamicCategoryPageProps) {
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
@@ -53,6 +51,7 @@ export function DynamicCategoryPage({
   const [selectedFormat, setSelectedFormat] = useState<string>("all");
   const [selectedDocLanguage, setSelectedDocLanguage] = useState<string>("all");
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const {language}=useLanguage()
 
   // Helper function to get text in current language
   const getText = (content: { en: string; hi: string }) => {

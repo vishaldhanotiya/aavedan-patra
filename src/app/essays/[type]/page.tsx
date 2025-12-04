@@ -1,4 +1,3 @@
-import { SubcategoryExample } from "@/components/SubcategoryExample";
 import { UniversalSubcategoryPage } from "@/components/UniversalSubcategoryPage";
 import {
   essays100WordsData,
@@ -26,5 +25,5 @@ export default async function Page(props: PropsType) {
   } else if (type === "paragraphs") {
     return <UniversalSubcategoryPage data={paragraphsData} />;
   }
-  return <SubcategoryExample />;
+    return <UniversalSubcategoryPage data={essays100WordsData} />;
 }

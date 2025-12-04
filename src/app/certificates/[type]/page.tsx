@@ -1,4 +1,3 @@
-import { SubcategoryExample } from "@/components/SubcategoryExample";
 import { UniversalSubcategoryPage } from "@/components/UniversalSubcategoryPage";
 import {
   bonafideCertificatesData,
@@ -25,5 +24,5 @@ export default async function Page(props: PropsType) {
   } else if (type === "appreciation") {
     return <UniversalSubcategoryPage data={requestLetters} />;
   }
-  return <SubcategoryExample />;
+    return <UniversalSubcategoryPage data={experienceCertificatesData} />;
 }

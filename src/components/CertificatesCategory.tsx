@@ -186,7 +186,6 @@ const certificatesCategory = {
 export function CertificatesCategory() {
   return (
     <div>
-      <ThemeToggle />
       <CategoryPage category={certificatesCategory} />
       <Footer />
     </div>

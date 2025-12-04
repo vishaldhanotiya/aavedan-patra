@@ -180,7 +180,6 @@ const agreementsCategory = {
 export function AgreementsCategory() {
   return (
     <div>
-      <ThemeToggle />
       <CategoryPage category={agreementsCategory} />
       <Footer />
     </div>

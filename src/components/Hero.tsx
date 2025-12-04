@@ -1,19 +1,19 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
 import { ArrowDown, Sparkles, FileText, Award, Mail } from "lucide-react";
 import { heroString } from "@/data/hero";
+import { useLanguage } from "@/contexts/LanguageContext";
 export type Language = "en" | "hi";
 
-export function Hero({ language = "hi" }: { language?: Language }) {
-    const [windowSize, setWindowSize] = useState<{
+export function Hero() {
+  const [windowSize, setWindowSize] = useState<{
     width: number;
     height: number;
   } | null>(null);
   // Helper function to get text in current language
-
+  const { language } = useLanguage();
   useEffect(() => {
     setWindowSize({
       width: window.innerWidth,
@@ -172,7 +172,7 @@ export function Hero({ language = "hi" }: { language?: Language }) {
                     </span>
                   </div>
                   <p className="text-slate-700 dark:text-white/90">
-                      {heroString.weeklyUpdate[language]}
+                    {heroString.weeklyUpdate[language]}
                   </p>
                 </div>
               </div>

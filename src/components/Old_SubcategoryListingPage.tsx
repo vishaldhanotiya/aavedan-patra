@@ -64,7 +64,7 @@ interface SubcategoryListingPageProps {
   language?:'hi' | 'en'
 }
 
-export function SubcategoryListingPage({ data, language='en' }: SubcategoryListingPageProps) {
+export function Old_SubcategoryListingPage({ data, language='en' }: SubcategoryListingPageProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState("popular");

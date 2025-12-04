@@ -1,6 +1,5 @@
 "use client"
 import { BlogPage } from "./BlogPage";
-import { ThemeToggle } from "./ThemeToggle";
 import { Toaster } from "./ui/toaster";
 import { Footer } from "./Footer";
 
@@ -319,7 +318,6 @@ const relatedPosts = [
 export function BlogExample() {
   return (
     <div>
-      <ThemeToggle />
       <BlogPage article={sampleArticle} relatedPosts={relatedPosts} />
       <Footer />
       <Toaster />

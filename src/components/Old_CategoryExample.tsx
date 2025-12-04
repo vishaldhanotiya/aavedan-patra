@@ -214,7 +214,6 @@ const applicationsCategory = {
 export default function CategoryExample() {
   return (
     <div>
-      <ThemeToggle />
       <CategoryPage category={applicationsCategory} />
       <Footer />
     </div>

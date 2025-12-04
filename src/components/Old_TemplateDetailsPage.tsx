@@ -44,7 +44,7 @@ const relatedTemplates = [
   { title: "School Teacher Resume", category: "Resumes" }
 ];
 
-export function TemplateDetailsPage({ template, language='hi' }: TemplateDetailsPageProps) {
+export function Old_TemplateDetailsPage({ template, language='hi' }: TemplateDetailsPageProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {

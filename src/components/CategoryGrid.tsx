@@ -1,12 +1,6 @@
 "use client";
 import { motion } from "motion/react";
 import {
-  FileText,
-  Mail,
-  Award,
-  FileUser,
-  FileBarChart,
-  AtSign,
   ArrowRight,
 } from "lucide-react";
 import Link from "next/link";

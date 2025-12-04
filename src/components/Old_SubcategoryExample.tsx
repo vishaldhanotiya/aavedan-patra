@@ -1,5 +1,5 @@
 'use client'
-import { SubcategoryListingPage } from "./SubcategoryListingPage";
+import { Old_SubcategoryListingPage } from "./Old_SubcategoryListingPage";
 import { getSubcategoryData } from "../data/subcategoryData";
 // import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
@@ -12,7 +12,6 @@ export function SubcategoryExample() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
-      {/* <ThemeToggle /> */}
       
       {/* Demo Navigation - Remove in production */}
       {/* <div className="fixed top-4 left-4 z-50 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 shadow-lg">
@@ -71,7 +70,7 @@ export function SubcategoryExample() {
         </div>
       </div> */}
 
-      <SubcategoryListingPage data={subcategoryData} />
+      <Old_SubcategoryListingPage data={subcategoryData} />
       <Footer />
     </div>
   );

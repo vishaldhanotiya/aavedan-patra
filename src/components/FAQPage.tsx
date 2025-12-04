@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface FAQPageProps {
   language?: "en" | "hi";
@@ -279,11 +280,11 @@ const faqCategories: FAQCategory[] = [
   },
 ];
 
-export function FAQPage({ language = "en" }: FAQPageProps) {
+export function FAQPage() {
   const [expandedCategory, setExpandedCategory] = useState<number | null>(0);
   const [expandedFAQ, setExpandedFAQ] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
-
+const {language}=useLanguage()
   // Filter FAQs based on search query
   const filteredCategories = faqCategories
     .map((category) => ({

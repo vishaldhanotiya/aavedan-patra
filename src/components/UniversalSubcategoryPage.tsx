@@ -36,7 +36,6 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 interface UniversalSubcategoryPageProps {
   data: SubcategoryData;
-  language?:"hi" | "en" ;
 }
 
 export function UniversalSubcategoryPage({

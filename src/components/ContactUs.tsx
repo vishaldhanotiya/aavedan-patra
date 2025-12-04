@@ -3,7 +3,7 @@
  * Professional contact page with form and business information
  */
 
-"use client"
+"use client";
 import { useState } from "react";
 import { motion } from "motion/react";
 import {
@@ -22,10 +22,7 @@ import {
 import { Button } from "./ui/button";
 import { toast } from "sonner";
 import Link from "next/link";
-
-interface ContactUsProps {
-  language?: "en" | "hi";
-}
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const contactInfo = {
   email: "aavedan.hub@gmail.com",
@@ -73,7 +70,7 @@ const faqs = [
   },
 ];
 
-export function ContactUs({language='en'}:ContactUsProps) {
+export function ContactUs() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -82,7 +79,7 @@ export function ContactUs({language='en'}:ContactUsProps) {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-
+  const { language } = useLanguage();
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -127,7 +124,7 @@ export function ContactUs({language='en'}:ContactUsProps) {
             <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
               <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                 <Home className="w-4 h-4" />
-              <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
+                <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
               </li>
               <li className="flex items-center gap-2">
                 <ChevronRight className="w-4 h-4" />

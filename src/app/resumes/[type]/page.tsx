@@ -1,4 +1,3 @@
-import { SubcategoryExample } from "@/components/SubcategoryExample";
 import { UniversalSubcategoryPage } from "@/components/UniversalSubcategoryPage";
 import {
   atsFriendlyResumesData,
@@ -25,5 +24,5 @@ export default async function Page(props: PropsType) {
   } else if (type === "industry") {
     return <UniversalSubcategoryPage data={industryResumesData} />;
   }
-  return <SubcategoryExample />;
+    return <UniversalSubcategoryPage data={professionalResumesData} />;
 }

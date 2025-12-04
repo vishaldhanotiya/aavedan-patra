@@ -20,7 +20,7 @@ import {
   Home,
 } from "lucide-react";
 import Link from "next/link";
-import { Language } from "./Hero";
+import { useLanguage } from "@/contexts/LanguageContext";
 interface Section {
   id: string;
   title: { en: string; hi: string };
@@ -60,8 +60,9 @@ const sections: Section[] = [
   },
 ];
 
-export function Disclaimer({language="hi"}:{language?:Language}) {
+export function Disclaimer() {
   const [activeSection, setActiveSection] = useState<string>("general");
+  const {language}=useLanguage()
 
   useEffect(() => {
     const handleScroll = () => {
