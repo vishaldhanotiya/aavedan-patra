@@ -4,11 +4,13 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Link from "next/link";
-import { Language } from "./Hero";
 import { heroString } from "@/data/hero";
 import { iconMap } from "./icon";
+import { useLanguage } from "@/contexts/LanguageContext";
 
-export function CategoryGrid({ language = "hi" }: { language?: Language }) {
+export function CategoryGrid() {
+
+  const {language} =useLanguage()
   const categories = [
     {
       icon: "FileText",
