@@ -3,7 +3,6 @@
  * PART 1 OF 5
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const softwareJobApplicationTemplate = {
   breadcrumb: {
@@ -1667,7 +1666,9 @@ During my industrial training at [Training Name], I worked with technologies suc
 
 I am a quick learner, self-motivated, and always open to learning new technologies. I would welcome the opportunity to contribute to [Company Name] and grow my skills further.
 
-My resume is attached for your review. Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.
+My resume is attached for your review. I look forward to the opportunity to discuss how I can contribute to your team.
+
+Thank you for considering my application.
 
 Sincerely,
 [Your Name]
@@ -1732,7 +1733,9 @@ On the back end, I have worked with [back-end skill name, e.g., Node.js, Express
 
 I hold a [degree name] in [branch name] and enjoy building clean, efficient, and reliable systems. I am confident I can contribute effectively to your team.
 
-My resume is attached for your review. Thank you for your time and consideration. I look forward to the opportunity to discuss how I can support [Company Name].
+My resume is attached for your review. I look forward to the opportunity to discuss how I can support [Company Name].
+
+Thank you for your time and consideration.
 
 Sincerely,
 [Your Name]`,
@@ -1787,7 +1790,9 @@ My work also includes implementing important backend functionalities such as use
 
 I hold a [degree name] in [branch name], and I am confident that my technical skills and problem-solving abilities will allow me to contribute effectively to your team.
 
-My resume is attached for your review. Thank you for your time. I look forward to discussing how I can support [Company Name].
+My resume is attached for your review. I look forward to discussing how I can support [Company Name].
+
+Thank you for your time and consideration.
 
 Sincerely,
 [Your Name]`,
@@ -1840,7 +1845,9 @@ I have hands-on experience with [frontend skills, e.g., React, Angular, Vue, Jav
 
 I hold a [degree name] in [branch name], and I am confident that my UI/UX understanding and technical skills will help me contribute effectively to your team.
 
-My resume is attached for your review. Thank you for your time. I look forward to discussing how I can support [Company Name].
+My resume is attached for your review. I look forward to discussing how I can support [Company Name].
+
+Thank you for your time and consideration.
 
 Sincerely,
 [Your Name]`,
@@ -1893,7 +1900,9 @@ My technical expertise includes [skills, e.g., React Native, Flutter, Swift, Kot
 
 I hold a [degree name] in [branch name], and I am confident that my technical skills, problem-solving ability, and commitment to clean code will allow me to contribute effectively to your mobile development team.
 
-My resume is attached for your review. Thank you for your time and consideration. I look forward to discussing how my experience aligns with the goals of [Company Name].
+My resume is attached for your review. I look forward to discussing how my experience aligns with the goals of [Company Name].
+
+Thank you for your time and consideration.
 
 Sincerely,
 [Your Name]`,

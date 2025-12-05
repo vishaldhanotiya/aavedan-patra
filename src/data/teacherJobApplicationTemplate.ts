@@ -3,8 +3,6 @@
  * Example data for Pillar Template Page with Editor support
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
-
 export const teacherJobApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
@@ -1070,7 +1068,6 @@ Thank you for your consideration.`,
 ईमेल: [xxx@gmail.com]
 
 संलग्नक:
-
 1. बायोडाटा
 2. शैक्षणिक प्रमाणपत्र
 3. अनुभव प्रमाणपत्र (यदि कोई हो)`,
@@ -1091,7 +1088,6 @@ During my graduation, I volunteered at a local NGO, teaching Hindi and Mathemati
 Please review my attached resume, academic certificates, and recommendation letters. If selected, I will contribute with full dedication to your school's success.
 
 Thank you for your time and consideration. I look forward to the opportunity to discuss this further.
-
 
 Sincerely,  
 [Your Name]  
@@ -1151,7 +1147,6 @@ Enclosures:
 [आपका नाम]
 
 संलग्नक:
-
 1. बायोडाटा
 2. शैक्षणिक प्रमाणपत्र
 3. अनुभव प्रमाणपत्र (यदि कोई हो)`,
@@ -1172,7 +1167,6 @@ I completed my Montessori training [no.of years] years ago and have been working
 I’m comfortable planning age-appropriate lessons, managing mixed-ability classrooms, and building positive relationships with students and parents. I’m also eager to learn more about [school name] approach to early childhood development and how I can contribute to the team.
 
 I would welcome the opportunity to discuss my application further. Thank you for your time and consideration.
-
 
 Yours sincerely,
 [Your Signature]
@@ -1228,7 +1222,6 @@ Enclosures:
 [आपका नाम]
 
 संलग्नक:
-
 1. विस्तृत बायोडाटा
 2. अनुभव प्रमाणपत्र
 3. शैक्षणिक योग्यता
@@ -1307,7 +1300,6 @@ Enclosures:
 [आपका नाम]
 
 संलग्नक:
-
 1. बायोडाटा
 2. शैक्षणिक प्रमाणपत्र (B.Sc./M.Sc. Mathematics)
 3. B.Ed. प्रमाणपत्र
@@ -1393,7 +1385,6 @@ Enclosures:
 [आपका नाम]
 
 संलग्नक:
-
 1. बायोडाटा
 2. B.A./M.A. अंग्रेज़ी साहित्य प्रमाणपत्र
 3. B.Ed. प्रमाणपत्र
@@ -1475,12 +1466,11 @@ Enclosures:
 
 आपका धन्यवाद।
 
-**भवदीय,**
+भवदीय,
 [आपका हस्ताक्षर]
 [आपका नाम]
 
-**संलग्नक:**
-
+संलग्नक:
 1. बायोडाटा
 2. B.Sc./M.Sc. प्रमाणपत्र
 3. B.Ed. प्रमाणपत्र

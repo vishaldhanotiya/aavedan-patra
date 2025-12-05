@@ -3,7 +3,6 @@
  * Manager, HR, Operations, Sales/Marketing
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const managerHrOperationsSalesTemplate = {
   breadcrumb: {
@@ -51,15 +50,7 @@ export const managerHrOperationsSalesTemplate = {
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]  
 [Company Address]  
@@ -78,17 +69,11 @@ I am confident that my ability to manage projects, handle cross-functional coord
 Thank you for considering my application. I look forward to the opportunity to contribute positively to your team.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]  
 [कंपनी का पता]  
@@ -107,7 +92,9 @@ Sincerely,
 कृपया मेरे आवेदन पर विचार करें। आपके संगठन में योगदान देने का अवसर पाकर मुझे खुशी होगी।
 
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -132,15 +119,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]  
 [Company Address]  
@@ -161,17 +140,11 @@ I look forward to the chance to bring my HR skills to your organization.
 Thank you for your time and consideration.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]  
 [कंपनी का पता]  
@@ -190,7 +163,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।
 
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -215,15 +190,7 @@ Sincerely,
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]  
 [Company Address]  
@@ -242,17 +209,11 @@ I believe my analytical mindset and commitment to timely execution make me a str
 Thank you for your consideration.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]  
 [कंपनी का पता]  
@@ -271,7 +232,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।
 
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -296,15 +259,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]  
 [Company Address]  
@@ -323,17 +278,11 @@ My strengths include strong communication, negotiation, persuasive skills, and a
 I look forward to the opportunity to contribute to your company's growth.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]  
 [कंपनी का पता]  
@@ -352,7 +301,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।
 
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     }
   ],
