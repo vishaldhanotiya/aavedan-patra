@@ -131,10 +131,10 @@ export function CategoryPage({ category, language }: CategoryPageProps) {
                 {category.description}
               </p>
             </div>
-            <Button className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/30 hidden md:flex">
+            {/* <Button className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/30 hidden md:flex">
               <Sparkles className="w-4 h-4 mr-2" />
               Generate with AI
-            </Button>
+            </Button> */}
           </div>
         </motion.header>
 

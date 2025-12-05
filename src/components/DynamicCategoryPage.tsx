@@ -184,10 +184,10 @@ export function DynamicCategoryPage({
                 {getText(category.description)}
               </p>
             </div>
-            <Button className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/30">
+            {/* <Button className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/30">
               <Sparkles className="w-4 h-4 mr-2" />
               {language === "en" ? "Generate with AI" : "AI से बनाएं"}
-            </Button>
+            </Button> */}
           </div>
         </motion.header>
 

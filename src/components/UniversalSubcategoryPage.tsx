@@ -132,12 +132,12 @@ const {language}=useLanguage()
             </div>
 
             {/* Generate with AI Button */}
-            <Button className="bg-gradient-to-r from-violet-600 to-pink-600 hover:from-violet-700 hover:to-pink-700 text-white shadow-lg shadow-violet-500/30 h-12 px-6">
+            {/* <Button className="bg-gradient-to-r from-violet-600 to-pink-600 hover:from-violet-700 hover:to-pink-700 text-white shadow-lg shadow-violet-500/30 h-12 px-6">
               <Sparkles className="w-4 h-4 mr-2" />
               {language === "en"
                 ? "Generate with AI"
                 : "AI के साथ उत्पन्न करें"}
-            </Button>
+            </Button> */}
           </div>
         </motion.header>
 
