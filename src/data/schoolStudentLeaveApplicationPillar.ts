@@ -25,58 +25,7 @@ export const schoolStudentLeaveApplicationPillar = {
    * VARIATIONS
    * --------------------------------------------------------- */
   variations: [
-    /* -------------------------------------------------------
-     * 1. GENERAL STUDENT LEAVE
-     * ------------------------------------------------------- */
-    {
-      id: "general",
-      title: { en: "General Leave Application for School", hi: "स्कूल के लिए सामान्य अवकाश आवेदन" },
-      description: { 
-        en: "Simple leave format for students for any general reason.",
-        hi: "किसी भी सामान्य कारण के लिए विद्यार्थियों का सरल अवकाश प्रारूप।"
-      },
-      bestFor: { en: "Any general leave", hi: "सामान्य अवकाश" },
-      length: { en: "Short", hi: "छोटा" },
-      difficulty: { en: "Very Easy", hi: "बहुत आसान" },
 
-      content: {
-        en: `To,  
-The Principal  
-[School Name]  
-[City]
-
-Subject: Leave Application  
-
-Respected Sir/Madam,  
-
-I am a student of class [Class] and I request leave on [date] due to [reason]. I kindly request you to grant me leave for the mentioned day.  
-
-Thank you.  
-
-Yours obediently,  
-[Your Name]  
-Class: [Class]  
-Roll No: [Roll No]`,
-
-        hi: `सेवा में,  
-प्रधानाचार्य महोदय/महोदया  
-[स्कूल का नाम]  
-[शहर]
-
-विषय: अवकाश हेतु आवेदन  
-
-माननीय सर/मैडम,  
-
-मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ और [कारण] के कारण [तारीख] को अवकाश लेना चाहता/चाहती हूँ। कृपया मुझे उक्त दिन के लिए अवकाश प्रदान करने की कृपा करें।  
-
-धन्यवाद।  
-
-आपका आज्ञाकारी,  
-[आपका नाम]  
-कक्षा: [कक्षा]  
-रोल नंबर: [रोल नंबर]`
-      }
-    },
 
     /* -------------------------------------------------------
      * 2. SICK LEAVE (STUDENT)
@@ -90,36 +39,43 @@ Roll No: [Roll No]`,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Principal  
-[School Name]  
+        en: `To,
+The Principal
+[School Name]
 
-Subject: Sick Leave Application  
+Date: [Date of Application]
 
-Respected Sir/Madam,  
+Subject: Application for Sick Leave
 
-I am a student of class [Class]. I am suffering from [illness] and will not be able to attend school from [start date] to [end date]. Kindly grant me sick leave for the mentioned days.  
+Respected Sir/Madam,
 
-Thank you.  
+With Due Respect I am a student of class [Class] (Roll No: [Roll No]). I am suffering from [a severe case of] [illness, e.g., viral fever]. So, I will not be able to attend school from [start date] to [end date].
 
-Yours obediently,  
-[Your Name]  
-Roll No: [Roll No]`,
+Please kindly grant me sick leave for the mentioned period. A medical certificate from our doctor is attached for your reference.
 
-        hi: `सेवा में,  
-प्रधानाचार्य महोदय/महोदया  
-[स्कूल का नाम]
+Thank you for your consideration.
 
-विषय: बीमारी के कारण अवकाश हेतु आवेदन  
+Yours obediently,
+[Your Name]`,
 
-माननीय सर/मैडम,  
+        hi: `प्रति,
+प्रधानाचार्य महोदय/महोदया
+[विद्यालय का नाम]
 
-मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मैं [बीमारी] से पीड़ित हूँ और [आरंभ तिथि] से [अंत तिथि] तक स्कूल नहीं आ सकूँगा/सकूँगी। अतः कृपया मुझे बीमार अवकाश प्रदान करें।  
+दिनांक: [आवेदन की तारीख]
 
-धन्यवाद।  
+विषय: बीमारी के कारण अवकाश हेतु आवेदन
 
-आपका आज्ञाकारी,  
-[आपका नाम]  
+आदरणीय महोदय/महोदया,
+
+सविनय निवेदन है कि मैं, [आपका नाम], कक्षा [कक्षा] (रोल नंबर: [रोल नंबर]) का छात्र/छात्रा हूँ। मैं [बीमारी, जैसे - तेज़ बुखार] से पीड़ित हूँ। अतः, मैं [प्रारंभ तिथि] से [अंत तिथि] तक विद्यालय आने में असमर्थ रहूँगा/रहूँगी।
+
+मैं आपसे विनम्रतापूर्वक अनुरोध करता/करती हूँ कि उक्त अवधि के लिए मुझे चिकित्सकीय अवकाश प्रदान करने की कृपा करें। आपके संदर्भ के लिए हमारे चिकित्सक का प्रमाण पत्र संलग्न है।
+
+आपके विचारार्थ धन्यवाद।
+
+आपका आज्ञाकारी,
+[आपका नाम]
 रोल नंबर: [रोल नंबर]`
       }
     },
@@ -144,7 +100,7 @@ Subject: Leave Application Due to Fever
 
 Respected Sir/Madam,  
 
-I am a student of class [Class]. I am suffering from fever and cannot attend school on [date]. Kindly grant me leave for the mentioned day.  
+With Due respect, I am a student of class [Class]. I am suffering from fever and cannot attend school on [date]. Kindly grant me leave for the mentioned day.  
 
 Thank you.  
 
@@ -159,7 +115,7 @@ Yours faithfully,
 
 माननीय सर/मैडम,  
 
-मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मुझे बुखार है और [तारीख] को स्कूल आना संभव नहीं है। कृपया मुझे उक्त दिन का अवकाश प्रदान करें।  
+सविनय निवेदन है, कि मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मुझे बुखार है और [तारीख] को स्कूल आना संभव नहीं है। कृपया मुझे उक्त दिन का अवकाश प्रदान करें।  
 
 धन्यवाद।  
 
@@ -188,7 +144,7 @@ Subject: Out-of-Station Leave Request
 
 Respected Sir/Madam,  
 
-I am a student of class [Class]. I will be out of station with my family from [start date] to [end date]. Kindly grant me leave for these days.  
+With Due respect, I am a student of class [Class]. I will be out of station with my family from [start date] to [end date]. Kindly grant me leave for these days.  
 
 Thank you.  
 
@@ -204,7 +160,7 @@ Roll No: [Roll No]`,
 
 माननीय सर/मैडम,  
 
-मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मैं अपने परिवार के साथ [आरंभ तिथि] से [अंत तिथि] तक शहर से बाहर रहूँगा/रहूँगी। कृपया मुझे इन दिनों का अवकाश प्रदान करें।  
+सविनय निवेदन है, कि मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मैं अपने परिवार के साथ [आरंभ तिथि] से [अंत तिथि] तक शहर से बाहर रहूँगा/रहूँगी। कृपया मुझे इन दिनों का अवकाश प्रदान करें।  
 
 धन्यवाद।  
 
@@ -234,7 +190,7 @@ Subject: Leave Request for Family Function
 
 Respected Sir/Madam,  
 
-I am a student of class [Class]. I need leave on [date] to attend a family function. Kindly grant me leave for the day.  
+With Due respect, I am a student of class [Class]. I need leave on [date] to attend a family function. Kindly grant me leave for the day.  
 
 Thank you.  
 
@@ -249,7 +205,7 @@ Yours obediently,
 
 माननीय सर/मैडम,  
 
-मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मुझे [तारीख] को एक पारिवारिक कार्यक्रम में सम्मिलित होना है। कृपया मुझे उस दिन का अवकाश प्रदान करें।  
+सविनय निवेदन है, कि मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मुझे [तारीख] को एक पारिवारिक कार्यक्रम में सम्मिलित होना है। कृपया मुझे उस दिन का अवकाश प्रदान करें।  
 
 धन्यवाद।  
 
@@ -278,7 +234,7 @@ Subject: Half-Day Leave Application
 
 Respected Sir/Madam,  
 
-I am a student of class [Class]. I request half-day leave on [date] as I have to attend [reason]. Kindly allow me to go after the recess.  
+With Due Respect, I am a student of class [Class]. I request half-day leave on [date] as I have to attend [reason]. Kindly allow me to go after the recess.  
 
 Thank you.  
 
@@ -293,7 +249,7 @@ Yours obediently,
 
 माननीय सर/मैडम,  
 
-मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मुझे [कारण] के कारण [तारीख] को आधे दिन का अवकाश चाहिए। कृपया मुझे मध्यांतर (रीसेस) के बाद जाने की अनुमति दें।  
+सविनय निवेदन है, कि मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ। मुझे [कारण] के कारण [तारीख] को आधे दिन का अवकाश चाहिए। कृपया मुझे मध्यांतर (रीसेस) के बाद जाने की अनुमति दें।  
 
 धन्यवाद।  
 
@@ -386,3 +342,57 @@ Yours obediently,
     }
   ]
 };
+
+
+    /* -------------------------------------------------------
+     * 1. GENERAL STUDENT LEAVE
+     * ------------------------------------------------------- */
+//     {
+//       id: "general",
+//       title: { en: "General Leave Application for School", hi: "स्कूल के लिए सामान्य अवकाश आवेदन" },
+//       description: { 
+//         en: "Simple leave format for students for any general reason.",
+//         hi: "किसी भी सामान्य कारण के लिए विद्यार्थियों का सरल अवकाश प्रारूप।"
+//       },
+//       bestFor: { en: "Any general leave", hi: "सामान्य अवकाश" },
+//       length: { en: "Short", hi: "छोटा" },
+//       difficulty: { en: "Very Easy", hi: "बहुत आसान" },
+
+//       content: {
+//         en: `To,  
+// The Principal  
+// [School Name]  
+// [City]
+
+// Subject: Leave Application  
+
+// Respected Sir/Madam,  
+
+// I am a student of class [Class] and I request leave on [date] due to [reason]. I kindly request you to grant me leave for the mentioned day.  
+
+// Thank you.  
+
+// Yours obediently,  
+// [Your Name]  
+// Class: [Class]  
+// Roll No: [Roll No]`,
+
+//         hi: `सेवा में,  
+// प्रधानाचार्य महोदय/महोदया  
+// [स्कूल का नाम]  
+// [शहर]
+
+// विषय: अवकाश हेतु आवेदन  
+
+// माननीय सर/मैडम,  
+
+// मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ और [कारण] के कारण [तारीख] को अवकाश लेना चाहता/चाहती हूँ। कृपया मुझे उक्त दिन के लिए अवकाश प्रदान करने की कृपा करें।  
+
+// धन्यवाद।  
+
+// आपका आज्ञाकारी,  
+// [आपका नाम]  
+// कक्षा: [कक्षा]  
+// रोल नंबर: [रोल नंबर]`
+//       }
+//     },

@@ -33,59 +33,6 @@ export const urgentLeaveApplicationPillar = {
    * VARIATIONS
    * --------------------------------------------------------- */
   variations: [
-    /* -------------------------------------------------------
-     * 1. GENERAL URGENT LEAVE
-     * ------------------------------------------------------- */
-    {
-      id: "general",
-      title: {
-        en: "General Urgent Leave Application",
-        hi: "सामान्य आपात अवकाश आवेदन",
-      },
-      description: {
-        en: "Use when an unexpected urgent situation arises.",
-        hi: "जब अचानक कोई आपात स्थिति बन जाए तब उपयोग करें।",
-      },
-      bestFor: { en: "Any sudden urgency", hi: "कोई भी अचानक स्थिति" },
-      length: { en: "Short", hi: "छोटा" },
-      difficulty: { en: "Easy", hi: "आसान" },
-
-      content: {
-        en: `To,  
-The Manager  
-[Company Name]  
-
-Subject: Urgent Leave Application  
-
-Respected Sir/Madam,  
-
-Due to an unexpected urgent situation at home, I will not be able to come to the office on [date].  
-Kindly grant me urgent leave for the day.  
-
-Thank you.  
-
-Sincerely,  
-[Your Name]  
-[Designation]`,
-
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]  
-
-विषय: आपात अवकाश हेतु आवेदन  
-
-माननीय महोदय/महोदया,  
-
-घर में अचानक उत्पन्न आपात स्थिति के कारण मैं [तारीख] को कार्यालय उपस्थित नहीं हो पाऊँगा/पाऊँगी।  
-अतः कृपया मुझे एक दिन का आपात अवकाश प्रदान करने की कृपा करें।  
-
-धन्यवाद।  
-
-भवदीय,  
-[आपका नाम]  
-[पद]`,
-      },
-    },
 
     /* -------------------------------------------------------
      * 2. URGENT WORK AT HOME
@@ -105,11 +52,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Urgent Home Work Leave
+        en: `Subject: Urgent Home Work Leave
 
 Respected Sir/Madam,
 
@@ -120,11 +63,7 @@ Kindly approve my request.
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: आपात घरेलू कार्य हेतु अवकाश आवेदन
+        hi: `विषय: आपात घरेलू कार्य हेतु अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 
@@ -154,11 +93,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Leave for Medical Emergency
+        en: `Subject: Leave for Medical Emergency
 
 Respected Sir/Madam,
 
@@ -169,11 +104,7 @@ I will ensure pending tasks are managed.
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: चिकित्सीय आपात स्थिति हेतु अवकाश
+        hi: `विषय: चिकित्सीय आपात स्थिति हेतु अवकाश
 
 माननीय महोदय/महोदया,
 
@@ -205,11 +136,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Urgent Leave for Travel
+        en: `Subject: Urgent Leave for Travel
 
 Respected Sir/Madam,
 
@@ -220,11 +147,7 @@ Thank you.
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: आपात यात्रा हेतु अवकाश आवेदन
+        hi: `विषय: आपात यात्रा हेतु अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 
@@ -259,11 +182,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Urgent Leave for Home Repair
+        en: `Subject: Urgent Leave for Home Repair
 
 Respected Sir/Madam,
 
@@ -272,11 +191,7 @@ There is an urgent repair issue at my home (electricity/plumbing/water leakage) 
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: घर में आपात मरम्मत हेतु अवकाश आवेदन
+        hi: `विषय: घर में आपात मरम्मत हेतु अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 
@@ -309,11 +224,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Urgent Leave Request
+        en: `Subject: Urgent Leave Request
 
 Respected Sir/Madam,
 
@@ -324,11 +235,7 @@ Kindly approve my leave request.
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: अनिवार्य व्यक्तिगत आपात स्थिति हेतु अवकाश आवेदन
+        hi: `विषय: अनिवार्य व्यक्तिगत आपात स्थिति हेतु अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 

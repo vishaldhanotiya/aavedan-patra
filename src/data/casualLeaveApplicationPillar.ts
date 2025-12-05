@@ -1,4 +1,3 @@
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const casualLeaveApplicationPillar = {
   breadcrumb: {
@@ -40,36 +39,29 @@ export const casualLeaveApplicationPillar = {
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]  
+        en: `Subject: Casual Leave Application  
 
-Subject: Casual Leave Application  
+Dear [Manager's Name/Team],
 
-Respected Sir/Madam,  
+I'm writing to request a casual leave on [specific date, e.g., December 5, 2025] due to some personal commitments. I'll ensure all my tasks are up to date and hand over any urgent items to [colleague's name] if needed.
 
-I request you to kindly grant me casual leave from [start date] to [end date] due to personal reasons. I will ensure all urgent tasks are managed.  
-
+Please let me know if you require any further information. Thank you for your understanding.
 Thank you.  
 
-Sincerely,  
+Best regards,  
 [Your Name]  
 [Designation]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]  
-
-विषय: साधारण अवकाश हेतु आवेदन  
+        hi: `विषय: साधारण अवकाश हेतु आवेदन  
 
 माननीय महोदय/महोदया,  
 
-मैं व्यक्तिगत कारणों से [आरंभ तिथि] से [अंत तिथि] तक साधारण अवकाश का निवेदन करता/करती हूँ। मैं सभी आवश्यक कार्यों को सुनिश्चित कर दूंगा/दूंगी।  
+मैं [विशिष्ट तारीख, जैसे: 5 दिसंबर 2025] को कुछ व्यक्तिगत कारणों से आकस्मिक अवकाश लेने का अनुरोध कर रहा/रही हूँ। मैं यह सुनिश्चित करूंगा/करूंगी कि मेरे सभी कार्य पूरे हों और यदि आवश्यक हुआ तो जरूरी काम [सहकर्मी का नाम] को सौंप दूंगा/दूंगी।
 
-धन्यवाद।  
+यदि आपको कोई और जानकारी चाहिए तो कृपया मुझे बताएं। आपके सहयोग के लिए धन्यवाद।
 
-भवदीय,  
-[आपका नाम]  
+सादर,
+[आपका नाम]
 [पद]`
       }
     },
@@ -86,24 +78,20 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]  
-
-Subject: One-Day Casual Leave  
+        en: `Subject: One-Day Casual Leave  
 
 Respected Sir/Madam,  
 
-I request one day of casual leave on [date] due to personal work. I will resume work the next day.  
+I request one day of casual leave on [Date] due to personal work.
+
+I will be available on phone/email for urgent matters and will resume work the next day.
+
+Thank you for your consideration.
 
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]  
-
-विषय: एक दिन के साधारण अवकाश हेतु आवेदन  
+        hi: `विषय: एक दिन के साधारण अवकाश हेतु आवेदन  
 
 माननीय महोदय/महोदया,  
 
@@ -126,28 +114,28 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Casual Leave for Personal Work
+        en: `Subject: Casual Leave for Personal Work
 
 Respected Sir/Madam,
 
-I need to attend some important personal work, due to which I will not be able to come to office on [date]. Kindly grant me casual leave for the day.
+I need to attend some important personal work, due to which I will not be able to come to the office on [date]. Kindly grant me casual leave for the day.
+
+I have completed my priority tasks and will be reachable on my phone if needed.
+
+Thank you for your understanding.
 
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: व्यक्तिगत कार्य हेतु साधारण अवकाश आवेदन
+        hi: `विषय: व्यक्तिगत कार्य हेतु साधारण अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 
-मुझे कुछ महत्वपूर्ण व्यक्तिगत कार्य के कारण [तारीख] को कार्यालय उपस्थित होना संभव नहीं है। कृपया मुझे उस दिन का साधारण अवकाश प्रदान करें।
+मुझे कुछ महत्वपूर्ण व्यक्तिगत कार्यों में शामिल होना है, जिसके कारण मैं [तारीख] को कार्यालय नहीं आ पाऊँगा/पाऊँगी। कृपया मुझे उस दिन के लिए अनौपचारिक अवकाश प्रदान करें।
+
+मैंने अपनी प्राथमिकता वाले कार्य पूरे कर लिए हैं और यदि आवश्यकता हुई तो मैं अपने फोन पर संपर्क करने योग्य रहूँगा/रहूँगी।
+
+आपकी सहानुभूति के लिए धन्यवाद।
 
 भवदीय,  
 [आपका नाम]`
@@ -166,30 +154,30 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Casual Leave for Travel
+        en: `Subject: Casual Leave for Travel
 
 Respected Sir/Madam,
 
-I need to travel to [place] for a short personal visit. Therefore, I request casual leave from [start date] to [end date].
+I am planning to travel to [place] for a short personal visit. I kindly request casual leave from [start date] to [end date].
 
-Please grant me leave for the mentioned dates.
+My current assignments are on track, and I have informed my team about my absence. I will be accessible by phone for any urgent matters during this period.
+
+Please approve my leave for the mentioned dates.
+
+Thank you for your understanding.
 
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: यात्रा हेतु साधारण अवकाश आवेदन
+        hi: `विषय: यात्रा हेतु साधारण अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 
-मुझे निजी कारणों से [स्थान] की यात्रा करनी है। अतः कृपया [आरंभ तिथि] से [अंत तिथि] तक साधारण अवकाश प्रदान करें।
+मैं एक छोटी व्यक्तिगत यात्रा पर [स्थान] जाने की योजना बना रहा/रही हूँ। मैं [आरंभ तिथि] से [समाप्ति तिथि] तक अनौपचारिक अवकाश का विनम्र अनुरोध करता/करती हूँ।
+
+मेरे वर्तमान कार्य योजना के अनुसार चल रहे हैं और मैंने अपनी टीम को अपनी अनुपस्थिति के बारे में सूचित कर दिया है। इस अवधि के दौरान मैं किसी भी जरूरी मामले के लिए फोन पर उपलब्ध रहूंगा/रहूंगी।
+
+कृपया उल्लिखित तिथियों के लिए मेरे अवकाश को स्वीकृति प्रदान करें।
 
 भवदीय,  
 [आपका नाम]`
@@ -208,30 +196,26 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Leave for Family Function
+        en: `Subject: Leave for Family Function
 
 Respected Sir/Madam,
 
-I need to attend a family function on [date] and will be unable to attend work. Kindly grant me casual leave for the day.
+I am writing to request a leave of absence for [number of days] days, from [Start Date] to [End Date], to attend an important family function.
+
+I have completed all urgent tasks and will ensure all my responsibilities are handed over to [Colleague's Name] to ensure a smooth workflow during my absence.
 
 Thank you.
 
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: पारिवारिक कार्यक्रम के लिए साधारण अवकाश आवेदन
+        hi: `विषय: पारिवारिक कार्यक्रम के लिए साधारण अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 
-मुझे [तारीख] को एक पारिवारिक कार्यक्रम में शामिल होना है, जिसके कारण मैं कार्यालय उपस्थित नहीं हो पाऊँगा/पाऊँगी। अतः कृपया मुझे उस दिन का साधारण अवकाश प्रदान करें।
+मैं एक महत्वपूर्ण पारिवारिक कार्यक्रम में शामिल होने के लिए [प्रारंभ तिथि] से [समाप्ति तिथि] तक [दिनों की संख्या] दिन के अवकाश के लिए निवेदन करता/करती हूँ।
+
+मैंने अपने सभी जरूरी कार्य पूर्ण कर लिए हैं और अपनी अनुपस्थिति के दौरान कार्य प्रवाह सुचारु रखने के लिए मैं अपनी सभी जिम्मेदारियाँ [सहकर्मी का नाम] को सुपुर्द कर दूंगा/दूंगी।
 
 धन्यवाद।
 
@@ -252,30 +236,26 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Manager  
-[Company Name]
-
-Subject: Casual Leave for Urgent Home Work
+        en: `Subject: Casual Leave for Urgent Home Work
 
 Respected Sir/Madam,
 
-I request casual leave on [date] due to urgent household work that requires my immediate attention.
+I am writing to request a one-day casual leave on [Date] due to an urgent and unavoidable work-related matter that needs my attention at home.
 
-Kindly approve my leave request.
+I have ensured all my urgent tasks are completed. I will be reachable on phone for any critical issues. 
+
+Thank you for your understanding and consideration.
 
 Sincerely,  
 [Your Name]`,
 
-        hi: `सेवा में,  
-मैनेजर महोदय/महोदया  
-[कंपनी का नाम]
-
-विषय: आपात घरेलू कार्य हेतु साधारण अवकाश आवेदन
+        hi: `विषय: आपात घरेलू कार्य हेतु साधारण अवकाश आवेदन
 
 माननीय महोदय/महोदया,
 
-मुझे [तारीख] को कुछ आवश्यक घरेलू कार्य के कारण अवकाश की आवश्यकता है। अतः कृपया मेरे अवकाश अनुरोध को स्वीकृत करने की कृपा करें।
+मैं [तिथि] को एक दिवसीय अनौपचारिक अवकाश हेतु आवेदन करता/करती हूँ, क्योंकि घर पर एक अत्यावश्यक एवं अपरिहार्य कार्यालय-संबंधी कार्य के निपटान हेतु मेरी उपस्थिति आवश्यक है।
+
+मैंने अपने सभी अतिआवश्यक कार्यों का निष्पादन सुनिश्चित कर लिया है। किसी भी गंभीर आवश्यकता की स्थिति में मैं टेलीफोन द्वारा संपर्क-योग्य रहूँगा/रहूँगी।
 
 भवदीय,  
 [आपका नाम]`

@@ -1,6 +1,6 @@
 'use client'
 import { Old_SubcategoryListingPage } from "./Old_SubcategoryListingPage";
-import { getSubcategoryData } from "../data/subcategoryData";
+import { getSubcategoryData } from "../data/Old_subcategoryData";
 // import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
 
