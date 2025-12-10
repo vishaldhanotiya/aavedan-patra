@@ -1,13 +1,4 @@
-import {
-  FileText,
-  Mail,
-  FileSpreadsheet,
-  BookOpen,
-  ClipboardCheck,
-  AlertCircle,
-  LogOut,
-  PartyPopper,
-} from "lucide-react";
+
 
 // Multilingual content interface
 interface MultilingualContent {

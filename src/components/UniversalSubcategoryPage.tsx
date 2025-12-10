@@ -39,9 +39,8 @@ interface UniversalSubcategoryPageProps {
 }
 
 export function UniversalSubcategoryPage({
-  data
+  data,
 }: UniversalSubcategoryPageProps) {
-
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState("popular");
@@ -49,7 +48,7 @@ export function UniversalSubcategoryPage({
   const [selectedType, setSelectedType] = useState("all");
   const [selectedFormat, setSelectedFormat] = useState("all");
   const [selectedLanguage, setSelectedLanguage] = useState("all");
-const {language}=useLanguage()
+  const { language } = useLanguage();
   // Get localized content
   const t = (content: { en: string; hi: string }) => content[language];
 

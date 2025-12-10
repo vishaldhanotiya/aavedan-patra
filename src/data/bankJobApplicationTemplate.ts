@@ -2,9 +2,8 @@
  * JOB APPLICATION FOR BANK JOB — PILLAR TEMPLATE
  */
 
-import { FileText, Briefcase,GraduationCap } from "lucide-react";
 
-export const bankJobApplicationPillar = {
+export const bankJobApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
@@ -62,8 +61,12 @@ I am a disciplined, detail-oriented professional with strong communication skill
 
 I believe my skills and dedication make me a suitable candidate for this role. I request you to kindly consider my application.
 
+I've attached my resume for your detailed review. Thank you for considering my application
+
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 हायरिंग मैनेजर  
@@ -78,8 +81,11 @@ Sincerely,
 मैं अनुशासित और विवरण-उन्मुख हूँ। मुझे MS Office, वित्तीय दस्तावेज़ और ग्राहक प्रबंधन का अनुभव है। मैं बैंकिंग सिस्टम एवं नियमों को जल्दी अपनाने में सक्षम हूँ।
 
 कृपया मेरे आवेदन पर विचार करें।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -119,7 +125,9 @@ In my previous job, I managed clerical tasks, updated financial records, assiste
 I request you to kindly consider my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 ब्रांच मैनेजर  
@@ -134,8 +142,11 @@ Sincerely,
 अपने पिछले कार्य में, मैंने क्लेरिकल कार्य, वित्तीय रिकॉर्ड अपडेट, ग्राहक सहायता, फॉर्म प्रसंस्करण और बैंकिंग सॉफ्टवेयर का उपयोग किया। मेरी टाइपिंग स्पीड और सटीकता अच्छी है।
 
 कृपया मेरे आवेदन पर विचार करें।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -175,7 +186,9 @@ I have knowledge of compliance rules, KYC norms, loan processing, customer servi
 I request you to kindly consider my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 एचआर मैनेजर  
@@ -190,8 +203,11 @@ Sincerely,
 मुझे केवाईसी नियम, अनुपालन, ऋण प्रसंस्करण, ग्राहक सेवा और वित्तीय दस्तावेज़ीकरण का ज्ञान है। मुझे विश्वास है कि मैं आपके बैंक के लिए एक मूल्यवान सदस्य सिद्ध होऊंगा/हूँगी।
 
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },    /* ----------------------------------------------------------
      * 4. BANK SO (SPECIALIST OFFICER) JOB APPLICATION
@@ -229,7 +245,9 @@ I have experience working with banking systems, compliance standards, audits, cu
 Thank you for considering my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 एचआर मैनेजर  
@@ -243,9 +261,12 @@ Sincerely,
 
 मुझे बैंकिंग सिस्टम, अनुपालन मानक, ऑडिट, ग्राहक प्रबंधन और दस्तावेज़ीकरण का अनुभव है। मुझे विश्वास है कि मेरी योग्यता इस पद की जिम्मेदारियों के अनुरूप है।
 
-मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
+मेरे आवेदन पर विचार करने के लिए धन्यवाद। 
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -285,7 +306,9 @@ I have managed branch operations, supervised staff, ensured compliance, increase
 Thank you for your time and consideration.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 रीजनल मैनेजर  
@@ -302,7 +325,9 @@ Sincerely,
 मेरे अनुभव और नेतृत्व क्षमता से आपके बैंक को लाभ मिलेगा, इसका मुझे विश्वास है।
 
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -342,7 +367,9 @@ I have previously managed cash counters, verified transactions, processed deposi
 Thank you for your consideration.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 ब्रांच मैनेजर  
@@ -357,8 +384,11 @@ Sincerely,
 मेरी पिछली नौकरी में, मैंने नकद काउंटर संभाला, लेनदेन सत्यापित किए, जमा/निकासी प्रसंस्कृत की, ग्राहक प्रश्न हल किए और सटीक रिकॉर्ड बनाए रखा। मैं ईमानदार, जिम्मेदार और सटीकता के साथ नकदी संभालने में सक्षम हूँ।
 
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -398,7 +428,9 @@ I am familiar with bank loan policies, EMI calculations, interest structures, an
 Thank you for your time.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 लोन विभाग मैनेजर  
@@ -413,7 +445,9 @@ Sincerely,
 मुझे बैंक लोन नीतियाँ, ईएमआई गणना, ब्याज संरचना और ग्राहक मार्गदर्शन का ज्ञान है। मुझे विश्वास है कि मैं आपके लोन विभाग में प्रभावी योगदान दे सकूँगा/सकूँगी।
 
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -453,7 +487,9 @@ I have previously worked in customer-facing roles where I handled complaints, pr
 Kindly consider my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 ब्रांच मैनेजर  
@@ -469,7 +505,9 @@ Sincerely,
 
 कृपया मेरे आवेदन पर विचार करें।  
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
     /* ----------------------------------------------------------
@@ -508,7 +546,9 @@ My previous responsibilities included maintaining databases, verifying documents
 Thank you for your time.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 एचआर विभाग  
@@ -522,9 +562,12 @@ Sincerely,
 
 अपने पिछले कार्य में, मैंने डेटाबेस अपडेट किए, दस्तावेज़ सत्यापित किए, रिपोर्ट तैयार कीं और विभिन्न विभागों के साथ समन्वय किया।
 
-कृपया मेरे आवेदन पर विचार करें।  
+कृपया मेरे आवेदन पर विचार करें। 
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -564,7 +607,9 @@ My responsibilities included coordinating with staff, maintaining reports, handl
 I look forward to contributing effectively to your branch.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 ब्रांच मैनेजर  
@@ -579,8 +624,11 @@ Sincerely,
 अपने पिछले कार्य में, मैंने स्टाफ के साथ समन्वय किया, रिपोर्ट बनाए रखी, संचालन संबंधी समस्याएं हल कीं और शाखा उद्देश्यों को पूरा करने में सहायता की।
 
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -620,7 +668,9 @@ I have experience in achieving sales targets, resolving customer queries, mainta
 Please consider my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 रिलेशनशिप मैनेजर प्रमुख  
@@ -635,8 +685,11 @@ Sincerely,
 मैंने बिक्री लक्ष्य प्राप्त किए, ग्राहकों की समस्याएँ हल कीं, दीर्घकालिक संबंध बनाए और बैंक की सेवाओं को बढ़ावा दिया।
 
 कृपया मेरे आवेदन पर विचार करें।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -676,7 +729,9 @@ I am familiar with risk assessment tools, financial ratios, and loan policy guid
 Thank you for considering my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 क्रेडिट विभाग  
@@ -691,8 +746,11 @@ Sincerely,
 मैं जोखिम मूल्यांकन, वित्तीय अनुपात और लोन नीतियों से परिचित हूँ। मैं ऋण आवेदनों का सटीक और जिम्मेदार मूल्यांकन कर सकता/सकती हूँ।
 
 कृपया मेरे आवेदन पर विचार करें।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -732,7 +790,9 @@ I am detail-oriented, responsible, and skilled in identifying operational risks 
 Thank you for your time.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 अनुपालन विभाग  
@@ -747,8 +807,11 @@ Sincerely,
 मैं विवरण-उन्मुख, जिम्मेदार और जोखिम पहचान में कुशल हूँ।
 
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -788,7 +851,9 @@ I am familiar with mutual funds, term plans, fixed deposits, and portfolio manag
 Looking forward to your response.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 वेल्थ मैनेजमेंट विभाग  
@@ -803,8 +868,11 @@ Sincerely,
 मैं म्यूचुअल फंड, टर्म प्लान, फिक्स्ड डिपॉजिट और पोर्टफोलियो मैनेजमेंट से परिचित हूँ। मैं ग्राहकों को सही वित्तीय निर्णय लेने में मदद कर सकता/सकती हूँ।
 
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 
@@ -844,7 +912,9 @@ I can ensure smooth functioning of ATM machines and provide timely support durin
 Thank you for considering my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 ऑपरेशंस मैनेजर  
@@ -859,8 +929,11 @@ Sincerely,
 मैं एटीएम मशीनों के सुचारू संचालन को सुनिश्चित कर सकता/सकती हूँ और खराबी की स्थिति में तुरंत सहायता प्रदान कर सकता/सकती हूँ।
 
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
+
 भवदीय,  
-[आपका नाम]`
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`
       }
     },
 

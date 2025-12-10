@@ -3,7 +3,6 @@
  * Includes: Personal Loan, Business Loan, Education Loan, Home Loan, Car Loan, Emergency Loan
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const businessLoanTemplate = {
   breadcrumb: {
@@ -52,45 +51,49 @@ export const businessLoanTemplate = {
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `To,  
-The Branch Manager  
-[Bank Name]  
+        en: `To,
+The Branch Manager
+[Bank Name]
 [Branch Address]
 
 Subject: Application for Business Loan
 
 Respected Sir/Madam,
 
-I am writing to request a business loan of INR [Loan Amount] for [purpose: expansion/working capital/new unit]. I am the proprietor/partner of [Business Name], operating for the past [X] years with stable growth.
+I am writing to apply for a business loan of INR [Loan Amount] for [purpose: business expansion/working capital/setting up a new unit]. I am the proprietor/partner of [Business Name], which has been operating successfully for the past [X] years with stable and consistent growth.
 
-Our annual turnover is INR [Turnover], and financial statements of the last three years are attached. The requested loan will help us increase productivity and grow the business further.
+Our annual turnover is INR [Turnover], and the financial statements for the last three years are enclosed for your review. The requested loan will help us improve productivity, enhance operations, and support the future growth of the business.
 
-I kindly request you to process my application at the earliest.
+I kindly request you to consider my application and process it at the earliest.
 
-Thank you for your support.
+Thank you for your cooperation.
 
-Sincerely,  
-[Your Name]`,
+Sincerely,
+[Your Name]
+[Contact Number]
+[Address] (optional)`,
 
-        hi: `सेवा में,  
-ब्रांच मैनेजर  
-[बैंक का नाम]  
+        hi: `सेवा में,
+शाखा प्रबंधक
+[बैंक का नाम]
 [शाखा का पता]
 
-विषय: बिज़नेस लोन हेतु आवेदन
+विषय: बिज़नेस लोन के लिए आवेदन
 
 महोदय/महोदया,
 
-मैं INR [Loan Amount] के बिज़नेस लोन हेतु आवेदन प्रस्तुत करता/करती हूँ। यह लोन [उद्देश्य: विस्तार/कार्यशील पूंजी/नई यूनिट स्थापना] के लिए आवश्यक है। मैं [Business Name] का स्वामी/सहभागी हूँ और पिछले [X] वर्षों से व्यवसाय चला रहा/रही हूँ।
+मैं आपके बैंक से INR [Loan Amount] का बिज़नेस लोन लेने के लिए आवेदन कर रहा/रही हूँ। मेरा व्यवसाय [Business Name] पिछले [X] वर्षों से सफलतापूर्वक संचालित हो रहा है।
 
-हमारा वार्षिक टर्नओवर INR [Turnover] है और पिछले तीन वर्षों के वित्तीय दस्तावेज संलग्न हैं। यह लोन हमें उत्पादन बढ़ाने और व्यवसाय का विस्तार करने में सहायता करेगा।
+हमारा वार्षिक टर्नओवर INR [Turnover] है। पिछले तीन वर्षों के वित्तीय दस्तावेज़ संलग्न हैं। यह लोन हमारे व्यवसाय की उत्पादकता बढ़ाने, संचालन सुधारने और आगे विस्तार करने में मदद करेगा।
 
-कृपया मेरे आवेदन को शीघ्र स्वीकृति प्रदान करने का कष्ट करें।
+कृपया मेरे आवेदन पर शीघ्र कार्रवाई करने की कृपा करें।
 
 धन्यवाद।
 
-भवदीय,  
-[आपका नाम]`
+भवदीय,
+[आपका नाम]
+[संपर्क नंबर]
+[पता] (वैकल्पिक)`
       }
     },
 

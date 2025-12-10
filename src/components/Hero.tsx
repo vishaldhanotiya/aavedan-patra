@@ -5,7 +5,6 @@ import { Button } from "./ui/button";
 import { ArrowDown, Sparkles, FileText, Award, Mail } from "lucide-react";
 import { heroString } from "@/data/hero";
 import { useLanguage } from "@/contexts/LanguageContext";
-export type Language = "en" | "hi";
 
 export function Hero() {
   const [windowSize, setWindowSize] = useState<{

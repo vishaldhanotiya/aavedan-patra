@@ -1,6 +1,6 @@
 
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { bankJobApplicationPillar } from "@/data/bankJobApplicationPillar";
+import { bankJobApplicationTemplate } from "@/data/bankJobApplicationTemplate";
 
 export const metadata = {
   title: "Application for Banking Job | Aavedan Patra",
@@ -12,7 +12,7 @@ export default function Page() {
   return (
     <>
       <PillarTemplateDetailsPage
-        data={bankJobApplicationPillar}
+        data={bankJobApplicationTemplate}
       />
     </>
   );

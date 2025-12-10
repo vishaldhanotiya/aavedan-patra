@@ -1,13 +1,4 @@
-import {
-  FileSpreadsheet,
-  BookOpen,
-  ClipboardCheck,
-  GraduationCap,
-  Mail,
-  FileText,
-  MessageSquare,
-  Heart,
-} from "lucide-react";
+
 import { CategoryData } from "./applicationsCategory";
 
 // ===========================

@@ -1959,6 +1959,10 @@ I am applying for the QA Engineer / Tester role. I have experience in manual tes
 
 I am detail-oriented and committed to delivering bug-free applications.
 
+My resume is attached for your review. I look forward to the opportunity to discuss how I can contribute to your team.
+
+Thank you for considering my application.
+
 Sincerely,  
 [Your Name]`,
         hi: `सेवा में,  

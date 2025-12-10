@@ -1,5 +1,4 @@
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const characterCertificateTemplate = {
   breadcrumb: {

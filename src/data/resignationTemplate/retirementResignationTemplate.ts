@@ -1,4 +1,3 @@
-import { Briefcase, FileText } from "lucide-react";
 
 export const retirementResignationTemplate = {
   breadcrumb: {

@@ -1,9 +1,8 @@
 /**
  * JOB APPLICATION FOR OFFICE ROLES — PILLAR TEMPLATE
  */
-import { FileText, Briefcase, UserCheck } from "lucide-react";
 
-export const officeAssistantApplicationData = {
+export const officeAssistantApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
@@ -46,15 +45,7 @@ export const officeAssistantApplicationData = {
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]  
 [Company Address]  
@@ -72,17 +63,11 @@ I am confident that with proper guidance, I can perform the responsibilities of 
 I request you to kindly consider my application. I look forward to the opportunity to work with your organization.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]  
 
@@ -99,7 +84,9 @@ Sincerely,
 कृपया मेरे आवेदन पर विचार करें। आपके संगठन के साथ काम करने का अवसर प्राप्त करने की आशा करता/करती हूँ।
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
     {
@@ -120,15 +107,7 @@ Sincerely,
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-[Your Email]
-[Your Phone Number]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]  
 [Company Address]
@@ -146,17 +125,11 @@ I am detail-oriented, organized, punctual, and capable of multitasking efficient
 Thank you for considering my application. I look forward to contributing to your organization.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]  
-[शहर, राज्य - पिन कोड]  
-[आपका ईमेल]  
-[आपका फोन नंबर]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]  
 [कंपनी का पता]
@@ -174,7 +147,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद। आपके संगठन में योगदान देने के अवसर की प्रतीक्षा है।
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
     {
@@ -195,13 +170,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]
 
@@ -218,14 +187,11 @@ I assure you that I will work with dedication and complete all assigned tasks ac
 Thank you for your consideration.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]
 
@@ -240,7 +206,9 @@ Sincerely,
 मैं आपको आश्वस्त करता/करती हूँ कि मैं समर्पण के साथ कार्य करूँगा/करूँगी और सभी कार्य समय पर तथा सटीक रूप से पूरा करूँगा/करूँगी।
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
     {
@@ -261,12 +229,7 @@ Sincerely,
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]
 
@@ -281,14 +244,11 @@ I handled document preparation, meeting coordination, vendor communication, and 
 I look forward to contributing to your company's administrative efficiency.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]
 
@@ -303,7 +263,9 @@ Sincerely,
 आपके संगठन में योगदान देने का अवसर प्राप्त होने की आशा है।
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
     {
@@ -324,13 +286,7 @@ Sincerely,
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `[Your Name]
-[Your Address]
-[City, State - PIN Code]
-
-Date: [DD/MM/YYYY]
-
-To,  
+        en: `To,  
 The Hiring Manager  
 [Company Name]
 
@@ -347,14 +303,11 @@ I am dedicated, responsible, and capable of completing tasks accurately and on t
 Thank you for your consideration.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
-        hi: `[आपका नाम]  
-[आपका पता]
-
-तारीख: [DD/MM/YYYY]
-
-सेवा में,  
+        hi: `सेवा में,  
 हायरिंग मैनेजर  
 [कंपनी का नाम]
 
@@ -371,7 +324,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
     /* ----------------------------------------------------------
@@ -413,7 +368,9 @@ I believe my organizational skills and dedication make me a strong candidate for
 Thank you for considering my application. I look forward to the opportunity to contribute to your organization.  
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 हायरिंग मैनेजर  
@@ -432,7 +389,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
 
@@ -474,7 +433,9 @@ I believe my communication skills and customer-handling abilities make me a stro
 Thank you for your time and consideration.  
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 हायरिंग मैनेजर  
@@ -493,7 +454,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
 
@@ -533,7 +496,9 @@ In my previous role, I managed visitor entries, maintained attendance logs, help
 I hope for the opportunity to contribute positively to your organization.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 हायरिंग मैनेजर  
@@ -550,7 +515,9 @@ Sincerely,
 मुझे विश्वास है कि मेरे कौशल आपके संगठन के लिए उपयोगी साबित होंगे।  
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
 
@@ -590,7 +557,9 @@ In my previous role, I updated company databases, organized files, generated bas
 Thank you for considering my application.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 हायरिंग मैनेजर  
@@ -607,7 +576,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
 
@@ -647,7 +618,9 @@ At my previous workplace, I monitored staff tasks, organized office activities, 
 I look forward to contributing my skills to your organization.
 
 Sincerely,  
-[Your Name]`,
+[Your Name]
+[Your Email]
+[Your Phone Number]`,
 
         hi: `सेवा में,  
 हायरिंग मैनेजर  
@@ -664,7 +637,9 @@ Sincerely,
 मेरे आवेदन पर विचार करने के लिए धन्यवाद।  
 
 भवदीय,  
-[आपका नाम]`,
+[आपका नाम]
+[आपका ईमेल]  
+[आपका फोन नंबर]`,
       },
     },
   ],

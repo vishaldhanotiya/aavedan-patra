@@ -1,6 +1,5 @@
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
-export const vacationLeaveApplicationPillar = {
+export const vacationLeaveApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन",slug:'/applications' },
     subcategory: { en: "Leave Applications", hi: "अवकाश आवेदन",slug:'/applications/leave' },

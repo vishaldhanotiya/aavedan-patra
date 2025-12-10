@@ -3,8 +3,6 @@
  * Includes: Personal Loan, Business Loan, Education Loan, Home Loan, Car Loan, Emergency Loan
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
-
 export const carLoanTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
@@ -52,41 +50,49 @@ export const carLoanTemplate = {
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Branch Manager  
-[Bank Name]  
+        en: `To,
+The Branch Manager
+[Bank Name]
 [Branch Address]
 
 Subject: Application for Car Loan
 
 Respected Sir/Madam,
 
-I wish to apply for a car loan of INR [Loan Amount] to purchase a [Car Model]. I am a salaried employee at [Company Name] with stable financial background.
+I would like to apply for a car loan of INR [Loan Amount] to purchase [Car Model]. I am working as [Your Job Title]at [Company Name], and my monthly income is INR [Income]. I also have a savings account in your bank, and my account number is [Account Number].
 
-I request you to guide me through the documentation and approval process.
+The on-road price of the car is INR [Price], and I have attached the dealer’s quotation for your reference. I would like to choose a loan tenure of [X years]. I assure you that I will make all EMI payments on time.
 
-Thank you.
+I am ready to submit all required documents, including KYC papers, salary slips, bank statements, and any other details needed for processing the loan. I kindly request you to consider my application and start the loan approval process.
 
-Sincerely,  
-[Your Name]`,
+Thank you for your support.
 
-        hi: `सेवा में,  
-ब्रांच मैनेजर  
-[बैंक का नाम]  
+Yours sincerely,
+[Your Name]
+[Contact Number]
+[Address]`,
+
+        hi: `सेवा में,
+शाखा प्रबंधक
+[बैंक का नाम]
 [शाखा का पता]
 
-विषय: कार लोन हेतु आवेदन
+विषय: कार ऋण (Car Loan) स्वीकृति हेतु आवेदन
 
 महोदय/महोदया,
 
-मैं INR [Loan Amount] में [Car Model] खरीदने हेतु कार लोन का आवेदन करता/करती हूँ। मैं [Company Name] में कार्यरत हूँ और मेरी आर्थिक स्थिति स्थिर है।
+सविनय निवेदन है कि मैं [Car Model] वाहन क्रय करने हेतु INR [Loan Amount] का कार ऋण प्राप्त करना चाहता/चाहती हूँ। मैं [Company Name] में [Your Job Title] के पद पर कार्यरत हूँ तथा मेरी मासिक आय INR [Income] है। मेरा बचत खाता आपके बैंक में संचालित है, जिसका खाता संख्या [Account Number] है।
 
-कृपया प्रक्रिया और आवश्यक दस्तावेजों की जानकारी प्रदान करें।
+उक्त वाहन की ऑन-रोड कीमत INR [Price] है। इसके संबंध में डीलर द्वारा प्रदान किया गया कोटेशन संलग्न है। मैं [X वर्ष] की ऋण अवधि का विकल्प चुनना चाहता/चाहती हूँ। मैं आपको यह आश्वासन देता/देती हूँ कि ऋण की निर्धारित ईएमआई का भुगतान समयानुसार एवं नियमित रूप से किया जाएगा।
 
-धन्यवाद।
+ऋण स्वीकृति हेतु आवश्यक सभी दस्तावेज – केवाईसी दस्तावेज, वेतन पर्चियाँ, बैंक स्टेटमेंट तथा अन्य प्रमाणपत्र – प्रस्तुत करने हेतु मैं तैयार हूँ। अतः आपसे विनम्र निवेदन है कि कृपया मेरे आवेदन पर अनुकंपापूर्वक विचार करते हुए ऋण स्वीकृति की प्रक्रिया आगे बढ़ाने का कष्ट करें।
 
-भवदीय,  
-[आपका नाम]`
+आपकी कृपा हेतु सदैव आभारी रहूँगा/रहूँगी।
+
+भवदीय,
+[आपका नाम]
+[संपर्क नंबर]
+[पता]`
       }
     },
 

@@ -1,17 +1,4 @@
-import {
-  FileText,
-  Mail,
-  Award,
-  Briefcase,
-  FileSpreadsheet,
-  BookOpen,
-  FileSignature,
-  GraduationCap,
-  Trophy,
-  DollarSign,
-  Shield,
-  Calendar,
-} from "lucide-react";
+
 
 // Multilingual content interface
 interface MultilingualContent {

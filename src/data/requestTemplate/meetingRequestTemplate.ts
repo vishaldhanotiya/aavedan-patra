@@ -1,4 +1,3 @@
-import { FileText,Briefcase } from "lucide-react";
 
 export const meetingRequestTemplate = {
   breadcrumb: {

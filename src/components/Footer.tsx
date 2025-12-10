@@ -1,9 +1,9 @@
 "use client";
 import { motion } from "motion/react";
-import { Heart, Github, Twitter, Linkedin, Mail } from "lucide-react";
+import { Heart, Github, Facebook, Mail,Youtube } from "lucide-react";
 import Link from "next/link";
 import { heroString } from "@/data/hero";
-import { Language } from "./Hero";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const footerLinks = [
   {
@@ -27,13 +27,14 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Mail, href: "#", label: "Email" },
+  // { icon: Github, href: "", label: "GitHub" },
+  { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61583937057617", label: "Facebook" },
+  { icon: Youtube,  href: "https://www.youtube.com/channel/UCzYTLX58XpZ4AJaXjvYhAWQ", label: "Youtube" },
+  { icon: Mail, href:"mailto:aavedan.hub@gmail.com", label: "Email" },
 ];
 
-export function Footer({language='hi'}:{language?:Language}) {
+export function Footer() {
+  const {language}=useLanguage()
   
   return (
     <footer className="relative pt-20 pb-8 overflow-hidden">
@@ -61,6 +62,7 @@ export function Footer({language='hi'}:{language?:Language}) {
               {socialLinks.map((social, index) => (
                 <motion.a
                   key={index}
+                  target={"_blank"}
                   href={social.href}
                   whileHover={{ scale: 1.1, y: -2 }}
                   className="w-10 h-10 rounded-lg bg-slate-200 dark:bg-white/5 border border-slate-300 dark:border-white/10 flex items-center justify-center hover:bg-gradient-to-br hover:from-cyan-500 hover:to-violet-600 hover:border-transparent transition-all duration-300 group"

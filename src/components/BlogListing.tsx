@@ -5,10 +5,9 @@ import { Search, Calendar, Clock, BookOpen, TrendingUp, Home, ChevronRight } fro
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
 import Link from "next/link";
-import { Language } from "./Hero";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const categories = [
   "All",
@@ -154,10 +153,11 @@ const tags = [
   "report", "pdf", "word", "email", "letter", "certificate"
 ];
 
-export function BlogListing({language='hi'}:{language?:Language}) {
+export function BlogListing() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [visiblePosts, setVisiblePosts] = useState(9);
+  const {language}=useLanguage()
 
   const filteredPosts = blogPosts.filter(post => {
     const matchesCategory = selectedCategory === "All" || post.category === selectedCategory;

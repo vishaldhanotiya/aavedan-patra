@@ -1108,8 +1108,8 @@ Enclosures:
         hi: "मोंटेसरी शिक्षक नौकरी आवेदन",
       },
       description: {
-        en: "A universal format suitable for all teaching positions. Use this when applying for any teacher role.",
-        hi: "सभी शिक्षण पदों के लिए उपयुक्त एक सार्वभौमिक प्रारूप।",
+        en: "A universal format suitable for Montessori teaching positions. Use this when applying for any teacher role.",
+        hi: "मोंटेसरी शिक्षण पदों के लिए उपयुक्त एक सार्वभौमिक प्रारूप।",
       },
       bestFor: {
         en: "Pre school teaching position",
@@ -1401,7 +1401,6 @@ Subject: Application for English Teacher Position
 
 Respected Sir/Madam,
 
-
 I am writing to apply for the position of English Teacher in your school. I saw the advertisement in [Name of the publication/job portal].
 
 I have a  [degree name] with [xno of year] experience . and I have experience teaching English to students of different classes. I prepare simple and clear lesson plans that help students improve their grammar, reading, writing, and speaking skills. I also conduct activities like group reading sessions and small creative writing workshops to make learning more interesting and practical.
@@ -1496,7 +1495,6 @@ My approach to science education is rooted in fostering observation and curiosit
 I have attached my resume, certificates, and supporting documents for your review. I am eager for the opportunity to discuss how my skills and dedication can contribute to the continued excellence of your science department.
 
 Thank you for your time and consideration.
-
 
 Yours sincerely,
 [Your Signature]

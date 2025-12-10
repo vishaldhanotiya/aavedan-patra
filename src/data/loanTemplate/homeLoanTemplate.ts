@@ -3,7 +3,6 @@
  * Includes: Personal Loan, Business Loan, Education Loan, Home Loan, Car Loan, Emergency Loan
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const homeLoanTemplate = {
   breadcrumb: {
@@ -51,45 +50,50 @@ export const homeLoanTemplate = {
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `To,  
-The Branch Manager  
-[Bank Name]  
+        en: `To,
+The Branch Manager
+[Bank Name]
 [Branch Address]
 
-Subject: Application for Home Loan
+Subject: Request for Sanction of Home Loan
 
 Respected Sir/Madam,
 
-I am writing to apply for a home loan of INR [Loan Amount] for purchasing/construction of a house located at [Property Location]. I am employed with [Company Name] earning a monthly income of INR [Income].
+I hereby submit my application for the sanction of a home loan amounting to INR [Loan Amount] for the purchase/construction of a residential property situated at [Property Location]. The total cost of the said property is INR [Total Cost], and I seek to avail the loan for a tenure of [Tenure] years.
 
-I am attaching property papers, salary slips and identity documents as required.
+I am currently employed as [Job Title] with [Company Name], drawing a monthly income of INR [Income]. I have been maintaining a savings account with your esteemed bank for the past [X Years] under account number [Account Number]. I would like to state that I have a stable financial profile with no major outstanding liabilities.
 
-Kindly process my application at the earliest.
+I am enclosing all necessary documents, including property papers, income proof, bank statements, and identity and address proof. I humbly request you to examine my application and initiate the loan processing at the earliest.
 
-Thank you.
+I shall be grateful for your cooperation.
 
-Sincerely,  
-[Your Name]`,
+Thanking you,
+Yours faithfully,
+[Your Name]
+[Your Address]
+[Phone Number]`,
 
-        hi: `सेवा में,  
-ब्रांच मैनेजर  
-[बैंक का नाम]  
+        hi: `सेवा में,
+शाखा प्रबंधक
+[बैंक का नाम]
 [शाखा का पता]
 
-विषय: होम लोन हेतु आवेदन
+विषय: आवास ऋण (Home Loan) स्वीकृति हेतु आवेदन
 
 महोदय/महोदया,
 
-मैं [Property Location] पर घर खरीदने/निर्माण हेतु INR [Loan Amount] के होम लोन के लिए आवेदन करता/करती हूँ। मैं [Company Name] में कार्यरत हूँ और मेरी मासिक आय INR [Income] है।
+मैं विनम्रतापूर्वक निवेदन करता/करती हूँ कि कृपया मुझे INR [Loan Amount] का आवास ऋण प्रदान करने की कृपा करें। यह ऋण मैं [Property Location] स्थित आवासीय संपत्ति के क्रय/निर्माण हेतु लेना चाहता/चाहती हूँ। उक्त संपत्ति की कुल लागत INR [Total Cost] है, तथा मैं इस ऋण को [Tenure] वर्षों की अवधि के लिए लेना चाहता/चाहती हूँ।
 
-संपत्ति दस्तावेज़, सैलरी स्लिप और पहचान पत्र संलग्न हैं।
+वर्तमान में मैं [Company Name] में [Job Title] के पद पर कार्यरत हूँ, तथा मेरी मासिक आय INR [Income] है। मैं पिछले [X Years] वर्षों से आपके प्रतिष्ठित बैंक का ग्राहक हूँ और मेरा बचत खाता संख्या [Account Number] है। मेरी वित्तीय स्थिति स्थिर है तथा मुझ पर कोई प्रमुख बकाया देनदारी नहीं है।
 
-कृपया आवेदन को शीघ्र प्रक्रिया में लें।
+मैं अपने आवेदन के साथ आवश्यक दस्तावेज—संपत्ति से संबंधित कागजात, आय प्रमाण पत्र, बैंक विवरण, पहचान एवं पते का प्रमाण—संलग्न कर रहा/रही हूँ।
+अतः आपसे विनम्र अनुरोध है कि कृपया मेरे आवेदन पर विचार कर इसे शीघ्र स्वीकृत करने की कृपा करें।
 
-धन्यवाद।
+आपके समय और सहयोग के लिए धन्यवाद।
 
-भवदीय,  
-[आपका नाम]`
+भवदीय/भवदीया,
+[Your Name]
+[Your Address]`
       }
     }
   ],

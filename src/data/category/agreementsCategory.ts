@@ -1,15 +1,4 @@
-import {
-  FileSignature,
-  ClipboardCheck,
-  Briefcase,
-  Mail,
-  Users,
-  FileText,
-  Heart,
-  Home,
-  Shield,
-  Award,
-} from "lucide-react";
+
 import { CategoryData } from "./applicationsCategory";
 
 // ===========================

@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import {
@@ -11,7 +12,7 @@ import {
   ThumbsDown,
   Menu,
   X,
-  CheckCircle
+  CheckCircle,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
@@ -24,7 +25,7 @@ import {
 } from "./ui/accordion";
 import { toast } from "sonner";
 import Link from "next/link";
-import { Language } from "./Hero";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface BlogPageProps {
   article: {
@@ -57,17 +58,21 @@ interface BlogPageProps {
     readTime: string;
     link: string;
   }[];
-  language?:Language
 }
 
-export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps) {
+export function BlogPage({ article, relatedPosts }: BlogPageProps) {
   const [tocOpen, setTocOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
-  const [feedback, setFeedback] = useState<"helpful" | "not-helpful" | null>(null);
+  const [feedback, setFeedback] = useState<"helpful" | "not-helpful" | null>(
+    null
+  );
+  const { language } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = article.sections.map(s => document.getElementById(s.id));
+      const sections = article.sections.map((s) =>
+        document.getElementById(s.id)
+      );
       const scrollPosition = window.scrollY + 100;
 
       for (let i = sections.length - 1; i >= 0; i--) {
@@ -93,7 +98,11 @@ export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps
 
   const handleFeedback = (type: "helpful" | "not-helpful") => {
     setFeedback(type);
-    toast.success(type === "helpful" ? "Thanks for your feedback! 🎉" : "We'll work on improving this content.");
+    toast.success(
+      type === "helpful"
+        ? "Thanks for your feedback! 🎉"
+        : "We'll work on improving this content."
+    );
   };
 
   const handleNewsletterSubscribe = () => {
@@ -113,23 +122,21 @@ export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps
             <ol className="flex items-center gap-2 text-sm text-slate-600 dark:text-white/60">
               <li className="flex items-center gap-2 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
                 <Home className="w-4 h-4" />
-              <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
+                <Link href={"/"}> {language === "en" ? "Home" : "होम"}</Link>
               </li>
               {article.breadcrumbs.map((crumb, index) => (
                 <li key={index} className="flex items-center gap-2">
                   <ChevronRight className="w-4 h-4" />
-                 
-                  <a
-                    href="/blog"
+
+                  <div
                     className={`hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors ${
                       index === article.breadcrumbs.length - 1
                         ? "text-slate-900 dark:text-white font-medium"
                         : ""
                     }`}
                   >
-                    <Link href={'/blog'}>{crumb}</Link>  
-                  </a>
-                  
+                    <Link href={"/blog"}>{crumb}</Link>
+                  </div>
                 </li>
               ))}
             </ol>
@@ -189,7 +196,11 @@ export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps
                   variant="outline"
                   className="w-full border-slate-300 dark:border-white/30 text-slate-700 dark:text-white"
                 >
-                  {tocOpen ? <X className="w-4 h-4 mr-2" /> : <Menu className="w-4 h-4 mr-2" />}
+                  {tocOpen ? (
+                    <X className="w-4 h-4 mr-2" />
+                  ) : (
+                    <Menu className="w-4 h-4 mr-2" />
+                  )}
                   Table of Contents
                 </Button>
 
@@ -227,7 +238,11 @@ export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps
               >
                 <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-8 lg:p-12 mb-8">
                   {article.sections.map((section, index) => (
-                    <section key={section.id} id={section.id} className="mb-12 last:mb-0 scroll-mt-24">
+                    <section
+                      key={section.id}
+                      id={section.id}
+                      className="mb-12 last:mb-0 scroll-mt-24"
+                    >
                       <h2 className="text-3xl text-slate-900 dark:text-white mb-6">
                         {section.title}
                       </h2>
@@ -308,7 +323,8 @@ export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps
                         Written by {article.author}
                       </h3>
                       <p className="text-slate-600 dark:text-white/70">
-                        Developer and content creator passionate about simplifying formal writing with templates and AI tools.
+                        Developer and content creator passionate about
+                        simplifying formal writing with templates and AI tools.
                       </p>
                     </div>
                   </div>
@@ -386,7 +402,9 @@ export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps
                           <Clock className="w-3 h-3" />
                           {post.readTime}
                         </span>
-                        <span className="text-cyan-600 dark:text-cyan-400">Read More →</span>
+                        <span className="text-cyan-600 dark:text-cyan-400">
+                          Read More →
+                        </span>
                       </div>
                     </motion.a>
                   ))}
@@ -404,7 +422,8 @@ export function BlogPage({ article, relatedPosts, language='hi' }: BlogPageProps
                     Get writing tips and free templates weekly
                   </h3>
                   <p className="text-slate-600 dark:text-white/70 mb-6">
-                    Join thousands of professionals improving their writing skills
+                    Join thousands of professionals improving their writing
+                    skills
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
                     <Input

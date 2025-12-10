@@ -1,16 +1,4 @@
-import {
-  FileSignature,
-  ClipboardCheck,
-  Mail,
-  AlertCircle,
-  Building2,
-  Users,
-  Target,
-  Calendar,
-  Settings,
-  FileText,
-  Award,
-} from "lucide-react";
+
 import { CategoryData } from "./applicationsCategory";
 
 

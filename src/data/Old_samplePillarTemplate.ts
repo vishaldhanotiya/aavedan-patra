@@ -3,7 +3,6 @@
  * Example data structure for Teacher Job Application pillar page
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const teacherJobApplicationPillar = {
   breadcrumb: {

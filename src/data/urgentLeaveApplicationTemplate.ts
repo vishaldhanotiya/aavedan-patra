@@ -1,6 +1,4 @@
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
-
-export const urgentLeaveApplicationPillar = {
+export const urgentLeaveApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
     subcategory: {
@@ -33,7 +31,6 @@ export const urgentLeaveApplicationPillar = {
    * VARIATIONS
    * --------------------------------------------------------- */
   variations: [
-
     /* -------------------------------------------------------
      * 2. URGENT WORK AT HOME
      * ------------------------------------------------------- */
@@ -58,6 +55,8 @@ Respected Sir/Madam,
 
 I have an urgent situation at home that requires my immediate attention. Therefore, I request urgent leave on [date].
 
+I'll be reachable at [Phone Number] for any urgent work matters. I apologize for the short notice and will return as soon as possible.
+
 Kindly approve my request.
 
 Sincerely,  
@@ -65,10 +64,13 @@ Sincerely,
 
         hi: `विषय: आपात घरेलू कार्य हेतु अवकाश आवेदन
 
-माननीय महोदय/महोदया,
+आदरणीय सर/मैडम,
 
-घर पर अचानक उत्पन्न हुए आपात कार्य के कारण मुझे [तारीख] को अवकाश लेना आवश्यक है।  
-कृपया मेरे अवकाश अनुरोध को स्वीकार करने की कृपा करें।  
+मेरे घर पर एक अत्यावश्यक स्थिति उत्पन्न हो गई है, जिसके लिए मेरे तुरंत उपस्थित रहने की आवश्यकता है। इसलिए, मैं आपसे विनम्र अनुरोध करता/करती हूँ कि मुझे [तारीख] को अत्यावश्यक अवकाश प्रदान किया जाए।
+
+किसी भी जरूरी कार्य के लिए मैं [फ़ोन नंबर] पर उपलब्ध रहूंगा/रहूंगी। कम समय में सूचना देने के लिए क्षमा चाहता/चाहती हूँ और यथाशीघ्र कार्य पर लौटने का प्रयास करूंगा/करूंगी।
+
+कृपया मेरे अवकाश अनुरोध को स्वीकृति प्रदान करें।
 
 भवदीय,  
 [आपका नाम]`,
@@ -99,6 +101,8 @@ Respected Sir/Madam,
 
 There is a medical emergency in my family, and I need to be present immediately. Therefore, I request urgent leave on [date].
 
+I apologize for the short notice. I have [delegated tasks to X / ensured Y is handled] and will be available on my phone/email for anything urgent. 
+
 I will ensure pending tasks are managed.
 
 Sincerely,  
@@ -108,10 +112,11 @@ Sincerely,
 
 माननीय महोदय/महोदया,
 
-मेरे परिवार में एक चिकित्सीय आपात स्थिति उत्पन्न हो गई है, जिसके कारण मुझे तुरंत वहाँ उपस्थित होना आवश्यक है।  
-अतः कृपया मुझे [तारीख] का आपात अवकाश प्रदान करें।  
+मेरे परिवार में एक चिकित्सीय आपातकाल उत्पन्न हो गया है, और मुझे तुरंत उपस्थित होना आवश्यक है। अतः मैं आपसे विनम्र अनुरोध करता/करती हूँ कि कृपया मुझे [तारीख] को अत्यावश्यक अवकाश प्रदान करें।
 
-मैं सभी लंबित कार्यों को शीघ्र ही पूरा कर दूँगा/दूँगी।  
+कम समय में सूचना देने के लिए मैं क्षमा चाहता/चाहती हूँ। मैंने अपने कार्यों को [X को सौंप दिया है / यह सुनिश्चित किया है कि Y संभाल लिया गया है] और किसी भी अत्यावश्यक कार्य के लिए मैं फ़ोन/ईमेल पर उपलब्ध रहूंगा/रहूंगी।
+
+मैं यह सुनिश्चित करूंगा/करूंगी कि लंबित कार्यों का उचित प्रबंधन हो सके।
 
 भवदीय,  
 [आपका नाम]`,
@@ -142,7 +147,9 @@ Respected Sir/Madam,
 
 I need to travel urgently to [place] due to an unexpected situation. Kindly grant me urgent leave on [date].
 
-Thank you.
+I'll be reachable at [Phone Number] for any urgent work matters. I apologize for the short notice and will return as soon as possible.
+
+Thank you for your understanding.
 
 Sincerely,  
 [Your Name]`,
@@ -151,8 +158,9 @@ Sincerely,
 
 माननीय महोदय/महोदया,
 
-अचानक उत्पन्न हुई आवश्यकता के कारण मुझे तुरंत [स्थान] की यात्रा करनी पड़ रही है।  
-अतः कृपया [तारीख] को आपात अवकाश प्रदान करें।  
+मुझे अचानक एक जरूरी कारण से [स्थान] जाना पड़ रहा है। अतः आपसे विनम्र अनुरोध है कि कृपया मुझे [तारीख] को अत्यावश्यक अवकाश प्रदान करें।
+
+किसी भी आवश्यक कार्य के लिए मैं [फ़ोन नंबर] पर उपलब्ध रहूंगा/रहूंगी। कम समय में सूचना देने के लिए क्षमा चाहता/चाहती हूँ और यथाशीघ्र कार्य पर लौटने का प्रयास करूंगा/करूंगी।
 
 धन्यवाद।  
 
@@ -187,6 +195,10 @@ Sincerely,
 Respected Sir/Madam,
 
 There is an urgent repair issue at my home (electricity/plumbing/water leakage) that needs immediate attention. Therefore, I request urgent leave on [date].
+
+I apologize for the short notice. I have [delegated tasks to X / ensured Y is handled] and will be available on my phone/email for anything urgent. 
+
+Thank you for your understanding.
 
 Sincerely,  
 [Your Name]`,
@@ -294,19 +306,19 @@ Sincerely,
         en: "For non-urgent leave",
         hi: "साधारण, गैर-आपात छुट्टियों के लिए",
       },
-      icon: 'FileText',
+      icon: "FileText",
       link: "/templates/casual-leave",
     },
     {
       title: { en: "Sick Leave Application", hi: "बीमार छुट्टी आवेदन" },
       description: { en: "When you are unwell", hi: "बीमारी में उपयोग करें" },
-      icon: 'Briefcase',
+      icon: "Briefcase",
       link: "/templates/sick-leave",
     },
     {
       title: { en: "Half-Day Leave Application", hi: "आधा दिन का अवकाश आवेदन" },
       description: { en: "For 2–4 hours leave", hi: "2–4 घंटे की छुट्टी" },
-      icon: 'GraduationCap',
+      icon: "GraduationCap",
       link: "/templates/half-day-leave",
     },
   ],

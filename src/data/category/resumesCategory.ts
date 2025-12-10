@@ -1,16 +1,4 @@
-import {
-  FileSpreadsheet,
-  BookOpen,
-  Briefcase,
-  GraduationCap,
-  Mail,
-  Star,
-  TrendingUp,
-  Zap,
-  FileText,
 
-  Award,
-} from "lucide-react";
 import { CategoryData } from "./applicationsCategory";
 
 // ===========================

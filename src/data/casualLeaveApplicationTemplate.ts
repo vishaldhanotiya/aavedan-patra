@@ -1,5 +1,5 @@
 
-export const casualLeaveApplicationPillar = {
+export const casualLeaveApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Leave Applications", hi: "अवकाश आवेदन", slug:"/applications/leave" },

@@ -3,7 +3,6 @@
  * Includes: Personal Loan, Business Loan, Education Loan, Home Loan, Car Loan, Emergency Loan
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const educationLoanTemplate = {
   breadcrumb: {
@@ -52,45 +51,57 @@ export const educationLoanTemplate = {
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Branch Manager  
-[Bank Name]  
+        en: `
+To,
+The Branch Manager
+[Bank Name]
 [Branch Address]
 
 Subject: Application for Education Loan
 
 Respected Sir/Madam,
 
-I am applying for an education loan of INR [Loan Amount] to pursue my [Course Name] from [University/College]. I have secured admission and attached the offer letter along with the fee structure.
+I am applying for an education loan of INR [Loan Amount] to pursue my [Course Name] at [University/College Name]. I have secured admission, and I am enclosing the offer letter and the detailed fee structure for your reference. The total estimated cost of the course is INR [Total Course Cost], and the duration of the program is [X years].
 
-My parent/guardian will act as co-applicant, and all identity, income and academic documents are enclosed.
+I have completed my [Previous Qualification] with [Percentage/Grade], fulfilling the eligibility criteria for the course.
 
-Kindly process my application at the earliest.
+My [father/mother/guardian], [Name], employed as [Job Title] at [Company/Business Name], will act as the co-applicant for this loan. We maintain a savings account with your bank, bearing account number [Account Number].
 
-Thank you.
+All necessary documents, including identity proofs, income proofs, academic records, and admission letters, are enclosed for your kind perusal. I request you to kindly process my education loan application at the earliest. I am available for any further verification or discussion as required.
 
-Sincerely,  
-[Your Name]`,
+Thank you for your time and consideration.
+
+Sincerely,
+[Your Name]
+[Address]
+[Phone Number]
+[Email Address]`,
 
         hi: `सेवा में,  
-ब्रांच मैनेजर  
-[बैंक का नाम]  
+शाखा प्रबंधक
+[बैंक का नाम]
 [शाखा का पता]
 
-विषय: शिक्षा लोन हेतु आवेदन
+विषय: शिक्षा ऋण प्रदान करने के संबंध में आवेदन
 
 महोदय/महोदया,
 
-मैं [University/College] में [Course Name] करने हेतु INR [Loan Amount] का शिक्षा लोन प्राप्त करना चाहता/चाहती हूँ। मुझे प्रवेश मिल चुका है और ऑफर लेटर तथा फीस स्ट्रक्चर संलग्न हैं।
+सविनय निवेदन है कि मैं [University/College Name] में [Course Name] करने हेतु चयनित हुआ/हुई हूँ। इस पाठ्यक्रम की कुल अनुमानित लागत INR [Total Course Cost] है। अतः पाठ्यक्रम शुल्क एवं अन्य शैक्षणिक व्ययों की पूर्ति हेतु मुझे INR [Loan Amount] के शिक्षा ऋण की आवश्यकता है।
 
-मेरे माता-पिता/अभिभावक सह-आवेदक होंगे। सभी पहचान, आय और शैक्षणिक प्रमाणपत्र संलग्न हैं।
+मैं अपना [Previous Qualification] [Percentage/Grade] के साथ उत्तीर्ण कर चुका/चुकी हूँ। पाठ्यक्रम की अवधि [X वर्ष] है। प्रवेश पत्र, शुल्क संरचना, शैक्षणिक अभिलेख एवं अन्य आवश्यक दस्तावेज़ संलग्न हैं।
 
-कृपया मेरे आवेदन को शीघ्र स्वीकृति प्रदान करें।
+मेरे [पिता/माता/अभिभावक], [Name], जो [Company/Business Name] में [Job Title] के पद पर कार्यरत हैं, इस ऋण के सह-आवेदक होंगे। हमारा आपके बैंक में बचत खाता संख्या [Account Number] है, जिसे आप दस्तावेज़ी प्रक्रिया हेतु संदर्भित कर सकते हैं।
 
-धन्यवाद।
+अतः आपसे विनम्र अनुरोध है कि कृपया मेरे आवेदन पर सहानुभूतिपूर्वक विचार कर शिक्षा ऋण शीघ्र स्वीकृत करने की कृपा करें। आवश्यकता पड़ने पर मैं किसी भी प्रकार की अतिरिक्त जानकारी या सत्यापन हेतु उपलब्ध हूँ।
 
-भवदीय,  
-[आपका नाम]`
+आपके सहयोग हेतु मैं सदा आभारी रहूँगा/रहूँगी।
+
+भवदीय,
+[Your Name]
+[पूरा पता]
+[फ़ोन नंबर]
+[ईमेल आईडी]
+तारीख: [Date]`
       }
     },
 

@@ -1,4 +1,3 @@
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const transferCertificateTemplate = {
   breadcrumb: {

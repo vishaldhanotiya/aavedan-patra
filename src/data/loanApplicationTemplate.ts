@@ -3,9 +3,8 @@
  * Includes: Personal Loan, Business Loan, Education Loan, Home Loan, Car Loan, Emergency Loan
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
-export const loanApplicationPillar = {
+export const loanApplicationTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
     subcategory: { en: "Loan Applications", hi: "ऋण आवेदन", slug:"/applications/loan" },

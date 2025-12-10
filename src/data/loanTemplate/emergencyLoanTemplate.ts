@@ -3,7 +3,6 @@
  * Includes: Personal Loan, Business Loan, Education Loan, Home Loan, Car Loan, Emergency Loan
  */
 
-import { FileText, Briefcase, GraduationCap } from "lucide-react";
 
 export const emergencyLoanTemplate = {
   breadcrumb: {
@@ -52,41 +51,59 @@ export const emergencyLoanTemplate = {
       difficulty: { en: "Easy", hi: "आसान" },
 
       content: {
-        en: `To,  
-The Branch Manager  
-[Bank Name]  
+        en: `To,
+The Branch Manager
+[Bank Name]
 [Branch Address]
 
-Subject: Request for Emergency Loan
+Subject: Application for Emergency Loan
 
 Respected Sir/Madam,
 
-Due to an unexpected emergency related to [reason], I urgently require financial assistance. I request an emergency loan of INR [Loan Amount]. 
+I am writing to request the sanction of an emergency loan of INR [Loan Amount] due to an unforeseen situation related to [brief reason for emergency]. The matter is urgent, and I require immediate financial assistance to manage the expenses arising from this situation.
 
-I assure timely repayment and request quick processing of the application.
+I have been maintaining a [Savings/Current] account with your esteemed bank for the past [X years], and my account number is [Account Number]. I am currently employed as [Your Job Title] at [Company Name], with a monthly income of INR [Income]. I assure you of timely repayment within the proposed tenure of [Preferred Tenure].
 
-Thank you for your support.
+Kindly process my application at the earliest. I am enclosing the following documents for your reference and verification:
 
-Sincerely,  
-[Your Name]`,
+1. Identity Proof
+2. Address Proof
+3. Income Proof / Salary Slip
+4. Emergency-related supporting documents (if any)
 
-        hi: `सेवा में,  
-ब्रांच मैनेजर  
-[बैंक का नाम]  
+Thank you for your understanding and prompt assistance.
+
+Sincerely,
+[Your Name]
+[Mobile Number]
+[Email ID]`,
+
+        hi: `सेवा में,
+शाखा प्रबंधक
+[बैंक का नाम]
 [शाखा का पता]
 
-विषय: आपातकालीन लोन हेतु अनुरोध
+विषय: आपातकालीन ऋण (Emergency Loan) के लिए आवेदन
 
 महोदय/महोदया,
 
-[कारण] से संबंधित अचानक आपातकाल के कारण मुझे तुरंत वित्तीय सहायता की आवश्यकता है। अतः कृपया INR [Loan Amount] का आपातकालीन लोन स्वीकृत करने का कष्ट करें।
+मैं [आपातकाल का कारण संक्षेप में] के कारण उत्पन्न अप्रत्याशित परिस्थिति को देखते हुए INR [Loan Amount] का आपातकालीन ऋण प्रदान करने हेतु निवेदन कर रहा/रही हूँ। यह स्थिति अत्यंत त्वरित है, इसलिए मुझे तुरंत वित्तीय सहायता की आवश्यकता है।
 
-मैं समय पर भुगतान करने का आश्वासन देता/देती हूँ। कृपया आवेदन को शीघ्र प्रक्रिया में लें।
+मैं पिछले [X वर्ष] से आपके बैंक का [बचत/चलता] खाता धारक हूँ, और मेरा खाता संख्या [Account Number] है। वर्तमान में मैं [पद] के रूप में [कंपनी का नाम] में कार्यरत हूँ, तथा मेरी मासिक आय INR [Income] है। मैं [Loan Tenure] के भीतर ऋण का समय पर पुनर्भुगतान करने का आश्वासन देता/देती हूँ।
 
-धन्यवाद।
+कृपया मेरे आवेदन पर शीघ्र कार्रवाई करने की कृपा करें। संलग्न दस्तावेज़ आपकी प्रति-जांच के लिए प्रस्तुत हैं:
 
-भवदीय,  
-[आपका नाम]`
+1. पहचान प्रमाण
+2. पता प्रमाण
+3. आय प्रमाण / वेतन पर्ची
+4. आपातकाल से संबंधित दस्तावेज़ (यदि उपलब्ध हों)
+
+आपकी सहायता एवं सहयोग के लिए आपका आभारी/आभारी हूँ।
+
+सादर,
+[Your Name]
+[Mobile Number]
+[Email ID]`
       }
     }
   ],

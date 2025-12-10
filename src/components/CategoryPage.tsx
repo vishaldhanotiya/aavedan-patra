@@ -1,3 +1,4 @@
+"use client"
 import { useState } from "react";
 import { motion } from "motion/react";
 import {
@@ -29,7 +30,7 @@ import {
   AccordionTrigger,
 } from "./ui/accordion";
 import Link from "next/link";
-import { Language } from "./Hero";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface CategoryPageProps {
   category: {
@@ -70,13 +71,13 @@ interface CategoryPageProps {
       answer: string;
     }[];
   };
-  language?:Language
 }
 
-export function CategoryPage({ category, language }: CategoryPageProps) {
+export function CategoryPage({ category }: CategoryPageProps) {
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const {language}=useLanguage()
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">

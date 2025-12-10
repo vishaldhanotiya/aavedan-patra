@@ -16,21 +16,16 @@ import {
   MessageCircle,
   BookOpen,
   Zap,
-  CheckCircle2,
   AlertCircle,
   Info,
   Settings,
   Mail,
-  Phone,
   Home,
   ChevronRight,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
-
-interface SupportCenterProps {
-  language?: "en" | "hi";
-}
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface HelpTopic {
   title: { en: string; hi: string };
@@ -269,9 +264,10 @@ const quickLinks = [
   },
 ];
 
-export function SupportCenter({ language = "en" }: SupportCenterProps) {
+export function SupportCenter() {
   const [searchQuery, setSearchQuery] = useState("");
   const [expandedCategory, setExpandedCategory] = useState<number | null>(null);
+  const {language}=useLanguage();
 
   // Filter topics based on search
   const filteredCategories = helpCategories
