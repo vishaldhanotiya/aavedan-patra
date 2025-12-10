@@ -48,17 +48,11 @@ export default function sitemap() {
       url: "https://aavedanpatra.in/contact-us",
       lastModified: new Date(),
     },
-
-
-
-
-
-
-       {
+    {
       url: "https://aavedanpatra.in/applications/application-for-business-loan",
       lastModified: new Date(),
     },
-       {
+    {
       url: "https://aavedanpatra.in/applications/application-for-car-loan",
       lastModified: new Date(),
     },
@@ -66,8 +60,7 @@ export default function sitemap() {
       url: "https://aavedanpatra.in/applications/application-for-caste-certificate-request",
       lastModified: new Date(),
     },
-
-       {
+    {
       url: "https://aavedanpatra.in/applications/application-for-casual-leave",
       lastModified: new Date(),
     },
@@ -87,11 +80,11 @@ export default function sitemap() {
       url: "https://aavedanpatra.in/applications/application-for-education-loan",
       lastModified: new Date(),
     },
-       {
+    {
       url: "https://aavedanpatra.in/applications/application-for-emergency-loan",
       lastModified: new Date(),
     },
-       {
+    {
       url: "https://aavedanpatra.in/applications/application-for-experience-certificate-request",
       lastModified: new Date(),
     },
