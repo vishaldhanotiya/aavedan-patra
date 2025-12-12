@@ -21,34 +21,6 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: "https://aavedanpatra.in/about",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://aavedanpatra.in/faq",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://aavedanpatra.in/support",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://aavedanpatra.in/privacy-policy",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://aavedanpatra.in/terms-of-service",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://aavedanpatra.in/disclaimer",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://aavedanpatra.in/contact-us",
-      lastModified: new Date(),
-    },
-    {
       url: "https://aavedanpatra.in/applications/application-for-business-loan",
       lastModified: new Date(),
     },
@@ -170,6 +142,35 @@ export default function sitemap() {
     },
       {
       url: "https://aavedanpatra.in/applications/application-for-vacation-leave",
+      lastModified: new Date(),
+    },
+    ,
+    {
+      url: "https://aavedanpatra.in/about",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://aavedanpatra.in/faq",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://aavedanpatra.in/support",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://aavedanpatra.in/privacy-policy",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://aavedanpatra.in/terms-of-service",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://aavedanpatra.in/disclaimer",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://aavedanpatra.in/contact-us",
       lastModified: new Date(),
     },
   ];

@@ -43,38 +43,48 @@ export const casteCertificateTemplate = {
 
       content: {
         en: `To,
-The Tehsildar/SDM Office
+The Tehsildar / SDM Office
 [District Name]
+[Address, if needed]
 
-Subject: Application for Caste Certificate
+Subject: Request for Issuance of Caste Certificate
 
 Respected Sir/Madam,
 
-I request you to issue my caste certificate as I belong to the [SC/ST/OBC] category. This document is required for government schemes, reservation benefits, and educational purposes.
+I respectfully request the issuance of my Caste Certificate, as I belong to the [SC / ST / OBC] category. The certificate is required for government schemes, reservation benefits, educational purposes, and other official documentation.
 
-I have attached all necessary proof documents for verification. Kindly process my application.
+I am enclosing all necessary supporting documents, including identity proof, address proof, and category-related records, for your kind verification. I shall be grateful if my application is processed at the earliest, as the document is required within the stipulated time.
 
-Thank you.
+Thank you for your consideration.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Address]
+[Contact Number]
+[Date]
+
+`,
 
         hi: `सेवा में,
-तहसीलदार/एसडीएम कार्यालय
-[जिले का नाम]
+तहसीलदार / एस.डी.एम. कार्यालय
+[ज़िला नाम]
+[पता (ऐच्छिक)]
 
-विषय: जाति प्रमाणपत्र हेतु आवेदन
+विषय: जाति प्रमाण पत्र जारी करने हेतु आवेदन
 
 महोदय/महोदया,
 
-कृपया मेरा जाति प्रमाणपत्र जारी करने की कृपा करें। मैं [SC/ST/OBC] वर्ग से संबंधित हूँ और यह दस्तावेज सरकारी योजनाओं, आरक्षण लाभ और शैक्षणिक उद्देश्यों के लिए आवश्यक है।
+सविनय निवेदन है कि मैं [SC / ST / OBC] श्रेणी से संबंधित हूँ। अतः कृपया मेरे नाम से जाति प्रमाण पत्र जारी करने की कृपा करें। यह प्रमाण पत्र सरकारी योजनाओं, आरक्षण लाभों, शैक्षणिक प्रक्रियाओं एवं अन्य आधिकारिक आवश्यकताओं के लिए आवश्यक है।
 
-सत्यापन हेतु सभी आवश्यक दस्तावेज संलग्न हैं। कृपया मेरे आवेदन पर शीघ्र कार्रवाई करें।
+सत्यापन हेतु पहचान पत्र, पते का प्रमाण तथा श्रेणी संबंधी सभी आवश्यक दस्तावेज़ संलग्न कर रहा/रही हूँ। आपसे विनम्र अनुरोध है कि कृपया मेरे आवेदन पर शीघ्र कार्रवाई कर प्रमाण पत्र प्रदान करने की कृपा करें, ताकि मैं इसे निर्धारित समय में संबंधित विभाग में प्रस्तुत कर सकूँ।
 
-धन्यवाद।
+आपकी कृपा के लिए सादर धन्यवाद।
 
 भवदीय,
-[आपका नाम]`
+[आपका नाम]
+[पता]
+[संपर्क नंबर]
+[तारीख]`
       }
     }
   ],

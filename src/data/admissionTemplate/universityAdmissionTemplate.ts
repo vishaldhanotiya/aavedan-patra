@@ -52,34 +52,38 @@ Subject: Application for Admission
 
 Respected Sir/Madam,
 
-I request admission into the [Course/Department] program. I have completed my previous studies from [Institution Name] with excellent results.
+I would like to apply for admission to the [Course/Department] program. I completed my [Last Qualification] from [Institution Name] in [Year] with [Percentage/Grade].
 
-Your university’s academic environment motivates me to study here. I assure full dedication and discipline throughout the course.
+I am interested in this course and wish to study at your university because it offers good education and a supportive environment. I promise to work hard and follow all rules.
 
-I request you to kindly approve my admission.
+I request you to kindly consider my admission application. My documents are attached for your review.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Email ID]
+[Phone Number]`,
 
-        hi: `सेवा में,
-प्रवेश अधिकारी
-[विश्वविद्यालय का नाम]
-[पता]
+        hi: `To,
+The Admission Officer
+[University Name]
+[Address]
 
-विषय: प्रवेश हेतु आवेदन
+Subject: आवेदन पत्र – प्रवेश हेतु
 
-महोदय/महोदया,
+माननीय महोदय/महोदया,
 
-मैं [Course/Department] में प्रवेश हेतु आवेदन प्रस्तुत करता/करती हूँ। मैंने अपनी पूर्व शिक्षा [Institution Name] से उत्कृष्ट अंकों के साथ पूर्ण की है।
+सविनय निवेदन है कि मैं आपके प्रतिष्ठित विश्वविद्यालय के [Course/Department] कार्यक्रम में प्रवेश के लिए आवेदन करना चाहता/चाहती हूँ। मैंने [Institution Name] से [Year] में अपना [Last Qualification] [Percentage/Grade] के साथ पूर्ण किया है।
 
-आपके विश्वविद्यालय का शैक्षणिक वातावरण मुझे आकर्षित करता है। मैं पूरे कोर्स के दौरान अनुशासन और समर्पण बनाए रखने का आश्वासन देता/देती हूँ।
+मुझे [Subject/Field] में विशेष रुचि है, और आपके विश्वविद्यालय की उत्कृष्ट शैक्षणिक गुणवत्ता, अनुभवी संकाय एवं अनुशासित शिक्षण वातावरण को देखते हुए यहाँ अध्ययन करना मेरे लिए अत्यंत लाभकारी होगा।
 
-कृपया मेरे प्रवेश आवेदन को स्वीकृत करने की कृपा करें।
+मैं आपको विश्वास दिलाता/दिलाती हूँ कि पाठ्यक्रम अवधि के दौरान पूरी निष्ठा, अनुशासन और परिश्रम के साथ अध्ययन करूँगा/करूँगी। कृपया संलग्न शैक्षणिक दस्तावेजों का अवलोकन करने की कृपा करें।
 
-धन्यवाद।
+आपसे विनम्र अनुरोध है कि मेरे आवेदन पर सहर्ष विचार करें।
 
 भवदीय,
-[आपका नाम]`
+[Your Name]
+[Email ID]
+[Phone Number]`
       }
     },
   ],

@@ -47,36 +47,48 @@ The Principal
 [School Name]
 [Address]
 
-Subject: Application for School Transfer
+Subject: Request for Transfer Certificate
 
 Respected Sir/Madam,
 
-I request a transfer certificate for my ward [Student Name] of class [Class], as we are relocating due to [Reason].
+I respectfully request the issuance of a Transfer Certificate for my ward, [Student Name], who is currently studying in Class [Class]. We are relocating to [Reason / New City/Location], due to which continuing education at your institution will not be possible.
 
-My child has studied in your school for [X] years with good academic progress. Kindly issue the TC at the earliest.
+My child has been a student of your esteemed school for the past [X] years and has shown consistent academic progress and discipline. I kindly request you to issue the Transfer Certificate along with the required documents (marksheet, conduct certificate, etc.) at the earliest to facilitate a smooth admission process at the new school.
+
+I shall be grateful for your cooperation.
 
 Thank you.
 
 Sincerely,
-[Parent/Guardian Name]`,
+[Parent/Guardian Name]
+[Contact Number]
+[Date]`,
 
-        hi: `सेवा में,
-प्राचार्य महोदय/महोदया
-[स्कूल का नाम]
+        hi: `प्रति,
+प्रधानाचार्य महोदय/महोदया
+[विद्यालय का नाम]
 [पता]
 
-विषय: स्कूल ट्रांसफर हेतु आवेदन
+विषय: स्थानांतरण प्रमाण पत्र प्रदान किए जाने के संबंध में
 
 महोदय/महोदया,
 
-मैं अपने बच्चे [Student Name] (कक्षा [Class]) के लिए ट्रांसफर सर्टिफिकेट का अनुरोध करता/करती हूँ, क्योंकि [Reason] के कारण हमें स्थानांतरण करना पड़ रहा है।
+सविनय निवेदन है कि मेरा पुत्र/पुत्री [Student Name], कक्षा [Class] का नियमित विद्यार्थी/विद्यार्थिनी है। हमारे परिवार का [Reason / स्थानांतरण का कारण] के कारण अन्य शहर/स्थान पर स्थानांतरण हो रहा है। अतः मेरे बच्चे की शिक्षा निर्बाध रूप से जारी रखने हेतु स्थानांतरण प्रमाण पत्र की आवश्यकता है।
 
-मेरा बच्चा पिछले [X] वर्षों से आपके विद्यालय में पढ़ रहा/रही है और उसका प्रदर्शन अच्छा रहा है। कृपया शीघ्र टीसी प्रदान करने की कृपा करें।
+आपके प्रतिष्ठित विद्यालय में अध्ययन के दौरान मेरे बच्चे ने पिछले [X] वर्षों में उत्तम आचरण, अनुशासन एवं संतोषजनक शैक्षणिक प्रगति प्रदर्शित की है। कृपया स्थानांतरण प्रमाण पत्र के साथ आवश्यक अभिलेख—
 
-धन्यवाद।
+1. पिछली कक्षा का अंकपत्र,
+2. चरित्र प्रमाण पत्र,
+3. बोनाफाइड प्रमाण पत्र (यदि आवश्यक हो)
 
-भवदीय,
-[अभिभावक का नाम]`
+प्रदान करने की कृपा करें, जिससे नए विद्यालय में प्रवेश प्रक्रिया समय पर पूर्ण की जा सके।
+
+आपकी सहृदयता एवं सहयोग के लिए मैं आपका आभारी/आभार व्यक्त करता/करती हूँ।
+
+सादर,
+[Parent/Guardian Name]
+[संपर्क नंबर]
+[तारीख]`
       }
     },
   ],

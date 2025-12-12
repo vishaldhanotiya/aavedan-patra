@@ -51,34 +51,38 @@ Subject: Application for School Admission
 
 Respected Sir/Madam,
 
-I request admission for my ward [Student Name] in class [Class]. My child previously studied at [Previous School Name].
+I request admission for my child, [Student Name], in Class [Class] for the new academic year. He/She previously studied at [Previous School Name].
 
-Your school is known for discipline and quality education. I believe it will help in my child's overall development.
+Your school is known for good education and discipline. I believe it will help in my child’s overall development. I am attaching the required documents for your review.
 
-Kindly accept this admission request.
+Kindly consider my request.
 
 Sincerely,
-[Parent/Guardian Name]`,
+[Parent/Guardian Name]
+[Contact Number]
+[Email ID]
+[Date]`,
 
         hi: `सेवा में,
 प्राचार्य महोदय/महोदया
 [स्कूल का नाम]
 [पता]
 
-विषय: स्कूल प्रवेश हेतु आवेदन
+विषय: विद्यालय में प्रवेश हेतु आवेदन
 
-महोदय/महोदया,
+माननीय सर/मैडम,
 
-मैं अपने बच्चे [Student Name] को कक्षा [Class] में प्रवेश दिलाने हेतु आवेदन प्रस्तुत करता/करती हूँ। वह पूर्व में [Previous School Name] में अध्ययनरत था/थी।
+मैं अपने बच्चे [Student Name] के लिए कक्षा [Class] में प्रवेश का विनम्र अनुरोध करता/करती हूँ। वह पहले [Previous School Name] में पढ़ता/पढ़ती था/थी।
 
-आपका विद्यालय अनुशासन और गुणवत्तापूर्ण शिक्षा के लिए प्रसिद्ध है। मुझे विश्वास है कि यह मेरे बच्चे के सर्वांगीण विकास में सहायक होगा।
+आपका विद्यालय अनुशासन और अच्छी शिक्षा के लिए जाना जाता है। मुझे विश्वास है कि यहाँ पढ़ने से मेरे बच्चे का समग्र विकास होगा। आवश्यक दस्तावेज संलग्न हैं।
 
-कृपया इस प्रवेश आवेदन को स्वीकार करने की कृपा करें।
+कृपया मेरे आवेदन पर विचार करने की कृपा करें।
 
-धन्यवाद।
-
-भवदीय,
-[अभिभावक का नाम]`
+धन्यवाद,
+[Parent/Guardian Name]
+[Contact Number]
+[Email ID]
+[Date]`
       }
     }
   ],

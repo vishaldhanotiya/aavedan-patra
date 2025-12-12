@@ -45,36 +45,40 @@ export const transferCertificateTemplate = {
         en: `To,
 The Principal
 [School/College Name]
+[Address]
 
 Subject: Request for Transfer Certificate (TC)
 
 Respected Sir/Madam,
 
-I request you to kindly issue the Transfer Certificate for my ward [Student Name], studying in class [Class], as we are relocating to [New City].
+I respectfully request you to kindly issue the Transfer Certificate for my ward, [Student Name], who is currently studying in Class [Class]. As our family is relocating to [New City], it has become necessary to seek admission in a new institution.
 
-All dues have been cleared. Kindly provide the TC at the earliest.
+All school dues and formalities have been duly completed. I would be grateful if you could issue the Transfer Certificate at your earliest convenience, as it is required for the admission process.
 
-Thank you.
+Thank you for your kind cooperation.
 
 Sincerely,
-[Parent/Guardian Name]`,
+[Parent/Guardian Name]
+[Contact Number]`,
 
         hi: `सेवा में,
-प्राचार्य महोदय/महोदया
-[स्कूल/कॉलेज का नाम]
+प्रधानाचार्य महोदय/महोदया
+[विद्यालय/कॉलेज का नाम]
+[पता]
 
-विषय: ट्रांसफर सर्टिफिकेट (टीसी) जारी करने हेतु अनुरोध
+विषय: ट्रांसफ़र सर्टिफ़िकेट (TC) जारी करने हेतु आवेदन
 
 महोदय/महोदया,
 
-कृपया मेरे बच्चे [Student Name], कक्षा [Class] के लिए ट्रांसफर सर्टिफिकेट प्रदान करने की कृपा करें, क्योंकि हमें [New City] स्थानांतरित होना पड़ रहा है।
+सविनय निवेदन है कि कृपया मेरे वार्ड [Student Name], कक्षा [Class] के छात्र/छात्रा के लिए ट्रांसफ़र सर्टिफ़िकेट जारी करने की कृपा करें। हमारा परिवार [New City] स्थानांतरित हो रहा है, जिसके कारण मेरे वार्ड का प्रवेश अन्य विद्यालय में कराना आवश्यक है।
 
-सभी देनदारियाँ पूर्ण कर दी गई हैं। कृपया शीघ्र टीसी प्रदान करने की कृपा करें।
+विद्यालय की सभी देय राशि एवं औपचारिकताएँ पूर्ण कर दी गई हैं। अतः आपसे विनम्र अनुरोध है कि कृपया शीघ्रातिशीघ्र टी.सी. प्रदान करने की कृपा करें, जिससे आगे की प्रवेश प्रक्रिया समय पर पूरी की जा सके।
 
-धन्यवाद।
+आपकी कृपा के लिए सदैव आभारी रहूँगा/रहूँगी।
 
 भवदीय,
-[अभिभावक का नाम]`
+[Parent/Guardian Name]
+[संपर्क संख्या]`
       }
     }
   ],

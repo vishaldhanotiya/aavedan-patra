@@ -1,6 +1,6 @@
 
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { teacherJobApplicationTemplate } from "@/data/teacherJobApplicationTemplate";
+import { teacherJobApplicationTemplate } from "@/data/jobTemplate/teacherJobApplicationTemplate";
 
 export const metadata = {
   title: "Application for Teacher Job | Aavedan Patra",

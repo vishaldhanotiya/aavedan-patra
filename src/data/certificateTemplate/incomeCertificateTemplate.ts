@@ -43,38 +43,44 @@ export const incomeCertificateTemplate = {
 
       content: {
         en: `To,
-The Tehsildar/SDM Office
+The Tehsildar / SDM Office
 [District Name]
 
-Subject: Application for Income Certificate
+Subject: Request for Issuance of Income Certificate
 
 Respected Sir/Madam,
 
-I request you to issue my income certificate as it is required for [reason: scholarship/government scheme/admission]. My family's total annual income is approximately [amount].
+I respectfully request the issuance of my Income Certificate, which is required for [scholarship/government scheme/admission/other purpose]. The total annual income of my family is approximately [amount].
 
-I am attaching the necessary documents for verification. Kindly process my application at the earliest.
+I am enclosing the required documents, including identity proof, address proof, and income-related records, for your kind verification. I shall be grateful if you could kindly process my application at the earliest, as the certificate is needed within the stipulated time.
 
-Thank you.
+Thank you for your consideration.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Address]
+[Contact Number]
+[Date]`,
 
         hi: `सेवा में,
-तहसीलदार/एसडीएम कार्यालय
-[जिले का नाम]
+तहसीलदार / एस.डी.एम. कार्यालय
+[ज़िला नाम]
 
-विषय: आय प्रमाणपत्र हेतु आवेदन
+विषय: आय प्रमाण पत्र जारी करने हेतु आवेदन
 
 महोदय/महोदया,
 
-कृपया मेरा आय प्रमाणपत्र जारी करने की कृपा करें, क्योंकि यह [Scholarship/सरकारी योजना/प्रवेश] हेतु आवश्यक है। मेरे परिवार की कुल वार्षिक आय लगभग [amount] है।
+सविनय निवेदन है कि मुझे [छात्रवृत्ति/सरकारी योजना/प्रवेश/अन्य कारण] हेतु आय प्रमाण पत्र की आवश्यकता है। मेरे परिवार की कुल वार्षिक आय लगभग [राशि] है।
 
-सत्यापन हेतु आवश्यक दस्तावेज संलग्न हैं। कृपया मेरे आवेदन को शीघ्र प्रक्रिया में लें।
+मैं सत्यापन हेतु आवश्यक दस्तावेज़—जैसे पहचान पत्र, पते का प्रमाण तथा आय से संबंधित अभिलेख—संलग्न कर रहा/रही हूँ। अतः आपसे विनम्र अनुरोध है कि कृपया मेरे आवेदन पर शीघ्र कार्रवाई कर आय प्रमाण पत्र प्रदान करने की कृपा करें।
 
-धन्यवाद।
+आपकी कृपा के लिए सधन्यवाद।
 
 भवदीय,
-[आपका नाम]`
+[आपका नाम]
+[पता]
+[संपर्क नंबर]
+[तारीख]`
       }
     }
   ],

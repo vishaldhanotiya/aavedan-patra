@@ -47,36 +47,40 @@ The Course Coordinator
 [Institute Name]
 [Address]
 
-Subject: Application for Course Admission
+Subject: Application for Admission to the [Course Name] Course
 
 Respected Sir/Madam,
 
-I request admission into the [Course Name] course offered by your institution. This program will help improve my skills and career opportunities.
+I am applying for admission to the [Course Name] course offered by your institute. This program will help me strengthen my skills and support my long-term career plans. I have completed [Previous Qualification] from [Institution Name], and I am interested in continuing my studies in this field.
 
-I assure regular attendance and complete discipline during the course. Kindly consider my application.
+I assure you of regular attendance, active participation, and discipline throughout the duration of the course. I request you to kindly consider my application for admission.
 
-Thank you.
+Thank you for your time and consideration.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Contact Number]
+[Email ID]`,
 
         hi: `सेवा में,
-कोर्स कोऑर्डिनेटर
+पाठ्यक्रम समन्वयक
 [संस्थान का नाम]
 [पता]
 
-विषय: कोर्स प्रवेश हेतु आवेदन
+विषय: [Course Name] पाठ्यक्रम में प्रवेश के लिए आवेदन पत्र
 
 महोदय/महोदया,
 
-मैं आपके संस्थान द्वारा संचालित [Course Name] कोर्स में प्रवेश लेने हेतु आवेदन करता/करती हूँ। यह कोर्स मेरे कौशल और करियर अवसरों को बढ़ाने में सहायक होगा।
+सविनय निवेदन है कि मैं आपके प्रतिष्ठित संस्थान द्वारा संचालित [Course Name] पाठ्यक्रम में प्रवेश हेतु आवेदन प्रस्तुत कर रहा/रही हूँ। यह पाठ्यक्रम मेरी शैक्षणिक उन्नति एवं व्यावसायिक दक्षता के संवर्धन में अत्यंत उपयोगी सिद्ध होगा। मैंने अपनी [Previous Qualification] की शिक्षा [Institution Name] से पूर्ण की है तथा इस विषय में उच्चतर अध्ययन करने का प्रबल इच्छुक/इच्छुक हूँ।
 
-मैं नियमित उपस्थिति और पूर्ण अनुशासन का पालन करने का आश्वासन देता/देती हूँ। कृपया मेरे आवेदन पर विचार करें।
+मैं संस्थान के सभी नियमों का पालन, नियमित उपस्थिति तथा अनुशासित आचरण का पूर्णतः पालन करने का आश्वासन देता/देती हूँ। अतः आपसे विनम्र अनुरोध है कि कृपया मेरे आवेदन पर अनुकूल विचार प्रदान करने का कष्ट करें।
 
-धन्यवाद।
+आपकी कृपा के लिए सदा आभारी रहूँगा/रहूँगी।
 
 भवदीय,
-[आपका नाम]`
+[Your Name]
+[Contact Number]
+[Email ID]`
       }
     }
   ],

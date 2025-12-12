@@ -51,32 +51,40 @@ Subject: Application for Readmission
 
 Respected Sir/Madam,
 
-I request readmission to [Class/Course] after a break due to [Reason]. I apologize for the inconvenience caused by my absence.
+With due respect, I hereby submit my request for readmission to [Class/Course]. Owing to [Reason], I was compelled to discontinue my studies for a brief period. I sincerely regret any inconvenience caused as a result of my absence.
 
-I assure complete discipline, regular attendance, and full focus on my studies. Kindly allow me to continue my education.
+The circumstances that led to my discontinuation have now been fully resolved. I am committed to resuming my academic pursuits with utmost sincerity, maintaining regular attendance, and adhering to all institutional rules and discipline.
 
-Thank you.
+I kindly request you to consider my application and grant me permission to continue my studies at your esteemed institution.
+
+Thank you for your understanding and support.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Roll No./Admission No., if applicable]
+[Contact Number]`,
 
         hi: `सेवा में,
 प्राचार्य महोदय/महोदया
-[स्कूल/कॉलेज का नाम]
+[विद्यालय/महाविद्यालय का नाम]
 [पता]
 
-विषय: पुनः प्रवेश हेतु आवेदन
+विषय: पुनः प्रवेश के लिए आवेदन
 
 महोदय/महोदया,
 
-मैं [Reason] के कारण हुए अंतराल के बाद कक्षा/कोर्स [Class/Course] में पुनः प्रवेश का अनुरोध करता/करती हूँ। मेरी अनुपस्थिति से हुई असुविधा के लिए क्षमा प्रार्थी हूँ।
+सविनय निवेदन है कि मैं [कक्षा/पाठ्यक्रम] में पुनः प्रवेश का अनुरोध करता/करती हूँ। मुझे [कारण] की वजह से कुछ समय के लिए पढ़ाई रोकनी पड़ी थी। इसके लिए मैं क्षमा प्रार्थी हूँ।
 
-मैं अनुशासन बनाए रखने, नियमित उपस्थिति और पढ़ाई पर पूर्ण ध्यान देने का आश्वासन देता/देती हूँ। कृपया मुझे पुनः प्रवेश प्रदान करें।
+अब परिस्थितियाँ सामान्य हो गई हैं और मैं अपनी पढ़ाई नियमित रूप से जारी रखने के लिए पूर्णतः तैयार हूँ। मैं अनुशासन, उपस्थित‌ि और अध्ययन में पूर्ण निष्ठा बनाए रखने का आश्वासन देता/देती हूँ।
+
+अतः आपसे विनम्र अनुरोध है कि कृपया मेरे पुनः प्रवेश के आवेदन पर सहानुभूतिपूर्वक विचार कर मुझे पढ़ाई जारी रखने की अनुमति प्रदान करें।
 
 धन्यवाद।
 
-भवदीय,
-[आपका नाम]`
+भवदीय/भवदिया,
+[आपका नाम]
+[रोल नंबर/प्रवेश संख्या (यदि लागू हो)]
+[संपर्क नंबर]`
       }
     }
   ],

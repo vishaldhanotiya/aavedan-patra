@@ -1,5 +1,5 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { urgentLeaveApplicationTemplate } from "@/data/urgentLeaveApplicationTemplate";
+import { urgentLeaveApplicationTemplate } from "@/data/leaveTemplate/urgentLeaveApplicationTemplate";
 export const metadata = {
   title: "Application for Urgent Leave | Aavedan Patra",
   description: "Urgent leave application letter format for emergencies or unexpected situations.",

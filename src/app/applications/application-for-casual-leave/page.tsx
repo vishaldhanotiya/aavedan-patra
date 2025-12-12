@@ -1,5 +1,5 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { casualLeaveApplicationTemplate } from "@/data/casualLeaveApplicationTemplate";
+import { casualLeaveApplicationTemplate } from "@/data/leaveTemplate/casualLeaveApplicationTemplate";
 export const metadata = {
   title: "Application for casual leave | Aavedan Patra",
   description: "Learn more about our aavedan patra",

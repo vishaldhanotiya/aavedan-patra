@@ -46,36 +46,46 @@ export const bonafideCertificateTemplate = {
         en: `To,
 The Principal
 [School/College Name]
+[Address]
 
-Subject: Application for Bonafide Certificate
+Subject: Request for Issuance of Bonafide Certificate
 
 Respected Sir/Madam,
 
-I request you to kindly issue my bonafide certificate as I require it for [purpose: scholarship/passport/verification]. I am a regular student of your institution studying in class/year [Class/Year].
+I respectfully request you to kindly issue a Bonafide Certificate in my name, as it is required for [scholarship/passport/verification/other purpose]. I am a regular student of your institution and am currently studying in [Class/Year].
 
-Please issue the certificate at the earliest.
+I shall be grateful if you could kindly provide the certificate at the earliest, as it is needed within the stipulated time.
 
-Thank you.
+Thank you for your consideration.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Roll No./Registration No.]
+[Department/Class]
+[Contact Number]
+[Date]`,
 
         hi: `सेवा में,
-प्राचार्य महोदय/महोदया
-[स्कूल/कॉलेज का नाम]
+प्रधानाचार्य
+[विद्यालय/कॉलेज का नाम]
+[पता]
 
-विषय: बोनाफाइड प्रमाणपत्र हेतु आवेदन
+विषय: बोनाफाइड प्रमाण पत्र जारी करने हेतु आवेदन
 
 महोदय/महोदया,
 
-कृपया मेरा बोनाफाइड प्रमाणपत्र जारी करने की कृपा करें, जो मुझे [Scholarship/पासपोर्ट/सत्यापन] हेतु आवश्यक है। मैं आपकी संस्था में कक्षा/वर्ष [Class/Year] का नियमित छात्र/छात्रा हूँ।
+सविनय निवेदन है कि मुझे [छात्रवृत्ति/पासपोर्ट/सत्यापन/अन्य उद्देश्य] हेतु बोनाफाइड प्रमाण पत्र की आवश्यकता है। मैं आपके संस्थान का नियमित विद्यार्थी/विद्यार्थिनी हूँ तथा वर्तमान में [कक्षा/वर्ष] में अध्ययनरत हूँ।
 
-कृपया प्रमाणपत्र शीघ्र जारी करने की कृपा करें।
+अतः आपसे विनम्र अनुरोध है कि कृपया मेरे नाम से बोनाफाइड प्रमाण पत्र शीघ्र प्रदान करने की कृपा करें, ताकि मैं इसे नियत समय में संबंधित प्राधिकरण को प्रस्तुत कर सकूँ।
 
-धन्यवाद।
+आपकी कृपा के लिए सादर धन्यवाद।
 
 भवदीय,
-[आपका नाम]`
+[आपका नाम]
+[रोल नंबर/पंजीकरण संख्या]
+[कक्षा/विभाग]
+[संपर्क नंबर]
+[तारीख]`
       }
     }
   ],

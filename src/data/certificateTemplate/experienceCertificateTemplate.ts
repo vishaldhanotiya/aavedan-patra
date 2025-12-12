@@ -47,36 +47,37 @@ The HR Manager
 [Company Name]
 [City]
 
-Subject: Request for Experience Certificate
+Subject: Request for Issuance of Experience Certificate
 
 Respected Sir/Madam,
 
-I kindly request you to issue my experience certificate for the duration of my employment at your organization from [Start Date] to [End Date]. This certificate is required for my future employment opportunities.
+I humbly request you to kindly issue my Experience Certificate for the period of my employment with your esteemed organisation, from [Start Date] to [End Date]. I require this document to complete the verification process for my upcoming employment.
 
-I have completed all my assigned responsibilities and formalities. I would be grateful if you could issue the certificate at the earliest.
+I have fulfilled all assigned duties during my tenure and have completed the necessary exit formalities. I would be grateful if the certificate could be provided at your earliest convenience.
 
-Thank you.
+Thank you for your support and cooperation.
 
 Sincerely,
 [Your Name]`,
 
         hi: `सेवा में,
-एचआर प्रबंधक
+मानव संसाधन प्रबंधक
 [कंपनी का नाम]
 [शहर]
 
-विषय: अनुभव प्रमाणपत्र जारी करने हेतु अनुरोध
+विषय: अनुभव प्रमाण पत्र जारी करने हेतु आवेदन
 
 महोदय/महोदया,
 
-कृपया मुझे मेरे रोजगार अवधि [Start Date] से [End Date] तक का अनुभव प्रमाणपत्र प्रदान करने की कृपा करें। यह प्रमाणपत्र मेरी भविष्य की नौकरी के लिए आवश्यक है।
+सविनय निवेदन है कि कृपया मेरे द्वारा आपकी प्रतिष्ठित संस्था में [आरंभ तिथि] से [समाप्ति तिथि] तक की गई सेवा अवधि का अनुभव प्रमाण पत्रप्रदान करने की कृपा करें। यह प्रमाण पत्र मेरे भविष्य के रोजगार से संबंधित औपचारिकताओं हेतु आवश्यक है।
 
-मैंने सभी आवश्यक औपचारिकताएँ पूर्ण कर दी हैं। कृपया शीघ्र प्रमाणपत्र जारी करने की कृपा करें।
+मैंने अपने कार्यकाल के दौरान सभी सौंपे गए दायित्वों का पूर्ण रूप से निर्वहन किया है तथा संबंधित औपचारिकताएँ भी पूरी कर दी हैं। अतः आपसे विनम्र अनुरोध है कि कृपया यथाशीघ्र अनुभव प्रमाण पत्र उपलब्ध कराने का कष्ट करें।
 
-धन्यवाद।
+आपकी कृपा के लिए सदा आभारी रहूँगा/रहूँगी।
 
 भवदीय,
-[आपका नाम]`
+[आपका नाम]
+`
       }
     }
   ],

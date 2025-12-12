@@ -47,40 +47,46 @@ The Principal
 [College Name]
 [Address]
 
-Subject: Application for College Admission
+Subject: Request for College Admission
 
 Respected Sir/Madam,
 
-I am writing to request admission in the [Course/Program] at your esteemed college. I have completed my [Previous Class/Qualification] with good academic performance.
+I would like to apply for admission to the [Course/Program Name] for the [Year–Year] academic year. I have completed my [Previous Class/Qualification] from [School/Institute Name] with [Percentage/Grade].
 
-I am highly motivated to pursue my studies at your institution due to its excellent academic environment. I assure full discipline and dedication to my studies.
+I am interested in this course and wish to study at your college because of its good teaching and learning environment. I promise to follow all rules and study sincerely.
 
-I kindly request you to consider my admission application.
+Please consider my request for admission. I have attached the necessary documents like my marksheet and transfer certificate.
 
 Thank you.
 
 Yours sincerely,
-[Your Name]`,
+[Your Name]
+[Address]
+[Phone Number]
+[Email ID]`,
 
         hi: `सेवा में,
 प्राचार्य महोदय/महोदया
 [कॉलेज का नाम]
 [पता]
 
-विषय: कॉलेज प्रवेश हेतु आवेदन
+विषय: कॉलेज में प्रवेश के लिए आवेदन
 
 महोदय/महोदया,
 
-मैं आपके प्रतिष्ठित कॉलेज में [Course/Program] में प्रवेश हेतु आवेदन प्रस्तुत करता/करती हूँ। मैंने [Previous Class/Qualification] अच्छे अंकों से पूर्ण की है।
+मैं आपके कॉलेज में [कोर्स/प्रोग्राम का नाम] में [सत्र वर्ष–वर्ष] के लिए प्रवेश लेना चाहता/चाहती हूँ। मैंने अपना [पिछली कक्षा/योग्यता] [स्कूल/संस्थान का नाम] से [प्रतिशत/ग्रेड] के साथ पूरा किया है।
 
-आपके संस्थान के उत्कृष्ट शैक्षणिक वातावरण के कारण मैं यहाँ अध्ययन करना चाहता/चाहती हूँ। मैं पूर्ण अनुशासन और समर्पण का आश्वासन देता/देती हूँ।
+मुझे यह कोर्स करने में रुचि है और आपके कॉलेज का अच्छा शैक्षणिक वातावरण होने के कारण मैं यहाँ अध्ययन करना चाहता/चाहती हूँ। मैं वादा करता/करती हूँ कि कॉलेज के सभी नियमों का पालन करूँगा/करूँगी और मन लगाकर पढ़ाई करूँगा/करूँगी।
 
-कृपया मेरे प्रवेश आवेदन पर सहानुभूतिपूर्वक विचार करें।
+कृपया मेरे प्रवेश आवेदन पर विचार करने की कृपा करें। मैंने आवश्यक दस्तावेज़, जैसे मार्कशीट और ट्रांसफर सर्टिफिकेट, संलग्न किए हैं।
 
 धन्यवाद।
 
 भवदीय,
-[आपका नाम]`
+[आपका नाम]
+[पता]
+[फोन नंबर]
+[ईमेल आईडी]`
       }
     },
   ],

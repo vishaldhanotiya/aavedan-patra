@@ -1,6 +1,6 @@
 
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { bankJobApplicationTemplate } from "@/data/bankJobApplicationTemplate";
+import { bankJobApplicationTemplate } from "@/data/jobTemplate/bankJobApplicationTemplate";
 
 export const metadata = {
   title: "Application for Banking Job | Aavedan Patra",

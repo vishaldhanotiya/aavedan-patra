@@ -44,36 +44,48 @@ export const characterCertificateTemplate = {
 
       content: {
         en: `To,
-The Principal/Officer
+The Principal / Officer
 [Institution/Authority Name]
+[Address]
 
-Subject: Application for Character Certificate
+Subject: Request for Issuance of Character Certificate
 
 Respected Sir/Madam,
 
-I request you to kindly issue my character certificate as I require it for [job/admission/verification]. I have completed my education/employment at your institution and maintained good conduct throughout my tenure.
+I respectfully request you to kindly issue a Character Certificate in my name, as it is required for [job/admission/verification/other purpose]. I have completed my education/employment at your institution and have maintained good conduct and discipline throughout my tenure.
 
-Kindly issue the certificate at the earliest.
+I shall be grateful if you could issue the certificate at the earliest, as it is needed for timely submission to the concerned authority.
+
+Thank you for your kind consideration.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Roll No./Employee ID]
+[Department/Class, if applicable]
+[Contact Number]
+[Date]`,
 
         hi: `सेवा में,
-प्राचार्य/अधिकारी महोदय/महोदया
+प्रधानाचार्य / अधिकारी
 [संस्थान/प्राधिकरण का नाम]
+[पता]
 
-विषय: चरित्र प्रमाणपत्र हेतु आवेदन
+विषय: चरित्र प्रमाण पत्र जारी करने हेतु आवेदन
 
 महोदय/महोदया,
 
-कृपया मेरा चरित्र प्रमाणपत्र जारी करने की कृपा करें, क्योंकि यह मुझे [नौकरी/प्रवेश/सत्यापन] के लिए आवश्यक है। मैंने आपकी संस्था में अध्ययन/रोजगार के दौरान अच्छा आचरण बनाए रखा है।
+सविनय निवेदन है कि मुझे [नौकरी/प्रवेश/सत्यापन/अन्य उद्देश्य] हेतु चरित्र प्रमाण पत्र की आवश्यकता है। मैंने आपके संस्थान में अपनी शिक्षा/सेवापूर्ण की है तथा अपने पूरे कार्यकाल/अध्ययन अवधि के दौरान सदैव उत्तम आचरण एवं अनुशासन बनाए रखा है।
 
-कृपया प्रमाणपत्र शीघ्र प्रदान करने की कृपा करें।
+अतः आपसे विनम्र अनुरोध है कि कृपया मेरा चरित्र प्रमाण पत्र शीघ्र जारी करने की कृपा करें, ताकि मैं इसे संबंधित प्राधिकरण को समय पर प्रस्तुत कर सकूँ।
 
-धन्यवाद।
+आपकी कृपा के लिए सादर धन्यवाद।
 
 भवदीय,
-[आपका नाम]`
+[आपका नाम]
+[रोल नंबर/कर्मचारी संख्या]
+[कक्षा/विभाग, यदि लागू हो]
+[संपर्क नंबर]
+[तारीख]`
       }
     }
   ],
