@@ -17,10 +17,17 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 //   subsets: ["latin"],
 // });
 
-export const metadata: Metadata = {
-  title: "Aavedan Patra Templates | Free Application Letter Formats in Hindi & English",
+export const metadata = {
+  title: "Aavedan Patra – आवेदन पत्र | हिंदी में आवेदन पत्र के फ़ॉर्मेट",
   description:
-    "Download 1000+ free Aavedan Patra templates in Hindi and English. Professionally crafted application letter formats for school, office, government work, jobs, and more.",
+    "हिंदी में 1000+ आवेदन पत्र के फॉर्मेट डाउनलोड करें। स्कूल, कॉलेज, ऑफिस, सरकारी कार्य और नौकरी के लिए तैयार आवेदन पत्र टेम्पलेट्स।",
+  alternates: {
+    canonical: "https://aavedanpatra.in",
+    languages: {
+      "hi-IN": "https://aavedanpatra.in",
+      "x-default": "https://aavedanpatra.in",
+    },
+  },
 };
 
 
