@@ -18,10 +18,11 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 // });
 
 export const metadata: Metadata = {
-  title: "Aavedan Patra",
+  title: "Aavedan Patra Templates | Free Application Letter Formats in Hindi & English",
   description:
-    "Explore 1000+ free professional templates — crafted for your job, study, and business needs. Explore Templates",
+    "Download 1000+ free Aavedan Patra templates in Hindi and English. Professionally crafted application letter formats for school, office, government work, jobs, and more.",
 };
+
 
 export default function RootLayout({
   children,
