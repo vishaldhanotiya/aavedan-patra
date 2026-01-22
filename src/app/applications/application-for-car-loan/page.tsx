@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { carLoanTemplate } from "@/data/loanTemplate/carLoanTemplate";
 export const metadata = {
-  title: "Application for Car Loan | Aavedan Patra",
-  description: "Professional car loan request letter format with examples for applying to banks or finance companies.",
+  title: "Business Loan Application | आवेदन पत्र कैसे लिखें",
+  description:
+    "Business loan ke liye application kaise likhein? Bank ya financial institution se loan request karne ka sahi format aur sample application yahan milega.",
 };
 export default function Page() {
   return (

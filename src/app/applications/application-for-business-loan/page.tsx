@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { businessLoanTemplate } from "@/data/loanTemplate/businessLoanTemplate";
 export const metadata = {
-  title: "Application for Business Loan | Aavedan Patra",
-  description: "Formal business loan application letter format with sample templates to request funding from banks or financial institutions.",
+  title: "Business Loan Application | आवेदन पत्र कैसे लिखें",
+  description:
+    "Business loan ke liye application kaise likhein? Bank ya financial institution se loan request karne ka sahi format aur sample application yahan milega.",
 };
 export default function Page() {
   return (
