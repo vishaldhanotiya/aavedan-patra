@@ -5,7 +5,6 @@ export const metadata = {
   description:
     "स्कूल, कॉलेज या नियोक्ता से कैरैक्टर सर्टिफिकेट के लिए आवेदन करने का आसान प्रारूप और नमूना पत्र यहाँ देखें।",
 };
-
 export default function Page() {
   return (
     <>

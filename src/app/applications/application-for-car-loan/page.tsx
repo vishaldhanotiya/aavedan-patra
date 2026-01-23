@@ -5,7 +5,6 @@ export const metadata = {
   description:
     "कार लोन के लिए आवेदन पत्र कैसे लिखें? बैंक या वित्तीय संस्था से कार लोन लेने के लिए सही प्रारूप और आसान उदाहरण यहाँ देखें।",
 };
-
 export default function Page() {
   return (
     <>

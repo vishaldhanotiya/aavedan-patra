@@ -5,7 +5,6 @@ export const metadata = {
   description:
     "कॉलेज में प्रवेश के लिए औपचारिक आवेदन पत्र का प्रारूप, छात्रों के लिए नमूना लेखन और उपयोगी सुझाव यहाँ देखें।",
 };
-
 export default function Page() {
   return (
     <>
