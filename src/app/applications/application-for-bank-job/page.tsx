@@ -8,9 +8,9 @@ import { bankJobApplicationTemplate } from "@/data/jobTemplate/bankJobApplicatio
 // };
 
 export const metadata = {
-  title: "Banking Job Application | आवेदन पत्र कैसे लिखें",
+  title: "बैंकिंग नौकरी के लिए आवेदन पत्र | आवेदन कैसे लिखें",
   description:
-    "Banking job के लिए application कैसे लिखें? यहाँ सही format, sample आवेदन पत्र और freshers व experienced candidates के लिए tips दिए गए हैं।",
+    "बैंकिंग नौकरी के लिए आवेदन पत्र कैसे लिखें? यहाँ सही प्रारूप, नमूना आवेदन पत्र और नए व अनुभवी उम्मीदवारों के लिए उपयोगी सुझाव दिए गए हैं।",
 };
 
 export default function Page() {

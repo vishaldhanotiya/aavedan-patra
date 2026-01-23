@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { managerHrOperationsSalesTemplate } from "@/data/jobTemplate/managerHrOperationsSalesTemplate";
 export const metadata = {
-  title: "Application for Manager Position | Aavedan Patra",
-  description: "Professional job application letter format for applying to manager-level positions.",
+  title: "मैनेजर पद के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "मैनेजर स्तर की नौकरी के लिए प्रोफेशनल आवेदन पत्र का सही प्रारूप यहाँ देखें।",
 };
 export default function Page() {
   return (

@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { privateScholarshipTemplate } from "@/data/scholarshipTemplate/privateScholarshipTemplate";
 export const metadata = {
-  title: "Application for Private Scholarship | Aavedan Patra",
-  description: "Sample application letter requesting a private scholarship with effective writing format.",
+  title: "प्राइवेट स्कॉलरशिप के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "प्राइवेट स्कॉलरशिप के लिए आवेदन करने हेतु प्रभावी लेखन प्रारूप के साथ नमूना आवेदन पत्र।",
 };
 export default function Page() {
   return (

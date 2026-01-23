@@ -1,9 +1,11 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { characterCertificateTemplate } from "@/data/certificateTemplate/characterCertificateTemplate";
 export const metadata = {
-   title: "Application for Character Certificate | Aavedan Patra",
-  description: "Easy format to request a character certificate from school, college, or employer with sample letter.",
+  title: "कैरैक्टर सर्टिफिकेट के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "स्कूल, कॉलेज या नियोक्ता से कैरैक्टर सर्टिफिकेट के लिए आवेदन करने का आसान प्रारूप और नमूना पत्र यहाँ देखें।",
 };
+
 export default function Page() {
   return (
     <>

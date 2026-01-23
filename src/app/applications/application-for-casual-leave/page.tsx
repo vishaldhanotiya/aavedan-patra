@@ -1,10 +1,11 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { casualLeaveApplicationTemplate } from "@/data/leaveTemplate/casualLeaveApplicationTemplate";
 export const metadata = {
-  title: "Casual Leave Application Format | सही आवेदन पत्र फॉर्मेट",
+  title: "कैजुअल लीव आवेदन पत्र फॉर्मेट | सही आवेदन पत्र",
   description:
-    "Casual leave ke liye application kaise likhein? Office, school ya personal use ke liye simple, polite aur sahi casual leave application format yahan milega.",
+    "कैजुअल लीव के लिए आवेदन कैसे लिखें? ऑफिस, स्कूल या व्यक्तिगत उपयोग के लिए सरल, विनम्र और सही कैजुअल लीव आवेदन पत्र फॉर्मेट यहाँ मिलेगा।",
 };
+
 
 export default function Page() {
   return (

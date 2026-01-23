@@ -3,8 +3,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { teacherJobApplicationTemplate } from "@/data/jobTemplate/teacherJobApplicationTemplate";
 
 export const metadata = {
-  title: "Application for Teacher Job | Aavedan Patra",
-  description: "Formal job application format for school teacher positions with sample examples.",
+  title: "शिक्षक नौकरी के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "स्कूल शिक्षक पद के लिए औपचारिक आवेदन पत्र प्रारूप और उदाहरण।",
 };
 export default function Page() {
   return (

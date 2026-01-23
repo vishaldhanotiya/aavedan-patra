@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { schoolStudentLeaveApplicationTemplate } from "@/data/leaveTemplate/schoolStudentLeaveApplicationTemplate";
 export const metadata = {
-  title: "Application for School Leave | Aavedan Patra",
-  description: "Simple school leave application format for students with sample letter.",
+  title: "स्कूल अवकाश के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "छात्रों के लिए स्कूल अवकाश आवेदन पत्र का सरल और सही प्रारूप।",
 };
 export default function Page() {
   return (

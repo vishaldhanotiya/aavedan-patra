@@ -5,9 +5,9 @@ import { bonafideCertificateTemplate } from "@/data/certificateTemplate/bonafide
 //   description: "A clear and simple application format for requesting a bonafide certificate from school, college, or office.",
 // };
 export const metadata = {
-  title: "Bonafide Certificate Application | आवेदन पत्र कैसे लिखें",
+  title: "बोनाफाइड प्रमाण पत्र के लिए आवेदन पत्र | आवेदन कैसे लिखें",
   description:
-    "Bonafide certificate के लिए application कैसे लिखें? School, college या office से bonafide certificate मांगने का सही format और आसान उदाहरण यहाँ देखें।",
+    "बोनाफाइड प्रमाण पत्र के लिए आवेदन पत्र कैसे लिखें? स्कूल, कॉलेज या कार्यालय से बोनाफाइड प्रमाण पत्र प्राप्त करने के लिए सही प्रारूप और आसान उदाहरण यहाँ देखें।",
 };
 export default function Page() {
 

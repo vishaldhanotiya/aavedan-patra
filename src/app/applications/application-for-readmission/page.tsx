@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { readmissionTemplate } from "@/data/admissionTemplate/readmissionTemplate";
 export const metadata = {
-  title: "Application for Re-Admission | Aavedan Patra",
-  description: "Simple re-admission application format for school, college, or training programs.",
+  title: "पुनः प्रवेश के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "स्कूल, कॉलेज या प्रशिक्षण कार्यक्रम में पुनः प्रवेश के लिए सरल आवेदन पत्र प्रारूप।",
 };
 export default function Page() {
   return (

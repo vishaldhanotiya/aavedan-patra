@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { personalLoanTemplate } from "@/data/loanTemplate/personalLoanTemplate";
 export const metadata = {
-  title: "Application for Personal Loan | Aavedan Patra",
-  description: "Personal loan application letter format with sample wording for banks and lenders.",
+  title: "पर्सनल लोन के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "बैंक या ऋणदाता से पर्सनल लोन के लिए आवेदन करने का सही प्रारूप और नमूना शब्दावली।",
 };
 export default function Page() {
   return (

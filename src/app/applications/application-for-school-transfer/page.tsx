@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { schoolTransferTemplate } from "@/data/admissionTemplate/schoolTransferTemplate";
 export const metadata = {
-  title: "Application for School Transfer Certificate | Aavedan Patra",
-  description: "Application letter format for requesting a school transfer certificate (TC).",
+  title: "स्कूल ट्रांसफर सर्टिफिकेट के लिए आवेदन पत्र | आवेदन पत्र",
+  description:
+    "स्कूल से ट्रांसफर सर्टिफिकेट (टीसी) प्राप्त करने के लिए आवेदन पत्र का प्रारूप।",
 };
 export default function Page() {
   return (

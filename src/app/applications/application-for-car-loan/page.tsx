@@ -1,10 +1,11 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { carLoanTemplate } from "@/data/loanTemplate/carLoanTemplate";
 export const metadata = {
-  title: "Business Loan Application | आवेदन पत्र कैसे लिखें",
+  title: "कार लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें",
   description:
-    "Business loan ke liye application kaise likhein? Bank ya financial institution se loan request karne ka sahi format aur sample application yahan milega.",
+    "कार लोन के लिए आवेदन पत्र कैसे लिखें? बैंक या वित्तीय संस्था से कार लोन लेने के लिए सही प्रारूप और आसान उदाहरण यहाँ देखें।",
 };
+
 export default function Page() {
   return (
     <>
