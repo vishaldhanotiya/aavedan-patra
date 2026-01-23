@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { professionalResignationTemplate } from "@/data/resignationTemplate/professionalResignationTemplate";
 export const metadata = {
-  title: "Professional Resignation Letter | Aavedan Patra",
-  description: "Formal resignation letter templates with clean and professional wording.",
+  title: "प्रोफेशनल इस्तीफा पत्र | आवेदन पत्र",
+  description:
+    "साफ़ और प्रोफेशनल भाषा में औपचारिक इस्तीफा पत्र के नमूने।",
 };
 export default function Page() {
   return (

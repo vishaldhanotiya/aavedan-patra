@@ -5,7 +5,6 @@ export const metadata = {
   description:
     "Office, school या personal use के लिए जाति प्रमाण पत्र का सरल और विनम्र आवेदन पत्र।",
 };
-
 export default function Page() {
   return (
     <>

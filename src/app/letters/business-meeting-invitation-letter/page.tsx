@@ -1,8 +1,9 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { businessMeetingInvitationTemplate } from "@/data/invitationTemplate/businessMeetingInvitationTemplate";
 export const metadata = {
-  title: "Business Meeting Invitation Letter | Aavedan Patra",
-  description: "Formal meeting invitation letter samples for clients and colleagues.",
+  title: "बिज़नेस मीटिंग निमंत्रण पत्र | आवेदन पत्र",
+  description:
+    "क्लाइंट्स और सहकर्मियों के लिए औपचारिक बिज़नेस मीटिंग निमंत्रण पत्र के नमूने।",
 };
 export default function Page() {
   return (

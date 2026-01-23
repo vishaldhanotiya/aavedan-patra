@@ -1,11 +1,10 @@
 
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { teacherJobApplicationTemplate } from "@/data/jobTemplate/teacherJobApplicationTemplate";
-
 export const metadata = {
   title: "शिक्षक नौकरी के लिए आवेदन पत्र | आवेदन पत्र",
   description:
-    "स्कूल शिक्षक पद के लिए औपचारिक आवेदन पत्र प्रारूप और उदाहरण।",
+    "शिक्षक नौकरी के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर स्कूल शिक्षक पद के लिए आवेदन करने का सही प्रारूप, तैयार नमूना आवेदन पत्र, फ्रेशर और अनुभवी शिक्षकों के लिए उपयोगी उदाहरण और लिखने के आसान सुझाव दिए गए हैं, जिससे आप अपना आवेदन प्रभावी तरीके से तैयार कर सकें।",
 };
 export default function Page() {
   return (

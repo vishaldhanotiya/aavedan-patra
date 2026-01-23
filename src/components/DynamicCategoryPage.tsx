@@ -39,8 +39,9 @@ interface DynamicCategoryPageProps {
   category: CategoryData;
 }
 export const metadata = {
-  title: "Applications for job, software engineers etc | Aavedan Patra",
-  description: "Learn more about our aavedan patra",
+  title: "नौकरी आवेदन पत्र (सॉफ्टवेयर इंजीनियर आदि) | आवेदन पत्र",
+  description:
+    "नौकरी के विभिन्न पदों के लिए आवेदन पत्र के प्रारूप और उदाहरण यहाँ देखें।",
 };
 export function DynamicCategoryPage({
   category,
