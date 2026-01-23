@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import en from "../messages/en.json";
 import hi from "../messages/hi.json";
 
-type Language = 'en' | 'hi';
+type Language =  'hi' | 'en' ;
 
 interface LanguageContextType {
   language: Language;
@@ -15,13 +15,13 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguageState] = useState<Language>('en');
+  const [language, setLanguageState] = useState<Language>('hi');
   const [mounted, setMounted] = useState(false);
 
   // Initialize language on mount
   useEffect(() => {
     const savedLanguage = localStorage.getItem('language') as Language | null;
-    const initialLanguage = savedLanguage || 'en';
+    const initialLanguage = savedLanguage || 'hi';
     
     setLanguageState(initialLanguage);
     setMounted(true);
