@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { motion } from "motion/react";
 import {
@@ -77,7 +77,7 @@ export function CategoryPage({ category }: CategoryPageProps) {
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const {language}=useLanguage()
+  const { language } = useLanguage();
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
@@ -181,106 +181,108 @@ export function CategoryPage({ category }: CategoryPageProps) {
         </motion.section>
 
         {/* Search and Filters Bar */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="mb-8"
-        >
-          <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-4">
-            <div className="flex flex-col md:flex-row gap-4">
-              <div className="flex-1 relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-white/40" />
-                <Input
-                  type="text"
-                  placeholder="Search templates..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10 bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white"
-                />
-              </div>
-              <div className="flex gap-3">
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-[140px] bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                    <SelectValue placeholder="Sort by" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="popular">Popular</SelectItem>
-                    <SelectItem value="newest">Newest</SelectItem>
-                    <SelectItem value="a-z">A-Z</SelectItem>
-                    <SelectItem value="z-a">Z-A</SelectItem>
-                  </SelectContent>
-                </Select>
-                <Button
-                  variant="outline"
-                  onClick={() => setShowFilters(!showFilters)}
-                  className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white"
-                >
-                  <SlidersHorizontal className="w-4 h-4 mr-2" />
-                  Filters
-                </Button>
-              </div>
-            </div>
 
-            {/* Filters Panel */}
-            {showFilters && (
-              <motion.div
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: "auto" }}
-                className="mt-4 pt-4 border-t border-slate-200 dark:border-white/10"
-              >
-                <div className="grid md:grid-cols-3 gap-4">
-                  <div>
-                    <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
-                      Type
-                    </label>
-                    <Select>
-                      <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20">
-                        <SelectValue placeholder="All Types" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="all">All Types</SelectItem>
-                        <SelectItem value="formal">Formal</SelectItem>
-                        <SelectItem value="casual">Casual</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div>
-                    <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
-                      Format
-                    </label>
-                    <Select>
-                      <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20">
-                        <SelectValue placeholder="All Formats" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="all">All Formats</SelectItem>
-                        <SelectItem value="docx">DOCX</SelectItem>
-                        <SelectItem value="pdf">PDF</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div>
-                    <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
-                      Language
-                    </label>
-                    <Select>
-                      <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20">
-                        <SelectValue placeholder="All Languages" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="all">All Languages</SelectItem>
-                        <SelectItem value="en">English</SelectItem>
-                        <SelectItem value="hi">Hindi</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
+        {language === "en" && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="mb-8"
+          >
+            <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-4">
+              <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex-1 relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-white/40" />
+                  <Input
+                    type="text"
+                    placeholder="Search templates..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="pl-10 bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white"
+                  />
                 </div>
-              </motion.div>
-            )}
-          </div>
-        </motion.div>
+                <div className="flex gap-3">
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="w-[140px] bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                      <SelectValue placeholder="Sort by" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="popular">Popular</SelectItem>
+                      <SelectItem value="newest">Newest</SelectItem>
+                      <SelectItem value="a-z">A-Z</SelectItem>
+                      <SelectItem value="z-a">Z-A</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <Button
+                    variant="outline"
+                    onClick={() => setShowFilters(!showFilters)}
+                    className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white"
+                  >
+                    <SlidersHorizontal className="w-4 h-4 mr-2" />
+                    Filters
+                  </Button>
+                </div>
+              </div>
 
+              {/* Filters Panel */}
+              {showFilters && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  className="mt-4 pt-4 border-t border-slate-200 dark:border-white/10"
+                >
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <div>
+                      <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
+                        Type
+                      </label>
+                      <Select>
+                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20">
+                          <SelectValue placeholder="All Types" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">All Types</SelectItem>
+                          <SelectItem value="formal">Formal</SelectItem>
+                          <SelectItem value="casual">Casual</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                    <div>
+                      <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
+                        Format
+                      </label>
+                      <Select>
+                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20">
+                          <SelectValue placeholder="All Formats" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">All Formats</SelectItem>
+                          <SelectItem value="docx">DOCX</SelectItem>
+                          <SelectItem value="pdf">PDF</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                    <div>
+                      <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
+                        Language
+                      </label>
+                      <Select>
+                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20">
+                          <SelectValue placeholder="All Languages" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">All Languages</SelectItem>
+                          <SelectItem value="en">English</SelectItem>
+                          <SelectItem value="hi">Hindi</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+            </div>
+          </motion.div>
+        )}
         {/* Template Grid */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

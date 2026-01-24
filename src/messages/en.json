@@ -24,11 +24,13 @@
     "certificateType": "Experience, Bonafide, Character, Internship",
     "explore": "Explore"
   },
-  "footer":{
-    "name":"Aavedan Patra",
-    "subText":"Your go-to platform for professional templates. Crafted with care for job seekers, students, and professionals."
-  },
 
-  "title": "Welcome to our website",
-  "description": "This is an English description."
+  "trendingTemplates": {
+    "header": "Trending Templates",
+    "subHeading": "Most viewed and downloaded templates this month"
+  },
+  "footer": {
+    "name": "Aavedan Patra",
+    "subText": "Your go-to platform for professional templates. Crafted with care for job seekers, students, and professionals."
+  }
 }

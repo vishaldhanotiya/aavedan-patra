@@ -299,7 +299,7 @@ export function PillarTemplateDetailsPage({
               animate={{ opacity: 1, y: 0 }}
               className="max-w-4xl mx-auto text-center mb-12"
             >
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl mb-6 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
+              <h1 className="text-4xl p-2 sm:text-5xl lg:text-6xl mb-6 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
                 {data.title[language]}
               </h1>
               

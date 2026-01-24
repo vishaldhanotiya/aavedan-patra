@@ -18,10 +18,10 @@ export default function Home() {
       <LanguageSwitcher />
       <Hero />
       <CategoryGrid />
-      {/* <TrendingTemplates /> */}
+      <TrendingTemplates />
       {/* <RecentlyAdded /> */}
       {/* <BlogSection /> */}
-      {/* <FAQ /> */}
+      <FAQ />
       {/* <QuickLinks /> */}
       {/* <Newsletter /> */}
       <Footer />

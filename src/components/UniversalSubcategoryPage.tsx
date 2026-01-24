@@ -122,7 +122,7 @@ export function UniversalSubcategoryPage({
         >
           <div className="flex flex-col lg:flex-row items-start justify-between gap-6 mb-6">
             <div className="flex-1">
-              <h1 className="text-4xl lg:text-5xl bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent mb-4">
+              <h1 className="text-4xl pt-2 lg:text-5xl bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent mb-4">
                 {t(data.heroTitle)}
               </h1>
               <p className="text-lg text-slate-600 dark:text-white/70 max-w-3xl">
@@ -141,194 +141,197 @@ export function UniversalSubcategoryPage({
         </motion.header>
 
         {/* Dynamic Tag Filters */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="mb-8"
-        >
-          <div className="flex flex-wrap gap-3">
-            <button
-              onClick={() => setSelectedTag(null)}
-              className={`px-5 py-2.5 rounded-full text-sm transition-all duration-300 ${
-                selectedTag === null
-                  ? "bg-gradient-to-r from-cyan-500 to-violet-600 text-white shadow-lg shadow-violet-500/30"
-                  : "bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 text-slate-700 dark:text-white/70 hover:border-cyan-300 dark:hover:border-cyan-500/50"
-              }`}
-            >
-              {language === "en" ? "All Templates" : "सभी टेम्पलेट"}
-            </button>
-            {data.tags.map((tag) => (
+        {language === "en" && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="mb-8"
+          >
+            <div className="flex flex-wrap gap-3">
               <button
-                key={tag}
-                onClick={() => setSelectedTag(tag)}
+                onClick={() => setSelectedTag(null)}
                 className={`px-5 py-2.5 rounded-full text-sm transition-all duration-300 ${
-                  selectedTag === tag
+                  selectedTag === null
                     ? "bg-gradient-to-r from-cyan-500 to-violet-600 text-white shadow-lg shadow-violet-500/30"
                     : "bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 text-slate-700 dark:text-white/70 hover:border-cyan-300 dark:hover:border-cyan-500/50"
                 }`}
               >
-                {tag}
+                {language === "en" ? "All Templates" : "सभी टेम्पलेट"}
               </button>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* Search and Filters Bar */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="mb-8"
-        >
-          <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-4">
-            <div className="flex flex-col md:flex-row gap-4">
-              {/* Search Input */}
-              <div className="flex-1 relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-white/40" />
-                <Input
-                  type="text"
-                  placeholder={t(data.searchPlaceholder)}
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10 bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white"
-                />
-                {searchQuery && (
-                  <button
-                    onClick={() => setSearchQuery("")}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-white/60"
-                  >
-                    <X className="w-4 h-4" />
-                  </button>
-                )}
-              </div>
-
-              {/* Sort and Filter Controls */}
-              <div className="flex gap-3">
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-[140px] bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                    <SelectValue
-                      placeholder={language === "en" ? "Sort by" : "छांटें"}
-                    />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="popular">
-                      {language === "en" ? "Popular" : "लोकप्रिय"}
-                    </SelectItem>
-                    <SelectItem value="newest">
-                      {language === "en" ? "Newest" : "नवीनतम"}
-                    </SelectItem>
-                    <SelectItem value="a-z">A-Z</SelectItem>
-                    <SelectItem value="z-a">Z-A</SelectItem>
-                  </SelectContent>
-                </Select>
-                <Button
-                  variant="outline"
-                  onClick={() => setShowFilters(!showFilters)}
-                  className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white"
+              {data.tags.map((tag) => (
+                <button
+                  key={tag}
+                  onClick={() => setSelectedTag(tag)}
+                  className={`px-5 py-2.5 rounded-full text-sm transition-all duration-300 ${
+                    selectedTag === tag
+                      ? "bg-gradient-to-r from-cyan-500 to-violet-600 text-white shadow-lg shadow-violet-500/30"
+                      : "bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 text-slate-700 dark:text-white/70 hover:border-cyan-300 dark:hover:border-cyan-500/50"
+                  }`}
                 >
-                  <SlidersHorizontal className="w-4 h-4 mr-2" />
-                  {language === "en" ? "Filters" : "फ़िल्टर"}
-                </Button>
-              </div>
+                  {tag}
+                </button>
+              ))}
             </div>
+          </motion.div>
+        )}
+        {/* Search and Filters Bar */}
 
-            {/* Advanced Filters Panel */}
-            {showFilters && (
-              <motion.div
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: "auto" }}
-                exit={{ opacity: 0, height: 0 }}
-                className="mt-4 pt-4 border-t border-slate-200 dark:border-white/10"
-              >
-                <div className="grid md:grid-cols-3 gap-4">
-                  <div>
-                    <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
-                      {language === "en" ? "Type" : "प्रकार"}
-                    </label>
-                    <Select
-                      value={selectedType}
-                      onValueChange={setSelectedType}
+        {language === "en" && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="mb-8"
+          >
+            <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-4">
+              <div className="flex flex-col md:flex-row gap-4">
+                {/* Search Input */}
+                <div className="flex-1 relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-white/40" />
+                  <Input
+                    type="text"
+                    placeholder={t(data.searchPlaceholder)}
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="pl-10 bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white"
+                  />
+                  {searchQuery && (
+                    <button
+                      onClick={() => setSearchQuery("")}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-white/60"
                     >
-                      <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                        <SelectValue
-                          placeholder={
-                            language === "en" ? "All Types" : "सभी प्रकार"
-                          }
-                        />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="all">
-                          {language === "en" ? "All Types" : "सभी प्रकार"}
-                        </SelectItem>
-                        <SelectItem value="formal">
-                          {language === "en" ? "Formal" : "औपचारिक"}
-                        </SelectItem>
-                        <SelectItem value="casual">
-                          {language === "en" ? "Casual" : "अनौपचारिक"}
-                        </SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div>
-                    <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
-                      {language === "en" ? "Format" : "प्रारूप"}
-                    </label>
-                    <Select
-                      value={selectedFormat}
-                      onValueChange={setSelectedFormat}
-                    >
-                      <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                        <SelectValue
-                          placeholder={
-                            language === "en" ? "All Formats" : "सभी प्रारूप"
-                          }
-                        />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="all">
-                          {language === "en" ? "All Formats" : "सभी प्रारूप"}
-                        </SelectItem>
-                        <SelectItem value="docx">DOCX</SelectItem>
-                        <SelectItem value="pdf">PDF</SelectItem>
-                        <SelectItem value="txt">TXT</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div>
-                    <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
-                      {language === "en" ? "Language" : "भाषा"}
-                    </label>
-                    <Select
-                      value={selectedLanguage}
-                      onValueChange={setSelectedLanguage}
-                    >
-                      <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                        <SelectValue
-                          placeholder={
-                            language === "en" ? "All Languages" : "सभी भाषाएं"
-                          }
-                        />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="all">
-                          {language === "en" ? "All Languages" : "सभी भाषाएं"}
-                        </SelectItem>
-                        <SelectItem value="en">
-                          {language === "en" ? "English" : "अंग्रेज़ी"}
-                        </SelectItem>
-                        <SelectItem value="hi">
-                          {language === "en" ? "Hindi" : "हिंदी"}
-                        </SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
                 </div>
-              </motion.div>
-            )}
-          </div>
-        </motion.div>
 
+                {/* Sort and Filter Controls */}
+                <div className="flex gap-3">
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="w-[140px] bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                      <SelectValue
+                        placeholder={language === "en" ? "Sort by" : "छांटें"}
+                      />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="popular">
+                        {language === "en" ? "Popular" : "लोकप्रिय"}
+                      </SelectItem>
+                      <SelectItem value="newest">
+                        {language === "en" ? "Newest" : "नवीनतम"}
+                      </SelectItem>
+                      <SelectItem value="a-z">A-Z</SelectItem>
+                      <SelectItem value="z-a">Z-A</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <Button
+                    variant="outline"
+                    onClick={() => setShowFilters(!showFilters)}
+                    className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white"
+                  >
+                    <SlidersHorizontal className="w-4 h-4 mr-2" />
+                    {language === "en" ? "Filters" : "फ़िल्टर"}
+                  </Button>
+                </div>
+              </div>
+
+              {/* Advanced Filters Panel */}
+              {showFilters && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  className="mt-4 pt-4 border-t border-slate-200 dark:border-white/10"
+                >
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <div>
+                      <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
+                        {language === "en" ? "Type" : "प्रकार"}
+                      </label>
+                      <Select
+                        value={selectedType}
+                        onValueChange={setSelectedType}
+                      >
+                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                          <SelectValue
+                            placeholder={
+                              language === "en" ? "All Types" : "सभी प्रकार"
+                            }
+                          />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">
+                            {language === "en" ? "All Types" : "सभी प्रकार"}
+                          </SelectItem>
+                          <SelectItem value="formal">
+                            {language === "en" ? "Formal" : "औपचारिक"}
+                          </SelectItem>
+                          <SelectItem value="casual">
+                            {language === "en" ? "Casual" : "अनौपचारिक"}
+                          </SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                    <div>
+                      <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
+                        {language === "en" ? "Format" : "प्रारूप"}
+                      </label>
+                      <Select
+                        value={selectedFormat}
+                        onValueChange={setSelectedFormat}
+                      >
+                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                          <SelectValue
+                            placeholder={
+                              language === "en" ? "All Formats" : "सभी प्रारूप"
+                            }
+                          />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">
+                            {language === "en" ? "All Formats" : "सभी प्रारूप"}
+                          </SelectItem>
+                          <SelectItem value="docx">DOCX</SelectItem>
+                          <SelectItem value="pdf">PDF</SelectItem>
+                          <SelectItem value="txt">TXT</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                    <div>
+                      <label className="text-sm text-slate-600 dark:text-white/60 mb-2 block">
+                        {language === "en" ? "Language" : "भाषा"}
+                      </label>
+                      <Select
+                        value={selectedLanguage}
+                        onValueChange={setSelectedLanguage}
+                      >
+                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                          <SelectValue
+                            placeholder={
+                              language === "en" ? "All Languages" : "सभी भाषाएं"
+                            }
+                          />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="all">
+                            {language === "en" ? "All Languages" : "सभी भाषाएं"}
+                          </SelectItem>
+                          <SelectItem value="en">
+                            {language === "en" ? "English" : "अंग्रेज़ी"}
+                          </SelectItem>
+                          <SelectItem value="hi">
+                            {language === "en" ? "Hindi" : "हिंदी"}
+                          </SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+            </div>
+          </motion.div>
+        )}
         {/* Template Grid */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}
@@ -363,56 +366,56 @@ export function UniversalSubcategoryPage({
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {sortedTemplates.map((template, index) => (
-                <motion.div
-                  key={template.id}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.05 }}
-                  whileHover={{ y: -8 }}
-                  className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-cyan-300 dark:hover:border-cyan-500/50 hover:shadow-xl transition-all duration-300"
-                >
-                  {/* Badge */}
-                  {template.badge && (
-                    <Badge
-                      className={`mb-3 ${
-                        template.badge === "Popular"
-                          ? "bg-gradient-to-r from-cyan-500 to-blue-600"
-                          : template.badge === "Trending"
-                          ? "bg-gradient-to-r from-pink-500 to-rose-600"
-                          : "bg-gradient-to-r from-green-500 to-emerald-600"
-                      }`}
-                    >
-                      {template.badge}
-                    </Badge>
-                  )}
+                <Link key={template.id} href={template.templateSlug}>
+                  <motion.div
+                    key={template.id}
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: index * 0.05 }}
+                    whileHover={{ y: -8 }}
+                    className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-cyan-300 dark:hover:border-cyan-500/50 hover:shadow-xl transition-all duration-300"
+                  >
+                    {/* Badge */}
+                    {template.badge && (
+                      <Badge
+                        className={`mb-3 ${
+                          template.badge === "Popular"
+                            ? "bg-gradient-to-r from-cyan-500 to-blue-600"
+                            : template.badge === "Trending"
+                              ? "bg-gradient-to-r from-pink-500 to-rose-600"
+                              : "bg-gradient-to-r from-green-500 to-emerald-600"
+                        }`}
+                      >
+                        {template.badge}
+                      </Badge>
+                    )}
 
-                  <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
-                    {t(template.title)}
-                  </h3>
-                  <p className="text-slate-600 dark:text-white/60 mb-4 line-clamp-2">
-                    {t(template.description)}
-                  </p>
+                    <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+                      {t(template.title)}
+                    </h3>
+                    <p className="text-slate-600 dark:text-white/60 mb-4 line-clamp-2">
+                      {t(template.description)}
+                    </p>
 
-                  <div className="flex items-center justify-between text-sm text-slate-500 dark:text-white/50 mb-4">
-                    <div className="flex items-center gap-4">
-                      <span className="flex items-center gap-1">
-                        <Eye className="w-3 h-3" />
-                        {template.views}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <Calendar className="w-3 h-3" />
-                        {template.lastUpdated}
-                      </span>
+                    <div className="flex items-center justify-between text-sm text-slate-500 dark:text-white/50 mb-4">
+                      <div className="flex items-center gap-4">
+                        <span className="flex items-center gap-1">
+                          <Eye className="w-3 h-3" />
+                          {template.views}
+                        </span>
+                        <span className="flex items-center gap-1">
+                          <Calendar className="w-3 h-3" />
+                          {template.lastUpdated}
+                        </span>
+                      </div>
                     </div>
-                  </div>
 
-                  <Link href={template.templateSlug}>
                     <Button className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white">
                       {language === "en" ? "View Template" : "टेम्पलेट देखें"}
                     </Button>
-                  </Link>
-                </motion.div>
+                  </motion.div>
+                </Link>
               ))}
             </div>
           )}

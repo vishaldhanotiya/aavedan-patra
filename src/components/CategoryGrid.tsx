@@ -72,7 +72,7 @@ export function CategoryGrid() {
   ];
 
   return (
-    <section className="py-24 relative">
+    <section id="category-grid" className="py-24 relative">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -81,7 +81,7 @@ export function CategoryGrid() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl mb-4 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
+          <h2 className="text-4xl p-2 lg:text-5xl mb-4 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
             {heroString.exploreBy[language]}
           </h2>
           <p className="text-slate-600 dark:text-white/60 text-lg">
@@ -103,6 +103,8 @@ export function CategoryGrid() {
                 whileHover={{ scale: 1.05, y: -5 }}
                 className="group relative"
               >
+                                    <Link href={`${category.href}`}>
+
                 {/* Glass Card */}
                 <div className="relative bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-8 transition-all duration-300 group-hover:bg-white/90 dark:group-hover:bg-white/10 group-hover:border-slate-300 dark:group-hover:border-white/30 overflow-hidden group-hover:shadow-2xl">
                   {/* Gradient glow on hover */}
@@ -131,14 +133,13 @@ export function CategoryGrid() {
                     key={category.title}
                     href={category?.href +"/"+ category.slug || "/application"}
                   > */}
-                    <Link href={`${category.href}`}>
                       <div className="flex items-center gap-2 text-cyan-600 dark:text-cyan-400 group-hover:gap-3 transition-all duration-300">
                         <span>{heroString.explore[language]}</span>
                         <ArrowRight className="w-4 h-4" />
                       </div>
-                    </Link>
                   </div>
                 </div>
+                </Link>
               </motion.div>
             );
           })}

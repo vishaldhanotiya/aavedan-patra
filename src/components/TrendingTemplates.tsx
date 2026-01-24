@@ -4,46 +4,13 @@ import { Flame, Eye, TrendingUp } from "lucide-react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import Link from "next/link";
-
-const templates = [
-  {
-    title: "Professional Job Application",
-    category: "Applications",
-    views: "12.5k",
-    tag: "Popular",
-    tagColor: "bg-rose-500",
-  },
-  // {
-  //   title: "Modern Resume Template",
-  //   category: "Resumes",
-  //   views: "10.2k",
-  //   tag: "Trending",
-  //   tagColor: "bg-violet-500"
-  // },
-  // {
-  //   title: "Experience Certificate",
-  //   category: "Certificates",
-  //   views: "8.9k",
-  //   tag: "New",
-  //   tagColor: "bg-cyan-500"
-  // },
-  {
-    title: "Resignation Letter",
-    category: "Letters",
-    views: "15.3k",
-    tag: "Popular",
-    tagColor: "bg-rose-500",
-  },
-  {
-    title: "Leave Application Format",
-    category: "Applications",
-    views: "11.1k",
-    tag: "Trending",
-    tagColor: "bg-violet-500",
-  },
-];
+import { heroString } from "@/data/hero";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { trendingTemplate } from "@/data/trendingTemplate/trendingTemplate";
 
 export function TrendingTemplates() {
+  const { language } = useLanguage();
+
   return (
     <section className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-4">
@@ -56,17 +23,17 @@ export function TrendingTemplates() {
         >
           <div className="flex items-center gap-3 mb-4">
             <Flame className="w-8 h-8 text-orange-500" />
-            <h2 className="text-4xl lg:text-5xl bg-gradient-to-r from-slate-900 via-orange-600 to-rose-600 dark:from-white dark:via-orange-200 dark:to-rose-200 bg-clip-text text-transparent">
-              Trending Templates
+            <h2 className="text-4xl pt-1 lg:text-5xl bg-gradient-to-r from-slate-900 via-orange-600 to-rose-600 dark:from-white dark:via-orange-200 dark:to-rose-200 bg-clip-text text-transparent">
+              {heroString.trendingHeading[language]}
             </h2>
           </div>
           <p className="text-slate-600 dark:text-white/60 text-lg">
-            Most viewed and downloaded templates this month
+            {heroString.trendingSubHeading[language]}
           </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {templates.map((template, index) => (
+          {trendingTemplate.templates.map((template, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 30 }}
@@ -81,41 +48,44 @@ export function TrendingTemplates() {
               style={{ perspective: 1000 }}
               className="group relative"
             >
-              <div className="relative bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-6 transition-all duration-300 group-hover:bg-white/90 dark:group-hover:bg-white/10 group-hover:border-cyan-300 dark:group-hover:border-cyan-500/50 group-hover:shadow-2xl group-hover:shadow-cyan-500/20">
-                {/* Floating tag */}
-                <div className="absolute top-4 right-4">
-                  <Badge className={`${template.tagColor} text-white border-0`}>
-                    {template.tag}
-                  </Badge>
-                </div>
-
-                <div className="mt-8 mb-4">
-                  <h3 className="text-xl text-slate-900 dark:text-white mb-2">
-                    {template.title}
-                  </h3>
-                  <p className="text-slate-600 dark:text-white/50 mb-4">
-                    {template.category}
-                  </p>
-
-                  <div className="flex items-center gap-2 text-slate-600 dark:text-white/60 mb-6">
-                    <Eye className="w-4 h-4" />
-                    <span>{template.views} views</span>
+              {" "}
+              <Link href={template.href}>
+                <div className="relative bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-6 transition-all duration-300 group-hover:bg-white/90 dark:group-hover:bg-white/10 group-hover:border-cyan-300 dark:group-hover:border-cyan-500/50 group-hover:shadow-2xl group-hover:shadow-cyan-500/20">
+                  {/* Floating tag */}
+                  <div className="absolute top-4 right-4">
+                    <Badge
+                      className={`${template.tagColor} text-white border-0`}
+                    >
+                      {template.tag}
+                    </Badge>
                   </div>
-                </div>
-                <Link href={"/application/application-for-teacher-job"}>
+
+                  <div className="mt-8 mb-4">
+                    <h3 className="text-xl text-slate-900 dark:text-white mb-2">
+                      {template.title[language]}
+                    </h3>
+                    <p className="text-slate-600 dark:text-white/50 mb-4">
+                      {template.category[language]}
+                    </p>
+
+                    <div className="flex items-center gap-2 text-slate-600 dark:text-white/60 mb-6">
+                      <Eye className="w-4 h-4" />
+                      <span>{template.views} views</span>
+                    </div>
+                  </div>
                   <Button
                     className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white border-0"
                     size="sm"
                   >
-                    View Template
+                    {language === "en" ? "View Template" : "टेम्पलेट देखें"}
                   </Button>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </motion.div>
           ))}
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -129,7 +99,7 @@ export function TrendingTemplates() {
             <TrendingUp className="w-4 h-4 mr-2" />
             View All Trending
           </Button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

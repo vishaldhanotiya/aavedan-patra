@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import { ArrowDown, Sparkles, FileText, Award, Mail } from "lucide-react";
 import { heroString } from "@/data/hero";
 import { useLanguage } from "@/contexts/LanguageContext";
+import Link from "next/link";
 
 export function Hero() {
   const [windowSize, setWindowSize] = useState<{
@@ -84,19 +85,23 @@ export function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-sky-500 to-violet-600 hover:from-sky-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/50 hover:shadow-xl hover:shadow-violet-500/60 transition-all duration-300"
-              >
-                {heroString.exploreTemp[language]}
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/10 backdrop-blur-md"
-              >
-                {heroString.viewCategories[language]}
-              </Button>
+              <Link href="#category-grid">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-sky-500 to-violet-600 hover:from-sky-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/50 hover:shadow-xl hover:shadow-violet-500/60 transition-all duration-300"
+                >
+                  {heroString.exploreTemp[language]}
+                </Button>
+              </Link>
+              <Link href="#category-grid">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-slate-300 dark:border-white/30 text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/10 backdrop-blur-md"
+                >
+                  {heroString.viewCategories[language]}
+                </Button>
+              </Link>
             </div>
           </motion.div>
 
