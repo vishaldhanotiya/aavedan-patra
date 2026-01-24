@@ -30,15 +30,18 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("Environment==>", process.env.NODE_ENV);
+
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-33VXHQ194F" />
+      {process.env.NODE_ENV !== "development" && (
+        <GoogleAnalytics gaId="G-33VXHQ194F" />
+      )}
       <body>
         <ThemeProvider>
           <LanguageProvider>
