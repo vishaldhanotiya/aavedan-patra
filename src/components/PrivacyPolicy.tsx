@@ -2,7 +2,7 @@
  * PRIVACY POLICY - Aavedan Patra
  * Legal-compliant privacy policy with sticky navigation
  */
-
+"use client";
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import {

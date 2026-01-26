@@ -1,4 +1,3 @@
-"use client";
 import { PrivacyPolicy } from "@/components/PrivacyPolicy";
 export const metadata = {
   title: "Privacy Policy | Aavedan Patra",
