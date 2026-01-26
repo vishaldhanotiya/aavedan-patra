@@ -51,7 +51,8 @@ Kindly share the information or guide me to the concerned person/department.
 Thank you for your assistance.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+`,
 
         hi: `सेवा में,
 [अधिकारी/विभाग का नाम]

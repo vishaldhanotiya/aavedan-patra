@@ -3,17 +3,17 @@ export const donationRequestTemplate = {
   breadcrumb: {
     category: { en: "Letters", hi: "पत्र", slug:"/letters" },
     subcategory: { en: "Request Letters", hi: "अनुरोध पत्र", slug:"/letters/request"},
-    template: { en: "Official Request Letters", hi: "आधिकारिक अनुरोध पत्र", slug:"" }
+    template: { en: "Donation Request Letters", hi: "दान हेतु अनुरोध पत्र", slug:"" }
   },
 
   title: { 
-    en: "Request Application Letters", 
-    hi: "अनुरोध आवेदन पत्र" 
+    en: "Donation Request Letters", 
+    hi: "दान हेतु आवेदन पत्र" 
   },
 
   subtitle: { 
-    en: "Professional formats for permission, information, meetings, sponsorship, donation, and recommendation requests.",
-    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।" 
+    en: "For requesting donations for social, educational, medical, or charity causes.",
+    hi: "सामाजिक, शैक्षणिक, चिकित्सा या चैरिटी उद्देश्यों हेतु दान अनुरोध।" 
   },
 
   category: { 
@@ -36,85 +36,82 @@ export const donationRequestTemplate = {
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
       content: {
-        en: `To,
-[Donor/Organization Name]
+        en: `From:
+[Your Name]
+[Your Organization / Address]
+[City, State]
+[Contact Number]
+[Email]
 
-Subject: Request for Donation
+Date: [DD/MM/YYYY]
+
+To:
+[Donor’s Name / Organization]
+[Address]
+
+Subject: Request for Donation to Support [Cause / Program Name]
 
 Respected Sir/Madam,
 
-I request your kind support in the form of a donation for [cause: medical treatment/education/charity]. Your contribution will greatly help us achieve our purpose and support those in need.
+I hope this letter finds you well. I am writing to kindly request your support through a donation for [briefly mention cause – e.g., education for underprivileged children / medical aid / community development].
 
-We assure full transparency and proper use of the donated funds.
+Our organization, [Organization Name], has been actively working towards [short description of work]. With your generous contribution, we will be able to [explain how the funds will help] and positively impact many lives.
 
-Thank you for considering our request.
+Any amount you are able to contribute will be deeply appreciated. Your support will help us continue our mission and bring meaningful change to the community.
+
+Donation details are provided below:
+Bank Name: [Bank Name]
+Account Name: [Name]
+Account Number: [XXXX]
+IFSC Code: [XXXX]
+UPI (if any): [XXXX]
+
+We would be grateful for your kindness and support. Please feel free to contact us for any additional information.
+
+Thank you for your time and generosity.
 
 Sincerely,
-[Your Name]`,
+[Your Name]
+[Designation]
+[Organization Name]
+[Phone Number]`,
 
-        hi: `सेवा में,
-[दाता/संगठन का नाम]
+        hi: `प्रेषक:
+[आपका नाम]
+[संस्था / पता]
+[शहर, राज्य]
+[मोबाइल नंबर]
 
-विषय: दान हेतु अनुरोध
+दिनांक: [DD/MM/YYYY]
+
+प्रति,
+[दाता का नाम / संस्था]
+[पता]
+
+विषय: [कार्य / उद्देश्य] हेतु दान प्रदान करने के संबंध में आवेदन
 
 महोदय/महोदया,
 
-कृपया [उद्देश्य: चिकित्सा उपचार/शिक्षा/चैरिटी] के लिए दान प्रदान करने की कृपा करें। आपका सहयोग हमारे उद्देश्य को पूरा करने और जरूरतमंद लोगों की सहायता करने में अत्यंत सहायक होगा।
+सविनय निवेदन है कि हमारी संस्था [संस्था का नाम] द्वारा [उद्देश्य – जैसे गरीब बच्चों की शिक्षा / चिकित्सा सहायता / सामाजिक विकास] के लिए कार्य किया जा रहा है।
 
-हम दान की पूरी पारदर्शिता और उचित उपयोग का आश्वासन देते हैं।
+इस कार्य को आगे बढ़ाने हेतु हमें आपके सहयोग की आवश्यकता है। आपके द्वारा दिया गया दान अनेक जरूरतमंद लोगों के जीवन में सकारात्मक बदलाव ला सकता है।
 
-कृपया हमारे अनुरोध पर सहानुभूतिपूर्वक विचार करें।
+आपकी सुविधा हेतु दान का विवरण नीचे दिया गया है:
+बैंक का नाम: [ ]
+खाता नाम: [ ]
+खाता संख्या: [ ]
+IFSC कोड: [ ]
+UPI (यदि हो): [ ]
+
+आपके सहयोग के लिए हम सदैव आभारी रहेंगे। किसी भी जानकारी के लिए आप हमसे संपर्क कर सकते हैं।
 
 धन्यवाद।
 
 भवदीय,
-[आपका नाम]`
-      }
-    },
-
-    {
-      id: "recommendationRequest",
-      title: { en: "Recommendation Request Letter", hi: "सिफारिश पत्र हेतु अनुरोध" },
-      description: {
-        en: "Used for requesting recommendation from teacher, manager, or senior.",
-        hi: "शिक्षक, प्रबंधक या वरिष्ठ से सिफारिश प्राप्त करने हेतु आवेदन।"
-      },
-      bestFor: { en: "Job, college admission, scholarships", hi: "नौकरी, कॉलेज प्रवेश, छात्रवृत्ति" },
-      length: { en: "Medium", hi: "मध्यम" },
-      difficulty: { en: "Easy", hi: "आसान" },
-
-      content: {
-        en: `To,
-[Teacher/Manager Name]
-
-Subject: Request for Recommendation Letter
-
-Respected Sir/Madam,
-
-I kindly request you to provide a recommendation letter for my application to [job/college/scholarship]. Your recommendation will greatly strengthen my profile and support my application.
-
-I assure that I will maintain the values and reputation associated with your recommendation.
-
-Thank you.
-
-Sincerely,
-[Your Name]`,
-
-        hi: `सेवा में,
-[शिक्षक/प्रबंधक का नाम]
-
-विषय: सिफारिश पत्र प्रदान करने हेतु अनुरोध
-
-महोदय/महोदया,
-
-कृपया मुझे [नौकरी/कॉलेज/छात्रवृत्ति] हेतु आवेदन में उपयोग करने के लिए एक सिफारिश पत्र प्रदान करने की कृपा करें। आपकी सिफारिश मेरे प्रोफाइल को मजबूत बनाने में अत्यंत सहायक होगी।
-
-मैं आश्वासन देता/देती हूँ कि आपकी सिफारिश के अनुरूप व्यवहार और प्रदर्शन बनाए रखूँगा/रखूँगी।
-
-धन्यवाद।
-
-भवदीय,
-[आपका नाम]`
+[आपका नाम]
+[पद]
+[संस्था का नाम]
+[मोबाइल नंबर]`
       }
     }
   ],

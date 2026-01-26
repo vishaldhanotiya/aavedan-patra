@@ -242,6 +242,7 @@ export function DynamicCategoryPage({
         </motion.section>
 
         {/* Search and Filters Bar */}
+        {language === "en" && (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -427,7 +428,8 @@ export function DynamicCategoryPage({
             </AnimatePresence>
           </div>
         </motion.div>
-
+        )}
+        
         {/* Template Grid */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

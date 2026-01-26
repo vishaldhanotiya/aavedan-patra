@@ -43,11 +43,13 @@ Subject: Request for Recommendation Letter
 
 Respected Sir/Madam,
 
-I kindly request you to provide a recommendation letter for my application to [job/college/scholarship]. Your recommendation will greatly strengthen my profile and support my application.
+I hope you’re doing well.
 
-I assure that I will maintain the values and reputation associated with your recommendation.
+I’m applying for [program/job/opportunity], and I wanted to ask if you would be willing to provide a letter of recommendation for me. Your support would mean a lot, especially considering our work together at [company/institution].
 
-Thank you.
+The deadline is [date]. Please let me know if you’re comfortable with this — I’d be glad to share my resume or any details you may need.
+
+Thank you so much for your time and guidance.
 
 Sincerely,
 [Your Name]`,
@@ -59,9 +61,13 @@ Sincerely,
 
 महोदय/महोदया,
 
-कृपया मुझे [नौकरी/कॉलेज/छात्रवृत्ति] हेतु आवेदन में उपयोग करने के लिए एक सिफारिश पत्र प्रदान करने की कृपा करें। आपकी सिफारिश मेरे प्रोफाइल को मजबूत बनाने में अत्यंत सहायक होगी।
+आशा है आप कुशल मंगल होंगे।
 
-मैं आश्वासन देता/देती हूँ कि आपकी सिफारिश के अनुरूप व्यवहार और प्रदर्शन बनाए रखूँगा/रखूँगी।
+मैं आपसे विनम्र निवेदन करना चाहता हूँ कि क्या आप मेरे लिए एक अनुशंसा पत्र (Recommendation Letter) प्रदान कर सकते हैं। मैं [नौकरी/कोर्स/स्कॉलरशिप/अवसर का नाम] के लिए आवेदन कर रहा हूँ, और आपके मार्गदर्शन में कार्य/अध्ययन करने के अनुभव के आधार पर आपका अनुशंसा पत्र मेरे आवेदन को मजबूत बनाने में अत्यंत सहायक होगा।
+
+यदि आप सहमत हों, तो आवेदन की अंतिम तिथि [तारीख] है। आवश्यकता होने पर मैं अपना रिज़्यूमे, पोर्टफोलियो या अन्य विवरण साझा कर सकता हूँ।
+
+आपके समय और सहयोग के लिए अग्रिम धन्यवाद। कृपया बताने का कष्ट करें कि क्या यह आपके लिए संभव होगा।
 
 धन्यवाद।
 

@@ -45,13 +45,25 @@ Subject: Complaint Regarding Defective Product
 
 Respected Sir/Madam,
 
-I am writing to report an issue with the product I purchased from your store/website on [date]. The product, [Product Name & Model], is defective and not functioning as expected.
+I hope you are doing well.
 
-Despite following all instructions, the product failed to perform properly. I kindly request you to replace the product or provide a refund as per company policy.
+I am writing to formally lodge a complaint regarding a product I purchased from your company on [purchase date]. Unfortunately, the product ([product name/model]) I received is defective/damaged/not as described.
 
-Please look into this matter at the earliest.
+Issue Description:
+[Briefly explain the problem clearly — for example: not working, damaged on arrival, missing parts, poor quality, etc.]
 
-Thank you.
+Order Details:
+  1. Order Number: [XXXX]
+  2. Product Name: [Product Name]
+  3. Date of Purchase: [Date]
+
+I have attached photos of the product along with a copy of the purchase invoice for your reference.
+
+This has caused inconvenience, and I kindly request a suitable resolution at the earliest, such as a replacement, repair, or full refund, as per your company policy.
+
+Please let me know the next steps in this process.
+
+Thank you for your prompt attention to this matter. I look forward to your response.
 
 Sincerely,
 [Your Name]`,
@@ -62,13 +74,23 @@ Sincerely,
 
 विषय: खराब उत्पाद के संबंध में शिकायत
 
-महोदय/महोदया,
+मैं आपके प्रतिष्ठान से दिनांक [खरीद की तारीख] को खरीदे गए एक उत्पाद के संबंध में औपचारिक शिकायत दर्ज कराना चाहता हूँ। मुझे प्राप्त हुआ उत्पाद ([उत्पाद का नाम/मॉडल]) दोषपूर्ण/क्षतिग्रस्त/विवरण के अनुरूप नहीं है।
 
-मैं [date] को आपके स्टोर/वेबसाइट से खरीदे गए उत्पाद के संबंध में शिकायत दर्ज कर रहा/रही हूँ। [उत्पाद का नाम और मॉडल] खराब है और उम्मीद के अनुसार काम नहीं कर रहा है।
+समस्या का विवरण:
+[यहाँ समस्या को संक्षेप में स्पष्ट रूप से लिखें — जैसे उत्पाद काम नहीं कर रहा, टूटा हुआ मिला, आवश्यक पार्ट्स नहीं हैं, गुणवत्ता खराब है आदि।]
 
-सभी निर्देशों का पालन करने के बावजूद भी उत्पाद सही तरीके से काम नहीं कर रहा है। कृपया कंपनी की नीति के अनुसार उत्पाद बदलने या रिफंड प्रदान करने की कृपा करें।
+ऑर्डर विवरण:
+  1.ऑर्डर संख्या: [XXXX]
+  2.उत्पाद का नाम: [उत्पाद का नाम]
+  3.खरीद की तारीख: [तारीख]
 
-कृपया इस विषय पर शीघ्र कार्रवाई करें।
+इस ईमेल के साथ मैंने उत्पाद की फोटो एवं खरीद की इनवॉइस संलग्न कर दी है, कृपया संदर्भ हेतु देखें।
+
+इस कारण मुझे असुविधा हुई है। अतः आपसे विनम्र निवेदन है कि कंपनी की नीति के अनुसार शीघ्र ही उचित समाधान प्रदान करें, जैसे कि उत्पाद का प्रतिस्थापन (Replacement), मरम्मत (Repair) या पूर्ण धनवापसी (Refund)।
+
+कृपया आगे की प्रक्रिया के बारे में मुझे सूचित करने का कष्ट करें।
+
+आपके शीघ्र उत्तर की प्रतीक्षा में।
 
 धन्यवाद।
 

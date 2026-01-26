@@ -37,40 +37,92 @@ export const permissionRequestTemplate = {
 
       content: {
         en: `To,
-[Authority Name]
-[Designation]
-[Organization]
+The Principal
+[School Name]
+[School Address]
 
-Subject: Request for Permission
+Subject: Request for Permission to Conduct (Name of Event) on (Date)
 
 Respected Sir/Madam,
 
-I kindly request your permission to [mention purpose] on [date/time]. This permission is required to complete my responsibility and participate in the activity without any issues.
+With due respect, I, (Your Full Name), (Your Designation) at (Organization Name), on behalf of our organization, humbly submit this request seeking permission to conduct a (Name of Event) on (Day, Date) from (Start Time) to (End Time) in the (Venue).
 
-I assure you that I will follow all rules and maintain proper discipline during the activity. I request you to grant the required permission.
+We wish to inform you that prior approval has already been obtained from (Name of Class Teacher / HOD).
 
-Thank you.
+The objective of this event is to (brief purpose — e.g., promote scientific curiosity / enhance learning / develop skills)among students through (activities such as demonstrations, workshops, etc.).
 
-Sincerely,
-[Your Name]`,
+Event Highlights:
+  1. (Brief description of event / organizer)
+  2. Participation of approximately (number) students from (Classes / Grades)
+  3. (Key activity – e.g., live demonstrations / workshops) conducted by (experts/trainers)
+  4. (Certificates / kits / awards) for all participants
 
-        hi: `सेवा में,
-[अधिकारी का नाम]
-[पदनाम]
-[संस्थान]
+The event will be conducted (free of cost / at nominal charges) under (CSR initiative / school program, if applicable)
 
-विषय: अनुमति प्रदान करने हेतु अनुरोध
+We assure you that the programme will be conducted in a disciplined and orderly manner without causing any disruption to regular academic activities. Our trained staff will supervise the entire event, and the organization shall take full responsibility for safety and management of any unforeseen situations. Proper cleanup will be ensured after the event, and a detailed event report along with photographs will be submitted within (number) days. We further confirm that there will be no financial obligation on the part of the school.
+
+We therefore humbly request your kind approval to conduct the above-mentioned event. We shall be highly obliged for your favorable consideration.
+
+Thanking you.
+
+Yours sincerely,
+[Signature]
+
+(Your Full Name)
+(Designation)
+(Organization Name)
+Contact: (Phone Number)
+Email: (Email ID)
+Website: (Website, optional)
+
+Enclosures:
+1. (Company/Organization Profile)
+2. (Event Agenda)
+3. (Sample Certificates, if any)
+4. (Past Event Photographs, if any)`,
+
+        hi: `प्रति,
+प्रधानाचार्य महोदय/महोदया
+[विद्यालय का नाम]
+[विद्यालय का पता]
+
+विषय: (कार्यक्रम का नाम) दिनांक (तारीख) को आयोजित करने हेतु अनुमति
 
 महोदय/महोदया,
 
-कृपया मुझे [उद्देश्य का उल्लेख] हेतु दिनांक [date/time] को अनुमति प्रदान करने की कृपा करें। यह अनुमति मुझे अपनी जिम्मेदारी पूर्ण करने और गतिविधि में बिना किसी बाधा के भाग लेने के लिए आवश्यक है।
+सविनय निवेदन है कि मैं (आपका पूरा नाम), (आपका पद), (संस्था का नाम) की ओर से यह प्रार्थना पत्र प्रस्तुत कर रहा/रही हूँ कि दिनांक (दिन, तारीख) को (प्रारंभ समय) से (समाप्ति समय) तक (स्थान) में (कार्यक्रम का नाम) आयोजित करने की अनुमति प्रदान करने की कृपा करें।
 
-मैं आश्वासन देता/देती हूँ कि नियमों का पालन करूँगा/करूँगी और अनुशासन बनाए रखूँगा/रखूँगी। कृपया आवश्यक अनुमति प्रदान करें।
+सूचित करना है कि इस कार्यक्रम हेतु (कक्षा अध्यापक / विभागाध्यक्ष का नाम) से पूर्व अनुमति प्राप्त कर ली गई है।
 
-धन्यवाद।
+इस कार्यक्रम का उद्देश्य विद्यार्थियों में (संक्षिप्त उद्देश्य – जैसे वैज्ञानिक जिज्ञासा बढ़ाना / सीखने को प्रोत्साहित करना / कौशल विकास) को बढ़ावा देना है, जिसके अंतर्गत (गतिविधियाँ – जैसे प्रदर्शन, कार्यशाला आदि) आयोजित की जाएँगी।
+
+कार्यक्रम की मुख्य विशेषताएँ:
+  1. (कार्यक्रम/आयोजक का संक्षिप्त विवरण)
+  2. (कक्षा/श्रेणी) के लगभग (संख्या) विद्यार्थियों की सहभागिता
+  3. (मुख्य गतिविधि – जैसे लाइव डेमो / कार्यशाला) (विशेषज्ञों/प्रशिक्षकों) द्वारा
+  4. सभी प्रतिभागियों को (प्रमाण पत्र / किट / पुरस्कार)
+  5. कार्यक्रम (निःशुल्क / नाममात्र शुल्क) पर (CSR पहल / विद्यालय कार्यक्रम) के अंतर्गत आयोजित किया जाएगा
+
+हम आपको आश्वस्त करते हैं कि कार्यक्रम पूर्ण अनुशासन एवं सुव्यवस्थित तरीके से आयोजित किया जाएगा तथा नियमित शैक्षणिक गतिविधियों में कोई बाधा नहीं आएगी। हमारी प्रशिक्षित टीम पूरे कार्यक्रम की निगरानी करेगी तथा किसी भी अप्रत्याशित स्थिति की पूर्ण जिम्मेदारी संस्था की होगी। कार्यक्रम के पश्चात उचित स्वच्छता सुनिश्चित की जाएगी तथा (दिनों की संख्या) दिनों के भीतर कार्यक्रम रिपोर्ट एवं फोटो प्रस्तुत किए जाएंगे। विद्यालय पर किसी प्रकार का कोई आर्थिक भार नहीं पड़ेगा।
+
+अतः आपसे विनम्र अनुरोध है कि कृपया उपरोक्त कार्यक्रम आयोजित करने की अनुमति प्रदान करें। इसके लिए हम आपके आभारी रहेंगे।
+
+धन्यवाद सहित।
 
 भवदीय,
-[आपका नाम]`
+[हस्ताक्षर]
+(आपका पूरा नाम)
+(पद)
+(संस्था का नाम)
+संपर्क: (मोबाइल नंबर)
+ईमेल: (ईमेल आईडी)
+वेबसाइट: (वैकल्पिक)
+
+संलग्नक:
+1. (संस्था प्रोफ़ाइल)
+2. (कार्यक्रम एजेंडा)
+3. (नमूना प्रमाण पत्र, यदि हों)
+4. (पूर्व कार्यक्रमों की तस्वीरें, यदि हों)`
       }
     }
   ],

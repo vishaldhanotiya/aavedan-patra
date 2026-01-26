@@ -14,7 +14,7 @@ interface CategoryTemplate {
   date: string;
   tag?: string;
   slug?:string 
-
+  href?:string
 }
 
 interface CategorySubcategory {
@@ -132,6 +132,7 @@ export const applicationsCategory: CategoryData = {
       views: "24.5k",
       date: "Nov 2025",
       tag: "Popular",
+      href:"applications/application-for-teacher-job"
     },
     {
       title: { en: "Sick Leave Application to Manager", hi: "प्रबंधक को बीमारी की छुट्टी आवेदन" },
@@ -141,6 +142,7 @@ export const applicationsCategory: CategoryData = {
       },
       views: "21.8k",
       date: "Nov 2025",
+      href:"applications/application-for-sick-leave"
     },
     {
       title: { en: "Personal Loan Application to Bank", hi: "बैंक को व्यक्तिगत ऋण आवेदन" },
@@ -151,6 +153,7 @@ export const applicationsCategory: CategoryData = {
       views: "19.2k",
       date: "Nov 2025",
       tag: "Trending",
+      href:"applications/application-for-personal-loan"
     },
     {
       title: { en: "College Admission Application", hi: "कॉलेज प्रवेश आवेदन" },
@@ -160,6 +163,8 @@ export const applicationsCategory: CategoryData = {
       },
       views: "17.5k",
       date: "Nov 2025",
+      href:"applications/application-for-college-admission"
+
     },
     {
       title: { en: "Merit Scholarship Application", hi: "मेरिट छात्रवृत्ति आवेदन" },
@@ -169,6 +174,8 @@ export const applicationsCategory: CategoryData = {
       },
       views: "16.9k",
       date: "Nov 2025",
+      href:"applications/application-for-merit-scholarship"
+
     },
     {
       title: { en: "Casual Leave Application", hi: "आकस्मिक छुट्टी आवेदन" },
@@ -178,6 +185,8 @@ export const applicationsCategory: CategoryData = {
       },
       views: "15.3k",
       date: "Oct 2025",
+      href:"applications/application-for-casual-leave"
+
     },
   ],
   aboutContent: {
