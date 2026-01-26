@@ -46,11 +46,15 @@ Subject: Complaint Regarding Poor Service
 
 Respected Sir/Madam,
 
-I wish to express my dissatisfaction with the service provided on [date]. The service was highly unprofessional and did not meet the quality standards promised by your company.
+I hope this message finds you well. My name is Vishal Dhanotiya, and I am writing to formally register a complaint regarding the unsatisfactory service I received from your organization on [mention date], related to [briefly describe the service, e.g., internet installation / repair service / customer support].
 
-I request you to take corrective action and ensure that such issues do not occur again. Kindly arrange a proper resolution at the earliest.
+Unfortunately, the service provided did not meet the expected standards. Specifically, [clearly explain the issue — delays, unprofessional behavior, incomplete work, repeated follow-ups, etc.]. Despite multiple attempts to resolve this matter through your customer support team on [mention dates if applicable], the issue remains unresolved, which has caused considerable inconvenience and frustration.
 
-Thank you.
+I kindly request your immediate attention to this matter. I expect a prompt resolution along with a clear explanation of the corrective steps being taken. If applicable, I also request appropriate compensation or service rectification as per your company policy.
+
+Please treat this matter as urgent. I look forward to your response within [e.g., 3–5 working days]. You may contact me at [your phone number] or [your email address] for any further details.
+
+Thank you for your cooperation.
 
 Sincerely,
 [Your Name]`,
@@ -63,9 +67,15 @@ Sincerely,
 
 महोदय/महोदया,
 
-मैं [date] को प्रदान की गई सेवा के प्रति अपनी असंतुष्टि व्यक्त करना चाहता/चाहती हूँ। सेवा अत्यंत गैर-पेशेवर थी और आपकी कंपनी द्वारा वादा किए गए मानकों पर खरी नहीं उतरी।
+महोदय/महोदया,
 
-कृपया उचित कार्रवाई करें और सुनिश्चित करें कि भविष्य में ऐसी समस्या दोबारा न हो। कृपया शीघ्र समाधान प्रदान करें।
+आशा है आप कुशल मंगल होंगे। मेरा नाम विषाल धनोटिया है, और मैं आपके संगठन द्वारा [तारीख का उल्लेख करें] को प्रदान की गई [सेवा का संक्षिप्त विवरण दें — जैसे इंटरनेट इंस्टॉलेशन / मरम्मत सेवा / कस्टमर सपोर्ट] से संबंधित असंतोषजनक सेवा के बारे में औपचारिक शिकायत दर्ज कराने हेतु यह पत्र लिख रहा हूँ।
+
+दुर्भाग्यवश, प्रदान की गई सेवा अपेक्षित मानकों पर खरी नहीं उतरी। विशेष रूप से, [समस्या स्पष्ट रूप से बताएं — जैसे देरी, गैर-पेशेवर व्यवहार, अधूरा कार्य, बार-बार फॉलो-अप आदि]। इसके अतिरिक्त, [यदि लागू हो तो तारीखें लिखें] को आपकी ग्राहक सहायता टीम से कई बार संपर्क करने के बावजूद समस्या का समाधान नहीं हुआ, जिससे मुझे काफी असुविधा और परेशानी का सामना करना पड़ा।
+
+अतः आपसे विनम्र निवेदन है कि इस विषय पर तत्काल ध्यान दें। मुझे शीघ्र समाधान के साथ-साथ उठाए गए सुधारात्मक कदमों की स्पष्ट जानकारी भी प्रदान की जाए। यदि लागू हो, तो कृपया आपकी कंपनी नीति के अनुसार उचित मुआवज़ा या सेवा सुधार भी प्रदान करें।
+
+कृपया इस मामले को अत्यावश्यक समझते हुए [उदाहरण: 3–5 कार्य दिवसों] के भीतर उत्तर देने का कष्ट करें। किसी भी अतिरिक्त जानकारी हेतु आप मुझसे [आपका फ़ोन नंबर] या [आपका ईमेल पता] पर संपर्क कर सकते हैं।
 
 धन्यवाद।
 

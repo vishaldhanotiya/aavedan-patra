@@ -45,11 +45,15 @@ Subject: Complaint Regarding Workplace Misconduct
 
 Respected Sir/Madam,
 
-I would like to report an incident of misconduct that occurred on [date] involving [person/department]. The behavior was inappropriate and created a hostile work environment.
+I am writing to formally bring to your attention an issue of [harassment / discrimination / misconduct / unfair treatment] that I have been experiencing at the workplace.
 
-I request the HR department to look into the matter and take necessary action as per company policy to ensure a safe working environment.
+The incident(s) occurred on [mention date(s)], involving [name/designation if appropriate], where [briefly and clearly explain what happened]. These events have caused me significant discomfort and have affected my ability to work in a positive and professional environment.
 
-Thank you.
+I initially tried to resolve this matter amicably; however, the situation has not improved. Therefore, I request your kind intervention to investigate this matter and take appropriate action as per company policies.
+
+I trust that this complaint will be handled with confidentiality and fairness. I am available to provide any additional details or clarification if required.
+
+Thank you for your understanding and support. I look forward to a prompt resolution.
 
 Sincerely,
 [Your Name]`,
@@ -62,9 +66,15 @@ Sincerely,
 
 महोदय/महोदया,
 
-मैं [date] को [व्यक्ति/विभाग] से संबंधित एक दुर्व्यवहार की घटना की शिकायत करना चाहता/चाहती हूँ। यह व्यवहार अनुचित था और इससे कार्यस्थल का वातावरण असहज हो गया।
+मैं यह पत्र आपके संज्ञान में कार्यस्थल पर मेरे साथ हो रहे [उत्पीड़न / भेदभाव / दुर्व्यवहार / अनुचित व्यवहार] की औपचारिक शिकायत दर्ज कराने हेतु लिख रहा/रही हूँ।
 
-कृपया मामले की जांच कर कंपनी की नीति के अनुसार आवश्यक कार्रवाई करें ताकि सुरक्षित कार्य वातावरण सुनिश्चित हो सके।
+यह घटना/घटनाएँ [तारीख/तिथियाँ] को हुईं, जिनमें [संबंधित व्यक्ति का नाम/पदनाम, यदि आवश्यक हो] शामिल थे, जहाँ [संक्षेप में और स्पष्ट रूप से घटना का विवरण दें]। इन घटनाओं के कारण मुझे काफी असुविधा हुई है तथा इसका मेरे कार्य प्रदर्शन और पेशेवर वातावरण पर नकारात्मक प्रभाव पड़ा है।
+
+मैंने प्रारंभ में इस विषय को आपसी समझ के माध्यम से सुलझाने का प्रयास किया, परंतु स्थिति में कोई सुधार नहीं हुआ। अतः मैं आपसे विनम्र अनुरोध करता/करती हूँ कि कृपया इस मामले की जाँच कर कंपनी की नीतियों के अनुसार उचित कार्रवाई करें।
+
+मुझे विश्वास है कि इस शिकायत को गोपनीयता और निष्पक्षता के साथ संभाला जाएगा। आवश्यकता पड़ने पर मैं अतिरिक्त जानकारी या स्पष्टीकरण प्रदान करने के लिए उपलब्ध हूँ।
+
+आपके सहयोग और समझ के लिए धन्यवाद। मैं शीघ्र समाधान की अपेक्षा करता/करती हूँ।
 
 धन्यवाद।
 

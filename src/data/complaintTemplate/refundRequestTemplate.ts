@@ -38,38 +38,48 @@ export const refundRequestTemplate = {
 
       content: {
         en: `To,
-Billing/Support Team
-[Company Name]
+[Company Name / Customer Support]
+[Company Address – optional]
 
 Subject: Request for Refund
 
-Respected Sir/Madam,
+Dear Sir/Madam,
 
-I request a refund for the amount paid for [product/service] on [date]. The service/product received did not meet expectations and was not as described.
+I am writing to formally request a refund for my order/service dated [Purchase Date] with Order Number [Order Number].
 
-Kindly process the refund at the earliest.
+Unfortunately, the product/service I received was [briefly describe the issue — e.g., defective, incorrect item delivered, not delivered, or unsatisfactory service], which caused inconvenience.
 
-Thank you.
+Therefore, I kindly request you to process a refund of [Refund Amount] to my original mode of payment, as per your refund policy. For your reference, I have attached the invoice/receipt and relevant supporting documents.
+
+I would appreciate your prompt assistance in resolving this matter. Please let me know if any additional information is required from my side.
+
+Thank you for your cooperation.
 
 Sincerely,
 [Your Name]`,
 
-        hi: `सेवा में,
-बिलिंग/सपोर्ट टीम
-[कंपनी का नाम]
+        hi: `प्रति,
+[कंपनी / कस्टमर सपोर्ट का नाम]
+[कंपनी का पता – वैकल्पिक]
 
-विषय: रिफंड प्रदान करने हेतु अनुरोध
+आदरणीय महोदय/महोदया,
 
-महोदय/महोदया,
+सविनय निवेदन है कि मैं दिनांक [खरीद की तारीख] को किए गए अपने ऑर्डर/सेवा (ऑर्डर नंबर: [ऑर्डर नंबर]) के संबंध में रिफंड हेतु यह पत्र लिख रहा/रही हूँ।
 
-मैं [date] को खरीदे गए [उत्पाद/सेवा] के लिए भुगतान की गई राशि के रिफंड का अनुरोध करता/करती हूँ। प्राप्त उत्पाद/सेवा अपेक्षा के अनुरूप नहीं था और वर्णन से मेल नहीं खाता।
+दुर्भाग्यवश, प्राप्त उत्पाद/सेवा [समस्या का संक्षिप्त विवरण लिखें — जैसे: उत्पाद खराब था / गलत वस्तु प्राप्त हुई / डिलीवरी नहीं हुई / सेवा संतोषजनक नहीं रही]। इस कारण मुझे असुविधा का सामना करना पड़ा।
 
-कृपया शीघ्र रिफंड की प्रक्रिया शुरू करें।
+अतः आपसे निवेदन है कि आपकी रिफंड नीति के अनुसार कृपया [राशि] की धनवापसी मेरे मूल भुगतान माध्यम में शीघ्र प्रदान करने की कृपा करें। संदर्भ हेतु बिल/इनवॉइस एवं संबंधित दस्तावेज संलग्न हैं।
 
-धन्यवाद।
+कृपया इस विषय में शीघ्र कार्यवाही करें। यदि किसी अतिरिक्त जानकारी की आवश्यकता हो, तो कृपया सूचित करें।
 
-भवदीय,
-[आपका नाम]`
+आपके सहयोग के लिए अग्रिम धन्यवाद।
+
+सादर,
+[आपका पूरा नाम]
+[मोबाइल नंबर]
+[ईमेल आईडी]
+[पता – वैकल्पिक]
+`
       }
     }
   ],

@@ -1,9 +1,16 @@
-
 export const neighborComplaintTemplate = {
   breadcrumb: {
-    category: { en: "Letters", hi: "पत्र", slug:"/letters" },
-    subcategory: { en: "Complaint Letters", hi: "शिकायत पत्र", slug:"/letters/complaint" },
-    template: { en: "Official Complaint Letters", hi: "आधिकारिक शिकायत पत्र", slug:"" },
+    category: { en: "Letters", hi: "पत्र", slug: "/letters" },
+    subcategory: {
+      en: "Complaint Letters",
+      hi: "शिकायत पत्र",
+      slug: "/letters/complaint",
+    },
+    template: {
+      en: "Official Complaint Letters",
+      hi: "आधिकारिक शिकायत पत्र",
+      slug: "",
+    },
   },
 
   title: {
@@ -41,31 +48,37 @@ export const neighborComplaintTemplate = {
 
       content: {
         en: `To,
-[Neighbor Name]
-[Address]
+The Secretary / Manager
+[Housing Society / Apartment Name]
 
-Subject: Complaint Regarding Disturbance
+Subject: Polite Request Regarding Ongoing Disturbance
 
-Dear [Name],
+Dear Sir/Madam,
 
-I request your cooperation in addressing the disturbance caused by [specific issue]. The noise/issue has been affecting my peace and daily routine continuously.
+I am writing to bring to your attention a concern regarding ongoing disturbances coming from your residence, particularly related to [loud music / late-night noise / frequent gatherings / other issue], which usually occur around [mention approximate time or days].
 
-Kindly resolve this matter and avoid such disturbances in the future. I hope for a peaceful and respectful neighborhood relationship.
+While I fully understand that everyone has the right to enjoy their home, the noise levels have been affecting my family’s comfort and daily routine. I kindly request your cooperation in keeping the noise to a reasonable level, especially during late evening and early morning hours.
+
+I believe this matter can be resolved amicably, and I truly appreciate your understanding and support in maintaining a peaceful neighborhood for everyone.
+
+Thank you for your time and consideration.
 
 Sincerely,
 [Your Name]`,
 
         hi: `सेवा में,
-[पड़ोसी का नाम]
-[पता]
+सचिव / प्रबंधक
+[हाउसिंग सोसायटी / अपार्टमेंट का नाम]
 
-विषय: असुविधा के संबंध में शिकायत
+विषय: शोर-शराबे की समस्या के संबंध में अनुरोध
 
 प्रिय [नाम],
 
-मैं [विशिष्ट समस्या] के कारण हो रही असुविधा को दूर करने हेतु आपका सहयोग चाहता/चाहती हूँ। यह शोर/समस्या लगातार मेरी दिनचर्या और शांति को प्रभावित कर रही है।
+मैं आपका ध्यान आपके निवास स्थान से हो रही लगातार परेशानियों की ओर आकर्षित करना चाहता हूँ, विशेष रूप से [तेज़ संगीत / देर रात का शोर / बार-बार होने वाली सभाएँ / अन्य समस्या], जो प्रायः [समय या दिन उल्लेख करें] के आसपास होती हैं।
 
-कृपया इस समस्या का समाधान करें और भविष्य में ऐसी असुविधा न होने दें। मैं एक शांतिपूर्ण और सम्मानजनक पड़ोस संबंध की आशा करता/करती हूँ।
+मैं समझता हूँ कि हर व्यक्ति को अपने घर में सहज रहने का अधिकार है, परंतु शोर का स्तर मेरे परिवार की शांति और दैनिक दिनचर्या को प्रभावित कर रहा है। आपसे विनम्र अनुरोध है कि कृपया शोर को उचित सीमा में रखें, विशेषकर देर शाम और सुबह के समय।
+
+मुझे विश्वास है कि हम इस विषय को आपसी समझ से सुलझा सकते हैं। एक शांतिपूर्ण पड़ोस बनाए रखने में आपके सहयोग और समझ के लिए मैं आभारी रहूँगा।
 
 भवदीय,
 [आपका नाम]`,
@@ -116,7 +129,7 @@ Sincerely,
         en: "For quick online refund requests.",
         hi: "ऑनलाइन रिफंड अनुरोधों के लिए।",
       },
-      icon: 'FileText',
+      icon: "FileText",
       link: "/templates/refund-email",
     },
     {
@@ -128,7 +141,7 @@ Sincerely,
         en: "Easy format for customer care complaints.",
         hi: "कस्टमर केयर शिकायतों के लिए सरल प्रारूप।",
       },
-      icon: 'Briefcase',
+      icon: "Briefcase",
       link: "/templates/customer-care-complaint",
     },
   ],
