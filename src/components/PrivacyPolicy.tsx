@@ -211,7 +211,7 @@ export function PrivacyPolicy({ language = "en" }: PrivacyPolicyProps) {
                       {language === "en" ? "Have questions?" : "प्रश्न हैं?"}
                     </p>
                     <a
-                      href="/contact"
+                      href="/contact-us"
                       className="text-sm text-cyan-600 dark:text-cyan-400 hover:underline flex items-center gap-1"
                     >
                       <Mail className="w-4 h-4" />

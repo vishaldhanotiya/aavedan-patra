@@ -574,7 +574,7 @@ const {language}=useLanguage()
                 asChild
                 className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/30 px-8 py-6 text-lg"
               >
-                <a href="/contact">
+                <a href="/contact-us">
                   {language === "en"
                     ? "Contact Support"
                     : "सहायता से संपर्क करें"}

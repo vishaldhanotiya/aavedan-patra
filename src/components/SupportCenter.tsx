@@ -260,7 +260,7 @@ const quickLinks = [
       hi: "व्यक्तिगत सहायता प्राप्त करें",
     },
     icon: MessageCircle,
-    link: "/contact",
+    link: "/contact-us",
   },
 ];
 
@@ -559,7 +559,7 @@ export function SupportCenter() {
                 size="lg"
                 className="bg-white text-cyan-600 hover:bg-slate-100 shadow-lg px-8 py-6 text-lg"
               >
-                <a href="/contact">
+                <a href="/contact-us">
                   <Mail className="w-5 h-5 mr-2" />
                   {language === "en"
                     ? "Contact Support"
