@@ -5,8 +5,6 @@ export const metadata = {
   description:
     "विभिन्न प्रकार के पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर औपचारिक और अनौपचारिक पत्रों के सभी प्रकार, उनके सही प्रारूप, तैयार उदाहरण और लिखने के आसान तरीके दिए गए हैं, जिससे छात्र, अभिभावक और नौकरीपेशा लोग सही और प्रभावी पत्र लिख सकें।",
 };
-
 export default function Page() {
-  
-  return <DynamicCategoryPage category={lettersCategory}  />;
+  return <DynamicCategoryPage category={lettersCategory} />;
 }

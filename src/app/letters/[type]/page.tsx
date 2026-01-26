@@ -1,5 +1,12 @@
 import { UniversalSubcategoryPage } from "@/components/UniversalSubcategoryPage";
-import { complaintLetters, formalLetters, informalLetters, invitationLetters, requestLetters, resignationLetters } from "@/data/subcategories";
+import {
+  complaintLetters,
+  formalLetters,
+  informalLetters,
+  invitationLetters,
+  requestLetters,
+  resignationLetters,
+} from "@/data/subcategories";
 import { PropsType } from "@/data/type/type";
 export const metadata = {
   title: "पत्र | आवेदन पत्र",
@@ -21,5 +28,5 @@ export default async function Page(props: PropsType) {
   } else if (type === "invitation") {
     return <UniversalSubcategoryPage data={invitationLetters} />;
   }
-  return  <UniversalSubcategoryPage data={formalLetters} />;
+  return <UniversalSubcategoryPage data={formalLetters} />;
 }
