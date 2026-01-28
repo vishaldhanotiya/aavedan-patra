@@ -9,6 +9,7 @@ import {
 } from "@/data/subcategories";
 import { PropsType } from "@/data/type/type";
 import { Metadata } from "next";
+import { generateMetadata as createMetadata } from "@/metadata/metadata";
 
 // ---------------- META CONTENT ----------------
 
@@ -63,53 +64,26 @@ const dataMap: Record<string, any> = {
 
 // ---------------- DYNAMIC METADATA ----------------
 
-export async function generateMetadata(
-  props: PropsType
-): Promise<Metadata> {
+export async function generateMetadata(props: PropsType): Promise<Metadata> {
   const { type } = await props.params;
 
-  const baseUrl = "https://aavedanpatra.in";
+  const meta =
+    metaMap[type as string] ||
+    ({
+      title: "पत्र | आवेदन पत्र",
+      description: "सभी प्रकार के पत्रों के प्रारूप हिंदी में।",
+    } as const);
 
-  const meta = metaMap[type] || {
-    title: "पत्र | आवेदन पत्र",
-    description: "सभी प्रकार के पत्रों के प्रारूप हिंदी में।",
-  };
-
-  const canonical = `${baseUrl}/letters/${type}`;
-
-  return {
+  return createMetadata({
     title: meta.title,
     description: meta.description,
-
-    alternates: {
-      canonical,
-    },
-
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      url: canonical,
-      siteName: "Aavedan Patra",
-      locale: "hi_IN",
-      type: "website",
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-    },
-  };
+    path: `/letters/${type}`,
+  });
 }
 
 // ---------------- PAGE ----------------
 
 export default async function Page(props: PropsType) {
   const { type } = await props.params;
-
-  return (
-    <UniversalSubcategoryPage
-      data={dataMap[type] || formalLetters}
-    />
-  );
+  return <UniversalSubcategoryPage data={dataMap[type] || formalLetters} />;
 }

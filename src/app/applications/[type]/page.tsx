@@ -7,6 +7,7 @@ import { loanApplications } from "@/data/subcategories/loanApplications";
 import { scholarshipApplications } from "@/data/subcategories/scholarshipApplications";
 import { PropsType } from "@/data/type/type";
 import { Metadata } from "next";
+import { generateMetadata as createMetadata } from "@/metadata/metadata";
 
 // ---------------- META CONTENT ----------------
 
@@ -61,54 +62,27 @@ const dataMap: Record<string, any> = {
 
 // ---------------- METADATA ----------------
 
-export async function generateMetadata(
-  props: PropsType
-): Promise<Metadata> {
+export async function generateMetadata(props: PropsType): Promise<Metadata> {
   const { type } = await props.params;
 
-  const baseUrl = "https://aavedanpatra.in";
+  const meta =
+    metaMap[type as string] ||
+    ({
+      title: "आवेदन पत्र | Application Letter in Hindi",
+      description:
+        "सभी प्रकार के आवेदन पत्र जैसे नौकरी, छुट्टी, लोन, एडमिशन और छात्रवृत्ति के हिंदी प्रारूप यहाँ उपलब्ध हैं।",
+    } as const);
 
-  const meta = metaMap[type] || {
-    title: "आवेदन पत्र | Application Letter in Hindi",
-    description:
-      "सभी प्रकार के आवेदन पत्र जैसे नौकरी, छुट्टी, लोन, एडमिशन और छात्रवृत्ति के हिंदी प्रारूप यहाँ उपलब्ध हैं।",
-  };
-
-  const canonical = `${baseUrl}/applications/${type}`;
-
-  return {
+  return createMetadata({
     title: meta.title,
     description: meta.description,
-
-    alternates: {
-      canonical,
-    },
-
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      url: canonical,
-      siteName: "Aavedan Patra",
-      locale: "hi_IN",
-      type: "website",
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-    },
-  };
+    path: `/applications/${type}`, // ✅ correct canonical for applications hub children
+  });
 }
 
 // ---------------- PAGE ----------------
 
 export default async function Page(props: PropsType) {
   const { type } = await props.params;
-
-  return (
-    <UniversalSubcategoryPage
-      data={dataMap[type] || jobCategory}
-    />
-  );
+  return <UniversalSubcategoryPage data={dataMap[type] || jobCategory} />;
 }
