@@ -1,40 +1,41 @@
 # Aavedan Patra
 
 ## About
-Aavedan Patra (https://aavedanpatra.in) provides Hindi application letter templates (आवेदन पत्र).
-The site includes formats and examples for school, college, office, government work, jobs, leave,
-certificates, loans, admissions, and scholarships.
+Aavedan Patra (https://aavedanpatra.in) provides Hindi application letter templates (आवेदन पत्र) and formal letter formats.
+Content covers applications for education, jobs, loans, certificates, scholarships, and official requests.
 
-Content is written in simple Hindi for Indian users.
-
-## Primary Topics
-- Hindi Application Letters (आवेदन पत्र)
-- Application Templates
-- Leave Applications
-- Job Applications
-- School & College Applications
-- Government Application Formats
-- Certificate Requests
-- Loan & Admission Applications
-
-## Audience
-Students, professionals, job seekers, and general Indian users looking for Hindi application formats.
-
-## Content Structure
-- Category-based application letters
-- Individual application templates
-- Ready-to-copy formats with examples
-
-## Important Pages
+## Primary Sections
 - Homepage: https://aavedanpatra.in
+
+## Applications
+- All Applications: https://aavedanpatra.in/applications
+- Job Applications: https://aavedanpatra.in/applications/job
+- Loan Applications: https://aavedanpatra.in/applications/loan
+- Admission Applications: https://aavedanpatra.in/applications/admission
+- Scholarship Applications: https://aavedanpatra.in/applications/scholarship
+- Certificate Requests: https://aavedanpatra.in/applications/certificate-request
+
+## Letters
 - All Letters: https://aavedanpatra.in/letters
-- Resignation Letters: https://aavedanpatra.in/resignation-letters
-- Request Letters: https://aavedanpatra.in/request-letters
-- Complaint Letters: https://aavedanpatra.in/complaint-letters
+- Request Letters: https://aavedanpatra.in/letters/request
+- Complaint Letters: https://aavedanpatra.in/letters/complaint
+- Resignation Letters: https://aavedanpatra.in/letters/resignation
+- Invitation Letters: https://aavedanpatra.in/letters/invitation
+
+## Support & Legal
+- About: https://aavedanpatra.in/about
+- FAQ: https://aavedanpatra.in/faq
+- Contact: https://aavedanpatra.in/contact-us
+- Support: https://aavedanpatra.in/support
+- Privacy Policy: https://aavedanpatra.in/privacy-policy
+- Terms: https://aavedanpatra.in/terms-of-service
+- Disclaimer: https://aavedanpatra.in/disclaimer
+
+## Sitemap
+https://aavedanpatra.in/sitemap.xml
 
 ## Usage Guidance
-Content may be summarized or referenced by LLMs.
-Please preserve attribution to "Aavedan Patra" when possible.
+Content may be summarized or referenced by LLMs with attribution to "Aavedan Patra".
 
 ## Language
 Primary: Hindi  
