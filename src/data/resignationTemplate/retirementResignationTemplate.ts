@@ -2,23 +2,23 @@
 export const retirementResignationTemplate = {
   breadcrumb: {
     category: { en: "Letters", hi: "पत्र",slug:"/letters"  },
-    subcategory: { en: "Resignation Letters", hi: "इस्तीफा पत्र",slug:"/letters/resignation"  },
-    template: { en: "Official Resignation Letters", hi: "आधिकारिक इस्तीफा पत्र",slug:""  }
+    subcategory: { en: "Resignation Letters", hi: "त्यागपत्र",slug:"/letters/resignation"  },
+    template: { en: "Official Resignation Letters", hi: "आधिकारिक त्यागपत्र पत्र",slug:""  }
   },
 
   title: { 
     en: "Resignation Application Letters", 
-    hi: "इस्तीफा आवेदन पत्र" 
+    hi: "त्यागपत्र आवेदन पत्र" 
   },
 
   subtitle: { 
     en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर इस्तीफा पत्र प्रारूप—मानक इस्तीफा, शॉर्ट नोटिस, तत्काल इस्तीफा, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।"
+    hi: "पेशेवर त्यागपत्र पत्र प्रारूप—मानक त्यागपत्र, शॉर्ट नोटिस, तत्काल त्यागपत्र, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।"
   },
 
   category: { 
     en: "Resignation Letters", 
-    hi: "इस्तीफा पत्र" 
+    hi: "त्यागपत्र" 
   },
 
   updatedDate: "January 2025",
@@ -27,10 +27,10 @@ export const retirementResignationTemplate = {
     // 5. Retirement Resignation
     {
       id: "retirementResignation",
-      title: { en: "Retirement Resignation Letter", hi: "सेवानिवृत्ति इस्तीफा पत्र" },
+      title: { en: "Retirement Resignation Letter", hi: "सेवानिवृत्ति त्यागपत्र" },
       description: {
         en: "Resignation submitted at the time of retirement from service.",
-        hi: "सेवानिवृत्ति के समय प्रस्तुत किया जाने वाला इस्तीफा पत्र।"
+        hi: "सेवानिवृत्ति के समय प्रस्तुत किया जाने वाला त्यागपत्र"
       },
       bestFor: { en: "Retirement from service", hi: "सेवा से सेवानिवृत्ति" },
       length: { en: "Medium", hi: "मध्यम" },
@@ -45,33 +45,47 @@ Subject: Retirement Resignation
 
 Respected Sir/Madam,
 
-With due respect, I hereby submit my resignation as I will be retiring from my position of [Your Position] effective from [Retirement Date]. It has been an honor to serve the organization during my tenure.
+I am writing to formally submit my resignation from my position of [Your Designation], effective from [Last Working Date], upon completion of my retirement on [Retirement Date].
 
-I request you to initiate my retirement formalities and guide me through the process. Thank you for the support and opportunities throughout my career.
+I sincerely thank the management and my colleagues for the support, guidance, and opportunities provided to me throughout my tenure. It has been a privilege to be part of this organization, and I am grateful for the valuable experiences gained over the years.
 
-Sincerely,
-[Your Name]`,
+I kindly request you to initiate the necessary formalities related to my retirement benefits and relieving process.
+
+Thank you once again for everything.
+
+Yours sincerely,
+[Your Name]
+[Employee ID]
+[Department]
+[Contact Number]`,
 
         hi: `सेवा में,
 [मैनेजर का नाम]
 [कंपनी का नाम]
 
-विषय: सेवानिवृत्ति हेतु इस्तीफा
+विषय: सेवानिवृत्ति हेतु त्यागपत्र
 
 महोदय/महोदया,
 
-सादर निवेदन है कि मैं [सेवानिवृत्ति तिथि] से [आपका पद] से सेवानिवृत्त हो रहा/रही हूँ और अपना इस्तीफा प्रस्तुत करता/करती हूँ। इस संस्था में सेवा करना मेरे लिए सम्मान की बात रही है।
+सविनय निवेदन है कि मैं अपने पद [आपका पदनाम] से दिनांक [अंतिम कार्य दिवस] से औपचारिक रूप से त्यागपत्र प्रस्तुत कर रहा/रही हूँ, क्योंकि दिनांक [सेवानिवृत्ति तिथि] को मेरी सेवानिवृत्ति पूर्ण हो रही है।
 
-कृपया सेवानिवृत्ति संबंधी औपचारिकताओं की प्रक्रिया प्रारंभ करने की कृपा करें। पूरे कार्यकाल में मिले सहयोग के लिए धन्यवाद।
+अपने कार्यकाल के दौरान संगठन द्वारा प्रदान किए गए सहयोग, मार्गदर्शन एवं अवसरों के लिए मैं हृदय से आभारी हूँ। इस प्रतिष्ठित संस्था का हिस्सा बनना मेरे लिए सम्मान की बात रही है, और यहाँ प्राप्त अनुभव मेरे लिए सदैव अमूल्य रहेंगे।
 
-भवदीय,
-[आपका नाम]`
+कृपया मेरी सेवानिवृत्ति से संबंधित समस्त औपचारिकताओं एवं लाभों की प्रक्रिया प्रारंभ करने की कृपा करें।
+
+आपके सहयोग हेतु पुनः धन्यवाद।
+
+सादर,
+[आपका नाम]
+[कर्मचारी आईडी]
+[विभाग]
+[संपर्क नंबर]`
       }
     }
   ],
 
   howToWrite: {
-    title: { en: "How to Write a Resignation Letter", hi: "इस्तीफा पत्र कैसे लिखें" },
+    title: { en: "How to Write a Resignation Letter", hi: "त्यागपत्र कैसे लिखें" },
     tips: [
       { text: { en: "Keep the tone respectful and professional.", hi: "लहजा सम्मानजनक और पेशेवर रखें।" } },
       { text: { en: "Mention your last working day clearly.", hi: "अपने अंतिम कार्य दिवस का स्पष्ट उल्लेख करें।" } },
@@ -98,8 +112,8 @@ Sincerely,
 
   blogArticles: [
     {
-      title: { en: "How to Resign Professionally", hi: "पेशेवर तरीके से इस्तीफा कैसे दें" },
-      excerpt: { en: "Tips for a smooth and respectful exit.", hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा देने के सुझाव।" },
+      title: { en: "How to Resign Professionally", hi: "पेशेवर तरीके से त्यागपत्र कैसे दें" },
+      excerpt: { en: "Tips for a smooth and respectful exit.", hi: "सम्मानपूर्वक और सरल तरीके से त्यागपत्र देने के सुझाव।" },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
       link: "/blog/professional-resignation"
     },
@@ -113,11 +127,11 @@ Sincerely,
 
   faqs: [
     {
-      question: { en: "How long should a resignation letter be?", hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?" },
+      question: { en: "How long should a resignation letter be?", hi: "त्यागपत्र कितना लंबा होना चाहिए?" },
       answer: { en: "Ideally one page, short and professional.", hi: "आमतौर पर एक पृष्ठ—संक्षिप्त और पेशेवर।" }
     },
     {
-      question: { en: "Can I resign without notice?", hi: "क्या मैं बिना नोटिस के इस्तीफा दे सकता/सकती हूँ?" },
+      question: { en: "Can I resign without notice?", hi: "क्या मैं बिना नोटिस के त्यागपत्र दे सकता/सकती हूँ?" },
       answer: { en: "Yes, but only in emergency or valid reasons.", hi: "हाँ, लेकिन केवल उचित कारण या आपात स्थिति में।" }
     },
     {

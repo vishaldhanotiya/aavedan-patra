@@ -81,7 +81,7 @@ export const experienceCertificatesData: SubcategoryData = {
     hi: "अनुभव प्रमाणपत्र आधिकारिक रूप से एक कर्मचारी के कार्य इतिहास और सेवा अवधि को दस्तावेज करते हैं।",
   },
   relatedTemplates: [
-    { title: { en: "Resignation Letter", hi: "इस्तीफा पत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
+    { title: { en: "Resignation Letter", hi: "त्यागपत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
     { title: { en: "Professional Resume", hi: "पेशेवर रिज्यूमे" }, category: { en: "Resumes", hi: "रिज्यूमे" }, slug: "professional" },
     { title: { en: "Job Application", hi: "नौकरी आवेदन" }, category: { en: "Applications", hi: "आवेदन" }, slug: "job" },
     { title: { en: "Bonafide Certificate", hi: "प्रामाणिक प्रमाणपत्र" }, category: { en: "Certificates", hi: "प्रमाणपत्र" }, slug: "bonafide" },

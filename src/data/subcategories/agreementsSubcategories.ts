@@ -160,7 +160,7 @@ export const employmentContractsData: SubcategoryData = {
   seoDescription: { en: "Employment contracts formalize job relationships between employers and employees. Our templates include employment agreements with job terms, offer letters stating salary and position, appointment letters for new hires, service contracts for contractual roles, consulting agreements for freelancers, and NDA agreements protecting confidential information with clear employment terms and conditions.", hi: "रोजगार अनुबंध नियोक्ताओं और कर्मचारियों के बीच नौकरी संबंधों को औपचारिक बनाते हैं।" },
   relatedTemplates: [
     { title: { en: "Experience Certificate", hi: "अनुभव प्रमाणपत्र" }, category: { en: "Certificates", hi: "प्रमाणपत्र" }, slug: "experience" },
-    { title: { en: "Resignation Letter", hi: "इस्तीफा पत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
+    { title: { en: "Resignation Letter", hi: "त्यागपत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
     { title: { en: "Professional Resume", hi: "पेशेवर रिज्यूमे" }, category: { en: "Resumes", hi: "रिज्यूमे" }, slug: "professional" },
     { title: { en: "Office Notice", hi: "कार्यालय नोटिस" }, category: { en: "Notices", hi: "नोटिस" }, slug: "office" },
   ],

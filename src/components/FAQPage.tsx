@@ -121,7 +121,7 @@ const faqCategories: FAQCategory[] = [
       {
         question: {
           en: "How to write a resignation letter?",
-          hi: "इस्तीफा पत्र कैसे लिखें?",
+          hi: "त्यागपत्र पत्र कैसे लिखें?",
         },
         answer: {
           en: "State your intention to resign clearly, mention your last working day (as per notice period), express gratitude for the opportunity, offer to help with transition, and keep it professional and positive. Avoid negative comments.",

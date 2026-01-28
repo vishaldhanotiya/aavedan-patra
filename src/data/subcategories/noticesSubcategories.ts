@@ -175,7 +175,7 @@ export const officeNoticesData: SubcategoryData = {
   relatedTemplates: [
     { title: { en: "Formal Letter", hi: "औपचारिक पत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "formal" },
     { title: { en: "Meeting Report", hi: "बैठक रिपोर्ट" }, category: { en: "Notices", hi: "नोटिस" }, slug: "meeting" },
-    { title: { en: "Resignation Letter", hi: "इस्तीफा पत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
+    { title: { en: "Resignation Letter", hi: "त्यागपत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
     { title: { en: "Employment Contract", hi: "रोजगार अनुबंध" }, category: { en: "Agreements", hi: "समझौते" }, slug: "employment" },
   ],
   blogPosts: [

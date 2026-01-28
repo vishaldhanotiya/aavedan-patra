@@ -4,8 +4,8 @@ export const heroString = {
     hi: "आवेदन पत्र में आपका स्वागत है",
   },
   subHeading: {
-    en: "Explore 1000+ free professional templates — crafted for your job, study, and business needs",
-    hi: "1000+ फ़्री प्रोफ़ेशनल टेम्प्लेट देखें — जो आपकी नौकरी, पढ़ाई और बिज़नेस की ज़रूरतों के हिसाब से बनाए गए हैं",
+    en: "Explore 200+ free professional templates — crafted for your job, study, and business needs",
+    hi: "200+ फ़्री प्रोफ़ेशनल टेम्प्लेट देखें — जो आपकी नौकरी, पढ़ाई और बिज़नेस की ज़रूरतों के हिसाब से बनाए गए हैं",
   },
   exploreTemp: { en: "Explore Templates", hi: "टेम्पलेट्स एक्सप्लोर करें" },
   viewCategories: { en: "View Categories", hi: "श्रेणियाँ देखें" },
@@ -14,8 +14,8 @@ export const heroString = {
   certificates: { en: "Certificates", hi: "प्रमाण पत्र" },
   templates: { en: "Templates", hi: "टेम्पलेट्स" },
   professionalTemp: {
-    en: "1000+ Professional Templates",
-    hi: "1000+ प्रोफेशनल टेम्पलेट",
+    en: "200+ Professional Templates",
+    hi: "200+ प्रोफेशनल टेम्पलेट",
   },
   liveUpdate: { en: "Live Updates", hi: "लाइव अपडेट" },
   weeklyUpdate: {
@@ -37,7 +37,7 @@ export const heroString = {
   },
   letterType: {
     en: "Resignation, Request, Complaint, Invitation",
-    hi: "इस्तीफा, अनुरोध, शिकायत, निमंत्रण",
+    hi: "त्यागपत्र, अनुरोध, शिकायत, निमंत्रण",
   },
   certificateType: {
     en: "Experience, Bonafide, Character, Internship",

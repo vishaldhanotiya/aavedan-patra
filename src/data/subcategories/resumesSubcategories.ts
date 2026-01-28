@@ -85,7 +85,7 @@ export const professionalResumesData: SubcategoryData= {
     { title: { en: "Cover Letter", hi: "कवर लेटर" }, category: { en: "Resumes", hi: "रिज्यूमे" }, slug: "cover-letter" },
     { title: { en: "Experience Certificate", hi: "अनुभव प्रमाणपत्र" }, category: { en: "Certificates", hi: "प्रमाणपत्र" }, slug: "experience" },
     { title: { en: "Job Application", hi: "नौकरी आवेदन" }, category: { en: "Applications", hi: "आवेदन" }, slug: "job" },
-    { title: { en: "Resignation Letter", hi: "इस्तीफा पत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
+    { title: { en: "Resignation Letter", hi: "त्यागपत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
   ],
   blogPosts: [
     { title: { en: "How to Write a Winning Professional Resume", hi: "विजयी पेशेवर रिज्यूमे कैसे लिखें" }, excerpt: { en: "Expert tips for creating standout resumes", hi: "विशिष्ट रिज्यूमे बनाने के लिए विशेषज्ञ सुझाव" }, readTime: "10 min read", slug: "winning-professional-resume" },
@@ -218,7 +218,7 @@ export const coverLettersData: SubcategoryData = {
   relatedTemplates: [
     { title: { en: "Professional Resume", hi: "पेशेवर रिज्यूमे" }, category: { en: "Resumes", hi: "रिज्यूमे" }, slug: "professional" },
     { title: { en: "Job Application", hi: "नौकरी आवेदन" }, category: { en: "Applications", hi: "आवेदन" }, slug: "job" },
-    { title: { en: "Resignation Letter", hi: "इस्तीफा पत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
+    { title: { en: "Resignation Letter", hi: "त्यागपत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "resignation" },
     { title: { en: "Experience Certificate", hi: "अनुभव प्रमाणपत्र" }, category: { en: "Certificates", hi: "प्रमाणपत्र" }, slug: "experience" },
   ],
   blogPosts: [
