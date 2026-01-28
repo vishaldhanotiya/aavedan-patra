@@ -7,7 +7,7 @@ export const heroString = {
     en: "Explore 200+ free professional templates — crafted for your job, study, and business needs",
     hi: "200+ फ़्री प्रोफ़ेशनल टेम्प्लेट देखें — जो आपकी नौकरी, पढ़ाई और बिज़नेस की ज़रूरतों के हिसाब से बनाए गए हैं",
   },
-  exploreTemp: { en: "Explore Templates", hi: "टेम्पलेट्स एक्सप्लोर करें" },
+  exploreTemp: { en: "Explore Templates", hi: "आवेदन पत्र टेम्पलेट देखें" },
   viewCategories: { en: "View Categories", hi: "श्रेणियाँ देखें" },
   applications: { en: "Applications", hi: "आवेदन पत्र" },
   letters: { en: "Letters", hi: "पत्र" },

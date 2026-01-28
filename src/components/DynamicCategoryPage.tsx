@@ -443,6 +443,7 @@ export function DynamicCategoryPage({
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {sortedTemplates.map((template, index) => (
+              <Link key={index} href={template.href || '/letters'}>
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
@@ -481,6 +482,7 @@ export function DynamicCategoryPage({
                   {language === "en" ? "View Template" : "टेम्पलेट देखें"}
                 </Button>
               </motion.div>
+              </Link>
             ))}
           </div>
         </motion.section>

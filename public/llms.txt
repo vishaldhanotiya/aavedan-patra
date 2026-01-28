@@ -1,0 +1,41 @@
+# Aavedan Patra
+
+## About
+Aavedan Patra (https://aavedanpatra.in) provides Hindi application letter templates (आवेदन पत्र).
+The site includes formats and examples for school, college, office, government work, jobs, leave,
+certificates, loans, admissions, and scholarships.
+
+Content is written in simple Hindi for Indian users.
+
+## Primary Topics
+- Hindi Application Letters (आवेदन पत्र)
+- Application Templates
+- Leave Applications
+- Job Applications
+- School & College Applications
+- Government Application Formats
+- Certificate Requests
+- Loan & Admission Applications
+
+## Audience
+Students, professionals, job seekers, and general Indian users looking for Hindi application formats.
+
+## Content Structure
+- Category-based application letters
+- Individual application templates
+- Ready-to-copy formats with examples
+
+## Important Pages
+- Homepage: https://aavedanpatra.in
+- All Letters: https://aavedanpatra.in/letters
+- Resignation Letters: https://aavedanpatra.in/resignation-letters
+- Request Letters: https://aavedanpatra.in/request-letters
+- Complaint Letters: https://aavedanpatra.in/complaint-letters
+
+## Usage Guidance
+Content may be summarized or referenced by LLMs.
+Please preserve attribution to "Aavedan Patra" when possible.
+
+## Language
+Primary: Hindi  
+Secondary: English

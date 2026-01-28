@@ -37,5 +37,9 @@ export function generateMetadata({
       title,
       description,
     },
+    other: {
+    "ai-content-declaration": "human-authored",
+    "llm-content": "allowed",
+  },
   };
 };
