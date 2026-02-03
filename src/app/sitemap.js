@@ -13,6 +13,34 @@ export default function sitemap() {
       lastModified: "2025-12-01",
     },
     {
+      url: "https://aavedanpatra.in/applications/job/teacher-job-application",
+      lastModified: "2026-02-01",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/fresher-teacher-job-application",
+      lastModified: "2026-02-01",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/experience-teacher-job-application",
+      lastModified: "2026-02-01",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/english-teacher-job-application",
+      lastModified: "2026-02-01",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/math-teacher-job-application",
+      lastModified: "2026-02-01",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/montessori-teacher-job-application",
+      lastModified: "2026-02-01",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/science-teacher-job-application",
+      lastModified: "2026-02-01",
+    },
+    {
       url: "https://aavedanpatra.in/applications/loan",
       lastModified: "2025-12-01",
     },
@@ -138,10 +166,6 @@ export default function sitemap() {
     },
     {
       url: "https://aavedanpatra.in/applications/application-for-sports-scholarship",
-      lastModified: "2025-12-01",
-    },
-    {
-      url: "https://aavedanpatra.in/applications/application-for-teacher-job",
       lastModified: "2025-12-01",
     },
     {

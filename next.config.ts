@@ -25,5 +25,16 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+
+  async redirects() {
+    return [
+      {
+        source: "/applications/application-for-teacher-job",
+        destination: "/applications/job/teacher-job-application",
+        permanent: true, // 301
+      },
+    ];
+  },
 };
+
 export default nextConfig;

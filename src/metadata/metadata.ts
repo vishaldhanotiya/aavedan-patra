@@ -20,7 +20,6 @@ export function generateMetadata({
       canonical: canonicalUrl,
       languages: {
         "hi-IN": canonicalUrl,
-        "en-US": canonicalUrl,
         "x-default": canonicalUrl,
       },
     },
