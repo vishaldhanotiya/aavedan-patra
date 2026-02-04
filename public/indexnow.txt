@@ -1,1 +1,0 @@
-https://api.indexnow.org/indexnow?url=https://aavedanpatra.in&key=aavedanpatra-indexnow-2026
