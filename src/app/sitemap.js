@@ -21,7 +21,7 @@ export default function sitemap() {
       lastModified: "2026-02-01",
     },
     {
-      url: "https://aavedanpatra.in/applications/job/experience-teacher-job-application",
+      url: "https://aavedanpatra.in/applications/job/experienced-teacher-job-application",
       lastModified: "2026-02-01",
     },
     {

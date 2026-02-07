@@ -1,5 +1,5 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { montessoriJobApplicationTemplate } from "@/data/jobTemplate/montessoriTeacherJobTemplate";
+import { montessoriTeacherJobTemplate } from "@/data/jobTemplate/montessoriTeacherJobTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title: "मोंटेसरी शिक्षक नौकरी के लिए आवेदन पत्र – हिंदी प्रारूप",
@@ -11,7 +11,7 @@ export const metadata = generateMetadata({
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage singleTemplate data={montessoriJobApplicationTemplate} />
+      <PillarTemplateDetailsPage singleTemplate data={montessoriTeacherJobTemplate} />
     </>
   );
 }

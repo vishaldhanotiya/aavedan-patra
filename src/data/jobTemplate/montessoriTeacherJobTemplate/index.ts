@@ -1,4 +1,4 @@
-export const montessoriJobApplicationTemplate = {
+export const montessoriTeacherJobTemplate = {
   breadcrumb: {
     category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
     subcategory: {
