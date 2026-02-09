@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { shortNoticeResignationTemplate } from "@/data/resignationTemplate/shortNoticeResignationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "शॉर्ट नोटिस त्यागपत्र | आवेदन पत्र",
+  title: "शॉर्ट नोटिस इस्तीफा पत्र | आवेदन पत्र",
   description:
-    "शॉर्ट नोटिस त्यागपत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर अचानक या विशेष परिस्थितियों में कम नोटिस अवधि के साथ नौकरी छोड़ने के लिए प्रोफेशनल शॉर्ट नोटिस त्यागपत्र का सही प्रारूप, तैयार उदाहरण और लिखने के आसान सुझाव दिए गए हैं, जिससे आप सम्मानजनक तरीके से त्यागपत्र दे सकें।",
+    "शॉर्ट नोटिस इस्तीफा कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर अचानक या विशेष परिस्थितियों में कम नोटिस अवधि के साथ नौकरी छोड़ने के लिए प्रोफेशनल शॉर्ट नोटिस इस्तीफा का सही प्रारूप, तैयार उदाहरण और लिखने के आसान सुझाव दिए गए हैं, जिससे आप सम्मानजनक तरीके से इस्तीफा दे सकें।",
   path: "/letters/short-notice-resignation-letter",
 });
 export default function Page() {

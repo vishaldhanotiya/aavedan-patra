@@ -174,45 +174,58 @@ Enclosures:
     ],
   },
 
-  faqs: [
-    {
-      question: {
-        en: "Which format suits Math teachers?",
-        hi: "गणित शिक्षकों के लिए कौन सा प्रारूप उपयुक्त है?",
-      },
-      answer: {
-        en: "Math Teacher format focuses on concepts and results.",
-        hi: "यह प्रारूप अवधारणाओं और परिणामों पर केंद्रित है।",
-      },
+faqs: [
+  {
+    question: {
+      en: "Which format suits Math teachers?",
+      hi: "गणित शिक्षकों के लिए कौन सा प्रारूप उपयुक्त है?",
     },
-    {
-      question: {
-        en: "Should I mention board results?",
-        hi: "क्या बोर्ड परिणाम लिखने चाहिए?",
-      },
-      answer: {
-        en: "Yes, it strengthens credibility.",
-        hi: "हाँ, इससे विश्वसनीयता बढ़ती है।",
-      },
+    answer: {
+      en: "Math Teacher format focuses on concepts taught, board results (CBSE/State), and student performance metrics like 90%+ pass rates.",
+      hi: "गणित शिक्षक प्रारूप पढ़ाए गए अवधारणाओं, बोर्ड परिणामों (CBSE/राज्य) और छात्र प्रदर्शन (90%+ पास दर) पर केंद्रित है।",
     },
-    {
-      question: {
-        en: "Can I use this for tuition?",
-        hi: "क्या इसे ट्यूशन के लिए उपयोग कर सकता हूँ?",
-      },
-      answer: {
-        en: "Yes, works for schools and coaching.",
-        hi: "हाँ, स्कूल और कोचिंग दोनों के लिए।",
-      },
+  },
+  {
+    question: {
+      en: "Should I mention board results?",
+      hi: "क्या बोर्ड परिणाम लिखने चाहिए?",
     },
-    {
-      question: { en: "Is B.Ed compulsory?", hi: "क्या B.Ed अनिवार्य है?" },
-      answer: {
-        en: "Required for schools, optional for coaching.",
-        hi: "स्कूल के लिए आवश्यक।",
-      },
+    answer: {
+      en: "Yes, highlight specific achievements like 'Led Class 10 students to 95% CBSE pass rate' to build instant credibility.",
+      hi: "हाँ, विशिष्ट उपलब्धियाँ जैसे 'कक्षा 10 के छात्रों को 95% CBSE पास दर दिलाई' लिखें—तुरंत विश्वसनीयता बढ़ती है।",
     },
-  ],
+  },
+  {
+    question: {
+      en: "What salary can Math teachers expect?",
+      hi: "गणित शिक्षकों को कितनी सैलरी मिल सकती है?",
+    },
+    answer: {
+      en: "₹25,000-₹50,000/month in schools (2-5 yrs exp); ₹15,000-₹30,000 for coaching; higher in metros like Delhi/Mumbai.",
+      hi: "स्कूलों में ₹25,000-₹50,000/माह (2-5 साल अनुभव); कोचिंग में ₹15,000-₹30,000; दिल्ली/मुंबई में अधिक।",
+    },
+  },
+  {
+    question: {
+      en: "Is B.Ed compulsory for Math teaching?",
+      hi: "गणित शिक्षण के लिए B.Ed अनिवार्य है?",
+    },
+    answer: {
+      en: "Yes for government/private schools (CTET qualified preferred); optional for coaching/tuition but boosts chances significantly.",
+      hi: "सरकारी/निजी स्कूलों के लिए हाँ (CTET योग्यता पसंदीदा); कोचिंग/ट्यूशन के लिए वैकल्पिक लेकिन बहुत फायदा देता है।",
+    },
+  },
+  {
+    question: {
+      en: "What makes a strong Math teacher application?",
+      hi: "मजबूत गणित शिक्षक आवेदन की क्या खासियत है?",
+    },
+    answer: {
+      en: "Quantifiable results (e.g., 'Improved class average from 65% to 88%'), TET/CTET scores, and 2+ yrs experience stand out.",
+      hi: "मात्रात्मक परिणाम (जैसे 'कक्षा औसत 65% से 88% किया'), TET/CTET स्कोर और 2+ साल अनुभव सबसे प्रभावी हैं।",
+    },
+  }
+],
 
   blogArticles: [
     {
@@ -262,42 +275,42 @@ Enclosures:
     },
   ],
 
-    relatedTemplates: [
+  relatedTemplates: [
     {
       title: {
-        en: "Application for Teaching Job in Private School",
-        hi: "प्राइवेट स्कूल में शिक्षण नौकरी के लिए आवेदन",
+        en: "Application for Experienced Teacher Job",
+        hi: "अनुभवी शिक्षक नौकरी के लिए आवेदन",
       },
-      description: {
-        en: "Specialized format for private school teaching positions",
-        hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+    description: {
+        en: "For teachers with 2+ years of experience",
+        hi: "2+ वर्षों के अनुभव वाले शिक्षकों के लिए।",
       },
       icon: "Briefcase",
-      link: "/templates/private-school-teacher",
+      link: "/applications/job/experienced-teacher-job-application",
     },
     {
       title: {
-        en: "Application for Class Teacher Position",
-        hi: "क्लास टीचर पद के लिए आवेदन",
+        en: "Application for Science Teacher",
+        hi: "विज्ञान टीचर के लिए आवेदन",
       },
       description: {
-        en: "Template for class teacher or homeroom teacher role",
-        hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
-      },
-      icon: "GraduationCap",
-      link: "/templates/class-teacher",
-    },
-    {
-      title: {
-        en: "Application for Tuition Teacher",
-        hi: "ट्यूशन टीचर के लिए आवेदन",
-      },
-      description: {
-        en: "Format for private tuition or coaching teaching jobs",
-        hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
+        en: "Format for Science teaching roles",
+        hi: "विज्ञान शिक्षण पदों के लिए प्रारूप",
       },
       icon: "FileText",
-      link: "/templates/tuition-teacher",
+      link: "/applications/job/science-teacher-job-application",
+    },
+    {
+      title: {
+        en: "Application for Montessori Teacher Job in Private School",
+        hi: "मोंटेसरी शिक्षण नौकरी के लिए आवेदन",
+      },
+      description: {
+      en: "A universal format suitable for Montessori teaching positions",
+        hi: "मोंटेसरी शिक्षण पदों के लिए उपयुक्त प्रारूप।",
+      },
+      icon: "Briefcase",
+      link: "/applications/job/montessori-teacher-job-application",
     },
   ]
 };

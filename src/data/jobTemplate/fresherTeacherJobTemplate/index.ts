@@ -279,39 +279,39 @@ Enclosures:
   relatedTemplates: [
     {
       title: {
-        en: "Application for Teaching Job in Private School",
-        hi: "प्राइवेट स्कूल में शिक्षण नौकरी के लिए आवेदन",
+        en: "Application for English Teacher Job",
+        hi: "अंग्रेजी शिक्षक नौकरी के लिए आवेदन",
       },
       description: {
-        en: "Specialized format for private school teaching positions",
-        hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+        en: "Specialized format for english school teaching positions",
+        hi: "अंग्रेजी स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
       },
       icon: "Briefcase",
-      link: "/templates/private-school-teacher",
+      link: "/applications/job/english-teacher-job-application",
     },
     {
       title: {
-        en: "Application for Class Teacher Position",
-        hi: "क्लास टीचर पद के लिए आवेदन",
+        en: "Application for Mathematics Teacher Position",
+        hi: "गणित टीचर पद के लिए आवेदन",
       },
       description: {
-        en: "Template for class teacher or homeroom teacher role",
-        hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
+        en: "Template for Mathematics teacher role",
+        hi: "गणित टीचर भूमिका के लिए टेम्पलेट",
       },
       icon: "GraduationCap",
-      link: "/templates/class-teacher",
+      link: "/applications/job/math-teacher-job-application",
     },
     {
       title: {
-        en: "Application for Tuition Teacher",
-        hi: "ट्यूशन टीचर के लिए आवेदन",
+        en: "Application for Science Teacher",
+        hi: "विज्ञान टीचर के लिए आवेदन",
       },
       description: {
-        en: "Format for private tuition or coaching teaching jobs",
-        hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
+        en: "Format for Science teaching roles",
+        hi: "विज्ञान शिक्षण पदों के लिए प्रारूप",
       },
       icon: "FileText",
-      link: "/templates/tuition-teacher",
+      link: "/applications/job/science-teacher-job-application",
     },
   ]
 };

@@ -114,7 +114,7 @@ export const lettersCategory: CategoryData = {
       title: { en: "Resignation Letters", hi: "त्यागपत्र" },
       description: {
         en: "Professional resignation templates",
-        hi: "पेशेवर त्यागपत्र टेम्पलेट",
+        hi: "पेशेवर इस्तीफा पत्र टेम्पलेट",
       },
       count: 25,
       slug: "resignation",
@@ -138,7 +138,7 @@ export const lettersCategory: CategoryData = {
       },
       description: {
         en: "Professional resignation letter format with notice period and gratitude",
-        hi: "नोटिस अवधि और कृतज्ञता के साथ पेशेवर त्यागपत्र प्रारूप",
+        hi: "नोटिस अवधि और कृतज्ञता के साथ पेशेवर इस्तीफा पत्र प्रारूप",
       },
       views: "28.5k",
       date: "Nov 2025",
@@ -263,11 +263,11 @@ export const lettersCategory: CategoryData = {
     {
       title: {
         en: "Resignation Letter Writing Tips",
-        hi: "त्यागपत्र पत्र लेखन सुझाव",
+        hi: "इस्तीफा पत्र लेखन सुझाव",
       },
       excerpt: {
         en: "Expert advice on writing professional resignation letters that maintain positive relationships",
-        hi: "सकारात्मक संबंध बनाए रखने वाले पेशेवर त्यागपत्र लिखने पर विशेषज्ञ सलाह",
+        hi: "सकारात्मक संबंध बनाए रखने वाले पेशेवर इस्तीफा लिखने पर विशेषज्ञ सलाह",
       },
       readTime: "4 min read",
       thumbnail: "LogOut",
@@ -301,7 +301,7 @@ export const lettersCategory: CategoryData = {
     {
       question: {
         en: "How do I write a professional resignation letter?",
-        hi: "मैं एक पेशेवर त्यागपत्र कैसे लिखूं?",
+        hi: "मैं एक पेशेवर इस्तीफा पत्र कैसे लिखूं?",
       },
       answer: {
         en: "Include your intention to resign, last working day (considering notice period), gratitude for opportunities, and offer to help with transition. Keep it positive and professional regardless of your reasons for leaving.",

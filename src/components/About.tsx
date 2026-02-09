@@ -55,7 +55,7 @@ const whoWeServe = [
     title: { en: "Professionals", hi: "पेशेवर" },
     description: {
       en: "Career-ready templates for job applications, resumes, resignation letters, and professional correspondence.",
-      hi: "नौकरी आवेदन, रिज्यूमे, त्यागपत्र और पेशेवर पत्राचार के लिए करियर-रेडी टेम्पलेट्स।",
+      hi: "नौकरी आवेदन, रिज्यूमे, इस्तीफा पत्र और पेशेवर पत्राचार के लिए करियर-रेडी टेम्पलेट्स।",
     },
   },
   {

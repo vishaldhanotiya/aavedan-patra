@@ -76,7 +76,7 @@ export function Hero() {
               </span>
             </motion.div>
 
-            <h1 className="text-5xl lg:text-7xl mb-6 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
+            <h1 className="text-5xl lg:text-7xl p-2 mb-6 bg-gradient-to-r from-slate-900 via-cyan-700 to-violet-700 dark:from-white dark:via-cyan-200 dark:to-violet-200 bg-clip-text text-transparent">
               {heroString.welcomeText[language]}
             </h1>
 

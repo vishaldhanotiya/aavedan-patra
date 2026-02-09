@@ -1,11 +1,11 @@
 export const heroString = {
   welcomeText: {
-    en: "Welcome to Aavedan Patra",
-    hi: "आवेदन पत्र में आपका स्वागत है",
+    en: "Free Application Letter Templates for Job, Bank, School, and Government",
+    hi: "सभी प्रकार के आवेदन पत्र – नौकरी, बैंक, स्कूल और सरकारी प्रारूप",
   },
   subHeading: {
-    en: "Explore 200+ free professional templates — crafted for your job, study, and business needs",
-    hi: "200+ फ़्री प्रोफ़ेशनल टेम्प्लेट देखें — जो आपकी नौकरी, पढ़ाई और बिज़नेस की ज़रूरतों के हिसाब से बनाए गए हैं",
+    en: "AavedanPatra.in is a free website where you can download application letter templates for jobs, banks, schools, government, and other purposes. All formats are written in simple language and are ready to copy and use instantly.",
+    hi: "AavedanPatra.in एक फ्री हिंदी वेबसाइट है जहाँ आप नौकरी, बैंक, स्कूल, सरकारी और अन्य सभी प्रकार के आवेदन पत्र आसानी से डाउनलोड कर सकते हैं। यहाँ आपको सरल भाषा में तैयार आवेदन प्रारूप मिलते हैं, जिन्हें आप कॉपी या डाउनलोड करके तुरंत उपयोग कर सकते हैं।",
   },
   exploreTemp: { en: "Explore Templates", hi: "आवेदन पत्र टेम्पलेट देखें" },
   viewCategories: { en: "View Categories", hi: "श्रेणियाँ देखें" },

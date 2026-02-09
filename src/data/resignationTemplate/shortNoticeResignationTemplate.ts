@@ -8,17 +8,17 @@ export const shortNoticeResignationTemplate = {
 
   title: { 
     en: "Resignation Application Letters", 
-    hi: "त्यागपत्र आवेदन पत्र" 
+    hi: "इस्तीफा आवेदन पत्र" 
   },
 
   subtitle: { 
     en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर त्यागपत्र पत्र प्रारूप—मानक त्यागपत्र, शॉर्ट नोटिस, तत्काल त्यागपत्र, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।"
+    hi: "पेशेवर इस्तीफा पत्र प्रारूप—मानक इस्तीफा, शॉर्ट नोटिस, तत्काल इस्तीफा, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।"
   },
 
   category: { 
     en: "Resignation Letters", 
-    hi: "त्यागपत्र" 
+    hi: "इस्तीफा पत्र" 
   },
 
   updatedDate: "January 2025",
@@ -28,12 +28,12 @@ export const shortNoticeResignationTemplate = {
     // 2. Short Notice Resignation
     {
       id: "shortNoticeResignation",
-      title: { en: "Short Notice Resignation", hi: "शॉर्ट नोटिस त्यागपत्र" },
+      title: { en: "Short Notice Resignation", hi: "शॉर्ट नोटिस इस्तीफा पत्र" },
       description: {
         en: "Used when an employee resigns with a shorter-than-usual notice.",
-        hi: "जब कर्मचारी सामान्य से कम नोटिस अवधि में त्यागपत्र देता है।"
+        hi: "जब कर्मचारी सामान्य से कम नोटिस अवधि में इस्तीफा पत्र देता है।"
       },
-      bestFor: { en: "Urgent resignation situations", hi: "तत्काल त्यागपत्र परिस्थितियाँ" },
+      bestFor: { en: "Urgent resignation situations", hi: "तत्काल इस्तीफा परिस्थितियाँ" },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
 
@@ -65,7 +65,7 @@ Sincerely,
 
 महोदय/महोदया,
 
-मैं आपको सूचित करना चाहता हूँ कि मैं [कंपनी का नाम] में अपने पद [आपका पदनाम] से औपचारिक रूप से त्यागपत्र दे रहा हूँ, जो [अंतिम कार्य दिवस] से प्रभावी होगा। अप्रत्याशित परिस्थितियों के कारण, मैं मानक नोटिस पीरियड पूरा करने में असमर्थ हूँ, अतः कृपया इसे शॉर्ट नोटिस के रूप में स्वीकार करने की कृपा करें।
+मैं आपको सूचित करना चाहता हूँ कि मैं [कंपनी का नाम] में अपने पद [आपका पदनाम] से औपचारिक रूप से इस्तीफा पत्र दे रहा हूँ, जो [अंतिम कार्य दिवस] से प्रभावी होगा। अप्रत्याशित परिस्थितियों के कारण, मैं मानक नोटिस पीरियड पूरा करने में असमर्थ हूँ, अतः कृपया इसे शॉर्ट नोटिस के रूप में स्वीकार करने की कृपा करें।
 
 इससे होने वाली किसी भी असुविधा के लिए मैं sincerely क्षमा चाहता हूँ और आपके सहयोग के लिए आभारी हूँ। टीम के साथ काम करते हुए मुझे जो अवसर और अनुभव मिले, उसके लिए मैं धन्यवाद व्यक्त करता हूँ।
 
@@ -80,7 +80,7 @@ Sincerely,
   ],
 
   howToWrite: {
-    title: { en: "How to Write a Resignation Letter", hi: "त्यागपत्र कैसे लिखें" },
+    title: { en: "How to Write a Resignation Letter", hi: "इस्तीफा कैसे लिखें" },
     tips: [
       { text: { en: "Keep the tone respectful and professional.", hi: "लहजा सम्मानजनक और पेशेवर रखें।" } },
       { text: { en: "Mention your last working day clearly.", hi: "अपने अंतिम कार्य दिवस का स्पष्ट उल्लेख करें।" } },
@@ -107,8 +107,8 @@ Sincerely,
 
   blogArticles: [
     {
-      title: { en: "How to Resign Professionally", hi: "पेशेवर तरीके से त्यागपत्र कैसे दें" },
-      excerpt: { en: "Tips for a smooth and respectful exit.", hi: "सम्मानपूर्वक और सरल तरीके से त्यागपत्र देने के सुझाव।" },
+      title: { en: "How to Resign Professionally", hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें" },
+      excerpt: { en: "Tips for a smooth and respectful exit.", hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।" },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
       link: "/blog/professional-resignation"
     },
@@ -122,11 +122,11 @@ Sincerely,
 
   faqs: [
     {
-      question: { en: "How long should a resignation letter be?", hi: "त्यागपत्र कितना लंबा होना चाहिए?" },
+      question: { en: "How long should a resignation letter be?", hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?" },
       answer: { en: "Ideally one page, short and professional.", hi: "आमतौर पर एक पृष्ठ—संक्षिप्त और पेशेवर।" }
     },
     {
-      question: { en: "Can I resign without notice?", hi: "क्या मैं बिना नोटिस के त्यागपत्र दे सकता/सकती हूँ?" },
+      question: { en: "Can I resign without notice?", hi: "क्या मैं बिना नोटिस के इस्तीफा पत्र दे सकता/सकती हूँ?" },
       answer: { en: "Yes, but only in emergency or valid reasons.", hi: "हाँ, लेकिन केवल उचित कारण या आपात स्थिति में।" }
     },
     {

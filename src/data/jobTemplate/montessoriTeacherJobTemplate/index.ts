@@ -139,55 +139,85 @@ Enclosures:
     ],
   },
 
-  faqs: [
-    {
-      question: {
-        en: "Is Montessori training required?",
-        hi: "क्या मोंटेसरी प्रशिक्षण जरूरी है?",
-      },
-      answer: {
-        en: "Yes, most schools prefer certified candidates.",
-        hi: "हाँ, अधिकतर स्कूल प्रमाणित शिक्षक चाहते हैं।",
-      },
+faqs: [
+  {
+    question: {
+      en: "Is Montessori training required?",
+      hi: "क्या मोंटेसरी प्रशिक्षण जरूरी है?",
     },
-  ],
+    answer: {
+      en: "Yes, most schools prefer certified candidates.",
+      hi: "हाँ, अधिकतर स्कूल प्रमाणित शिक्षक चाहते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "What qualifications are needed for Montessori teaching?",
+      hi: "मोंटेसरी शिक्षण के लिए कौन सी योग्यताएं चाहिए?",
+    },
+    answer: {
+      en: "A B.Ed or D.El.Ed degree plus Montessori diploma from a recognized institute like MCI.",
+      hi: "मान्यता प्राप्त संस्थान जैसे MCI से B.Ed या D.El.Ed डिग्री के साथ मोंटेसरी डिप्लोमा।",
+    },
+  },
+  {
+    question: {
+      en: "Is teaching experience mandatory?",
+      hi: "क्या शिक्षण अनुभव अनिवार्य है?",
+    },
+    answer: {
+      en: "1-2 years of preschool experience is preferred, especially with Montessori methods.",
+      hi: "मोंटेसरी विधि के साथ 1-2 वर्ष का प्री-स्कूल अनुभव पसंद किया जाता है।",
+    },
+  },
+  {
+    question: {
+      en: "What age group does Montessori teaching cover?",
+      hi: "मोंटेसरी शिक्षण किस आयु वर्ग के लिए है?",
+    },
+    answer: {
+      en: "Typically ages 2.5 to 6 years (Nursery to Prep/KG).",
+      hi: "आमतौर पर 2.5 से 6 वर्ष (नर्सरी से प्रीप/KG) की आयु।",
+    },
+  }
+],
 
   relatedTemplates: [
     {
       title: {
-        en: "Application for Teaching Job in Private School",
-        hi: "प्राइवेट स्कूल में शिक्षण नौकरी के लिए आवेदन",
+        en: "Application for Experienced Teacher Job",
+        hi: "अनुभवी शिक्षक नौकरी के लिए आवेदन",
       },
-      description: {
-        en: "Specialized format for private school teaching positions",
-        hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+    description: {
+        en: "For teachers with 2+ years of experience",
+        hi: "2+ वर्षों के अनुभव वाले शिक्षकों के लिए।",
       },
       icon: "Briefcase",
-      link: "/templates/private-school-teacher",
+      link: "/applications/job/experienced-teacher-job-application",
     },
     {
       title: {
-        en: "Application for Class Teacher Position",
-        hi: "क्लास टीचर पद के लिए आवेदन",
+        en: "Application for English Teacher Job",
+        hi: "अंग्रेजी शिक्षक नौकरी के लिए आवेदन",
       },
       description: {
-        en: "Template for class teacher or homeroom teacher role",
-        hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
+        en: "Specialized format for english school teaching positions",
+        hi: "अंग्रेजी स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+      },
+      icon: "Briefcase",
+      link: "/applications/job/english-teacher-job-application",
+    },
+        {
+      title: {
+        en: "Application for Mathematics Teacher Position",
+        hi: "गणित टीचर पद के लिए आवेदन",
+      },
+      description: {
+        en: "Template for Mathematics teacher role",
+        hi: "गणित टीचर भूमिका के लिए टेम्पलेट",
       },
       icon: "GraduationCap",
-      link: "/templates/class-teacher",
-    },
-    {
-      title: {
-        en: "Application for Tuition Teacher",
-        hi: "ट्यूशन टीचर के लिए आवेदन",
-      },
-      description: {
-        en: "Format for private tuition or coaching teaching jobs",
-        hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
-      },
-      icon: "FileText",
-      link: "/templates/tuition-teacher",
+      link: "/applications/job/math-teacher-job-application",
     },
   ],
 

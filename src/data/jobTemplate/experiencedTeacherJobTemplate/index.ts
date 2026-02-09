@@ -112,25 +112,6 @@ Enclosures:
     },
   ],
 
-  variationMeta: {
-    bestFor: {
-      en: "Fresh graduates applying for teaching jobs",
-      hi: "शिक्षण नौकरी के लिए आवेदन करने वाले नए स्नातक",
-    },
-    length: {
-      en: "Short",
-      hi: "छोटा",
-    },
-    difficulty: {
-      en: "Easy",
-      hi: "आसान",
-    },
-    description: {
-      en: "Designed for fresher teachers with no prior experience. Focuses on education, skills, and enthusiasm.",
-      hi: "बिना अनुभव वाले फ्रेशर शिक्षकों के लिए डिज़ाइन किया गया। शिक्षा, कौशल और उत्साह पर केंद्रित।",
-    },
-  },
-
   blogArticles: [
     {
       title: {
@@ -286,39 +267,39 @@ Enclosures:
   relatedTemplates: [
     {
       title: {
-        en: "Application for Teaching Job in Private School",
-        hi: "प्राइवेट स्कूल में शिक्षण नौकरी के लिए आवेदन",
+        en: "Application for Montessori Teacher Job in Private School",
+        hi: "मोंटेसरी शिक्षण नौकरी के लिए आवेदन",
       },
       description: {
-        en: "Specialized format for private school teaching positions",
-        hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+      en: "A universal format suitable for Montessori teaching positions",
+        hi: "मोंटेसरी शिक्षण पदों के लिए उपयुक्त प्रारूप।",
       },
       icon: "Briefcase",
-      link: "/templates/private-school-teacher",
+      link: "/applications/job/montessori-teacher-job-application",
     },
-    {
+        {
       title: {
-        en: "Application for Class Teacher Position",
-        hi: "क्लास टीचर पद के लिए आवेदन",
+        en: "Application for Mathematics Teacher Position",
+        hi: "गणित टीचर पद के लिए आवेदन",
       },
       description: {
-        en: "Template for class teacher or homeroom teacher role",
-        hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
+        en: "Template for Mathematics teacher role",
+        hi: "गणित टीचर भूमिका के लिए टेम्पलेट",
       },
       icon: "GraduationCap",
-      link: "/templates/class-teacher",
+      link: "/applications/job/math-teacher-job-application",
     },
     {
       title: {
-        en: "Application for Tuition Teacher",
-        hi: "ट्यूशन टीचर के लिए आवेदन",
+        en: "Application for Science Teacher",
+        hi: "विज्ञान टीचर के लिए आवेदन",
       },
       description: {
-        en: "Format for private tuition or coaching teaching jobs",
-        hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
+        en: "Format for Science teaching roles",
+        hi: "विज्ञान शिक्षण पदों के लिए प्रारूप",
       },
       icon: "FileText",
-      link: "/templates/tuition-teacher",
+      link: "/applications/job/science-teacher-job-application",
     },
   ]
 };

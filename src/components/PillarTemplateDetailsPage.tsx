@@ -30,6 +30,7 @@ import { toast } from "sonner";
 import { TemplateEditorModal } from "./TemplateEditorModal";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { iconMap } from "./icon";
 interface TemplateVariation {
   id: string;
   title: { en: string; hi: string };
@@ -558,6 +559,7 @@ export function PillarTemplateDetailsPage({
               </div>
 
               {/* Variation Comparison Table */}
+              {!singleTemplate && 
               <div className="max-w-6xl mx-auto mt-16">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -630,7 +632,7 @@ export function PillarTemplateDetailsPage({
                     </table>
                   </div>
                 </motion.div>
-              </div>
+              </div>}
 
               {/* How to Write Section */}
               <div className="max-w-4xl mx-auto mt-16">
@@ -662,14 +664,14 @@ export function PillarTemplateDetailsPage({
               </div>
 
               {/* Related Templates */}
-              {/* <div className="max-w-6xl mx-auto mt-16">
+              <div className="max-w-6xl mx-auto mt-16">
               <h2 className="text-3xl text-slate-900 dark:text-white mb-8 text-center">
                 {language === "en" ? "Related Templates" : "संबंधित टेम्पलेट्स"}
               </h2>
 
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {data.relatedTemplates.map((template, index) => {
-                  const Icon = template.icon;
+                              const Icons = iconMap[template.icon as keyof typeof iconMap];
                   return (
                     <motion.a
                       key={index}
@@ -682,7 +684,7 @@ export function PillarTemplateDetailsPage({
                       className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-2xl p-6 hover:shadow-lg hover:border-cyan-300 dark:hover:border-cyan-500/50 transition-all group"
                     >
                       <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/10 to-violet-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:from-cyan-500/20 group-hover:to-violet-500/20 transition-all">
-                        <Icon className="w-6 h-6 text-cyan-600 dark:text-cyan-400" />
+                        <Icons className="w-6 h-6 text-cyan-600 dark:text-cyan-400" />
                       </div>
                       <h3 className="font-medium text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
                         {template.title[language]}
@@ -694,7 +696,7 @@ export function PillarTemplateDetailsPage({
                   );
                 })}
               </div>
-            </div> */}
+            </div> 
 
               {/* Related Blog Articles */}
               {/* <div className="max-w-6xl mx-auto mt-16">

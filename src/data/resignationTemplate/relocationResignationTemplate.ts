@@ -3,29 +3,29 @@ export const relocationResignationTemplate = {
     category: { en: "Letters", hi: "पत्र", slug: "/letters" },
     subcategory: {
       en: "Resignation Letters",
-      hi: "त्यागपत्र",
+      hi: "इस्तीफा पत्र",
       slug: "/letters/resignation",
     },
     template: {
       en: "Official Resignation Letters",
-      hi: "आधिकारिक त्यागपत्र",
+      hi: "आधिकारिक इस्तीफा पत्र",
       slug: "",
     },
   },
 
   title: {
     en: "Resignation Application Letters",
-    hi: "त्यागपत्र आवेदन पत्र",
+    hi: "इस्तीफा पत्र आवेदन पत्र",
   },
 
   subtitle: {
     en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर त्यागपत्र प्रारूप—मानक त्यागपत्र, शॉर्ट नोटिस, तत्काल त्यागपत्र, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।",
+    hi: "पेशेवर इस्तीफा पत्र प्रारूप—मानक इस्तीफा, शॉर्ट नोटिस, तत्काल इस्तीफा, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।",
   },
 
   category: {
     en: "Resignation Letters",
-    hi: "त्यागपत्र",
+    hi: "इस्तीफा पत्र",
   },
 
   updatedDate: "January 2025",
@@ -36,7 +36,7 @@ export const relocationResignationTemplate = {
       id: "relocationResignation",
       title: {
         en: "Relocation Resignation Letter",
-        hi: "स्थानांतरण के कारण त्यागपत्र पत्र",
+        hi: "स्थानांतरण के कारण इस्तीफा पत्र",
       },
       description: {
         en: "Used when resigning due to moving to another city or country.",
@@ -75,15 +75,15 @@ Yours sincerely,
 [मैनेजर का नाम]
 [कंपनी का नाम]
 
-विषय: स्थानांतरण के कारण त्यागपत्र
+विषय: स्थानांतरण के कारण इस्तीफा पत्र
 
 महोदय/महोदया,
 
-सविनय निवेदन है कि मैं अपने पद [आपका पदनाम] से दिनांक [अंतिम कार्य दिवस] से औपचारिक रूप से त्यागपत्र प्रस्तुत कर रहा/रही हूँ, क्योंकि व्यक्तिगत कारणों से मुझे किसी अन्य शहर/देश में स्थानांतरित होना पड़ रहा है।
+सविनय निवेदन है कि मैं अपने पद [आपका पदनाम] से दिनांक [अंतिम कार्य दिवस] से औपचारिक रूप से इस्तीफा प्रस्तुत कर रहा/रही हूँ, क्योंकि व्यक्तिगत कारणों से मुझे किसी अन्य शहर/देश में स्थानांतरित होना पड़ रहा है।
 
 यह निर्णय मेरे लिए आसान नहीं रहा, क्योंकि मैंने [कंपनी का नाम] में अपना कार्यकाल अत्यंत मूल्यवान पाया है। अपने कार्यकाल के दौरान प्राप्त सहयोग, मार्गदर्शन एवं अवसरों के लिए मैं प्रबंधन तथा अपने सभी सहकर्मियों का हृदय से आभार व्यक्त करता/करती हूँ।
 
-यहाँ कार्य करना मेरे लिए एक सीखने वाला और सकारात्मक अनुभव रहा है। मैं नोटिस अवधि के दौरान अपने कार्यों का सुचारु हस्तांतरण सुनिश्चित करूँगा/करूँगी। कृपया त्यागपत्र से संबंधित आवश्यक औपचारिकताओं के बारे में मुझे अवगत कराने की कृपा करें।
+यहाँ कार्य करना मेरे लिए एक सीखने वाला और सकारात्मक अनुभव रहा है। मैं नोटिस अवधि के दौरान अपने कार्यों का सुचारु हस्तांतरण सुनिश्चित करूँगा/करूँगी। कृपया इस्तीफा से संबंधित आवश्यक औपचारिकताओं के बारे में मुझे अवगत कराने की कृपा करें।
 
 आपके सहयोग हेतु पुनः धन्यवाद।
 
@@ -99,7 +99,7 @@ Yours sincerely,
   howToWrite: {
     title: {
       en: "How to Write a Resignation Letter",
-      hi: "त्यागपत्र पत्र कैसे लिखें",
+      hi: "इस्तीफा पत्र कैसे लिखें",
     },
     tips: [
       {
@@ -160,11 +160,11 @@ Yours sincerely,
     {
       title: {
         en: "How to Resign Professionally",
-        hi: "पेशेवर तरीके से त्यागपत्र कैसे दें",
+        hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें",
       },
       excerpt: {
         en: "Tips for a smooth and respectful exit.",
-        hi: "सम्मानपूर्वक और सरल तरीके से त्यागपत्र देने के सुझाव।",
+        hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
       link: "/blog/professional-resignation",
@@ -187,7 +187,7 @@ Yours sincerely,
     {
       question: {
         en: "How long should a resignation letter be?",
-        hi: "त्यागपत्र कितना लंबा होना चाहिए?",
+        hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?",
       },
       answer: {
         en: "Ideally one page, short and professional.",
@@ -197,7 +197,7 @@ Yours sincerely,
     {
       question: {
         en: "Can I resign without notice?",
-        hi: "क्या मैं बिना नोटिस के त्यागपत्र दे सकता/सकती हूँ?",
+        hi: "क्या मैं बिना नोटिस के इस्तीफा दे सकता/सकती हूँ?",
       },
       answer: {
         en: "Yes, but only in emergency or valid reasons.",

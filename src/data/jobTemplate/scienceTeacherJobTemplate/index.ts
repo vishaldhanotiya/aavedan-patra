@@ -95,8 +95,6 @@ Subject: Application for Science Teacher Position
 
 Respected Sir/Madam,
 
-Dear Madam,
-
 I am writing to apply for the Senior Science Teacher position at your esteemed institution, as advertised. I hold a B.Sc. in Science along with a [B.Ed. or other relevant qualification], and I have more than five years of experience teaching Classes [e.g., IX-X] at [Previous School Name].
 
 My approach to science education is rooted in fostering observation and curiosity. I employ simple experiments, demonstrations, and real-world examples to make concepts tangible, while encouraging students to ask questions and think critically. To ensure comprehension, I break down complex topics into manageable steps and connect theory directly to practical applications. I am committed to a hands-on, lab-focused methodology that brings scientific principles to life for students.
@@ -165,28 +163,68 @@ Enclosures:
     ],
   },
 
-  faqs: [
-    {
-      question: {
-        en: "Is lab experience important?",
-        hi: "क्या प्रयोगशाला अनुभव जरूरी है?",
-      },
-      answer: {
-        en: "Yes, practical knowledge is essential.",
-        hi: "हाँ, व्यावहारिक ज्ञान आवश्यक है।",
-      },
+faqs: [
+  {
+    question: {
+      en: "Is lab experience important for Science teachers?",
+      hi: "विज्ञान शिक्षकों के लिए प्रयोगशाला अनुभव कितना जरूरी है?",
     },
-    {
-      question: {
-        en: "Can freshers apply?",
-        hi: "क्या फ्रेशर आवेदन कर सकते हैं?",
-      },
-      answer: {
-        en: "Yes, with strong subject knowledge.",
-        hi: "हाँ, मजबूत विषय ज्ञान के साथ।",
-      },
+    answer: {
+      en: "Yes. Schools prefer teachers with hands-on laboratory experience, including conducting experiments such as titration, electrical circuits, or basic dissections. Mention any lab equipment you have worked with, like microscopes or analytical instruments.",
+      hi: "हाँ। स्कूल उन शिक्षकों को प्राथमिकता देते हैं जिनके पास टाइट्रेशन, विद्युत सर्किट या बुनियादी विच्छेदन जैसे प्रयोगों का व्यावहारिक अनुभव हो। माइक्रोस्कोप या अन्य प्रयोगशाला उपकरणों के साथ कार्य अनुभव का उल्लेख करें।",
     },
-  ],
+  },
+  {
+    question: {
+      en: "Can freshers apply for Science teaching jobs?",
+      hi: "क्या विज्ञान शिक्षण नौकरियों के लिए फ्रेशर आवेदन कर सकते हैं?",
+    },
+    answer: {
+      en: "Yes. Freshers with a B.Sc or M.Sc degree along with B.Ed or CTET/TET qualification can apply. Academic projects, teaching internships, or lab practical exposure help strengthen applications.",
+      hi: "हाँ। B.Sc या M.Sc के साथ B.Ed या CTET/TET योग्यता रखने वाले फ्रेशर आवेदन कर सकते हैं। शैक्षणिक प्रोजेक्ट, शिक्षण इंटर्नशिप या लैब प्रैक्टिकल अनुभव आवेदन को मजबूत बनाते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "What qualifications are required for Science teachers?",
+      hi: "विज्ञान शिक्षकों के लिए कौन सी योग्यताएँ आवश्यक हैं?",
+    },
+    answer: {
+      en: "A B.Sc or M.Sc in Physics, Chemistry, or Biology along with a B.Ed degree is commonly required. CTET or State TET is mandatory for school teaching roles, while NET is preferred for college-level positions.",
+      hi: "भौतिकी, रसायन या जीवविज्ञान में B.Sc या M.Sc के साथ B.Ed डिग्री आमतौर पर आवश्यक होती है। स्कूलों के लिए CTET या राज्य TET अनिवार्य है, जबकि कॉलेज स्तर के लिए NET को प्राथमिकता दी जाती है।",
+    },
+  },
+  {
+    question: {
+      en: "What salary can Science teachers expect?",
+      hi: "विज्ञान शिक्षक कितनी सैलरी की अपेक्षा कर सकते हैं?",
+    },
+    answer: {
+      en: "Science teacher salaries vary by school board, location, and experience. In private schools, salaries typically range from ₹25,000 to ₹55,000 per month, with higher pay for teachers handling labs or senior classes.",
+      hi: "विज्ञान शिक्षकों की सैलरी स्कूल बोर्ड, स्थान और अनुभव के अनुसार बदलती है। निजी स्कूलों में आमतौर पर ₹25,000 से ₹55,000 प्रति माह वेतन मिलता है, जिसमें लैब या सीनियर कक्षाओं का अनुभव होने पर अधिक वेतन मिल सकता है।",
+    },
+  },
+  {
+    question: {
+      en: "Should board exam results be mentioned in a Science teacher application?",
+      hi: "क्या विज्ञान शिक्षक आवेदन में बोर्ड परीक्षा के परिणाम लिखने चाहिए?",
+    },
+    answer: {
+      en: "Yes. Mentioning strong academic results or student performance, such as high science scores or practical exam supervision, helps demonstrate teaching effectiveness.",
+      hi: "हाँ। अच्छे शैक्षणिक परिणाम या छात्रों के प्रदर्शन, जैसे उच्च विज्ञान अंक या प्रैक्टिकल परीक्षा पर्यवेक्षण, शिक्षण क्षमता को दर्शाने में सहायक होते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "What makes a strong Science teacher resume?",
+      hi: "एक मजबूत विज्ञान शिक्षक रिज़्यूमे की मुख्य विशेषताएँ क्या हैं?",
+    },
+    answer: {
+      en: "A strong resume highlights subject expertise, laboratory involvement, student achievements, teaching certifications, and practical contributions such as developing experiments or mentoring science projects.",
+      hi: "एक मजबूत रिज़्यूमे में विषय विशेषज्ञता, प्रयोगशाला कार्य, छात्र उपलब्धियाँ, शिक्षण प्रमाणपत्र और प्रयोग विकसित करने या विज्ञान परियोजनाओं के मार्गदर्शन जैसे व्यावहारिक योगदान शामिल होते हैं।",
+    },
+  },
+],
 
   blogArticles: [
     {
@@ -239,39 +277,39 @@ Enclosures:
   relatedTemplates: [
     {
       title: {
-        en: "Application for Teaching Job in Private School",
-        hi: "प्राइवेट स्कूल में शिक्षण नौकरी के लिए आवेदन",
+        en: "Application for Experienced Teacher Job",
+        hi: "अनुभवी शिक्षक नौकरी के लिए आवेदन",
       },
-      description: {
-        en: "Specialized format for private school teaching positions",
-        hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+    description: {
+        en: "For teachers with 2+ years of experience",
+        hi: "2+ वर्षों के अनुभव वाले शिक्षकों के लिए।",
       },
       icon: "Briefcase",
-      link: "/templates/private-school-teacher",
+      link: "/applications/job/experienced-teacher-job-application",
     },
     {
       title: {
-        en: "Application for Class Teacher Position",
-        hi: "क्लास टीचर पद के लिए आवेदन",
+        en: "Application for English Teacher Job",
+        hi: "अंग्रेजी शिक्षक नौकरी के लिए आवेदन",
       },
       description: {
-        en: "Template for class teacher or homeroom teacher role",
-        hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
+        en: "Specialized format for english school teaching positions",
+        hi: "अंग्रेजी स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+      },
+      icon: "Briefcase",
+      link: "/applications/job/english-teacher-job-application",
+    },
+        {
+      title: {
+        en: "Application for Fresher Teacher Job",
+        hi: "फ्रेशर शिक्षक नौकरी आवेदन",
+      },
+      description: {
+        en: "Perfect for new graduates with no prior teaching experience",
+        hi: "बिना किसी पूर्व शिक्षण अनुभव के नए स्नातकों के लिए एकदम सही।",
       },
       icon: "GraduationCap",
-      link: "/templates/class-teacher",
-    },
-    {
-      title: {
-        en: "Application for Tuition Teacher",
-        hi: "ट्यूशन टीचर के लिए आवेदन",
-      },
-      description: {
-        en: "Format for private tuition or coaching teaching jobs",
-        hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
-      },
-      icon: "FileText",
-      link: "/templates/tuition-teacher",
+      link: "/applications/job/fresher-teacher-job-application",
     },
   ],
 };

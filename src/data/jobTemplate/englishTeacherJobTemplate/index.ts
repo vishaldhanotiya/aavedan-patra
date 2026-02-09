@@ -286,39 +286,40 @@ Enclosures:
   relatedTemplates: [
     {
       title: {
-        en: "Application for Teaching Job in Private School",
-        hi: "प्राइवेट स्कूल में शिक्षण नौकरी के लिए आवेदन",
+        en: "Application for Science Teacher",
+        hi: "विज्ञान टीचर के लिए आवेदन",
       },
       description: {
-        en: "Specialized format for private school teaching positions",
-        hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
-      },
-      icon: "Briefcase",
-      link: "/templates/private-school-teacher",
-    },
-    {
-      title: {
-        en: "Application for Class Teacher Position",
-        hi: "क्लास टीचर पद के लिए आवेदन",
-      },
-      description: {
-        en: "Template for class teacher or homeroom teacher role",
-        hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
-      },
-      icon: "GraduationCap",
-      link: "/templates/class-teacher",
-    },
-    {
-      title: {
-        en: "Application for Tuition Teacher",
-        hi: "ट्यूशन टीचर के लिए आवेदन",
-      },
-      description: {
-        en: "Format for private tuition or coaching teaching jobs",
-        hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
+        en: "Format for Science teaching roles",
+        hi: "विज्ञान शिक्षण पदों के लिए प्रारूप",
       },
       icon: "FileText",
-      link: "/templates/tuition-teacher",
+      link: "/applications/job/science-teacher-job-application",
     },
-  ]
+    {
+      title: {
+        en: "Application for Experienced Teacher Job",
+        hi: "अनुभवी शिक्षक नौकरी के लिए आवेदन",
+      },
+      description: {
+        en: "For teachers with 2+ years of experience",
+        hi: "2+ वर्षों के अनुभव वाले शिक्षकों के लिए।",
+      },
+      icon: "Briefcase",
+      link: "/applications/job/experienced-teacher-job-application",
+    },
+
+    {
+      title: {
+        en: "Application for Mathematics Teacher Position",
+        hi: "गणित टीचर पद के लिए आवेदन",
+      },
+      description: {
+        en: "Template for Mathematics teacher role",
+        hi: "गणित टीचर भूमिका के लिए टेम्पलेट",
+      },
+      icon: "GraduationCap",
+      link: "/applications/job/math-teacher-job-application",
+    },
+  ],
 };

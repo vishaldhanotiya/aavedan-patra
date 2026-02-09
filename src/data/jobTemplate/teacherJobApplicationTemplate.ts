@@ -1565,39 +1565,39 @@ Enclosures:
   relatedTemplates: [
     {
       title: {
-        en: "Application for Teaching Job in Private School",
-        hi: "प्राइवेट स्कूल में शिक्षण नौकरी के लिए आवेदन",
+        en: "Application for Experienced Teacher Job",
+        hi: "अनुभवी शिक्षक नौकरी के लिए आवेदन",
       },
-      description: {
-        en: "Specialized format for private school teaching positions",
-        hi: "प्राइवेट स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
+    description: {
+        en: "For teachers with 2+ years of experience",
+        hi: "2+ वर्षों के अनुभव वाले शिक्षकों के लिए।",
       },
-      icon: 'Briefcase',
-      link: "/templates/private-school-teacher",
+      icon: "Briefcase",
+      link: "/applications/job/experienced-teacher-job-application",
     },
     {
       title: {
-        en: "Application for Class Teacher Position",
-        hi: "क्लास टीचर पद के लिए आवेदन",
+        en: "Application for English Teacher Job",
+        hi: "अंग्रेजी शिक्षक नौकरी के लिए आवेदन",
       },
       description: {
-        en: "Template for class teacher or homeroom teacher role",
-        hi: "क्लास टीचर या होमरूम टीचर भूमिका के लिए टेम्पलेट",
+        en: "Specialized format for english school teaching positions",
+        hi: "अंग्रेजी स्कूल शिक्षण पदों के लिए विशेष प्रारूप",
       },
-      icon: 'GraduationCap',
-      link: "/templates/class-teacher",
+      icon: "Briefcase",
+      link: "/applications/job/english-teacher-job-application",
     },
-    {
+        {
       title: {
-        en: "Application for Tuition Teacher",
-        hi: "ट्यूशन टीचर के लिए आवेदन",
+        en: "Application for Fresher Teacher Job",
+        hi: "फ्रेशर शिक्षक नौकरी आवेदन",
       },
       description: {
-        en: "Format for private tuition or coaching teaching jobs",
-        hi: "प्राइवेट ट्यूशन या कोचिंग शिक्षण नौकरियों के लिए प्रारूप",
+        en: "Perfect for new graduates with no prior teaching experience",
+        hi: "बिना किसी पूर्व शिक्षण अनुभव के नए स्नातकों के लिए एकदम सही।",
       },
-      icon: 'FileText',
-      link: "/templates/tuition-teacher",
+      icon: "GraduationCap",
+      link: "/applications/job/fresher-teacher-job-application",
     },
   ],
 

@@ -3,29 +3,29 @@ export const careerChangeResignationTemplate = {
     category: { en: "Letters", hi: "पत्र", slug: "/letters" },
     subcategory: {
       en: "Resignation Letters",
-      hi: "त्यागपत्र पत्र",
+      hi: "इस्तीफा पत्र",
       slug: "/letters/resignation",
     },
     template: {
       en: "Official Resignation Letters",
-      hi: "आधिकारिक त्यागपत्र",
+      hi: "आधिकारिक इस्तीफा पत्र",
       slug: "",
     },
   },
 
   title: {
     en: "Resignation Application Letters",
-    hi: "त्यागपत्र आवेदन पत्र",
+    hi: "इस्तीफा आवेदन पत्र",
   },
 
   subtitle: {
     en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर त्यागपत्र प्रारूप—मानक त्यागपत्र, शॉर्ट नोटिस, तत्काल त्यागपत्र, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।",
+    hi: "पेशेवर इस्तीफा पत्र प्रारूप—मानक इस्तीफा, शॉर्ट नोटिस, तत्काल इस्तीफा, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।",
   },
 
   category: {
     en: "Resignation Letters",
-    hi: "त्यागपत्र",
+    hi: "इस्तीफा पत्र",
   },
 
   updatedDate: "January 2025",
@@ -36,11 +36,11 @@ export const careerChangeResignationTemplate = {
       id: "careerChangeResignation",
       title: {
         en: "Career Change Resignation",
-        hi: "करियर परिवर्तन त्यागपत्र",
+        hi: "करियर परिवर्तन इस्तीफा",
       },
       description: {
         en: "Used when resigning to pursue a different career path or field.",
-        hi: "जब कर्मचारी किसी नए करियर या क्षेत्र में जाने के लिए त्यागपत्र देता है।",
+        hi: "जब कर्मचारी किसी नए करियर या क्षेत्र में जाने के लिए इस्तीफा देता है।",
       },
       bestFor: { en: "Career transition", hi: "करियर परिवर्तन" },
       length: { en: "Medium", hi: "मध्यम" },
@@ -72,7 +72,7 @@ Sincerely,
 [मैनेजर का नाम]
 [कंपनी का नाम]
 
-विषय: करियर परिवर्तन के कारण त्यागपत्र
+विषय: करियर परिवर्तन के कारण इस्तीफा
 
 महोदय/महोदया,
 
@@ -95,7 +95,7 @@ Sincerely,
   howToWrite: {
     title: {
       en: "How to Write a Resignation Letter",
-      hi: "त्यागपत्र कैसे लिखें",
+      hi: "इस्तीफा पत्र कैसे लिखें",
     },
     tips: [
       {
@@ -156,11 +156,11 @@ Sincerely,
     {
       title: {
         en: "How to Resign Professionally",
-        hi: "पेशेवर तरीके से त्यागपत्र कैसे दें",
+        hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें",
       },
       excerpt: {
         en: "Tips for a smooth and respectful exit.",
-        hi: "सम्मानपूर्वक और सरल तरीके से त्यागपत्र देने के सुझाव।",
+        hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
       link: "/blog/professional-resignation",
@@ -183,7 +183,7 @@ Sincerely,
     {
       question: {
         en: "How long should a resignation letter be?",
-        hi: "त्यागपत्र पत्र कितना लंबा होना चाहिए?",
+        hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?",
       },
       answer: {
         en: "Ideally one page, short and professional.",
@@ -193,7 +193,7 @@ Sincerely,
     {
       question: {
         en: "Can I resign without notice?",
-        hi: "क्या मैं बिना नोटिस के त्यागपत्र दे सकता/सकती हूँ?",
+        hi: "क्या मैं बिना नोटिस के इस्तीफा दे सकता/सकती हूँ?",
       },
       answer: {
         en: "Yes, but only in emergency or valid reasons.",
