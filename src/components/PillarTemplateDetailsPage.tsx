@@ -88,12 +88,12 @@ interface PillarTemplateData {
 interface PillarTemplateDetailsPageProps {
   data: PillarTemplateData;
   language?: "en" | "hi";
-  singleTemplate?:boolean
+  singleTemplate?: boolean;
 }
 
 export function PillarTemplateDetailsPage({
   data,
-  singleTemplate = false
+  singleTemplate = false,
 }: PillarTemplateDetailsPageProps) {
   const [activeVariation, setActiveVariation] = useState<string>(
     data.variations[0]?.id || "",
@@ -370,7 +370,7 @@ export function PillarTemplateDetailsPage({
               </motion.div>
 
               {/* Variation Navigation */}
-              
+
               {!singleTemplate && (
                 <div className="max-w-4xl mx-auto mb-12">
                   <div className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-2xl p-4 lg:p-6 shadow-lg">
@@ -378,7 +378,7 @@ export function PillarTemplateDetailsPage({
                       <Layers className="w-5 h-5 text-cyan-600 dark:text-cyan-400" />
                       {language === "en"
                         ? "Available Formats"
-                        : "उपलब्ध प्रारूप"+data.variations.length}
+                        : "उपलब्ध प्रारूप"}
                     </h2>
 
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -559,80 +559,83 @@ export function PillarTemplateDetailsPage({
               </div>
 
               {/* Variation Comparison Table */}
-              {!singleTemplate && 
-              <div className="max-w-6xl mx-auto mt-16">
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-3xl p-8 shadow-lg"
-                >
-                  <h2 className="text-3xl text-slate-900 dark:text-white mb-6">
-                    {language === "en"
-                      ? "Comparison of Formats"
-                      : "प्रारूपों की तुलना"}
-                  </h2>
+              {!singleTemplate && (
+                <div className="max-w-6xl mx-auto mt-16">
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-3xl p-8 shadow-lg"
+                  >
+                    <h2 className="text-3xl text-slate-900 dark:text-white mb-6">
+                      {language === "en"
+                        ? "Comparison of Formats"
+                        : "प्रारूपों की तुलना"}
+                    </h2>
 
-                  <div className="overflow-x-auto">
-                    <table className="w-full">
-                      <thead>
-                        <tr className="border-b-2 border-slate-200 dark:border-white/20">
-                          <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
-                            {language === "en" ? "Variation" : "विविधता"}
-                          </th>
-                          <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
-                            {language === "en"
-                              ? "Best For"
-                              : "के लिए सर्वश्रेष्ठ"}
-                          </th>
-                          <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
-                            {language === "en" ? "Length" : "लंबाई"}
-                          </th>
-                          <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
-                            {language === "en" ? "Difficulty" : "कठिनाई"}
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {data.variations.map((variation, index) => (
-                          <tr
-                            key={variation.id}
-                            className="border-b border-slate-100 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors"
-                          >
-                            <td className="py-4 px-4">
-                              <button
-                                onClick={() => scrollToVariation(variation.id)}
-                                className="text-cyan-600 dark:text-cyan-400 hover:underline text-left"
-                              >
-                                {variation.title[language]}
-                              </button>
-                            </td>
-                            <td className="py-4 px-4 text-slate-600 dark:text-white/70">
-                              {variation.bestFor[language]}
-                            </td>
-                            <td className="py-4 px-4 text-slate-600 dark:text-white/70">
-                              {variation.length[language]}
-                            </td>
-                            <td className="py-4 px-4">
-                              <span
-                                className={`px-3 py-1 rounded-full text-xs font-medium ${
-                                  variation.difficulty.en === "Easy"
-                                    ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300"
-                                    : variation.difficulty.en === "Moderate"
-                                      ? "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300"
-                                      : "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300"
-                                }`}
-                              >
-                                {variation.difficulty[language]}
-                              </span>
-                            </td>
+                    <div className="overflow-x-auto">
+                      <table className="w-full">
+                        <thead>
+                          <tr className="border-b-2 border-slate-200 dark:border-white/20">
+                            <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
+                              {language === "en" ? "Variation" : "विविधता"}
+                            </th>
+                            <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
+                              {language === "en"
+                                ? "Best For"
+                                : "के लिए सर्वश्रेष्ठ"}
+                            </th>
+                            <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
+                              {language === "en" ? "Length" : "लंबाई"}
+                            </th>
+                            <th className="text-left py-3 px-4 text-slate-900 dark:text-white font-medium">
+                              {language === "en" ? "Difficulty" : "कठिनाई"}
+                            </th>
                           </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </motion.div>
-              </div>}
+                        </thead>
+                        <tbody>
+                          {data.variations.map((variation, index) => (
+                            <tr
+                              key={variation.id}
+                              className="border-b border-slate-100 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors"
+                            >
+                              <td className="py-4 px-4">
+                                <button
+                                  onClick={() =>
+                                    scrollToVariation(variation.id)
+                                  }
+                                  className="text-cyan-600 dark:text-cyan-400 hover:underline text-left"
+                                >
+                                  {variation.title[language]}
+                                </button>
+                              </td>
+                              <td className="py-4 px-4 text-slate-600 dark:text-white/70">
+                                {variation.bestFor[language]}
+                              </td>
+                              <td className="py-4 px-4 text-slate-600 dark:text-white/70">
+                                {variation.length[language]}
+                              </td>
+                              <td className="py-4 px-4">
+                                <span
+                                  className={`px-3 py-1 rounded-full text-xs font-medium ${
+                                    variation.difficulty.en === "Easy"
+                                      ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300"
+                                      : variation.difficulty.en === "Moderate"
+                                        ? "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300"
+                                        : "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300"
+                                  }`}
+                                >
+                                  {variation.difficulty[language]}
+                                </span>
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </motion.div>
+                </div>
+              )}
 
               {/* How to Write Section */}
               <div className="max-w-4xl mx-auto mt-16">
@@ -665,38 +668,41 @@ export function PillarTemplateDetailsPage({
 
               {/* Related Templates */}
               <div className="max-w-6xl mx-auto mt-16">
-              <h2 className="text-3xl text-slate-900 dark:text-white mb-8 text-center">
-                {language === "en" ? "Related Templates" : "संबंधित टेम्पलेट्स"}
-              </h2>
+                <h2 className="text-3xl text-slate-900 dark:text-white mb-8 text-center">
+                  {language === "en"
+                    ? "Related Templates"
+                    : "संबंधित टेम्पलेट्स"}
+                </h2>
 
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {data.relatedTemplates.map((template, index) => {
-                              const Icons = iconMap[template.icon as keyof typeof iconMap];
-                  return (
-                    <motion.a
-                      key={index}
-                      href={template.link}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ delay: index * 0.1 }}
-                      whileHover={{ y: -4 }}
-                      className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-2xl p-6 hover:shadow-lg hover:border-cyan-300 dark:hover:border-cyan-500/50 transition-all group"
-                    >
-                      <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/10 to-violet-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:from-cyan-500/20 group-hover:to-violet-500/20 transition-all">
-                        <Icons className="w-6 h-6 text-cyan-600 dark:text-cyan-400" />
-                      </div>
-                      <h3 className="font-medium text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
-                        {template.title[language]}
-                      </h3>
-                      <p className="text-sm text-slate-600 dark:text-white/70 leading-relaxed">
-                        {template.description[language]}
-                      </p>
-                    </motion.a>
-                  );
-                })}
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {data.relatedTemplates.map((template, index) => {
+                    const Icons =
+                      iconMap[template.icon as keyof typeof iconMap];
+                    return (
+                      <motion.a
+                        key={index}
+                        href={template.link}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: index * 0.1 }}
+                        whileHover={{ y: -4 }}
+                        className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-2xl p-6 hover:shadow-lg hover:border-cyan-300 dark:hover:border-cyan-500/50 transition-all group"
+                      >
+                        <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/10 to-violet-500/10 rounded-xl flex items-center justify-center mb-4 group-hover:from-cyan-500/20 group-hover:to-violet-500/20 transition-all">
+                          <Icons className="w-6 h-6 text-cyan-600 dark:text-cyan-400" />
+                        </div>
+                        <h3 className="font-medium text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+                          {template.title[language]}
+                        </h3>
+                        <p className="text-sm text-slate-600 dark:text-white/70 leading-relaxed">
+                          {template.description[language]}
+                        </p>
+                      </motion.a>
+                    );
+                  })}
+                </div>
               </div>
-            </div> 
 
               {/* Related Blog Articles */}
               {/* <div className="max-w-6xl mx-auto mt-16">

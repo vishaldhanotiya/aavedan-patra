@@ -48,7 +48,7 @@ export const trendingTemplate: CategoryData = {
       href: "/applications/job",
     },
     {
-      title: { en: "Resignation Letter", hi: "त्यागपत्र" },
+      title: { en: "Resignation Letter Template", hi: "इस्तीफा आवेदन पत्र प्रारूप" },
       category: { en: "Letters", hi: "पत्र" },
       views: "15.3k",
       tag: "Popular",

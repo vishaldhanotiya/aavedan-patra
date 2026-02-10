@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://aavedanpatra.in/sitemap.xml
-LLMS: https://aavedanpatra.in/llms.txt
