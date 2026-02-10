@@ -25,7 +25,9 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-
+  experimental: {
+    optimizeCss: true,
+  },
   async redirects() {
     return [
       {
