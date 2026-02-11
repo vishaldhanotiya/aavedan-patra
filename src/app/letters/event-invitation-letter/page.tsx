@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { eventInvitationTemplate } from "@/data/invitationTemplate/eventInvitationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "कार्यक्रम निमंत्रण पत्र | आवेदन पत्र",
+  title: "कार्यक्रम के लिए निमंत्रण पत्र हिंदी में – औपचारिक एवं अनौपचारिक नमूने",
   description:
-    "कार्यक्रम निमंत्रण पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर व्यक्तिगत या पेशेवर कार्यक्रमों के लिए औपचारिक और अनौपचारिक निमंत्रण पत्र का सही प्रारूप, तैयार नमूने और लिखने के आसान सुझाव दिए गए हैं, जिससे आप किसी भी कार्यक्रम के लिए आकर्षक और प्रभावी निमंत्रण पत्र तैयार कर सकें।",
+    "किसी भी कार्यक्रम (शादी, कॉर्पोरेट मीटिंग, वर्कशॉप, एनुअल फंक्शन) के लिए आकर्षक निमंत्रण पत्र का सही प्रारूप और तैयार नमूने। औपचारिक और अनौपचारिक दोनों स्टाइल में आसानी से लिखें।",
   path: "/letters/event-invitation-letter",
 });
 export default function Page() {

@@ -2,9 +2,10 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { neighborComplaintTemplate } from "@/data/complaintTemplate/neighborComplaintTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "पड़ोसी शिकायत पत्र | आवेदन पत्र",
-  description:
-    "पड़ोसी शिकायत पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर शोर, गंदगी या अन्य असुविधा संबंधी समस्याओं के लिए विनम्र और स्पष्ट तरीके से शिकायत करने का सही पत्र प्रारूप, तैयार नमूने और लिखने के आसान सुझाव दिए गए हैं, जिससे समस्या शांति से सुलझाई जा सके।",
+title:
+  "पड़ोसी शिकायत पत्र – शोर, गंदगी हेतु नमूना व प्रारूप",
+description:
+  "शोर, गंदगी या अन्य असुविधा के लिए पड़ोसी को विनम्र तरीके से शिकायत करने हेतु सही पत्र प्रारूप, तैयार नमूना और लिखने का तरीका यहाँ विस्तार से देखें।",
   path: "/letters/neighbor-complaint-letter",
 });
 export default function Page() {

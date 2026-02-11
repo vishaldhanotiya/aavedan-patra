@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { immediateResignationTemplate } from "@/data/resignationTemplate/immediateResignationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "तत्काल इस्तीफा पत्र | आवेदन पत्र",
+  title: "तत्काल इस्तीफा पत्र – बिना नोटिस प्रारूप व नमूना",
   description:
-    "तत्काल इस्तीफा पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर अचानक या आपात स्थिति में तुरंत नौकरी छोड़ने के लिए सरल, स्पष्ट और प्रोफेशनल इस्तीफा पत्र का सही प्रारूप, तैयार नमूना पत्र और लिखने के आसान सुझाव दिए गए हैं, जिससे आप बिना किसी भ्रम के सही तरीके से इस्तीफा दे सकें।",
+    "आपात स्थिति या अचानक करियर चेंज के लिए तत्काल इस्तीफा पत्र का प्रोफेशनल प्रारूप और नमूने। बिना नोटिस पीरियड के विनम्र और प्रभावी तरीके से इस्तीफा कैसे दें, यहाँ पूरा फॉर्मेट उपलब्ध है।",
   path: "/letters/immediate-resignation-letter",
 });
 export default function Page() {

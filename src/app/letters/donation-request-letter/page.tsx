@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { donationRequestTemplate } from "@/data/requestTemplate/donationRequestTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "दान हेतु अनुरोध पत्र | आवेदन पत्र",
+  title: "दान अनुरोध पत्र हिंदी में | चैरिटी और एनजीओ फंडरेजिंग प्रारूप",
   description:
-    "दान हेतु अनुरोध पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर चैरिटी, एनजीओ, सामाजिक कार्य और फंडरेज़िंग के लिए दान माँगने का सही पत्र प्रारूप, तैयार नमूने और लिखने के आसान व विनम्र सुझाव दिए गए हैं, जिससे आपका अनुरोध प्रभावी और भरोसेमंद बने।",
+    "दान मांगने के लिए प्रभावी अनुरोध पत्र कैसे लिखें? चैरिटी, एनजीओ, स्कूल, अस्पताल या सामाजिक कार्यों के लिए विनम्र और प्रोफेशनल दान अनुरोध पत्र का पूरा हिंदी प्रारूप, तैयार नमूने और आसान टिप्स इस पेज पर दिए गए हैं। आपका अनुरोध ज्यादा सफल और भरोसेमंद बने।",
   path: "/letters/donation-request-letter",
 });
 export default function Page() {

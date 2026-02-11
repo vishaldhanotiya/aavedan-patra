@@ -65,14 +65,7 @@ const dataMap: Record<string, any> = {
 export async function generateMetadata(props: PropsType): Promise<Metadata> {
   const { type } = await props.params;
 
-  const meta =
-    metaMap[type as string] ||
-    ({
-      title: "आवेदन पत्र | Application Letter in Hindi",
-      description:
-        "सभी प्रकार के आवेदन पत्र जैसे नौकरी, छुट्टी, लोन, एडमिशन और छात्रवृत्ति के हिंदी प्रारूप यहाँ उपलब्ध हैं।",
-    } as const);
-
+  const meta = metaMap[type as string];
   return createMetadata({
     title: meta.title,
     description: meta.description,

@@ -2,10 +2,8 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { businessMeetingInvitationTemplate } from "@/data/invitationTemplate/businessMeetingInvitationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "बिज़नेस मीटिंग निमंत्रण पत्र | आवेदन पत्र",
-  description:
-    "बिज़नेस मीटिंग के लिए निमंत्रण पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर क्लाइंट्स और सहकर्मियों के लिए औपचारिक बिज़नेस मीटिंग निमंत्रण पत्र का सही प्रारूप, तैयार नमूने और लिखने के आसान व प्रोफेशनल सुझाव दिए गए हैं, जिससे आपका मीटिंग इनविटेशन स्पष्ट और प्रभावी बन सके।",
-  path: "/letters/business-meeting-invitation-letter",
+title: "बिजनेस मीटिंग निमंत्रण पत्र हिंदी में | प्रारूप और नमूने",
+description: "बिजनेस मीटिंग के लिए औपचारिक निमंत्रण पत्र कैसे लिखें? इस पेज पर क्लाइंट मीटिंग, टीम मीटिंग और पार्टनर मीटिंग के लिए प्रोफेशनल हिंदी प्रारूप, तैयार नमूने और आसान टिप्स दिए गए हैं। स्पष्ट, प्रभावी और पॉलिश्ड बिजनेस इनविटेशन लेटर तुरंत लिखें।",  path: "/letters/business-meeting-invitation-letter",
 });
 export default function Page() {
   return (

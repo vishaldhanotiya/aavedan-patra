@@ -2,10 +2,11 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { permissionRequestTemplate } from "@/data/requestTemplate/permissionRequestTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "अनुमति हेतु अनुरोध पत्र | आवेदन पत्र",
-  description:
-    "अनुमति हेतु अनुरोध पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर स्कूल, कॉलेज, ऑफिस या अन्य कार्यों के लिए अनुमति माँगने का सही आवेदन पत्र प्रारूप, तैयार नमूने और लिखने के आसान व विनम्र तरीके दिए गए हैं, जिससे आपका अनुरोध स्पष्ट और आसानी से स्वीकार हो सके।",
-  path: "/letters/permission-request-letter",
+title:
+  "अनुमति पत्र – स्कूल व ऑफिस हेतु प्रारूप व नमूना",
+description:
+  "स्कूल, कॉलेज, ऑफिस या अन्य कार्यों के लिए अनुमति माँगने का सही अनुमति पत्र प्रारूप, तैयार नमूना और विनम्र लिखने का तरीका यहाँ विस्तार से देखें।",
+path: "/letters/permission-request-letter",
 });
 export default function Page() {
   return (

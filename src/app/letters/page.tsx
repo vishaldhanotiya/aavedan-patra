@@ -2,9 +2,9 @@ import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
 import { lettersCategory } from "@/data/category/lettersCategory";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "विभिन्न प्रकार के पत्र | आवेदन पत्र",
+  title: "त्यागपत्र, निमंत्रण, शिकायत पत्र – हिंदी प्रारूप व नमूने | आवेदन पत्र",
   description:
-    "विभिन्न प्रकार के पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर औपचारिक और अनौपचारिक पत्रों के सभी प्रकार, उनके सही प्रारूप, तैयार उदाहरण और लिखने के आसान तरीके दिए गए हैं, जिससे छात्र, अभिभावक और नौकरीपेशा लोग सही और प्रभावी पत्र लिख सकें।",
+    "नौकरी त्यागपत्र, जन्मदिन निमंत्रण, शिकायत और अनुरोध पत्र के तैयार हिंदी प्रारूप डाउनलोड करें। स्कूल, ऑफिस सभी के लिए।",
   path: "/letters",
 });
 export default function Page() {
