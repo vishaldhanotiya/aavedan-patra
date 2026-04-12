@@ -667,7 +667,7 @@ export function PillarTemplateDetailsPage({
               </div>
 
               {/* Related Templates */}
-              <div className="max-w-6xl mx-auto mt-16">
+              {/* <div className="max-w-6xl mx-auto mt-16">
                 <h2 className="text-3xl text-slate-900 dark:text-white mb-8 text-center">
                   {language === "en"
                     ? "Related Templates"
@@ -702,7 +702,7 @@ export function PillarTemplateDetailsPage({
                     );
                   })}
                 </div>
-              </div>
+              </div> */}
 
               {/* Related Blog Articles */}
               {/* <div className="max-w-6xl mx-auto mt-16">

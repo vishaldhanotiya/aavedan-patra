@@ -1,5 +1,5 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
-import { fresherSoftwareJobTemplate } from "@/data/jobTemplate/fresherSoftwareJobTemplate";
+import { mobileDeveloperJobTemplate } from "@/data/jobTemplate/mobileDeveloperJobTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title: "मोबाइल डेवलपर नौकरी के लिए आवेदन पत्र – हिंदी प्रारूप व नमूना",
@@ -10,7 +10,7 @@ export const metadata = generateMetadata({
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage singleTemplate data={fresherSoftwareJobTemplate} />
+      <PillarTemplateDetailsPage singleTemplate data={mobileDeveloperJobTemplate} />
     </>
   );
 }

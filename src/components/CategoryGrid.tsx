@@ -1,16 +1,13 @@
 "use client";
 import { motion } from "motion/react";
-import {
-  ArrowRight,
-} from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { heroString } from "@/data/hero";
 import { iconMap } from "./icon";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export function CategoryGrid() {
-
-  const {language} =useLanguage()
+  const { language } = useLanguage();
   const categories = [
     {
       icon: "FileText",
@@ -103,33 +100,32 @@ export function CategoryGrid() {
                 whileHover={{ scale: 1.05, y: -5 }}
                 className="group relative"
               >
-                                    <Link href={`${category.href}`}>
-
-                {/* Glass Card */}
-                <div className="relative bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-8 transition-all duration-300 group-hover:bg-white/90 dark:group-hover:bg-white/10 group-hover:border-slate-300 dark:group-hover:border-white/30 overflow-hidden group-hover:shadow-2xl">
-                  {/* Gradient glow on hover */}
-                  <div
-                    className={`absolute inset-0 bg-gradient-to-br ${category.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
-                  />
-
-                  <div className="relative z-10">
-                    {/* Icon */}
+                <Link href={`${category.href}`}>
+                  {/* Glass Card */}
+                  <div className="relative bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-8 transition-all duration-300 group-hover:bg-white/90 dark:group-hover:bg-white/10 group-hover:border-slate-300 dark:group-hover:border-white/30 overflow-hidden group-hover:shadow-2xl">
+                    {/* Gradient glow on hover */}
                     <div
-                      className={`w-16 h-16 mb-6 rounded-2xl bg-gradient-to-br ${category.gradient} flex items-center justify-center shadow-lg`}
-                    >
-                      <Icons className="w-8 h-8 text-white" />
-                    </div>
+                      className={`absolute inset-0 bg-gradient-to-br ${category.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
+                    />
 
-                    {/* Content */}
-                    <h3 className="text-2xl text-slate-900 dark:text-white mb-3">
-                      {category.title}
-                    </h3>
-                    <p className="text-slate-600 dark:text-white/60 mb-6">
-                      {category.description}
-                    </p>
+                    <div className="relative z-10">
+                      {/* Icon */}
+                      <div
+                        className={`w-16 h-16 mb-6 rounded-2xl bg-gradient-to-br ${category.gradient} flex items-center justify-center shadow-lg`}
+                      >
+                        <Icons className="w-8 h-8 text-white" />
+                      </div>
 
-                    {/* Arrow */}
-                    {/* <Link
+                      {/* Content */}
+                      <h3 className="text-2xl text-slate-900 dark:text-white mb-3">
+                        {category.title}
+                      </h3>
+                      <p className="text-slate-600 dark:text-white/60 mb-6">
+                        {category.description}
+                      </p>
+
+                      {/* Arrow */}
+                      {/* <Link
                     key={category.title}
                     href={category?.href +"/"+ category.slug || "/application"}
                   > */}
@@ -137,8 +133,8 @@ export function CategoryGrid() {
                         <span>{heroString.explore[language]}</span>
                         <ArrowRight className="w-4 h-4" />
                       </div>
+                    </div>
                   </div>
-                </div>
                 </Link>
               </motion.div>
             );
