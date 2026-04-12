@@ -3,22 +3,29 @@
  * Includes: Personal Loan, Business Loan, Education Loan, Home Loan, Car Loan, Emergency Loan
  */
 
-
 export const emergencyLoanTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Loan Applications", hi: "ऋण आवेदन", slug:"/applications/loan" },
-    template: { en: "Loan Application Formats", hi: "लोन आवेदन प्रारूप", slug:"" }
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Loan Applications",
+      hi: "ऋण आवेदन",
+      slug: "/applications/loan",
+    },
+    template: {
+      en: "Loan Application Formats",
+      hi: "लोन आवेदन प्रारूप",
+      slug: "",
+    },
   },
 
   title: {
-    en: "Loan Application Formats for All Purposes",
-    hi: "सभी प्रकार के लोन के लिए आवेदन प्रारूप"
+    en: "Emergency Loan Request Letter | Format, Samples & How to Write",
+    hi: "आपातकालीन लोन के लिए अनुरोध पत्र | आवेदन कैसे लिखें",
   },
 
   subtitle: {
-    en: "Find ready-made formats for Personal Loan, Home Loan, Education Loan, Business Loan, Car Loan and Emergency Loan applications.",
-    hi: "पर्सनल लोन, होम लोन, एजुकेशन लोन, बिजनेस लोन, कार लोन और इमरजेंसी लोन के लिए तैयार आवेदन प्रारूप।"
+    en: "Learn how to write an emergency loan request letter for urgent financial needs such as medical emergencies or personal crises. This page includes the correct format, ready-to-use sample letters, key details to mention, and tips to make your request clear, genuine, and more likely to be approved quickly.",
+    hi: "आपातकालीन लोन के लिए अनुरोध पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है। इस पेज पर चिकित्सा या व्यक्तिगत संकट के समय तुरंत वित्तीय सहायता पाने के लिए सही प्रारूप, तैयार नमूना पत्र, आवश्यक जानकारी और आवेदन को स्पष्ट व प्रभावी बनाने के महत्वपूर्ण सुझाव दिए गए हैं, जिससे आपका अनुरोध जल्दी स्वीकृत हो सके।",
   },
 
   category: { en: "Loan Applications", hi: "ऋण आवेदन" },
@@ -28,8 +35,6 @@ export const emergencyLoanTemplate = {
   // VARIATIONS (6 loan types)
   // ----------------------------------------------------
   variations: [
-    
-
     // ----------------------------------------------------
     // 6. EMERGENCY LOAN APPLICATION
     // ----------------------------------------------------
@@ -37,15 +42,15 @@ export const emergencyLoanTemplate = {
       id: "emergencyLoan",
       title: {
         en: "Emergency Loan Request Letter",
-        hi: "आपातकालीन लोन अनुरोध पत्र"
+        hi: "आपातकालीन लोन अनुरोध पत्र",
       },
       description: {
         en: "Format for requesting urgent financial help due to medical or personal crisis.",
-        hi: "चिकित्सा या व्यक्तिगत संकट में आपातकालीन लोन का अनुरोध करने का प्रारूप।"
+        hi: "चिकित्सा या व्यक्तिगत संकट में आपातकालीन लोन का अनुरोध करने का प्रारूप।",
       },
       bestFor: {
         en: "Medical emergencies, urgent personal needs",
-        hi: "चिकित्सा आपातकाल, तात्कालिक व्यक्तिगत आवश्यकता"
+        hi: "चिकित्सा आपातकाल, तात्कालिक व्यक्तिगत आवश्यकता",
       },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -103,9 +108,9 @@ Sincerely,
 सादर,
 [Your Name]
 [Mobile Number]
-[Email ID]`
-      }
-    }
+[Email ID]`,
+      },
+    },
   ],
 
   // ----------------------------------------------------
@@ -114,40 +119,40 @@ Sincerely,
   howToWrite: {
     title: {
       en: "Tips to Write a Perfect Loan Application",
-      hi: "सही लोन आवेदन लिखने के टिप्स"
+      hi: "सही लोन आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
           en: "Mention the exact loan amount and reason clearly.",
-          hi: "लोन राशि और कारण को स्पष्ट रूप से लिखें।"
-        }
+          hi: "लोन राशि और कारण को स्पष्ट रूप से लिखें।",
+        },
       },
       {
         text: {
           en: "Provide accurate financial and employment details.",
-          hi: "सही वित्तीय और रोजगार विवरण प्रदान करें।"
-        }
+          hi: "सही वित्तीय और रोजगार विवरण प्रदान करें।",
+        },
       },
       {
         text: {
           en: "Maintain a formal and respectful tone.",
-          hi: "औपचारिक और विनम्र भाषा का उपयोग करें।"
-        }
+          hi: "औपचारिक और विनम्र भाषा का उपयोग करें।",
+        },
       },
       {
         text: {
           en: "Attach all required supporting documents.",
-          hi: "सभी आवश्यक दस्तावेज संलग्न करें।"
-        }
+          hi: "सभी आवश्यक दस्तावेज संलग्न करें।",
+        },
       },
       {
         text: {
           en: "Keep the letter simple, clear and direct.",
-          hi: "पत्र को सरल, स्पष्ट और सीधा रखें।"
-        }
-      }
-    ]
+          hi: "पत्र को सरल, स्पष्ट और सीधा रखें।",
+        },
+      },
+    ],
   },
 
   // ----------------------------------------------------
@@ -155,23 +160,41 @@ Sincerely,
   // ----------------------------------------------------
   relatedTemplates: [
     {
-      title: { en: "Application for Bank Statement", hi: "बैंक स्टेटमेंट के लिए आवेदन" },
-      description: { en: "Useful for banking-related requests.", hi: "बैंकिंग संबंधित अनुरोधों के लिए उपयोगी।" },
-      icon: 'FileText',
-      link: "/templates/bank-statement"
+      title: {
+        en: "Application for Bank Statement",
+        hi: "बैंक स्टेटमेंट के लिए आवेदन",
+      },
+      description: {
+        en: "Useful for banking-related requests.",
+        hi: "बैंकिंग संबंधित अनुरोधों के लिए उपयोगी।",
+      },
+      icon: "FileText",
+      link: "/templates/bank-statement",
     },
     {
-      title: { en: "Application for ATM Card Issue", hi: "एटीएम कार्ड जारी करने के लिए आवेदन" },
-      description: { en: "Format for applying for a new ATM card.", hi: "नया एटीएम कार्ड पाने के लिए प्रारूप।" },
-      icon: 'Briefcase',
-      link: "/templates/atm-card"
+      title: {
+        en: "Application for ATM Card Issue",
+        hi: "एटीएम कार्ड जारी करने के लिए आवेदन",
+      },
+      description: {
+        en: "Format for applying for a new ATM card.",
+        hi: "नया एटीएम कार्ड पाने के लिए प्रारूप।",
+      },
+      icon: "Briefcase",
+      link: "/templates/atm-card",
     },
     {
-      title: { en: "Application for Address Change in Bank", hi: "बैंक में पता बदलने के लिए आवेदन" },
-      description: { en: "Update address details in bank records.", hi: "बैंक रिकॉर्ड में पता अपडेट करने हेतु।" },
-      icon: 'GraduationCap',
-      link: "/templates/address-change"
-    }
+      title: {
+        en: "Application for Address Change in Bank",
+        hi: "बैंक में पता बदलने के लिए आवेदन",
+      },
+      description: {
+        en: "Update address details in bank records.",
+        hi: "बैंक रिकॉर्ड में पता अपडेट करने हेतु।",
+      },
+      icon: "GraduationCap",
+      link: "/templates/address-change",
+    },
   ],
 
   // ----------------------------------------------------
@@ -179,23 +202,41 @@ Sincerely,
   // ----------------------------------------------------
   blogArticles: [
     {
-      title: { en: "How to Write a Loan Application to Bank", hi: "बैंक को लोन आवेदन कैसे लिखें" },
-      excerpt: { en: "Simple tips to write a perfect bank loan application.", hi: "सही बैंक लोन आवेदन लिखने के आसान टिप्स।" },
+      title: {
+        en: "How to Write a Loan Application to Bank",
+        hi: "बैंक को लोन आवेदन कैसे लिखें",
+      },
+      excerpt: {
+        en: "Simple tips to write a perfect bank loan application.",
+        hi: "सही बैंक लोन आवेदन लिखने के आसान टिप्स।",
+      },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/how-to-write-loan-application"
+      link: "/blog/how-to-write-loan-application",
     },
     {
-      title: { en: "Documents Required for Loan Approval", hi: "लोन स्वीकृति के लिए आवश्यक दस्तावेज़" },
-      excerpt: { en: "Checklist for all loan types.", hi: "सभी प्रकार के लोन के लिए दस्तावेज़ चेकलिस्ट।" },
+      title: {
+        en: "Documents Required for Loan Approval",
+        hi: "लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
+      },
+      excerpt: {
+        en: "Checklist for all loan types.",
+        hi: "सभी प्रकार के लोन के लिए दस्तावेज़ चेकलिस्ट।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/loan-documents"
+      link: "/blog/loan-documents",
     },
     {
-      title: { en: "Common Mistakes in Loan Applications", hi: "लोन आवेदनों में सामान्य गलतियाँ" },
-      excerpt: { en: "Avoid mistakes to increase approval chances.", hi: "स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।" },
+      title: {
+        en: "Common Mistakes in Loan Applications",
+        hi: "लोन आवेदनों में सामान्य गलतियाँ",
+      },
+      excerpt: {
+        en: "Avoid mistakes to increase approval chances.",
+        hi: "स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
+      },
       readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
-      link: "/blog/loan-application-mistakes"
-    }
+      link: "/blog/loan-application-mistakes",
+    },
   ],
 
   // ----------------------------------------------------
@@ -203,32 +244,44 @@ Sincerely,
   // ----------------------------------------------------
   faqs: [
     {
-      question: { en: "How long should a loan application be?", hi: "लोन आवेदन कितना लंबा होना चाहिए?" },
+      question: {
+        en: "How long should a loan application be?",
+        hi: "लोन आवेदन कितना लंबा होना चाहिए?",
+      },
       answer: {
         en: "One page is enough. Keep the content clear and precise.",
-        hi: "एक पेज पर्याप्त है। सामग्री स्पष्ट और संक्षिप्त रखें।"
-      }
+        hi: "एक पेज पर्याप्त है। सामग्री स्पष्ट और संक्षिप्त रखें।",
+      },
     },
     {
-      question: { en: "Should I mention my account number?", hi: "क्या मुझे अपना खाता नंबर लिखना चाहिए?" },
+      question: {
+        en: "Should I mention my account number?",
+        hi: "क्या मुझे अपना खाता नंबर लिखना चाहिए?",
+      },
       answer: {
         en: "Yes, always mention your account number for faster processing.",
-        hi: "हाँ, तेज़ प्रक्रिया के लिए खाता संख्या अवश्य लिखें।"
-      }
+        hi: "हाँ, तेज़ प्रक्रिया के लिए खाता संख्या अवश्य लिखें।",
+      },
     },
     {
-      question: { en: "Is it necessary to attach income proof?", hi: "क्या आय प्रमाण संलग्न करना आवश्यक है?" },
+      question: {
+        en: "Is it necessary to attach income proof?",
+        hi: "क्या आय प्रमाण संलग्न करना आवश्यक है?",
+      },
       answer: {
         en: "Yes, income proof is mandatory for loan approval.",
-        hi: "हाँ, लोन स्वीकृति के लिए आय प्रमाण अनिवार्य है।"
-      }
+        hi: "हाँ, लोन स्वीकृति के लिए आय प्रमाण अनिवार्य है।",
+      },
     },
     {
-      question: { en: "How soon can a loan be approved?", hi: "लोन कितने समय में स्वीकृत हो सकता है?" },
+      question: {
+        en: "How soon can a loan be approved?",
+        hi: "लोन कितने समय में स्वीकृत हो सकता है?",
+      },
       answer: {
         en: "Depending on the bank, it may take 3–7 working days.",
-        hi: "बैंक के अनुसार इसमें 3–7 कार्य दिवस लग सकते हैं।"
-      }
-    }
-  ]
+        hi: "बैंक के अनुसार इसमें 3–7 कार्य दिवस लग सकते हैं।",
+      },
+    },
+  ],
 };

@@ -19,13 +19,13 @@ export const personalLoanTemplate1 = {
   },
 
   title: {
-        en: "Personal Loan Application to Bank",
-        hi: "बैंक में पर्सनल लोन हेतु आवेदन",
+    en: "Personal Loan Application to Bank | Format, Samples & How to Write",
+    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें"
   },
 
   subtitle: {
-    en: "Find ready-made formats for Personal Loan, Home Loan, Education Loan, Business Loan, Car Loan and Emergency Loan applications.",
-    hi: "पर्सनल लोन, होम लोन, एजुकेशन लोन, बिजनेस लोन, कार लोन और इमरजेंसी लोन के लिए तैयार आवेदन प्रारूप।",
+    en: "Learn how to write a personal loan application to a bank for medical, family, or other personal needs. This page includes the correct format, ready-to-use sample applications, key details required by banks, and useful tips to make your loan request clear, professional, and more likely to be approved.",
+    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है। इस पेज पर चिकित्सा, पारिवारिक या अन्य व्यक्तिगत आवश्यकताओं के लिए लोन लेने हेतु सही प्रारूप, तैयार नमूना आवेदन पत्र, बैंक द्वारा मांगी जाने वाली आवश्यक जानकारी और आवेदन को प्रभावी व स्पष्ट बनाने के महत्वपूर्ण सुझाव दिए गए हैं।"
   },
 
   category: { en: "Loan Applications", hi: "ऋण आवेदन" },

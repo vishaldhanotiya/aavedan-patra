@@ -12,13 +12,13 @@ export const homeLoanTemplate = {
   },
 
   title: {
-    en: "Loan Application Formats for All Purposes",
-    hi: "सभी प्रकार के लोन के लिए आवेदन प्रारूप"
+    en: "Home Loan Application | Format, Samples & How to Write",
+    hi: "होम लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें"
   },
 
   subtitle: {
-    en: "Find ready-made formats for Personal Loan, Home Loan, Education Loan, Business Loan, Car Loan and Emergency Loan applications.",
-    hi: "पर्सनल लोन, होम लोन, एजुकेशन लोन, बिजनेस लोन, कार लोन और इमरजेंसी लोन के लिए तैयार आवेदन प्रारूप।"
+    en: "Learn how to write a home loan application for purchasing or constructing a house. This page includes the correct format, ready-to-use sample applications, important details required by banks or housing finance companies, and tips to make your loan request clear and professionally written.",
+    hi: "होम लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है। इस पेज पर घर खरीदने या निर्माण के लिए लोन लेने हेतु सही प्रारूप, तैयार नमूना आवेदन पत्र, बैंक या हाउसिंग फाइनेंस कंपनियों द्वारा मांगी जाने वाली आवश्यक जानकारी और आवेदन को प्रभावी बनाने के महत्वपूर्ण सुझाव दिए गए हैं।"
   },
 
   category: { en: "Loan Applications", hi: "ऋण आवेदन" },

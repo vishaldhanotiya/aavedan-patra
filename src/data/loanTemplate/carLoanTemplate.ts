@@ -11,14 +11,14 @@ export const carLoanTemplate = {
   },
 
   title: {
-    en: "Loan Application Formats for All Purposes",
-    hi: "सभी प्रकार के लोन के लिए आवेदन प्रारूप"
+    en: "Car Loan Application | Format, Samples & How to Write",
+    hi: "कार लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें"
   },
 
   subtitle: {
-    en: "Find ready-made formats for Personal Loan, Home Loan, Education Loan, Business Loan, Car Loan and Emergency Loan applications.",
-    hi: "पर्सनल लोन, होम लोन, एजुकेशन लोन, बिजनेस लोन, कार लोन और इमरजेंसी लोन के लिए तैयार आवेदन प्रारूप।"
-  },
+   en: "Learn how to write a car loan application for purchasing a new or used vehicle. This page includes the correct format, ready-to-use sample applications, important details required by banks or financial institutions, and useful tips to make your loan request clear and professionally written.",
+    hi: "कार लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है। इस पेज पर नई या पुरानी कार खरीदने के लिए लोन लेने हेतु सही प्रारूप, तैयार नमूना आवेदन पत्र, बैंक द्वारा मांगी जाने वाली आवश्यक जानकारी और आवेदन को प्रभावी बनाने के महत्वपूर्ण सुझाव दिए गए हैं।"
+    },
 
   category: { en: "Loan Applications", hi: "ऋण आवेदन" },
   updatedDate: "January 2025",
