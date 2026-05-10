@@ -6,14 +6,13 @@ export const sportsScholarshipTemplate = {
     template: { en: "Scholarship Application Letters", hi: "छात्रवृत्ति आवेदन पत्र", slug:"" }
   },
 
-  title: { 
-    en: "Scholarship Application Letters", 
-    hi: "छात्रवृत्ति आवेदन पत्र" 
+ title: {
+    en: "Sports Scholarship Application Letter",
+    hi: "खेल छात्रवृत्ति आवेदन पत्र"
   },
-
-  subtitle: { 
-    en: "Ready-made formats for merit-based, need-based, government, sports, private, and research grant applications.",
-    hi: "मेधावी, आर्थिक, सरकारी, खेल, निजी और अनुसंधान अनुदान आवेदन के तैयार प्रारूप।"
+  subtitle: {
+    en: "Pre-designed formats for athlete scholarship, sports achievement grant, state/national level player funding, and sports quota education scholarship applications.",
+    hi: "खिलाड़ी छात्रवृत्ति, खेल उपलब्धि अनुदान, राज्य/राष्ट्रीय स्तर के खिलाड़ी निधि और खेल कोटा शैक्षिक छात्रवृत्ति आवेदन के पूर्व-प्रारूपित प्रारूप।"
   },
 
   category: { 
@@ -107,33 +106,83 @@ Sincerely,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "Tips to Win a Scholarship", hi: "छात्रवृत्ति पाने के टिप्स" },
-      excerpt: { en: "Improve your chances with these proven strategies.", hi: "सिद्ध रणनीतियों के साथ अपनी संभावनाएँ बढ़ाएँ।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/how-to-win-scholarship"
+blogArticles: [
+  {
+    title: {
+      en: "How to Apply for a Sports Scholarship",
+      hi: "स्पोर्ट्स छात्रवृत्ति के लिए आवेदन कैसे करें",
     },
-    {
-      title: { en: "Documents Required for Scholarship", hi: "छात्रवृत्ति हेतु आवश्यक दस्तावेज" },
-      excerpt: { en: "Checklist for quick approval.", hi: "त्वरित स्वीकृति के लिए जरूरी दस्तावेज़।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/scholarship-documents"
-    }
-  ],
+    excerpt: {
+      en: "Step-by-step guide to applying for sports scholarships successfully.",
+      hi: "स्पोर्ट्स छात्रवृत्ति के लिए सफलतापूर्वक आवेदन करने की चरणबद्ध गाइड।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/sports-scholarship-apply",
+  },
+  {
+    title: {
+      en: "Documents Required for Sports Scholarship",
+      hi: "स्पोर्ट्स छात्रवृत्ति के लिए आवश्यक दस्तावेज",
+    },
+    excerpt: {
+      en: "Complete checklist of documents needed for sports scholarship applications.",
+      hi: "स्पोर्ट्स छात्रवृत्ति आवेदन के लिए आवश्यक दस्तावेजों की पूरी चेकलिस्ट।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/sports-scholarship-documents",
+  },
+],
 
-  faqs: [
-    {
-      question: { en: "Can I apply for multiple scholarships?", hi: "क्या मैं कई छात्रवृत्तियों के लिए आवेदन कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, unless restricted by the institution.", hi: "हाँ, जब तक संस्था द्वारा प्रतिबंधित न किया गया हो।" }
+faqs: [
+  {
+    question: {
+      en: "What is a Sports Scholarship?",
+      hi: "स्पोर्ट्स छात्रवृत्ति क्या है?",
     },
-    {
-      question: { en: "Do I need income proof for need-based scholarships?", hi: "नीड-बेस्ड छात्रवृत्ति के लिए आय प्रमाण जरूरी है?" },
-      answer: { en: "Yes, income certificate is mandatory.", hi: "हाँ, आय प्रमाणपत्र आवश्यक है।" }
+    answer: {
+      en: "A sports scholarship is financial assistance provided to students with outstanding sports achievements and talent.",
+      hi: "स्पोर्ट्स छात्रवृत्ति उत्कृष्ट खेल उपलब्धियों और प्रतिभा वाले छात्रों को दी जाने वाली वित्तीय सहायता है।",
     },
-    {
-      question: { en: "Are private scholarships reliable?", hi: "क्या निजी छात्रवृत्तियाँ विश्वसनीय होती हैं?" },
-      answer: { en: "Yes, if offered by registered organizations or foundations.", hi: "हाँ, यदि वे पंजीकृत संगठन या फाउंडेशन द्वारा दी जाती हों।" }
-    }
-  ]
+  },
+  {
+    question: {
+      en: "Who can apply for a Sports Scholarship?",
+      hi: "स्पोर्ट्स छात्रवृत्ति के लिए कौन आवेदन कर सकता है?",
+    },
+    answer: {
+      en: "Students with recognized achievements in sports competitions at school, state, or national levels can apply.",
+      hi: "स्कूल, राज्य या राष्ट्रीय स्तर की खेल प्रतियोगिताओं में उपलब्धि प्राप्त करने वाले छात्र आवेदन कर सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Which documents are required for a Sports Scholarship?",
+      hi: "स्पोर्ट्स छात्रवृत्ति के लिए कौन-कौन से दस्तावेज आवश्यक हैं?",
+    },
+    answer: {
+      en: "Usually sports certificates, academic records, ID proof, photographs, and participation certificates are required.",
+      hi: "आमतौर पर खेल प्रमाणपत्र, शैक्षणिक रिकॉर्ड, पहचान प्रमाण, फोटो और भागीदारी प्रमाणपत्र आवश्यक होते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Can I apply for multiple Sports Scholarships?",
+      hi: "क्या मैं कई स्पोर्ट्स छात्रवृत्तियों के लिए आवेदन कर सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, students can apply for multiple sports scholarships if allowed by the institution or organization.",
+      hi: "हाँ, यदि संस्था या संगठन अनुमति देता है तो छात्र कई स्पोर्ट्स छात्रवृत्तियों के लिए आवेदन कर सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Can I apply for a Sports Scholarship online?",
+      hi: "क्या मैं स्पोर्ट्स छात्रवृत्ति के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, many schools, colleges, universities, and sports organizations provide online application facilities.",
+      hi: "हाँ, कई स्कूल, कॉलेज, विश्वविद्यालय और खेल संगठन ऑनलाइन आवेदन की सुविधा प्रदान करते हैं।",
+    },
+  },
+],
 };

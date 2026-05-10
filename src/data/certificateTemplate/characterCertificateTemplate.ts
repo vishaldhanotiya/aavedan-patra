@@ -1,25 +1,30 @@
-
-
 export const characterCertificateTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Certificate Requests", hi: "प्रमाणपत्र आवेदन", slug:"/applications/certificate-request" },
-    template: { en: "Certificate Request Letters", hi: "प्रमाणपत्र अनुरोध पत्र", slug:"" }
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Certificate Requests",
+      hi: "प्रमाणपत्र आवेदन",
+      slug: "/applications/certificate-request",
+    },
+    template: {
+      en: "Certificate Request Letters",
+      hi: "प्रमाणपत्र अनुरोध पत्र",
+      slug: "",
+    },
   },
 
-  title: { 
-    en: "Certificate Request Letters", 
-    hi: "प्रमाणपत्र अनुरोध पत्र" 
+  title: {
+    en: "Character Certificate Request Application",
+    hi: "चरित्र प्रमाणपत्र अनुरोध आवेदन पत्र",
+  },
+  subtitle: {
+    en: "Ready-made formats for character certificate request from school, college, employer, or police for higher education, job, visa, and other official purposes.",
+    hi: "स्कूल, कॉलेज, नियोक्ता या पुलिस से उच्च शिक्षा, नौकरी, वीजा और अन्य आधिकारिक कार्यों हेतु चरित्र प्रमाणपत्र अनुरोध के तैयार प्रारूप।",
   },
 
-  subtitle: { 
-    en: "Ready-made formats for experience, income, TC, bonafide, character, and caste certificate applications.",
-    hi: "अनुभव, आय, टीसी, बोनाफाइड, चरित्र और जाति प्रमाणपत्र आवेदन के तैयार प्रारूप।" 
-  },
-
-  category: { 
-    en: "Certificate Applications", 
-    hi: "प्रमाणपत्र आवेदन" 
+  category: {
+    en: "Certificate Applications",
+    hi: "प्रमाणपत्र आवेदन",
   },
 
   updatedDate: "January 2025",
@@ -27,17 +32,17 @@ export const characterCertificateTemplate = {
   variations: [
     {
       id: "characterCertificate",
-      title: { 
-        en: "Character Certificate Request", 
-        hi: "चरित्र प्रमाणपत्र हेतु आवेदन" 
+      title: {
+        en: "Character Certificate Request",
+        hi: "चरित्र प्रमाणपत्र हेतु आवेदन",
       },
       description: {
         en: "Request letter for issuing character certificate.",
-        hi: "चरित्र प्रमाणपत्र जारी करने हेतु आवेदन पत्र।"
+        hi: "चरित्र प्रमाणपत्र जारी करने हेतु आवेदन पत्र।",
       },
-      bestFor: { 
-        en: "Job applications, admission, verification", 
-        hi: "नौकरी आवेदन, प्रवेश, सत्यापन" 
+      bestFor: {
+        en: "Job applications, admission, verification",
+        hi: "नौकरी आवेदन, प्रवेश, सत्यापन",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -85,70 +90,155 @@ Sincerely,
 [रोल नंबर/कर्मचारी संख्या]
 [कक्षा/विभाग, यदि लागू हो]
 [संपर्क नंबर]
-[तारीख]`
-      }
-    }
+[तारीख]`,
+      },
+    },
   ],
 
   howToWrite: {
-    title: { en: "How to Write a Certificate Request Letter", hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें" },
+    title: {
+      en: "How to Write a Certificate Request Letter",
+      hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें",
+    },
     tips: [
-      { text: { en: "Mention your purpose clearly.", hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।" } },
-      { text: { en: "Attach required documents.", hi: "आवश्यक दस्तावेज संलग्न करें।" } },
+      {
+        text: {
+          en: "Mention your purpose clearly.",
+          hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Attach required documents.",
+          hi: "आवश्यक दस्तावेज संलग्न करें।",
+        },
+      },
       { text: { en: "Keep the tone formal.", hi: "लहजे को औपचारिक रखें।" } },
-      { text: { en: "Include your ID/enrollment number.", hi: "अपना आईडी/नामांकन नंबर जोड़ें।" } },
-      { text: { en: "Keep letter short and clear.", hi: "पत्र को छोटा और स्पष्ट रखें।" } }
-    ]
+      {
+        text: {
+          en: "Include your ID/enrollment number.",
+          hi: "अपना आईडी/नामांकन नंबर जोड़ें।",
+        },
+      },
+      {
+        text: {
+          en: "Keep letter short and clear.",
+          hi: "पत्र को छोटा और स्पष्ट रखें।",
+        },
+      },
+    ],
   },
 
   relatedTemplates: [
     {
       title: { en: "Address Proof Letter", hi: "पते का प्रमाण पत्र" },
-      description: { en: "For verifying residence details.", hi: "निवास विवरण सत्यापन हेतु पत्र।" },
-      icon: 'FileText',
-      link: "/templates/address-proof"
+      description: {
+        en: "For verifying residence details.",
+        hi: "निवास विवरण सत्यापन हेतु पत्र।",
+      },
+      icon: "FileText",
+      link: "/templates/address-proof",
     },
     {
-      title: { en: "ID Proof Request Letter", hi: "पहचान प्रमाणपत्र हेतु आवेदन" },
-      description: { en: "For official ID verification letters.", hi: "आधिकारिक पहचान प्रमाण हेतु पत्र।" },
-      icon: 'Briefcase',
-      link: "/templates/id-proof"
+      title: {
+        en: "ID Proof Request Letter",
+        hi: "पहचान प्रमाणपत्र हेतु आवेदन",
+      },
+      description: {
+        en: "For official ID verification letters.",
+        hi: "आधिकारिक पहचान प्रमाण हेतु पत्र।",
+      },
+      icon: "Briefcase",
+      link: "/templates/id-proof",
     },
     {
       title: { en: "NOC Application Letter", hi: "एनओसी आवेदन पत्र" },
-      description: { en: "Request for No Objection Certificate.", hi: "एनओसी के लिए आवेदन।" },
-      icon: 'GraduationCap',
-      link: "/templates/noc-application"
-    }
+      description: {
+        en: "Request for No Objection Certificate.",
+        hi: "एनओसी के लिए आवेदन।",
+      },
+      icon: "GraduationCap",
+      link: "/templates/noc-application",
+    },
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to Request Official Certificates", hi: "आधिकारिक प्रमाणपत्र कैसे प्राप्त करें" },
-      excerpt: { en: "Step-by-step guide for applying certificates.", hi: "प्रमाणपत्र आवेदन के लिए चरणबद्ध गाइड।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/get-certificates"
+blogArticles: [
+  {
+    title: {
+      en: "How to Apply for a Character Certificate",
+      hi: "चरित्र प्रमाणपत्र के लिए आवेदन कैसे करें",
     },
-    {
-      title: { en: "Important Documents for Certificate Applications", hi: "प्रमाणपत्र आवेदन के लिए आवश्यक दस्तावेज" },
-      excerpt: { en: "Checklist for smooth application process.", hi: "सहज आवेदन प्रक्रिया के लिए चेकलिस्ट।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/certificate-documents"
-    }
-  ],
+    excerpt: {
+      en: "Step-by-step guide to applying for a character certificate online or offline.",
+      hi: "चरित्र प्रमाणपत्र के लिए ऑनलाइन या ऑफलाइन आवेदन करने की चरणबद्ध गाइड।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/character-certificate-apply",
+  },
+  {
+    title: {
+      en: "Documents Required for Character Certificate",
+      hi: "चरित्र प्रमाणपत्र के लिए आवश्यक दस्तावेज",
+    },
+    excerpt: {
+      en: "Complete checklist of documents needed for character certificate applications.",
+      hi: "चरित्र प्रमाणपत्र आवेदन के लिए आवश्यक दस्तावेजों की पूरी चेकलिस्ट।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/character-certificate-documents",
+  },
+],
 
-  faqs: [
-    {
-      question: { en: "How long does it take to get a certificate?", hi: "प्रमाणपत्र प्राप्त करने में कितना समय लगता है?" },
-      answer: { en: "It depends on the institution—usually 2-7 days.", hi: "संस्था पर निर्भर करता है—आमतौर पर 2-7 दिन।" }
+faqs: [
+  {
+    question: {
+      en: "What is a Character Certificate?",
+      hi: "चरित्र प्रमाणपत्र क्या है?",
     },
-    {
-      question: { en: "Are documents required for all certificates?", hi: "क्या सभी प्रमाणपत्रों के लिए दस्तावेज जरूरी हैं?" },
-      answer: { en: "Yes, supporting documents are usually required.", hi: "हाँ, सहायक दस्तावेज आमतौर पर आवश्यक होते हैं।" }
+    answer: {
+      en: "A character certificate is an official document that certifies a person's good behavior and moral character.",
+      hi: "चरित्र प्रमाणपत्र एक आधिकारिक दस्तावेज है जो किसी व्यक्ति के अच्छे आचरण और नैतिक चरित्र को प्रमाणित करता है।",
     },
-    {
-      question: { en: "Can I apply online?", hi: "क्या मैं ऑनलाइन आवेदन कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, many institutions provide online application options.", hi: "हाँ, कई संस्थाएँ ऑनलाइन आवेदन की सुविधा देती हैं।" }
-    }
-  ]
+  },
+  {
+    question: {
+      en: "Who can apply for a Character Certificate?",
+      hi: "चरित्र प्रमाणपत्र के लिए कौन आवेदन कर सकता है?",
+    },
+    answer: {
+      en: "Students, employees, and citizens who need proof of good conduct can apply for a character certificate.",
+      hi: "छात्र, कर्मचारी और अच्छे आचरण का प्रमाण चाहने वाले नागरिक चरित्र प्रमाणपत्र के लिए आवेदन कर सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Which documents are required for a Character Certificate?",
+      hi: "चरित्र प्रमाणपत्र के लिए कौन-कौन से दस्तावेज आवश्यक हैं?",
+    },
+    answer: {
+      en: "Usually ID proof, address proof, passport-size photographs, and application form are required.",
+      hi: "आमतौर पर पहचान पत्र, पता प्रमाण, पासपोर्ट साइज फोटो और आवेदन पत्र आवश्यक होते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "How long does it take to get a Character Certificate?",
+      hi: "चरित्र प्रमाणपत्र प्राप्त करने में कितना समय लगता है?",
+    },
+    answer: {
+      en: "The processing time generally ranges from 3 to 15 working days depending on the authority.",
+      hi: "प्राधिकरण के अनुसार प्रक्रिया में आमतौर पर 3 से 15 कार्य दिवस लगते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Can I apply for a Character Certificate online?",
+      hi: "क्या मैं चरित्र प्रमाणपत्र के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, many schools, colleges, and government portals provide online application facilities.",
+      hi: "हाँ, कई स्कूल, कॉलेज और सरकारी पोर्टल ऑनलाइन आवेदन की सुविधा प्रदान करते हैं।",
+    },
+  },
+],
 };
