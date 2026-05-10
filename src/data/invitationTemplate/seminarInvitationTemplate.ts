@@ -5,16 +5,15 @@ export const seminarInvitationTemplate = {
     subcategory: { en: "Invitation Letters", hi: "निमंत्रण पत्र",slug:"/letters/invitation"  },
     template: { en: "Formal Invitation Letters", hi: "औपचारिक निमंत्रण पत्र",slug:"/"  }
   },
+title: { 
+  en: "Seminar Invitation Letters", 
+  hi: "सेमिनार निमंत्रण पत्र" 
+},
 
-  title: { 
-    en: "Invitation Application Letters", 
-    hi: "निमंत्रण आवेदन पत्र" 
-  },
-
-  subtitle: { 
-    en: "Formal and informal invitation formats including event invitations, business meetings, weddings, birthdays, seminars, and guest speaker invitations.",
-    hi: "कार्यक्रम, व्यवसायिक बैठक, शादी, जन्मदिन, सेमिनार और अतिथि वक्ता निमंत्रण के लिए औपचारिक और अनौपचारिक पत्र प्रारूप।"
-  },
+subtitle: { 
+  en: "Professional seminar invitation letter formats for educational events, corporate seminars, workshops, conferences, training sessions, and academic programs.",
+  hi: "शैक्षणिक कार्यक्रम, कॉर्पोरेट सेमिनार, कार्यशालाएँ, सम्मेलन, प्रशिक्षण सत्र और अकादमिक कार्यक्रमों के लिए पेशेवर सेमिनार निमंत्रण पत्र प्रारूप।"
+},
 
   category: { 
     en: "Invitation Letters", 
@@ -95,33 +94,83 @@ Warm regards,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "Tips for Writing Perfect Invitation Letters", hi: "सही निमंत्रण पत्र लिखने के सुझाव" },
-      excerpt: { en: "Simple rules for formal and informal invites.", hi: "औपचारिक और अनौपचारिक निमंत्रणों के सरल नियम।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-invitation"
+blogArticles: [
+  {
+    title: {
+      en: "Tips for Writing Perfect Seminar Invitation Letters",
+      hi: "सही सेमिनार निमंत्रण पत्र लिखने के सुझाव",
     },
-    {
-      title: { en: "How to Format RSVP Responses", hi: "RSVP प्रतिक्रिया कैसे लिखें" },
-      excerpt: { en: "Learn the correct way to respond to invitations.", hi: "निमंत्रणों का सही जवाब देना सीखें।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/rsvp-guide"
-    }
-  ],
+    excerpt: {
+      en: "Simple tips for writing professional and effective seminar invitations.",
+      hi: "पेशेवर और प्रभावी सेमिनार निमंत्रण लिखने के सरल सुझाव।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-seminar-invitation",
+  },
+  {
+    title: {
+      en: "How to Format RSVP Responses for Seminars",
+      hi: "सेमिनार के लिए RSVP प्रतिक्रिया कैसे लिखें",
+    },
+    excerpt: {
+      en: "Learn the correct way to confirm attendance or respond to seminar invitations.",
+      hi: "सेमिनार निमंत्रण स्वीकार करने या उत्तर देने का सही तरीका सीखें।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/seminar-rsvp-guide",
+  },
+],
 
-  faqs: [
-    {
-      question: { en: "Should I include dress code?", hi: "क्या मुझे ड्रेस कोड शामिल करना चाहिए?" },
-      answer: { en: "Yes, if the event requires it.", hi: "हाँ, यदि कार्यक्रम में आवश्यक हो।" }
+faqs: [
+  {
+    question: {
+      en: "Should I include a dress code in a seminar invitation?",
+      hi: "क्या मुझे सेमिनार निमंत्रण में ड्रेस कोड शामिल करना चाहिए?",
     },
-    {
-      question: { en: "Are invitation letters formal or informal?", hi: "क्या निमंत्रण पत्र औपचारिक होते हैं या अनौपचारिक?" },
-      answer: { en: "Depends on the event—business events are formal, parties are informal.", hi: "कार्यक्रम पर निर्भर करता है—व्यावसायिक कार्यक्रम औपचारिक, पार्टियाँ अनौपचारिक।" }
+    answer: {
+      en: "Yes, if the seminar requires formal, business, or specific attire.",
+      hi: "हाँ, यदि सेमिनार के लिए औपचारिक, व्यवसायिक या विशेष पोशाक आवश्यक हो।",
     },
-    {
-      question: { en: "Should I ask for RSVP?", hi: "क्या मुझे RSVP माँगना चाहिए?" },
-      answer: { en: "Yes, it helps in planning the event.", hi: "हाँ, इससे कार्यक्रम की तैयारी में मदद मिलती है।" }
-    }
-  ]
+  },
+  {
+    question: {
+      en: "Are seminar invitation letters formal?",
+      hi: "क्या सेमिनार निमंत्रण पत्र औपचारिक होते हैं?",
+    },
+    answer: {
+      en: "Yes, seminar invitation letters are generally formal and professionally written.",
+      hi: "हाँ, सेमिनार निमंत्रण पत्र सामान्यतः औपचारिक और पेशेवर तरीके से लिखे जाते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Should I ask for RSVP in a seminar invitation?",
+      hi: "क्या मुझे सेमिनार निमंत्रण में RSVP माँगना चाहिए?",
+    },
+    answer: {
+      en: "Yes, RSVP helps organizers manage attendance and seminar arrangements effectively.",
+      hi: "हाँ, RSVP आयोजकों को उपस्थिति और सेमिनार व्यवस्था प्रबंधित करने में मदद करता है।",
+    },
+  },
+  {
+    question: {
+      en: "What details should be included in a seminar invitation?",
+      hi: "सेमिनार निमंत्रण में कौन-कौन सी जानकारी शामिल करनी चाहिए?",
+    },
+    answer: {
+      en: "You should include the seminar topic, date, time, venue, speaker details, and registration information.",
+      hi: "आपको सेमिनार का विषय, तिथि, समय, स्थान, वक्ता की जानकारी और पंजीकरण विवरण शामिल करना चाहिए।",
+    },
+  },
+  {
+    question: {
+      en: "Can seminar invitations be sent online?",
+      hi: "क्या सेमिनार निमंत्रण ऑनलाइन भेजे जा सकते हैं?",
+    },
+    answer: {
+      en: "Yes, seminar invitations are commonly shared through email, event platforms, and social media channels.",
+      hi: "हाँ, सेमिनार निमंत्रण सामान्यतः ईमेल, इवेंट प्लेटफॉर्म और सोशल मीडिया चैनलों के माध्यम से भेजे जाते हैं।",
+    },
+  },
+],
 };

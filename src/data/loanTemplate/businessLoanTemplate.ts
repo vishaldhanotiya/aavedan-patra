@@ -190,88 +190,95 @@ Sincerely,
   // ----------------------------------------------------
   // BLOG ARTICLES
   // ----------------------------------------------------
-  blogArticles: [
-    {
-      title: {
-        en: "How to Write a Loan Application to Bank",
-        hi: "बैंक को लोन आवेदन कैसे लिखें",
-      },
-      excerpt: {
-        en: "Simple tips to write a perfect bank loan application.",
-        hi: "सही बैंक लोन आवेदन लिखने के आसान टिप्स।",
-      },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/how-to-write-loan-application",
+blogArticles: [
+  {
+    title: {
+      en: "How to Write a Business Loan Application",
+      hi: "बिजनेस लोन आवेदन कैसे लिखें",
     },
-    {
-      title: {
-        en: "Documents Required for Loan Approval",
-        hi: "लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
-      },
-      excerpt: {
-        en: "Checklist for all loan types.",
-        hi: "सभी प्रकार के लोन के लिए दस्तावेज़ चेकलिस्ट।",
-      },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/loan-documents",
+    excerpt: {
+      en: "Simple tips to write a professional business loan application for faster approval.",
+      hi: "तेज़ स्वीकृति के लिए पेशेवर बिजनेस लोन आवेदन लिखने के आसान सुझाव।",
     },
-    {
-      title: {
-        en: "Common Mistakes in Loan Applications",
-        hi: "लोन आवेदनों में सामान्य गलतियाँ",
-      },
-      excerpt: {
-        en: "Avoid mistakes to increase approval chances.",
-        hi: "स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
-      },
-      readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
-      link: "/blog/loan-application-mistakes",
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/how-to-write-business-loan-application",
+  },
+  {
+    title: {
+      en: "Documents Required for Business Loan Approval",
+      hi: "बिजनेस लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
     },
-  ],
+    excerpt: {
+      en: "Checklist of important documents required for business loan applications.",
+      hi: "बिजनेस लोन आवेदन के लिए आवश्यक महत्वपूर्ण दस्तावेज़ों की सूची।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/business-loan-documents",
+  },
+  {
+    title: {
+      en: "Common Mistakes in Business Loan Applications",
+      hi: "बिजनेस लोन आवेदनों में सामान्य गलतियाँ",
+    },
+    excerpt: {
+      en: "Avoid these mistakes to improve your business loan approval chances.",
+      hi: "बिजनेस लोन स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
+    },
+    readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
+    link: "/blog/business-loan-application-mistakes",
+  },
+],
 
-  // ----------------------------------------------------
-  // FAQ SECTION
-  // ----------------------------------------------------
-  faqs: [
-    {
-      question: {
-        en: "How long should a loan application be?",
-        hi: "लोन आवेदन कितना लंबा होना चाहिए?",
-      },
-      answer: {
-        en: "One page is enough. Keep the content clear and precise.",
-        hi: "एक पेज पर्याप्त है। सामग्री स्पष्ट और संक्षिप्त रखें।",
-      },
+faqs: [
+  {
+    question: {
+      en: "How long should a business loan application be?",
+      hi: "बिजनेस लोन आवेदन कितना लंबा होना चाहिए?",
     },
-    {
-      question: {
-        en: "Should I mention my account number?",
-        hi: "क्या मुझे अपना खाता नंबर लिखना चाहिए?",
-      },
-      answer: {
-        en: "Yes, always mention your account number for faster processing.",
-        hi: "हाँ, तेज़ प्रक्रिया के लिए खाता संख्या अवश्य लिखें।",
-      },
+    answer: {
+      en: "One page is usually enough. Keep the details clear, professional, and precise.",
+      hi: "आमतौर पर एक पेज पर्याप्त होता है। जानकारी स्पष्ट, पेशेवर और संक्षिप्त रखें।",
     },
-    {
-      question: {
-        en: "Is it necessary to attach income proof?",
-        hi: "क्या आय प्रमाण संलग्न करना आवश्यक है?",
-      },
-      answer: {
-        en: "Yes, income proof is mandatory for loan approval.",
-        hi: "हाँ, लोन स्वीकृति के लिए आय प्रमाण अनिवार्य है।",
-      },
+  },
+  {
+    question: {
+      en: "Should I mention my business account number in the application?",
+      hi: "क्या मुझे आवेदन में अपना बिजनेस खाता नंबर लिखना चाहिए?",
     },
-    {
-      question: {
-        en: "How soon can a loan be approved?",
-        hi: "लोन कितने समय में स्वीकृत हो सकता है?",
-      },
-      answer: {
-        en: "Depending on the bank, it may take 3–7 working days.",
-        hi: "बैंक के अनुसार इसमें 3–7 कार्य दिवस लग सकते हैं।",
-      },
+    answer: {
+      en: "Yes, mentioning your business account number helps the bank process your application faster.",
+      hi: "हाँ, बिजनेस खाता संख्या लिखने से बैंक को आवेदन प्रक्रिया तेज़ करने में मदद मिलती है।",
     },
-  ],
+  },
+  {
+    question: {
+      en: "Is income proof necessary for a business loan?",
+      hi: "क्या बिजनेस लोन के लिए आय प्रमाण आवश्यक है?",
+    },
+    answer: {
+      en: "Yes, banks usually require income proof, business statements, and financial records for approval.",
+      hi: "हाँ, बैंक आमतौर पर स्वीकृति के लिए आय प्रमाण, बिजनेस स्टेटमेंट और वित्तीय रिकॉर्ड मांगते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "How long does business loan approval take?",
+      hi: "बिजनेस लोन स्वीकृति में कितना समय लगता है?",
+    },
+    answer: {
+      en: "Depending on the bank and documentation, approval may take 5–10 working days.",
+      hi: "बैंक और दस्तावेज़ों के आधार पर स्वीकृति में 5–10 कार्य दिवस लग सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Can I apply for a business loan online?",
+      hi: "क्या मैं बिजनेस लोन के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, most banks and financial institutions provide online business loan application facilities.",
+      hi: "हाँ, अधिकांश बैंक और वित्तीय संस्थान ऑनलाइन बिजनेस लोन आवेदन की सुविधा प्रदान करते हैं।",
+    },
+  },
+],
 };

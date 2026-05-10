@@ -112,34 +112,83 @@ Sincerely
       link: "/templates/request-email"
     }
   ],
+blogArticles: [
+  {
+    title: {
+      en: "How to Write a Sponsorship Request Letter",
+      hi: "स्पॉन्सरशिप अनुरोध पत्र कैसे लिखें"
+    },
+    excerpt: {
+      en: "Step-by-step guide to writing a professional sponsorship request letter.",
+      hi: "पेशेवर स्पॉन्सरशिप अनुरोध पत्र लिखने की चरणबद्ध गाइड।"
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-sponsorship-request-letter"
+  },
+  {
+    title: {
+      en: "Common Mistakes in Sponsorship Request Letters",
+      hi: "स्पॉन्सरशिप अनुरोध पत्रों में आम गलतियाँ"
+    },
+    excerpt: {
+      en: "Avoid these common mistakes while requesting sponsorship formally.",
+      hi: "औपचारिक रूप से स्पॉन्सरशिप मांगते समय इन सामान्य गलतियों से बचें।"
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/sponsorship-request-letter-mistakes"
+  }
+],
 
-  blogArticles: [
-    {
-      title: { en: "How to Write a Professional Request Letter", hi: "पेशेवर अनुरोध पत्र कैसे लिखें" },
-      excerpt: { en: "A guide to writing formal request applications.", hi: "औपचारिक अनुरोध पत्र लिखने की गाइड।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-request-letter"
+faqs: [
+  {
+    question: {
+      en: "What is a sponsorship request letter?",
+      hi: "स्पॉन्सरशिप अनुरोध पत्र क्या है?"
     },
-    {
-      title: { en: "Common Mistakes in Formal Letters", hi: "औपचारिक पत्रों में आम गलतियाँ" },
-      excerpt: { en: "Avoid these errors when writing requests.", hi: "अनुरोध पत्र लिखते समय इन गलतियों से बचें।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/formal-letter-mistakes"
+    answer: {
+      en: "A sponsorship request letter is a formal letter written to individuals or organizations asking for financial or promotional support.",
+      hi: "स्पॉन्सरशिप अनुरोध पत्र एक औपचारिक पत्र है जिसे व्यक्तियों या संगठनों से आर्थिक या प्रचारात्मक सहायता प्राप्त करने के लिए लिखा जाता है।"
     }
-  ],
-
-  faqs: [
-    {
-      question: { en: "Should request letters be short?", hi: "क्या अनुरोध पत्र छोटा होना चाहिए?" },
-      answer: { en: "Yes, keep them brief and to the point.", hi: "हाँ, उन्हें संक्षिप्त और सीधा रखें।" }
+  },
+  {
+    question: {
+      en: "Who can write a sponsorship request letter?",
+      hi: "स्पॉन्सरशिप अनुरोध पत्र कौन लिख सकता है?"
     },
-    {
-      question: { en: "Can I email a request letter?", hi: "क्या मैं अनुरोध पत्र ईमेल कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, most institutions accept email requests.", hi: "हाँ, अधिकांश संस्थाएँ ईमेल अनुरोध स्वीकार करती हैं।" }
-    },
-    {
-      question: { en: "Should I attach documents?", hi: "क्या मुझे दस्तावेज संलग्न करने चाहिए?" },
-      answer: { en: "Yes, if required for verification.", hi: "हाँ, यदि सत्यापन के लिए आवश्यक हो।" }
+    answer: {
+      en: "Students, NGOs, event organizers, sports teams, and organizations can write sponsorship request letters.",
+      hi: "छात्र, एनजीओ, इवेंट आयोजक, खेल टीम और संगठन स्पॉन्सरशिप अनुरोध पत्र लिख सकते हैं।"
     }
-  ]
+  },
+  {
+    question: {
+      en: "Can I send a sponsorship request letter by email?",
+      hi: "क्या मैं स्पॉन्सरशिप अनुरोध पत्र ईमेल द्वारा भेज सकता/सकती हूँ?"
+    },
+    answer: {
+      en: "Yes, many companies and sponsors accept sponsorship requests through email.",
+      hi: "हाँ, कई कंपनियाँ और स्पॉन्सर ईमेल के माध्यम से स्पॉन्सरशिप अनुरोध स्वीकार करते हैं।"
+    }
+  },
+  {
+    question: {
+      en: "What details should I include in a sponsorship request letter?",
+      hi: "स्पॉन्सरशिप अनुरोध पत्र में कौन-कौन सी जानकारी शामिल करनी चाहिए?"
+    },
+    answer: {
+      en: "You should include the purpose, event or project details, sponsorship benefits, and expected support.",
+      hi: "आपको उद्देश्य, इवेंट या प्रोजेक्ट का विवरण, स्पॉन्सरशिप लाभ और अपेक्षित सहायता शामिल करनी चाहिए।"
+    }
+  },
+  {
+    question: {
+      en: "Should supporting documents be attached with a sponsorship request letter?",
+      hi: "क्या स्पॉन्सरशिप अनुरोध पत्र के साथ सहायक दस्तावेज संलग्न करने चाहिए?"
+    },
+    answer: {
+      en: "Yes, brochures, event details, budget plans, or organization profiles can help strengthen your request.",
+      hi: "हाँ, ब्रोशर, इवेंट विवरण, बजट योजना या संगठन प्रोफाइल आपके अनुरोध को मजबूत बना सकते हैं।"
+    }
+  }
+]
 };

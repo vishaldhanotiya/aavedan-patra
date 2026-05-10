@@ -148,64 +148,83 @@ Sincerely,
       link: "/templates/request-email",
     },
   ],
+blogArticles: [
+  {
+    title: {
+      en: "How to Write an Information Request Letter",
+      hi: "सूचना अनुरोध पत्र कैसे लिखें",
+    },
+    excerpt: {
+      en: "Step-by-step guide to writing a professional information request letter.",
+      hi: "पेशेवर सूचना अनुरोध पत्र लिखने की चरणबद्ध गाइड।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-information-request-letter",
+  },
+  {
+    title: {
+      en: "Common Mistakes in Information Request Letters",
+      hi: "सूचना अनुरोध पत्रों में आम गलतियाँ",
+    },
+    excerpt: {
+      en: "Avoid these common mistakes while requesting information formally.",
+      hi: "औपचारिक रूप से जानकारी मांगते समय इन सामान्य गलतियों से बचें।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/information-request-letter-mistakes",
+  },
+],
 
-  blogArticles: [
-    {
-      title: {
-        en: "How to Write a Professional Request Letter",
-        hi: "पेशेवर अनुरोध पत्र कैसे लिखें",
-      },
-      excerpt: {
-        en: "A guide to writing formal request applications.",
-        hi: "औपचारिक अनुरोध पत्र लिखने की गाइड।",
-      },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-request-letter",
+faqs: [
+  {
+    question: {
+      en: "What is an information request letter?",
+      hi: "सूचना अनुरोध पत्र क्या है?",
     },
-    {
-      title: {
-        en: "Common Mistakes in Formal Letters",
-        hi: "औपचारिक पत्रों में आम गलतियाँ",
-      },
-      excerpt: {
-        en: "Avoid these errors when writing requests.",
-        hi: "अनुरोध पत्र लिखते समय इन गलतियों से बचें।",
-      },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/formal-letter-mistakes",
+    answer: {
+      en: "An information request letter is a formal letter written to request specific details, records, or clarification from an institution or organization.",
+      hi: "सूचना अनुरोध पत्र एक औपचारिक पत्र है जिसे किसी संस्था या संगठन से विशेष जानकारी, रिकॉर्ड या स्पष्टीकरण प्राप्त करने के लिए लिखा जाता है।",
     },
-  ],
-
-  faqs: [
-    {
-      question: {
-        en: "Should request letters be short?",
-        hi: "क्या अनुरोध पत्र छोटा होना चाहिए?",
-      },
-      answer: {
-        en: "Yes, keep them brief and to the point.",
-        hi: "हाँ, उन्हें संक्षिप्त और सीधा रखें।",
-      },
+  },
+  {
+    question: {
+      en: "Should an information request letter be short?",
+      hi: "क्या सूचना अनुरोध पत्र छोटा होना चाहिए?",
     },
-    {
-      question: {
-        en: "Can I email a request letter?",
-        hi: "क्या मैं अनुरोध पत्र ईमेल कर सकता/सकती हूँ?",
-      },
-      answer: {
-        en: "Yes, most institutions accept email requests.",
-        hi: "हाँ, अधिकांश संस्थाएँ ईमेल अनुरोध स्वीकार करती हैं।",
-      },
+    answer: {
+      en: "Yes, it should be concise, clear, and directly mention the required information.",
+      hi: "हाँ, यह संक्षिप्त, स्पष्ट और आवश्यक जानकारी को सीधे बताने वाला होना चाहिए।",
     },
-    {
-      question: {
-        en: "Should I attach documents?",
-        hi: "क्या मुझे दस्तावेज संलग्न करने चाहिए?",
-      },
-      answer: {
-        en: "Yes, if required for verification.",
-        hi: "हाँ, यदि सत्यापन के लिए आवश्यक हो।",
-      },
+  },
+  {
+    question: {
+      en: "Can I send an information request letter by email?",
+      hi: "क्या मैं सूचना अनुरोध पत्र ईमेल द्वारा भेज सकता/सकती हूँ?",
     },
-  ],
+    answer: {
+      en: "Yes, many institutions and organizations accept information requests through email.",
+      hi: "हाँ, कई संस्थाएँ और संगठन ईमेल के माध्यम से सूचना अनुरोध स्वीकार करते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Should I attach documents with an information request letter?",
+      hi: "क्या मुझे सूचना अनुरोध पत्र के साथ दस्तावेज संलग्न करने चाहिए?",
+    },
+    answer: {
+      en: "Yes, supporting documents may be required for identity verification or reference purposes.",
+      hi: "हाँ, पहचान सत्यापन या संदर्भ के लिए सहायक दस्तावेज आवश्यक हो सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Who can write an information request letter?",
+      hi: "सूचना अनुरोध पत्र कौन लिख सकता है?",
+    },
+    answer: {
+      en: "Any individual, student, employee, or organization needing official information can write an information request letter.",
+      hi: "कोई भी व्यक्ति, छात्र, कर्मचारी या संगठन जिसे आधिकारिक जानकारी चाहिए, सूचना अनुरोध पत्र लिख सकता है।",
+    },
+  },
+],
 };

@@ -13,16 +13,15 @@ export const careerChangeResignationTemplate = {
     },
   },
 
-  title: {
-    en: "Resignation Application Letters",
-    hi: "इस्तीफा आवेदन पत्र",
-  },
+title: {
+  en: "Career Change Resignation Letters",
+  hi: "करियर परिवर्तन इस्तीफा पत्र",
+},
 
-  subtitle: {
-    en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर इस्तीफा पत्र प्रारूप—मानक इस्तीफा, शॉर्ट नोटिस, तत्काल इस्तीफा, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।",
-  },
-
+subtitle: {
+  en: "Professional resignation letter formats for employees leaving their jobs due to career change, new opportunities, industry switch, higher studies, or professional growth.",
+  hi: "करियर परिवर्तन, नई नौकरी के अवसर, इंडस्ट्री बदलाव, उच्च शिक्षा या पेशेवर विकास के कारण नौकरी छोड़ने वाले कर्मचारियों के लिए पेशेवर इस्तीफा पत्र प्रारूप।",
+},
   category: {
     en: "Resignation Letters",
     hi: "इस्तीफा पत्र",
@@ -152,63 +151,83 @@ Sincerely,
     },
   ],
 
-  blogArticles: [
-    {
-      title: {
-        en: "How to Resign Professionally",
-        hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें",
-      },
-      excerpt: {
-        en: "Tips for a smooth and respectful exit.",
-        hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।",
-      },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/professional-resignation",
+blogArticles: [
+  {
+    title: {
+      en: "How to Write a Career Change Resignation Letter",
+      hi: "करियर परिवर्तन इस्तीफा पत्र कैसे लिखें",
     },
-    {
-      title: {
-        en: "Notice Period Rules in India",
-        hi: "भारत में नोटिस पीरियड के नियम",
-      },
-      excerpt: {
-        en: "Understand your workplace rights.",
-        hi: "अपने कार्यस्थल के अधिकार जानें।",
-      },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/notice-period-india",
+    excerpt: {
+      en: "Tips for resigning professionally while transitioning to a new career path.",
+      hi: "नए करियर मार्ग में बदलाव करते समय पेशेवर तरीके से इस्तीफा देने के सुझाव।",
     },
-  ],
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/career-change-resignation",
+  },
+  {
+    title: {
+      en: "Notice Period Rules for Career Change Resignation",
+      hi: "करियर परिवर्तन इस्तीफे के लिए नोटिस पीरियड नियम",
+    },
+    excerpt: {
+      en: "Understand resignation notice requirements before switching careers.",
+      hi: "करियर बदलने से पहले इस्तीफे के नोटिस संबंधी नियमों को समझें।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/career-change-notice-period",
+  },
+],
 
-  faqs: [
-    {
-      question: {
-        en: "How long should a resignation letter be?",
-        hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?",
-      },
-      answer: {
-        en: "Ideally one page, short and professional.",
-        hi: "आमतौर पर एक पृष्ठ—संक्षिप्त और पेशेवर।",
-      },
+faqs: [
+  {
+    question: {
+      en: "How long should a career change resignation letter be?",
+      hi: "करियर परिवर्तन इस्तीफा पत्र कितना लंबा होना चाहिए?",
     },
-    {
-      question: {
-        en: "Can I resign without notice?",
-        hi: "क्या मैं बिना नोटिस के इस्तीफा दे सकता/सकती हूँ?",
-      },
-      answer: {
-        en: "Yes, but only in emergency or valid reasons.",
-        hi: "हाँ, लेकिन केवल उचित कारण या आपात स्थिति में।",
-      },
+    answer: {
+      en: "It should ideally be one page, concise, and professional.",
+      hi: "यह आदर्श रूप से एक पृष्ठ का, संक्षिप्त और पेशेवर होना चाहिए।",
     },
-    {
-      question: {
-        en: "Should I mention the reason for resignation?",
-        hi: "क्या इस्तीफे का कारण लिखना जरूरी है?",
-      },
-      answer: {
-        en: "Optional, but recommended for clarity.",
-        hi: "वैकल्पिक, लेकिन स्पष्टता के लिए उचित।",
-      },
+  },
+  {
+    question: {
+      en: "Should I mention my new career in the resignation letter?",
+      hi: "क्या मुझे इस्तीफा पत्र में अपने नए करियर का उल्लेख करना चाहिए?",
     },
-  ],
+    answer: {
+      en: "Yes, you may briefly mention that you are leaving for career growth or a new professional opportunity.",
+      hi: "हाँ, आप संक्षेप में उल्लेख कर सकते हैं कि आप करियर विकास या नए पेशेवर अवसर के लिए जा रहे हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Can I resign immediately for a career change?",
+      hi: "क्या मैं करियर परिवर्तन के लिए तुरंत इस्तीफा दे सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "It depends on your employment contract and company notice period policy.",
+      hi: "यह आपके रोजगार अनुबंध और कंपनी की नोटिस पीरियड नीति पर निर्भर करता है।",
+    },
+  },
+  {
+    question: {
+      en: "Should I maintain a positive tone in a career change resignation letter?",
+      hi: "क्या करियर परिवर्तन इस्तीफा पत्र में सकारात्मक भाषा रखनी चाहिए?",
+    },
+    answer: {
+      en: "Yes, maintaining a respectful and positive tone is always recommended.",
+      hi: "हाँ, सम्मानजनक और सकारात्मक भाषा बनाए रखना हमेशा उचित होता है।",
+    },
+  },
+  {
+    question: {
+      en: "Can I send a career change resignation letter by email?",
+      hi: "क्या मैं करियर परिवर्तन इस्तीफा पत्र ईमेल द्वारा भेज सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, most organizations accept resignation letters through official email communication.",
+      hi: "हाँ, अधिकांश संगठन आधिकारिक ईमेल के माध्यम से इस्तीफा पत्र स्वीकार करते हैं।",
+    },
+  },
+],
 };

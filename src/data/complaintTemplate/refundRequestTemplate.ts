@@ -1,24 +1,30 @@
-
 export const refundRequestTemplate = {
   breadcrumb: {
-    category: { en: "Letters", hi: "पत्र", slug:"/letters" },
-    subcategory: { en: "Complaint Letters", hi: "शिकायत पत्र", slug:"/letters/complaint" },
-    template: { en: "Official Complaint Letters", hi: "आधिकारिक शिकायत पत्र", slug:"" }
+    category: { en: "Letters", hi: "पत्र", slug: "/letters" },
+    subcategory: {
+      en: "Complaint Letters",
+      hi: "शिकायत पत्र",
+      slug: "/letters/complaint",
+    },
+    template: {
+      en: "Official Complaint Letters",
+      hi: "आधिकारिक शिकायत पत्र",
+      slug: "",
+    },
+  },
+  title: {
+    en: "Refund Request Letters",
+    hi: "रिफंड अनुरोध पत्र",
   },
 
-  title: { 
-    en: "Complaint Application Letters", 
-    hi: "शिकायत आवेदन पत्र" 
+  subtitle: {
+    en: "Professional refund request letter formats for damaged products, canceled services, online shopping issues, payment errors, duplicate transactions, and unsatisfactory purchases.",
+    hi: "खराब उत्पाद, रद्द सेवाएँ, ऑनलाइन शॉपिंग समस्याएँ, भुगतान त्रुटियाँ, डुप्लिकेट लेनदेन और असंतोषजनक खरीदारी से संबंधित पेशेवर रिफंड अनुरोध पत्र प्रारूप।",
   },
 
-  subtitle: { 
-    en: "Professional complaint letter formats including product complaints, service issues, workplace concerns, neighbor disputes, online shopping problems, and refund requests.",
-    hi: "उत्पाद, सेवा, कार्यस्थल, पड़ोसी विवाद, ऑनलाइन खरीदारी समस्याएँ और रिफंड से संबंधित शिकायतों के लिए पेशेवर प्रारूप।"
-  },
-
-  category: { 
-    en: "Complaint Letters", 
-    hi: "शिकायत पत्र" 
+  category: {
+    en: "Complaint Letters",
+    hi: "शिकायत पत्र",
   },
 
   updatedDate: "January 2025",
@@ -30,7 +36,7 @@ export const refundRequestTemplate = {
       title: { en: "Refund Request Letter", hi: "रिफंड अनुरोध पत्र" },
       description: {
         en: "Used to request refund for purchases or services not delivered correctly.",
-        hi: "खरीद या सेवा के गलत/अधूरी डिलीवरी पर रिफंड का अनुरोध।"
+        hi: "खरीद या सेवा के गलत/अधूरी डिलीवरी पर रिफंड का अनुरोध।",
       },
       bestFor: { en: "Refund claims", hi: "रिफंड अनुरोध" },
       length: { en: "Medium", hi: "मध्यम" },
@@ -79,64 +85,148 @@ Sincerely,
 [मोबाइल नंबर]
 [ईमेल आईडी]
 [पता – वैकल्पिक]
-`
-      }
-    }
+`,
+      },
+    },
   ],
 
   howToWrite: {
-    title: { en: "How to Write a Complaint Letter", hi: "शिकायत पत्र कैसे लिखें" },
+    title: {
+      en: "How to Write a Complaint Letter",
+      hi: "शिकायत पत्र कैसे लिखें",
+    },
     tips: [
-      { text: { en: "Be clear and factual.", hi: "स्पष्ट और तथ्यपूर्ण रहें।" } },
-      { text: { en: "Mention date, receipt, order ID if applicable.", hi: "तिथि, रसीद या ऑर्डर ID अवश्य लिखें।" } },
-      { text: { en: "Avoid emotional or rude language.", hi: "भावुक या अशिष्ट भाषा न लिखें।" } },
-      { text: { en: "Request a proper action or resolution.", hi: "उचित कार्रवाई या समाधान का अनुरोध करें।" } },
-      { text: { en: "Attach documents or photos if needed.", hi: "जरूरत पड़े तो दस्तावेज़ या फोटो संलग्न करें।" } }
-    ]
+      {
+        text: { en: "Be clear and factual.", hi: "स्पष्ट और तथ्यपूर्ण रहें।" },
+      },
+      {
+        text: {
+          en: "Mention date, receipt, order ID if applicable.",
+          hi: "तिथि, रसीद या ऑर्डर ID अवश्य लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Avoid emotional or rude language.",
+          hi: "भावुक या अशिष्ट भाषा न लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Request a proper action or resolution.",
+          hi: "उचित कार्रवाई या समाधान का अनुरोध करें।",
+        },
+      },
+      {
+        text: {
+          en: "Attach documents or photos if needed.",
+          hi: "जरूरत पड़े तो दस्तावेज़ या फोटो संलग्न करें।",
+        },
+      },
+    ],
   },
 
   relatedTemplates: [
     {
       title: { en: "Refund Request Email", hi: "रिफंड अनुरोध ईमेल" },
-      description: { en: "For quick online refund requests.", hi: "ऑनलाइन रिफंड अनुरोधों के लिए।" },
-      icon: 'FileText',
-      link: "/templates/refund-email"
+      description: {
+        en: "For quick online refund requests.",
+        hi: "ऑनलाइन रिफंड अनुरोधों के लिए।",
+      },
+      icon: "FileText",
+      link: "/templates/refund-email",
     },
     {
-      title: { en: "Complaint to Customer Care", hi: "कस्टमर केयर को शिकायत पत्र" },
-      description: { en: "Easy format for customer care complaints.", hi: "कस्टमर केयर शिकायतों के लिए सरल प्रारूप।" },
-      icon: 'Briefcase',
-      link: "/templates/customer-care-complaint"
-    }
+      title: {
+        en: "Complaint to Customer Care",
+        hi: "कस्टमर केयर को शिकायत पत्र",
+      },
+      description: {
+        en: "Easy format for customer care complaints.",
+        hi: "कस्टमर केयर शिकायतों के लिए सरल प्रारूप।",
+      },
+      icon: "Briefcase",
+      link: "/templates/customer-care-complaint",
+    },
   ],
 
   blogArticles: [
     {
-      title: { en: "How to File an Effective Complaint", hi: "प्रभावी शिकायत कैसे दर्ज करें" },
-      excerpt: { en: "Learn the right structure and tone.", hi: "सही संरचना और लहजे के बारे में जानें।" },
+      title: {
+        en: "How to Write an Effective Refund Request Letter",
+        hi: "प्रभावी रिफंड अनुरोध पत्र कैसे लिखें",
+      },
+      excerpt: {
+        en: "Learn how to write a professional refund request letter for products, services, or online purchases.",
+        hi: "उत्पाद, सेवाओं या ऑनलाइन खरीदारी के लिए पेशेवर रिफंड अनुरोध पत्र लिखना सीखें।",
+      },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-complaint-letter"
+      link: "/blog/write-refund-request-letter",
     },
     {
-      title: { en: "Consumer Rights You Should Know", hi: "उपभोक्ता अधिकार जो आपको जानने चाहिए" },
-      excerpt: { en: "Important rights for purchase & service issues.", hi: "खरीद और सेवा संबंधी महत्वपूर्ण अधिकार।" },
+      title: {
+        en: "Consumer Rights for Refund and Return Issues",
+        hi: "रिफंड और रिटर्न समस्याओं के लिए उपभोक्ता अधिकार",
+      },
+      excerpt: {
+        en: "Understand your rights related to refunds, returns, cancellations, and payment disputes.",
+        hi: "रिफंड, रिटर्न, रद्दीकरण और भुगतान विवादों से संबंधित अपने अधिकार जानें।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/consumer-rights"
-    }
+      link: "/blog/refund-consumer-rights",
+    },
   ],
 
   faqs: [
     {
-      question: { en: "Should I attach proof with complaint?", hi: "क्या शिकायत के साथ सबूत संलग्न करना चाहिए?" },
-      answer: { en: "Yes, it increases credibility and speeds up resolution.", hi: "हाँ, इससे विश्वसनीयता बढ़ती है और समाधान जल्दी मिलता है।" }
+      question: {
+        en: "Should I attach proof with a refund request letter?",
+        hi: "क्या रिफंड अनुरोध पत्र के साथ सबूत संलग्न करना चाहिए?",
+      },
+      answer: {
+        en: "Yes, attaching invoices, receipts, screenshots, or payment details helps strengthen your request.",
+        hi: "हाँ, बिल, रसीद, स्क्रीनशॉट या भुगतान विवरण संलग्न करने से आपका अनुरोध मजबूत होता है।",
+      },
     },
     {
-      question: { en: "Can I file a complaint through email?", hi: "क्या मैं ईमेल से शिकायत कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, most companies accept email complaints.", hi: "हाँ, अधिकांश कंपनियाँ ईमेल शिकायत स्वीकार करती हैं।" }
+      question: {
+        en: "Can I send a refund request through email?",
+        hi: "क्या मैं ईमेल के माध्यम से रिफंड अनुरोध भेज सकता/सकती हूँ?",
+      },
+      answer: {
+        en: "Yes, most companies and online platforms accept refund requests through email or support portals.",
+        hi: "हाँ, अधिकांश कंपनियाँ और ऑनलाइन प्लेटफॉर्म ईमेल या सपोर्ट पोर्टल के माध्यम से रिफंड अनुरोध स्वीकार करते हैं।",
+      },
     },
     {
-      question: { en: "How long should a complaint letter be?", hi: "शिकायत पत्र कितना लंबा होना चाहिए?" },
-      answer: { en: "Keep it short, clear, and professional (1 page).", hi: "इसे छोटा, स्पष्ट और पेशेवर रखें (1 पेज)।" }
-    }
-  ]
+      question: {
+        en: "How long should a refund request letter be?",
+        hi: "रिफंड अनुरोध पत्र कितना लंबा होना चाहिए?",
+      },
+      answer: {
+        en: "Keep it short, clear, and professional—ideally within one page.",
+        hi: "इसे छोटा, स्पष्ट और पेशेवर रखें—आदर्श रूप से एक पेज के भीतर।",
+      },
+    },
+    {
+      question: {
+        en: "What reasons can be mentioned in a refund request letter?",
+        hi: "रिफंड अनुरोध पत्र में किन कारणों का उल्लेख किया जा सकता है?",
+      },
+      answer: {
+        en: "You can mention reasons such as damaged products, wrong items, service cancellation, duplicate payment, or unsatisfactory quality.",
+        hi: "आप खराब उत्पाद, गलत सामान, सेवा रद्दीकरण, डुप्लिकेट भुगतान या असंतोषजनक गुणवत्ता जैसे कारणों का उल्लेख कर सकते हैं।",
+      },
+    },
+    {
+      question: {
+        en: "Should I remain polite in a refund request letter?",
+        hi: "क्या मुझे रिफंड अनुरोध पत्र में विनम्र रहना चाहिए?",
+      },
+      answer: {
+        en: "Yes, maintaining a calm and professional tone improves the chances of quick resolution.",
+        hi: "हाँ, शांत और पेशेवर भाषा समाधान की संभावना को बढ़ाती है।",
+      },
+    },
+  ],
 };

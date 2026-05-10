@@ -20,12 +20,12 @@ export const personalLoanTemplate1 = {
 
   title: {
     en: "Personal Loan Application to Bank | Format, Samples & How to Write",
-    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें"
+    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें",
   },
 
   subtitle: {
     en: "Learn how to write a personal loan application to a bank for medical, family, or other personal needs. This page includes the correct format, ready-to-use sample applications, key details required by banks, and useful tips to make your loan request clear, professional, and more likely to be approved.",
-    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है। इस पेज पर चिकित्सा, पारिवारिक या अन्य व्यक्तिगत आवश्यकताओं के लिए लोन लेने हेतु सही प्रारूप, तैयार नमूना आवेदन पत्र, बैंक द्वारा मांगी जाने वाली आवश्यक जानकारी और आवेदन को प्रभावी व स्पष्ट बनाने के महत्वपूर्ण सुझाव दिए गए हैं।"
+    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है। इस पेज पर चिकित्सा, पारिवारिक या अन्य व्यक्तिगत आवश्यकताओं के लिए लोन लेने हेतु सही प्रारूप, तैयार नमूना आवेदन पत्र, बैंक द्वारा मांगी जाने वाली आवश्यक जानकारी और आवेदन को प्रभावी व स्पष्ट बनाने के महत्वपूर्ण सुझाव दिए गए हैं।",
   },
 
   category: { en: "Loan Applications", hi: "ऋण आवेदन" },
@@ -192,90 +192,94 @@ Date: [DD/MM/YYYY]
     },
   ],
 
-  // ----------------------------------------------------
-  // BLOG ARTICLES
-  // ----------------------------------------------------
   blogArticles: [
     {
       title: {
-        en: "How to Write a Loan Application to Bank",
-        hi: "बैंक को लोन आवेदन कैसे लिखें",
+        en: "How to Write a Personal Loan Application",
+        hi: "पर्सनल लोन आवेदन कैसे लिखें",
       },
       excerpt: {
-        en: "Simple tips to write a perfect bank loan application.",
-        hi: "सही बैंक लोन आवेदन लिखने के आसान टिप्स।",
+        en: "Simple tips to write a professional personal loan application for faster approval.",
+        hi: "तेज़ स्वीकृति के लिए पेशेवर पर्सनल लोन आवेदन लिखने के आसान सुझाव।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/how-to-write-loan-application",
+      link: "/blog/how-to-write-personal-loan-application",
     },
     {
       title: {
-        en: "Documents Required for Loan Approval",
-        hi: "लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
+        en: "Documents Required for Personal Loan Approval",
+        hi: "पर्सनल लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
       },
       excerpt: {
-        en: "Checklist for all loan types.",
-        hi: "सभी प्रकार के लोन के लिए दस्तावेज़ चेकलिस्ट।",
+        en: "Checklist of important documents needed for personal loan applications.",
+        hi: "पर्सनल लोन आवेदन के लिए आवश्यक महत्वपूर्ण दस्तावेज़ों की सूची।",
       },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/loan-documents",
+      link: "/blog/personal-loan-documents",
     },
     {
       title: {
-        en: "Common Mistakes in Loan Applications",
-        hi: "लोन आवेदनों में सामान्य गलतियाँ",
+        en: "Common Mistakes in Personal Loan Applications",
+        hi: "पर्सनल लोन आवेदनों में सामान्य गलतियाँ",
       },
       excerpt: {
-        en: "Avoid mistakes to increase approval chances.",
-        hi: "स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
+        en: "Avoid these mistakes to improve your personal loan approval chances.",
+        hi: "पर्सनल लोन स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
       },
       readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
-      link: "/blog/loan-application-mistakes",
+      link: "/blog/personal-loan-application-mistakes",
     },
   ],
 
-  // ----------------------------------------------------
-  // FAQ SECTION
-  // ----------------------------------------------------
   faqs: [
     {
       question: {
-        en: "How long should a loan application be?",
-        hi: "लोन आवेदन कितना लंबा होना चाहिए?",
+        en: "How long should a personal loan application be?",
+        hi: "पर्सनल लोन आवेदन कितना लंबा होना चाहिए?",
       },
       answer: {
-        en: "One page is enough. Keep the content clear and precise.",
-        hi: "एक पेज पर्याप्त है। सामग्री स्पष्ट और संक्षिप्त रखें।",
+        en: "One page is usually enough. Keep the details clear, professional, and concise.",
+        hi: "आमतौर पर एक पेज पर्याप्त होता है। जानकारी स्पष्ट, पेशेवर और संक्षिप्त रखें।",
       },
     },
     {
       question: {
-        en: "Should I mention my account number?",
-        hi: "क्या मुझे अपना खाता नंबर लिखना चाहिए?",
+        en: "Should I mention my bank account number in the application?",
+        hi: "क्या मुझे आवेदन में अपना बैंक खाता नंबर लिखना चाहिए?",
       },
       answer: {
-        en: "Yes, always mention your account number for faster processing.",
-        hi: "हाँ, तेज़ प्रक्रिया के लिए खाता संख्या अवश्य लिखें।",
+        en: "Yes, mentioning your bank account number helps in faster processing of your loan application.",
+        hi: "हाँ, बैंक खाता संख्या लिखने से लोन आवेदन की प्रक्रिया तेज़ होती है।",
       },
     },
     {
       question: {
-        en: "Is it necessary to attach income proof?",
-        hi: "क्या आय प्रमाण संलग्न करना आवश्यक है?",
+        en: "Is income proof necessary for a personal loan?",
+        hi: "क्या पर्सनल लोन के लिए आय प्रमाण आवश्यक है?",
       },
       answer: {
-        en: "Yes, income proof is mandatory for loan approval.",
-        hi: "हाँ, लोन स्वीकृति के लिए आय प्रमाण अनिवार्य है।",
+        en: "Yes, income proof such as salary slips, bank statements, or ITR is mandatory for approval.",
+        hi: "हाँ, स्वीकृति के लिए सैलरी स्लिप, बैंक स्टेटमेंट या आयकर रिटर्न जैसे आय प्रमाण आवश्यक होते हैं।",
       },
     },
     {
       question: {
-        en: "How soon can a loan be approved?",
-        hi: "लोन कितने समय में स्वीकृत हो सकता है?",
+        en: "How long does personal loan approval take?",
+        hi: "पर्सनल लोन स्वीकृति में कितना समय लगता है?",
       },
       answer: {
-        en: "Depending on the bank, it may take 3–7 working days.",
-        hi: "बैंक के अनुसार इसमें 3–7 कार्य दिवस लग सकते हैं।",
+        en: "Depending on the bank and verification process, approval may take 1–7 working days.",
+        hi: "बैंक और सत्यापन प्रक्रिया के अनुसार स्वीकृति में 1–7 कार्य दिवस लग सकते हैं।",
+      },
+    },
+    {
+      question: {
+        en: "Can I apply for a personal loan online?",
+        hi: "क्या मैं पर्सनल लोन के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
+      },
+      answer: {
+        en: "Yes, most banks and financial institutions provide online personal loan application facilities.",
+        hi: "हाँ, अधिकांश बैंक और वित्तीय संस्थान ऑनलाइन पर्सनल लोन आवेदन की सुविधा प्रदान करते हैं।",
       },
     },
   ],

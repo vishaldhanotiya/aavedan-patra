@@ -105,33 +105,83 @@ Sincerely,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to Write a Professional Request Letter", hi: "पेशेवर अनुरोध पत्र कैसे लिखें" },
-      excerpt: { en: "A guide to writing formal request applications.", hi: "औपचारिक अनुरोध पत्र लिखने की गाइड।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-request-letter"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write a Meeting Request Letter",
+      hi: "मीटिंग अनुरोध पत्र कैसे लिखें"
     },
-    {
-      title: { en: "Common Mistakes in Formal Letters", hi: "औपचारिक पत्रों में आम गलतियाँ" },
-      excerpt: { en: "Avoid these errors when writing requests.", hi: "अनुरोध पत्र लिखते समय इन गलतियों से बचें।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/formal-letter-mistakes"
-    }
-  ],
+    excerpt: {
+      en: "Step-by-step guide to writing a professional meeting request letter.",
+      hi: "पेशेवर मीटिंग अनुरोध पत्र लिखने की चरणबद्ध गाइड।"
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-meeting-request-letter"
+  },
+  {
+    title: {
+      en: "Common Mistakes in Meeting Request Letters",
+      hi: "मीटिंग अनुरोध पत्रों में आम गलतियाँ"
+    },
+    excerpt: {
+      en: "Avoid these common mistakes while requesting meetings formally.",
+      hi: "औपचारिक रूप से मीटिंग अनुरोध करते समय इन सामान्य गलतियों से बचें।"
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/meeting-request-letter-mistakes"
+  }
+],
 
-  faqs: [
-    {
-      question: { en: "Should request letters be short?", hi: "क्या अनुरोध पत्र छोटा होना चाहिए?" },
-      answer: { en: "Yes, keep them brief and to the point.", hi: "हाँ, उन्हें संक्षिप्त और सीधा रखें।" }
+faqs: [
+  {
+    question: {
+      en: "What is a meeting request letter?",
+      hi: "मीटिंग अनुरोध पत्र क्या है?"
     },
-    {
-      question: { en: "Can I email a request letter?", hi: "क्या मैं अनुरोध पत्र ईमेल कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, most institutions accept email requests.", hi: "हाँ, अधिकांश संस्थाएँ ईमेल अनुरोध स्वीकार करती हैं।" }
-    },
-    {
-      question: { en: "Should I attach documents?", hi: "क्या मुझे दस्तावेज संलग्न करने चाहिए?" },
-      answer: { en: "Yes, if required for verification.", hi: "हाँ, यदि सत्यापन के लिए आवश्यक हो।" }
+    answer: {
+      en: "A meeting request letter is a formal letter written to request a meeting with an individual, organization, or authority.",
+      hi: "मीटिंग अनुरोध पत्र एक औपचारिक पत्र है जिसे किसी व्यक्ति, संगठन या प्राधिकरण से बैठक का अनुरोध करने के लिए लिखा जाता है।"
     }
-  ]
+  },
+  {
+    question: {
+      en: "Should a meeting request letter be short?",
+      hi: "क्या मीटिंग अनुरोध पत्र छोटा होना चाहिए?"
+    },
+    answer: {
+      en: "Yes, it should clearly mention the purpose, date, and time preference in a concise manner.",
+      hi: "हाँ, इसमें उद्देश्य, तिथि और समय की प्राथमिकता को संक्षिप्त रूप में स्पष्ट रूप से बताना चाहिए।"
+    }
+  },
+  {
+    question: {
+      en: "Can I send a meeting request letter by email?",
+      hi: "क्या मैं मीटिंग अनुरोध पत्र ईमेल द्वारा भेज सकता/सकती हूँ?"
+    },
+    answer: {
+      en: "Yes, email is one of the most common ways to send meeting requests professionally.",
+      hi: "हाँ, पेशेवर रूप से मीटिंग अनुरोध भेजने के लिए ईमेल सबसे सामान्य तरीकों में से एक है।"
+    }
+  },
+  {
+    question: {
+      en: "Should I mention the agenda in a meeting request letter?",
+      hi: "क्या मुझे मीटिंग अनुरोध पत्र में एजेंडा लिखना चाहिए?"
+    },
+    answer: {
+      en: "Yes, mentioning the meeting agenda helps the recipient understand the purpose of the meeting.",
+      hi: "हाँ, मीटिंग का एजेंडा लिखने से प्राप्तकर्ता को बैठक का उद्देश्य समझने में मदद मिलती है।"
+    }
+  },
+  {
+    question: {
+      en: "Who can write a meeting request letter?",
+      hi: "मीटिंग अनुरोध पत्र कौन लिख सकता है?"
+    },
+    answer: {
+      en: "Students, employees, business professionals, and organizations can write meeting request letters.",
+      hi: "छात्र, कर्मचारी, व्यवसायिक पेशेवर और संगठन मीटिंग अनुरोध पत्र लिख सकते हैं।"
+    }
+  }
+]
 };

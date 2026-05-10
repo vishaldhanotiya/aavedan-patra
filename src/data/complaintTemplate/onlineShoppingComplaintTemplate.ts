@@ -6,15 +6,15 @@ export const onlineShoppingComplaintTemplate = {
     template: { en: "Official Complaint Letters", hi: "आधिकारिक शिकायत पत्र", slug:"" }
   },
 
-  title: { 
-    en: "Complaint Application Letters", 
-    hi: "शिकायत आवेदन पत्र" 
-  },
+title: { 
+  en: "Online Shopping Complaint Letters", 
+  hi: "ऑनलाइन शॉपिंग शिकायत पत्र" 
+},
 
-  subtitle: { 
-    en: "Professional complaint letter formats including product complaints, service issues, workplace concerns, neighbor disputes, online shopping problems, and refund requests.",
-    hi: "उत्पाद, सेवा, कार्यस्थल, पड़ोसी विवाद, ऑनलाइन खरीदारी समस्याएँ और रिफंड से संबंधित शिकायतों के लिए पेशेवर प्रारूप।"
-  },
+subtitle: { 
+  en: "Professional complaint letter formats for online shopping issues including delayed delivery, damaged products, wrong items, refund problems, payment disputes, and seller complaints.",
+  hi: "देरी से डिलीवरी, खराब उत्पाद, गलत सामान, रिफंड समस्या, भुगतान विवाद और विक्रेता शिकायतों से संबंधित पेशेवर ऑनलाइन शॉपिंग शिकायत पत्र प्रारूप।"
+},
 
   category: { 
     en: "Complaint Letters", 
@@ -142,33 +142,83 @@ Sincerely,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to File an Effective Complaint", hi: "प्रभावी शिकायत कैसे दर्ज करें" },
-      excerpt: { en: "Learn the right structure and tone.", hi: "सही संरचना और लहजे के बारे में जानें।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-complaint-letter"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write an Online Shopping Complaint Letter",
+      hi: "ऑनलाइन शॉपिंग शिकायत पत्र कैसे लिखें",
     },
-    {
-      title: { en: "Consumer Rights You Should Know", hi: "उपभोक्ता अधिकार जो आपको जानने चाहिए" },
-      excerpt: { en: "Important rights for purchase & service issues.", hi: "खरीद और सेवा संबंधी महत्वपूर्ण अधिकार।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/consumer-rights"
-    }
-  ],
+    excerpt: {
+      en: "Learn how to write an effective complaint letter for delayed delivery, damaged products, or refund issues.",
+      hi: "देरी से डिलीवरी, खराब उत्पाद या रिफंड समस्याओं के लिए प्रभावी शिकायत पत्र लिखना सीखें।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-online-shopping-complaint-letter",
+  },
+  {
+    title: {
+      en: "Consumer Rights for Online Shopping Issues",
+      hi: "ऑनलाइन शॉपिंग समस्याओं के लिए उपभोक्ता अधिकार",
+    },
+    excerpt: {
+      en: "Important consumer rights related to refunds, returns, damaged products, and online fraud.",
+      hi: "रिफंड, रिटर्न, खराब उत्पाद और ऑनलाइन धोखाधड़ी से जुड़े महत्वपूर्ण उपभोक्ता अधिकार।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/online-shopping-consumer-rights",
+  },
+],
 
-  faqs: [
-    {
-      question: { en: "Should I attach proof with complaint?", hi: "क्या शिकायत के साथ सबूत संलग्न करना चाहिए?" },
-      answer: { en: "Yes, it increases credibility and speeds up resolution.", hi: "हाँ, इससे विश्वसनीयता बढ़ती है और समाधान जल्दी मिलता है।" }
+faqs: [
+  {
+    question: {
+      en: "Should I attach proof with an online shopping complaint?",
+      hi: "क्या ऑनलाइन शॉपिंग शिकायत के साथ सबूत संलग्न करना चाहिए?",
     },
-    {
-      question: { en: "Can I file a complaint through email?", hi: "क्या मैं ईमेल से शिकायत कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, most companies accept email complaints.", hi: "हाँ, अधिकांश कंपनियाँ ईमेल शिकायत स्वीकार करती हैं।" }
+    answer: {
+      en: "Yes, attaching order details, invoices, screenshots, or photos helps strengthen your complaint.",
+      hi: "हाँ, ऑर्डर विवरण, बिल, स्क्रीनशॉट या फोटो संलग्न करने से आपकी शिकायत मजबूत होती है।",
     },
-    {
-      question: { en: "How long should a complaint letter be?", hi: "शिकायत पत्र कितना लंबा होना चाहिए?" },
-      answer: { en: "Keep it short, clear, and professional (1 page).", hi: "इसे छोटा, स्पष्ट और पेशेवर रखें (1 पेज)।" }
-    }
-  ]
+  },
+  {
+    question: {
+      en: "Can I file an online shopping complaint through email?",
+      hi: "क्या मैं ईमेल के माध्यम से ऑनलाइन शॉपिंग शिकायत दर्ज कर सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, most e-commerce companies and sellers accept complaints through email and support portals.",
+      hi: "हाँ, अधिकांश ई-कॉमर्स कंपनियाँ और विक्रेता ईमेल तथा सपोर्ट पोर्टल के माध्यम से शिकायत स्वीकार करते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "How long should an online shopping complaint letter be?",
+      hi: "ऑनलाइन शॉपिंग शिकायत पत्र कितना लंबा होना चाहिए?",
+    },
+    answer: {
+      en: "Keep it short, clear, and professional—ideally within one page.",
+      hi: "इसे छोटा, स्पष्ट और पेशेवर रखें—आदर्श रूप से एक पेज के भीतर।",
+    },
+  },
+  {
+    question: {
+      en: "What issues can be mentioned in an online shopping complaint letter?",
+      hi: "ऑनलाइन शॉपिंग शिकायत पत्र में किन समस्याओं का उल्लेख किया जा सकता है?",
+    },
+    answer: {
+      en: "You can mention issues like delayed delivery, damaged items, wrong products, refund delays, or payment disputes.",
+      hi: "आप देरी से डिलीवरी, खराब सामान, गलत उत्पाद, रिफंड में देरी या भुगतान विवाद जैसी समस्याओं का उल्लेख कर सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Should I remain polite in an online shopping complaint letter?",
+      hi: "क्या मुझे ऑनलाइन शॉपिंग शिकायत पत्र में विनम्र रहना चाहिए?",
+    },
+    answer: {
+      en: "Yes, maintaining a calm and professional tone improves the chances of quick resolution.",
+      hi: "हाँ, शांत और पेशेवर भाषा समाधान की संभावना को बढ़ाती है।",
+    },
+  },
+],
 };

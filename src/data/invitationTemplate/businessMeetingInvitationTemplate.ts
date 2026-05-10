@@ -1,24 +1,31 @@
-
 export const businessMeetingInvitationTemplate = {
   breadcrumb: {
-    category: { en: "Letters", hi: "पत्र",slug:"/letters"  },
-    subcategory: { en: "Invitation Letters", hi: "निमंत्रण पत्र",slug:"/letters/invitation"  },
-    template: { en: "Formal Invitation Letters", hi: "औपचारिक निमंत्रण पत्र",slug:""  }
+    category: { en: "Letters", hi: "पत्र", slug: "/letters" },
+    subcategory: {
+      en: "Invitation Letters",
+      hi: "निमंत्रण पत्र",
+      slug: "/letters/invitation",
+    },
+    template: {
+      en: "Formal Invitation Letters",
+      hi: "औपचारिक निमंत्रण पत्र",
+      slug: "",
+    },
   },
 
-  title: { 
-    en: "Invitation Application Letters", 
-    hi: "निमंत्रण आवेदन पत्र" 
+  title: {
+    en: "Business Meeting Invitation Letters",
+    hi: "व्यावसायिक बैठक निमंत्रण पत्र",
   },
 
-  subtitle: { 
-    en: "Formal and informal invitation formats including event invitations, business meetings, weddings, birthdays, seminars, and guest speaker invitations.",
-    hi: "कार्यक्रम, व्यवसायिक बैठक, शादी, जन्मदिन, सेमिनार और अतिथि वक्ता निमंत्रण के लिए औपचारिक और अनौपचारिक पत्र प्रारूप।"
+  subtitle: {
+    en: "Professional business meeting invitation formats for clients, partners, employees, corporate discussions, project meetings, and official events.",
+    hi: "क्लाइंट, पार्टनर, कर्मचारियों, कॉर्पोरेट चर्चाओं, प्रोजेक्ट मीटिंग्स और आधिकारिक कार्यक्रमों के लिए पेशेवर व्यावसायिक बैठक निमंत्रण पत्र प्रारूप।",
   },
 
-  category: { 
-    en: "Invitation Letters", 
-    hi: "निमंत्रण पत्र" 
+  category: {
+    en: "Invitation Letters",
+    hi: "निमंत्रण पत्र",
   },
 
   updatedDate: "January 2025",
@@ -27,10 +34,13 @@ export const businessMeetingInvitationTemplate = {
     // 2. Business Meeting Invitation
     {
       id: "businessMeetingInvitation",
-      title: { en: "Business Meeting Invitation", hi: "व्यावसायिक बैठक निमंत्रण" },
+      title: {
+        en: "Business Meeting Invitation",
+        hi: "व्यावसायिक बैठक निमंत्रण",
+      },
       description: {
         en: "Professional letter for inviting clients or team members to a business meeting.",
-        hi: "क्लाइंट या टीम सदस्यों को व्यावसायिक बैठक में आमंत्रित करने हेतु।"
+        hi: "क्लाइंट या टीम सदस्यों को व्यावसायिक बैठक में आमंत्रित करने हेतु।",
       },
       bestFor: { en: "Corporate meetings", hi: "कॉरपोरेट बैठकों" },
       length: { en: "Medium", hi: "मध्यम" },
@@ -64,64 +74,147 @@ Regards,
 आपकी उपस्थिति और सुझाव बैठक के लिए महत्वपूर्ण होंगे। कृपया अपनी उपलब्धता की पुष्टि करें।
 
 सादर,
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
   ],
 
   howToWrite: {
-    title: { en: "How to Write an Invitation Letter", hi: "निमंत्रण पत्र कैसे लिखें" },
+    title: {
+      en: "How to Write an Invitation Letter",
+      hi: "निमंत्रण पत्र कैसे लिखें",
+    },
     tips: [
-      { text: { en: "Keep the tone warm and respectful.", hi: "लहजा गर्मजोशी और सम्मानपूर्ण रखें।" } },
-      { text: { en: "Mention the date, time, and venue clearly.", hi: "तिथि, समय और स्थान स्पष्ट रूप से लिखें।" } },
-      { text: { en: "Explain the purpose of invitation.", hi: "निमंत्रण का उद्देश्य बताएं।" } },
-      { text: { en: "Request confirmation or RSVP.", hi: "उपस्थिति की पुष्टि (RSVP) का अनुरोध करें।" } },
-      { text: { en: "Be concise and polite.", hi: "संक्षिप्त और विनम्र रहें।" } }
-    ]
+      {
+        text: {
+          en: "Keep the tone warm and respectful.",
+          hi: "लहजा गर्मजोशी और सम्मानपूर्ण रखें।",
+        },
+      },
+      {
+        text: {
+          en: "Mention the date, time, and venue clearly.",
+          hi: "तिथि, समय और स्थान स्पष्ट रूप से लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Explain the purpose of invitation.",
+          hi: "निमंत्रण का उद्देश्य बताएं।",
+        },
+      },
+      {
+        text: {
+          en: "Request confirmation or RSVP.",
+          hi: "उपस्थिति की पुष्टि (RSVP) का अनुरोध करें।",
+        },
+      },
+      {
+        text: { en: "Be concise and polite.", hi: "संक्षिप्त और विनम्र रहें।" },
+      },
+    ],
   },
 
   relatedTemplates: [
     {
-      title: { en: "Function Invitation Letter", hi: "कार्यक्रम निमंत्रण पत्र" },
-      description: { en: "Useful for cultural or social events.", hi: "सांस्कृतिक या सामाजिक कार्यक्रमों के लिए उपयोगी।" },
-      icon: 'FileText',
-      link: "/templates/function-invitation"
+      title: {
+        en: "Function Invitation Letter",
+        hi: "कार्यक्रम निमंत्रण पत्र",
+      },
+      description: {
+        en: "Useful for cultural or social events.",
+        hi: "सांस्कृतिक या सामाजिक कार्यक्रमों के लिए उपयोगी।",
+      },
+      icon: "FileText",
+      link: "/templates/function-invitation",
     },
     {
       title: { en: "RSVP Email Format", hi: "RSVP ईमेल प्रारूप" },
-      description: { en: "For confirming invitations.", hi: "निमंत्रण की पुष्टि के लिए।" },
-      icon: 'Briefcase',
-      link: "/templates/rsvp-email"
-    }
+      description: {
+        en: "For confirming invitations.",
+        hi: "निमंत्रण की पुष्टि के लिए।",
+      },
+      icon: "Briefcase",
+      link: "/templates/rsvp-email",
+    },
   ],
-
   blogArticles: [
     {
-      title: { en: "Tips for Writing Perfect Invitation Letters", hi: "सही निमंत्रण पत्र लिखने के सुझाव" },
-      excerpt: { en: "Simple rules for formal and informal invites.", hi: "औपचारिक और अनौपचारिक निमंत्रणों के सरल नियम।" },
+      title: {
+        en: "Tips for Writing Professional Business Meeting Invitations",
+        hi: "पेशेवर व्यावसायिक बैठक निमंत्रण लिखने के सुझाव",
+      },
+      excerpt: {
+        en: "Simple tips for writing clear and professional business meeting invitations.",
+        hi: "स्पष्ट और पेशेवर व्यावसायिक बैठक निमंत्रण लिखने के सरल सुझाव।",
+      },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-invitation"
+      link: "/blog/write-business-meeting-invitation",
     },
     {
-      title: { en: "How to Format RSVP Responses", hi: "RSVP प्रतिक्रिया कैसे लिखें" },
-      excerpt: { en: "Learn the correct way to respond to invitations.", hi: "निमंत्रणों का सही जवाब देना सीखें।" },
+      title: {
+        en: "How to Write RSVP Responses for Business Meetings",
+        hi: "व्यावसायिक बैठकों के लिए RSVP प्रतिक्रिया कैसे लिखें",
+      },
+      excerpt: {
+        en: "Learn the correct way to confirm or decline business meeting invitations.",
+        hi: "व्यावसायिक बैठक निमंत्रण स्वीकार या अस्वीकार करने का सही तरीका सीखें।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/rsvp-guide"
-    }
+      link: "/blog/business-meeting-rsvp-guide",
+    },
   ],
 
   faqs: [
     {
-      question: { en: "Should I include dress code?", hi: "क्या मुझे ड्रेस कोड शामिल करना चाहिए?" },
-      answer: { en: "Yes, if the event requires it.", hi: "हाँ, यदि कार्यक्रम में आवश्यक हो।" }
+      question: {
+        en: "Should I include a dress code in a business meeting invitation?",
+        hi: "क्या मुझे व्यावसायिक बैठक निमंत्रण में ड्रेस कोड शामिल करना चाहिए?",
+      },
+      answer: {
+        en: "Yes, if the meeting requires formal, business casual, or specific attire.",
+        hi: "हाँ, यदि बैठक के लिए औपचारिक, बिजनेस कैज़ुअल या विशेष पोशाक आवश्यक हो।",
+      },
     },
     {
-      question: { en: "Are invitation letters formal or informal?", hi: "क्या निमंत्रण पत्र औपचारिक होते हैं या अनौपचारिक?" },
-      answer: { en: "Depends on the event—business events are formal, parties are informal.", hi: "कार्यक्रम पर निर्भर करता है—व्यावसायिक कार्यक्रम औपचारिक, पार्टियाँ अनौपचारिक।" }
+      question: {
+        en: "Are business meeting invitations formal?",
+        hi: "क्या व्यावसायिक बैठक निमंत्रण औपचारिक होते हैं?",
+      },
+      answer: {
+        en: "Yes, business meeting invitations are usually formal and professional in tone.",
+        hi: "हाँ, व्यावसायिक बैठक निमंत्रण आमतौर पर औपचारिक और पेशेवर होते हैं।",
+      },
     },
     {
-      question: { en: "Should I ask for RSVP?", hi: "क्या मुझे RSVP माँगना चाहिए?" },
-      answer: { en: "Yes, it helps in planning the event.", hi: "हाँ, इससे कार्यक्रम की तैयारी में मदद मिलती है।" }
-    }
-  ]
+      question: {
+        en: "Should I ask for RSVP in a business meeting invitation?",
+        hi: "क्या मुझे व्यावसायिक बैठक निमंत्रण में RSVP माँगना चाहिए?",
+      },
+      answer: {
+        en: "Yes, RSVP helps organizers confirm attendance and manage meeting arrangements.",
+        hi: "हाँ, RSVP आयोजकों को उपस्थिति की पुष्टि और बैठक व्यवस्था प्रबंधित करने में मदद करता है।",
+      },
+    },
+    {
+      question: {
+        en: "What details should be included in a business meeting invitation?",
+        hi: "व्यावसायिक बैठक निमंत्रण में कौन-कौन सी जानकारी शामिल करनी चाहिए?",
+      },
+      answer: {
+        en: "You should include the meeting agenda, date, time, venue or meeting link, and contact details.",
+        hi: "आपको बैठक का एजेंडा, तिथि, समय, स्थान या मीटिंग लिंक और संपर्क विवरण शामिल करना चाहिए।",
+      },
+    },
+    {
+      question: {
+        en: "Can business meeting invitations be sent online?",
+        hi: "क्या व्यावसायिक बैठक निमंत्रण ऑनलाइन भेजे जा सकते हैं?",
+      },
+      answer: {
+        en: "Yes, business meeting invitations are commonly sent through email, calendar invites, and messaging platforms.",
+        hi: "हाँ, व्यावसायिक बैठक निमंत्रण सामान्यतः ईमेल, कैलेंडर इनवाइट और मैसेजिंग प्लेटफॉर्म के माध्यम से भेजे जाते हैं।",
+      },
+    },
+  ],
 };

@@ -14,13 +14,13 @@ export const neighborComplaintTemplate = {
   },
 
   title: {
-    en: "Complaint Application Letters",
-    hi: "शिकायत आवेदन पत्र",
+    en: "Neighbor Complaint Letters",
+    hi: "पड़ोसी शिकायत पत्र",
   },
 
   subtitle: {
-    en: "Professional complaint letter formats including product complaints, service issues, workplace concerns, neighbor disputes, online shopping problems, and refund requests.",
-    hi: "उत्पाद, सेवा, कार्यस्थल, पड़ोसी विवाद, ऑनलाइन खरीदारी समस्याएँ और रिफंड से संबंधित शिकायतों के लिए पेशेवर प्रारूप।",
+    en: "Professional complaint letter formats for neighbor disputes including noise complaints, parking issues, property damage, cleanliness concerns, disturbances, and society-related complaints.",
+    hi: "शोर शिकायत, पार्किंग समस्या, संपत्ति नुकसान, सफाई संबंधी समस्या, परेशानियों और सोसाइटी से जुड़ी शिकायतों के लिए पेशेवर पड़ोसी शिकायत पत्र प्रारूप।",
   },
 
   category: {
@@ -149,59 +149,79 @@ Sincerely,
   blogArticles: [
     {
       title: {
-        en: "How to File an Effective Complaint",
-        hi: "प्रभावी शिकायत कैसे दर्ज करें",
+        en: "How to Write an Effective Neighbor Complaint Letter",
+        hi: "प्रभावी पड़ोसी शिकायत पत्र कैसे लिखें",
       },
       excerpt: {
-        en: "Learn the right structure and tone.",
-        hi: "सही संरचना और लहजे के बारे में जानें।",
+        en: "Learn how to write a polite and professional complaint letter regarding neighborhood issues.",
+        hi: "पड़ोस से जुड़ी समस्याओं के लिए विनम्र और पेशेवर शिकायत पत्र लिखना सीखें।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-complaint-letter",
+      link: "/blog/write-neighbor-complaint-letter",
     },
     {
       title: {
-        en: "Consumer Rights You Should Know",
-        hi: "उपभोक्ता अधिकार जो आपको जानने चाहिए",
+        en: "Common Neighborhood Issues and Legal Rights",
+        hi: "सामान्य पड़ोस समस्याएँ और कानूनी अधिकार",
       },
       excerpt: {
-        en: "Important rights for purchase & service issues.",
-        hi: "खरीद और सेवा संबंधी महत्वपूर्ण अधिकार।",
+        en: "Understand your rights regarding noise, parking, property disputes, and other neighborhood issues.",
+        hi: "शोर, पार्किंग, संपत्ति विवाद और अन्य पड़ोस समस्याओं से संबंधित अपने अधिकार जानें।",
       },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/consumer-rights",
+      link: "/blog/neighborhood-rights",
     },
   ],
 
   faqs: [
     {
       question: {
-        en: "Should I attach proof with complaint?",
-        hi: "क्या शिकायत के साथ सबूत संलग्न करना चाहिए?",
+        en: "Should I attach proof with a neighbor complaint letter?",
+        hi: "क्या पड़ोसी शिकायत पत्र के साथ सबूत संलग्न करना चाहिए?",
       },
       answer: {
-        en: "Yes, it increases credibility and speeds up resolution.",
-        hi: "हाँ, इससे विश्वसनीयता बढ़ती है और समाधान जल्दी मिलता है।",
+        en: "Yes, attaching photos, videos, or recordings can help support your complaint.",
+        hi: "हाँ, फोटो, वीडियो या रिकॉर्डिंग संलग्न करने से आपकी शिकायत को समर्थन मिलता है।",
       },
     },
     {
       question: {
-        en: "Can I file a complaint through email?",
-        hi: "क्या मैं ईमेल से शिकायत कर सकता/सकती हूँ?",
+        en: "Can I file a neighbor complaint through email?",
+        hi: "क्या मैं ईमेल के माध्यम से पड़ोसी शिकायत दर्ज कर सकता/सकती हूँ?",
       },
       answer: {
-        en: "Yes, most companies accept email complaints.",
-        hi: "हाँ, अधिकांश कंपनियाँ ईमेल शिकायत स्वीकार करती हैं।",
+        en: "Yes, many housing societies, landlords, and authorities accept complaints through email.",
+        hi: "हाँ, कई हाउसिंग सोसाइटी, मकान मालिक और प्राधिकरण ईमेल के माध्यम से शिकायत स्वीकार करते हैं।",
       },
     },
     {
       question: {
-        en: "How long should a complaint letter be?",
-        hi: "शिकायत पत्र कितना लंबा होना चाहिए?",
+        en: "How long should a neighbor complaint letter be?",
+        hi: "पड़ोसी शिकायत पत्र कितना लंबा होना चाहिए?",
       },
       answer: {
-        en: "Keep it short, clear, and professional (1 page).",
-        hi: "इसे छोटा, स्पष्ट और पेशेवर रखें (1 पेज)।",
+        en: "Keep it short, clear, respectful, and professional—ideally one page.",
+        hi: "इसे छोटा, स्पष्ट, सम्मानजनक और पेशेवर रखें—आदर्श रूप से एक पेज।",
+      },
+    },
+    {
+      question: {
+        en: "What issues can be mentioned in a neighbor complaint letter?",
+        hi: "पड़ोसी शिकायत पत्र में किन समस्याओं का उल्लेख किया जा सकता है?",
+      },
+      answer: {
+        en: "You can mention issues like loud noise, parking disputes, garbage problems, property damage, or disturbances.",
+        hi: "आप तेज़ शोर, पार्किंग विवाद, कचरा समस्या, संपत्ति नुकसान या अन्य परेशानियों का उल्लेख कर सकते हैं।",
+      },
+    },
+    {
+      question: {
+        en: "Should I remain polite in a neighbor complaint letter?",
+        hi: "क्या मुझे पड़ोसी शिकायत पत्र में विनम्र रहना चाहिए?",
+      },
+      answer: {
+        en: "Yes, maintaining a calm and respectful tone increases the chances of a positive resolution.",
+        hi: "हाँ, शांत और सम्मानजनक भाषा समाधान की संभावना बढ़ाती है।",
       },
     },
   ],

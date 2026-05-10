@@ -14,13 +14,13 @@ export const eventInvitationTemplate = {
   },
 
   title: {
-    en: "Invitation Application Letters",
-    hi: "निमंत्रण आवेदन पत्र",
+    en: "Event Invitation Letters",
+    hi: "कार्यक्रम निमंत्रण पत्र",
   },
 
   subtitle: {
-    en: "Formal and informal invitation formats including event invitations, business meetings, weddings, birthdays, seminars, and guest speaker invitations.",
-    hi: "कार्यक्रम, व्यवसायिक बैठक, शादी, जन्मदिन, सेमिनार और अतिथि वक्ता निमंत्रण के लिए औपचारिक और अनौपचारिक पत्र प्रारूप।",
+    en: "Formal and informal event invitation formats for conferences, cultural programs, corporate events, school functions, ceremonies, and special occasions.",
+    hi: "सम्मेलन, सांस्कृतिक कार्यक्रम, कॉर्पोरेट इवेंट, स्कूल समारोह, उत्सव और विशेष अवसरों के लिए औपचारिक और अनौपचारिक कार्यक्रम निमंत्रण पत्र प्रारूप।",
   },
 
   category: {
@@ -78,7 +78,8 @@ Warm regards,
 [आपका नाम]
 [पद, यदि हो]
 [संस्था का नाम, यदि हो]
-[संपर्क नंबर]`},
+[संपर्क नंबर]`,
+      },
     },
   ],
 
@@ -141,63 +142,82 @@ Warm regards,
       link: "/templates/rsvp-email",
     },
   ],
-
   blogArticles: [
     {
       title: {
-        en: "Tips for Writing Perfect Invitation Letters",
-        hi: "सही निमंत्रण पत्र लिखने के सुझाव",
+        en: "Tips for Writing Perfect Event Invitation Letters",
+        hi: "सही कार्यक्रम निमंत्रण पत्र लिखने के सुझाव",
       },
       excerpt: {
-        en: "Simple rules for formal and informal invites.",
-        hi: "औपचारिक और अनौपचारिक निमंत्रणों के सरल नियम।",
+        en: "Simple tips for creating clear and engaging event invitations.",
+        hi: "स्पष्ट और आकर्षक कार्यक्रम निमंत्रण लिखने के सरल सुझाव।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-invitation",
+      link: "/blog/write-event-invitation",
     },
     {
       title: {
-        en: "How to Format RSVP Responses",
-        hi: "RSVP प्रतिक्रिया कैसे लिखें",
+        en: "How to Format RSVP Responses for Events",
+        hi: "कार्यक्रमों के लिए RSVP प्रतिक्रिया कैसे लिखें",
       },
       excerpt: {
-        en: "Learn the correct way to respond to invitations.",
-        hi: "निमंत्रणों का सही जवाब देना सीखें।",
+        en: "Learn the correct way to confirm or respond to event invitations.",
+        hi: "कार्यक्रम निमंत्रण स्वीकार या उत्तर देने का सही तरीका सीखें।",
       },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/rsvp-guide",
+      link: "/blog/event-rsvp-guide",
     },
   ],
 
   faqs: [
     {
       question: {
-        en: "Should I include dress code?",
-        hi: "क्या मुझे ड्रेस कोड शामिल करना चाहिए?",
+        en: "Should I include a dress code in an event invitation?",
+        hi: "क्या मुझे कार्यक्रम निमंत्रण में ड्रेस कोड शामिल करना चाहिए?",
       },
       answer: {
-        en: "Yes, if the event requires it.",
-        hi: "हाँ, यदि कार्यक्रम में आवश्यक हो।",
+        en: "Yes, if the event has a specific theme, formal attire requirement, or uniform guideline.",
+        hi: "हाँ, यदि कार्यक्रम की कोई विशेष थीम, औपचारिक ड्रेस आवश्यकता या यूनिफॉर्म नियम हो।",
       },
     },
     {
       question: {
-        en: "Are invitation letters formal or informal?",
-        hi: "क्या निमंत्रण पत्र औपचारिक होते हैं या अनौपचारिक?",
+        en: "Are event invitation letters formal or informal?",
+        hi: "क्या कार्यक्रम निमंत्रण पत्र औपचारिक होते हैं या अनौपचारिक?",
       },
       answer: {
-        en: "Depends on the event—business events are formal, parties are informal.",
-        hi: "कार्यक्रम पर निर्भर करता है—व्यावसायिक कार्यक्रम औपचारिक, पार्टियाँ अनौपचारिक।",
+        en: "It depends on the type of event—corporate and official events are formal, while personal celebrations may be informal.",
+        hi: "यह कार्यक्रम के प्रकार पर निर्भर करता है—कॉर्पोरेट और आधिकारिक कार्यक्रम औपचारिक होते हैं, जबकि व्यक्तिगत समारोह अनौपचारिक हो सकते हैं।",
       },
     },
     {
       question: {
-        en: "Should I ask for RSVP?",
-        hi: "क्या मुझे RSVP माँगना चाहिए?",
+        en: "Should I ask for RSVP in an event invitation?",
+        hi: "क्या मुझे कार्यक्रम निमंत्रण में RSVP माँगना चाहिए?",
       },
       answer: {
-        en: "Yes, it helps in planning the event.",
-        hi: "हाँ, इससे कार्यक्रम की तैयारी में मदद मिलती है।",
+        en: "Yes, RSVP helps organizers manage attendance, seating, and event arrangements efficiently.",
+        hi: "हाँ, RSVP आयोजकों को उपस्थिति, बैठने और कार्यक्रम व्यवस्था प्रबंधित करने में मदद करता है।",
+      },
+    },
+    {
+      question: {
+        en: "What details should be included in an event invitation?",
+        hi: "कार्यक्रम निमंत्रण में कौन-कौन सी जानकारी शामिल करनी चाहिए?",
+      },
+      answer: {
+        en: "You should include the event name, date, time, venue, purpose, and RSVP details.",
+        hi: "आपको कार्यक्रम का नाम, तिथि, समय, स्थान, उद्देश्य और RSVP जानकारी शामिल करनी चाहिए।",
+      },
+    },
+    {
+      question: {
+        en: "Can event invitations be sent online?",
+        hi: "क्या कार्यक्रम निमंत्रण ऑनलाइन भेजे जा सकते हैं?",
+      },
+      answer: {
+        en: "Yes, event invitations can be shared through email, social media, messaging apps, and digital invitation platforms.",
+        hi: "हाँ, कार्यक्रम निमंत्रण ईमेल, सोशल मीडिया, मैसेजिंग ऐप्स और डिजिटल निमंत्रण प्लेटफॉर्म के माध्यम से भेजे जा सकते हैं।",
       },
     },
   ],

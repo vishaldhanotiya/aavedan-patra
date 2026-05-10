@@ -164,61 +164,95 @@ Yours faithfully,
     }
   ],
 
-  // ----------------------------------------------------
-  // BLOG ARTICLES
-  // ----------------------------------------------------
-  blogArticles: [
-    {
-      title: { en: "How to Write a Loan Application to Bank", hi: "बैंक को लोन आवेदन कैसे लिखें" },
-      excerpt: { en: "Simple tips to write a perfect bank loan application.", hi: "सही बैंक लोन आवेदन लिखने के आसान टिप्स।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/how-to-write-loan-application"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write an Emergency Loan Application",
+      hi: "इमरजेंसी लोन आवेदन कैसे लिखें",
     },
-    {
-      title: { en: "Documents Required for Loan Approval", hi: "लोन स्वीकृति के लिए आवश्यक दस्तावेज़" },
-      excerpt: { en: "Checklist for all loan types.", hi: "सभी प्रकार के लोन के लिए दस्तावेज़ चेकलिस्ट।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/loan-documents"
+    excerpt: {
+      en: "Simple tips to write a professional emergency loan application for urgent financial needs.",
+      hi: "तत्काल वित्तीय आवश्यकताओं के लिए पेशेवर इमरजेंसी लोन आवेदन लिखने के आसान सुझाव।",
     },
-    {
-      title: { en: "Common Mistakes in Loan Applications", hi: "लोन आवेदनों में सामान्य गलतियाँ" },
-      excerpt: { en: "Avoid mistakes to increase approval chances.", hi: "स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।" },
-      readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
-      link: "/blog/loan-application-mistakes"
-    }
-  ],
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/how-to-write-emergency-loan-application",
+  },
+  {
+    title: {
+      en: "Documents Required for Emergency Loan Approval",
+      hi: "इमरजेंसी लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
+    },
+    excerpt: {
+      en: "Checklist of important documents required for emergency loan applications.",
+      hi: "इमरजेंसी लोन आवेदन के लिए आवश्यक महत्वपूर्ण दस्तावेज़ों की सूची।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/emergency-loan-documents",
+  },
+  {
+    title: {
+      en: "Common Mistakes in Emergency Loan Applications",
+      hi: "इमरजेंसी लोन आवेदनों में सामान्य गलतियाँ",
+    },
+    excerpt: {
+      en: "Avoid these mistakes to improve your emergency loan approval chances.",
+      hi: "इमरजेंसी लोन स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
+    },
+    readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
+    link: "/blog/emergency-loan-application-mistakes",
+  },
+],
 
-  // ----------------------------------------------------
-  // FAQ SECTION
-  // ----------------------------------------------------
-  faqs: [
-    {
-      question: { en: "How long should a loan application be?", hi: "लोन आवेदन कितना लंबा होना चाहिए?" },
-      answer: {
-        en: "One page is enough. Keep the content clear and precise.",
-        hi: "एक पेज पर्याप्त है। सामग्री स्पष्ट और संक्षिप्त रखें।"
-      }
+faqs: [
+  {
+    question: {
+      en: "How long should an emergency loan application be?",
+      hi: "इमरजेंसी लोन आवेदन कितना लंबा होना चाहिए?",
     },
-    {
-      question: { en: "Should I mention my account number?", hi: "क्या मुझे अपना खाता नंबर लिखना चाहिए?" },
-      answer: {
-        en: "Yes, always mention your account number for faster processing.",
-        hi: "हाँ, तेज़ प्रक्रिया के लिए खाता संख्या अवश्य लिखें।"
-      }
+    answer: {
+      en: "One page is usually enough. Keep the details clear, direct, and professional.",
+      hi: "आमतौर पर एक पेज पर्याप्त होता है। जानकारी स्पष्ट, सीधी और पेशेवर रखें।",
     },
-    {
-      question: { en: "Is it necessary to attach income proof?", hi: "क्या आय प्रमाण संलग्न करना आवश्यक है?" },
-      answer: {
-        en: "Yes, income proof is mandatory for loan approval.",
-        hi: "हाँ, लोन स्वीकृति के लिए आय प्रमाण अनिवार्य है।"
-      }
+  },
+  {
+    question: {
+      en: "Should I explain the emergency reason in the application?",
+      hi: "क्या मुझे आवेदन में आपात स्थिति का कारण बताना चाहिए?",
     },
-    {
-      question: { en: "How soon can a loan be approved?", hi: "लोन कितने समय में स्वीकृत हो सकता है?" },
-      answer: {
-        en: "Depending on the bank, it may take 3–7 working days.",
-        hi: "बैंक के अनुसार इसमें 3–7 कार्य दिवस लग सकते हैं।"
-      }
-    }
-  ]
+    answer: {
+      en: "Yes, briefly explaining the emergency helps the bank understand the urgency of your request.",
+      hi: "हाँ, आपात स्थिति का संक्षिप्त विवरण देने से बैंक को आपकी आवश्यकता की तात्कालिकता समझने में मदद मिलती है।",
+    },
+  },
+  {
+    question: {
+      en: "Is income proof necessary for an emergency loan?",
+      hi: "क्या इमरजेंसी लोन के लिए आय प्रमाण आवश्यक है?",
+    },
+    answer: {
+      en: "Yes, banks usually require income proof and financial documents for emergency loan approval.",
+      hi: "हाँ, बैंक आमतौर पर इमरजेंसी लोन स्वीकृति के लिए आय प्रमाण और वित्तीय दस्तावेज़ मांगते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "How quickly can an emergency loan be approved?",
+      hi: "इमरजेंसी लोन कितनी जल्दी स्वीकृत हो सकता है?",
+    },
+    answer: {
+      en: "Depending on the bank and verification process, approval may take 1–5 working days.",
+      hi: "बैंक और सत्यापन प्रक्रिया के अनुसार स्वीकृति में 1–5 कार्य दिवस लग सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Can I apply for an emergency loan online?",
+      hi: "क्या मैं इमरजेंसी लोन के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, many banks and financial institutions provide online emergency loan application facilities.",
+      hi: "हाँ, कई बैंक और वित्तीय संस्थान ऑनलाइन इमरजेंसी लोन आवेदन की सुविधा प्रदान करते हैं।",
+    },
+  },
+],
 };

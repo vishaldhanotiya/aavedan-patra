@@ -6,16 +6,15 @@ export const immediateResignationTemplate = {
     template: { en: "Official Resignation Letters", hi: "आधिकारिक इस्तीफा पत्र",slug:""  }
   },
 
-  title: { 
-    en: "Resignation Application Letters", 
-    hi: "इस्तीफा आवेदन पत्र" 
-  },
+title: { 
+  en: "Immediate Resignation Letters", 
+  hi: "तत्काल इस्तीफा पत्र" 
+},
 
-  subtitle: { 
-    en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर इस्तीफा प्रारूप—मानक त्यागपत्र, शॉर्ट नोटिस, तत्काल त्यागपत्र, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।"
-  },
-
+subtitle: { 
+  en: "Professional immediate resignation letter formats for urgent resignations due to personal reasons, health issues, emergencies, workplace concerns, or sudden career changes.",
+  hi: "व्यक्तिगत कारणों, स्वास्थ्य समस्याओं, आपात स्थिति, कार्यस्थल संबंधी चिंताओं या अचानक करियर परिवर्तन के कारण तत्काल इस्तीफे के लिए पेशेवर पत्र प्रारूप।"
+},
   category: { 
     en: "Resignation Letters", 
     hi: "त्यागपत्र" 
@@ -106,33 +105,83 @@ Sincerely,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to Resign Professionally", hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें" },
-      excerpt: { en: "Tips for a smooth and respectful exit.", hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/professional-resignation"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write an Immediate Resignation Letter",
+      hi: "तत्काल इस्तीफा पत्र कैसे लिखें",
     },
-    {
-      title: { en: "Notice Period Rules in India", hi: "भारत में नोटिस पीरियड के नियम" },
-      excerpt: { en: "Understand your workplace rights.", hi: "अपने कार्यस्थल के अधिकार जानें।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/notice-period-india"
-    }
-  ],
+    excerpt: {
+      en: "Tips for resigning immediately in a professional and respectful manner.",
+      hi: "पेशेवर और सम्मानजनक तरीके से तत्काल इस्तीफा देने के सुझाव।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/immediate-resignation-letter",
+  },
+  {
+    title: {
+      en: "Immediate Resignation and Notice Period Rules in India",
+      hi: "तत्काल इस्तीफा और भारत में नोटिस पीरियड नियम",
+    },
+    excerpt: {
+      en: "Understand workplace policies and employee rights for immediate resignations.",
+      hi: "तत्काल इस्तीफे से संबंधित कार्यस्थल नीतियों और कर्मचारी अधिकारों को समझें।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/immediate-resignation-notice-rules",
+  },
+],
 
-  faqs: [
-    {
-      question: { en: "How long should a resignation letter be?", hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?" },
-      answer: { en: "Ideally one page, short and professional.", hi: "आमतौर पर एक पृष्ठ—संक्षिप्त और पेशेवर।" }
+faqs: [
+  {
+    question: {
+      en: "How long should an immediate resignation letter be?",
+      hi: "तत्काल इस्तीफा पत्र कितना लंबा होना चाहिए?",
     },
-    {
-      question: { en: "Can I resign without notice?", hi: "क्या मैं बिना नोटिस के इस्तीफा पत्र दे सकता/सकती हूँ?" },
-      answer: { en: "Yes, but only in emergency or valid reasons.", hi: "हाँ, लेकिन केवल उचित कारण या आपात स्थिति में।" }
+    answer: {
+      en: "It should ideally be short, professional, and limited to one page.",
+      hi: "यह आदर्श रूप से छोटा, पेशेवर और एक पृष्ठ तक सीमित होना चाहिए।",
     },
-    {
-      question: { en: "Should I mention the reason for resignation?", hi: "क्या इस्तीफे का कारण लिखना जरूरी है?" },
-      answer: { en: "Optional, but recommended for clarity.", hi: "वैकल्पिक, लेकिन स्पष्टता के लिए उचित।" }
-    }
-  ]
+  },
+  {
+    question: {
+      en: "Can I resign immediately without notice?",
+      hi: "क्या मैं बिना नोटिस के तुरंत इस्तीफा दे सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, immediate resignation is possible in emergencies or special circumstances, depending on company policy.",
+      hi: "हाँ, कंपनी की नीति के अनुसार आपात स्थिति या विशेष परिस्थितियों में तत्काल इस्तीफा संभव है।",
+    },
+  },
+  {
+    question: {
+      en: "Should I mention the reason for immediate resignation?",
+      hi: "क्या मुझे तत्काल इस्तीफे का कारण लिखना चाहिए?",
+    },
+    answer: {
+      en: "Yes, briefly mentioning the reason helps maintain professionalism and clarity.",
+      hi: "हाँ, संक्षेप में कारण बताने से पेशेवरता और स्पष्टता बनी रहती है।",
+    },
+  },
+  {
+    question: {
+      en: "Can I send an immediate resignation letter by email?",
+      hi: "क्या मैं तत्काल इस्तीफा पत्र ईमेल द्वारा भेज सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, many organizations accept immediate resignation letters through official email communication.",
+      hi: "हाँ, कई संगठन आधिकारिक ईमेल के माध्यम से तत्काल इस्तीफा पत्र स्वीकार करते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Will immediate resignation affect my experience letter?",
+      hi: "क्या तत्काल इस्तीफा मेरे अनुभव पत्र को प्रभावित करेगा?",
+    },
+    answer: {
+      en: "It depends on company policies and whether exit formalities are properly completed.",
+      hi: "यह कंपनी की नीतियों और एग्जिट प्रक्रिया पूरी करने पर निर्भर करता है।",
+    },
+  },
+],
 };

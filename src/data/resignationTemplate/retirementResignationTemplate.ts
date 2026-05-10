@@ -1,24 +1,31 @@
-
 export const retirementResignationTemplate = {
   breadcrumb: {
-    category: { en: "Letters", hi: "पत्र",slug:"/letters"  },
-    subcategory: { en: "Resignation Letters", hi: "इस्तीफा",slug:"/letters/resignation"  },
-    template: { en: "Official Resignation Letters", hi: "आधिकारिक इस्तीफा पत्र",slug:""  }
+    category: { en: "Letters", hi: "पत्र", slug: "/letters" },
+    subcategory: {
+      en: "Resignation Letters",
+      hi: "इस्तीफा",
+      slug: "/letters/resignation",
+    },
+    template: {
+      en: "Official Resignation Letters",
+      hi: "आधिकारिक इस्तीफा पत्र",
+      slug: "",
+    },
   },
 
-  title: { 
-    en: "Resignation Application Letters", 
-    hi: "इस्तीफा पत्र आवेदन पत्र" 
+  title: {
+    en: "Retirement Resignation Letters",
+    hi: "सेवानिवृत्ति इस्तीफा पत्र",
   },
 
-  subtitle: { 
-    en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर इस्तीफा पत्र प्रारूप—मानक इस्तीफा, शॉर्ट नोटिस, तत्काल इस्तीफा, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।"
+  subtitle: {
+    en: "Professional retirement resignation letter formats for employees retiring from service with gratitude, proper notice, and smooth transition planning.",
+    hi: "आभार, उचित नोटिस और सुचारु कार्य हस्तांतरण के साथ सेवा से सेवानिवृत्त होने वाले कर्मचारियों के लिए पेशेवर सेवानिवृत्ति इस्तीफा पत्र प्रारूप।",
   },
 
-  category: { 
-    en: "Resignation Letters", 
-    hi: "इस्तीफा पत्र" 
+  category: {
+    en: "Resignation Letters",
+    hi: "इस्तीफा पत्र",
   },
 
   updatedDate: "January 2025",
@@ -27,10 +34,13 @@ export const retirementResignationTemplate = {
     // 5. Retirement Resignation
     {
       id: "retirementResignation",
-      title: { en: "Retirement Resignation Letter", hi: "सेवानिवृत्ति इस्तीफा पत्र" },
+      title: {
+        en: "Retirement Resignation Letter",
+        hi: "सेवानिवृत्ति इस्तीफा पत्र",
+      },
       description: {
         en: "Resignation submitted at the time of retirement from service.",
-        hi: "सेवानिवृत्ति के समय प्रस्तुत किया जाने वाला इस्तीफा पत्र"
+        hi: "सेवानिवृत्ति के समय प्रस्तुत किया जाने वाला इस्तीफा पत्र",
       },
       bestFor: { en: "Retirement from service", hi: "सेवा से सेवानिवृत्ति" },
       length: { en: "Medium", hi: "मध्यम" },
@@ -79,64 +89,148 @@ Yours sincerely,
 [आपका नाम]
 [कर्मचारी आईडी]
 [विभाग]
-[संपर्क नंबर]`
-      }
-    }
+[संपर्क नंबर]`,
+      },
+    },
   ],
 
   howToWrite: {
-    title: { en: "How to Write a Resignation Letter", hi: "इस्तीफा पत्र कैसे लिखें" },
+    title: {
+      en: "How to Write a Resignation Letter",
+      hi: "इस्तीफा पत्र कैसे लिखें",
+    },
     tips: [
-      { text: { en: "Keep the tone respectful and professional.", hi: "लहजा सम्मानजनक और पेशेवर रखें।" } },
-      { text: { en: "Mention your last working day clearly.", hi: "अपने अंतिम कार्य दिवस का स्पष्ट उल्लेख करें।" } },
-      { text: { en: "Avoid complaining or negativity.", hi: "शिकायत या नकारात्मक बातें न लिखें।" } },
-      { text: { en: "Offer help with the transition.", hi: "हस्तांतरण में सहायता की पेशकश करें।" } },
-      { text: { en: "Express gratitude for the opportunity.", hi: "मिले अवसरों के लिए आभार व्यक्त करें।" } }
-    ]
+      {
+        text: {
+          en: "Keep the tone respectful and professional.",
+          hi: "लहजा सम्मानजनक और पेशेवर रखें।",
+        },
+      },
+      {
+        text: {
+          en: "Mention your last working day clearly.",
+          hi: "अपने अंतिम कार्य दिवस का स्पष्ट उल्लेख करें।",
+        },
+      },
+      {
+        text: {
+          en: "Avoid complaining or negativity.",
+          hi: "शिकायत या नकारात्मक बातें न लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Offer help with the transition.",
+          hi: "हस्तांतरण में सहायता की पेशकश करें।",
+        },
+      },
+      {
+        text: {
+          en: "Express gratitude for the opportunity.",
+          hi: "मिले अवसरों के लिए आभार व्यक्त करें।",
+        },
+      },
+    ],
   },
 
   relatedTemplates: [
     {
       title: { en: "Appointment Letter", hi: "नियुक्ति पत्र" },
-      description: { en: "Official joining/appointment format.", hi: "आधिकारिक नियुक्ति पत्र प्रारूप।" },
-      icon: 'FileText',
-      link: "/templates/appointment-letter"
+      description: {
+        en: "Official joining/appointment format.",
+        hi: "आधिकारिक नियुक्ति पत्र प्रारूप।",
+      },
+      icon: "FileText",
+      link: "/templates/appointment-letter",
     },
     {
       title: { en: "Work Handover Format", hi: "कार्य हस्तांतरण प्रारूप" },
-      description: { en: "For smooth transition of responsibilities.", hi: "जिम्मेदारियों के सुचारू हस्तांतरण हेतु।" },
-      icon: 'Briefcase',
-      link: "/templates/work-handover"
-    }
+      description: {
+        en: "For smooth transition of responsibilities.",
+        hi: "जिम्मेदारियों के सुचारू हस्तांतरण हेतु।",
+      },
+      icon: "Briefcase",
+      link: "/templates/work-handover",
+    },
   ],
 
   blogArticles: [
     {
-      title: { en: "How to Resign Professionally", hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें" },
-      excerpt: { en: "Tips for a smooth and respectful exit.", hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।" },
+      title: {
+        en: "How to Write a Retirement Resignation Letter",
+        hi: "सेवानिवृत्ति इस्तीफा पत्र कैसे लिखें",
+      },
+      excerpt: {
+        en: "Tips for retiring professionally with gratitude and a smooth transition.",
+        hi: "आभार और सुचारु कार्य हस्तांतरण के साथ पेशेवर तरीके से सेवानिवृत्ति लेने के सुझाव।",
+      },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/professional-resignation"
+      link: "/blog/retirement-resignation-letter",
     },
     {
-      title: { en: "Notice Period Rules in India", hi: "भारत में नोटिस पीरियड के नियम" },
-      excerpt: { en: "Understand your workplace rights.", hi: "अपने कार्यस्थल के अधिकार जानें।" },
+      title: {
+        en: "Retirement Notice Period Rules in India",
+        hi: "भारत में सेवानिवृत्ति नोटिस पीरियड नियम",
+      },
+      excerpt: {
+        en: "Understand retirement notice policies, employee rights, and resignation procedures.",
+        hi: "सेवानिवृत्ति नोटिस नीतियों, कर्मचारी अधिकारों और इस्तीफा प्रक्रियाओं को समझें।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/notice-period-india"
-    }
+      link: "/blog/retirement-notice-rules",
+    },
   ],
 
   faqs: [
     {
-      question: { en: "How long should a resignation letter be?", hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?" },
-      answer: { en: "Ideally one page, short and professional.", hi: "आमतौर पर एक पृष्ठ—संक्षिप्त और पेशेवर।" }
+      question: {
+        en: "How long should a retirement resignation letter be?",
+        hi: "सेवानिवृत्ति इस्तीफा पत्र कितना लंबा होना चाहिए?",
+      },
+      answer: {
+        en: "It should ideally be concise, professional, and limited to one page.",
+        hi: "यह आदर्श रूप से संक्षिप्त, पेशेवर और एक पृष्ठ तक सीमित होना चाहिए।",
+      },
     },
     {
-      question: { en: "Can I resign without notice?", hi: "क्या मैं बिना नोटिस के इस्तीफा पत्र दे सकता/सकती हूँ?" },
-      answer: { en: "Yes, but only in emergency or valid reasons.", hi: "हाँ, लेकिन केवल उचित कारण या आपात स्थिति में।" }
+      question: {
+        en: "Should I mention retirement as the reason for resignation?",
+        hi: "क्या मुझे इस्तीफे का कारण सेवानिवृत्ति बताना चाहिए?",
+      },
+      answer: {
+        en: "Yes, mentioning retirement helps provide clarity and maintain professionalism.",
+        hi: "हाँ, सेवानिवृत्ति का उल्लेख करने से स्पष्टता और पेशेवरता बनी रहती है।",
+      },
     },
     {
-      question: { en: "Should I mention the reason for resignation?", hi: "क्या इस्तीफे का कारण लिखना जरूरी है?" },
-      answer: { en: "Optional, but recommended for clarity.", hi: "वैकल्पिक, लेकिन स्पष्टता के लिए उचित।" }
-    }
-  ]
+      question: {
+        en: "Do I need to serve a notice period before retirement?",
+        hi: "क्या सेवानिवृत्ति से पहले नोटिस पीरियड पूरा करना आवश्यक है?",
+      },
+      answer: {
+        en: "Yes, most organizations require employees to follow the notice period mentioned in company policy or employment contracts.",
+        hi: "हाँ, अधिकांश संगठन कर्मचारियों से कंपनी नीति या रोजगार अनुबंध में दिए गए नोटिस पीरियड का पालन करने की अपेक्षा करते हैं।",
+      },
+    },
+    {
+      question: {
+        en: "Should I maintain a positive tone in a retirement resignation letter?",
+        hi: "क्या सेवानिवृत्ति इस्तीफा पत्र में सकारात्मक भाषा रखनी चाहिए?",
+      },
+      answer: {
+        en: "Yes, maintaining a respectful and grateful tone is highly recommended.",
+        hi: "हाँ, सम्मानजनक और आभारपूर्ण भाषा बनाए रखना अत्यंत उचित होता है।",
+      },
+    },
+    {
+      question: {
+        en: "Can a retirement resignation letter be sent by email?",
+        hi: "क्या सेवानिवृत्ति इस्तीफा पत्र ईमेल द्वारा भेजा जा सकता है?",
+      },
+      answer: {
+        en: "Yes, many organizations accept retirement resignation letters through official email communication.",
+        hi: "हाँ, कई संगठन आधिकारिक ईमेल के माध्यम से सेवानिवृत्ति इस्तीफा पत्र स्वीकार करते हैं।",
+      },
+    },
+  ],
 };

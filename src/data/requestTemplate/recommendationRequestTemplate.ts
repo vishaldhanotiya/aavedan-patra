@@ -103,33 +103,83 @@ Sincerely,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to Write a Professional Request Letter", hi: "पेशेवर अनुरोध पत्र कैसे लिखें" },
-      excerpt: { en: "A guide to writing formal request applications.", hi: "औपचारिक अनुरोध पत्र लिखने की गाइड।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-request-letter"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write a Recommendation Request Letter",
+      hi: "सिफारिश अनुरोध पत्र कैसे लिखें"
     },
-    {
-      title: { en: "Common Mistakes in Formal Letters", hi: "औपचारिक पत्रों में आम गलतियाँ" },
-      excerpt: { en: "Avoid these errors when writing requests.", hi: "अनुरोध पत्र लिखते समय इन गलतियों से बचें।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/formal-letter-mistakes"
-    }
-  ],
+    excerpt: {
+      en: "Step-by-step guide to writing a professional recommendation request letter.",
+      hi: "पेशेवर सिफारिश अनुरोध पत्र लिखने की चरणबद्ध गाइड।"
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-recommendation-request-letter"
+  },
+  {
+    title: {
+      en: "Common Mistakes in Recommendation Request Letters",
+      hi: "सिफारिश अनुरोध पत्रों में आम गलतियाँ"
+    },
+    excerpt: {
+      en: "Avoid these common mistakes while requesting recommendations formally.",
+      hi: "औपचारिक रूप से सिफारिश मांगते समय इन सामान्य गलतियों से बचें।"
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/recommendation-request-letter-mistakes"
+  }
+],
 
-  faqs: [
-    {
-      question: { en: "Should request letters be short?", hi: "क्या अनुरोध पत्र छोटा होना चाहिए?" },
-      answer: { en: "Yes, keep them brief and to the point.", hi: "हाँ, उन्हें संक्षिप्त और सीधा रखें।" }
+faqs: [
+  {
+    question: {
+      en: "What is a recommendation request letter?",
+      hi: "सिफारिश अनुरोध पत्र क्या है?"
     },
-    {
-      question: { en: "Can I email a request letter?", hi: "क्या मैं अनुरोध पत्र ईमेल कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, most institutions accept email requests.", hi: "हाँ, अधिकांश संस्थाएँ ईमेल अनुरोध स्वीकार करती हैं।" }
-    },
-    {
-      question: { en: "Should I attach documents?", hi: "क्या मुझे दस्तावेज संलग्न करने चाहिए?" },
-      answer: { en: "Yes, if required for verification.", hi: "हाँ, यदि सत्यापन के लिए आवश्यक हो।" }
+    answer: {
+      en: "A recommendation request letter is a formal letter written to ask someone for a recommendation or reference.",
+      hi: "सिफारिश अनुरोध पत्र एक औपचारिक पत्र है जिसे किसी व्यक्ति से सिफारिश या रेफरेंस प्राप्त करने के लिए लिखा जाता है।"
     }
-  ]
+  },
+  {
+    question: {
+      en: "Who can write a recommendation request letter?",
+      hi: "सिफारिश अनुरोध पत्र कौन लिख सकता है?"
+    },
+    answer: {
+      en: "Students, employees, job seekers, and professionals can write recommendation request letters.",
+      hi: "छात्र, कर्मचारी, नौकरी खोजने वाले और पेशेवर सिफारिश अनुरोध पत्र लिख सकते हैं।"
+    }
+  },
+  {
+    question: {
+      en: "Can I send a recommendation request letter by email?",
+      hi: "क्या मैं सिफारिश अनुरोध पत्र ईमेल द्वारा भेज सकता/सकती हूँ?"
+    },
+    answer: {
+      en: "Yes, email is a common and professional way to request recommendations.",
+      hi: "हाँ, सिफारिश मांगने के लिए ईमेल एक सामान्य और पेशेवर तरीका है।"
+    }
+  },
+  {
+    question: {
+      en: "What details should I include in a recommendation request letter?",
+      hi: "सिफारिश अनुरोध पत्र में कौन-कौन सी जानकारी शामिल करनी चाहिए?"
+    },
+    answer: {
+      en: "You should include the purpose of the recommendation, relevant achievements, and submission deadline if applicable.",
+      hi: "आपको सिफारिश का उद्देश्य, संबंधित उपलब्धियाँ और यदि लागू हो तो अंतिम तिथि शामिल करनी चाहिए।"
+    }
+  },
+  {
+    question: {
+      en: "Should a recommendation request letter be formal?",
+      hi: "क्या सिफारिश अनुरोध पत्र औपचारिक होना चाहिए?"
+    },
+    answer: {
+      en: "Yes, it should maintain a polite and professional tone throughout the letter.",
+      hi: "हाँ, पूरे पत्र में विनम्र और पेशेवर भाषा का उपयोग होना चाहिए।"
+    }
+  }
+]
 };

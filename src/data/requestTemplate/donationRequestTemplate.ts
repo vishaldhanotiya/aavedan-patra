@@ -142,33 +142,83 @@ UPI (यदि हो): [ ]
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to Write a Professional Request Letter", hi: "पेशेवर अनुरोध पत्र कैसे लिखें" },
-      excerpt: { en: "A guide to writing formal request applications.", hi: "औपचारिक अनुरोध पत्र लिखने की गाइड।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-request-letter"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write a Donation Request Letter",
+      hi: "दान अनुरोध पत्र कैसे लिखें"
     },
-    {
-      title: { en: "Common Mistakes in Formal Letters", hi: "औपचारिक पत्रों में आम गलतियाँ" },
-      excerpt: { en: "Avoid these errors when writing requests.", hi: "अनुरोध पत्र लिखते समय इन गलतियों से बचें।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/formal-letter-mistakes"
-    }
-  ],
+    excerpt: {
+      en: "Step-by-step guide to writing an effective donation request letter.",
+      hi: "प्रभावी दान अनुरोध पत्र लिखने की चरणबद्ध गाइड।"
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-donation-request-letter"
+  },
+  {
+    title: {
+      en: "Common Mistakes in Donation Request Letters",
+      hi: "दान अनुरोध पत्रों में आम गलतियाँ"
+    },
+    excerpt: {
+      en: "Avoid these common mistakes while requesting donations formally.",
+      hi: "औपचारिक रूप से दान मांगते समय इन सामान्य गलतियों से बचें।"
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/donation-letter-mistakes"
+  }
+],
 
-  faqs: [
-    {
-      question: { en: "Should request letters be short?", hi: "क्या अनुरोध पत्र छोटा होना चाहिए?" },
-      answer: { en: "Yes, keep them brief and to the point.", hi: "हाँ, उन्हें संक्षिप्त और सीधा रखें।" }
+faqs: [
+  {
+    question: {
+      en: "What is a donation request letter?",
+      hi: "दान अनुरोध पत्र क्या है?"
     },
-    {
-      question: { en: "Can I email a request letter?", hi: "क्या मैं अनुरोध पत्र ईमेल कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, most institutions accept email requests.", hi: "हाँ, अधिकांश संस्थाएँ ईमेल अनुरोध स्वीकार करती हैं।" }
-    },
-    {
-      question: { en: "Should I attach documents?", hi: "क्या मुझे दस्तावेज संलग्न करने चाहिए?" },
-      answer: { en: "Yes, if required for verification.", hi: "हाँ, यदि सत्यापन के लिए आवश्यक हो।" }
+    answer: {
+      en: "A donation request letter is a formal letter written to individuals or organizations asking for financial or material support.",
+      hi: "दान अनुरोध पत्र एक औपचारिक पत्र है जिसे व्यक्तियों या संगठनों से आर्थिक या वस्तुगत सहायता प्राप्त करने के लिए लिखा जाता है।"
     }
-  ]
+  },
+  {
+    question: {
+      en: "Should a donation request letter be short?",
+      hi: "क्या दान अनुरोध पत्र छोटा होना चाहिए?"
+    },
+    answer: {
+      en: "Yes, it should clearly explain the purpose and request in a concise manner.",
+      hi: "हाँ, इसमें उद्देश्य और अनुरोध को संक्षिप्त और स्पष्ट रूप से बताया जाना चाहिए।"
+    }
+  },
+  {
+    question: {
+      en: "Can I send a donation request letter by email?",
+      hi: "क्या मैं दान अनुरोध पत्र ईमेल द्वारा भेज सकता/सकती हूँ?"
+    },
+    answer: {
+      en: "Yes, many organizations and donors accept donation requests through email.",
+      hi: "हाँ, कई संगठन और दाता ईमेल के माध्यम से दान अनुरोध स्वीकार करते हैं।"
+    }
+  },
+  {
+    question: {
+      en: "Should I attach supporting documents with a donation request letter?",
+      hi: "क्या मुझे दान अनुरोध पत्र के साथ सहायक दस्तावेज संलग्न करने चाहिए?"
+    },
+    answer: {
+      en: "Yes, attaching supporting documents helps establish trust and verify the purpose of the donation.",
+      hi: "हाँ, सहायक दस्तावेज संलग्न करने से विश्वास बढ़ता है और दान के उद्देश्य का सत्यापन होता है।"
+    }
+  },
+  {
+    question: {
+      en: "Who can write a donation request letter?",
+      hi: "दान अनुरोध पत्र कौन लिख सकता है?"
+    },
+    answer: {
+      en: "Individuals, NGOs, schools, charities, and organizations can write donation request letters.",
+      hi: "व्यक्ति, एनजीओ, स्कूल, चैरिटी और संगठन दान अनुरोध पत्र लिख सकते हैं।"
+    }
+  }
+]
 };

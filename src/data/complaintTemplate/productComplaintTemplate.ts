@@ -6,15 +6,15 @@ export const productComplaintTemplate = {
     template: { en: "Official Complaint Letters", hi: "आधिकारिक शिकायत पत्र", slug:"" }
   },
 
-  title: { 
-    en: "Complaint Application Letters", 
-    hi: "शिकायत आवेदन पत्र" 
-  },
+title: { 
+  en: "Product Complaint Letters", 
+  hi: "उत्पाद शिकायत पत्र" 
+},
 
-  subtitle: { 
-    en: "Professional complaint letter formats including product complaints, service issues, workplace concerns, neighbor disputes, online shopping problems, and refund requests.",
-    hi: "उत्पाद, सेवा, कार्यस्थल, पड़ोसी विवाद, ऑनलाइन खरीदारी समस्याएँ और रिफंड से संबंधित शिकायतों के लिए पेशेवर प्रारूप।"
-  },
+subtitle: { 
+  en: "Professional complaint letter formats for defective, damaged, expired, low-quality, or wrong products including refund, replacement, and warranty-related issues.",
+  hi: "खराब, क्षतिग्रस्त, एक्सपायर्ड, निम्न गुणवत्ता वाले या गलत उत्पादों से संबंधित शिकायतों के लिए पेशेवर प्रारूप, जिनमें रिफंड, रिप्लेसमेंट और वारंटी समस्याएँ शामिल हैं।"
+},
 
   category: { 
     en: "Complaint Letters", 
@@ -126,33 +126,83 @@ Sincerely,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to File an Effective Complaint", hi: "प्रभावी शिकायत कैसे दर्ज करें" },
-      excerpt: { en: "Learn the right structure and tone.", hi: "सही संरचना और लहजे के बारे में जानें।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/write-complaint-letter"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write an Effective Product Complaint Letter",
+      hi: "प्रभावी उत्पाद शिकायत पत्र कैसे लिखें",
     },
-    {
-      title: { en: "Consumer Rights You Should Know", hi: "उपभोक्ता अधिकार जो आपको जानने चाहिए" },
-      excerpt: { en: "Important rights for purchase & service issues.", hi: "खरीद और सेवा संबंधी महत्वपूर्ण अधिकार।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/consumer-rights"
-    }
-  ],
+    excerpt: {
+      en: "Learn how to write a professional complaint letter for damaged, defective, or wrong products.",
+      hi: "खराब, दोषपूर्ण या गलत उत्पादों के लिए पेशेवर शिकायत पत्र लिखना सीखें।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-product-complaint-letter",
+  },
+  {
+    title: {
+      en: "Consumer Rights for Defective Products",
+      hi: "दोषपूर्ण उत्पादों के लिए उपभोक्ता अधिकार",
+    },
+    excerpt: {
+      en: "Understand your rights regarding refunds, replacements, warranties, and defective products.",
+      hi: "रिफंड, रिप्लेसमेंट, वारंटी और दोषपूर्ण उत्पादों से संबंधित अपने अधिकार जानें।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/product-consumer-rights",
+  },
+],
 
-  faqs: [
-    {
-      question: { en: "Should I attach proof with complaint?", hi: "क्या शिकायत के साथ सबूत संलग्न करना चाहिए?" },
-      answer: { en: "Yes, it increases credibility and speeds up resolution.", hi: "हाँ, इससे विश्वसनीयता बढ़ती है और समाधान जल्दी मिलता है।" }
+faqs: [
+  {
+    question: {
+      en: "Should I attach proof with a product complaint?",
+      hi: "क्या उत्पाद शिकायत के साथ सबूत संलग्न करना चाहिए?",
     },
-    {
-      question: { en: "Can I file a complaint through email?", hi: "क्या मैं ईमेल से शिकायत कर सकता/सकती हूँ?" },
-      answer: { en: "Yes, most companies accept email complaints.", hi: "हाँ, अधिकांश कंपनियाँ ईमेल शिकायत स्वीकार करती हैं।" }
+    answer: {
+      en: "Yes, attaching invoices, warranty cards, photos, or screenshots helps strengthen your complaint.",
+      hi: "हाँ, बिल, वारंटी कार्ड, फोटो या स्क्रीनशॉट संलग्न करने से आपकी शिकायत मजबूत होती है।",
     },
-    {
-      question: { en: "How long should a complaint letter be?", hi: "शिकायत पत्र कितना लंबा होना चाहिए?" },
-      answer: { en: "Keep it short, clear, and professional (1 page).", hi: "इसे छोटा, स्पष्ट और पेशेवर रखें (1 पेज)।" }
-    }
-  ]
+  },
+  {
+    question: {
+      en: "Can I file a product complaint through email?",
+      hi: "क्या मैं ईमेल के माध्यम से उत्पाद शिकायत दर्ज कर सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "Yes, most companies and sellers accept product complaints through email or customer support portals.",
+      hi: "हाँ, अधिकांश कंपनियाँ और विक्रेता ईमेल या कस्टमर सपोर्ट पोर्टल के माध्यम से शिकायत स्वीकार करते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "How long should a product complaint letter be?",
+      hi: "उत्पाद शिकायत पत्र कितना लंबा होना चाहिए?",
+    },
+    answer: {
+      en: "Keep it short, clear, and professional—ideally within one page.",
+      hi: "इसे छोटा, स्पष्ट और पेशेवर रखें—आदर्श रूप से एक पेज के भीतर।",
+    },
+  },
+  {
+    question: {
+      en: "What issues can be mentioned in a product complaint letter?",
+      hi: "उत्पाद शिकायत पत्र में किन समस्याओं का उल्लेख किया जा सकता है?",
+    },
+    answer: {
+      en: "You can mention issues like damaged products, defective items, wrong deliveries, expired products, or warranty problems.",
+      hi: "आप खराब उत्पाद, दोषपूर्ण सामान, गलत डिलीवरी, एक्सपायर्ड उत्पाद या वारंटी समस्याओं का उल्लेख कर सकते हैं।",
+    },
+  },
+  {
+    question: {
+      en: "Should I remain polite in a product complaint letter?",
+      hi: "क्या मुझे उत्पाद शिकायत पत्र में विनम्र रहना चाहिए?",
+    },
+    answer: {
+      en: "Yes, maintaining a calm and professional tone improves the chances of quick resolution.",
+      hi: "हाँ, शांत और पेशेवर भाषा समाधान की संभावना को बढ़ाती है।",
+    },
+  },
+],
 };

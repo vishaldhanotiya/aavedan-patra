@@ -106,33 +106,83 @@ Sincerely,
     }
   ],
 
-  blogArticles: [
-    {
-      title: { en: "How to Resign Professionally", hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें" },
-      excerpt: { en: "Tips for a smooth and respectful exit.", hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।" },
-      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/professional-resignation"
+blogArticles: [
+  {
+    title: {
+      en: "How to Write a Professional Resignation Letter",
+      hi: "पेशेवर इस्तीफा पत्र कैसे लिखें",
     },
-    {
-      title: { en: "Notice Period Rules in India", hi: "भारत में नोटिस पीरियड के नियम" },
-      excerpt: { en: "Understand your workplace rights.", hi: "अपने कार्यस्थल के अधिकार जानें।" },
-      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/notice-period-india"
-    }
-  ],
+    excerpt: {
+      en: "Tips for leaving your job respectfully with a smooth and professional transition.",
+      hi: "सम्मानपूर्वक और पेशेवर तरीके से नौकरी छोड़ने के लिए उपयोगी सुझाव।",
+    },
+    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+    link: "/blog/write-professional-resignation-letter",
+  },
+  {
+    title: {
+      en: "Professional Resignation and Notice Period Rules in India",
+      hi: "पेशेवर इस्तीफा और भारत में नोटिस पीरियड नियम",
+    },
+    excerpt: {
+      en: "Understand employee rights, notice periods, and resignation procedures in India.",
+      hi: "भारत में कर्मचारी अधिकार, नोटिस पीरियड और इस्तीफा प्रक्रिया को समझें।",
+    },
+    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+    link: "/blog/professional-resignation-notice-rules",
+  },
+],
 
-  faqs: [
-    {
-      question: { en: "How long should a resignation letter be?", hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?" },
-      answer: { en: "Ideally one page, short and professional.", hi: "आमतौर पर एक पृष्ठ—संक्षिप्त और पेशेवर।" }
+faqs: [
+  {
+    question: {
+      en: "How long should a professional resignation letter be?",
+      hi: "पेशेवर इस्तीफा पत्र कितना लंबा होना चाहिए?",
     },
-    {
-      question: { en: "Can I resign without notice?", hi: "क्या मैं बिना नोटिस के इस्तीफा पत्र दे सकता/सकती हूँ?" },
-      answer: { en: "Yes, but only in emergency or valid reasons.", hi: "हाँ, लेकिन केवल उचित कारण या आपात स्थिति में।" }
+    answer: {
+      en: "It should ideally be concise, professional, and limited to one page.",
+      hi: "यह आदर्श रूप से संक्षिप्त, पेशेवर और एक पृष्ठ तक सीमित होना चाहिए।",
     },
-    {
-      question: { en: "Should I mention the reason for resignation?", hi: "क्या इस्तीफे का कारण लिखना जरूरी है?" },
-      answer: { en: "Optional, but recommended for clarity.", hi: "वैकल्पिक, लेकिन स्पष्टता के लिए उचित।" }
-    }
-  ]
+  },
+  {
+    question: {
+      en: "Should I mention the reason for resignation in a professional resignation letter?",
+      hi: "क्या पेशेवर इस्तीफा पत्र में इस्तीफे का कारण लिखना चाहिए?",
+    },
+    answer: {
+      en: "Yes, briefly mentioning the reason is recommended for clarity and professionalism.",
+      hi: "हाँ, स्पष्टता और पेशेवरता के लिए संक्षेप में कारण बताना उचित होता है।",
+    },
+  },
+  {
+    question: {
+      en: "Can I resign without serving the full notice period?",
+      hi: "क्या मैं पूरा नोटिस पीरियड पूरा किए बिना इस्तीफा दे सकता/सकती हूँ?",
+    },
+    answer: {
+      en: "It depends on your employment contract and company policies regarding notice periods.",
+      hi: "यह आपके रोजगार अनुबंध और कंपनी की नोटिस पीरियड नीति पर निर्भर करता है।",
+    },
+  },
+  {
+    question: {
+      en: "Should I maintain a positive tone in a professional resignation letter?",
+      hi: "क्या पेशेवर इस्तीफा पत्र में सकारात्मक भाषा रखनी चाहिए?",
+    },
+    answer: {
+      en: "Yes, maintaining a polite and positive tone helps preserve professional relationships.",
+      hi: "हाँ, विनम्र और सकारात्मक भाषा पेशेवर संबंधों को बनाए रखने में मदद करती है।",
+    },
+  },
+  {
+    question: {
+      en: "Can a professional resignation letter be sent by email?",
+      hi: "क्या पेशेवर इस्तीफा पत्र ईमेल द्वारा भेजा जा सकता है?",
+    },
+    answer: {
+      en: "Yes, most organizations accept resignation letters through official email communication.",
+      hi: "हाँ, अधिकांश संगठन आधिकारिक ईमेल के माध्यम से इस्तीफा पत्र स्वीकार करते हैं।",
+    },
+  },
+],
 };

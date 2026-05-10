@@ -14,13 +14,13 @@ export const relocationResignationTemplate = {
   },
 
   title: {
-    en: "Resignation Application Letters",
-    hi: "इस्तीफा पत्र आवेदन पत्र",
+    en: "Relocation Resignation Letters",
+    hi: "स्थानांतरण इस्तीफा पत्र",
   },
 
   subtitle: {
-    en: "Professional resignation letter formats including standard resignation, short notice, immediate resignation, career change, retirement, and relocation resignation.",
-    hi: "पेशेवर इस्तीफा पत्र प्रारूप—मानक इस्तीफा, शॉर्ट नोटिस, तत्काल इस्तीफा, करियर परिवर्तन, सेवानिवृत्ति और स्थानांतरण के लिए।",
+    en: "Professional resignation letter formats for employees leaving jobs due to relocation, moving to another city or country, family transfer, or personal shifting reasons.",
+    hi: "स्थानांतरण, दूसरे शहर या देश में जाने, पारिवारिक ट्रांसफर या व्यक्तिगत स्थान परिवर्तन के कारण नौकरी छोड़ने वाले कर्मचारियों के लिए पेशेवर इस्तीफा पत्र प्रारूप।",
   },
 
   category: {
@@ -159,59 +159,79 @@ Yours sincerely,
   blogArticles: [
     {
       title: {
-        en: "How to Resign Professionally",
-        hi: "पेशेवर तरीके से इस्तीफा पत्र कैसे दें",
+        en: "How to Write a Relocation Resignation Letter",
+        hi: "स्थानांतरण इस्तीफा पत्र कैसे लिखें",
       },
       excerpt: {
-        en: "Tips for a smooth and respectful exit.",
-        hi: "सम्मानपूर्वक और सरल तरीके से इस्तीफा पत्र देने के सुझाव।",
+        en: "Tips for resigning professionally due to relocation or moving to another city or country.",
+        hi: "दूसरे शहर या देश में स्थानांतरण के कारण पेशेवर तरीके से इस्तीफा देने के सुझाव।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/professional-resignation",
+      link: "/blog/relocation-resignation-letter",
     },
     {
       title: {
-        en: "Notice Period Rules in India",
-        hi: "भारत में नोटिस पीरियड के नियम",
+        en: "Notice Period Rules for Relocation Resignation in India",
+        hi: "भारत में स्थानांतरण इस्तीफे के लिए नोटिस पीरियड नियम",
       },
       excerpt: {
-        en: "Understand your workplace rights.",
-        hi: "अपने कार्यस्थल के अधिकार जानें।",
+        en: "Understand employee rights and notice period policies when resigning due to relocation.",
+        hi: "स्थानांतरण के कारण इस्तीफा देते समय कर्मचारी अधिकारों और नोटिस पीरियड नीतियों को समझें।",
       },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/notice-period-india",
+      link: "/blog/relocation-resignation-notice-rules",
     },
   ],
 
   faqs: [
     {
       question: {
-        en: "How long should a resignation letter be?",
-        hi: "इस्तीफा पत्र कितना लंबा होना चाहिए?",
+        en: "How long should a relocation resignation letter be?",
+        hi: "स्थानांतरण इस्तीफा पत्र कितना लंबा होना चाहिए?",
       },
       answer: {
-        en: "Ideally one page, short and professional.",
-        hi: "आमतौर पर एक पृष्ठ—संक्षिप्त और पेशेवर।",
+        en: "It should ideally be concise, professional, and limited to one page.",
+        hi: "यह आदर्श रूप से संक्षिप्त, पेशेवर और एक पृष्ठ तक सीमित होना चाहिए।",
       },
     },
     {
       question: {
-        en: "Can I resign without notice?",
-        hi: "क्या मैं बिना नोटिस के इस्तीफा दे सकता/सकती हूँ?",
+        en: "Should I mention relocation as the reason for resignation?",
+        hi: "क्या मुझे इस्तीफे का कारण स्थानांतरण बताना चाहिए?",
       },
       answer: {
-        en: "Yes, but only in emergency or valid reasons.",
-        hi: "हाँ, लेकिन केवल उचित कारण या आपात स्थिति में।",
+        en: "Yes, mentioning relocation helps provide clarity and maintain professionalism.",
+        hi: "हाँ, स्थानांतरण का उल्लेख करने से स्पष्टता और पेशेवरता बनी रहती है।",
       },
     },
     {
       question: {
-        en: "Should I mention the reason for resignation?",
-        hi: "क्या इस्तीफे का कारण लिखना जरूरी है?",
+        en: "Can I resign immediately due to relocation?",
+        hi: "क्या मैं स्थानांतरण के कारण तुरंत इस्तीफा दे सकता/सकती हूँ?",
       },
       answer: {
-        en: "Optional, but recommended for clarity.",
-        hi: "वैकल्पिक, लेकिन स्पष्टता के लिए उचित।",
+        en: "It depends on your employment contract and company notice period policies.",
+        hi: "यह आपके रोजगार अनुबंध और कंपनी की नोटिस पीरियड नीति पर निर्भर करता है।",
+      },
+    },
+    {
+      question: {
+        en: "Should I maintain a positive tone in a relocation resignation letter?",
+        hi: "क्या स्थानांतरण इस्तीफा पत्र में सकारात्मक भाषा रखनी चाहिए?",
+      },
+      answer: {
+        en: "Yes, maintaining a polite and positive tone helps preserve professional relationships.",
+        hi: "हाँ, विनम्र और सकारात्मक भाषा पेशेवर संबंध बनाए रखने में मदद करती है।",
+      },
+    },
+    {
+      question: {
+        en: "Can a relocation resignation letter be sent by email?",
+        hi: "क्या स्थानांतरण इस्तीफा पत्र ईमेल द्वारा भेजा जा सकता है?",
+      },
+      answer: {
+        en: "Yes, most organizations accept resignation letters through official email communication.",
+        hi: "हाँ, अधिकांश संगठन आधिकारिक ईमेल के माध्यम से इस्तीफा पत्र स्वीकार करते हैं।",
       },
     },
   ],
