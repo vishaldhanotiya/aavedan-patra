@@ -19,8 +19,8 @@ export const personalLoanTemplate = {
   },
 
   title: {
-    en: "Personal Loan Application to Bank | Format, Samples & How to Write",
-    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें",
+    en: "Personal Loan Application to Bank",
+    hi: "बैंक में पर्सनल लोन के लिए आवेदन पत्र",
   },
 
   subtitle: {

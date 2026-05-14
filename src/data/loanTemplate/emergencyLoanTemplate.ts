@@ -19,8 +19,8 @@ export const emergencyLoanTemplate = {
   },
 
   title: {
-    en: "Emergency Loan Request Letter | Format, Samples & How to Write",
-    hi: "आपातकालीन लोन के लिए अनुरोध पत्र | आवेदन कैसे लिखें",
+    en: "Emergency Loan Request Letter",
+    hi: "आपातकालीन लोन के लिए अनुरोध पत्र",
   },
 
   subtitle: {

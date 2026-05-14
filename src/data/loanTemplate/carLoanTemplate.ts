@@ -19,8 +19,8 @@ export const carLoanTemplate = {
   },
 
   title: {
-    en: "Car Loan Application | Format, Samples & How to Write",
-    hi: "कार लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें",
+    en: "Car Loan Application",
+    hi: "कार लोन के लिए आवेदन पत्र",
   },
 
   subtitle: {

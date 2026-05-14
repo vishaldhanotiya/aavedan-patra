@@ -11,7 +11,7 @@ path: "/letters/permission-request-letter",
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage data={permissionRequestTemplate} />
+      <PillarTemplateDetailsPage singleTemplate data={permissionRequestTemplate} />
     </>
   );
 }

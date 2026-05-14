@@ -12,8 +12,8 @@ export const homeLoanTemplate = {
   },
 
   title: {
-    en: "Home Loan Application | Format, Samples & How to Write",
-    hi: "होम लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें"
+    en: "Home Loan Application",
+    hi: "होम लोन के लिए आवेदन पत्र"
   },
 
   subtitle: {

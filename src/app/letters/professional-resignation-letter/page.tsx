@@ -10,7 +10,7 @@ export const metadata = generateMetadata({
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage data={professionalResignationTemplate} />
+      <PillarTemplateDetailsPage singleTemplate data={professionalResignationTemplate} />
     </>
   );
 }

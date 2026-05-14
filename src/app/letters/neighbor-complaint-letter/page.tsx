@@ -11,7 +11,7 @@ description:
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage data={neighborComplaintTemplate} />
+      <PillarTemplateDetailsPage singleTemplate data={neighborComplaintTemplate} />
     </>
   );
 }

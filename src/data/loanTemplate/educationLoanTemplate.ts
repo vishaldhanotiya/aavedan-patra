@@ -19,8 +19,8 @@ export const educationLoanTemplate = {
   },
 
   title: {
-    en: "Education Loan Application | Format, Samples & How to Write",
-    hi: "शिक्षा लोन के लिए आवेदन पत्र | आवेदन कैसे लिखें",
+    en: "Education Loan Application",
+    hi: "शिक्षा लोन के लिए आवेदन पत्र",
   },
 
   subtitle: {

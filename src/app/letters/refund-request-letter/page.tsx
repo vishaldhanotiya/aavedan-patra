@@ -10,7 +10,7 @@ export const metadata = generateMetadata({
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage data={refundRequestTemplate} />
+      <PillarTemplateDetailsPage singleTemplate data={refundRequestTemplate} />
     </>
   );
 }

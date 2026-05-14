@@ -11,7 +11,7 @@ description:
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage data={onlineShoppingComplaintTemplate} />
+      <PillarTemplateDetailsPage singleTemplate data={onlineShoppingComplaintTemplate} />
     </>
   );
 }
