@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { courseAdmissionTemplate } from "@/data/admissionTemplate/courseAdmissionTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "कोर्स में प्रवेश के लिए आवेदन पत्र - आवेदन पत्र",
+  title: "कोर्स प्रवेश आवेदन पत्र – Course Admission Application Hindi | AavedanPatra",
   description:
-    "कोर्स में प्रवेश के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर किसी भी कोर्स या प्रशिक्षण कार्यक्रम में प्रवेश के लिए आवेदन करने का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे छात्र अपना आवेदन सही और प्रभावी तरीके से तैयार कर सकें।",
+   "किसी भी कोर्स या प्रशिक्षण में एडमिशन के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और Course Admission Application लिखने की गाइड।",
   path: "/applications/application-for-course-admission",
 });
 export default function Page() {

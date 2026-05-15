@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { workplaceComplaintTemplate } from "@/data/complaintTemplate/workplaceComplaintTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "कार्यस्थल शिकायत पत्र - आवेदन पत्र",
+  title: "कार्यस्थल शिकायत पत्र – Workplace Complaint Letter Hindi | AavedanPatra",
   description:
-    "कार्यस्थल शिकायत पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर ऑफिस या कंपनी में काम से जुड़ी समस्याओं, व्यवहार, सुविधा या अन्य मुद्दों के लिए शिकायत दर्ज करने का सही आवेदन पत्र प्रारूप, तैयार नमूने और लिखने के आसान व विनम्र सुझाव दिए गए हैं, जिससे आपकी शिकायत स्पष्ट और प्रभावी तरीके से रखी जा सके।",
+   "ऑफिस में काम, व्यवहार या सुविधा संबंधी शिकायत के लिए Workplace Complaint Letter। तैयार हिंदी नमूना और HR को शिकायत लिखने की गाइड।",    
   path: "/letters/workplace-complaint-letter",
 });
 export default function Page() {

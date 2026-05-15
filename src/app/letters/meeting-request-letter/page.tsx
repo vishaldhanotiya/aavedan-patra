@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { meetingRequestTemplate } from "@/data/requestTemplate/meetingRequestTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "बैठक हेतु अनुरोध पत्र - आवेदन पत्र",
+  title: "मीटिंग अनुरोध पत्र – Meeting Request Letter Hindi | AavedanPatra",
   description:
-    "बैठक हेतु अनुरोध पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर अपॉइंटमेंट या चर्चा के लिए प्रोफेशनल तरीके से बैठक माँगने का सही पत्र प्रारूप, तैयार नमूने और लिखने के आसान सुझाव दिए गए हैं, जिससे आपका अनुरोध स्पष्ट, विनम्र और प्रभावी बने।",
+     "अपॉइंटमेंट या चर्चा के लिए Meeting Request Letter। प्रोफेशनल हिंदी प्रारूप, तैयार नमूने और विनम्र तरीके से मीटिंग माँगने की गाइड।",     
   path: "/letters/meeting-request-letter",
 });
 export default function Page() {

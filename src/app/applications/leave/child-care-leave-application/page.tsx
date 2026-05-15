@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { childCareLeave } from "@/data/leaveTemplate/childCareLeave";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "बच्चे की देखभाल के लिए छुट्टी का आवेदन पत्र - आवेदन कैसे लिखें",
+  title:  "बच्चे की देखभाल हेतु छुट्टी आवेदन – Child Care Leave Application Hindi | AavedanPatra",
   description:
-    "बच्चे की देखभाल के लिए छुट्टी का आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर ऑफिस या स्कूल के लिए चाइल्ड केयर लीव आवेदन का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आपका छुट्टी आवेदन सही और प्रभावी तरीके से तैयार हो सके।",
+    "बच्चे की देखभाल के लिए ऑफिस/स्कूल से छुट्टी का हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और Child Care Leave Application लिखने की गाइड।",
   path: "/applications/leave/child-care-leave-application",
 });
 export default function Page() {

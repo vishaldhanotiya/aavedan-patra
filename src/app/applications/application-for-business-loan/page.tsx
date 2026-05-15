@@ -2,9 +2,10 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { businessLoanTemplate } from "@/data/loanTemplate/businessLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "बिज़नेस लोन के लिए आवेदन पत्र - आवेदन कैसे लिखें",
+  title:
+    "बिज़नेस लोन आवेदन पत्र – Business Loan Application Hindi | AavedanPatra",
   description:
-    "बिज़नेस लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ पाएँ। इस पेज पर बैंक या वित्तीय संस्था से बिज़नेस लोन लेने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी दस्तावेज़ों की जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आपका लोन आवेदन सही और प्रभावी बन सके।",
+    "बैंक से Business Loan के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ सूची और व्यापार ऋण आवेदन लिखने की पूरी गाइड।",
   path: "/applications/application-for-business-loan",
 });
 export default function Page() {

@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { meritScholarshipTemplate } from "@/data/scholarshipTemplate/meritScholarshipTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "मेरिट आधारित छात्रवृत्ति के लिए आवेदन पत्र - आवेदन पत्र",
+  title:"मेरिट छात्रवृत्ति आवेदन – Merit Based Scholarship Application Hindi | AavedanPatra",
   description:
-    "मेरिट आधारित छात्रवृत्ति के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर योग्यता के आधार पर मिलने वाली छात्रवृत्ति के लिए आवेदन करने का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे छात्र अपना आवेदन सही और प्रभावी तरीके से कर सकें।",
+    "शैक्षणिक उत्कृष्टता पर आधारित Merit Based Scholarship Application। हिंदी प्रारूप – तैयार नमूना, दस्तावेज़ सूची और मेरिट स्कॉलरशिप गाइड।", 
   path: "/applications/scholarship/merit-based-scholarship-application",
 });
 export default function Page() {

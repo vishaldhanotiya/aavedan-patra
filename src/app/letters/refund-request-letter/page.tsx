@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { refundRequestTemplate } from "@/data/complaintTemplate/refundRequestTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "रिफंड हेतु अनुरोध पत्र - आवेदन पत्र",
+  title:  "रिफंड अनुरोध पत्र – Refund Request Letter Hindi | AavedanPatra",
   description:
-    "रिफंड हेतु अनुरोध पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर उत्पाद या सेवा के लिए रिफंड माँगने का सही आवेदन पत्र प्रारूप, तैयार नमूना पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आपका रिफंड अनुरोध जल्दी और सही तरीके से प्रोसेस हो सके।",
+    "उत्पाद या सेवा का रिफंड माँगने के लिए Refund Request Letter। प्रभावी हिंदी प्रारूप, तैयार नमूना और रिफंड पाने की पूरी गाइड।",
   path: "/letters/refund-request-letter",
 });
 export default function Page() {

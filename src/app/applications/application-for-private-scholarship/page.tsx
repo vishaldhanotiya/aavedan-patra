@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { privateScholarshipTemplate } from "@/data/scholarshipTemplate/privateScholarshipTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "प्राइवेट स्कॉलरशिप के लिए आवेदन पत्र - आवेदन पत्र",
+  title: "प्राइवेट छात्रवृत्ति आवेदन – Private Scholarship Application Hindi | AavedanPatra",
   description:
-    "प्राइवेट स्कॉलरशिप के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर प्राइवेट छात्रवृत्ति के लिए आवेदन करने का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे छात्र अपना आवेदन सही और प्रभावी तरीके से तैयार कर सकें।",
+   "निजी संस्थाओं या फाउंडेशन से Private Scholarship Application। हिंदी प्रारूप – तैयार नमूना और प्राइवेट स्कॉलरशिप आवेदन लिखने की गाइड।",
   path: "/applications/application-for-private-scholarship",
 });
 export default function Page() {

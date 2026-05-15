@@ -1,9 +1,9 @@
 import { SupportCenter } from "@/components/SupportCenter";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "Support - Aavedan Patra",
+  title:  "सहायता केंद्र – Support | AavedanPatra.in",
   description:
-    "Get support from Aavedan Patra. Find help, contact information, and assistance related to application letter formats, content, and website usage.",
+    "AavedanPatra.in पर किसी भी समस्या के लिए सहायता पाएँ। आवेदन पत्र प्रारूप, डाउनलोड या वेबसाइट से जुड़ी मदद के लिए यहाँ आएँ।",    
   path: "/support",
 });
 export default function Page() {

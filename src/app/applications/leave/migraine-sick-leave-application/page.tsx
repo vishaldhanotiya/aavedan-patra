@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { migraineSickLeave } from "@/data/leaveTemplate/migraineSickLeave";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "माइग्रेन के लिए छुट्टी का आवेदन पत्र - आवेदन कैसे लिखें",
+  title:"माइग्रेन बीमारी छुट्टी आवेदन – Migraine Sick Leave Application Hindi | AavedanPatra",
   description:
-    "माइग्रेन के कारण छुट्टी का आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर ऑफिस या स्कूल के लिए माइग्रेन लीव आवेदन का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आपका छुट्टी आवेदन सही और प्रभावी तरीके से तैयार हो सके।",
+    "माइग्रेन के कारण ऑफिस/स्कूल से छुट्टी के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और Migraine Leave Application लिखने के टिप्स।",
   path: "/applications/leave/migraine-sick-leave-application",
 });
 export default function Page() {

@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { incomeCertificateTemplate } from "@/data/certificateTemplate/incomeCertificateTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "आय प्रमाण पत्र के लिए आवेदन पत्र - आवेदन पत्र",
+  title:  "आय प्रमाण पत्र आवेदन – Income Certificate Application Hindi | AavedanPatra",
   description:
-    "आय प्रमाण पत्र के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर तहसील, पंचायत या अन्य स्थानीय प्राधिकरण से आय प्रमाण पत्र प्राप्त करने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी दस्तावेज़ों की जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आप बिना किसी परेशानी के सही आवेदन कर सकें।",
+    "तहसील/पंचायत से Income Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और आय प्रमाण पत्र आवेदन लिखने की पूरी गाइड।",  
   path: "/applications/certificates/income-certificate-application",
 });
 export default function Page() {

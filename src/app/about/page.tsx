@@ -1,10 +1,10 @@
 import { About } from "@/components/About";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "About Us - Aavedan Patra",
+  title: "हमारे बारे में – AavedanPatra.in | हिंदी आवेदन पत्र",
   description:
-    "Learn more about Aavedan Patra. We provide easy formats, ready-made examples, and helpful tips for all types of application letters including job, leave, certificate, loan, admission, and scholarship applications.",
- path: "/about",
+    "AavedanPatra.in के बारे में जानें। हम 200+ हिंदी आवेदन पत्र प्रारूप, नमूने और लिखने की गाइड मुफ्त में प्रदान करते हैं – नौकरी, छुट्टी, लोन, एडमिशन और सर्टिफिकेट के लिए।",
+  path: "/about",
 });
 export default function Page() {
   return <About />;

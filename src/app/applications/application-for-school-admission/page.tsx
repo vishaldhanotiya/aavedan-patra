@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { schoolAdmissionTemplate } from "@/data/admissionTemplate/schoolAdmissionTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "स्कूल में प्रवेश के लिए आवेदन पत्र - आवेदन पत्र",
+  title: "स्कूल प्रवेश आवेदन पत्र – School Admission Application Hindi | AavedanPatra",  
   description:
-    "स्कूल में प्रवेश के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर अभिभावकों और छात्रों के लिए स्कूल एडमिशन हेतु सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे प्रवेश प्रक्रिया सरल और सही तरीके से पूरी की जा सके।",
+    "बच्चे के School Admission के लिए हिंदी आवेदन पत्र। नर्सरी से 12वीं तक – तैयार नमूना, सही फॉर्मेट और स्कूल प्रवेश आवेदन लिखने की गाइड।",
   path: "/applications/application-for-school-admission",
 });
 export default function Page() {

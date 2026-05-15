@@ -1,9 +1,9 @@
 import { Disclaimer } from "@/components/Disclaimer";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "Disclaimer - Aavedan Patra",
+  title: "अस्वीकरण – Disclaimer | AavedanPatra.in",
   description:
-    "Read the disclaimer for Aavedan Patra. The information provided on this website is for general guidance only and is not intended as legal, official, or professional advice.",
+    "AavedanPatra.in का अस्वीकरण पढ़ें। यहाँ दी गई जानकारी केवल सामान्य मार्गदर्शन हेतु है – यह कानूनी, आधिकारिक या पेशेवर सलाह नहीं है।",
   path: "/disclaimer",
 });
 export default function Page() {

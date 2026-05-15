@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { schoolStudentLeaveApplicationTemplate } from "@/data/leaveTemplate/schoolStudentLeaveApplicationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "स्कूल अवकाश के लिए आवेदन पत्र - आवेदन पत्र",
+  title:  "स्कूल छुट्टी आवेदन पत्र – School Leave Application Hindi | AavedanPatra",   
   description:
-    "स्कूल अवकाश के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर छात्रों के लिए स्कूल में छुट्टी लेने हेतु सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, एक दिन या कई दिनों की छुट्टी के उदाहरण और लिखने के आसान सुझाव दिए गए हैं, जिससे आवेदन सही और आसानी से स्वीकार हो सके।",
+   "School Leave Application – बच्चे की छुट्टी के लिए हिंदी आवेदन पत्र। 1 दिन या कई दिनों की छुट्टी के तैयार नमूने, सही फॉर्मेट और गाइड।",
   path: "/applications/application-for-school-leave",
 });
 export default function Page() {

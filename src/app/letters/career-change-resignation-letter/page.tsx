@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { careerChangeResignationTemplate } from "@/data/resignationTemplate/careerChangeResignationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "करियर परिवर्तन इस्तीफा पत्र हिंदी में - प्रोफेशनल रिजाइनेशन लेटर प्रारूप",
+  title: "करियर चेंज इस्तीफा पत्र – Career Change Resignation Letter Hindi | AavedanPatra",
   description:
-    "करियर परिवर्तन या नई नौकरी के लिए इस्तीफा पत्र कैसे लिखें? इस पेज पर विनम्र, सकारात्मक और प्रोफेशनल इस्तीफा पत्र का पूरा हिंदी प्रारूप, कई तैयार नमूने और आसान टिप्स दिए गए हैं। अच्छे संबंध बनाए रखते हुए सही तरीके से रिजाइन करें।",
+    "नई नौकरी या करियर बदलने के लिए विनम्र इस्तीफा पत्र। Career Change Resignation Letter – तैयार हिंदी नमूना और प्रोफेशनल गाइड।",     
   path: "/letters/career-change-resignation-letter",
 });
 export default function Page() {

@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { personalLeaveApplicationTemplate } from "@/data/leaveTemplate/personalLeaveApplicationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "पर्सनल लीव के लिए आवेदन पत्र - आवेदन पत्र",
+  title:"पर्सनल लीव आवेदन पत्र – Personal Leave Application Hindi | AavedanPatra",
   description:
-    "पर्सनल लीव के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर ऑफिस या स्कूल में व्यक्तिगत कारणों से अवकाश लेने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आप बिना किसी परेशानी के सही आवेदन कर सकें।",
+    "ऑफिस/स्कूल में Personal Leave के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और व्यक्तिगत कारण छुट्टी आवेदन लिखने की गाइड।",  
   path: "/applications/application-for-personal-leave",
 });
 export default function Page() {

@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { recommendationRequestTemplate } from "@/data/requestTemplate/recommendationRequestTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "सिफारिश पत्र हेतु अनुरोध - आवेदन पत्र",
+  title: "सिफारिश पत्र अनुरोध – Recommendation Request Letter Hindi | AavedanPatra",
   description:
-    "सिफारिश पत्र हेतु अनुरोध कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर शिक्षक, प्रबंधक या वरिष्ठ अधिकारी से विनम्र तरीके से सिफारिश पत्र माँगने के लिए सही आवेदन पत्र का प्रारूप, तैयार टेम्पलेट, उपयोगी उदाहरण और लिखने के आसान सुझाव दिए गए हैं, जिससे आपका अनुरोध सम्मानजनक और प्रभावी बने।",
+    "शिक्षक, मैनेजर या वरिष्ठ से Recommendation Letter माँगने का पत्र। विनम्र हिंदी प्रारूप, तैयार नमूना और लिखने की पूरी गाइड।",   
   path: "/letters/recommendation-request-letter",
 });
 export default function Page() {

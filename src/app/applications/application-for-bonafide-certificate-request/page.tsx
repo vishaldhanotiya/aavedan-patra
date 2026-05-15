@@ -2,17 +2,16 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { bonafideCertificateTemplate } from "@/data/certificateTemplate/bonafideCertificateTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "बोनाफाइड प्रमाण पत्र के लिए आवेदन पत्र - आवेदन कैसे लिखें",
+  title:
+    "बोनाफाइड सर्टिफिकेट आवेदन पत्र – Bonafide Certificate Hindi | AavedanPatra",
   description:
-    "बोनाफाइड प्रमाण पत्र के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर स्कूल, कॉलेज या कार्यालय से बोनाफाइड प्रमाण पत्र प्राप्त करने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना, लिखने का आसान तरीका और जरूरी सुझाव दिए गए हैं, जिससे आप बिना किसी गलती के सही आवेदन लिख सकें।",
+    "स्कूल/कॉलेज से बोनाफाइड सर्टिफिकेट के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और Bonafide Certificate Application लिखने की गाइड।",
   path: "/applications/application-for-bonafide-certificate-request",
 });
 export default function Page() {
   return (
     <>
-      <PillarTemplateDetailsPage
-        data={bonafideCertificateTemplate}
-      />
+      <PillarTemplateDetailsPage data={bonafideCertificateTemplate} />
     </>
   );
 }

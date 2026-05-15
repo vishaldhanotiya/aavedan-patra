@@ -2,9 +2,10 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { schoolTransfer } from "@/data/admissionTemplate/schoolTransfer/schoolTransfer";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "स्कूल ट्रांसफर सर्टिफिकेट के लिए आवेदन पत्र - आवेदन पत्र",
+  title:
+    "स्कूल TC आवेदन पत्र – School Transfer Certificate Application Hindi | AavedanPatra",
   description:
-    "स्कूल ट्रांसफर सर्टिफिकेट (टीसी) के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर स्कूल से टीसी प्राप्त करने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे छात्र या अभिभावक बिना किसी परेशानी के सही आवेदन कर सकें।",
+    "स्कूल से ट्रांसफर सर्टिफिकेट (TC) के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और TC Application लिखने की पूरी गाइड।",
   path: "/applications/admission/school-transfer-application",
 });
 export default function Page() {

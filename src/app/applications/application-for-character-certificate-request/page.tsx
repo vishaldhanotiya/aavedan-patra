@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { characterCertificateTemplate } from "@/data/certificateTemplate/characterCertificateTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "कैरैक्टर सर्टिफिकेट के लिए आवेदन पत्र - आवेदन पत्र",
+  title:  "चरित्र प्रमाण पत्र आवेदन – Character Certificate Application Hindi | AavedanPatra",
   description:
-    "कैरैक्टर सर्टिफिकेट के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर स्कूल, कॉलेज या नियोक्ता से कैरैक्टर सर्टिफिकेट प्राप्त करने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आप बिना किसी परेशानी के सही और प्रभावी आवेदन कर सकें।",
+     "स्कूल, कॉलेज या नियोक्ता से Character Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और चरित्र प्रमाण पत्र आवेदन गाइड।",
   path: "/applications/certificates/character-certificate-request-application",
 });
 export default function Page() {

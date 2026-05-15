@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { experienceCertificateTemplate } from "@/data/certificateTemplate/experienceCertificateTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "एक्सपीरियंस सर्टिफिकेट के लिए आवेदन पत्र - आवेदन पत्र",
+  title: "अनुभव प्रमाण पत्र आवेदन – Experience Certificate Application Hindi | AavedanPatra",
   description:
-    "एक्सपीरियंस सर्टिफिकेट के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर नियोक्ता या कंपनी से एक्सपीरियंस सर्टिफिकेट प्राप्त करने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आप बिना किसी परेशानी के सही आवेदन कर सकें।",
+     "कंपनी/नियोक्ता से Experience Certificate के लिए हिंदी आवेदन पत्र। नौकरी छोड़ने के बाद सर्टिफिकेट माँगें – तैयार नमूना", 
   path: "/applications/certificates/experience-certificate-request-application",
 });
 export default function Page() {

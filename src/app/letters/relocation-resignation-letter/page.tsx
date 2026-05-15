@@ -2,8 +2,8 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { relocationResignationTemplate } from "@/data/resignationTemplate/relocationResignationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "स्थानांतरण हेतु अनुरोध पत्र - आवेदन पत्र",
-  description: "ट्रांसफर/रीलोकेशन अनुरोध के लिए प्रोफेशनल आवेदन पत्र के नमूने।",
+  title: "रिलोकेशन इस्तीफा पत्र – Relocation Resignation Letter Hindi | AavedanPatra",   
+  description: "शहर/स्थान बदलने के कारण नौकरी छोड़ने का पत्र। Relocation Resignation Letter – तैयार हिंदी नमूना और प्रोफेशनल फॉर्मेट।",
   path: "/letters/relocation-resignation-letter",
 });
 export default function Page() {

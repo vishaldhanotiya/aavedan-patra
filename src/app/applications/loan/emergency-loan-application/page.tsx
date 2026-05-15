@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { emergencyLoanTemplate } from "@/data/loanTemplate/emergencyLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "इमरजेंसी लोन के लिए आवेदन पत्र - आवेदन पत्र",
+  title:  "इमरजेंसी लोन आवेदन पत्र – Emergency Loan Application Hindi | AavedanPatra",
   description:
-    "इमरजेंसी लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर अचानक जरूरत या आपात स्थिति में बैंक या वित्तीय संस्था से इमरजेंसी लोन लेने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आप तुरंत और सही तरीके से आवेदन कर सकें।",
+"आपातकालीन ज़रूरत के लिए बैंक से Emergency Loan हेतु हिंदी आवेदन पत्र। तुरंत उपयोग करें – तैयार नमूना और सही फॉर्मेट।",
   path: "/applications/loan/emergency-loan-application",
 });
 export default function Page() {

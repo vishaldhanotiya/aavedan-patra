@@ -1,9 +1,9 @@
 import { ContactUs } from "@/components/ContactUs";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "Contact Us - Aavedan Patra",
+  title:  "संपर्क करें – Contact Us | AavedanPatra.in",
   description:
-    "Contact Aavedan Patra for questions, feedback, or support. Get in touch with us for help related to application letter formats, content, or website services.",
+    "AavedanPatra.in से संपर्क करें – सवाल, सुझाव या समस्या के लिए हमें लिखें। आवेदन पत्र प्रारूप, सेवाओं या वेबसाइट से जुड़ी किसी भी सहायता के लिए।",
   path: "/contact-us",
 });
 export default function Page() {

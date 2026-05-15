@@ -2,9 +2,10 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { needBasedScholarshipTemplate } from "@/data/scholarshipTemplate/needBasedScholarshipTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "आवश्यकता आधारित छात्रवृत्ति के लिए आवेदन पत्र - आवेदन पत्र",
+  title:
+    "ज़रूरत-आधारित छात्रवृत्ति आवेदन – Need Based Scholarship Hindi | AavedanPatra",
   description:
-    "आवश्यकता आधारित छात्रवृत्ति के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर आर्थिक सहायता के आधार पर मिलने वाली छात्रवृत्ति के लिए आवेदन करने का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे छात्र बिना किसी परेशानी के सही तरीके से आवेदन कर सकें।",
+    "आर्थिक ज़रूरत के आधार पर Need Based Scholarship Application। हिंदी प्रारूप – तैयार नमूना, दस्तावेज़ सूची और आवश्यकता-आधारित छात्रवृत्ति गाइड।",
   path: "/applications/application-for-need-based-scholarship",
 });
 export default function Page() {

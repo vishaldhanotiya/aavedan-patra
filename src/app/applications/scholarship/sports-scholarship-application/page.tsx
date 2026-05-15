@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { sportsScholarshipTemplate } from "@/data/scholarshipTemplate/sportsScholarshipTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "स्पोर्ट्स स्कॉलरशिप के लिए आवेदन पत्र - आवेदन पत्र",
+  title: "खेल छात्रवृत्ति आवेदन पत्र – Sports Scholarship Application Hindi | AavedanPatra",  
   description:
-    "स्पोर्ट्स स्कॉलरशिप के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर खेल के आधार पर मिलने वाली छात्रवृत्ति के लिए आवेदन करने का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे खिलाड़ी छात्र अपना आवेदन सही और प्रभावी तरीके से कर सकें।",
+   "खेल प्रतिभा के आधार पर Sports Scholarship Application। हिंदी प्रारूप – तैयार नमूना, दस्तावेज़ सूची और स्पोर्ट्स स्कॉलरशिप आवेदन गाइड।",     
   path: "/applications/scholarship/sports-scholarship-application",
 });
 export default function Page() {

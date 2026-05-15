@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { personalLoanTemplate } from "@/data/loanTemplate/personalLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "पर्सनल लोन के लिए आवेदन पत्र - आवेदन पत्र",
+  title:  "पर्सनल लोन आवेदन पत्र – Personal Loan Application Hindi | AavedanPatra",
   description:
-    "पर्सनल लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर बैंक या अन्य ऋणदाता से पर्सनल लोन लेने के लिए सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आप अपना लोन आवेदन सही और प्रभावी तरीके से कर सकें।",
+     "बैंक से Personal Loan के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ सूची और Personal Loan Application लिखने की पूरी गाइड।",
   path: "/applications/application-for-personal-loan",
 });
 export default function Page() {

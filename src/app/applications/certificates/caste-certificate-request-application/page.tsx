@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { casteCertificateTemplate } from "@/data/certificateTemplate/casteCertificateTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "Caste Certificate Application - जाति प्रमाण पत्र हेतु आवेदन",
+  title: "जाति प्रमाण पत्र आवेदन – Caste Certificate Application Hindi | AavedanPatra",
   description:
-    "Caste certificate (जाति प्रमाण पत्र) के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर ऑफिस, स्कूल या व्यक्तिगत उपयोग के लिए जाति प्रमाण पत्र का सही आवेदन पत्र प्रारूप, तैयार नमूना, जरूरी दस्तावेज़ों की जानकारी और लिखने के आसान व विनम्र तरीके दिए गए हैं, जिससे आप बिना किसी गलती के सही आवेदन कर सकें।",
+    "तहसील/SDM कार्यालय से Caste Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और जाति प्रमाण पत्र आवेदन लिखने की गाइड।",     
   path: "/applications/certificates/caste-certificate-request-application",
 });
 export default function Page() {

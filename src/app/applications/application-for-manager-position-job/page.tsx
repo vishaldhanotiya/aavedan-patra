@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { managerHrOperationsSalesTemplate } from "@/data/jobTemplate/managerHrOperationsSalesTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "मैनेजर पद के लिए आवेदन पत्र - आवेदन पत्र",
+  title: "मैनेजर पद आवेदन पत्र – Manager Job Application Hindi | AavedanPatra",
   description:
-    "मैनेजर पद के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर मैनेजर स्तर की नौकरी के लिए आवेदन करने का सही प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के प्रोफेशनल सुझाव दिए गए हैं, जिससे आप अपना आवेदन प्रभावी और भरोसेमंद तरीके से तैयार कर सकें।",
+    "Manager पद के लिए हिंदी आवेदन पत्र। लीडरशिप स्किल्स हाइलाइट करें – तैयार नमूना, सही फॉर्मेट और Manager Job Application लिखने की गाइड।",
   path: "/applications/application-for-manager-position-job",
 });
 export default function Page() {

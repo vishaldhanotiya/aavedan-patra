@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { professionalResignationTemplate } from "@/data/resignationTemplate/professionalResignationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "प्रोफेशनल इस्तीफा पत्र - आवेदन पत्र",
+  title:  "प्रोफेशनल इस्तीफा पत्र – Professional Resignation Letter Hindi | AavedanPatra",
   description:
-    "प्रोफेशनल इस्तीफा कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर ऑफिस या कंपनी से नौकरी छोड़ने के लिए औपचारिक और प्रोफेशनल भाषा में लिखे गए इस्तीफा के सही प्रारूप, तैयार नमूने, नोटिस पीरियड से जुड़ी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे आप सम्मानजनक और सही तरीके से इस्तीफा दे सकें।",
+   "नोटिस पीरियड के साथ औपचारिक नौकरी छोड़ने का पत्र। Professional Resignation Letter – तैयार हिंदी नमूना, फॉर्मेट और लिखने की गाइड।",   
   path: "/letters/professional-resignation-letter",
 });
 export default function Page() {

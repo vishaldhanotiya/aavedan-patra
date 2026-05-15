@@ -2,9 +2,9 @@ import { DynamicCategoryPage } from "@/components/DynamicCategoryPage";
 import { applicationsCategory } from "@/data/category/applicationsCategory";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "नौकरी, अवकाश, ऋण और प्रवेश हेतु आवेदन पत्र के नमूने - आवेदन पत्र",
+  title: "आवेदन पत्र के सभी प्रकार – नौकरी, लोन, प्रवेश, छुट्टी | AavedanPatra",
   description:
-    "नौकरी, अवकाश, ऋण, स्कूल प्रवेश, बैंक और सरकारी कार्यों के लिए सभी प्रकार के आवेदन पत्रों के सही प्रारूप, नमूने, उदाहरण और लिखने का तरीका यहाँ देखें।",
+    "नौकरी, छुट्टी, लोन, एडमिशन, स्कॉलरशिप और प्रमाण पत्र हेतु 100+ तैयार हिंदी आवेदन पत्र प्रारूप। सभी प्रकार के नमूने एक जगह – अभी देखें।",
   path: "/applications",
 });
 export default function Page() {
