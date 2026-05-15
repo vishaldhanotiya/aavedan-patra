@@ -2,10 +2,10 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { collegeAdmission } from "@/data/admissionTemplate/collegeAdmission/collegeAdmission";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "कॉलेज में प्रवेश के लिए आवेदन पत्र | आवेदन पत्र",
+  title: "कॉलेज में प्रवेश के लिए आवेदन पत्र - आवेदन पत्र",
   description:
     "कॉलेज में प्रवेश के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर छात्रों के लिए कॉलेज एडमिशन हेतु सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के आसान सुझाव दिए गए हैं, जिससे प्रवेश प्रक्रिया सही और आसान तरीके से पूरी हो सके।",
-  path: "/applications/admission/college-admission-application/",
+  path: "/applications/admission/college-admission-application",
 });
 export default function Page() {
   return (

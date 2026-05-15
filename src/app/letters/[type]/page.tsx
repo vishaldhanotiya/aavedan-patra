@@ -65,7 +65,7 @@ export async function generateMetadata(props: PropsType): Promise<Metadata> {
   const meta =
     metaMap[type as string] ||
     ({
-      title: "पत्र | आवेदन पत्र",
+      title: "पत्र - आवेदन पत्र",
       description: "सभी प्रकार के पत्रों के प्रारूप हिंदी में।",
     } as const);
 

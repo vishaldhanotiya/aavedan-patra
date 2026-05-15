@@ -2,10 +2,10 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { researchGrantTemplate } from "@/data/scholarshipTemplate/researchGrantTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "रिसर्च ग्रांट के लिए आवेदन पत्र | आवेदन पत्र",
+  title: "रिसर्च ग्रांट के लिए आवेदन पत्र - आवेदन पत्र",
   description:
     "रिसर्च ग्रांट के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ मिलेगी। इस पेज पर शैक्षणिक या वैज्ञानिक परियोजनाओं के लिए रिसर्च ग्रांट प्राप्त करने हेतु सही आवेदन पत्र का प्रारूप, तैयार नमूना आवेदन पत्र, जरूरी जानकारी और लिखने के प्रोफेशनल सुझाव दिए गए हैं, जिससे शोधकर्ता अपना आवेदन सही और प्रभावी तरीके से तैयार कर सकें।",
-  path: "/applications/scholarship/research-grant-application/",
+  path: "/applications/scholarship/research-grant-application",
 });
 export default function Page() {
   return (

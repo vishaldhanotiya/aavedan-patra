@@ -25,10 +25,6 @@ export default function sitemap() {
       lastModified: "2026-02-01",
     },
     {
-      url: "https://aavedanpatra.in/applications/job/english-teacher-job-application",
-      lastModified: "2026-02-01",
-    },
-    {
       url: "https://aavedanpatra.in/applications/job/math-teacher-job-application",
       lastModified: "2026-02-01",
     },
@@ -81,10 +77,6 @@ export default function sitemap() {
       lastModified: "2025-12-01",
     },
     {
-      url: "https://aavedanpatra.in/applications/application-for-character-certificate-request",
-      lastModified: "2025-12-01",
-    },
-    {
       url: "https://aavedanpatra.in/applications/application-for-college-admission",
       lastModified: "2025-12-01",
     },
@@ -106,10 +98,6 @@ export default function sitemap() {
     },
     {
       url: "https://aavedanpatra.in/applications/application-for-government-scholarship",
-      lastModified: "2025-12-01",
-    },
-    {
-      url: "https://aavedanpatra.in/applications/application-for-home-loan",
       lastModified: "2025-12-01",
     },
     {
@@ -375,10 +363,6 @@ export default function sitemap() {
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/job/science-teacher-job-application",
-      lastModified: "2026-05-14",
-    },
-    {
       url: "https://aavedanpatra.in/applications/job/teacher-job-application",
       lastModified: "2026-05-14",
     },
@@ -468,6 +452,26 @@ export default function sitemap() {
     },
     {
       url: "https://aavedanpatra.in/applications/certificates/transfer-certificate-request-application",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/scholarship/financial-aid-scholarship-application",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/scholarship/government-scholarship-application",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/scholarship/merit-based-scholarship-application",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/scholarship/research-grant-application",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/scholarship/sports-scholarship-application",
       lastModified: "2026-05-14",
     },
   ];

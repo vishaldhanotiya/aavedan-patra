@@ -96,7 +96,7 @@ export const loanApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.8k",
-      templateSlug: "application-for-home-loan",
+      templateSlug: "home-loan-application",
     },
     {
       id: "loan-5",

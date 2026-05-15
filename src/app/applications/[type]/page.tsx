@@ -13,37 +13,37 @@ import { generateMetadata as createMetadata } from "@/metadata/metadata";
 
 const metaMap: Record<string, { title: string; description: string }> = {
   job: {
-    title: "नौकरी के लिए आवेदन पत्र | Job Application Format in Hindi",
+    title: "नौकरी के लिए आवेदन पत्र - Job Application Format in Hindi",
     description:
       "सरकारी और प्राइवेट नौकरी के लिए आवेदन पत्र के हिंदी प्रारूप, तैयार नमूने और लिखने के आसान तरीके यहाँ उपलब्ध हैं। अभी देखें।",
   },
 
   leave: {
-    title: "छुट्टी के लिए आवेदन पत्र | Leave Application in Hindi",
+    title: "छुट्टी के लिए आवेदन पत्र - Leave Application in Hindi",
     description:
       "स्कूल, कॉलेज और ऑफिस हेतु छुट्टी आवेदन पत्र के सरल हिंदी फॉर्मेट, उदाहरण और सही लिखने का तरीका यहाँ पाएँ।",
   },
 
   "certificate-request": {
-    title: "प्रमाण पत्र अनुरोध आवेदन | Certificate Request Letter",
+    title: "प्रमाण पत्र अनुरोध आवेदन - Certificate Request Letter",
     description:
       "बोनाफाइड, कैरेक्टर और अन्य प्रमाण पत्रों हेतु अनुरोध आवेदन पत्र के हिंदी प्रारूप और नमूने यहाँ उपलब्ध हैं।",
   },
 
   loan: {
-    title: "लोन आवेदन पत्र | Loan Application Format in Hindi",
+    title: "लोन आवेदन पत्र - Loan Application Format in Hindi",
     description:
       "होम लोन, एजुकेशन लोन और पर्सनल लोन हेतु आवेदन पत्र के हिंदी फॉर्मेट, उदाहरण और टिप्स यहाँ पढ़ें।",
   },
 
   admission: {
-    title: "एडमिशन आवेदन पत्र | Admission Application in Hindi",
+    title: "एडमिशन आवेदन पत्र - Admission Application in Hindi",
     description:
       "स्कूल और कॉलेज एडमिशन के लिए आवेदन पत्र के प्रोफेशनल हिंदी प्रारूप और तैयार नमूने यहाँ देखें।",
   },
 
   scholarship: {
-    title: "छात्रवृत्ति आवेदन पत्र | Scholarship Application in Hindi",
+    title: "छात्रवृत्ति आवेदन पत्र - Scholarship Application in Hindi",
     description:
       "छात्रवृत्ति हेतु आवेदन पत्र के आसान हिंदी फॉर्मेट, उदाहरण और लिखने के सही तरीके यहाँ उपलब्ध हैं।",
   },

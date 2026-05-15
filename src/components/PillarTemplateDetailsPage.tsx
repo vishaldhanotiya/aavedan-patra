@@ -9,28 +9,22 @@ import {
   ChevronRight,
   Copy,
   Download,
-  FileText,
   Share2,
   Printer,
   Check,
   ThumbsUp,
   ThumbsDown,
-  Calendar,
-  Tag,
   Layers,
   BookOpen,
-  ExternalLink,
   ChevronDown,
   ChevronUp,
   Home,
-  Edit,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import { toast } from "sonner";
 import { TemplateEditorModal } from "./TemplateEditorModal";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { iconMap } from "./icon";
 interface TemplateVariation {
   id: string;
   title: { en: string; hi: string };
@@ -347,7 +341,7 @@ export function PillarTemplateDetailsPage({
                 </p>
 
                 {/* Meta Info Row */}
-                <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-600 dark:text-white/70">
+                {/* <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-600 dark:text-white/70">
                   <div className="flex items-center gap-2">
                     <Tag className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
                     <span>{data.category[language]}</span>
@@ -366,7 +360,7 @@ export function PillarTemplateDetailsPage({
                       {data.variations.length}+
                     </span>
                   </div>
-                </div>
+                </div> */}
               </motion.div>
 
               {/* Variation Navigation */}

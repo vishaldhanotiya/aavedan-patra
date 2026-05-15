@@ -110,7 +110,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.1k",
-      templateSlug: "application-for-character-certificate-request",
+      templateSlug: "character-certificate-request-application",
     },
     {
       id: "cert-req-6",
