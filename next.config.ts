@@ -49,27 +49,27 @@ const nextConfig: NextConfig = {
 
       {
         source: "/applications/application-for-college-admission",
-        destination: "applications/admission/college-admission-application",
+        destination: "/applications/admission/college-admission-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-university-admission",
-        destination: "applications/admission/university-admission-application",
+        destination: "/applications/admission/university-admission-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-readmission",
-        destination: "applications/admission/readmission-application",
+        destination: "/applications/admission/readmission-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-school-admission",
-        destination: "applications/admission/school-admission-application",
+        destination: "/applications/admission/school-admission-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-course-admission",
-        destination: "applications/admission/course-admission-application",
+        destination: "/applications/admission/course-admission-application",
         permanent: true, // 301
       },
       {
@@ -108,7 +108,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-casual-leave",
-        destination: "/applications/leave/casual-leave-application",
+        destination: "/applications/leave/casual-leave-application-formats",
+        permanent: true, // 301
+      },
+      {
+        source: "/applications/application-for-sick-leave",
+        destination: "/applications/leave/sick-leave-application-formats",
         permanent: true, // 301
       },
       {
@@ -202,7 +207,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-personal-leave",
-        destination: "/applications/leave/personal-leave-application",
+        destination: "/applications/leave/personal-leave-application-formats",
         permanent: true, // 301
       },
 
