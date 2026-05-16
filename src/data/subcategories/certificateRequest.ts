@@ -5,7 +5,6 @@
 
 import { SubcategoryData } from "../category/jobCategory";
 
-
 // 6. CERTIFICATE REQUEST APPLICATIONS
 export const certificateRequest: SubcategoryData = {
   slug: "certificate-request",
@@ -16,8 +15,12 @@ export const certificateRequest: SubcategoryData = {
     hi: "प्रमाणपत्र अनुरोध आवेदन",
   },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन",slug:"/applications" },
-    { en: "Certificate Requests", hi: "प्रमाणपत्र अनुरोध",slug:"/applications/certificate-request" },
+    { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    {
+      en: "Certificate Requests",
+      hi: "प्रमाणपत्र अनुरोध",
+      slug: "/applications/certificate-request",
+    },
   ],
   heroTitle: {
     en: "Certificate Request Application Templates",
@@ -53,7 +56,7 @@ export const certificateRequest: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "19.2k",
       badge: "Popular",
-      templateSlug: "application-for-experience-certificate-request",
+      templateSlug: "certificates/experience-certificate-request-application",
     },
     {
       id: "cert-req-2",
@@ -68,7 +71,7 @@ export const certificateRequest: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.5k",
       badge: "Trending",
-      templateSlug: "application-for-transfer-certificate-request",
+      templateSlug: "certificates/transfer-certificate-request-application",
     },
     {
       id: "cert-req-3",
@@ -82,7 +85,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "16.3k",
-      templateSlug: "application-for-income-certificate",
+      templateSlug: "certificates/income-certificate-application",
     },
     {
       id: "cert-req-4",
@@ -96,7 +99,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.8k",
-      templateSlug: "application-for-bonafide-certificate-request",
+      templateSlug: "certificates/bonafide-certificate-request-application",
     },
     {
       id: "cert-req-5",
@@ -110,7 +113,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.1k",
-      templateSlug: "character-certificate-request-application",
+      templateSlug: "certificates/character-certificate-request-application",
     },
     {
       id: "cert-req-6",
@@ -124,7 +127,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.4k",
-      templateSlug: "application-for-caste-certificate-request",
+      templateSlug: "certificates/caste-certificate-request-application",
     },
   ],
   seoTitle: {
@@ -236,6 +239,4 @@ export const certificateRequest: SubcategoryData = {
 };
 
 // Export all Applications subcategories
-export const allApplicationsSubcategories = [
-  certificateRequest,
-];
+export const allApplicationsSubcategories = [certificateRequest];

@@ -5,7 +5,6 @@
 
 import { SubcategoryData } from "../category/jobCategory";
 
-
 // 4. ADMISSION APPLICATIONS
 export const admissionApplications: SubcategoryData = {
   slug: "admission",
@@ -13,8 +12,12 @@ export const admissionApplications: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Admission Applications", hi: "प्रवेश आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    { en: "Admission Applications", hi: "प्रवेश आवेदन",slug:"/applications/admission" },
+    { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    {
+      en: "Admission Applications",
+      hi: "प्रवेश आवेदन",
+      slug: "/applications/admission",
+    },
   ],
   heroTitle: {
     en: "Admission Application Templates",
@@ -50,7 +53,7 @@ export const admissionApplications: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "18.5k",
       badge: "Popular",
-      templateSlug: "application-for-college-admission",
+      templateSlug: "admission/college-admission-application",
     },
     {
       id: "admission-2",
@@ -65,7 +68,7 @@ export const admissionApplications: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "16.2k",
       badge: "Trending",
-      templateSlug: "application-for-school-admission",
+      templateSlug: "admission/school-admission-application",
     },
     {
       id: "admission-3",
@@ -79,7 +82,7 @@ export const admissionApplications: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.7k",
-      templateSlug: "application-for-university-admission",
+      templateSlug: "admission/university-admission-application",
     },
     {
       id: "admission-4",
@@ -93,7 +96,7 @@ export const admissionApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.3k",
-      templateSlug: "application-for-course-admission",
+      templateSlug: "admission/course-admission-application",
     },
     {
       id: "admission-5",
@@ -107,7 +110,7 @@ export const admissionApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.1k",
-      templateSlug: "application-for-school-transfer",
+      templateSlug: "admission/school-transfer-application",
     },
     {
       id: "admission-6",
@@ -121,7 +124,7 @@ export const admissionApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.8k",
-      templateSlug: "application-for-readmission",
+      templateSlug: "admission/readmission-application",
     },
   ],
   seoTitle: {
@@ -232,8 +235,5 @@ export const admissionApplications: SubcategoryData = {
   ],
 };
 
-
 // Export all Applications subcategories
-export const allApplicationsSubcategories = [
-  admissionApplications,
-];
+export const allApplicationsSubcategories = [admissionApplications];

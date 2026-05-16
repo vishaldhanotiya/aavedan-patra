@@ -1,6 +1,6 @@
 /**
  * COMPREHENSIVE SUBCATEGORY DATA FOR ALL CATEGORIES
- * 
+ *
  * This file contains data for ALL subcategories across all 7 main categories:
  * 1. Applications (6 subcategories)
  * 2. Letters (6 subcategories)
@@ -9,7 +9,7 @@
  * 5. Notices (6 subcategories)
  * 6. Essays (6 subcategories)
  * 7. Agreements (6 subcategories)
- * 
+ *
  * Total: 42 Subcategory Pages
  */
 
@@ -19,20 +19,20 @@ export interface SubcategoryData {
   categorySlug: string;
   categoryName: { en: string; hi: string };
   subcategoryName: { en: string; hi: string };
-  
+
   // Breadcrumb
-  breadcrumb: { en: string; hi: string, slug?:string }[];
-  
+  breadcrumb: { en: string; hi: string; slug?: string }[];
+
   // Hero Section
   heroTitle: { en: string; hi: string };
   heroDescription: { en: string; hi: string };
-  
+
   // Search
   searchPlaceholder: { en: string; hi: string };
-  
+
   // Dynamic Tags/Filters
   tags: string[];
-  
+
   // Templates
   templates: {
     id: string;
@@ -43,18 +43,18 @@ export interface SubcategoryData {
     templateSlug: string;
     badge?: "Popular" | "Trending" | "New";
   }[];
-  
+
   // SEO Section
   seoTitle: { en: string; hi: string };
   seoDescription: { en: string; hi: string };
-  
+
   // Related Templates (Cross-linking)
   relatedTemplates: {
     title: { en: string; hi: string };
     category: { en: string; hi: string };
     slug: string;
   }[];
-  
+
   // Blog Posts
   blogPosts: {
     title: { en: string; hi: string };
@@ -62,7 +62,7 @@ export interface SubcategoryData {
     readTime: string;
     slug: string;
   }[];
-  
+
   // FAQs
   faqs: {
     question: { en: string; hi: string };
@@ -74,20 +74,22 @@ export interface SubcategoryData {
 // CATEGORY 1: APPLICATIONS (6 SUBCATEGORIES)
 // ===========================================
 
-
-
 export const leaveCategory: SubcategoryData = {
   slug: "leave",
   categorySlug: "applications",
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Leave Applications", hi: "छुट्टी आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन",slug:"/applications"},
-    { en: "Leave Applications", hi: "छुट्टी आवेदन",slug:"/applications/leave" },
+    { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    {
+      en: "Leave Applications",
+      hi: "छुट्टी आवेदन",
+      slug: "/applications/leave",
+    },
   ],
-  heroTitle: { 
-    en: "Leave Application Templates", 
-    hi: "छुट्टी आवेदन टेम्पलेट" 
+  heroTitle: {
+    en: "Leave Application Templates",
+    hi: "छुट्टी आवेदन टेम्पलेट",
   },
   heroDescription: {
     en: "Professional leave application formats for sick leave, casual leave, urgent leave and more - ready to customize and use.",
@@ -97,13 +99,20 @@ export const leaveCategory: SubcategoryData = {
     en: "Search leave application templates…",
     hi: "छुट्टी आवेदन टेम्पलेट खोजें...",
   },
-  tags: ["Sick Leave", "Casual Leave", "Urgent Leave", "Personal Leave", "Vacation", "School"],
+  tags: [
+    "Sick Leave",
+    "Casual Leave",
+    "Urgent Leave",
+    "Personal Leave",
+    "Vacation",
+    "School",
+  ],
   templates: [
     {
       id: "leave-1",
-      title: { 
-        en: "Sick Leave Application to Manager", 
-        hi: "प्रबंधक को बीमार छुट्टी आवेदन" 
+      title: {
+        en: "Sick Leave Application to Manager",
+        hi: "प्रबंधक को बीमार छुट्टी आवेदन",
       },
       description: {
         en: "Professional format for requesting sick leave with medical reasons and duration.",
@@ -112,14 +121,13 @@ export const leaveCategory: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "14.3k",
       badge: "Popular",
-      templateSlug: "application-for-sick-leave",
-
+      templateSlug: "leave/all-sick-leave-application",
     },
     {
       id: "leave-2",
-      title: { 
-        en: "Casual Leave Application", 
-        hi: "आकस्मिक छुट्टी आवेदन" 
+      title: {
+        en: "Casual Leave Application",
+        hi: "आकस्मिक छुट्टी आवेदन",
       },
       description: {
         en: "Simple and effective template for requesting casual leave from office or school.",
@@ -128,14 +136,13 @@ export const leaveCategory: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "16.8k",
       badge: "Trending",
-            templateSlug: "application-for-casual-leave",
-
+      templateSlug: "leave/all-casual-leave-application",
     },
     {
       id: "leave-3",
-      title: { 
-        en: "Urgent Leave Application", 
-        hi: "तत्काल छुट्टी आवेदन" 
+      title: {
+        en: "Urgent Leave Application",
+        hi: "तत्काल छुट्टी आवेदन",
       },
       description: {
         en: "Emergency leave request format for unexpected situations and urgent matters.",
@@ -143,14 +150,13 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "12.1k",
-      templateSlug: "application-for-urgent-leave",
-
+      templateSlug: "leave/all-urgent-leave-application",
     },
     {
       id: "leave-4",
-      title: { 
-        en: "Personal Leave Application", 
-        hi: "व्यक्तिगत छुट्टी आवेदन" 
+      title: {
+        en: "Personal Leave Application",
+        hi: "व्यक्तिगत छुट्टी आवेदन",
       },
       description: {
         en: "Template for requesting personal or family-related leave from work.",
@@ -158,14 +164,13 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "10.9k",
-      templateSlug: "application-for-personal-leave",
-
+      templateSlug: "leave/all-personal-leave-application",
     },
     {
       id: "leave-5",
-      title: { 
-        en: "Leave Application for School Students", 
-        hi: "स्कूली छात्रों के लिए छुट्टी आवेदन" 
+      title: {
+        en: "Leave Application for School Students",
+        hi: "स्कूली छात्रों के लिए छुट्टी आवेदन",
       },
       description: {
         en: "Student leave application format for school and college absences.",
@@ -173,14 +178,13 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.4k",
-      templateSlug: "application-for-school-leave",
-
+      templateSlug: "leave/all-school-leave-application",
     },
     {
       id: "leave-6",
-      title: { 
-        en: "Vacation Leave Application", 
-        hi: "अवकाश छुट्टी आवेदन" 
+      title: {
+        en: "Vacation Leave Application",
+        hi: "अवकाश छुट्टी आवेदन",
       },
       description: {
         en: "Professional format for planned vacation and annual leave requests.",
@@ -188,8 +192,7 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.7k",
-            templateSlug: "application-for-vacation-leave",
-
+      templateSlug: "leave/all-vacation-leave-application",
     },
   ],
   seoTitle: {
@@ -224,9 +227,9 @@ export const leaveCategory: SubcategoryData = {
   ],
   blogPosts: [
     {
-      title: { 
-        en: "How to Write a Perfect Leave Application", 
-        hi: "परफेक्ट छुट्टी आवेदन कैसे लिखें" 
+      title: {
+        en: "How to Write a Perfect Leave Application",
+        hi: "परफेक्ट छुट्टी आवेदन कैसे लिखें",
       },
       excerpt: {
         en: "Complete guide to writing effective leave applications that get approved",
@@ -236,9 +239,9 @@ export const leaveCategory: SubcategoryData = {
       slug: "how-to-write-leave-application",
     },
     {
-      title: { 
-        en: "Leave Application Format for Office", 
-        hi: "कार्यालय के लिए छुट्टी आवेदन प्रारूप" 
+      title: {
+        en: "Leave Application Format for Office",
+        hi: "कार्यालय के लिए छुट्टी आवेदन प्रारूप",
       },
       excerpt: {
         en: "Professional leave application formats for workplace environments",
@@ -248,9 +251,9 @@ export const leaveCategory: SubcategoryData = {
       slug: "office-leave-application-format",
     },
     {
-      title: { 
-        en: "Emergency Leave: How to Request Urgent Time Off", 
-        hi: "आपातकालीन छुट्टी: तत्काल समय की छुट्टी कैसे अनुरोध करें" 
+      title: {
+        en: "Emergency Leave: How to Request Urgent Time Off",
+        hi: "आपातकालीन छुट्टी: तत्काल समय की छुट्टी कैसे अनुरोध करें",
       },
       excerpt: {
         en: "Best practices for requesting emergency and urgent leave",
@@ -262,9 +265,9 @@ export const leaveCategory: SubcategoryData = {
   ],
   faqs: [
     {
-      question: { 
-        en: "How do I write a leave application?", 
-        hi: "मैं छुट्टी आवेदन कैसे लिखूं?" 
+      question: {
+        en: "How do I write a leave application?",
+        hi: "मैं छुट्टी आवेदन कैसे लिखूं?",
       },
       answer: {
         en: "Start with the date and recipient's details, add a clear subject line, write a polite request stating the reason and duration of leave, and end with your signature. Keep it brief, professional, and submit in advance when possible.",
@@ -272,9 +275,9 @@ export const leaveCategory: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "How many days in advance should I apply for leave?", 
-        hi: "मुझे कितने दिन पहले छुट्टी के लिए आवेदन करना चाहिए?" 
+      question: {
+        en: "How many days in advance should I apply for leave?",
+        hi: "मुझे कितने दिन पहले छुट्टी के लिए आवेदन करना चाहिए?",
       },
       answer: {
         en: "For planned leave, apply at least 7-10 days in advance. For urgent or sick leave, inform as soon as possible, ideally before your shift or the same day. Always check your organization's leave policy for specific requirements.",
@@ -282,9 +285,9 @@ export const leaveCategory: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "Do I need to provide proof for sick leave?", 
-        hi: "क्या मुझे बीमार छुट्टी के लिए प्रमाण प्रदान करने की आवश्यकता है?" 
+      question: {
+        en: "Do I need to provide proof for sick leave?",
+        hi: "क्या मुझे बीमार छुट्टी के लिए प्रमाण प्रदान करने की आवश्यकता है?",
       },
       answer: {
         en: "Yes, most organizations require a medical certificate for sick leave longer than 2-3 days. For shorter periods, a simple notification may suffice. Always check your company's leave policy for specific requirements.",
@@ -295,14 +298,17 @@ export const leaveCategory: SubcategoryData = {
 };
 
 // Helper function to get subcategory data by slugs
-export function getSubcategoryData(categorySlug: string, subcategorySlug: string): SubcategoryData | undefined {
+export function getSubcategoryData(
+  categorySlug: string,
+  subcategorySlug: string,
+): SubcategoryData | undefined {
   const allSubcategories: SubcategoryData[] = [
     leaveCategory,
     // Add more as we create them
   ];
-  
+
   return allSubcategories.find(
-    (sub) => sub.categorySlug === categorySlug && sub.slug === subcategorySlug
+    (sub) => sub.categorySlug === categorySlug && sub.slug === subcategorySlug,
   );
 }
 

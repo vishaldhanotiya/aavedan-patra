@@ -5,7 +5,6 @@
 
 import { SubcategoryData } from "../category/jobCategory";
 
-
 // 1. Job Applications (already exists in allSubcategoryData.ts)
 // 2. Leave Applications (already exists in allSubcategoryData.ts)
 
@@ -16,8 +15,8 @@ export const loanApplications: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Loan Applications", hi: "ऋण आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन",slug:"/applications" },
-    { en: "Loan Applications", hi: "ऋण आवेदन",slug:"/applications/loan" },
+    { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    { en: "Loan Applications", hi: "ऋण आवेदन", slug: "/applications/loan" },
   ],
   heroTitle: {
     en: "Loan Application Templates",
@@ -53,7 +52,7 @@ export const loanApplications: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "15.7k",
       badge: "Popular",
-      templateSlug: "application-for-personal-loan",
+      templateSlug: "loan/personal-loan-application",
     },
     {
       id: "loan-2",
@@ -68,7 +67,7 @@ export const loanApplications: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "13.4k",
       badge: "Trending",
-      templateSlug: "application-for-business-loan",
+      templateSlug: "loan/business-loan-application",
     },
     {
       id: "loan-3",
@@ -82,7 +81,7 @@ export const loanApplications: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.2k",
-      templateSlug: "application-for-education-loan",
+      templateSlug: "loan/education-loan-application",
     },
     {
       id: "loan-4",
@@ -96,7 +95,7 @@ export const loanApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.8k",
-      templateSlug: "home-loan-application",
+      templateSlug: "loan/home-loan-application",
     },
     {
       id: "loan-5",
@@ -110,7 +109,7 @@ export const loanApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "10.5k",
-      templateSlug: "application-for-car-loan",
+      templateSlug: "loan/car-loan-application",
     },
     {
       id: "loan-6",
@@ -124,7 +123,7 @@ export const loanApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.3k",
-      templateSlug: "application-for-emergency-loan",
+      templateSlug: "loan/emergency-loan-application",
     },
   ],
   seoTitle: {
@@ -229,8 +228,5 @@ export const loanApplications: SubcategoryData = {
   ],
 };
 
-
 // Export all Applications subcategories
-export const allApplicationsSubcategories = [
-  loanApplications,
-];
+export const allApplicationsSubcategories = [loanApplications];

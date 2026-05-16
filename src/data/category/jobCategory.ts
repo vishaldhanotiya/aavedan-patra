@@ -1,6 +1,6 @@
 /**
  * COMPREHENSIVE SUBCATEGORY DATA FOR ALL CATEGORIES
- * 
+ *
  * This file contains data for ALL subcategories across all 7 main categories:
  * 1. Applications (6 subcategories)
  * 2. Letters (6 subcategories)
@@ -9,7 +9,7 @@
  * 5. Notices (6 subcategories)
  * 6. Essays (6 subcategories)
  * 7. Agreements (6 subcategories)
- * 
+ *
  * Total: 42 Subcategory Pages
  */
 
@@ -19,20 +19,20 @@ export interface SubcategoryData {
   categorySlug: string;
   categoryName: { en: string; hi: string };
   subcategoryName: { en: string; hi: string };
-  
+
   // Breadcrumb
-  breadcrumb: { en: string; hi: string, slug?:string }[];
-  
+  breadcrumb: { en: string; hi: string; slug?: string }[];
+
   // Hero Section
   heroTitle: { en: string; hi: string };
   heroDescription: { en: string; hi: string };
-  
+
   // Search
   searchPlaceholder: { en: string; hi: string };
-  
+
   // Dynamic Tags/Filters
   tags: string[];
-  
+
   // Templates
   templates: {
     id: string;
@@ -43,18 +43,18 @@ export interface SubcategoryData {
     templateSlug: string;
     badge?: "Popular" | "Trending" | "New";
   }[];
-  
+
   // SEO Section
   seoTitle: { en: string; hi: string };
   seoDescription: { en: string; hi: string };
-  
+
   // Related Templates (Cross-linking)
   relatedTemplates: {
     title: { en: string; hi: string };
     category: { en: string; hi: string };
     slug: string;
   }[];
-  
+
   // Blog Posts
   blogPosts: {
     title: { en: string; hi: string };
@@ -62,7 +62,7 @@ export interface SubcategoryData {
     readTime: string;
     slug: string;
   }[];
-  
+
   // FAQs
   faqs: {
     question: { en: string; hi: string };
@@ -80,12 +80,12 @@ export const jobCategory: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Job Applications", hi: "नौकरी आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन", slug:"/applications"},
-    { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
+    { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    { en: "Job Applications", hi: "नौकरी आवेदन", slug: "/applications/job" },
   ],
-  heroTitle: { 
-    en: "Job Application Templates", 
-    hi: "नौकरी आवेदन टेम्पलेट" 
+  heroTitle: {
+    en: "Job Application Templates",
+    hi: "नौकरी आवेदन टेम्पलेट",
   },
   heroDescription: {
     en: "Explore professional job application samples — easy to edit, download, and use for your career needs.",
@@ -95,13 +95,20 @@ export const jobCategory: SubcategoryData = {
     en: "Search job application templates…",
     hi: "नौकरी आवेदन टेम्पलेट खोजें...",
   },
-  tags: ["Fresher", "Teacher", "Engineer", "Office", "Manager", "IT Professional"],
+  tags: [
+    "Fresher",
+    "Teacher",
+    "Engineer",
+    "Office",
+    "Manager",
+    "IT Professional",
+  ],
   templates: [
     {
       id: "job-1",
-      title: { 
-        en: "Job Application for Teacher Position", 
-        hi: "शिक्षक पद के लिए नौकरी आवेदन" 
+      title: {
+        en: "Job Application for Teacher Position",
+        hi: "शिक्षक पद के लिए नौकरी आवेदन",
       },
       description: {
         en: "A formal application letter for teaching positions in schools and colleges with proper format.",
@@ -110,14 +117,13 @@ export const jobCategory: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "12.5k",
       badge: "Popular",
-      templateSlug: "application-for-teacher-job",
-
+      templateSlug: "job/all-teacher-job-application",
     },
     // {
     //   id: "job-2",
-    //   title: { 
-    //     en: "Job Application for Fresher", 
-    //     hi: "फ्रेशर के लिए नौकरी आवेदन" 
+    //   title: {
+    //     en: "Job Application for Fresher",
+    //     hi: "फ्रेशर के लिए नौकरी आवेदन"
     //   },
     //   description: {
     //     en: "Entry-level job application template perfect for recent graduates and first-time applicants.",
@@ -131,9 +137,9 @@ export const jobCategory: SubcategoryData = {
     // },
     {
       id: "job-3",
-      title: { 
-        en: "Job Application for Software Engineer", 
-        hi: "सॉफ्टवेयर इंजीनियर के लिए नौकरी आवेदन" 
+      title: {
+        en: "Job Application for Software Engineer",
+        hi: "सॉफ्टवेयर इंजीनियर के लिए नौकरी आवेदन",
       },
       description: {
         en: "Professional application format for software engineering and IT positions.",
@@ -141,14 +147,13 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "15.8k",
-      templateSlug: "application-for-software-engineer-job",
-
+      templateSlug: "job/all-software-engineer-job-application",
     },
     {
       id: "job-4",
-      title: { 
-        en: "Job Application for Manager Position", 
-        hi: "मैनेजर पद के लिए नौकरी आवेदन" 
+      title: {
+        en: "Job Application for Manager Position",
+        hi: "मैनेजर पद के लिए नौकरी आवेदन",
       },
       description: {
         en: "Executive-level application template for management and leadership roles.",
@@ -156,14 +161,13 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.4k",
-      templateSlug: "application-for-manager-position-job",
-
+      templateSlug: "job/all-manager-job-application",
     },
     {
       id: "job-5",
-      title: { 
-        en: "Job Application for Office Assistant", 
-        hi: "कार्यालय सहायक के लिए नौकरी आवेदन" 
+      title: {
+        en: "Job Application for Office Assistant",
+        hi: "कार्यालय सहायक के लिए नौकरी आवेदन",
       },
       description: {
         en: "Formal application letter for administrative and office support positions.",
@@ -171,14 +175,13 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.2k",
-      templateSlug: "application-for-office-assistant-job",
-
+      templateSlug: "job/all-office-assistant-job-application",
     },
     {
       id: "job-6",
-      title: { 
-        en: "Job Application for Bank Job", 
-        hi: "बैंक नौकरी के लिए आवेदन" 
+      title: {
+        en: "Job Application for Bank Job",
+        hi: "बैंक नौकरी के लिए आवेदन",
       },
       description: {
         en: "Specialized application format for banking and financial sector positions.",
@@ -186,8 +189,7 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.7k",
-      templateSlug: "application-for-bank-job",
-
+      templateSlug: "job/all-bank-job-application",
     },
   ],
   seoTitle: {
@@ -200,7 +202,10 @@ export const jobCategory: SubcategoryData = {
   },
   relatedTemplates: [
     {
-      title: { en: "Leave Application to Manager", hi: "प्रबंधक को छुट्टी आवेदन" },
+      title: {
+        en: "Leave Application to Manager",
+        hi: "प्रबंधक को छुट्टी आवेदन",
+      },
       category: { en: "Leave Applications", hi: "छुट्टी आवेदन" },
       slug: "leave",
     },
@@ -210,7 +215,10 @@ export const jobCategory: SubcategoryData = {
       slug: "loan",
     },
     {
-      title: { en: "Professional Resume Template", hi: "पेशेवर रिज्यूमे टेम्पलेट" },
+      title: {
+        en: "Professional Resume Template",
+        hi: "पेशेवर रिज्यूमे टेम्पलेट",
+      },
       category: { en: "Resumes", hi: "रिज्यूमे" },
       slug: "professional",
     },
@@ -222,9 +230,9 @@ export const jobCategory: SubcategoryData = {
   ],
   blogPosts: [
     {
-      title: { 
-        en: "How to Write a Job Application (Step-by-Step Guide)", 
-        hi: "नौकरी आवेदन कैसे लिखें (चरण-दर-चरण गाइड)" 
+      title: {
+        en: "How to Write a Job Application (Step-by-Step Guide)",
+        hi: "नौकरी आवेदन कैसे लिखें (चरण-दर-चरण गाइड)",
       },
       excerpt: {
         en: "Master the art of writing professional job applications that get results",
@@ -234,9 +242,9 @@ export const jobCategory: SubcategoryData = {
       slug: "how-to-write-job-application",
     },
     {
-      title: { 
-        en: "Job Application vs Resume: What's the Difference?", 
-        hi: "नौकरी आवेदन बनाम रिज्यूमे: क्या अंतर है?" 
+      title: {
+        en: "Job Application vs Resume: What's the Difference?",
+        hi: "नौकरी आवेदन बनाम रिज्यूमे: क्या अंतर है?",
       },
       excerpt: {
         en: "Understand the key differences and when to use each document",
@@ -246,9 +254,9 @@ export const jobCategory: SubcategoryData = {
       slug: "job-application-vs-resume",
     },
     {
-      title: { 
-        en: "Best Format to Get Interview Calls", 
-        hi: "इंटरव्यू कॉल पाने के लिए सर्वश्रेष्ठ प्रारूप" 
+      title: {
+        en: "Best Format to Get Interview Calls",
+        hi: "इंटरव्यू कॉल पाने के लिए सर्वश्रेष्ठ प्रारूप",
       },
       excerpt: {
         en: "Learn the winning format that recruiters prefer for job applications",
@@ -260,9 +268,9 @@ export const jobCategory: SubcategoryData = {
   ],
   faqs: [
     {
-      question: { 
-        en: "What should I include in a job application?", 
-        hi: "नौकरी आवेदन में क्या शामिल करना चाहिए?" 
+      question: {
+        en: "What should I include in a job application?",
+        hi: "नौकरी आवेदन में क्या शामिल करना चाहिए?",
       },
       answer: {
         en: "A job application should include your contact information, the date, employer's details, a formal salutation, introduction stating the position, body paragraphs highlighting your qualifications and experience, a closing paragraph, and your signature. Keep it professional and concise.",
@@ -270,9 +278,9 @@ export const jobCategory: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "How long should a job application be?", 
-        hi: "नौकरी आवेदन कितना लंबा होना चाहिए?" 
+      question: {
+        en: "How long should a job application be?",
+        hi: "नौकरी आवेदन कितना लंबा होना चाहिए?",
       },
       answer: {
         en: "A job application should typically be one page, consisting of 3-4 paragraphs. Keep it concise and focused on your most relevant qualifications. Avoid lengthy descriptions and stick to the most important information that makes you a strong candidate.",
@@ -280,9 +288,9 @@ export const jobCategory: SubcategoryData = {
       },
     },
     {
-      question: { 
-        en: "Should I attach my resume with the application?", 
-        hi: "क्या मुझे आवेदन के साथ अपना रिज्यूमे संलग्न करना चाहिए?" 
+      question: {
+        en: "Should I attach my resume with the application?",
+        hi: "क्या मुझे आवेदन के साथ अपना रिज्यूमे संलग्न करना चाहिए?",
       },
       answer: {
         en: "Yes, always attach your resume with your job application unless specifically instructed otherwise. The application letter introduces you and expresses interest, while the resume provides detailed information about your qualifications, experience, and skills.",
@@ -293,18 +301,21 @@ export const jobCategory: SubcategoryData = {
 };
 
 // Helper function to get subcategory data by slugs
-export function getSubcategoryData(categorySlug: string, subcategorySlug: string): SubcategoryData | undefined {
+export function getSubcategoryData(
+  categorySlug: string,
+  subcategorySlug: string,
+): SubcategoryData | undefined {
   const allSubcategories: SubcategoryData[] = [
     jobCategory,
     // Add more as we create them
   ];
-  
+
   return allSubcategories.find(
-    (sub) => sub.categorySlug === categorySlug && sub.slug === subcategorySlug
+    (sub) => sub.categorySlug === categorySlug && sub.slug === subcategorySlug,
   );
 }
 
 // Export all subcategory data for easy access
 export const allSubcategories: SubcategoryData[] = [
-  jobCategory,  // Add more as we create them
+  jobCategory, // Add more as we create them
 ];

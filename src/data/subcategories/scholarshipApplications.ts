@@ -5,7 +5,6 @@
 
 import { SubcategoryData } from "../category/jobCategory";
 
-
 // 5. SCHOLARSHIP APPLICATIONS
 export const scholarshipApplications: SubcategoryData = {
   slug: "scholarship",
@@ -13,8 +12,12 @@ export const scholarshipApplications: SubcategoryData = {
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: { en: "Scholarship Applications", hi: "छात्रवृत्ति आवेदन" },
   breadcrumb: [
-    { en: "Applications", hi: "आवेदन",slug:"/applications" },
-    { en: "Scholarship Applications", hi: "छात्रवृत्ति आवेदन",slug:"/applications/scholarship" },
+    { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    {
+      en: "Scholarship Applications",
+      hi: "छात्रवृत्ति आवेदन",
+      slug: "/applications/scholarship",
+    },
   ],
   heroTitle: {
     en: "Scholarship Application Templates",
@@ -50,7 +53,7 @@ export const scholarshipApplications: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.3k",
       badge: "Popular",
-      templateSlug: "application-for-merit-scholarship",
+      templateSlug: "scholarship/merit-based-scholarship-application",
     },
     {
       id: "scholarship-2",
@@ -65,7 +68,7 @@ export const scholarshipApplications: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "15.8k",
       badge: "Trending",
-      templateSlug: "application-for-need-based-scholarship",
+      templateSlug: "scholarship/financial-aid-scholarship-application",
     },
     {
       id: "scholarship-3",
@@ -79,7 +82,7 @@ export const scholarshipApplications: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "14.1k",
-      templateSlug: "application-for-government-scholarship",
+      templateSlug: "scholarship/government-scholarship-application",
     },
     {
       id: "scholarship-4",
@@ -93,7 +96,7 @@ export const scholarshipApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.6k",
-      templateSlug: "application-for-sports-scholarship",
+      templateSlug: "scholarship/sports-scholarship-application",
     },
     {
       id: "scholarship-5",
@@ -107,7 +110,7 @@ export const scholarshipApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "10.2k",
-      templateSlug: "application-for-private-scholarship",
+      templateSlug: "scholarship/private-scholarship-application",
     },
     {
       id: "scholarship-6",
@@ -121,7 +124,7 @@ export const scholarshipApplications: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.4k",
-      templateSlug: "application-for-research-grant",
+      templateSlug: "scholarship/research-grant-application",
     },
   ],
   seoTitle: {
@@ -229,8 +232,5 @@ export const scholarshipApplications: SubcategoryData = {
   ],
 };
 
-
 // Export all Applications subcategories
-export const allApplicationsSubcategories = [
-  scholarshipApplications,
-];
+export const allApplicationsSubcategories = [scholarshipApplications];

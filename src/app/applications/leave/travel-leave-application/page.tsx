@@ -2,7 +2,8 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { casualTravelLeave } from "@/data/leaveTemplate/casualLeaveTravel";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "यात्रा हेतु छुट्टी आवेदन पत्र – Travel Leave Application Hindi | AavedanPatra",   
+  title:
+    "यात्रा हेतु छुट्टी आवेदन पत्र – Travel Leave Application Hindi | AavedanPatra",
   description:
     "यात्रा के लिए ऑफिस/स्कूल से छुट्टी का हिंदी आवेदन पत्र। कितने दिन, कारण कैसे लिखें – तैयार नमूना और Travel Leave Application गाइड।",
   path: "/applications/leave/travel-leave-application",

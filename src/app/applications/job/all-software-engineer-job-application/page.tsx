@@ -1,0 +1,17 @@
+import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
+import { softwareJobApplicationTemplate } from "@/data/jobTemplate/softwareJobApplicationTemplate";
+import { generateMetadata } from "@/metadata/metadata";
+export const metadata = generateMetadata({
+  title:
+    "सॉफ्टवेयर इंजीनियर आवेदन पत्र – Software Engineer Job Application Hindi | AavedanPatra",
+  description:
+    "IT कंपनी में Software Engineer पद के लिए हिंदी आवेदन पत्र। फ्रेशर और अनुभवी दोनों के लिए तैयार नमूना, सही फॉर्मेट और लिखने की गाइड।",
+  path: "/applications/job/all-software-engineer-job-application",
+});
+export default function Page() {
+  return (
+    <>
+      <PillarTemplateDetailsPage data={softwareJobApplicationTemplate} />
+    </>
+  );
+}
