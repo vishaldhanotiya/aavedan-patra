@@ -92,8 +92,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-research-grant",
-        destination:
-          "/applications/scholarship/research-grant-application",
+        destination: "/applications/scholarship/research-grant-application",
         permanent: true, // 301
       },
       {
@@ -109,26 +108,22 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-casual-leave",
-        destination:
-          "/applications/leave/casual-leave-application",
+        destination: "/applications/leave/casual-leave-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-school-leave",
-        destination:
-          "/applications/leave/all-school-leave-application",
+        destination: "/applications/leave/all-school-leave-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-urgent-leave",
-        destination:
-          "/applications/leave/all-urgent-leave-application",
+        destination: "/applications/leave/all-urgent-leave-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-vacation-leave",
-        destination:
-          "/applications/leave/all-vacation-leave-application",
+        destination: "/applications/leave/all-vacation-leave-application",
         permanent: true, // 301
       },
       {
@@ -186,7 +181,8 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-private-scholarship",
-        destination: "/applications/scholarship/private-scholarship-application",
+        destination:
+          "/applications/scholarship/private-scholarship-application",
         permanent: true, // 301
       },
       {
@@ -209,9 +205,6 @@ const nextConfig: NextConfig = {
         destination: "/applications/leave/personal-leave-application",
         permanent: true, // 301
       },
-
-
-      
 
       {
         source: "/letters/birthday-party-invitation-letter",
@@ -304,7 +297,6 @@ const nextConfig: NextConfig = {
         permanent: true, // 301
       },
 
-
       {
         source: "/letters/neighbor-complaint-letter",
         destination: "/letters/complaint/neighbor-complaint-letter",
@@ -330,12 +322,6 @@ const nextConfig: NextConfig = {
         destination: "/letters/complaint/workplace-complaint-letter",
         permanent: true, // 301
       },
-
-
-
-
-
-
     ];
   },
 };
