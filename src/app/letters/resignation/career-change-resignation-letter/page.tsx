@@ -3,7 +3,7 @@ import { careerChangeResignationTemplate } from "@/data/resignationTemplate/care
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "करियर चेंज इस्तीफा पत्र – Career Change Resignation Letter Hindi",
+    "करियर बदलने पर त्यागपत्र – नए क्षेत्र में जाने हेतु",
   description:
     "नई नौकरी या करियर बदलने के लिए विनम्र इस्तीफा पत्र। Career Change Resignation Letter – तैयार हिंदी नमूना और प्रोफेशनल गाइड।",
   path: "/letters/resignation/career-change-resignation-letter",

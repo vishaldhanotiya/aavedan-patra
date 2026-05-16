@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { urgentLeaveApplicationTemplate } from "@/data/leaveTemplate/urgentLeaveApplicationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "तत्काल अवकाश पत्र  – Urgent Leave Application Hindi - आवेदन पत्र",
+  title: "अर्जेंट लीव आवेदन – आपात स्थिति के लिए",
   description:
-    "आपात/तत्काल परिस्थिति में Urgent Leave Application। ऑफिस/स्कूल के लिए हिंदी प्रारूप – तैयार नमूना और जल्दी स्वीकृति पाने की गाइड।",
+    "अचानक आई आपात स्थिति (एक्सीडेंट, बीमारी, अप्रत्याशित कार्य) के लिए उसी दिन या एक दिन पहले छुट्टी मांगने का प्रारूप।",
   path: "/applications/leave/urgent-leave-application-formats",
 });
 export default function Page() {

@@ -3,9 +3,9 @@ import { personalLeaveApplicationTemplate } from "@/data/leaveTemplate/personalL
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "पर्सनल लीव आवेदन पत्र – Personal Leave Application Hindi",
+    "व्यक्तिगत छुट्टी आवेदन – पारिवारिक, स्वास्थ्य, अन्य कारण",
   description:
-    "ऑफिस/स्कूल में Personal Leave के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और व्यक्तिगत कारण छुट्टी आवेदन लिखने की गाइड।",
+    "पारिवारिक कार्यक्रम, अपने काम या अन्य व्यक्तिगत कारणों से छुट्टी लेने के लिए 5+ आवेदन प्रारूप।",
   path: "/applications/leave/personal-leave-application-formats",
 });
 export default function Page() {

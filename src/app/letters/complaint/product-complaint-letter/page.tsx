@@ -4,7 +4,7 @@ import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title: "उत्पाद शिकायत पत्र – खराब/डैमेज सामान रिफंड प्रारूप",
   description:
-    "Amazon, Flipkart खराब उत्पाद के लिए रिफंड/रिप्लेसमेंट शिकायत पत्र। हिंदी में सही प्रारूप, तैयार नमूने व उदाहरण – 100% प्रभावी।",
+    "कंपनी को लिखें जब खरीदा हुआ उत्पाद (मोबाइल, एसी, फर्नीचर) खराब हो या उसमें कोई दोष हो। बिल और वारंटी नंबर संलग्न करें।",
   path: "/letters/complaint/product-complaint-letter",
 });
 export default function Page() {

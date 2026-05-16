@@ -5,7 +5,7 @@ export const metadata = generateMetadata({
   title:
     "कैजुअल लीव आवेदन पत्र – Casual Leave Application Hindi",
   description:
-    "ऑफिस या स्कूल से Casual Leave के लिए हिंदी आवेदन पत्र। 1 दिन या कई दिनों की छुट्टी के तैयार नमूने, सही फॉर्मेट और लिखने की गाइड।",
+    "निजी काम, अप्रत्याशित घटना या जरूरी कार्यों के लिए कैजुअल लीव आवेदन प्रारूप। 1-3 दिनों की छुट्टी के लिए तैयार टेम्पलेट।",
   path: "/applications/leave/casual-leave-application-formats",
 });
 export default function Page() {

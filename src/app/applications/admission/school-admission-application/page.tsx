@@ -3,9 +3,9 @@ import { schoolAdmission } from "@/data/admissionTemplate/schoolAdmission/school
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "स्कूल प्रवेश आवेदन पत्र – School Admission Application Hindi",
+    "स्कूल प्रवेश आवेदन – प्रिंसिपल को पत्र",
   description:
-    "बच्चे के स्कूल एडमिशन के लिए हिंदी आवेदन पत्र। नर्सरी से 12वीं तक के लिए तैयार नमूना, सही फॉर्मेट और प्रवेश आवेदन लिखने की गाइड।",
+    "बच्चे का स्कूल में दाखिला कराने के लिए प्रिंसिपल को लिखा जाने वाला आवेदन पत्र। विद्यार्थी विवरण, जन्म प्रमाण पत्र, ट्रांसफर सर्टिफिकेट की जानकारी।",
   path: "/applications/admission/school-admission-application",
 });
 export default function Page() {

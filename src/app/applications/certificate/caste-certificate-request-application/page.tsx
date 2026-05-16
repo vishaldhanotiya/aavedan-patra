@@ -3,9 +3,9 @@ import { casteCertificateTemplate } from "@/data/certificateTemplate/casteCertif
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "जाति प्रमाण पत्र आवेदन – Caste Certificate Application Hindi",
+    "जाति प्रमाणपत्र आवेदन – राजस्व अधिकारी को पत्र",
   description:
-    "तहसील/SDM कार्यालय से Caste Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और जाति प्रमाण पत्र आवेदन लिखने की गाइड।",
+    "तहसीलदार / एसडीएम से जाति प्रमाणपत्र प्राप्त करने के लिए आवेदन प्रारूप। सरकारी योजनाओं, छात्रवृत्ति, नौकरी के लिए।",
   path: "/applications/certificate/caste-certificate-request-application",
 });
 export default function Page() {

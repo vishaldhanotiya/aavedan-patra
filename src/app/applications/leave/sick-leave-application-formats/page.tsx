@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { sickLeaveApplicationTemplate } from "@/data/leaveTemplate/sickLeaveApplicationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "बीमारी छुट्टी आवेदन पत्र – Sick Leave Application Hindi",
+  title: "सिक लीव आवेदन – 5+ प्रारूप (बिना/साथ मेडिकल सर्टिफिकेट)",
   description:
-  "छात्रों और कर्मचारियों के लिए बीमारी की छुट्टी के लिए हिंदी आवेदन पत्र। 1 दिन या कई दिनों के तैयार नमूने, सही फॉर्मेट और Sick Leave गाइड।",
+  "बिना डॉक्टर प्रमाणपत्र (1-2 दिन) और साथ मेडिकल सर्टिफिकेट (लंबी बीमारी) के लिए अलग-अलग सिक लीव आवेदन प्रारूप।",
   path: "/applications/leave/sick-leave-application-formats",
 });
 export default function Page() {

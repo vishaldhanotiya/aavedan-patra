@@ -3,9 +3,9 @@ import { workplaceComplaintTemplate } from "@/data/complaintTemplate/workplaceCo
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "कार्यस्थल शिकायत पत्र – Workplace Complaint Letter Hindi",
+    "कार्यस्थल शिकायत पत्र – एचआर को सहकर्मी/बॉस से समस्या",
   description:
-    "ऑफिस में काम, व्यवहार या सुविधा संबंधी शिकायत के लिए Workplace Complaint Letter। तैयार हिंदी नमूना और HR को शिकायत लिखने की गाइड।",
+    "ऑफिस में सहकर्मी या बॉस के दुर्व्यवहार, उत्पीड़न, भेदभाव या उचित कार्य माहौल न होने पर एचआर/मैनेजमेंट को शिकायत।",
   path: "/letters/complaint/workplace-complaint-letter",
 });
 export default function Page() {

@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { emergencyLoanTemplate } from "@/data/loanTemplate/emergencyLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title:  "इमरजेंसी लोन आवेदन पत्र – Emergency Loan Application Hindi",
+  title:  "इमरजेंसी लोन आवेदन – मेडिकल/अन्य आपात ऋण",
   description:
-"आपातकालीन ज़रूरत के लिए बैंक से Emergency Loan हेतु हिंदी आवेदन पत्र। तुरंत उपयोग करें – तैयार नमूना और सही फॉर्मेट।",
+"मेडिकल इमरजेंसी, एक्सीडेंट या अन्य अप्रत्याशित खर्चों के लिए तत्काल ऋण मांगने का आवेदन प्रारूप। कारण स्पष्ट रूप से लिखें।",
   path: "/applications/loan/emergency-loan-application",
 });
 export default function Page() {

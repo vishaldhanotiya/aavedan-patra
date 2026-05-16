@@ -3,9 +3,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { bankJobApplicationTemplate } from "@/data/jobTemplate/bankJobApplicationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "बैंक नौकरी आवेदन पत्र – Bank Job Application Hindi",
+  title: "बैंक नौकरी आवेदन पत्र – पीओ, क्लर्क, प्रोबेशनरी ऑफिस",
   description:
-     "सरकारी/प्राइवेट बैंक में नौकरी के लिए हिंदी आवेदन पत्र। फ्रेशर और अनुभवी दोनों के लिए तैयार नमूना, सही फॉर्मेट और Bank Job Application गाइड।",
+     "बैंक पीओ, क्लर्क, प्रोबेशनरी ऑफिसर और अन्य बैंकिंग पदों के लिए हिंदी आवेदन प्रारूप। शिक्षा, कंप्यूटर ज्ञान और बैंकिंग अनुभव दिखाएं।",
   path: "/applications/job/bank-job-application-formats",
 });
 export default function Page() {  

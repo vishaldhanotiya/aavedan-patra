@@ -4,7 +4,7 @@ import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title: "ऑनलाइन शॉपिंग शिकायत पत्र – रिफंड हेतु प्रारूप व नमूना",
   description:
-    "खराब, डैमेज या गलत सामान, लेट डिलीवरी और रिफंड समस्याओं के लिए ऑनलाइन शॉपिंग शिकायत पत्र का सही प्रारूप, तैयार नमूना और लिखने का तरीका यहाँ विस्तार से देखें।",
+    "फ्लिपकार्ट, अमेजॉन, मिंत्रा आदि से गलत, क्षतिग्रस्त या दोषपूर्ण प्रोडक्ट मिलने पर शिकायत पत्र प्रारूप।",
   path: "/letters/complaint/online-shopping-complaint-letter",
 });
 export default function Page() {

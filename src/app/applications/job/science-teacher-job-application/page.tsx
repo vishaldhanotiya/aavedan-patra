@@ -2,7 +2,7 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { scienceTeacherJobTemplate } from "@/data/jobTemplate/scienceTeacherJobTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "विज्ञान शिक्षक नौकरी के लिए आवेदन पत्र – हिंदी प्रारूप",
+  title: "विज्ञान शिक्षक आवेदन पत्र – भौतिकी, रसायन, जीव विज्ञान",
   description:
     "विज्ञान टीचर नौकरी के लिए आवेदन पत्र का सही हिंदी फॉर्मेट। विज्ञान शिक्षक पद हेतु तैयार नमूना, उदाहरण और आवेदन लिखने के आसान सुझाव यहाँ मिलेंगे।",
   path: "/applications/job/science-teacher-job-application",

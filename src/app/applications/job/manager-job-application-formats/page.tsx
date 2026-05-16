@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { managerHrOperationsSalesTemplate } from "@/data/jobTemplate/managerHrOperationsSalesTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "मैनेजर पद आवेदन पत्र – Manager Job Application Hindi",
+  title: "मैनेजर आवेदन पत्र – टीम लीड, ऑपरेशंस, प्रोजेक्ट मैनेजर",
   description:
-    "Manager पद के लिए हिंदी आवेदन पत्र। लीडरशिप स्किल्स हाइलाइट करें – तैयार नमूना, सही फॉर्मेट और Manager Job Application लिखने की गाइड।",
+    "टीम लीड, ऑपरेशंस मैनेजर, प्रोजेक्ट मैनेजर और एचआर मैनेजर पदों के लिए प्रबंधकीय आवेदन प्रारूप। नेतृत्व और उपलब्धियां दिखाएं।",
   path: "/applications/job/manager-job-application-formats",
 });
 export default function Page() {

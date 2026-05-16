@@ -3,9 +3,9 @@ import { professionalResignationTemplate } from "@/data/resignationTemplate/prof
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "प्रोफेशनल इस्तीफा पत्र – Professional Resignation Letter Hindi",
+    "पेशेवर त्यागपत्र – मानक नोटिस पीरियड के साथ",
   description:
-    "नोटिस पीरियड के साथ औपचारिक नौकरी छोड़ने का पत्र। Professional Resignation Letter – तैयार हिंदी नमूना, फॉर्मेट और लिखने की गाइड।",
+    "2 सप्ताह/1 महीने के नोटिस के साथ नौकरी छोड़ने के लिए मानक, पेशेवर त्यागपत्र प्रारूप। सभी कार्यस्थलों के लिए उपयुक्त।",
   path: "/letters/resignation/professional-resignation-letter",
 });
 export default function Page() {

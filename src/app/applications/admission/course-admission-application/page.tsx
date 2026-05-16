@@ -3,9 +3,9 @@ import { courseAdmission } from "@/data/admissionTemplate/courseAdmission/course
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "कोर्स प्रवेश आवेदन पत्र – Course Admission Application Hindi",
+    "कोर्स एडमिशन आवेदन – डिप्लोमा, सर्टिफिकेट कोर्स",
   description:
-    "किसी भी कोर्स या प्रशिक्षण में एडमिशन के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और Course Admission Application लिखने की गाइड।",
+    "किसी विशेष कोर्स (कंप्यूटर, लैंग्वेज, वोकेशनल) में प्रवेश के लिए संस्थान निदेशक को आवेदन प्रारूप। पात्रता और रुचि दिखाएं।",
   path: "/applications/admission/course-admission-application",
 });
 export default function Page() {

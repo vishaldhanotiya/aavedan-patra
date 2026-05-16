@@ -3,9 +3,9 @@ import { vacationLeaveApplicationTemplate } from "@/data/leaveTemplate/vacationL
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "वेकेशन लीव आवेदन पत्र – Vacation Leave Application Hindi",
+    "वैकेशन लीव आवेदन – छुट्टियों/यात्रा के लिए",
   description:
-    "छुट्टियों के दौरान Vacation Leave के लिए ऑफिस/स्कूल आवेदन पत्र। तैयार हिंदी नमूना, सही फॉर्मेट और वेकेशन लीव लिखने की गाइड।",
+    "प्लान की गई छुट्टियों (vacation) के लिए पहले से सूचना देने वाला आवेदन प्रारूप। 1-4 सप्ताह की लंबी छुट्टी के लिए उपयुक्त।",
   path: "/applications/leave/vacation-leave-application-formats",
 });
 export default function Page() {

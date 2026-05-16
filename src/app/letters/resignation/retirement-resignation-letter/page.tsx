@@ -3,9 +3,9 @@ import { retirementResignationTemplate } from "@/data/resignationTemplate/retire
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "सेवानिवृत्ति इस्तीफा पत्र – Retirement Resignation Letter Hindi",
+    "सेवानिवृत्ति त्यागपत्र – उम्र पूरी होने पर",
   description:
-    "सेवानिवृत्ति पर नौकरी छोड़ने का औपचारिक पत्र। Retirement Resignation Letter – तैयार हिंदी नमूना, सही फॉर्मेट और लिखने की गाइड।",
+    "आयु सीमा या स्वैच्छिक सेवानिवृत्ति पर कंपनी/सरकारी विभाग को सौंपने के लिए त्यागपत्र प्रारूप।",
   path: "/letters/resignation/retirement-resignation-letter",
 });
 export default function Page() {

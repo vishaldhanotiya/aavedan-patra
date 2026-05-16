@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { carLoanTemplate } from "@/data/loanTemplate/carLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title:  "कार लोन आवेदन पत्र – Car Loan Application Hindi", 
+  title:  "कार लोन आवेदन – नई या पुरानी गाड़ी के लिए ऋण", 
   description:
-  "नई या पुरानी कार के लिए बैंक को Car Loan Application। हिंदी में तैयार नमूना, ज़रूरी दस्तावेज़ और कार लोन आवेदन लिखने की गाइड।",
+  "नई या पुरानी कार खरीदने के लिए बैंक से वाहन ऋण मांगने का आवेदन प्रारूप। वाहन विवरण, कीमत और किश्त क्षमता दिखाएं।",
   path: "/applications/loan/car-loan-application",
 });
 export default function Page() {

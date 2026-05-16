@@ -4,7 +4,7 @@ import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title: "मीटिंग अनुरोध पत्र – Meeting Request Letter Hindi",
   description:
-    "अपॉइंटमेंट या चर्चा के लिए Meeting Request Letter। प्रोफेशनल हिंदी प्रारूप, तैयार नमूने और विनम्र तरीके से मीटिंग माँगने की गाइड।",
+    "अपने वरिष्ठ, ग्राहक, या प्रोफेसर के साथ बैठक (चर्चा, प्रेजेंटेशन, सलाह) का समय मांगने के लिए पत्र।",
   path: "/letters/request/meeting-request-letter",
 });
 export default function Page() {

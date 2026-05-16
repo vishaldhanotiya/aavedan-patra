@@ -3,9 +3,9 @@ import { bonafideCertificateTemplate } from "@/data/certificateTemplate/bonafide
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "बोनाफाइड सर्टिफिकेट आवेदन – Bonafide Certificate Application Hindi",
+    "बोनाफाइड सर्टिफिकेट आवेदन – शैक्षणिक प्रमाण हेतु",
   description:
-    "स्कूल/कॉलेज से बोनाफाइड सर्टिफिकेट के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और Bonafide Certificate Application लिखने की गाइड।",
+    "स्कूल या कॉलेज से बोनाफाइड प्रमाणपत्र प्राप्त करने के लिए प्रिंसिपल को आवेदन प्रारूप। छात्रवृत्ति, पासपोर्ट, बैंक खाते के लिए आवश्यक।",
   path: "/applications/certificate/bonafide-certificate-request-application",
 });
 export default function Page() {

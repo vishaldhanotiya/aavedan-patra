@@ -5,7 +5,7 @@ export const metadata = generateMetadata({
   title:
     "आय प्रमाण पत्र आवेदन – Income Certificate Application Hindi",
   description:
-    "तहसील/पंचायत से Income Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और आय प्रमाण पत्र आवेदन लिखने की पूरी गाइड।",
+    "तहसीलदार / राजस्व अधिकारी से आय प्रमाणपत्र प्राप्त करने के लिए आवेदन प्रारूप। छात्रवृत्ति, सब्सिडी, गरीबी रेखा से नीचे (बीपीएल) योजनाओं के लिए।",
   path: "/applications/certificate/income-certificate-application",
 });
 export default function Page() {

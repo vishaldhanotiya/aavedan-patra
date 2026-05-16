@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { characterCertificateTemplate } from "@/data/certificateTemplate/characterCertificateTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "चरित्र प्रमाण पत्र आवेदन – Character Certificate Application Hindi",
+  title: "चरित्र प्रमाणपत्र आवेदन – स्कूल/कॉलेज/पुलिस",
   description:
-    "स्कूल/कॉलेज से Transfer Certificate (TC) के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और TC Application लिखने की पूरी गाइड।", 
+    "शैक्षणिक संस्थान या पुलिस से चरित्र प्रमाणपत्र प्राप्त करने के लिए आवेदन प्रारूप। नौकरी, वीज़ा, उच्च शिक्षा के लिए आवश्यक।", 
   path: "/applications/certificate/character-certificate-request-application",
 });
 export default function Page() {

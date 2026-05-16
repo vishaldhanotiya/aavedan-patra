@@ -3,9 +3,9 @@ import { informationRequestTemplate } from "@/data/requestTemplate/informationRe
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "जानकारी अनुरोध पत्र – Information Request Letter Hindi",
+    "सूचना अनुरोध पत्र – आरटीआई या सामान्य जानकारी",
   description:
-    "स्कूल, कार्यालय या सरकारी कार्यों के लिए Information Request Letter। तैयार हिंदी नमूना, सही फॉर्मेट और जानकारी माँगने की गाइड।",
+    "सरकारी या निजी संस्थान से किसी विशेष जानकारी (आरटीआई या सामान्य) के लिए अनुरोध पत्र प्रारूप।",
   path: "/letters/request/information-request-letter",
 });
 export default function Page() {

@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { educationLoanTemplate } from "@/data/loanTemplate/educationLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "शिक्षा ऋण आवेदन पत्र – Education Loan Application Hindi",
+  title: "एजुकेशन लोन आवेदन – पढ़ाई के लिए ऋण पत्र",
   description:
-    "पढ़ाई के लिए बैंक से Education Loan हेतु हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ सूची और छात्रों के लिए Education Loan गाइड।",
+    "भारत या विदेश में उच्च शिक्षा के लिए बैंक से शिक्षा ऋण मांगने का आवेदन प्रारूप। कोर्स, कॉलेज और फीस विवरण शामिल करें।",
   path: "/applications/loan/education-loan-application",
 });
 export default function Page() {

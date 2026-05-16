@@ -3,9 +3,9 @@ import { sickLeaveMedicalCertificate } from "@/data/leaveTemplate/sickLeavewithM
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "मेडिकल सर्टिफिकेट सहित छुट्टी आवेदन – Sick Leave with Medical Certificate Hindi",
+    "बीमारी छुट्टी आवेदन – मेडिकल सर्टिफिकेट के साथ",
   description:
-    "मेडिकल सर्टिफिकेट के साथ बीमारी छुट्टी आवेदन पत्र। ऑफिस और स्कूल दोनों के लिए तैयार हिंदी नमूना, सही फॉर्मेट और लिखने की गाइड।",
+    "मेडिकल सर्टिफिकेट संलग्न करने वाले बीमारी छुट्टी आवेदन पत्र का प्रारूप। लंबी बीमारी या अस्पताल में भर्ती होने पर उपयोगी।",
   path: "/applications/leave/sick-leave-with-medical-certificate",
 });
 export default function Page() {

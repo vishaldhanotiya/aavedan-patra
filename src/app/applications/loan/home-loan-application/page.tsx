@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { homeLoanTemplate } from "@/data/loanTemplate/homeLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "होम लोन आवेदन पत्र – Home Loan Application Hindi",
+  title: "होम लोन आवेदन – घर खरीदने या बनाने के लिए",
   description:
-    "घर खरीदने/बनाने के लिए बैंक से Home Loan हेतु हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और Home Loan Application लिखने की गाइड।",
+    "मकान खरीदने, निर्माण करने या रिनोवेशन के लिए बैंक से होम लोन मांगने का आवेदन प्रारूप। प्रॉपर्टी विवरण और आय प्रमाण शामिल करें।",
   path: "/applications/loan/home-loan-application",
 });
 export default function Page() {

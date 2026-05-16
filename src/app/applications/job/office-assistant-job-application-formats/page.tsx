@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { officeAssistantApplicationTemplate } from "@/data/jobTemplate/officeAssistantApplicationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "ऑफिस असिस्टेंट आवेदन पत्र – Office Assistant Job Application Hindi",
+  title: "ऑफिस असिस्टेंट आवेदन – फ्रेशर, अनुभवी, डेटा एंट्री",
   description:
-    "Office Assistant पद के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और ऑफिस असिस्टेंट Job Application लिखने की पूरी गाइड।",
+    "ऑफिस असिस्टेंट, डेटा एंट्री ऑपरेटर, रिसेप्शनिस्ट और प्रशासनिक सहायक के लिए 10+ आवेदन प्रारूप। हिंदी और अंग्रेजी में।",
   path: "/applications/job/office-assistant-job-application-formats",
 });
 export default function Page() {

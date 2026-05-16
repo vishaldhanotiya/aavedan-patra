@@ -3,9 +3,9 @@ import { shortNoticeResignationTemplate } from "@/data/resignationTemplate/short
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "शॉर्ट नोटिस इस्तीफा पत्र – Short Notice Resignation Letter Hindi",
+    "कम सूचना त्यागपत्र – 1 सप्ताह या उससे कम नोटिस",
   description:
-    "कम नोटिस अवधि में नौकरी छोड़ने का पत्र। Short Notice Resignation Letter – तैयार हिंदी नमूना, सही फॉर्मेट और लिखने की गाइड।",
+    "कम समय (उदा. 3-5 दिन) में नौकरी छोड़ने पर माफी सहित त्यागपत्र प्रारूप। अप्रत्याशित स्थिति का स्पष्ट उल्लेख करें।",
   path: "/letters/resignation/short-notice-resignation-letter",
 });
 export default function Page() {

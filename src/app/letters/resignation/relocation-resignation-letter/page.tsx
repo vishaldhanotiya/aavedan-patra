@@ -3,9 +3,9 @@ import { relocationResignationTemplate } from "@/data/resignationTemplate/reloca
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "रिलोकेशन इस्तीफा पत्र – Relocation Resignation Letter Hindi",
+    "स्थानांतरण त्यागपत्र – दूसरे शहर जाने पर",
   description:
-    "शहर/स्थान बदलने के कारण नौकरी छोड़ने का पत्र। Relocation Resignation Letter – तैयार हिंदी नमूना और प्रोफेशनल फॉर्मेट।",
+    "दूसरे शहर/देश स्थानांतरण के कारण नौकरी छोड़ने पर त्यागपत्र प्रारूप। नए पते और तारीख का उल्लेख करें।",
   path: "/letters/resignation/relocation-resignation-letter",
 });
 export default function Page() {
