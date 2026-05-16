@@ -37,6 +37,10 @@ export default function sitemap() {
       lastModified: "2025-12-01",
     },
     {
+      url: "https://aavedanpatra.in/applications/leave",
+      lastModified: "2025-12-01",
+    },
+    {
       url: "https://aavedanpatra.in/applications/admission",
       lastModified: "2025-12-01",
     },
