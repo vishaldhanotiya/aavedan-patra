@@ -3,9 +3,9 @@ import { researchGrantTemplate } from "@/data/scholarshipTemplate/researchGrantT
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "रिसर्च ग्रांट आवेदन पत्र – Research Grant Application Hindi",
+    "रिसर्च ग्रांट आवेदन – PhD, पोस्ट-डॉक्टोरल शोध हेतु",
   description:
-    "शैक्षणिक/वैज्ञानिक परियोजना के लिए Research Grant Application। प्रोफेशनल हिंदी प्रारूप – तैयार नमूना और शोधकर्ताओं के लिए लिखने की गाइड।",
+    "विश्वविद्यालय या शोध संस्थान से शोध अनुदान (ग्रांट) के लिए आवेदन प्रारूप। शोध प्रस्ताव, मार्गदर्शक हस्ताक्षर और बजट विवरण शामिल करें।",
   path: "/applications/scholarship/research-grant-application",
 });
 export default function Page() {

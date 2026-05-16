@@ -9,7 +9,7 @@ const templateData = teacherJobApplicationTemplate;
 export const metadata = generateMetadata({
   title: "शिक्षक नौकरी आवेदन पत्र – Teacher Job Application Hindi",
   description:
-    "स्कूल शिक्षक पद के लिए हिंदी आवेदन पत्र। फ्रेशर और अनुभवी दोनों के लिए तैयार नमूने, सही प्रारूप और Teacher Job Application लिखने के टिप्स।",
+    "फ्रेशर, अनुभवी, गणित, अंग्रेजी, विज्ञान और मोंटेसरी शिक्षक के लिए अलग-अलग 6 आवेदन प्रारूप। हिंदी में मुफ्त डाउनलोड करें।",
   path,
   type: "article",
 });

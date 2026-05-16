@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { meritScholarshipTemplate } from "@/data/scholarshipTemplate/meritScholarshipTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "मेरिट छात्रवृत्ति आवेदन – Merit Scholarship Hindi",
+  title: "मेरिट छात्रवृत्ति आवेदन – उच्च अंक वाले छात्रों के लिए",
   description:
-    "उच्च अंक और शैक्षणिक प्रदर्शन पर मेरिट स्कॉलरशिप हेतु हिंदी आवेदन। मार्कशीट, सिफारिश पत्र सूची और तैयार नमूना – आवेदन गाइड सहित।",
+    "परीक्षा में उच्च अंक (प्रथम/द्वितीय स्थान) प्राप्त करने वाले छात्रों के लिए मेरिट छात्रवृत्ति आवेदन प्रारूप। अंक तालिका और प्रमाण पत्र संलग्न करें।",
   path: "/applications/scholarship/merit-based-scholarship-application",
 });
 export default function Page() {

@@ -5,7 +5,7 @@ export const metadata = generateMetadata({
   title:
     "सॉफ्टवेयर इंजीनियर आवेदन पत्र – Software Engineer Job Application Hindi",
   description:
-    "IT कंपनी में Software Engineer पद के लिए हिंदी आवेदन पत्र। फ्रेशर और अनुभवी दोनों के लिए तैयार नमूना, सही फॉर्मेट और लिखने की गाइड।",
+    "फ्रेशर, बैकएंड, फ्रंटएंड, फुल स्टैक, मोबाइल और QA इंजीनियरों के लिए अलग-अलग आवेदन प्रारूप। तकनीकी कौशल और प्रोजेक्ट अनुभव शामिल करें।",
   path: "/applications/job/software-engineer-job-application-formats",
 });
 export default function Page() {

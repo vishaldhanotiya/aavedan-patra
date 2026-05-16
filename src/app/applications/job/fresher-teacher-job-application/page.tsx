@@ -2,8 +2,8 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { fresherTeacherJobTemplate } from "@/data/jobTemplate/fresherTeacherJobTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title:"शिक्षक नौकरी आवेदन पत्र – Teacher Job Application Hindi",
-  description: "स्कूल शिक्षक पद के लिए हिंदी आवेदन पत्र। फ्रेशर और अनुभवी दोनों के लिए तैयार नमूने, सही प्रारूप और Teacher Job Application लिखने के टिप्स।",  
+  title:"फ्रेशर शिक्षक आवेदन – बिना अनुभव के लिए",
+  description: "नए स्नातक शिक्षकों के लिए आवेदन प्रारूप। इंटर्नशिप, ट्यूशन और स्वयंसेवी अनुभव को कैसे दिखाएं – उदाहरण सहित।",
   path: "/applications/job/fresher-teacher-job-application",
 });
 

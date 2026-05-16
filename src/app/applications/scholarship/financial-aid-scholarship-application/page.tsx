@@ -3,9 +3,9 @@ import { needBasedScholarshipTemplate } from "@/data/scholarshipTemplate/needBas
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "ज़रूरत-आधारित छात्रवृत्ति आवेदन – Financial Aid Scholarship Hindi",
+    "वित्तीय सहायता छात्रवृत्ति – आय प्रमाण पत्र संलग्न करें",
   description:
-    "आर्थिक ज़रूरत के आधार पर Financial Aid / Need Based Scholarship Application। हिंदी प्रारूप – तैयार नमूना और छात्रवृत्ति आवेदन गाइड।",
+    "आर्थिक रूप से कमजोर वर्ग के छात्रों के लिए छात्रवृत्ति आवेदन प्रारूप। पारिवारिक आय और ट्यूशन फीस विवरण सहित।",
   path: "/applications/scholarship/financial-aid-scholarship-application",
 });
 export default function Page() {

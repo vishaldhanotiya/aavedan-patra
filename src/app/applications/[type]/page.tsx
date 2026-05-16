@@ -13,27 +13,27 @@ import { generateMetadata as createMetadata } from "@/metadata/metadata";
 
 const metaMap: Record<string, { title: string; description: string }> = {
   job: {
-    title: "नौकरी आवेदन पत्र हिंदी में – Job Application Format | AavedanPatra",
+    title: "नौकरी आवेदन पत्र हिंदी में – Job Application Format - AavedanPatra",
     description:
       "सरकारी व प्राइवेट नौकरी के लिए तैयार हिंदी आवेदन पत्र। टीचर, बैंक, सॉफ्टवेयर, मैनेजर सहित 10+ पदों के प्रारूप और नमूने – अभी देखें।",
   },
 
   leave: {
     title:
-      "छुट्टी आवेदन पत्र हिंदी में – Leave Application Format | AavedanPatra",
+      "छुट्टी आवेदन पत्र हिंदी में – Leave Application Format - AavedanPatra",
     description:
       "स्कूल, कॉलेज और ऑफिस के लिए बीमारी, यात्रा, पर्सनल और तत्काल छुट्टी आवेदन पत्र। सरल हिंदी फॉर्मेट, तैयार नमूने",
   },
 
   certificate: {
     title:
-      "प्रमाणपत्र आवेदन – बोनाफाइड, कैरेक्टर, आय, एक्सपीरियंस | AavedanPatra",
+      "प्रमाणपत्र आवेदन – बोनाफाइड, कैरेक्टर, आय, एक्सपीरियंस - AavedanPatra",
     description:
       "बोनाफाइड, चरित्र, जाति, आय और ट्रांसफर सर्टिफिकेट के लिए हिंदी आवेदन पत्र। सही प्रारूप, तैयार नमूने – अभी डाउनलोड करें।",
   },
 
   loan: {
-    title: "लोन आवेदन पत्र – होम, कार, पर्सनल, एजुकेशन, बिजनेस | AavedanPatra",
+    title: "लोन आवेदन पत्र – होम, कार, पर्सनल, एजुकेशन, बिजनेस - AavedanPatra",
     description:
       "होम लोन, कार लोन, पर्सनल लोन, एजुकेशन लोन और बिजनेस लोन के लिए हिंदी में आवेदन प्रारूप। बैंक और एनबीएफसी के लिए तैयार टेम्पलेट।",
   },
