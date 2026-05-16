@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { frontendDeveloperJobTemplate } from "@/data/jobTemplate/frontendDeveloperJobTemplate";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "फ्रंटएंड डेवलपर नौकरी के लिए आवेदन पत्र – हिंदी प्रारूप व नमूना",
   description:
     "फ्रंटएंड डेवलपर नौकरी के लिए आवेदन पत्र का सही हिंदी प्रारूप यहाँ देखें। Frontend Developer पद हेतु तैयार नमूना आवेदन पत्र, लिखने का तरीका",

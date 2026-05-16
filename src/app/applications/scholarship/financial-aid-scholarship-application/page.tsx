@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { needBasedScholarshipTemplate } from "@/data/scholarshipTemplate/needBasedScholarshipTemplate";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata  } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "वित्तीय सहायता छात्रवृत्ति – आय प्रमाण पत्र संलग्न करें",
   description:

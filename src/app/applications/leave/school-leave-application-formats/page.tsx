@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { schoolStudentLeaveApplicationTemplate } from "@/data/leaveTemplate/schoolStudentLeaveApplicationTemplate";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "स्कूल छुट्टी आवेदन पत्र – School Leave Application Hindi",
   description:

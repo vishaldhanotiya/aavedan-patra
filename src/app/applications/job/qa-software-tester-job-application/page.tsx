@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { qaSoftwareTesterJobTemplate } from "@/data/jobTemplate/qaSoftwareTesterJobTemplate";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "QA टेस्टर नौकरी के लिए आवेदन पत्र – हिंदी प्रारूप व नमूना",
   description:
     "QA टेस्टर नौकरी के लिए आवेदन पत्र का सही हिंदी प्रारूप यहाँ देखें। QA Tester पद हेतु तैयार नमूना आवेदन पत्र, लिखने का तरीका, उदाहरण और आसान टिप्स",

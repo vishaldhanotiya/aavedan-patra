@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { businessMeetingInvitationTemplate } from "@/data/invitationTemplate/businessMeetingInvitationTemplate";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "बिजनेस मीटिंग निमंत्रण पत्र हिंदी में - प्रारूप और नमूने",
   description:
     "बिजनेस मीटिंग के लिए औपचारिक निमंत्रण पत्र कैसे लिखें? इस पेज पर क्लाइंट मीटिंग, टीम मीटिंग और पार्टनर मीटिंग के लिए प्रोफेशनल हिंदी प्रारूप दिए गए हैं।",

@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { transferCertificateTemplate } from "@/data/certificateTemplate/transferCertificateTemplate";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "ट्रांसफर सर्टिफिकेट आवेदन – स्कूल/कॉलेज टीसी",
   description:

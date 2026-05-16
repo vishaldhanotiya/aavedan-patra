@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { schoolAdmission } from "@/data/admissionTemplate/schoolAdmission/schoolAdmission";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata ({
   title:
     "स्कूल प्रवेश आवेदन – प्रिंसिपल को पत्र",
   description:

@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { mathTeacherJobTemplate } from "@/data/jobTemplate/mathTeacherJobTemplate";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "गणित शिक्षक आवेदन पत्र – विशेष प्रारूप, टिप्स और उदाहरण",
   description:
     "गणित शिक्षक पद के लिए हिंदी में आवेदन पत्र प्रारूप। B.Ed, अनुभव, शिक्षण पद्धति और उपलब्धियों को प्रस्तुत करने का तरीका सीखें।",

@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { schoolTransfer } from "@/data/admissionTemplate/schoolTransfer/schoolTransfer";
-import {  } from "@/metadata/metadata";
-export const metadata = ({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "स्कूल ट्रांसफर आवेदन – टीसी लेने के लिए पत्र",
   description:
