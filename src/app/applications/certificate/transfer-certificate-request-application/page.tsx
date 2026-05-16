@@ -3,7 +3,7 @@ import { transferCertificateTemplate } from "@/data/certificateTemplate/transfer
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "ट्रांसफर सर्टिफिकेट आवेदन – TC Application Letter Hindi | AavedanPatra",
+    "ट्रांसफर सर्टिफिकेट आवेदन – TC Application Letter Hindi",
   description:
     "स्कूल/कॉलेज से Transfer Certificate (TC) के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और TC Application लिखने की पूरी गाइड।",
   path: "/applications/certificate/transfer-certificate-request-application",

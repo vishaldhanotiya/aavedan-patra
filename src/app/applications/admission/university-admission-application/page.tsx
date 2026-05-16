@@ -2,7 +2,7 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { universityAdmissionTemplate } from "@/data/admissionTemplate/universityAdmissionTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title:  "विश्वविद्यालय प्रवेश आवेदन – University Admission Application Hindi | AavedanPatra", 
+  title:  "विश्वविद्यालय प्रवेश आवेदन – University Admission Application Hindi", 
   description:
     "University Admission के लिए हिंदी आवेदन पत्र। स्नातक/परास्नातक हेतु तैयार नमूना, सही फॉर्मेट और विश्वविद्यालय प्रवेश आवेदन",
   path: "/applications/admission/university-admission-application",

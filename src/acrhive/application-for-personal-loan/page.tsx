@@ -2,7 +2,7 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { personalLoanTemplate } from "@/data/loanTemplate/personalLoanTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title:  "पर्सनल लोन आवेदन पत्र – Personal Loan Application Hindi | AavedanPatra",
+  title:  "पर्सनल लोन आवेदन पत्र – Personal Loan Application Hindi",
   description:
      "बैंक से Personal Loan के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ सूची और Personal Loan Application लिखने की पूरी गाइड।",
   path: "/applications/application-for-personal-loan",

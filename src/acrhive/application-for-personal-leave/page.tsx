@@ -2,9 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { personalLeaveApplicationTemplate } from "@/data/leaveTemplate/personalLeaveApplicationTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title:"पर्सनल लीव आवेदन पत्र – Personal Leave Application Hindi | AavedanPatra",
+  title:"पर्सनल लीव आवेदन पत्र – Personal Leave Application Hindi",
   description:
-    "ऑफिस/स्कूल में Personal Leave के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और व्यक्तिगत कारण छुट्टी आवेदन लिखने की गाइड।",  
+    "ऑफिस/स्कूल में Personal Leave के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और व्यक्तिगत कारण छुट्टी आवेदन लिखने की गाइड।",
   path: "/applications/application-for-personal-leave",
 });
 export default function Page() {

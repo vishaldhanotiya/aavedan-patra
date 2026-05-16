@@ -3,7 +3,7 @@ import { workplaceComplaintTemplate } from "@/data/complaintTemplate/workplaceCo
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "कार्यस्थल शिकायत पत्र – Workplace Complaint Letter Hindi | AavedanPatra",
+    "कार्यस्थल शिकायत पत्र – Workplace Complaint Letter Hindi",
   description:
     "ऑफिस में काम, व्यवहार या सुविधा संबंधी शिकायत के लिए Workplace Complaint Letter। तैयार हिंदी नमूना और HR को शिकायत लिखने की गाइड।",
   path: "/letters/complaint/workplace-complaint-letter",

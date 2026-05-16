@@ -3,7 +3,7 @@ import { readmissionTemplate } from "@/data/admissionTemplate/readmissionTemplat
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "पुनः प्रवेश आवेदन पत्र – Readmission Application Hindi | AavedanPatra",
+    "पुनः प्रवेश आवेदन पत्र – Readmission Application Hindi",
   description:
     "स्कूल/कॉलेज में दोबारा एडमिशन के लिए Readmission Application। हिंदी प्रारूप – तैयार नमूना, सही फॉर्मेट और पुनः प्रवेश आवेदन गाइड।",
   path: "/applications/admission/readmission-application",

@@ -2,7 +2,7 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { refundRequestTemplate } from "@/data/complaintTemplate/refundRequestTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "रिफंड अनुरोध पत्र – Refund Request Letter Hindi | AavedanPatra",
+  title: "रिफंड अनुरोध पत्र – Refund Request Letter Hindi",
   description:
     "उत्पाद या सेवा का रिफंड माँगने के लिए Refund Request Letter। प्रभावी हिंदी प्रारूप, तैयार नमूना और रिफंड पाने की पूरी गाइड।",
   path: "/letters/request/refund-request-letter",

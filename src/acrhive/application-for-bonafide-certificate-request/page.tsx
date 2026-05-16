@@ -3,7 +3,7 @@ import { bonafideCertificateTemplate } from "@/data/certificateTemplate/bonafide
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "बोनाफाइड सर्टिफिकेट आवेदन पत्र – Bonafide Certificate Hindi | AavedanPatra",
+    "बोनाफाइड सर्टिफिकेट आवेदन पत्र – Bonafide Certificate Hindi",
   description:
     "स्कूल/कॉलेज से बोनाफाइड सर्टिफिकेट के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और Bonafide Certificate Application लिखने की गाइड।",
   path: "/applications/application-for-bonafide-certificate-request",

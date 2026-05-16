@@ -3,7 +3,7 @@ import { incomeCertificateTemplate } from "@/data/certificateTemplate/incomeCert
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "आय प्रमाण पत्र आवेदन – Income Certificate Application Hindi | AavedanPatra",
+    "आय प्रमाण पत्र आवेदन – Income Certificate Application Hindi",
   description:
     "तहसील/पंचायत से Income Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और आय प्रमाण पत्र आवेदन लिखने की पूरी गाइड।",
   path: "/applications/certificate/income-certificate-application",

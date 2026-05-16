@@ -2,7 +2,7 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { schoolTransferTemplate } from "@/data/admissionTemplate/schoolTransferTemplate";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title: "स्कूल TC आवेदन पत्र – School Transfer Certificate Hindi | AavedanPatra",
+  title: "स्कूल TC आवेदन पत्र – School Transfer Certificate Hindi",
   description:
    "स्कूल से Transfer Certificate (TC) के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और TC Application लिखने की पूरी गाइड।",
   path: "/applications/application-for-school-transfer",

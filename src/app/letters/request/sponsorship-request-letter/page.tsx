@@ -3,7 +3,7 @@ import { sponsorshipRequestTemplate } from "@/data/requestTemplate/sponsorshipRe
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "स्पॉन्सरशिप अनुरोध पत्र – Sponsorship Request Letter Hindi | AavedanPatra",
+    "स्पॉन्सरशिप अनुरोध पत्र – Sponsorship Request Letter Hindi",
   description:
     "कार्यक्रम, खेल या शिक्षा के लिए Sponsorship Request Letter। प्रभावी हिंदी प्रारूप, तैयार नमूना और स्पॉन्सर पाने की पूरी गाइड।",
   path: "/letters/request/sponsorship-request-letter",

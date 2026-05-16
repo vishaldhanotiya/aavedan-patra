@@ -3,7 +3,7 @@ import { casteCertificateTemplate } from "@/data/certificateTemplate/casteCertif
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "जाति प्रमाण पत्र आवेदन पत्र – Caste Certificate Application Hindi | AavedanPatra",
+    "जाति प्रमाण पत्र आवेदन पत्र – Caste Certificate Application Hindi",
   description:
     "सरकारी कार्यालय से Caste Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और जाति प्रमाण पत्र आवेदन लिखने की गाइड।",
   path: "/applications/application-for-caste-certificate-request",

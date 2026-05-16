@@ -3,7 +3,7 @@ import { informationRequestTemplate } from "@/data/requestTemplate/informationRe
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "जानकारी अनुरोध पत्र – Information Request Letter Hindi | AavedanPatra",
+    "जानकारी अनुरोध पत्र – Information Request Letter Hindi",
   description:
     "स्कूल, कार्यालय या सरकारी कार्यों के लिए Information Request Letter। तैयार हिंदी नमूना, सही फॉर्मेट और जानकारी माँगने की गाइड।",
   path: "/letters/request/information-request-letter",

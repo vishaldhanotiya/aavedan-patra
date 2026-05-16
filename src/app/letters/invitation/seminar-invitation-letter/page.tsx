@@ -3,7 +3,7 @@ import { seminarInvitationTemplate } from "@/data/invitationTemplate/seminarInvi
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
   title:
-    "सेमिनार निमंत्रण पत्र – Seminar Invitation Letter Hindi | AavedanPatra",
+    "सेमिनार निमंत्रण पत्र – Seminar Invitation Letter Hindi",
   description:
     "कॉलेज, संस्थान या संगठन के लिए Seminar Invitation Letter। प्रोफेशनल हिंदी प्रारूप, तैयार नमूना और सेमिनार आमंत्रण लिखने की गाइड।",
   path: "/letters/invitation/seminar-invitation-letter",
