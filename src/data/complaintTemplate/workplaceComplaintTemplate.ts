@@ -96,35 +96,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Complaint Letter",
-      hi: "शिकायत पत्र कैसे लिखें",
+      en: "How to Write a Workplace Complaint Letter",
+      hi: "कार्यस्थल शिकायत पत्र कैसे लिखें",
     },
     tips: [
       {
-        text: { en: "Be clear and factual.", hi: "स्पष्ट और तथ्यपूर्ण रहें।" },
-      },
-      {
         text: {
-          en: "Mention date, receipt, order ID if applicable.",
-          hi: "तिथि, रसीद या ऑर्डर ID अवश्य लिखें।",
+          en: "Be clear, factual, and professional.",
+          hi: "स्पष्ट, तथ्यपूर्ण और पेशेवर भाषा का उपयोग करें।",
         },
       },
       {
         text: {
-          en: "Avoid emotional or rude language.",
-          hi: "भावुक या अशिष्ट भाषा न लिखें।",
+          en: "Include the date of the incident and witness names, if any.",
+          hi: "घटना की तारीख और गवाह का नाम अवश्य लिखें।",
         },
       },
       {
         text: {
-          en: "Request a proper action or resolution.",
-          hi: "उचित कार्रवाई या समाधान का अनुरोध करें।",
+          en: "Send the complaint through official HR channels (email or grievance portal).",
+          hi: "HR विभाग को आधिकारिक चैनल से भेजें।",
         },
       },
       {
         text: {
-          en: "Attach documents or photos if needed.",
-          hi: "जरूरत पड़े तो दस्तावेज़ या फोटो संलग्न करें।",
+          en: "Avoid emotional or aggressive language.",
+          hi: "भावुक या आक्रामक भाषा न लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Keep a copy of your complaint for your records.",
+          hi: "शिकायत की एक प्रति अपने पास रखें।",
         },
       },
     ],

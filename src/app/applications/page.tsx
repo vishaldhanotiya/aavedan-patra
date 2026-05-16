@@ -6,6 +6,7 @@ export const metadata = generateMetadata({
   description:
     "नौकरी, छुट्टी, लोन, एडमिशन, स्कॉलरशिप और प्रमाण पत्र हेतु 100+ तैयार हिंदी आवेदन पत्र प्रारूप। सभी प्रकार के नमूने एक जगह – अभी देखें।",
   path: "/applications",
+  type: "website",
 });
 export default function Page() {
   return <DynamicCategoryPage category={applicationsCategory} />;

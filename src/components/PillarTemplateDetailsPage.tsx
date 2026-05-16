@@ -83,11 +83,14 @@ interface PillarTemplateDetailsPageProps {
   data: PillarTemplateData;
   language?: "en" | "hi";
   singleTemplate?: boolean;
+  /** Skip client JSON-LD when server renders schemas via PillarTemplateSchemas */
+  suppressSchema?: boolean;
 }
 
 export function PillarTemplateDetailsPage({
   data,
   singleTemplate = false,
+  suppressSchema = false,
 }: PillarTemplateDetailsPageProps) {
   const [activeVariation, setActiveVariation] = useState<string>(
     data.variations[0]?.id || "",
@@ -249,19 +252,22 @@ export function PillarTemplateDetailsPage({
 
   return (
     <>
-      {/* Schema Markup */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateFAQSchema()),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateArticleSchema()),
-        }}
-      />
+      {!suppressSchema && (
+        <>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(generateFAQSchema()),
+            }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(generateArticleSchema()),
+            }}
+          />
+        </>
+      )}
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
         <div className="container mx-auto px-4 py-12">
           {/* Breadcrumb Navigation */}

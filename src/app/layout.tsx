@@ -12,6 +12,7 @@ export const metadata = generateMetadata({
   description:
     "200+ हिंदी आवेदन पत्र के सही प्रारूप, नमूने और उदाहरण। नौकरी, स्कूल प्रवेश, बैंक ऋण, सरकारी योजना आवेदन पत्र कैसे लिखें – फ्री डाउनलोड।",
   path: "/",
+  type: "website",
 });
 
 export default function RootLayout({
