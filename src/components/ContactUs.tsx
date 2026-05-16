@@ -488,12 +488,12 @@ export function ContactUs() {
               asChild
               className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/30 px-8 py-6 text-lg"
             >
-              <a href="/category/applications">
+              <Link href="/applications">
                 {language === "en"
                   ? "Browse Templates"
                   : "टेम्पलेट्स ब्राउज़ करें"}
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </a>
+              </Link>
             </Button>
           </motion.div>
         </div>

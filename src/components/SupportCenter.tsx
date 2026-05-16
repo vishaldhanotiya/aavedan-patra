@@ -242,7 +242,7 @@ const quickLinks = [
       hi: "सभी उपलब्ध टेम्पलेट्स देखें",
     },
     icon: FileText,
-    link: "/category/applications",
+    link: "/applications",
   },
   {
     title: { en: "FAQs", hi: "सामान्य प्रश्न" },
