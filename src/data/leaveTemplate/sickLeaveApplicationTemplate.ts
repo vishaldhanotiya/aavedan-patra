@@ -9,14 +9,14 @@ export const sickLeaveApplicationTemplate = {
     },
     template: {
       en: "Sick Leave Application",
-      hi: "बीमार छुट्टी आवेदन",
+      hi: "बीमारी छुट्टी आवेदन पत्र",
       slug: "",
     },
   },
 
   title: {
-    en: "Sick Leave Application to Manager",
-    hi: "मैनेजर को बीमार छुट्टी के लिए आवेदन",
+    en: "Sick Leave Application Letter",
+    hi: "बीमारी छुट्टी आवेदन पत्र",
   },
 
   subtitle: {

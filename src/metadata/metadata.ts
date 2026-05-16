@@ -11,10 +11,11 @@ export function generateMetadata({
   locale?: string;
 }) {
   const baseUrl = "https://aavedanpatra.in";
-  const canonicalUrl = `${baseUrl}${path}`;
-  
+  const normalizedPath = path.replace(/\/+$/, "") || "/";
+  const canonicalUrl = `${baseUrl}${normalizedPath}`;
+
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: {
       canonical: canonicalUrl,

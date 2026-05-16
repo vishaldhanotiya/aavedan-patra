@@ -7,14 +7,14 @@ export const collegeAdmission = {
       slug: "/applications/admission",
     },
     template: {
-      en: "Student Admission Application",
-      hi: "छात्र प्रवेश आवेदन",
+      en: "College Admission Application",
+      hi: "कॉलेज एडमिशन आवेदन पत्र",
       slug: "",
     },
   },
   title: {
-    en: "College Admission Application Letters",
-    hi: "कॉलेज प्रवेश आवेदन पत्र",
+    en: "College Admission Application",
+    hi: "कॉलेज एडमिशन आवेदन पत्र",
   },
 
   subtitle: {

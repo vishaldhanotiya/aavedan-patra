@@ -7,15 +7,15 @@ export const professionalResignationTemplate = {
       slug: "/letters/resignation",
     },
     template: {
-      en: "Official Resignation Letters",
-      hi: "आधिकारिक त्यागपत्र",
+      en: "Professional Resignation Letter",
+      hi: "प्रोफेशनल इस्तीफा पत्र",
       slug: "",
     },
   },
 
   title: {
-    en: "Resignation Application Letters",
-    hi: "इस्तीफा पत्र आवेदन पत्र",
+    en: "Professional Resignation Letter",
+    hi: "प्रोफेशनल इस्तीफा पत्र",
   },
 
   subtitle: {

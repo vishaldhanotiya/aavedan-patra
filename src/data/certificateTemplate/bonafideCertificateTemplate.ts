@@ -7,15 +7,15 @@ export const bonafideCertificateTemplate = {
       slug: "/applications/certificate",
     },
     template: {
-      en: "Certificate Request Letters",
-      hi: "प्रमाणपत्र अनुरोध पत्र",
+      en: "Bonafide Certificate Application",
+      hi: "बोनाफाइड सर्टिफिकेट आवेदन",
       slug: "",
     },
   },
 
   title: {
-    en: "Bonafide Certificate Request Application",
-    hi: "बोनाफाइड प्रमाणपत्र अनुरोध आवेदन पत्र",
+    en: "Bonafide Certificate Application",
+    hi: "बोनाफाइड सर्टिफिकेट आवेदन",
   },
 
   subtitle: {

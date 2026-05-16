@@ -2,10 +2,9 @@ import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPag
 import { collegeAdmission } from "@/data/admissionTemplate/collegeAdmission/collegeAdmission";
 import { generateMetadata } from "@/metadata/metadata";
 export const metadata = generateMetadata({
-  title:
-    "कॉलेज एडमिशन आवेदन पत्र – College Admission Application Hindi",
+  title: "कॉलेज एडमिशन आवेदन पत्र – College Admission Hindi",
   description:
-    "ग्रेजुएशन/पोस्टग्रेजुएशन College Admission के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और कॉलेज प्रवेश आवेदन लिखने की पूरी गाइड।",
+    "स्नातक/पोस्टग्रेजुएशन कॉर्स में कॉलेज प्रवेश हेतु हिंदी आवेदन। मार्कशीट, TC सूची, तैयार नमूना और औपचारिक एडमिशन लेटर फॉर्मेट।",
   path: "/applications/admission/college-admission-application",
 });
 export default function Page() {

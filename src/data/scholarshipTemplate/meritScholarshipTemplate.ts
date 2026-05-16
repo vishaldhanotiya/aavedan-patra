@@ -7,14 +7,14 @@ export const meritScholarshipTemplate = {
       slug: "/applications/scholarship",
     },
     template: {
-      en: "Scholarship Application Letters",
-      hi: "छात्रवृत्ति आवेदन पत्र",
+      en: "Merit Scholarship Application",
+      hi: "मेरिट छात्रवृत्ति आवेदन",
       slug: "",
     },
   },
   title: {
-    en: "Merit-Based Scholarship Application Letter",
-    hi: "मेधावी छात्रवृत्ति आवेदन पत्र",
+    en: "Merit-Based Scholarship Application",
+    hi: "मेरिट छात्रवृत्ति आवेदन पत्र",
   },
   subtitle: {
     en: "Pre-designed formats for academic excellence scholarship, high score based scholarship, competitive exam merit scholarship, and top-performer grant applications.",
