@@ -17,10 +17,6 @@ export default function sitemap() {
       lastModified: "2026-02-01",
     },
     {
-      url: "https://aavedanpatra.in/applications/job/fresher-teacher-job-application",
-      lastModified: "2026-02-01",
-    },
-    {
       url: "https://aavedanpatra.in/applications/job/experienced-teacher-job-application",
       lastModified: "2026-02-01",
     },
@@ -118,7 +114,7 @@ export default function sitemap() {
       lastModified: "2026-01-02",
     },
     {
-      url: "https://aavedanpatra.in/letters/complaint/permission-request-letter",
+      url: "https://aavedanpatra.in/letters/request/permission-request-letter",
       lastModified: "2026-01-02",
     },
 
@@ -206,10 +202,6 @@ export default function sitemap() {
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/job/experienced-teacher-job-application",
-      lastModified: "2026-05-14",
-    },
-    {
       url: "https://aavedanpatra.in/applications/job/fresher-software-engineer-job-application",
       lastModified: "2026-05-14",
     },
@@ -226,15 +218,7 @@ export default function sitemap() {
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/job/math-teacher-job-application",
-      lastModified: "2026-05-14",
-    },
-    {
       url: "https://aavedanpatra.in/applications/job/mobile-developer-job-application",
-      lastModified: "2026-05-14",
-    },
-    {
-      url: "https://aavedanpatra.in/applications/job/montessori-teacher-job-application",
       lastModified: "2026-05-14",
     },
     {
@@ -349,5 +333,57 @@ export default function sitemap() {
       url: "https://aavedanpatra.in/applications/scholarship/sports-scholarship-application",
       lastModified: "2026-05-14",
     },
+
+
+    {
+      url: "https://aavedanpatra.in//applications/leave/casual-leave-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/leave/personal-leave-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/leave/school-leave-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/leave/sick-leave-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/leave/urgent-leave-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/leave/vacation-leave-application-formats",
+      lastModified: "2026-05-14",
+    },
+
+
+    {
+      url: "https://aavedanpatra.in/applications/job/bank-job-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/teacher-job-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/manager-job-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/software-engineer-job-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/job/office-assistant-job-application-formats",
+      lastModified: "2026-05-14",
+    },
+    {
+      url: "https://aavedanpatra.in/applications/scholarship/private-scholarship-application",
+      lastModified: "2026-05-14",
+    }
   ];
 }
