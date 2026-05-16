@@ -336,7 +336,7 @@ export default function sitemap() {
 
 
     {
-      url: "https://aavedanpatra.in//applications/leave/casual-leave-application-formats",
+      url: "https://aavedanpatra.in/applications/leave/casual-leave-application-formats",
       lastModified: "2026-05-14",
     },
     {
