@@ -13,7 +13,7 @@ export default function sitemap() {
       lastModified: "2025-12-01",
     },
     {
-      url: "https://aavedanpatra.in/applications/job/all-teacher-job-application",
+      url: "https://aavedanpatra.in/applications/job/teacher-job-application-formats",
       lastModified: "2026-02-01",
     },
     {
@@ -259,7 +259,7 @@ export default function sitemap() {
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/leave/viral-infection-leave-application",
+      url: "https://aavedanpatra.in/applications/leave/viral-fever-leave-application",
       lastModified: "2026-05-14",
     },
 

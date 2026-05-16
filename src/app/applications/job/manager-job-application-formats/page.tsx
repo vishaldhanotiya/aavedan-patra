@@ -5,7 +5,7 @@ export const metadata = generateMetadata({
   title: "मैनेजर पद आवेदन पत्र – Manager Job Application Hindi | AavedanPatra",
   description:
     "Manager पद के लिए हिंदी आवेदन पत्र। लीडरशिप स्किल्स हाइलाइट करें – तैयार नमूना, सही फॉर्मेट और Manager Job Application लिखने की गाइड।",
-  path: "/applications/job/all-manager-job-application",
+  path: "/applications/job/manager-job-application-formats",
 });
 export default function Page() {
   return (

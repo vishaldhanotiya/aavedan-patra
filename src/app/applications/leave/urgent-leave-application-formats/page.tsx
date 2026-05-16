@@ -5,7 +5,7 @@ export const metadata = generateMetadata({
   title: "तत्काल अवकाश पत्र  – Urgent Leave Application Hindi - आवेदन पत्र",
   description:
     "आपात/तत्काल परिस्थिति में Urgent Leave Application। ऑफिस/स्कूल के लिए हिंदी प्रारूप – तैयार नमूना और जल्दी स्वीकृति पाने की गाइड।",
-  path: "/applications/leave/all-urgent-leave-application",
+  path: "/applications/leave/urgent-leave-application-formats",
 });
 export default function Page() {
   return (

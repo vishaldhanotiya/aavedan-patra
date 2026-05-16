@@ -117,7 +117,7 @@ export const jobCategory: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "12.5k",
       badge: "Popular",
-      templateSlug: "job/all-teacher-job-application",
+      templateSlug: "job/teacher-job-application-formats",
     },
     // {
     //   id: "job-2",
@@ -147,7 +147,7 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "15.8k",
-      templateSlug: "job/all-software-engineer-job-application",
+      templateSlug: "job/software-engineer-job-application-formats",
     },
     {
       id: "job-4",
@@ -161,7 +161,7 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.4k",
-      templateSlug: "job/all-manager-job-application",
+      templateSlug: "job/manager-job-application-formats",
     },
     {
       id: "job-5",
@@ -175,7 +175,7 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "11.2k",
-      templateSlug: "job/all-office-assistant-job-application",
+      templateSlug: "job/office-assistant-job-application-formats",
     },
     {
       id: "job-6",
@@ -189,7 +189,7 @@ export const jobCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.7k",
-      templateSlug: "job/all-bank-job-application",
+      templateSlug: "job/bank-job-application-formats",
     },
   ],
   seoTitle: {

@@ -6,7 +6,7 @@ export const metadata = generateMetadata({
     "पर्सनल लीव आवेदन पत्र – Personal Leave Application Hindi | AavedanPatra",
   description:
     "ऑफिस/स्कूल में Personal Leave के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और व्यक्तिगत कारण छुट्टी आवेदन लिखने की गाइड।",
-  path: "/applications/leave/all-personal-leave-application",
+  path: "/applications/leave/personal-leave-application-formats",
 });
 export default function Page() {
   return (

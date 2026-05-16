@@ -6,7 +6,7 @@ export const metadata = generateMetadata({
     "वेकेशन लीव आवेदन पत्र – Vacation Leave Application Hindi | AavedanPatra",
   description:
     "छुट्टियों के दौरान Vacation Leave के लिए ऑफिस/स्कूल आवेदन पत्र। तैयार हिंदी नमूना, सही फॉर्मेट और वेकेशन लीव लिखने की गाइड।",
-  path: "/applications/leave/all-vacation-leave-application",
+  path: "/applications/leave/vacation-leave-application-formats",
 });
 export default function Page() {
   return (

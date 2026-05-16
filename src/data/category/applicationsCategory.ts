@@ -132,7 +132,7 @@ export const applicationsCategory: CategoryData = {
       views: "24.5k",
       date: "Nov 2025",
       tag: "Popular",
-      href:"applications/job/all-teacher-job-application"
+      href:"applications/job/teacher-job-application-formats"
     },
     {
       title: { en: "Sick Leave Application to Manager", hi: "प्रबंधक को बीमारी की छुट्टी आवेदन" },
@@ -142,7 +142,7 @@ export const applicationsCategory: CategoryData = {
       },
       views: "21.8k",
       date: "Nov 2025",
-      href:"applications/leave/all-sick-leave-application"
+      href:"applications/leave/sick-leave-application-formats"
     },
     {
       title: { en: "Personal Loan Application to Bank", hi: "बैंक को व्यक्तिगत ऋण आवेदन" },
@@ -185,7 +185,7 @@ export const applicationsCategory: CategoryData = {
       },
       views: "15.3k",
       date: "Oct 2025",
-      href:"applications/leave/all-casual-leave-application"
+      href:"applications/leave/casual-leave-application-formats"
 
     },
   ],

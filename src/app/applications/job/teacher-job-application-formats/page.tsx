@@ -5,7 +5,7 @@ export const metadata = generateMetadata({
   title: "शिक्षक नौकरी आवेदन पत्र – Teacher Job Application Hindi | AavedanPatra",
   description:
     "स्कूल शिक्षक पद के लिए हिंदी आवेदन पत्र। फ्रेशर और अनुभवी दोनों के लिए तैयार नमूने, सही प्रारूप और Teacher Job Application लिखने के टिप्स।",
-  path: "/applications/job/all-teacher-job-application",
+  path: "/applications/job/teacher-job-application-formats",
 });
 export default function Page() {
   return (

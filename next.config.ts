@@ -32,12 +32,12 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/applications/application-for-teacher-job",
-        destination: "/applications/job/all-teacher-job-application",
+        destination: "/applications/job/teacher-job-application-formats",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-bank-job",
-        destination: "/applications/job/all-bank-job-application",
+        destination: "/applications/job/bank-job-application-formats",
         permanent: true, // 301
       },
       {
@@ -113,17 +113,17 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-school-leave",
-        destination: "/applications/leave/all-school-leave-application",
+        destination: "/applications/leave/school-leave-application-formats",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-urgent-leave",
-        destination: "/applications/leave/all-urgent-leave-application",
+        destination: "/applications/leave/urgent-leave-application-formats",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-vacation-leave",
-        destination: "/applications/leave/all-vacation-leave-application",
+        destination: "/applications/leave/vacation-leave-application-formats",
         permanent: true, // 301
       },
       {
@@ -187,17 +187,17 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-manager-position-job",
-        destination: "/applications/job/all-manager-job-application",
+        destination: "/applications/job/manager-job-application-formats",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-office-assistant-job",
-        destination: "/applications/job/all-office-assistant-job-application",
+        destination: "/applications/job/office-assistant-job-application-formats",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-software-engineer-job",
-        destination: "/applications/job/all-software-engineer-job-application",
+        destination: "/applications/job/software-engineer-job-application-formats",
         permanent: true, // 301
       },
       {

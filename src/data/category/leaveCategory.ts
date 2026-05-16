@@ -121,7 +121,7 @@ export const leaveCategory: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "14.3k",
       badge: "Popular",
-      templateSlug: "leave/all-sick-leave-application",
+      templateSlug: "leave/sick-leave-application-formats",
     },
     {
       id: "leave-2",
@@ -136,7 +136,7 @@ export const leaveCategory: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "16.8k",
       badge: "Trending",
-      templateSlug: "leave/all-casual-leave-application",
+      templateSlug: "leave/casual-leave-application-formats",
     },
     {
       id: "leave-3",
@@ -150,7 +150,7 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "12.1k",
-      templateSlug: "leave/all-urgent-leave-application",
+      templateSlug: "leave/urgent-leave-application-formats",
     },
     {
       id: "leave-4",
@@ -164,7 +164,7 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "10.9k",
-      templateSlug: "leave/all-personal-leave-application",
+      templateSlug: "leave/personal-leave-application-formats",
     },
     {
       id: "leave-5",
@@ -178,7 +178,7 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.4k",
-      templateSlug: "leave/all-school-leave-application",
+      templateSlug: "leave/school-leave-application-formats",
     },
     {
       id: "leave-6",
@@ -192,7 +192,7 @@ export const leaveCategory: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "9.7k",
-      templateSlug: "leave/all-vacation-leave-application",
+      templateSlug: "leave/vacation-leave-application-formats",
     },
   ],
   seoTitle: {
