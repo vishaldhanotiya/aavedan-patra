@@ -48,11 +48,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     setTheme,
   };
 
-  // Prevent flash of unstyled content
-  if (!mounted) {
-    return null;
-  }
-
   return (
     <ThemeContext.Provider value={value}>
       {children}

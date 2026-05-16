@@ -51,11 +51,6 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     t
   };
 
-  // Prevent flash of unstyled content
-  if (!mounted) {
-    return null;
-  }
-
   return (
     <LanguageContext.Provider value={value}>
       {children}
