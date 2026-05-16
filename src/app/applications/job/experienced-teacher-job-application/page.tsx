@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { experiencedTeacherJobTemplate } from "@/data/jobTemplate/experiencedTeacherJobTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "अनुभवी शिक्षक आवेदन पत्र – Experienced Teacher Application Hindi",
   description:
     "अनुभवी शिक्षक नौकरी के लिए आवेदन पत्र का आसान हिंदी प्रारूप। अनुभव वाले शिक्षकों के लिए तैयार नमूना, उदाहरण और लिखने के जरूरी सुझाव यहाँ उपलब्ध हैं।",

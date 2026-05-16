@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { softwareJobApplicationTemplate } from "@/data/jobTemplate/softwareJobApplicationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "सॉफ्टवेयर इंजीनियर आवेदन पत्र – Software Engineer Job Application Hindi",
   description:

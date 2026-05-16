@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { homeLoanTemplate } from "@/data/loanTemplate/homeLoanTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title: "होम लोन आवेदन – घर खरीदने या बनाने के लिए",
   description:
     "मकान खरीदने, निर्माण करने या रिनोवेशन के लिए बैंक से होम लोन मांगने का आवेदन प्रारूप। प्रॉपर्टी विवरण और आय प्रमाण शामिल करें।",

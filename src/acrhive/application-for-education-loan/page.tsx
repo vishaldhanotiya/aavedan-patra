@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { educationLoanTemplate } from "@/data/loanTemplate/educationLoanTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "शिक्षा ऋण आवेदन पत्र – Education Loan Application Hindi",
   description:

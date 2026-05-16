@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { vacationLeaveApplicationTemplate } from "@/data/leaveTemplate/vacationLeaveApplicationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "वैकेशन लीव आवेदन – छुट्टियों/यात्रा के लिए",
   description:

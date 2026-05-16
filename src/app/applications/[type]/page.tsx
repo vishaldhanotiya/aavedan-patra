@@ -7,7 +7,7 @@ import { loanApplications } from "@/data/subcategories/loanApplications";
 import { scholarshipApplications } from "@/data/subcategories/scholarshipApplications";
 import { PropsType } from "@/data/type/type";
 import { Metadata } from "next";
-import { generateMetadata as createMetadata } from "@/metadata/metadata";
+import { createMetadata as createMetadata1} from "@/metadata/metadata";
 
 // ---------------- META CONTENT ----------------
 
@@ -66,11 +66,11 @@ const dataMap: Record<string, any> = {
 
 // ---------------- METADATA ----------------
 
-export async function generateMetadata(props: PropsType): Promise<Metadata> {
+export async function createMetadata(props: PropsType): Promise<Metadata> {
   const { type } = await props.params;
 
   const meta = metaMap[type as string];
-  return createMetadata({
+  return createMetadata1({
     title: meta.title,
     description: meta.description,
     path: `/applications/${type}`, // ✅ correct canonical for applications hub children

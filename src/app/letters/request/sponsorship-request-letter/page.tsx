@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { sponsorshipRequestTemplate } from "@/data/requestTemplate/sponsorshipRequestTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "प्रायोजन अनुरोध पत्र – स्पोन्सरशिप के लिए",
   description:

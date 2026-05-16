@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { relocationResignationTemplate } from "@/data/resignationTemplate/relocationResignationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "स्थानांतरण त्यागपत्र – दूसरे शहर जाने पर",
   description:

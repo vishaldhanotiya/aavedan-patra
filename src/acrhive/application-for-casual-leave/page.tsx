@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { casualLeaveApplicationTemplate } from "@/data/leaveTemplate/casualLeaveApplicationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "कैजुअल लीव आवेदन पत्र – Casual Leave Application Hindi",
   description:

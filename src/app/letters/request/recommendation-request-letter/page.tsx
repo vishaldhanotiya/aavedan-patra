@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { recommendationRequestTemplate } from "@/data/requestTemplate/recommendationRequestTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "सिफारिश पत्र अनुरोध – प्रोफेसर, बॉस से सिफारिश",
   description:

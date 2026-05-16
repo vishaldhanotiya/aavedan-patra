@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { englishTeacherJobTemplate } from "@/data/jobTemplate/englishTeacherJobTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "अंग्रेज़ी शिक्षक आवेदन पत्र – English Teacher Job Application",
   description:
     "अंग्रेज़ी शिक्षक नौकरी के लिए आवेदन पत्र का सही हिंदी फॉर्मेट। स्कूल अंग्रेज़ी शिक्षक पद हेतु तैयार नमूना आवेदन, उदाहरण और सरल गाइड के साथ आवेदन लिखें।",

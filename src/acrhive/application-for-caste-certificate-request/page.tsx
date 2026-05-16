@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { casteCertificateTemplate } from "@/data/certificateTemplate/casteCertificateTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "जाति प्रमाण पत्र आवेदन पत्र – Caste Certificate Application Hindi",
   description:

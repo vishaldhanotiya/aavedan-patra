@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { sickLeaveMedicalCertificate } from "@/data/leaveTemplate/sickLeavewithMedical";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "बीमारी छुट्टी आवेदन – मेडिकल सर्टिफिकेट के साथ",
   description:

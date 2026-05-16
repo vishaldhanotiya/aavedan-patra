@@ -9,7 +9,7 @@ import {
 } from "@/data/subcategories";
 import { PropsType } from "@/data/type/type";
 import { Metadata } from "next";
-import { generateMetadata as createMetadata } from "@/metadata/metadata";
+import { createMetadata as createMetadata1 } from "@/metadata/metadata";
 
 // ---------------- META CONTENT ----------------
 
@@ -59,7 +59,7 @@ const dataMap: Record<string, any> = {
 
 // ---------------- DYNAMIC METADATA ----------------
 
-export async function generateMetadata(props: PropsType): Promise<Metadata> {
+export async function createMetadata(props: PropsType): Promise<Metadata> {
   const { type } = await props.params;
 
   const meta =
@@ -69,7 +69,7 @@ export async function generateMetadata(props: PropsType): Promise<Metadata> {
       description: "सभी प्रकार के पत्रों के प्रारूप हिंदी में।",
     } as const);
 
-  return createMetadata({
+  return createMetadata1({
     title: meta.title,
     description: meta.description,
     path: `/letters/${type}`,

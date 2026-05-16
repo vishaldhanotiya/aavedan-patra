@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { researchGrantTemplate } from "@/data/scholarshipTemplate/researchGrantTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "रिसर्च ग्रांट आवेदन – PhD, पोस्ट-डॉक्टोरल शोध हेतु",
   description:

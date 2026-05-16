@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { fullStackDeveloperJobTemplate } from "@/data/jobTemplate/fullStackDeveloperJobTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title: "फुल स्टैक डेवलपर नौकरी के लिए आवेदन पत्र – हिंदी प्रारूप व नमूना",
   description:
     "फुल स्टैक डेवलपर नौकरी के लिए आवेदन पत्र का सही हिंदी प्रारूप यहाँ देखें। Full Stack Developer पद हेतु तैयार नमूना आवेदन पत्र, लिखने का तरीका",

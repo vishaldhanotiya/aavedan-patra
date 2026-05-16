@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { donationRequestTemplate } from "@/data/requestTemplate/donationRequestTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "दान अनुरोध पत्र – एनजीओ, स्कूल, धर्मार्थ संस्था",
   description:
     "NGO, स्कूल, सामाजिक कार्यों के लिए Donation Request Letter। विनम्र और प्रभावशाली हिंदी प्रारूप, तैयार नमूने और लिखने की गाइड।",

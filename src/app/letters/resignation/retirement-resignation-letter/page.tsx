@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { retirementResignationTemplate } from "@/data/resignationTemplate/retirementResignationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "सेवानिवृत्ति त्यागपत्र – उम्र पूरी होने पर",
   description:

@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { seminarInvitationTemplate } from "@/data/invitationTemplate/seminarInvitationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "सेमिनार निमंत्रण पत्र – संस्थान, कॉर्पोरेट",
   description:

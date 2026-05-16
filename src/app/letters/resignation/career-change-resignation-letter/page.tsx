@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { careerChangeResignationTemplate } from "@/data/resignationTemplate/careerChangeResignationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "करियर बदलने पर त्यागपत्र – नए क्षेत्र में जाने हेतु",
   description:

@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { professionalResignationTemplate } from "@/data/resignationTemplate/professionalResignationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "पेशेवर त्यागपत्र – मानक नोटिस पीरियड के साथ",
   description:

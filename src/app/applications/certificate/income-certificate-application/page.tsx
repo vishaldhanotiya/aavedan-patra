@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { incomeCertificateTemplate } from "@/data/certificateTemplate/incomeCertificateTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "आय प्रमाण पत्र आवेदन – Income Certificate Application Hindi",
   description:

@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { viralInfectionLeave } from "@/data/leaveTemplate/viralInfectionLeave";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "वायरल फीवर छुट्टी आवेदन – बुखार के लिए पत्र",
   description:"वायरल बुखार, डेंगू, मलेरिया या तेज बुखार के कारण 2-7 दिन की छुट्टी के लिए आवेदन प्रारूप। डॉक्टर पर्ची शामिल करें।",

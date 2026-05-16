@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { bonafideCertificateTemplate } from "@/data/certificateTemplate/bonafideCertificateTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "बोनाफाइड सर्टिफिकेट आवेदन – शैक्षणिक प्रमाण हेतु",
   description:

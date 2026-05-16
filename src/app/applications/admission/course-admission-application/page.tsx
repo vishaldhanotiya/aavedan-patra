@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { courseAdmission } from "@/data/admissionTemplate/courseAdmission/courseAdmission";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title:
     "कोर्स एडमिशन आवेदन – डिप्लोमा, सर्टिफिकेट कोर्स",
   description:

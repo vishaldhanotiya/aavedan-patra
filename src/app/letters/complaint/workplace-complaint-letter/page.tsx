@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { workplaceComplaintTemplate } from "@/data/complaintTemplate/workplaceComplaintTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "कार्यस्थल शिकायत पत्र – एचआर को सहकर्मी/बॉस से समस्या",
   description:

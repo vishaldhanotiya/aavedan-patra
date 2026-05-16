@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { eventInvitationTemplate } from "@/data/invitationTemplate/eventInvitationTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "कार्यक्रम के लिए निमंत्रण पत्र हिंदी में – औपचारिक एवं अनौपचारिक नमूने",
   description:

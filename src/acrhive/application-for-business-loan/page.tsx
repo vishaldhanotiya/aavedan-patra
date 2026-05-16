@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { businessLoanTemplate } from "@/data/loanTemplate/businessLoanTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "बिज़नेस लोन आवेदन पत्र – Business Loan Application Hindi",
   description:

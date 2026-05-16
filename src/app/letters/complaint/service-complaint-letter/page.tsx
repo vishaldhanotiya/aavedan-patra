@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { serviceComplaintTemplate } from "@/data/complaintTemplate/serviceComplaintTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import {  } from "@/metadata/metadata";
+export const metadata = ({
   title: "सेवा शिकायत पत्र – इंटरनेट, बिजली, पानी, बैंक",
   description:
     "खराब या असंतोषजनक सेवा की शिकायत के लिए Service Complaint Letter। प्रभावी हिंदी प्रारूप, तैयार नमूना और शिकायत लिखने की गाइड।",

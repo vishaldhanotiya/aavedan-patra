@@ -4,9 +4,9 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { ThemeProvider } from "@/contexts/ThemeProvider";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { generateMetadata } from "@/metadata/metadata";
+import { createMetadata } from "@/metadata/metadata";
 
-export const metadata = generateMetadata({
+export const metadata = createMetadata({
   title:
     "हिंदी आवेदन पत्र – नौकरी, स्कूल, बैंक व सरकारी प्रारूप",
   description:

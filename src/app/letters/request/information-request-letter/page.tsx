@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { informationRequestTemplate } from "@/data/requestTemplate/informationRequestTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title:
     "सूचना अनुरोध पत्र – आरटीआई या सामान्य जानकारी",
   description:

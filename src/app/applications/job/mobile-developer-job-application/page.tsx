@@ -1,7 +1,7 @@
 import { PillarTemplateDetailsPage } from "@/components/PillarTemplateDetailsPage";
 import { mobileDeveloperJobTemplate } from "@/data/jobTemplate/mobileDeveloperJobTemplate";
-import { generateMetadata } from "@/metadata/metadata";
-export const metadata = generateMetadata({
+import { createMetadata } from "@/metadata/metadata";
+export const metadata = createMetadata({
   title: "मोबाइल डेवलपर नौकरी के लिए आवेदन पत्र – हिंदी प्रारूप व नमूना",
   description:
     "मोबाइल डेवलपर नौकरी के लिए आवेदन पत्र का सही हिंदी प्रारूप यहाँ देखें। Mobile App Developer पद हेतु तैयार नमूना आवेदन पत्र",
