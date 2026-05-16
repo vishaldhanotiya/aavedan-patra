@@ -5,7 +5,7 @@ export const metadata = generateMetadata({
   title: "चरित्र प्रमाण पत्र आवेदन – Character Certificate Application Hindi | AavedanPatra",
   description:
     "स्कूल/कॉलेज से Transfer Certificate (TC) के लिए हिंदी आवेदन पत्र। तैयार नमूना, सही फॉर्मेट और TC Application लिखने की पूरी गाइड।", 
-  path: "/applications/certificates/character-certificate-request-application",
+  path: "/applications/certificate/character-certificate-request-application",
 });
 export default function Page() {
   return (

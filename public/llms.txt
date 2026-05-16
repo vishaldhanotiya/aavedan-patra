@@ -2,7 +2,7 @@
 
 ## About
 Aavedan Patra (https://aavedanpatra.in) provides Hindi application letter templates (आवेदन पत्र) and formal letter formats.
-Content covers applications for education, jobs, loans, certificates, scholarships, and official requests.
+Content covers applications for education, jobs, loans, certificate, scholarships, and official requests.
 
 ## Primary Sections
 - Homepage: https://aavedanpatra.in
@@ -13,7 +13,7 @@ Content covers applications for education, jobs, loans, certificates, scholarshi
 - Loan Applications: https://aavedanpatra.in/applications/loan
 - Admission Applications: https://aavedanpatra.in/applications/admission
 - Scholarship Applications: https://aavedanpatra.in/applications/scholarship
-- Certificate Requests: https://aavedanpatra.in/applications/certificate-request
+- Certificate Requests: https://aavedanpatra.in/applications/certificate
 
 ## Letters
 - All Letters: https://aavedanpatra.in/letters

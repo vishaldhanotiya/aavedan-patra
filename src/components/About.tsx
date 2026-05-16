@@ -541,7 +541,7 @@ export function About({ language = "en" }: AboutProps) {
                   {language === "en" ? "Letters" : "पत्र"}
                 </Link>
                  <Link
-                  href="/certificates"
+                  href="/certificate"
                   className="px-4 py-2 bg-white dark:bg-white/10 rounded-full text-sm text-slate-700 dark:text-white hover:bg-slate-100 dark:hover:bg-white/20 transition-colors border border-slate-200 dark:border-white/10"
                 >
                   {language === "en" ? "Certificates" : "प्रमाण पत्र"}

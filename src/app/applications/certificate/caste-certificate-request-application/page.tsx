@@ -6,7 +6,7 @@ export const metadata = generateMetadata({
     "जाति प्रमाण पत्र आवेदन – Caste Certificate Application Hindi | AavedanPatra",
   description:
     "तहसील/SDM कार्यालय से Caste Certificate के लिए हिंदी आवेदन पत्र। तैयार नमूना, ज़रूरी दस्तावेज़ और जाति प्रमाण पत्र आवेदन लिखने की गाइड।",
-  path: "/applications/certificates/caste-certificate-request-application",
+  path: "/applications/certificate/caste-certificate-request-application",
 });
 export default function Page() {
   return (

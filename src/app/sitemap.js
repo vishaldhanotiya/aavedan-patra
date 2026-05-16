@@ -306,27 +306,27 @@ export default function sitemap() {
     },
 
     {
-      url: "https://aavedanpatra.in/applications/certificates/bonafide-certificate-request-application",
+      url: "https://aavedanpatra.in/applications/certificate/bonafide-certificate-request-application",
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/certificates/caste-certificate-request-application",
+      url: "https://aavedanpatra.in/applications/certificate/caste-certificate-request-application",
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/certificates/character-certificate-request-application",
+      url: "https://aavedanpatra.in/applications/certificate/character-certificate-request-application",
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/certificates/experience-certificate-request-application",
+      url: "https://aavedanpatra.in/applications/certificate/experience-certificate-request-application",
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/certificates/income-certificate-application",
+      url: "https://aavedanpatra.in/applications/certificate/income-certificate-application",
       lastModified: "2026-05-14",
     },
     {
-      url: "https://aavedanpatra.in/applications/certificates/transfer-certificate-request-application",
+      url: "https://aavedanpatra.in/applications/certificate/transfer-certificate-request-application",
       lastModified: "2026-05-14",
     },
     {

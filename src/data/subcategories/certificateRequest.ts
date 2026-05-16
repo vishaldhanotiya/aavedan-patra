@@ -56,7 +56,7 @@ export const certificateRequest: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "19.2k",
       badge: "Popular",
-      templateSlug: "certificates/experience-certificate-request-application",
+      templateSlug: "certificate/experience-certificate-request-application",
     },
     {
       id: "cert-req-2",
@@ -71,7 +71,7 @@ export const certificateRequest: SubcategoryData = {
       lastUpdated: "Nov 2025",
       views: "17.5k",
       badge: "Trending",
-      templateSlug: "certificates/transfer-certificate-request-application",
+      templateSlug: "certificate/transfer-certificate-request-application",
     },
     {
       id: "cert-req-3",
@@ -85,7 +85,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Nov 2025",
       views: "16.3k",
-      templateSlug: "certificates/income-certificate-application",
+      templateSlug: "certificate/income-certificate-application",
     },
     {
       id: "cert-req-4",
@@ -99,7 +99,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "14.8k",
-      templateSlug: "certificates/bonafide-certificate-request-application",
+      templateSlug: "certificate/bonafide-certificate-request-application",
     },
     {
       id: "cert-req-5",
@@ -113,7 +113,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "13.1k",
-      templateSlug: "certificates/character-certificate-request-application",
+      templateSlug: "certificate/character-certificate-request-application",
     },
     {
       id: "cert-req-6",
@@ -127,7 +127,7 @@ export const certificateRequest: SubcategoryData = {
       },
       lastUpdated: "Oct 2025",
       views: "12.4k",
-      templateSlug: "certificates/caste-certificate-request-application",
+      templateSlug: "certificate/caste-certificate-request-application",
     },
   ],
   seoTitle: {

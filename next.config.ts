@@ -43,7 +43,7 @@ const nextConfig: NextConfig = {
       {
         source: "/applications/application-for-bonafide-certificate-request",
         destination:
-          "/applications/certificates/bonafide-certificate-request-application",
+          "/applications/certificate/bonafide-certificate-request-application",
         permanent: true, // 301
       },
 
@@ -103,7 +103,7 @@ const nextConfig: NextConfig = {
       {
         source: "/applications/application-for-caste-certificate-request",
         destination:
-          "/applications/certificates/caste-certificate-request-application",
+          "/applications/certificate/caste-certificate-request-application",
         permanent: true, // 301
       },
       {
@@ -159,19 +159,19 @@ const nextConfig: NextConfig = {
       {
         source: "/applications/application-for-experience-certificate-request",
         destination:
-          "/applications/certificates/experience-certificate-request-application",
+          "/applications/certificate/experience-certificate-request-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-transfer-certificate-request",
         destination:
-          "/applications/certificates/transfer-certificate-request-application",
+          "/applications/certificate/transfer-certificate-request-application",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-income-certificate",
         destination:
-          "/applications/certificates/income-certificate-application",
+          "/applications/certificate/income-certificate-application",
         permanent: true, // 301
       },
       {
