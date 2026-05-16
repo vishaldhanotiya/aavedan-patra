@@ -3,27 +3,34 @@
  * Manager, HR, Operations, Sales/Marketing
  */
 
-
 export const managerHrOperationsSalesTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
-    template: { en: "Corporate Job Application", hi: "कॉर्पोरेट नौकरी आवेदन", slug:"" }
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Job Applications",
+      hi: "नौकरी आवेदन",
+      slug: "/applications/job",
+    },
+    template: {
+      en: "Corporate Job Application",
+      hi: "कॉर्पोरेट नौकरी आवेदन",
+      slug: "",
+    },
   },
 
   title: {
     en: "Job Application for Corporate Roles",
-    hi: "कॉर्पोरेट भूमिकाओं के लिए नौकरी आवेदन"
+    hi: "कॉर्पोरेट भूमिकाओं के लिए नौकरी आवेदन",
   },
 
   subtitle: {
     en: "Medium-length job application formats for Manager, HR, Operations, and Sales/Marketing roles.",
-    hi: "मैनेजर, एचआर, ऑपरेशंस और सेल्स/मार्केटिंग भूमिकाओं के लिए मध्यम-लंबाई के आवेदन प्रारूप।"
+    hi: "मैनेजर, एचआर, ऑपरेशंस और सेल्स/मार्केटिंग भूमिकाओं के लिए मध्यम-लंबाई के आवेदन प्रारूप।",
   },
 
   category: {
     en: "Corporate Job Applications",
-    hi: "कॉर्पोरेट नौकरी आवेदन"
+    hi: "कॉर्पोरेट नौकरी आवेदन",
   },
 
   updatedDate: "January 2025",
@@ -36,15 +43,15 @@ export const managerHrOperationsSalesTemplate = {
       id: "manager",
       title: {
         en: "Manager Job Application",
-        hi: "मैनेजर नौकरी आवेदन"
+        hi: "मैनेजर नौकरी आवेदन",
       },
       description: {
         en: "Professional application format for managerial positions, focusing on leadership and experience.",
-        hi: "प्रबंधकीय पदों के लिए पेशेवर आवेदन प्रारूप, नेतृत्व और अनुभव पर केंद्रित।"
+        hi: "प्रबंधकीय पदों के लिए पेशेवर आवेदन प्रारूप, नेतृत्व और अनुभव पर केंद्रित।",
       },
       bestFor: {
         en: "Team Lead, Supervisor, Project Manager, Admin Manager",
-        hi: "टीम लीड, सुपरवाइज़र, प्रोजेक्ट मैनेजर, एडमिन मैनेजर"
+        hi: "टीम लीड, सुपरवाइज़र, प्रोजेक्ट मैनेजर, एडमिन मैनेजर",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -94,8 +101,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     // ----------------------------------------------------
@@ -105,15 +112,15 @@ Sincerely,
       id: "hr",
       title: {
         en: "HR Job Application",
-        hi: "एचआर नौकरी आवेदन"
+        hi: "एचआर नौकरी आवेदन",
       },
       description: {
         en: "Ideal for candidates applying for HR Executive, Recruiter, HR Manager roles.",
-        hi: "एचआर एग्जीक्यूटिव, रिक्रूटर, एचआर मैनेजर भूमिकाओं के लिए उपयुक्त।"
+        hi: "एचआर एग्जीक्यूटिव, रिक्रूटर, एचआर मैनेजर भूमिकाओं के लिए उपयुक्त।",
       },
       bestFor: {
         en: "HR Executive, Recruiter, HR Coordinator",
-        hi: "एचआर एग्जीक्यूटिव, रिक्रूटर, एचआर कोऑर्डिनेटर"
+        hi: "एचआर एग्जीक्यूटिव, रिक्रूटर, एचआर कोऑर्डिनेटर",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -165,8 +172,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     // ----------------------------------------------------
@@ -176,15 +183,15 @@ Sincerely,
       id: "operations",
       title: {
         en: "Operations Job Application",
-        hi: "ऑपरेशंस नौकरी आवेदन"
+        hi: "ऑपरेशंस नौकरी आवेदन",
       },
       description: {
         en: "For candidates applying for Operations Executive, Operations Manager, or Process roles.",
-        hi: "ऑपरेशंस एग्जीक्यूटिव, ऑपरेशंस मैनेजर या प्रक्रिया भूमिकाओं हेतु उपयुक्त।"
+        hi: "ऑपरेशंस एग्जीक्यूटिव, ऑपरेशंस मैनेजर या प्रक्रिया भूमिकाओं हेतु उपयुक्त।",
       },
       bestFor: {
         en: "Operations, Process, Logistics, Coordination roles",
-        hi: "ऑपरेशंस, प्रोसेस, लॉजिस्टिक्स, कोऑर्डिनेशन भूमिकाएँ"
+        hi: "ऑपरेशंस, प्रोसेस, लॉजिस्टिक्स, कोऑर्डिनेशन भूमिकाएँ",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -234,8 +241,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     // ----------------------------------------------------
@@ -245,15 +252,15 @@ Sincerely,
       id: "salesMarketing",
       title: {
         en: "Sales / Marketing Job Application",
-        hi: "सेल्स / मार्केटिंग नौकरी आवेदन"
+        hi: "सेल्स / मार्केटिंग नौकरी आवेदन",
       },
       description: {
         en: "Perfect for candidates applying to sales executive, marketing coordinator, or business development roles.",
-        hi: "सेल्स एग्जीक्यूटिव, मार्केटिंग कोऑर्डिनेटर या बिजनेस डेवलपमेंट भूमिकाओं के लिए उपयुक्त।"
+        hi: "सेल्स एग्जीक्यूटिव, मार्केटिंग कोऑर्डिनेटर या बिजनेस डेवलपमेंट भूमिकाओं के लिए उपयुक्त।",
       },
       bestFor: {
         en: "BD, Sales, Marketing, Field Sales, Digital Marketing roles",
-        hi: "बिजनेस डेवलपमेंट, सेल्स, मार्केटिंग, फील्ड सेल्स, डिजिटल मार्केटिंग"
+        hi: "बिजनेस डेवलपमेंट, सेल्स, मार्केटिंग, फील्ड सेल्स, डिजिटल मार्केटिंग",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -303,9 +310,9 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
-    }
+[आपका फोन नंबर]`,
+      },
+    },
   ],
 
   // ----------------------------------------------------
@@ -314,40 +321,40 @@ Sincerely,
   howToWrite: {
     title: {
       en: "Tips to Write a Perfect Corporate Job Application",
-      hi: "एक आदर्श कॉर्पोरेट नौकरी आवेदन लिखने के टिप्स"
+      hi: "एक आदर्श कॉर्पोरेट नौकरी आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
           en: "Always customize your application to match the job role.",
-          hi: "हमेशा नौकरी की भूमिका के अनुसार आवेदन को अनुकूलित करें।"
-        }
+          hi: "हमेशा नौकरी की भूमिका के अनुसार आवेदन को अनुकूलित करें।",
+        },
       },
       {
         text: {
           en: "Highlight relevant work experience and measurable achievements.",
-          hi: "संबंधित कार्य अनुभव और मापने योग्य उपलब्धियों को उजागर करें।"
-        }
+          hi: "संबंधित कार्य अनुभव और मापने योग्य उपलब्धियों को उजागर करें।",
+        },
       },
       {
         text: {
           en: "Maintain a formal, polite and professional tone throughout the application.",
-          hi: "पूरे आवेदन में औपचारिक, विनम्र और पेशेवर लहजा रखें।"
-        }
+          hi: "पूरे आवेदन में औपचारिक, विनम्र और पेशेवर लहजा रखें।",
+        },
       },
       {
         text: {
           en: "Keep the content clear, concise, and focused on the job.",
-          hi: "सामग्री को स्पष्ट, संक्षिप्त और नौकरी पर केंद्रित रखें।"
-        }
+          hi: "सामग्री को स्पष्ट, संक्षिप्त और नौकरी पर केंद्रित रखें।",
+        },
       },
       {
         text: {
           en: "Proofread for grammar and formatting before sending.",
-          hi: "भेजने से पहले व्याकरण और फ़ॉर्मेटिंग की जांच अवश्य करें।"
-        }
-      }
-    ]
+          hi: "भेजने से पहले व्याकरण और फ़ॉर्मेटिंग की जांच अवश्य करें।",
+        },
+      },
+    ],
   },
 
   // ----------------------------------------------------
@@ -357,39 +364,39 @@ Sincerely,
     {
       title: {
         en: "Application for Office Job",
-        hi: "ऑफिस नौकरी आवेदन"
+        hi: "ऑफिस नौकरी आवेदन",
       },
       description: {
         en: "Simple format for general office roles.",
-        hi: "सामान्य ऑफिस नौकरियों के लिए सरल प्रारूप।"
+        hi: "सामान्य ऑफिस नौकरियों के लिए सरल प्रारूप।",
       },
-      icon: 'Briefcase',
-      link: "/templates/office-job"
+      icon: "Briefcase",
+      link: "/templates/office-job",
     },
     {
       title: {
         en: "Application for Internship",
-        hi: "इंटर्नशिप के लिए आवेदन"
+        hi: "इंटर्नशिप के लिए आवेदन",
       },
       description: {
         en: "Ideal for students and freshers applying for internships.",
-        hi: "इंटर्नशिप के लिए आवेदन करने वाले छात्रों के लिए उपयुक्त।"
+        hi: "इंटर्नशिप के लिए आवेदन करने वाले छात्रों के लिए उपयुक्त।",
       },
-      icon: 'GraduationCap',
-      link: "/templates/internship"
+      icon: "GraduationCap",
+      link: "/templates/internship",
     },
     {
       title: {
         en: "Application for Business Development Role",
-        hi: "बिजनेस डेवलपमेंट पद के लिए आवेदन"
+        hi: "बिजनेस डेवलपमेंट पद के लिए आवेदन",
       },
       description: {
         en: "Useful for BD, sales and client communication roles.",
-        hi: "बीडी, सेल्स और क्लाइंट कम्युनिकेशन भूमिकाओं के लिए उपयोगी।"
+        hi: "बीडी, सेल्स और क्लाइंट कम्युनिकेशन भूमिकाओं के लिए उपयोगी।",
       },
-      icon: 'FileText',
-      link: "/templates/business-development"
-    }
+      icon: "FileText",
+      link: "/templates/business-development",
+    },
   ],
 
   // ----------------------------------------------------
@@ -399,39 +406,39 @@ Sincerely,
     {
       title: {
         en: "How to Write a Corporate Job Application",
-        hi: "कॉर्पोरेट नौकरी आवेदन कैसे लिखें"
+        hi: "कॉर्पोरेट नौकरी आवेदन कैसे लिखें",
       },
       excerpt: {
         en: "A complete guide to writing professional job applications for office and business roles.",
-        hi: "ऑफिस और व्यापार भूमिकाओं के लिए पेशेवर आवेदन लिखने की पूरी गाइड।"
+        hi: "ऑफिस और व्यापार भूमिकाओं के लिए पेशेवर आवेदन लिखने की पूरी गाइड।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/corporate-job-application"
+      link: "/blog/corporate-job-application",
     },
     {
       title: {
         en: "Important Skills for Corporate Jobs",
-        hi: "कॉर्पोरेट नौकरियों के लिए महत्वपूर्ण कौशल"
+        hi: "कॉर्पोरेट नौकरियों के लिए महत्वपूर्ण कौशल",
       },
       excerpt: {
         en: "Learn the essential skills needed for HR, operations, and management roles.",
-        hi: "एचआर, ऑपरेशंस और मैनेजमेंट भूमिकाओं के लिए आवश्यक कौशल जानें।"
+        hi: "एचआर, ऑपरेशंस और मैनेजमेंट भूमिकाओं के लिए आवश्यक कौशल जानें।",
       },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/corporate-skills"
+      link: "/blog/corporate-skills",
     },
     {
       title: {
         en: "Common Mistakes in Job Applications",
-        hi: "नौकरी आवेदनों में सामान्य गलतियाँ"
+        hi: "नौकरी आवेदनों में सामान्य गलतियाँ",
       },
       excerpt: {
         en: "Avoid these mistakes to increase your chances of selection.",
-        hi: "चयन की संभावना बढ़ाने के लिए इन गलतियों से बचें।"
+        hi: "चयन की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
       },
       readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
-      link: "/blog/job-application-mistakes"
-    }
+      link: "/blog/job-application-mistakes",
+    },
   ],
 
   // ----------------------------------------------------
@@ -441,49 +448,47 @@ Sincerely,
     {
       question: {
         en: "Which format is best for corporate job applications?",
-        hi: "कॉर्पोरेट नौकरी आवेदनों के लिए कौन सा प्रारूप सबसे अच्छा है?"
+        hi: "कॉर्पोरेट नौकरी आवेदनों के लिए कौन सा प्रारूप सबसे अच्छा है?",
       },
       answer: {
         en: "Choose a format that matches your role—Manager, HR, Operations, or Sales. Each template highlights relevant skills.",
-        hi: "अपनी भूमिका—मैनेजर, एचआर, ऑपरेशंस या सेल्स—के अनुसार प्रारूप चुनें।"
-      }
+        hi: "अपनी भूमिका—मैनेजर, एचआर, ऑपरेशंस या सेल्स—के अनुसार प्रारूप चुनें।",
+      },
     },
     {
       question: {
         en: "Can I modify these templates for different companies?",
-        hi: "क्या मैं इन टेम्पलेट्स को अलग-अलग कंपनियों के लिए बदल सकता हूँ?"
+        hi: "क्या मैं इन टेम्पलेट्स को अलग-अलग कंपनियों के लिए बदल सकता हूँ?",
       },
       answer: {
         en: "Yes, simply change the company name, address, and job details to suit each role.",
-        hi: "हाँ, कंपनी का नाम, पता और नौकरी विवरण बदलकर आप इन्हें आसानी से अनुकूलित कर सकते हैं।"
-      }
+        hi: "हाँ, कंपनी का नाम, पता और नौकरी विवरण बदलकर आप इन्हें आसानी से अनुकूलित कर सकते हैं।",
+      },
     },
     {
       question: {
         en: "Should I add my resume along with the application?",
-        hi: "क्या आवेदन के साथ रिज्यूमे जोड़ना चाहिए?"
+        hi: "क्या आवेदन के साथ रिज्यूमे जोड़ना चाहिए?",
       },
       answer: {
         en: "Yes, always attach an updated resume, experience letters, and certificates.",
-        hi: "हाँ, हमेशा अपडेटेड रिज्यूमे, अनुभव पत्र और प्रमाणपत्र संलग्न करें।"
-      }
+        hi: "हाँ, हमेशा अपडेटेड रिज्यूमे, अनुभव पत्र और प्रमाणपत्र संलग्न करें।",
+      },
     },
     {
       question: {
         en: "How long should a corporate job application be?",
-        hi: "कॉर्पोरेट नौकरी आवेदन कितना लंबा होना चाहिए?"
+        hi: "कॉर्पोरेट नौकरी आवेदन कितना लंबा होना चाहिए?",
       },
       answer: {
         en: "Ideally 1 page. Medium-length content works best for HR, Operations, Manager, and Sales roles.",
-        hi: "आदर्श रूप से 1 पेज। मध्यम-लंबाई का कंटेंट इन भूमिकाओं के लिए सबसे अच्छा रहता है।"
-      }
-    }
-  ]
+        hi: "आदर्श रूप से 1 पेज। मध्यम-लंबाई का कंटेंट इन भूमिकाओं के लिए सबसे अच्छा रहता है।",
+      },
+    },
+  ],
 };
-
 
 // Subject: Application for Manager Position
 // Subject: Application for Operations Position
 // विषय: एचआर पद हेतु आवेदन
 // विषय: मैनेजर पद हेतु आवेदन
-

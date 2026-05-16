@@ -173,7 +173,7 @@ export const bonafideCertificatesData: SubcategoryData = {
     hi: "प्रामाणिक प्रमाणपत्र शैक्षिक संस्थानों में छात्र के नामांकन और पहचान को सत्यापित करते हैं।",
   },
   relatedTemplates: [
-    { title: { en: "Transfer Certificate Request", hi: "स्थानांतरण प्रमाणपत्र अनुरोध" }, category: { en: "Applications", hi: "आवेदन" }, slug: "certificate-request" },
+    { title: { en: "Transfer Certificate Request", hi: "स्थानांतरण प्रमाणपत्र अनुरोध" }, category: { en: "Applications", hi: "आवेदन" }, slug: "certificate" },
     { title: { en: "School Admission Application", hi: "स्कूल प्रवेश आवेदन" }, category: { en: "Applications", hi: "आवेदन" }, slug: "admission" },
     { title: { en: "Leave Application for Students", hi: "छात्रों के लिए छुट्टी आवेदन" }, category: { en: "Applications", hi: "आवेदन" }, slug: "leave" },
     { title: { en: "Character Certificate", hi: "चरित्र प्रमाणपत्र" }, category: { en: "Certificates", hi: "प्रमाणपत्र" }, slug: "character" },
@@ -266,7 +266,7 @@ export const characterCertificatesData: SubcategoryData = {
   },
   relatedTemplates: [
     { title: { en: "Bonafide Certificate", hi: "प्रामाणिक प्रमाणपत्र" }, category: { en: "Certificates", hi: "प्रमाणपत्र" }, slug: "bonafide" },
-    { title: { en: "Transfer Certificate Request", hi: "स्थानांतरण प्रमाणपत्र अनुरोध" }, category: { en: "Applications", hi: "आवेदन" }, slug: "certificate-request" },
+    { title: { en: "Transfer Certificate Request", hi: "स्थानांतरण प्रमाणपत्र अनुरोध" }, category: { en: "Applications", hi: "आवेदन" }, slug: "certificate" },
     { title: { en: "Experience Certificate", hi: "अनुभव प्रमाणपत्र" }, category: { en: "Certificates", hi: "प्रमाणपत्र" }, slug: "experience" },
     { title: { en: "Recommendation Letter", hi: "सिफारिश पत्र" }, category: { en: "Letters", hi: "पत्र" }, slug: "request" },
   ],

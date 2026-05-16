@@ -149,7 +149,7 @@ export const scholarshipApplications: SubcategoryData = {
     {
       title: { en: "Income Certificate Request", hi: "आय प्रमाणपत्र अनुरोध" },
       category: { en: "Certificate Requests", hi: "प्रमाणपत्र अनुरोध" },
-      slug: "certificate-request",
+      slug: "certificate",
     },
     {
       title: {

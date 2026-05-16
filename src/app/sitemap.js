@@ -49,7 +49,7 @@ export default function sitemap() {
       lastModified: "2025-12-01",
     },
     {
-      url: "https://aavedanpatra.in/applications/certificate-request",
+      url: "https://aavedanpatra.in/applications/certificate",
       lastModified: "2025-12-01",
     },
     {

@@ -4,9 +4,17 @@
 
 export const officeAssistantApplicationTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
-    template: { en: "Office Job Application", hi: "ऑफिस नौकरी आवेदन", slug:"" },
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Job Applications",
+      hi: "नौकरी आवेदन",
+      slug: "/applications/job",
+    },
+    template: {
+      en: "Office Job Application",
+      hi: "ऑफिस नौकरी आवेदन",
+      slug: "",
+    },
   },
 
   title: {
@@ -756,41 +764,41 @@ Sincerely,
     },
   ],
   relatedTemplates: [
-  {
-    title: {
-      en: "Application for Admin Assistant",
-      hi: "एडमिन असिस्टेंट के लिए आवेदन"
+    {
+      title: {
+        en: "Application for Admin Assistant",
+        hi: "एडमिन असिस्टेंट के लिए आवेदन",
+      },
+      description: {
+        en: "Format for administrative support roles.",
+        hi: "प्रशासनिक सहायता भूमिकाओं के लिए प्रारूप।",
+      },
+      icon: "Briefcase",
+      link: "/templates/admin-assistant",
     },
-    description: {
-      en: "Format for administrative support roles.",
-      hi: "प्रशासनिक सहायता भूमिकाओं के लिए प्रारूप।"
+    {
+      title: {
+        en: "Application for Clerk Position",
+        hi: "क्लर्क पद के लिए आवेदन",
+      },
+      description: {
+        en: "For clerical and record-keeping job roles.",
+        hi: "क्लेरिकल और रिकॉर्ड प्रबंधन की नौकरियों के लिए।",
+      },
+      icon: "FileText",
+      link: "/templates/clerk-job",
     },
-    icon: 'Briefcase',
-    link: "/templates/admin-assistant"
-  },
-  {
-    title: {
-      en: "Application for Clerk Position",
-      hi: "क्लर्क पद के लिए आवेदन"
+    {
+      title: {
+        en: "Application for Customer Support",
+        hi: "कस्टमर सपोर्ट के लिए आवेदन",
+      },
+      description: {
+        en: "For customer service and support executive roles.",
+        hi: "कस्टमर सर्विस और सपोर्ट एक्जीक्यूटिव भूमिकाओं के लिए।",
+      },
+      icon: "UserCheck",
+      link: "/templates/customer-support",
     },
-    description: {
-      en: "For clerical and record-keeping job roles.",
-      hi: "क्लेरिकल और रिकॉर्ड प्रबंधन की नौकरियों के लिए।"
-    },
-    icon: 'FileText',
-    link: "/templates/clerk-job"
-  },
-  {
-    title: {
-      en: "Application for Customer Support",
-      hi: "कस्टमर सपोर्ट के लिए आवेदन"
-    },
-    description: {
-      en: "For customer service and support executive roles.",
-      hi: "कस्टमर सर्विस और सपोर्ट एक्जीक्यूटिव भूमिकाओं के लिए।"
-    },
-    icon: 'UserCheck',
-    link: "/templates/customer-support"
-  }
-],
+  ],
 };

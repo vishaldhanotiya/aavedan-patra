@@ -4,7 +4,7 @@ export const experienceCertificateTemplate = {
     subcategory: {
       en: "Certificate Requests",
       hi: "प्रमाणपत्र आवेदन",
-      slug: "/applications/certificate-request",
+      slug: "/applications/certificate",
     },
     template: {
       en: "Certificate Request Letters",

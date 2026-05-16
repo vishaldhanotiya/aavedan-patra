@@ -25,7 +25,7 @@ const metaMap: Record<string, { title: string; description: string }> = {
       "स्कूल, कॉलेज और ऑफिस के लिए बीमारी, यात्रा, पर्सनल और तत्काल छुट्टी आवेदन पत्र। सरल हिंदी फॉर्मेट, तैयार नमूने और लिखने की गाइड।",
   },
 
-  "certificate-request": {
+  certificate: {
     title:
       "प्रमाण पत्र हेतु आवेदन पत्र – Certificate Request Letter Hindi | AavedanPatra",
     description:
@@ -58,7 +58,7 @@ const metaMap: Record<string, { title: string; description: string }> = {
 const dataMap: Record<string, any> = {
   job: jobCategory,
   leave: leaveCategory,
-  "certificate-request": certificateRequest,
+  certificate: certificateRequest,
   loan: loanApplications,
   admission: admissionApplications,
   scholarship: scholarshipApplications,

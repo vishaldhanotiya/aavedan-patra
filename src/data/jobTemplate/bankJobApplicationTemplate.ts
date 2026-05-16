@@ -2,22 +2,25 @@
  * JOB APPLICATION FOR BANK JOB — PILLAR TEMPLATE
  */
 
-
 export const bankJobApplicationTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Job Applications", hi: "नौकरी आवेदन", slug:"/applications/job" },
-    template: { en: "Bank Job Application", hi: "बैंक नौकरी आवेदन", slug:"" }
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Job Applications",
+      hi: "नौकरी आवेदन",
+      slug: "/applications/job",
+    },
+    template: { en: "Bank Job Application", hi: "बैंक नौकरी आवेदन", slug: "" },
   },
 
   title: {
     en: "Job Application for Bank Job",
-    hi: "बैंक नौकरी के लिए आवेदन"
+    hi: "बैंक नौकरी के लिए आवेदन",
   },
 
   subtitle: {
     en: "Multiple formats including Bank Clerk, PO, SO, Cashier, Manager, Loan Officer, Relationship Manager, Back Office Staff, and more.",
-    hi: "बैंक क्लर्क, पीओ, एसओ, कैशियर, मैनेजर, लोन अधिकारी, रिलेशनशिप मैनेजर, बैक ऑफिस स्टाफ और अन्य के लिए कई प्रारूप उपलब्ध।"
+    hi: "बैंक क्लर्क, पीओ, एसओ, कैशियर, मैनेजर, लोन अधिकारी, रिलेशनशिप मैनेजर, बैक ऑफिस स्टाफ और अन्य के लिए कई प्रारूप उपलब्ध।",
   },
 
   category: { en: "Job Applications", hi: "नौकरी आवेदन" },
@@ -32,15 +35,15 @@ export const bankJobApplicationTemplate = {
       id: "generalBankJob",
       title: {
         en: "General Bank Job Application",
-        hi: "सामान्य बैंक नौकरी आवेदन"
+        hi: "सामान्य बैंक नौकरी आवेदन",
       },
       description: {
         en: "Suitable for applying to any general banking role in public or private sector banks.",
-        hi: "किसी भी सामान्य बैंकिंग भूमिका (सरकारी या निजी बैंक) के लिए उपयुक्त।"
+        hi: "किसी भी सामान्य बैंकिंग भूमिका (सरकारी या निजी बैंक) के लिए उपयुक्त।",
       },
       bestFor: {
         en: "All-round banking roles",
-        hi: "सभी प्रकार की बैंकिंग भूमिकाएँ"
+        hi: "सभी प्रकार की बैंकिंग भूमिकाएँ",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -85,8 +88,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -96,15 +99,15 @@ Sincerely,
       id: "bankClerk",
       title: {
         en: "Bank Clerk Job Application",
-        hi: "बैंक क्लर्क नौकरी आवेदन"
+        hi: "बैंक क्लर्क नौकरी आवेदन",
       },
       description: {
         en: "Perfect for candidates applying for clerk-level roles in banks.",
-        hi: "बैंक क्लर्क पद के लिए उपयुक्त एक मानक प्रारूप।"
+        hi: "बैंक क्लर्क पद के लिए उपयुक्त एक मानक प्रारूप।",
       },
       bestFor: {
         en: "Bank Clerk, Office Clerk, Data Processing",
-        hi: "बैंक क्लर्क, ऑफिस क्लर्क, डेटा प्रसंस्करण"
+        hi: "बैंक क्लर्क, ऑफिस क्लर्क, डेटा प्रसंस्करण",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -146,8 +149,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -157,15 +160,15 @@ Sincerely,
       id: "bankPO",
       title: {
         en: "Bank PO Job Application",
-        hi: "बैंक पीओ नौकरी आवेदन"
+        hi: "बैंक पीओ नौकरी आवेदन",
       },
       description: {
         en: "Designed for candidates applying for Probationary Officer roles.",
-        hi: "पीओ (प्रोबेशनरी ऑफिसर) पद के लिए बनाया गया प्रारूप।"
+        hi: "पीओ (प्रोबेशनरी ऑफिसर) पद के लिए बनाया गया प्रारूप।",
       },
       bestFor: {
         en: "PO, Assistant Manager, Officer Cadre",
-        hi: "पीओ, असिस्टेंट मैनेजर, अधिकारी कैडर"
+        hi: "पीओ, असिस्टेंट मैनेजर, अधिकारी कैडर",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -207,24 +210,24 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
-    },    /* ----------------------------------------------------------
+[आपका फोन नंबर]`,
+      },
+    } /* ----------------------------------------------------------
      * 4. BANK SO (SPECIALIST OFFICER) JOB APPLICATION
-     * ---------------------------------------------------------- */
+     * ---------------------------------------------------------- */,
     {
       id: "bankSO",
       title: {
         en: "Bank SO (Specialist Officer) Job Application",
-        hi: "बैंक एसओ (स्पेशलिस्ट ऑफिसर) नौकरी आवेदन"
+        hi: "बैंक एसओ (स्पेशलिस्ट ऑफिसर) नौकरी आवेदन",
       },
       description: {
         en: "For candidates applying to technical or specialized banking roles such as IT, HR, Marketing, Finance, Risk, or Agriculture.",
-        hi: "आईटी, एचआर, मार्केटिंग, फाइनेंस, रिस्क या कृषि जैसे विशेष बैंकिंग पदों के लिए उपयुक्त।"
+        hi: "आईटी, एचआर, मार्केटिंग, फाइनेंस, रिस्क या कृषि जैसे विशेष बैंकिंग पदों के लिए उपयुक्त।",
       },
       bestFor: {
         en: "IT Officer, HR Officer, Marketing Officer, Finance Officer",
-        hi: "आईटी ऑफिसर, एचआर ऑफिसर, मार्केटिंग ऑफिसर, फाइनेंस ऑफिसर"
+        hi: "आईटी ऑफिसर, एचआर ऑफिसर, मार्केटिंग ऑफिसर, फाइनेंस ऑफिसर",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -266,8 +269,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -277,15 +280,15 @@ Sincerely,
       id: "bankManager",
       title: {
         en: "Bank Manager Job Application",
-        hi: "बैंक मैनेजर नौकरी आवेदन"
+        hi: "बैंक मैनेजर नौकरी आवेदन",
       },
       description: {
         en: "For senior-level applicants applying for branch manager or operational manager roles.",
-        hi: "सीनियर स्तर पर ब्रांच मैनेजर या ऑपरेशन मैनेजर पद हेतु उपयुक्त।"
+        hi: "सीनियर स्तर पर ब्रांच मैनेजर या ऑपरेशन मैनेजर पद हेतु उपयुक्त।",
       },
       bestFor: {
         en: "Branch Manager, Operations Manager, Senior Officer",
-        hi: "ब्रांच मैनेजर, ऑपरेशन मैनेजर, वरिष्ठ अधिकारी"
+        hi: "ब्रांच मैनेजर, ऑपरेशन मैनेजर, वरिष्ठ अधिकारी",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -327,8 +330,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -338,15 +341,15 @@ Sincerely,
       id: "bankCashier",
       title: {
         en: "Bank Cashier / Teller Job Application",
-        hi: "बैंक कैशियर / टेलर नौकरी आवेदन"
+        hi: "बैंक कैशियर / टेलर नौकरी आवेदन",
       },
       description: {
         en: "Ideal for candidates who want to work as cashiers or tellers at bank branches.",
-        hi: "बैंक शाखाओं में कैशियर या टेलर पद के लिए आदर्श।"
+        hi: "बैंक शाखाओं में कैशियर या टेलर पद के लिए आदर्श।",
       },
       bestFor: {
         en: "Cashier, Teller, Counter Staff",
-        hi: "कैशियर, टेलर, काउंटर स्टाफ"
+        hi: "कैशियर, टेलर, काउंटर स्टाफ",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -388,8 +391,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -399,15 +402,15 @@ Sincerely,
       id: "loanOfficer",
       title: {
         en: "Loan Officer Job Application",
-        hi: "लोन ऑफिसर नौकरी आवेदन"
+        hi: "लोन ऑफिसर नौकरी आवेदन",
       },
       description: {
         en: "For candidates applying for loan verification, approval, and customer evaluation roles.",
-        hi: "ऋण जांच, अनुमोदन और ग्राहक मूल्यांकन भूमिकाओं के लिए उपयुक्त।"
+        hi: "ऋण जांच, अनुमोदन और ग्राहक मूल्यांकन भूमिकाओं के लिए उपयुक्त।",
       },
       bestFor: {
         en: "Loan Officer, Credit Officer, Field Verification",
-        hi: "लोन ऑफिसर, क्रेडिट ऑफिसर, फील्ड वेरिफिकेशन"
+        hi: "लोन ऑफिसर, क्रेडिट ऑफिसर, फील्ड वेरिफिकेशन",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -447,8 +450,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -458,15 +461,15 @@ Sincerely,
       id: "customerServiceOfficer",
       title: {
         en: "Customer Service Officer Job Application",
-        hi: "कस्टमर सर्विस ऑफिसर नौकरी आवेदन"
+        hi: "कस्टमर सर्विस ऑफिसर नौकरी आवेदन",
       },
       description: {
         en: "For roles focused on customer interaction, support, and query resolution.",
-        hi: "ग्राहक संपर्क, सहायता और समस्या समाधान पर केंद्रित भूमिकाओं के लिए।"
+        hi: "ग्राहक संपर्क, सहायता और समस्या समाधान पर केंद्रित भूमिकाओं के लिए।",
       },
       bestFor: {
         en: "CSO, Teller, Helpdesk Officer",
-        hi: "सीएसओ, टेलर, हेल्पडेस्क ऑफिसर"
+        hi: "सीएसओ, टेलर, हेल्पडेस्क ऑफिसर",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -507,8 +510,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
     /* ----------------------------------------------------------
      * 9. BACK OFFICE STAFF JOB APPLICATION
@@ -517,15 +520,15 @@ Sincerely,
       id: "backOfficeStaff",
       title: {
         en: "Back Office Staff Job Application",
-        hi: "बैक ऑफिस स्टाफ नौकरी आवेदन"
+        hi: "बैक ऑफिस स्टाफ नौकरी आवेदन",
       },
       description: {
         en: "Ideal for candidates handling documentation, data processing, and internal banking operations.",
-        hi: "दस्तावेज़ीकरण, डेटा प्रोसेसिंग और आंतरिक बैंकिंग कार्यों के लिए उपयुक्त।"
+        hi: "दस्तावेज़ीकरण, डेटा प्रोसेसिंग और आंतरिक बैंकिंग कार्यों के लिए उपयुक्त।",
       },
       bestFor: {
         en: "Back Office, Data Processing, Internal Operations",
-        hi: "बैक ऑफिस, डेटा प्रोसेसिंग, आंतरिक संचालन"
+        hi: "बैक ऑफिस, डेटा प्रोसेसिंग, आंतरिक संचालन",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -567,8 +570,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -578,15 +581,15 @@ Sincerely,
       id: "branchOperationsExecutive",
       title: {
         en: "Branch Operations Executive Job Application",
-        hi: "ब्रांच ऑपरेशंस एक्जीक्यूटिव नौकरी आवेदन"
+        hi: "ब्रांच ऑपरेशंस एक्जीक्यूटिव नौकरी आवेदन",
       },
       description: {
         en: "Ideal for branch-level operations, coordination, and workflow management roles.",
-        hi: "शाखा स्तर के संचालन, समन्वय और वर्कफ़्लो प्रबंधन के लिए उपयुक्त।"
+        hi: "शाखा स्तर के संचालन, समन्वय और वर्कफ़्लो प्रबंधन के लिए उपयुक्त।",
       },
       bestFor: {
         en: "Operations Executive, Branch Coordinator",
-        hi: "ऑपरेशंस एक्जीक्यूटिव, ब्रांच कोऑर्डिनेटर"
+        hi: "ऑपरेशंस एक्जीक्यूटिव, ब्रांच कोऑर्डिनेटर",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -628,8 +631,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -639,15 +642,15 @@ Sincerely,
       id: "relationshipManager",
       title: {
         en: "Relationship Manager Job Application",
-        hi: "रिलेशनशिप मैनेजर नौकरी आवेदन"
+        hi: "रिलेशनशिप मैनेजर नौकरी आवेदन",
       },
       description: {
         en: "For roles involving customer relationship building, account management, and sales responsibilities.",
-        hi: "ग्राहक संबंध प्रबंधन, खाता प्रबंधन और बिक्री से संबंधित भूमिकाओं के लिए।"
+        hi: "ग्राहक संबंध प्रबंधन, खाता प्रबंधन और बिक्री से संबंधित भूमिकाओं के लिए।",
       },
       bestFor: {
         en: "RM, Sales Officer, Customer Relationship Executive",
-        hi: "आरएम, सेल्स ऑफिसर, ग्राहक संबंध अधिकारी"
+        hi: "आरएम, सेल्स ऑफिसर, ग्राहक संबंध अधिकारी",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -689,8 +692,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -700,15 +703,15 @@ Sincerely,
       id: "creditAnalyst",
       title: {
         en: "Credit Analyst Job Application",
-        hi: "क्रेडिट विश्लेषक नौकरी आवेदन"
+        hi: "क्रेडिट विश्लेषक नौकरी आवेदन",
       },
       description: {
         en: "Suitable for candidates evaluating customer creditworthiness and loan risk.",
-        hi: "ग्राहक की क्रेडिट योग्यता और ऋण जोखिम का विश्लेषण करने वाले उम्मीदवारों के लिए।"
+        hi: "ग्राहक की क्रेडिट योग्यता और ऋण जोखिम का विश्लेषण करने वाले उम्मीदवारों के लिए।",
       },
       bestFor: {
         en: "Credit Officer, Credit Analyst, Loan Evaluation",
-        hi: "क्रेडिट ऑफिसर, क्रेडिट विश्लेषक, लोन मूल्यांकन"
+        hi: "क्रेडिट ऑफिसर, क्रेडिट विश्लेषक, लोन मूल्यांकन",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -750,8 +753,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -761,15 +764,15 @@ Sincerely,
       id: "complianceOfficer",
       title: {
         en: "Compliance Officer Job Application",
-        hi: "अनुपालन अधिकारी नौकरी आवेदन"
+        hi: "अनुपालन अधिकारी नौकरी आवेदन",
       },
       description: {
         en: "For candidates applying for regulatory compliance, audit, and risk management roles.",
-        hi: "नियमित अनुपालन, ऑडिट और जोखिम प्रबंधन पदों के लिए उपयुक्त।"
+        hi: "नियमित अनुपालन, ऑडिट और जोखिम प्रबंधन पदों के लिए उपयुक्त।",
       },
       bestFor: {
         en: "Compliance Officer, Audit Officer, Risk Analyst",
-        hi: "अनुपालन अधिकारी, ऑडिट अधिकारी, जोखिम विश्लेषक"
+        hi: "अनुपालन अधिकारी, ऑडिट अधिकारी, जोखिम विश्लेषक",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -811,8 +814,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -822,15 +825,15 @@ Sincerely,
       id: "financialAdvisor",
       title: {
         en: "Financial Advisor Job Application",
-        hi: "फाइनेंशियल एडवाइज़र नौकरी आवेदन"
+        hi: "फाइनेंशियल एडवाइज़र नौकरी आवेदन",
       },
       description: {
         en: "For roles involving financial planning, investment advisory, and customer portfolio assistance.",
-        hi: "वित्तीय योजना, निवेश सलाह और ग्राहक पोर्टफोलियो सहायता से संबंधित भूमिकाओं के लिए।"
+        hi: "वित्तीय योजना, निवेश सलाह और ग्राहक पोर्टफोलियो सहायता से संबंधित भूमिकाओं के लिए।",
       },
       bestFor: {
         en: "Financial Advisor, Wealth Manager, Investment Officer",
-        hi: "फाइनेंशियल एडवाइज़र, वेल्थ मैनेजर, निवेश अधिकारी"
+        hi: "फाइनेंशियल एडवाइज़र, वेल्थ मैनेजर, निवेश अधिकारी",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
@@ -872,8 +875,8 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
 
     /* ----------------------------------------------------------
@@ -883,15 +886,15 @@ Sincerely,
       id: "atmSupportStaff",
       title: {
         en: "ATM Support Staff Job Application",
-        hi: "एटीएम सपोर्ट स्टाफ नौकरी आवेदन"
+        hi: "एटीएम सपोर्ट स्टाफ नौकरी आवेदन",
       },
       description: {
         en: "Suitable for ATM support, machine maintenance, cash replenishment, and troubleshooting tasks.",
-        hi: "एटीएम सपोर्ट, मशीन रखरखाव, कैश रिफिल और समस्या समाधान के लिए उपयुक्त।"
+        hi: "एटीएम सपोर्ट, मशीन रखरखाव, कैश रिफिल और समस्या समाधान के लिए उपयुक्त।",
       },
       bestFor: {
         en: "ATM Support, Technical Assistant, Field Staff",
-        hi: "एटीएम सपोर्ट, तकनीकी सहायक, फील्ड स्टाफ"
+        hi: "एटीएम सपोर्ट, तकनीकी सहायक, फील्ड स्टाफ",
       },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -933,10 +936,9 @@ Sincerely,
 भवदीय,  
 [आपका नाम]
 [आपका ईमेल]  
-[आपका फोन नंबर]`
-      }
+[आपका फोन नंबर]`,
+      },
     },
-
   ],
   /* ----------------------------------------------------------
    * HOW TO WRITE (TIPS SECTION)
@@ -944,52 +946,52 @@ Sincerely,
   howToWrite: {
     title: {
       en: "Tips to Write a Professional Bank Job Application",
-      hi: "बैंक नौकरी आवेदन लिखने के लिए महत्वपूर्ण टिप्स"
+      hi: "बैंक नौकरी आवेदन लिखने के लिए महत्वपूर्ण टिप्स",
     },
     tips: [
       {
         text: {
           en: "Mention your banking knowledge, finance skills, and experience with customer handling or operations.",
-          hi: "अपना बैंकिंग ज्ञान, वित्तीय कौशल और ग्राहक प्रबंधन/ऑपरेशन अनुभव का उल्लेख करें।"
-        }
+          hi: "अपना बैंकिंग ज्ञान, वित्तीय कौशल और ग्राहक प्रबंधन/ऑपरेशन अनुभव का उल्लेख करें।",
+        },
       },
       {
         text: {
           en: "Highlight certifications like banking, finance, tally, computer skills, or customer service training.",
-          hi: "बैंकिंग, वित्त, टैली, कंप्यूटर कौशल या ग्राहक सेवा प्रशिक्षण जैसे प्रमाणपत्रों को हाईलाइट करें।"
-        }
+          hi: "बैंकिंग, वित्त, टैली, कंप्यूटर कौशल या ग्राहक सेवा प्रशिक्षण जैसे प्रमाणपत्रों को हाईलाइट करें।",
+        },
       },
       {
         text: {
           en: "Keep your letter formal and short with clear purpose and confidence.",
-          hi: "अपना पत्र औपचारिक, छोटा और स्पष्ट उद्देश्य के साथ लिखें।"
-        }
+          hi: "अपना पत्र औपचारिक, छोटा और स्पष्ट उद्देश्य के साथ लिखें।",
+        },
       },
       {
         text: {
           en: "Show achievements like cash handling accuracy, sales targets achieved, customer satisfaction, etc.",
-          hi: "उपलब्धियाँ जोड़ें जैसे कैश हैंडलिंग सटीकता, सेल्स टार्गेट, ग्राहक संतुष्टि आदि।"
-        }
+          hi: "उपलब्धियाँ जोड़ें जैसे कैश हैंडलिंग सटीकता, सेल्स टार्गेट, ग्राहक संतुष्टि आदि।",
+        },
       },
       {
         text: {
           en: "Customize the application according to role (Clerk, PO, Cashier, Manager, RM, etc.).",
-          hi: "क्लर्क, पीओ, कैशियर, मैनेजर, आरएम आदि के अनुसार आवेदन को कस्टमाइज़ करें।"
-        }
+          hi: "क्लर्क, पीओ, कैशियर, मैनेजर, आरएम आदि के अनुसार आवेदन को कस्टमाइज़ करें।",
+        },
       },
       {
         text: {
           en: "Attach essential documents like resume, ID proof, certificate copies, and experience letters.",
-          hi: "रिज़्यूमे, आईडी प्रूफ, प्रमाणपत्र और अनुभव पत्र जैसे दस्तावेज़ अवश्य संलग्न करें।"
-        }
+          hi: "रिज़्यूमे, आईडी प्रूफ, प्रमाणपत्र और अनुभव पत्र जैसे दस्तावेज़ अवश्य संलग्न करें।",
+        },
       },
       {
         text: {
           en: "Proofread before submitting to avoid spelling/grammar mistakes.",
-          hi: "जमा करने से पहले व्याकरण और वर्तनी त्रुटियों की जांच करें।"
-        }
-      }
-    ]
+          hi: "जमा करने से पहले व्याकरण और वर्तनी त्रुटियों की जांच करें।",
+        },
+      },
+    ],
   },
 
   /* ----------------------------------------------------------
@@ -999,39 +1001,39 @@ Sincerely,
     {
       title: {
         en: "Application for Bank Clerk Position",
-        hi: "बैंक क्लर्क पद के लिए आवेदन"
+        hi: "बैंक क्लर्क पद के लिए आवेदन",
       },
       description: {
         en: "A simple and effective format for applying to Bank Clerk roles.",
-        hi: "बैंक क्लर्क पद के लिए सरल और प्रभावी प्रारूप।"
+        hi: "बैंक क्लर्क पद के लिए सरल और प्रभावी प्रारूप।",
       },
-      icon: 'FileText',
-      link: "/templates/bank-clerk"
+      icon: "FileText",
+      link: "/templates/bank-clerk",
     },
     {
       title: {
         en: "Application for Bank Manager Job",
-        hi: "बैंक मैनेजर नौकरी के लिए आवेदन"
+        hi: "बैंक मैनेजर नौकरी के लिए आवेदन",
       },
       description: {
         en: "Professional format for Manager, Senior Manager, and Assistant Manager posts.",
-        hi: "मैनेजर, सीनियर मैनेजर और असिस्टेंट मैनेजर पदों के लिए पेशेवर प्रारूप।"
+        hi: "मैनेजर, सीनियर मैनेजर और असिस्टेंट मैनेजर पदों के लिए पेशेवर प्रारूप।",
       },
-      icon: 'Briefcase',
-      link: "/templates/bank-manager"
+      icon: "Briefcase",
+      link: "/templates/bank-manager",
     },
     {
       title: {
         en: "Application for Cashier / Teller Job",
-        hi: "कैशियर / टेलर नौकरी के लिए आवेदन"
+        hi: "कैशियर / टेलर नौकरी के लिए आवेदन",
       },
       description: {
         en: "Best format for bank cashier and teller positions.",
-        hi: "बैंक कैशियर और टेलर पदों के लिए सर्वोत्तम प्रारूप।"
+        hi: "बैंक कैशियर और टेलर पदों के लिए सर्वोत्तम प्रारूप।",
       },
-      icon: 'GraduationCap',
-      link: "/templates/bank-cashier"
-    }
+      icon: "GraduationCap",
+      link: "/templates/bank-cashier",
+    },
   ],
 
   /* ----------------------------------------------------------
@@ -1041,39 +1043,39 @@ Sincerely,
     {
       title: {
         en: "How to Write a Perfect Bank Job Application",
-        hi: "एक आदर्श बैंक नौकरी आवेदन कैसे लिखें"
+        hi: "एक आदर्श बैंक नौकरी आवेदन कैसे लिखें",
       },
       excerpt: {
         en: "A complete guide with tips and sample formats for clerks, PO, cashier, and operations roles.",
-        hi: "क्लर्क, पीओ, कैशियर और ऑपरेशन पदों के लिए नमूनों और टिप्स के साथ संपूर्ण गाइड।"
+        hi: "क्लर्क, पीओ, कैशियर और ऑपरेशन पदों के लिए नमूनों और टिप्स के साथ संपूर्ण गाइड।",
       },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/perfect-bank-job-application"
+      link: "/blog/perfect-bank-job-application",
     },
     {
       title: {
         en: "Skills Required for Bank Jobs",
-        hi: "बैंक नौकरियों के लिए आवश्यक कौशल"
+        hi: "बैंक नौकरियों के लिए आवश्यक कौशल",
       },
       excerpt: {
         en: "Top banking, customer service, finance, and computer skills you should mention.",
-        hi: "बैंकिंग, ग्राहक सेवा, वित्त और कंप्यूटर कौशल जो आपको अवश्य उल्लेख करने चाहिए।"
+        hi: "बैंकिंग, ग्राहक सेवा, वित्त और कंप्यूटर कौशल जो आपको अवश्य उल्लेख करने चाहिए।",
       },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/bank-job-skills"
+      link: "/blog/bank-job-skills",
     },
     {
       title: {
         en: "Common Mistakes in Bank Job Applications",
-        hi: "बैंक नौकरी आवेदनों में आम गलतियाँ"
+        hi: "बैंक नौकरी आवेदनों में आम गलतियाँ",
       },
       excerpt: {
         en: "Avoid these mistakes to increase your chance of selection.",
-        hi: "इन गलतियों से बचें और चयन होने की संभावना बढ़ाएँ।"
+        hi: "इन गलतियों से बचें और चयन होने की संभावना बढ़ाएँ।",
       },
       readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
-      link: "/blog/bank-job-application-mistakes"
-    }
+      link: "/blog/bank-job-application-mistakes",
+    },
   ],
 
   /* ----------------------------------------------------------
@@ -1083,42 +1085,42 @@ Sincerely,
     {
       question: {
         en: "Which format should I use for bank fresher roles?",
-        hi: "बैंक फ्रेशर भूमिकाओं के लिए कौन सा प्रारूप उपयोग करें?"
+        hi: "बैंक फ्रेशर भूमिकाओं के लिए कौन सा प्रारूप उपयोग करें?",
       },
       answer: {
         en: "Use the Fresher Bank Job Application format. It highlights qualifications, basic banking knowledge, and communication skills—perfect for candidates without experience.",
-        hi: "फ्रेशर बैंक जॉब एप्लिकेशन फॉर्मेट उपयोग करें। यह योग्यता, बेसिक बैंकिंग ज्ञान और कम्युनिकेशन स्किल्स को हाईलाइट करता है।"
-      }
+        hi: "फ्रेशर बैंक जॉब एप्लिकेशन फॉर्मेट उपयोग करें। यह योग्यता, बेसिक बैंकिंग ज्ञान और कम्युनिकेशन स्किल्स को हाईलाइट करता है।",
+      },
     },
     {
       question: {
         en: "Should I mention computer or tally skills?",
-        hi: "क्या मुझे कंप्यूटर या टैली कौशल का उल्लेख करना चाहिए?"
+        hi: "क्या मुझे कंप्यूटर या टैली कौशल का उल्लेख करना चाहिए?",
       },
       answer: {
         en: "Yes. Banking jobs prefer candidates with MS Office, Tally, Excel, and basic computer operations knowledge.",
-        hi: "हाँ। बैंक नौकरियों में MS Office, Tally, Excel और कंप्यूटर ज्ञान वाले उम्मीदवारों को प्राथमिकता दी जाती है।"
-      }
+        hi: "हाँ। बैंक नौकरियों में MS Office, Tally, Excel और कंप्यूटर ज्ञान वाले उम्मीदवारों को प्राथमिकता दी जाती है।",
+      },
     },
     {
       question: {
         en: "What documents should be attached with a bank job application?",
-        hi: "बैंक नौकरी आवेदन के साथ कौन से दस्तावेज़ संलग्न करें?"
+        hi: "बैंक नौकरी आवेदन के साथ कौन से दस्तावेज़ संलग्न करें?",
       },
       answer: {
         en: "Attach your resume, ID proof, qualification documents, experience letters (if any), and passport-size photos.",
-        hi: "रिज़्यूमे, आईडी प्रूफ, योग्यता दस्तावेज़, अनुभव पत्र (यदि कोई हो) और पासपोर्ट साइज़ फोटो संलग्न करें।"
-      }
+        hi: "रिज़्यूमे, आईडी प्रूफ, योग्यता दस्तावेज़, अनुभव पत्र (यदि कोई हो) और पासपोर्ट साइज़ फोटो संलग्न करें।",
+      },
     },
     {
       question: {
         en: "How long should a bank job application be?",
-        hi: "बैंक नौकरी आवेदन कितना लंबा होना चाहिए?"
+        hi: "बैंक नौकरी आवेदन कितना लंबा होना चाहिए?",
       },
       answer: {
         en: "Ideally 1 page for freshers and 1–1.5 pages for experienced candidates. Stay concise and professional.",
-        hi: "फ्रेशर के लिए 1 पेज और अनुभवी उम्मीदवार के लिए 1–1.5 पेज पर्याप्त हैं। संक्षिप्त और औपचारिक रहें।"
-      }
-    }
-  ]
- }
+        hi: "फ्रेशर के लिए 1 पेज और अनुभवी उम्मीदवार के लिए 1–1.5 पेज पर्याप्त हैं। संक्षिप्त और औपचारिक रहें।",
+      },
+    },
+  ],
+};

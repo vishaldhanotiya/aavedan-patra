@@ -1,19 +1,26 @@
-
 export const casualLeaveApplicationTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Leave Applications", hi: "अवकाश आवेदन", slug:"/applications/leave" },
-    template: { en: "Casual Leave Application", hi: "साधारण अवकाश आवेदन", slug:"" }
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Leave Applications",
+      hi: "अवकाश आवेदन",
+      slug: "/applications/leave",
+    },
+    template: {
+      en: "Casual Leave Application",
+      hi: "साधारण अवकाश आवेदन",
+      slug: "",
+    },
   },
 
-  title: { 
-    en: "Casual Leave Application to Manager", 
-    hi: "मैनेजर को साधारण अवकाश हेतु आवेदन" 
+  title: {
+    en: "Casual Leave Application to Manager",
+    hi: "मैनेजर को साधारण अवकाश हेतु आवेदन",
   },
 
-  subtitle: { 
+  subtitle: {
     en: "Use these formats for personal work, urgent reasons, family functions, one-day, and short casual leave.",
-    hi: "व्यक्तिगत कार्य, आपातकालीन कारण, पारिवारिक कार्यक्रम, एक दिन या छोटी अवधि के साधारण अवकाश के लिए यह प्रारूप उपयोग करें।"
+    hi: "व्यक्तिगत कार्य, आपातकालीन कारण, पारिवारिक कार्यक्रम, एक दिन या छोटी अवधि के साधारण अवकाश के लिए यह प्रारूप उपयोग करें।",
   },
 
   category: { en: "Leave Applications", hi: "अवकाश आवेदन" },
@@ -29,10 +36,13 @@ export const casualLeaveApplicationTemplate = {
      * ------------------------------------------------------- */
     {
       id: "general",
-      title: { en: "General Casual Leave Application", hi: "सामान्य साधारण अवकाश आवेदन" },
-      description: { 
+      title: {
+        en: "General Casual Leave Application",
+        hi: "सामान्य साधारण अवकाश आवेदन",
+      },
+      description: {
         en: "Suitable for general casual leave without detailed explanation.",
-        hi: "बिना अधिक कारण बताए सामान्य साधारण अवकाश के लिए।"
+        hi: "बिना अधिक कारण बताए सामान्य साधारण अवकाश के लिए।",
       },
       bestFor: { en: "1–2 days casual leave", hi: "1–2 दिन का साधारण अवकाश" },
       length: { en: "Short", hi: "छोटा" },
@@ -62,8 +72,8 @@ Best regards,
 
 सादर,
 [आपका नाम]
-[पद]`
-      }
+[पद]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -71,8 +81,14 @@ Best regards,
      * ------------------------------------------------------- */
     {
       id: "oneDay",
-      title: { en: "One-Day Casual Leave Application", hi: "एक दिन का साधारण अवकाश आवेदन" },
-      description: { en: "Best for taking one day off for quick work.", hi: "एक दिन के छोटे कार्यों के लिए उपयोगी।" },
+      title: {
+        en: "One-Day Casual Leave Application",
+        hi: "एक दिन का साधारण अवकाश आवेदन",
+      },
+      description: {
+        en: "Best for taking one day off for quick work.",
+        hi: "एक दिन के छोटे कार्यों के लिए उपयोगी।",
+      },
       bestFor: { en: "1-day leave", hi: "1 दिन की छुट्टी" },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -98,8 +114,8 @@ Sincerely,
 मैं व्यक्तिगत कार्य के कारण [तारीख] को एक दिन का साधारण अवकाश लेने का अनुरोध करता/करती हूँ। मैं अगले दिन से कार्य पर उपस्थित रहूँगा/रहूँगी।  
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -107,8 +123,14 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "personalWork",
-      title: { en: "Casual Leave for Personal Work", hi: "व्यक्तिगत कार्य के लिए साधारण अवकाश आवेदन" },
-      description: { en: "For personal commitments or household work.", hi: "घरेलू कार्य या व्यक्तिगत काम के लिए।" },
+      title: {
+        en: "Casual Leave for Personal Work",
+        hi: "व्यक्तिगत कार्य के लिए साधारण अवकाश आवेदन",
+      },
+      description: {
+        en: "For personal commitments or household work.",
+        hi: "घरेलू कार्य या व्यक्तिगत काम के लिए।",
+      },
       bestFor: { en: "Short personal work", hi: "छोटे व्यक्तिगत कार्य" },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -138,8 +160,8 @@ Sincerely,
 आपकी सहानुभूति के लिए धन्यवाद।
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -147,8 +169,14 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "travel",
-      title: { en: "Casual Leave for Travel", hi: "यात्रा के लिए साधारण अवकाश आवेदन" },
-      description: { en: "For short trips, outstation visits, or urgent travel.", hi: "यात्रा, बाहर जाना या अचानक यात्रा में उपयोगी।" },
+      title: {
+        en: "Casual Leave for Travel",
+        hi: "यात्रा के लिए साधारण अवकाश आवेदन",
+      },
+      description: {
+        en: "For short trips, outstation visits, or urgent travel.",
+        hi: "यात्रा, बाहर जाना या अचानक यात्रा में उपयोगी।",
+      },
       bestFor: { en: "Travel leave", hi: "यात्रा अवकाश" },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -180,8 +208,8 @@ Sincerely,
 कृपया उल्लिखित तिथियों के लिए मेरे अवकाश को स्वीकृति प्रदान करें।
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -189,8 +217,14 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "familyFunction",
-      title: { en: "Casual Leave for Family Function", hi: "पारिवारिक कार्यक्रम हेतु साधारण अवकाश" },
-      description: { en: "For attending family functions, ceremonies, or events.", hi: "पारिवारिक कार्यक्रम, समारोह या आयोजन के लिए।" },
+      title: {
+        en: "Casual Leave for Family Function",
+        hi: "पारिवारिक कार्यक्रम हेतु साधारण अवकाश",
+      },
+      description: {
+        en: "For attending family functions, ceremonies, or events.",
+        hi: "पारिवारिक कार्यक्रम, समारोह या आयोजन के लिए।",
+      },
       bestFor: { en: "Family gatherings", hi: "पारिवारिक समारोह" },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -220,8 +254,8 @@ Sincerely,
 धन्यवाद।
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -229,8 +263,14 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "urgentHomeWork",
-      title: { en: "Casual Leave for Urgent Home Work", hi: "आपातकालीन घरेलू कार्य के लिए साधारण अवकाश" },
-      description: { en: "Best when sudden household or maintenance tasks arise.", hi: "अचानक घर के जरूरी कार्य के लिए।" },
+      title: {
+        en: "Casual Leave for Urgent Home Work",
+        hi: "आपातकालीन घरेलू कार्य के लिए साधारण अवकाश",
+      },
+      description: {
+        en: "Best when sudden household or maintenance tasks arise.",
+        hi: "अचानक घर के जरूरी कार्य के लिए।",
+      },
       bestFor: { en: "Urgent domestic work", hi: "आपात घरेलू कार्य" },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -258,23 +298,51 @@ Sincerely,
 मैंने अपने सभी अतिआवश्यक कार्यों का निष्पादन सुनिश्चित कर लिया है। किसी भी गंभीर आवश्यकता की स्थिति में मैं टेलीफोन द्वारा संपर्क-योग्य रहूँगा/रहूँगी।
 
 भवदीय,  
-[आपका नाम]`
-      }
-    }
+[आपका नाम]`,
+      },
+    },
   ],
 
   /* ---------------------------------------------------------
    * HOW TO WRITE SECTION
    * --------------------------------------------------------- */
   howToWrite: {
-    title: { en: "Tips to Write a Casual Leave Application", hi: "साधारण अवकाश आवेदन लिखने के टिप्स" },
+    title: {
+      en: "Tips to Write a Casual Leave Application",
+      hi: "साधारण अवकाश आवेदन लिखने के टिप्स",
+    },
     tips: [
-      { text: { en: "State your reason clearly but briefly.", hi: "कारण स्पष्ट लिखें पर बहुत लंबा न करें।" } },
-      { text: { en: "Mention leave dates clearly.", hi: "अवकाश की तिथियाँ स्पष्ट रूप से लिखें।" } },
-      { text: { en: "Keep the tone formal and polite.", hi: "लहजा औपचारिक और विनम्र रखें।" } },
-      { text: { en: "Request approval respectfully.", hi: "अनुमति विनम्रता से माँगें।" } },
-      { text: { en: "Thank the manager at the end.", hi: "अंत में धन्यवाद अवश्य दें।" } }
-    ]
+      {
+        text: {
+          en: "State your reason clearly but briefly.",
+          hi: "कारण स्पष्ट लिखें पर बहुत लंबा न करें।",
+        },
+      },
+      {
+        text: {
+          en: "Mention leave dates clearly.",
+          hi: "अवकाश की तिथियाँ स्पष्ट रूप से लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Keep the tone formal and polite.",
+          hi: "लहजा औपचारिक और विनम्र रखें।",
+        },
+      },
+      {
+        text: {
+          en: "Request approval respectfully.",
+          hi: "अनुमति विनम्रता से माँगें।",
+        },
+      },
+      {
+        text: {
+          en: "Thank the manager at the end.",
+          hi: "अंत में धन्यवाद अवश्य दें।",
+        },
+      },
+    ],
   },
 
   /* ---------------------------------------------------------
@@ -283,22 +351,31 @@ Sincerely,
   relatedTemplates: [
     {
       title: { en: "Emergency Leave Application", hi: "आपातकालीन अवकाश आवेदन" },
-      description: { en: "For sudden urgent leave needs", hi: "अचानक जरूरत में छुट्टी" },
-      icon: 'FileText',
-      link: "/templates/emergency-leave"
+      description: {
+        en: "For sudden urgent leave needs",
+        hi: "अचानक जरूरत में छुट्टी",
+      },
+      icon: "FileText",
+      link: "/templates/emergency-leave",
     },
     {
       title: { en: "Sick Leave Application", hi: "बीमार छुट्टी आवेदन" },
-      description: { en: "Use for illness or medical leave", hi: "बीमारी या चिकित्सा अवकाश के लिए" },
-      icon: 'Briefcase',
-      link: "/templates/sick-leave"
+      description: {
+        en: "Use for illness or medical leave",
+        hi: "बीमारी या चिकित्सा अवकाश के लिए",
+      },
+      icon: "Briefcase",
+      link: "/templates/sick-leave",
     },
     {
       title: { en: "Short Leave Application", hi: "शॉर्ट लीव आवेदन" },
-      description: { en: "Best for 2–3 hour leave", hi: "2–3 घंटे के अवकाश के लिए सबसे अच्छा" },
-      icon: 'GraduationCap',
-      link: "/templates/short-leave"
-    }
+      description: {
+        en: "Best for 2–3 hour leave",
+        hi: "2–3 घंटे के अवकाश के लिए सबसे अच्छा",
+      },
+      icon: "GraduationCap",
+      link: "/templates/short-leave",
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -306,17 +383,29 @@ Sincerely,
    * --------------------------------------------------------- */
   blogArticles: [
     {
-      title: { en: "How to Write Casual Leave Properly", hi: "साधारण अवकाश आवेदन कैसे लिखें" },
-      excerpt: { en: "Simple and effective writing tips.", hi: "सरल और प्रभावी लेखन सुझाव।" },
+      title: {
+        en: "How to Write Casual Leave Properly",
+        hi: "साधारण अवकाश आवेदन कैसे लिखें",
+      },
+      excerpt: {
+        en: "Simple and effective writing tips.",
+        hi: "सरल और प्रभावी लेखन सुझाव।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/casual-leave-guide"
+      link: "/blog/casual-leave-guide",
     },
     {
-      title: { en: "Difference Between Casual Leave and Sick Leave", hi: "साधारण और बीमार अवकाश में अंतर" },
-      excerpt: { en: "Understand when to use which type.", hi: "जानें किस स्थिति में कौन सा अवकाश लें।" },
+      title: {
+        en: "Difference Between Casual Leave and Sick Leave",
+        hi: "साधारण और बीमार अवकाश में अंतर",
+      },
+      excerpt: {
+        en: "Understand when to use which type.",
+        hi: "जानें किस स्थिति में कौन सा अवकाश लें।",
+      },
       readTime: { en: "3 min read", hi: "3 मिनट पढ़ें" },
-      link: "/blog/leave-types"
-    }
+      link: "/blog/leave-types",
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -324,25 +413,34 @@ Sincerely,
    * --------------------------------------------------------- */
   faqs: [
     {
-      question: { en: "How many casual leaves are allowed?", hi: "कितनी साधारण छुट्टियाँ मिलती हैं?" },
-      answer: { 
+      question: {
+        en: "How many casual leaves are allowed?",
+        hi: "कितनी साधारण छुट्टियाँ मिलती हैं?",
+      },
+      answer: {
         en: "Most companies offer 6–12 casual leaves annually.",
-        hi: "अधिकांश कंपनियों में 6–12 साधारण अवकाश मिलते हैं।" 
-      }
+        hi: "अधिकांश कंपनियों में 6–12 साधारण अवकाश मिलते हैं।",
+      },
     },
     {
-      question: { en: "Do I need to mention the reason?", hi: "क्या कारण बताना जरूरी है?" },
-      answer: { 
+      question: {
+        en: "Do I need to mention the reason?",
+        hi: "क्या कारण बताना जरूरी है?",
+      },
+      answer: {
         en: "A short and simple personal reason is enough.",
-        hi: "छोटा और सरल व्यक्तिगत कारण पर्याप्त है।" 
-      }
+        hi: "छोटा और सरल व्यक्तिगत कारण पर्याप्त है।",
+      },
     },
     {
-      question: { en: "Can I take casual leave without prior notice?", hi: "क्या बिना बताये साधारण छुट्टी ले सकते हैं?" },
-      answer: { 
+      question: {
+        en: "Can I take casual leave without prior notice?",
+        hi: "क्या बिना बताये साधारण छुट्टी ले सकते हैं?",
+      },
+      answer: {
         en: "Yes, but only for urgent situations.",
-        hi: "हाँ, लेकिन केवल आपात स्थिति में।" 
-      }
-    }
-  ]
+        hi: "हाँ, लेकिन केवल आपात स्थिति में।",
+      },
+    },
+  ],
 };

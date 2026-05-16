@@ -144,7 +144,7 @@ export const admissionApplications: SubcategoryData = {
     {
       title: { en: "Student ID Card Request", hi: "छात्र आईडी कार्ड अनुरोध" },
       category: { en: "Certificate Requests", hi: "प्रमाणपत्र अनुरोध" },
-      slug: "certificate-request",
+      slug: "certificate",
     },
     {
       title: {

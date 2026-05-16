@@ -1,24 +1,31 @@
-
 export const permissionRequestTemplate = {
   breadcrumb: {
-    category: { en: "Letters", hi: "पत्र" , slug:"/letters"},
-    subcategory: { en: "Request Letters", hi: "अनुरोध पत्र", slug:"/letters/request" },
-    template: { en: "Official Request Letters", hi: "आधिकारिक अनुरोध पत्र", slug:"" }
+    category: { en: "Letters", hi: "पत्र", slug: "/letters" },
+    subcategory: {
+      en: "Request Letters",
+      hi: "अनुरोध पत्र",
+      slug: "/letters/request",
+    },
+    template: {
+      en: "Official Request Letters",
+      hi: "आधिकारिक अनुरोध पत्र",
+      slug: "",
+    },
   },
 
-  title: { 
-    en: "Request Application Letters", 
-    hi: "अनुरोध आवेदन पत्र" 
+  title: {
+    en: "Request Application Letters",
+    hi: "अनुरोध आवेदन पत्र",
   },
 
-  subtitle: { 
+  subtitle: {
     en: "Professional formats for permission, information, meetings, sponsorship, donation, and recommendation requests.",
-    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।" 
+    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।",
   },
 
-  category: { 
-    en: "Request Letters", 
-    hi: "अनुरोध पत्र" 
+  category: {
+    en: "Request Letters",
+    hi: "अनुरोध पत्र",
   },
 
   updatedDate: "January 2025",
@@ -29,9 +36,12 @@ export const permissionRequestTemplate = {
       title: { en: "Permission Request Letter", hi: "अनुमति हेतु अनुरोध पत्र" },
       description: {
         en: "For requesting permission from authorities, principal, manager, or organization.",
-        hi: "अधिकारियों, प्राचार्य, प्रबंधक या संस्था से अनुमति हेतु अनुरोध।"
+        hi: "अधिकारियों, प्राचार्य, प्रबंधक या संस्था से अनुमति हेतु अनुरोध।",
       },
-      bestFor: { en: "Leave, event, activity permission", hi: "छुट्टी, कार्यक्रम, गतिविधि अनुमति" },
+      bestFor: {
+        en: "Leave, event, activity permission",
+        hi: "छुट्टी, कार्यक्रम, गतिविधि अनुमति",
+      },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
 
@@ -122,114 +132,151 @@ Enclosures:
 1. (संस्था प्रोफ़ाइल)
 2. (कार्यक्रम एजेंडा)
 3. (नमूना प्रमाण पत्र, यदि हों)
-4. (पूर्व कार्यक्रमों की तस्वीरें, यदि हों)`
-      }
-    }
+4. (पूर्व कार्यक्रमों की तस्वीरें, यदि हों)`,
+      },
+    },
   ],
 
   howToWrite: {
-    title: { en: "How to Write a Request Letter", hi: "अनुरोध पत्र कैसे लिखें" },
+    title: {
+      en: "How to Write a Request Letter",
+      hi: "अनुरोध पत्र कैसे लिखें",
+    },
     tips: [
-      { text: { en: "Be polite and respectful.", hi: "विनम्र और सम्मानजनक रहें।" } },
-      { text: { en: "State the purpose clearly.", hi: "उद्देश्य स्पष्ट रूप से लिखें।" } },
-      { text: { en: "Keep the letter short and professional.", hi: "पत्र को छोटा और पेशेवर रखें।" } },
-      { text: { en: "Include necessary details and dates.", hi: "आवश्यक विवरण और तिथि शामिल करें।" } },
-      { text: { en: "Thank the recipient at the end.", hi: "अंत में प्राप्तकर्ता को धन्यवाद दें।" } }
-    ]
+      {
+        text: {
+          en: "Be polite and respectful.",
+          hi: "विनम्र और सम्मानजनक रहें।",
+        },
+      },
+      {
+        text: {
+          en: "State the purpose clearly.",
+          hi: "उद्देश्य स्पष्ट रूप से लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Keep the letter short and professional.",
+          hi: "पत्र को छोटा और पेशेवर रखें।",
+        },
+      },
+      {
+        text: {
+          en: "Include necessary details and dates.",
+          hi: "आवश्यक विवरण और तिथि शामिल करें।",
+        },
+      },
+      {
+        text: {
+          en: "Thank the recipient at the end.",
+          hi: "अंत में प्राप्तकर्ता को धन्यवाद दें।",
+        },
+      },
+    ],
   },
 
   relatedTemplates: [
     {
       title: { en: "Approval Request Letter", hi: "अनुमोदन हेतु अनुरोध पत्र" },
-      description: { en: "For requesting official approval.", hi: "आधिकारिक अनुमोदन हेतु अनुरोध।" },
-      icon: 'FileText',
-      link: "/templates/approval-request"
+      description: {
+        en: "For requesting official approval.",
+        hi: "आधिकारिक अनुमोदन हेतु अनुरोध।",
+      },
+      icon: "FileText",
+      link: "/templates/approval-request",
     },
     {
-      title: { en: "Official Email Request Format", hi: "आधिकारिक ईमेल अनुरोध प्रारूप" },
-      description: { en: "For professional email requests.", hi: "पेशेवर ईमेल अनुरोध हेतु प्रारूप।" },
-      icon: 'Briefcase',
-      link: "/templates/request-email"
-    }
+      title: {
+        en: "Official Email Request Format",
+        hi: "आधिकारिक ईमेल अनुरोध प्रारूप",
+      },
+      description: {
+        en: "For professional email requests.",
+        hi: "पेशेवर ईमेल अनुरोध हेतु प्रारूप।",
+      },
+      icon: "Briefcase",
+      link: "/templates/request-email",
+    },
   ],
 
-blogArticles: [
-  {
-    title: {
-      en: "How to Write a Permission Request Letter",
-      hi: "अनुमति अनुरोध पत्र कैसे लिखें"
+  blogArticles: [
+    {
+      title: {
+        en: "How to Write a Permission Request Letter",
+        hi: "अनुमति अनुरोध पत्र कैसे लिखें",
+      },
+      excerpt: {
+        en: "Step-by-step guide to writing a professional permission request letter.",
+        hi: "पेशेवर अनुमति अनुरोध पत्र लिखने की चरणबद्ध गाइड।",
+      },
+      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+      link: "/blog/write-permission-request-letter",
     },
-    excerpt: {
-      en: "Step-by-step guide to writing a professional permission request letter.",
-      hi: "पेशेवर अनुमति अनुरोध पत्र लिखने की चरणबद्ध गाइड।"
+    {
+      title: {
+        en: "Common Mistakes in Permission Request Letters",
+        hi: "अनुमति अनुरोध पत्रों में आम गलतियाँ",
+      },
+      excerpt: {
+        en: "Avoid these common mistakes when requesting permission formally.",
+        hi: "औपचारिक अनुमति अनुरोध करते समय इन सामान्य गलतियों से बचें।",
+      },
+      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+      link: "/blog/permission-letter-mistakes",
     },
-    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-    link: "/blog/write-permission-request-letter"
-  },
-  {
-    title: {
-      en: "Common Mistakes in Permission Request Letters",
-      hi: "अनुमति अनुरोध पत्रों में आम गलतियाँ"
-    },
-    excerpt: {
-      en: "Avoid these common mistakes when requesting permission formally.",
-      hi: "औपचारिक अनुमति अनुरोध करते समय इन सामान्य गलतियों से बचें।"
-    },
-    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-    link: "/blog/permission-letter-mistakes"
-  }
-],
+  ],
 
-faqs: [
-  {
-    question: {
-      en: "What is a permission request letter?",
-      hi: "अनुमति अनुरोध पत्र क्या है?"
+  faqs: [
+    {
+      question: {
+        en: "What is a permission request letter?",
+        hi: "अनुमति अनुरोध पत्र क्या है?",
+      },
+      answer: {
+        en: "A permission request letter is a formal letter written to seek approval or consent for a specific activity or event.",
+        hi: "अनुमति अनुरोध पत्र एक औपचारिक पत्र है जिसे किसी विशेष गतिविधि या कार्य के लिए स्वीकृति प्राप्त करने हेतु लिखा जाता है।",
+      },
     },
-    answer: {
-      en: "A permission request letter is a formal letter written to seek approval or consent for a specific activity or event.",
-      hi: "अनुमति अनुरोध पत्र एक औपचारिक पत्र है जिसे किसी विशेष गतिविधि या कार्य के लिए स्वीकृति प्राप्त करने हेतु लिखा जाता है।"
-    }
-  },
-  {
-    question: {
-      en: "Should a permission request letter be short?",
-      hi: "क्या अनुमति अनुरोध पत्र छोटा होना चाहिए?"
+    {
+      question: {
+        en: "Should a permission request letter be short?",
+        hi: "क्या अनुमति अनुरोध पत्र छोटा होना चाहिए?",
+      },
+      answer: {
+        en: "Yes, it should be clear, concise, and directly explain the purpose of the request.",
+        hi: "हाँ, यह स्पष्ट, संक्षिप्त और अनुरोध के उद्देश्य को सीधे बताने वाला होना चाहिए।",
+      },
     },
-    answer: {
-      en: "Yes, it should be clear, concise, and directly explain the purpose of the request.",
-      hi: "हाँ, यह स्पष्ट, संक्षिप्त और अनुरोध के उद्देश्य को सीधे बताने वाला होना चाहिए।"
-    }
-  },
-  {
-    question: {
-      en: "Can I send a permission request letter by email?",
-      hi: "क्या मैं अनुमति अनुरोध पत्र ईमेल द्वारा भेज सकता/सकती हूँ?"
+    {
+      question: {
+        en: "Can I send a permission request letter by email?",
+        hi: "क्या मैं अनुमति अनुरोध पत्र ईमेल द्वारा भेज सकता/सकती हूँ?",
+      },
+      answer: {
+        en: "Yes, many schools, offices, and institutions accept permission requests through email.",
+        hi: "हाँ, कई स्कूल, कार्यालय और संस्थान ईमेल के माध्यम से अनुमति अनुरोध स्वीकार करते हैं।",
+      },
     },
-    answer: {
-      en: "Yes, many schools, offices, and institutions accept permission requests through email.",
-      hi: "हाँ, कई स्कूल, कार्यालय और संस्थान ईमेल के माध्यम से अनुमति अनुरोध स्वीकार करते हैं।"
-    }
-  },
-  {
-    question: {
-      en: "Should I attach supporting documents with a permission request letter?",
-      hi: "क्या मुझे अनुमति अनुरोध पत्र के साथ सहायक दस्तावेज संलग्न करने चाहिए?"
+    {
+      question: {
+        en: "Should I attach supporting documents with a permission request letter?",
+        hi: "क्या मुझे अनुमति अनुरोध पत्र के साथ सहायक दस्तावेज संलग्न करने चाहिए?",
+      },
+      answer: {
+        en: "Yes, if the permission request requires verification or additional proof.",
+        hi: "हाँ, यदि अनुमति अनुरोध के लिए सत्यापन या अतिरिक्त प्रमाण की आवश्यकता हो।",
+      },
     },
-    answer: {
-      en: "Yes, if the permission request requires verification or additional proof.",
-      hi: "हाँ, यदि अनुमति अनुरोध के लिए सत्यापन या अतिरिक्त प्रमाण की आवश्यकता हो।"
-    }
-  },
-  {
-    question: {
-      en: "Can permission request letters be used for schools and offices?",
-      hi: "क्या अनुमति अनुरोध पत्र स्कूल और कार्यालय दोनों में उपयोग किए जा सकते हैं?"
+    {
+      question: {
+        en: "Can permission request letters be used for schools and offices?",
+        hi: "क्या अनुमति अनुरोध पत्र स्कूल और कार्यालय दोनों में उपयोग किए जा सकते हैं?",
+      },
+      answer: {
+        en: "Yes, permission request letters are commonly used in schools, colleges, offices, and organizations.",
+        hi: "हाँ, अनुमति अनुरोध पत्र स्कूल, कॉलेज, कार्यालय और संगठनों में सामान्य रूप से उपयोग किए जाते हैं।",
+      },
     },
-    answer: {
-      en: "Yes, permission request letters are commonly used in schools, colleges, offices, and organizations.",
-      hi: "हाँ, अनुमति अनुरोध पत्र स्कूल, कॉलेज, कार्यालय और संगठनों में सामान्य रूप से उपयोग किए जाते हैं।"
-    }
-  }
-]
+  ],
 };

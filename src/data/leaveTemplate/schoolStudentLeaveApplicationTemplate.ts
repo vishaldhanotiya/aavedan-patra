@@ -1,19 +1,26 @@
-
 export const schoolStudentLeaveApplicationTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Leave Applications", hi: "अवकाश आवेदन", slug:"/applications/leave" },
-    template: { en: "Leave Application for School Students", hi: "स्कूल छात्रों के लिए अवकाश आवेदन", slug:"" }
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Leave Applications",
+      hi: "अवकाश आवेदन",
+      slug: "/applications/leave",
+    },
+    template: {
+      en: "Leave Application for School Students",
+      hi: "स्कूल छात्रों के लिए अवकाश आवेदन",
+      slug: "",
+    },
   },
 
-  title: { 
-    en: "Leave Application for School Students", 
-    hi: "स्कूल छात्रों के लिए अवकाश आवेदन" 
+  title: {
+    en: "Leave Application for School Students",
+    hi: "स्कूल छात्रों के लिए अवकाश आवेदन",
   },
 
-  subtitle: { 
+  subtitle: {
     en: "Simple and easy leave application formats for school students including sick leave, fever, out-of-station, family function, and half-day leave.",
-    hi: "स्कूल छात्रों के लिए सरल अवकाश प्रारूप — बीमारी, बुखार, बाहर जाना, पारिवारिक कार्यक्रम और आधे दिन की छुट्टी के लिए।"
+    hi: "स्कूल छात्रों के लिए सरल अवकाश प्रारूप — बीमारी, बुखार, बाहर जाना, पारिवारिक कार्यक्रम और आधे दिन की छुट्टी के लिए।",
   },
 
   category: { en: "Leave Applications", hi: "अवकाश आवेदन" },
@@ -24,15 +31,19 @@ export const schoolStudentLeaveApplicationTemplate = {
    * VARIATIONS
    * --------------------------------------------------------- */
   variations: [
-
-
     /* -------------------------------------------------------
      * 2. SICK LEAVE (STUDENT)
      * ------------------------------------------------------- */
     {
       id: "sickLeave",
-      title: { en: "Sick Leave Application for School Student", hi: "स्कूल छात्र के लिए बीमारी अवकाश" },
-      description: { en: "For students who are sick and cannot attend school.", hi: "बीमार विद्यार्थियों के लिए।" },
+      title: {
+        en: "Sick Leave Application for School Student",
+        hi: "स्कूल छात्र के लिए बीमारी अवकाश",
+      },
+      description: {
+        en: "For students who are sick and cannot attend school.",
+        hi: "बीमार विद्यार्थियों के लिए।",
+      },
       bestFor: { en: "1–3 days sick leave", hi: "1–3 दिन का बीमार अवकाश" },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -75,8 +86,8 @@ Yours obediently,
 
 आपका आज्ञाकारी,
 [आपका नाम]
-रोल नंबर: [रोल नंबर]`
-      }
+रोल नंबर: [रोल नंबर]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -84,8 +95,14 @@ Yours obediently,
      * ------------------------------------------------------- */
     {
       id: "fever",
-      title: { en: "Leave Application for Fever (Student)", hi: "बुखार के लिए अवकाश आवेदन (छात्र)" },
-      description: { en: "For students suffering from fever.", hi: "बुखार में अवकाश के लिए।" },
+      title: {
+        en: "Leave Application for Fever (Student)",
+        hi: "बुखार के लिए अवकाश आवेदन (छात्र)",
+      },
+      description: {
+        en: "For students suffering from fever.",
+        hi: "बुखार में अवकाश के लिए।",
+      },
       bestFor: { en: "1–2 day fever", hi: "1–2 दिन का बुखार" },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -119,8 +136,8 @@ Yours faithfully,
 धन्यवाद।  
 
 आपका विश्वासी,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -128,8 +145,14 @@ Yours faithfully,
      * ------------------------------------------------------- */
     {
       id: "outOfStation",
-      title: { en: "Out-of-Station Leave for Students", hi: "बाहर जाने के लिए छात्र अवकाश" },
-      description: { en: "For traveling with family or leaving town.", hi: "परिवार के साथ यात्रा या शहर से बाहर जाने के लिए।" },
+      title: {
+        en: "Out-of-Station Leave for Students",
+        hi: "बाहर जाने के लिए छात्र अवकाश",
+      },
+      description: {
+        en: "For traveling with family or leaving town.",
+        hi: "परिवार के साथ यात्रा या शहर से बाहर जाने के लिए।",
+      },
       bestFor: { en: "Trips, travel", hi: "यात्रा, घूमने जाना" },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -165,8 +188,8 @@ Roll No: [Roll No]`,
 
 आपका आज्ञाकारी,  
 [आपका नाम]  
-रोल नंबर: [रोल नंबर]`
-      }
+रोल नंबर: [रोल नंबर]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -174,8 +197,14 @@ Roll No: [Roll No]`,
      * ------------------------------------------------------- */
     {
       id: "familyFunction",
-      title: { en: "Leave for Family Function (Student)", hi: "पारिवारिक कार्यक्रम हेतु अवकाश (छात्र)" },
-      description: { en: "For weddings, ceremonies, or family gatherings.", hi: "शादी, समारोह या पारिवारिक कार्यक्रमों के लिए।" },
+      title: {
+        en: "Leave for Family Function (Student)",
+        hi: "पारिवारिक कार्यक्रम हेतु अवकाश (छात्र)",
+      },
+      description: {
+        en: "For weddings, ceremonies, or family gatherings.",
+        hi: "शादी, समारोह या पारिवारिक कार्यक्रमों के लिए।",
+      },
       bestFor: { en: "Family events", hi: "पारिवारिक कार्यक्रम" },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
@@ -209,8 +238,8 @@ Yours obediently,
 धन्यवाद।  
 
 आपका आज्ञाकारी,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -218,8 +247,14 @@ Yours obediently,
      * ------------------------------------------------------- */
     {
       id: "halfDay",
-      title: { en: "Half-Day Leave for Students", hi: "छात्रों के लिए आधे दिन का अवकाश" },
-      description: { en: "For mid-day appointments, errands, or emergencies.", hi: "मध्याह्न अपॉइंटमेंट या छोटे कार्यों के लिए।" },
+      title: {
+        en: "Half-Day Leave for Students",
+        hi: "छात्रों के लिए आधे दिन का अवकाश",
+      },
+      description: {
+        en: "For mid-day appointments, errands, or emergencies.",
+        hi: "मध्याह्न अपॉइंटमेंट या छोटे कार्यों के लिए।",
+      },
       bestFor: { en: "Half-day absence", hi: "आधे दिन की छुट्टी" },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Very Easy", hi: "बहुत आसान" },
@@ -253,23 +288,38 @@ Yours obediently,
 धन्यवाद।  
 
 आपका आज्ञाकारी,  
-[आपका नाम]`
-      }
-    }
+[आपका नाम]`,
+      },
+    },
   ],
 
   /* ---------------------------------------------------------
    * HOW TO WRITE SECTION
    * --------------------------------------------------------- */
   howToWrite: {
-    title: { en: "How to Write a Leave Application for School", hi: "स्कूल के लिए अवकाश आवेदन कैसे लिखें" },
+    title: {
+      en: "How to Write a Leave Application for School",
+      hi: "स्कूल के लिए अवकाश आवेदन कैसे लिखें",
+    },
     tips: [
-      { text: { en: "Write your class and roll number clearly.", hi: "अपनी कक्षा और रोल नंबर स्पष्ट रूप से लिखें।" } },
+      {
+        text: {
+          en: "Write your class and roll number clearly.",
+          hi: "अपनी कक्षा और रोल नंबर स्पष्ट रूप से लिखें।",
+        },
+      },
       { text: { en: "Keep the reason short.", hi: "कारण छोटा और सरल रखें।" } },
       { text: { en: "Mention exact dates.", hi: "सटीक तिथि लिखें।" } },
-      { text: { en: "Use polite language.", hi: "विनम्र भाषा का उपयोग करें।" } },
-      { text: { en: "End with ‘Yours obediently’.", hi: "‘आपका आज्ञाकारी’ से समाप्त करें।" } }
-    ]
+      {
+        text: { en: "Use polite language.", hi: "विनम्र भाषा का उपयोग करें।" },
+      },
+      {
+        text: {
+          en: "End with ‘Yours obediently’.",
+          hi: "‘आपका आज्ञाकारी’ से समाप्त करें।",
+        },
+      },
+    ],
   },
 
   /* ---------------------------------------------------------
@@ -279,21 +329,30 @@ Yours obediently,
     {
       title: { en: "Sick Leave (Student)", hi: "बीमार अवकाश (छात्र)" },
       description: { en: "For fever or illness", hi: "बीमारी या बुखार के लिए" },
-      icon: 'FileText',
-      link: "/templates/sick-leave-student"
+      icon: "FileText",
+      link: "/templates/sick-leave-student",
     },
     {
       title: { en: "Absent Note for School", hi: "स्कूल अनुपस्थिति नोट" },
-      description: { en: "For single-day absence", hi: "एक दिन की अनुपस्थिति के लिए" },
-      icon: 'Briefcase',
-      link: "/templates/absent-note"
+      description: {
+        en: "For single-day absence",
+        hi: "एक दिन की अनुपस्थिति के लिए",
+      },
+      icon: "Briefcase",
+      link: "/templates/absent-note",
     },
     {
-      title: { en: "Parent to Teacher Leave Request", hi: "अभिभावक द्वारा शिक्षक को अवकाश आवेदन" },
-      description: { en: "For parents writing on behalf of child", hi: "अभिभावक द्वारा बच्चे के लिए" },
-      icon: 'GraduationCap',
-      link: "/templates/parent-leave"
-    }
+      title: {
+        en: "Parent to Teacher Leave Request",
+        hi: "अभिभावक द्वारा शिक्षक को अवकाश आवेदन",
+      },
+      description: {
+        en: "For parents writing on behalf of child",
+        hi: "अभिभावक द्वारा बच्चे के लिए",
+      },
+      icon: "GraduationCap",
+      link: "/templates/parent-leave",
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -301,17 +360,29 @@ Yours obediently,
    * --------------------------------------------------------- */
   blogArticles: [
     {
-      title: { en: "How Students Should Write Leave Applications", hi: "छात्र अवकाश आवेदन कैसे लिखें" },
-      excerpt: { en: "Learn simple formats for students.", hi: "छात्रों के लिए आसान प्रारूप।" },
+      title: {
+        en: "How Students Should Write Leave Applications",
+        hi: "छात्र अवकाश आवेदन कैसे लिखें",
+      },
+      excerpt: {
+        en: "Learn simple formats for students.",
+        hi: "छात्रों के लिए आसान प्रारूप।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/student-leave-writing"
+      link: "/blog/student-leave-writing",
     },
     {
-      title: { en: "Difference Between Sick Leave and Casual Leave for Students", hi: "छात्रों के लिए बीमार और साधारण अवकाश में अंतर" },
-      excerpt: { en: "Understand the difference easily.", hi: "अंतर को सरलता से समझें।" },
+      title: {
+        en: "Difference Between Sick Leave and Casual Leave for Students",
+        hi: "छात्रों के लिए बीमार और साधारण अवकाश में अंतर",
+      },
+      excerpt: {
+        en: "Understand the difference easily.",
+        hi: "अंतर को सरलता से समझें।",
+      },
       readTime: { en: "3 min read", hi: "3 मिनट पढ़ें" },
-      link: "/blog/student-leave-types"
-    }
+      link: "/blog/student-leave-types",
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -319,37 +390,45 @@ Yours obediently,
    * --------------------------------------------------------- */
   faqs: [
     {
-      question: { en: "Do students need to give a reason?", hi: "क्या छात्रों को कारण लिखना जरूरी है?" },
-      answer: { 
+      question: {
+        en: "Do students need to give a reason?",
+        hi: "क्या छात्रों को कारण लिखना जरूरी है?",
+      },
+      answer: {
         en: "Yes, a short reason is required in school leave applications.",
-        hi: "हाँ, स्कूल अवकाश आवेदन में छोटा कारण लिखना आवश्यक है।"
-      }
+        hi: "हाँ, स्कूल अवकाश आवेदन में छोटा कारण लिखना आवश्यक है।",
+      },
     },
     {
-      question: { en: "Can parents write the leave letter?", hi: "क्या माता-पिता अवकाश आवेदन लिख सकते हैं?" },
-      answer: { 
+      question: {
+        en: "Can parents write the leave letter?",
+        hi: "क्या माता-पिता अवकाश आवेदन लिख सकते हैं?",
+      },
+      answer: {
         en: "Yes, especially for younger students.",
-        hi: "हाँ, विशेषकर छोटे बच्चों के लिए।"
-      }
+        hi: "हाँ, विशेषकर छोटे बच्चों के लिए।",
+      },
     },
     {
-      question: { en: "Is a medical certificate required?", hi: "क्या मेडिकल सर्टिफिकेट जरूरी है?" },
-      answer: { 
+      question: {
+        en: "Is a medical certificate required?",
+        hi: "क्या मेडिकल सर्टिफिकेट जरूरी है?",
+      },
+      answer: {
         en: "Only if the leave is for more than 2–3 days.",
-        hi: "केवल तब जब 2–3 दिनों से अधिक का अवकाश हो।"
-      }
-    }
-  ]
+        hi: "केवल तब जब 2–3 दिनों से अधिक का अवकाश हो।",
+      },
+    },
+  ],
 };
 
-
-    /* -------------------------------------------------------
-     * 1. GENERAL STUDENT LEAVE
-     * ------------------------------------------------------- */
+/* -------------------------------------------------------
+ * 1. GENERAL STUDENT LEAVE
+ * ------------------------------------------------------- */
 //     {
 //       id: "general",
 //       title: { en: "General Leave Application for School", hi: "स्कूल के लिए सामान्य अवकाश आवेदन" },
-//       description: { 
+//       description: {
 //         en: "Simple leave format for students for any general reason.",
 //         hi: "किसी भी सामान्य कारण के लिए विद्यार्थियों का सरल अवकाश प्रारूप।"
 //       },
@@ -358,40 +437,40 @@ Yours obediently,
 //       difficulty: { en: "Very Easy", hi: "बहुत आसान" },
 
 //       content: {
-//         en: `To,  
-// The Principal  
-// [School Name]  
+//         en: `To,
+// The Principal
+// [School Name]
 // [City]
 
-// Subject: Leave Application  
+// Subject: Leave Application
 
-// Respected Sir/Madam,  
+// Respected Sir/Madam,
 
-// I am a student of class [Class] and I request leave on [date] due to [reason]. I kindly request you to grant me leave for the mentioned day.  
+// I am a student of class [Class] and I request leave on [date] due to [reason]. I kindly request you to grant me leave for the mentioned day.
 
-// Thank you.  
+// Thank you.
 
-// Yours obediently,  
-// [Your Name]  
-// Class: [Class]  
+// Yours obediently,
+// [Your Name]
+// Class: [Class]
 // Roll No: [Roll No]`,
 
-//         hi: `सेवा में,  
-// प्रधानाचार्य महोदय/महोदया  
-// [स्कूल का नाम]  
+//         hi: `सेवा में,
+// प्रधानाचार्य महोदय/महोदया
+// [स्कूल का नाम]
 // [शहर]
 
-// विषय: अवकाश हेतु आवेदन  
+// विषय: अवकाश हेतु आवेदन
 
-// माननीय सर/मैडम,  
+// माननीय सर/मैडम,
 
-// मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ और [कारण] के कारण [तारीख] को अवकाश लेना चाहता/चाहती हूँ। कृपया मुझे उक्त दिन के लिए अवकाश प्रदान करने की कृपा करें।  
+// मैं कक्षा [कक्षा] का छात्र/छात्रा हूँ और [कारण] के कारण [तारीख] को अवकाश लेना चाहता/चाहती हूँ। कृपया मुझे उक्त दिन के लिए अवकाश प्रदान करने की कृपा करें।
 
-// धन्यवाद।  
+// धन्यवाद।
 
-// आपका आज्ञाकारी,  
-// [आपका नाम]  
-// कक्षा: [कक्षा]  
+// आपका आज्ञाकारी,
+// [आपका नाम]
+// कक्षा: [कक्षा]
 // रोल नंबर: [रोल नंबर]`
 //       }
 //     },

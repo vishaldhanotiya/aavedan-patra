@@ -1,19 +1,26 @@
-
 export const personalLeaveApplicationTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन", slug:"/applications" },
-    subcategory: { en: "Leave Applications", hi: "अवकाश आवेदन", slug:"/applications/leave" },
-    template: { en: "Personal Leave Application", hi: "पर्सनल लीव आवेदन", slug:"" }
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Leave Applications",
+      hi: "अवकाश आवेदन",
+      slug: "/applications/leave",
+    },
+    template: {
+      en: "Personal Leave Application",
+      hi: "पर्सनल लीव आवेदन",
+      slug: "",
+    },
   },
 
-  title: { 
-    en: "Personal Leave Application to Manager", 
-    hi: "मैनेजर को पर्सनल लीव हेतु आवेदन" 
+  title: {
+    en: "Personal Leave Application to Manager",
+    hi: "मैनेजर को पर्सनल लीव हेतु आवेदन",
   },
 
-  subtitle: { 
+  subtitle: {
     en: "Use these formats for personal work, family matters, travel, mental rest, or unavoidable personal commitments.",
-    hi: "व्यक्तिगत कार्य, पारिवारिक कारण, यात्रा, मानसिक विश्राम या अनिवार्य व्यक्तिगत कारणों के लिए इन प्रारूपों का उपयोग करें।"
+    hi: "व्यक्तिगत कार्य, पारिवारिक कारण, यात्रा, मानसिक विश्राम या अनिवार्य व्यक्तिगत कारणों के लिए इन प्रारूपों का उपयोग करें।",
   },
 
   category: { en: "Leave Applications", hi: "अवकाश आवेदन" },
@@ -29,12 +36,18 @@ export const personalLeaveApplicationTemplate = {
      * ------------------------------------------------------- */
     {
       id: "general",
-      title: { en: "General Personal Leave Application", hi: "सामान्य पर्सनल लीव आवेदन" },
-      description: { 
-        en: "Simple format for general personal leave.",
-        hi: "सामान्य व्यक्तिगत अवकाश के लिए सरल प्रारूप।"
+      title: {
+        en: "General Personal Leave Application",
+        hi: "सामान्य पर्सनल लीव आवेदन",
       },
-      bestFor: { en: "Any personal reason", hi: "किसी भी व्यक्तिगत कारण के लिए" },
+      description: {
+        en: "Simple format for general personal leave.",
+        hi: "सामान्य व्यक्तिगत अवकाश के लिए सरल प्रारूप।",
+      },
+      bestFor: {
+        en: "Any personal reason",
+        hi: "किसी भी व्यक्तिगत कारण के लिए",
+      },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
 
@@ -69,8 +82,8 @@ Sincerely,
 
 भवदीय,  
 [आपका नाम]  
-[पद]`
-      }
+[पद]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -78,10 +91,13 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "personalWork",
-      title: { en: "Personal Work Leave Application", hi: "व्यक्तिगत कार्य हेतु अवकाश" },
-      description: { 
+      title: {
+        en: "Personal Work Leave Application",
+        hi: "व्यक्तिगत कार्य हेतु अवकाश",
+      },
+      description: {
         en: "Useful when you have important personal work.",
-        hi: "महत्वपूर्ण व्यक्तिगत कार्य होने पर उपयोगी।"
+        hi: "महत्वपूर्ण व्यक्तिगत कार्य होने पर उपयोगी।",
       },
       bestFor: { en: "Important personal work", hi: "ज़रूरी व्यक्तिगत कार्य" },
       length: { en: "Short", hi: "छोटा" },
@@ -112,8 +128,8 @@ Sincerely,
 मुझे [तारीख] को कुछ महत्वपूर्ण व्यक्तिगत कार्य के कारण अवकाश की आवश्यकता है। कृपया मुझे उस दिन का पर्सनल लीव प्रदान करने की कृपा करें। मैं अगले दिन से कार्य में उपस्थित रहूँगा/रहूँगी।  
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -121,10 +137,13 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "familyMatters",
-      title: { en: "Leave for Family Matters", hi: "पारिवारिक कारणों से अवकाश आवेदन" },
-      description: { 
+      title: {
+        en: "Leave for Family Matters",
+        hi: "पारिवारिक कारणों से अवकाश आवेदन",
+      },
+      description: {
         en: "For family responsibilities or unavoidable family issues.",
-        hi: "पारिवारिक जिम्मेदारी या अनिवार्य पारिवारिक कारणों के लिए।"
+        hi: "पारिवारिक जिम्मेदारी या अनिवार्य पारिवारिक कारणों के लिए।",
       },
       bestFor: { en: "Family issues", hi: "पारिवारिक समस्याएँ" },
       length: { en: "Medium", hi: "मध्यम" },
@@ -159,8 +178,8 @@ Sincerely,
 आपकी समझदारी के लिए धन्यवाद।
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -168,10 +187,13 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "personalTravel",
-      title: { en: "Personal Leave for Travel", hi: "यात्रा हेतु व्यक्तिगत अवकाश" },
-      description: { 
+      title: {
+        en: "Personal Leave for Travel",
+        hi: "यात्रा हेतु व्यक्तिगत अवकाश",
+      },
+      description: {
         en: "For short personal trips or travel plans.",
-        hi: "छोटी व्यक्तिगत यात्रा या बाहर जाने के लिए।"
+        hi: "छोटी व्यक्तिगत यात्रा या बाहर जाने के लिए।",
       },
       bestFor: { en: "Travel leave", hi: "यात्रा अवकाश" },
       length: { en: "Short", hi: "छोटा" },
@@ -202,8 +224,8 @@ Sincerely,
 मुझे व्यक्तिगत कारणों से [स्थान] की यात्रा करनी है, जिसके लिए मैं [आरंभ तिथि] से [अंत तिथि] तक अवकाश का अनुरोध करता/करती हूँ। मैं सभी लंबित कार्य पहले ही पूरा कर दूँगा/दूँगी।  
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -211,10 +233,13 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "mentalRest",
-      title: { en: "Personal Leave for Mental Rest", hi: "मानसिक विश्राम हेतु व्यक्तिगत अवकाश" },
-      description: { 
+      title: {
+        en: "Personal Leave for Mental Rest",
+        hi: "मानसिक विश्राम हेतु व्यक्तिगत अवकाश",
+      },
+      description: {
         en: "For stress, mental rest, burnout recovery.",
-        hi: "तनाव, मानसिक विश्राम या थकान कम करने के लिए।"
+        hi: "तनाव, मानसिक विश्राम या थकान कम करने के लिए।",
       },
       bestFor: { en: "Mental wellness leave", hi: "मानसिक स्वास्थ्य अवकाश" },
       length: { en: "Medium", hi: "मध्यम" },
@@ -248,8 +273,8 @@ Sincerely,
 अतः कृपया [आरंभ तिथि] से [अंत तिथि] तक मुझे व्यक्तिगत अवकाश प्रदान करें।  
 
 भवदीय,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* -------------------------------------------------------
@@ -257,10 +282,13 @@ Sincerely,
      * ------------------------------------------------------- */
     {
       id: "documentWork",
-      title: { en: "Personal Leave for Documentation Work", hi: "सरकारी/दस्तावेज कार्य हेतु व्यक्तिगत अवकाश" },
-      description: { 
+      title: {
+        en: "Personal Leave for Documentation Work",
+        hi: "सरकारी/दस्तावेज कार्य हेतु व्यक्तिगत अवकाश",
+      },
+      description: {
         en: "For passport, Aadhar, bank, government office, documentation tasks.",
-        hi: "पासपोर्ट, आधार, बैंक या सरकारी कार्य के लिए।"
+        hi: "पासपोर्ट, आधार, बैंक या सरकारी कार्य के लिए।",
       },
       bestFor: { en: "Government/document work", hi: "सरकारी/दस्तावेज कार्य" },
       length: { en: "Short", hi: "छोटा" },
@@ -291,23 +319,51 @@ Sincerely,
 मुझे [तारीख] को महत्वपूर्ण सरकारी दस्तावेज कार्य हेतु कार्यालय जाना है। अतः कृपया मुझे उस दिन का व्यक्तिगत अवकाश प्रदान करें।  
 
 भवदीय,  
-[आपका नाम]`
-      }
-    }
+[आपका नाम]`,
+      },
+    },
   ],
 
   /* ---------------------------------------------------------
    * HOW TO WRITE SECTION
    * --------------------------------------------------------- */
   howToWrite: {
-    title: { en: "Tips to Write a Personal Leave Application", hi: "पर्सनल लीव आवेदन लिखने के टिप्स" },
+    title: {
+      en: "Tips to Write a Personal Leave Application",
+      hi: "पर्सनल लीव आवेदन लिखने के टिप्स",
+    },
     tips: [
-      { text: { en: "Mention your reason briefly but clearly.", hi: "कारण को स्पष्ट लेकिन संक्षेप में लिखें।" } },
-      { text: { en: "Write exact leave dates.", hi: "छुट्टी की सटीक तिथियाँ लिखें।" } },
-      { text: { en: "Keep tone formal and polite.", hi: "लहजा औपचारिक और विनम्र रखें।" } },
-      { text: { en: "Reassure that work will be managed.", hi: "बताएँ कि काम प्रभावित नहीं होगा।" } },
-      { text: { en: "Thank the manager at the end.", hi: "अंत में मैनेजर को धन्यवाद दें।" } }
-    ]
+      {
+        text: {
+          en: "Mention your reason briefly but clearly.",
+          hi: "कारण को स्पष्ट लेकिन संक्षेप में लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Write exact leave dates.",
+          hi: "छुट्टी की सटीक तिथियाँ लिखें।",
+        },
+      },
+      {
+        text: {
+          en: "Keep tone formal and polite.",
+          hi: "लहजा औपचारिक और विनम्र रखें।",
+        },
+      },
+      {
+        text: {
+          en: "Reassure that work will be managed.",
+          hi: "बताएँ कि काम प्रभावित नहीं होगा।",
+        },
+      },
+      {
+        text: {
+          en: "Thank the manager at the end.",
+          hi: "अंत में मैनेजर को धन्यवाद दें।",
+        },
+      },
+    ],
   },
 
   /* ---------------------------------------------------------
@@ -316,22 +372,28 @@ Sincerely,
   relatedTemplates: [
     {
       title: { en: "Casual Leave Application", hi: "साधारण अवकाश आवेदन" },
-      description: { en: "For non-urgent personal leave", hi: "गैर-आपात व्यक्तिगत छुट्टियाँ" },
-      icon: 'FileText',
-      link: "/templates/casual-leave"
+      description: {
+        en: "For non-urgent personal leave",
+        hi: "गैर-आपात व्यक्तिगत छुट्टियाँ",
+      },
+      icon: "FileText",
+      link: "/templates/casual-leave",
     },
     {
       title: { en: "Urgent Leave Application", hi: "आपात अवकाश आवेदन" },
-      description: { en: "For sudden emergency situations", hi: "अचानक आपात स्थितियों के लिए" },
-      icon: 'Briefcase',
-      link: "/templates/urgent-leave"
+      description: {
+        en: "For sudden emergency situations",
+        hi: "अचानक आपात स्थितियों के लिए",
+      },
+      icon: "Briefcase",
+      link: "/templates/urgent-leave",
     },
     {
       title: { en: "Sick Leave Application", hi: "बीमार छुट्टी आवेदन" },
       description: { en: "For health-related leave", hi: "बीमारी में उपयोगी" },
-      icon: 'GraduationCap',
-      link: "/templates/sick-leave"
-    }
+      icon: "GraduationCap",
+      link: "/templates/sick-leave",
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -339,17 +401,29 @@ Sincerely,
    * --------------------------------------------------------- */
   blogArticles: [
     {
-      title: { en: "When to Take Personal Leave", hi: "व्यक्तिगत अवकाश कब लें" },
-      excerpt: { en: "Understand ideal situations for taking personal leave.", hi: "जानें कब पर्सनल लीव लेना उचित है।" },
+      title: {
+        en: "When to Take Personal Leave",
+        hi: "व्यक्तिगत अवकाश कब लें",
+      },
+      excerpt: {
+        en: "Understand ideal situations for taking personal leave.",
+        hi: "जानें कब पर्सनल लीव लेना उचित है।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/personal-leave-guide"
+      link: "/blog/personal-leave-guide",
     },
     {
-      title: { en: "Difference Between Personal and Casual Leave", hi: "पर्सनल और कैज़ुअल लीव में अंतर" },
-      excerpt: { en: "Clear difference explained simply.", hi: "सरल भाषा में पूरा अंतर समझें।" },
+      title: {
+        en: "Difference Between Personal and Casual Leave",
+        hi: "पर्सनल और कैज़ुअल लीव में अंतर",
+      },
+      excerpt: {
+        en: "Clear difference explained simply.",
+        hi: "सरल भाषा में पूरा अंतर समझें।",
+      },
       readTime: { en: "3 min read", hi: "3 मिनट पढ़ें" },
-      link: "/blog/leave-types"
-    }
+      link: "/blog/leave-types",
+    },
   ],
 
   /* ---------------------------------------------------------
@@ -357,25 +431,34 @@ Sincerely,
    * --------------------------------------------------------- */
   faqs: [
     {
-      question: { en: "Is personal leave paid?", hi: "क्या पर्सनल लीव भुगतानयुक्त होती है?" },
-      answer: { 
+      question: {
+        en: "Is personal leave paid?",
+        hi: "क्या पर्सनल लीव भुगतानयुक्त होती है?",
+      },
+      answer: {
         en: "Most companies count personal leave under casual leave, which is generally paid.",
-        hi: "अधिकांश कंपनियाँ पर्सनल लीव को कैज़ुअल लीव में शामिल करती हैं, जो आमतौर पर भुगतानयुक्त होती है।" 
-      }
+        hi: "अधिकांश कंपनियाँ पर्सनल लीव को कैज़ुअल लीव में शामिल करती हैं, जो आमतौर पर भुगतानयुक्त होती है।",
+      },
     },
     {
-      question: { en: "Do I need to mention the exact reason?", hi: "क्या सटीक कारण बताना जरूरी है?" },
-      answer: { 
+      question: {
+        en: "Do I need to mention the exact reason?",
+        hi: "क्या सटीक कारण बताना जरूरी है?",
+      },
+      answer: {
         en: "No, a short general reason is enough.",
-        hi: "नहीं, छोटा और सामान्य कारण पर्याप्त है।" 
-      }
+        hi: "नहीं, छोटा और सामान्य कारण पर्याप्त है।",
+      },
     },
     {
-      question: { en: "How many days of personal leave can I take?", hi: "कितने दिनों की व्यक्तिगत छुट्टी ले सकते हैं?" },
-      answer: { 
+      question: {
+        en: "How many days of personal leave can I take?",
+        hi: "कितने दिनों की व्यक्तिगत छुट्टी ले सकते हैं?",
+      },
+      answer: {
         en: "Usually 1–3 days depending on company policy.",
-        hi: "आमतौर पर 1–3 दिन, कंपनी की नीति पर आधारित।" 
-      }
-    }
-  ]
+        hi: "आमतौर पर 1–3 दिन, कंपनी की नीति पर आधारित।",
+      },
+    },
+  ],
 };

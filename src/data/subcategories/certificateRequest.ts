@@ -7,7 +7,7 @@ import { SubcategoryData } from "../category/jobCategory";
 
 // 6. CERTIFICATE REQUEST APPLICATIONS
 export const certificateRequest: SubcategoryData = {
-  slug: "certificate-request",
+  slug: "certificate",
   categorySlug: "applications",
   categoryName: { en: "Applications", hi: "आवेदन" },
   subcategoryName: {
@@ -19,7 +19,7 @@ export const certificateRequest: SubcategoryData = {
     {
       en: "Certificate Requests",
       hi: "प्रमाणपत्र अनुरोध",
-      slug: "/applications/certificate-request",
+      slug: "/applications/certificate",
     },
   ],
   heroTitle: {

@@ -1,19 +1,26 @@
-
 export const vacationLeaveApplicationTemplate = {
   breadcrumb: {
-    category: { en: "Applications", hi: "आवेदन",slug:'/applications' },
-    subcategory: { en: "Leave Applications", hi: "अवकाश आवेदन",slug:'/applications/leave' },
-    template: { en: "Vacation Leave Application", hi: "छुट्टी (वैकेशन) आवेदन" ,slug:''}
+    category: { en: "Applications", hi: "आवेदन", slug: "/applications" },
+    subcategory: {
+      en: "Leave Applications",
+      hi: "अवकाश आवेदन",
+      slug: "/applications/leave",
+    },
+    template: {
+      en: "Vacation Leave Application",
+      hi: "छुट्टी (वैकेशन) आवेदन",
+      slug: "",
+    },
   },
 
   title: {
     en: "Vacation Leave Application to Manager",
-    hi: "मैनेजर को वैकेशन अवकाश हेतु आवेदन"
+    hi: "मैनेजर को वैकेशन अवकाश हेतु आवेदन",
   },
 
   subtitle: {
     en: "Templates for planned vacations — short trips, long breaks, seasonal holidays, and pre-approved leave requests.",
-    hi: "पूर्वनियोजित अवकाश के लिए प्रारूप — छोटे ट्रिप, लंबी छुट्टियाँ, मौसमी अवकाश और पूर्व-अनुमोदित छुट्टियाँ।"
+    hi: "पूर्वनियोजित अवकाश के लिए प्रारूप — छोटे ट्रिप, लंबी छुट्टियाँ, मौसमी अवकाश और पूर्व-अनुमोदित छुट्टियाँ।",
   },
 
   category: { en: "Leave Applications", hi: "अवकाश आवेदन" },
@@ -24,12 +31,18 @@ export const vacationLeaveApplicationTemplate = {
     /* 1. GENERAL VACATION LEAVE */
     {
       id: "general",
-      title: { en: "General Vacation Leave Application", hi: "सामान्य वैकेशन अवकाश आवेदन" },
+      title: {
+        en: "General Vacation Leave Application",
+        hi: "सामान्य वैकेशन अवकाश आवेदन",
+      },
       description: {
         en: "A standard format for requesting vacation leave for personal travel or rest.",
-        hi: "निजी यात्रा या विश्राम के लिए वैकेशन अवकाश का सामान्य प्रारूप।"
+        hi: "निजी यात्रा या विश्राम के लिए वैकेशन अवकाश का सामान्य प्रारूप।",
       },
-      bestFor: { en: "Planned personal vacation", hi: "पूर्वनियोजित व्यक्तिगत छुट्टी" },
+      bestFor: {
+        en: "Planned personal vacation",
+        hi: "पूर्वनियोजित व्यक्तिगत छुट्टी",
+      },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
       content: {
@@ -66,19 +79,25 @@ Sincerely,
 
 भवदीय,  
 [आपका नाम]  
-[पद]`
-      }
+[पद]`,
+      },
     },
 
     /* 2. SHORT VACATION (2-5 DAYS) */
     {
       id: "shortVacation",
-      title: { en: "Short Vacation Leave (2–5 days)", hi: "लघु वैकेशन अवकाश (2–5 दिन)" },
+      title: {
+        en: "Short Vacation Leave (2–5 days)",
+        hi: "लघु वैकेशन अवकाश (2–5 दिन)",
+      },
       description: {
         en: "Quick breaks for short trips or family visits where work handover is minimal.",
-        hi: "छोटी यात्राओं या पारिवारिक मुलाकातों के लिए जब कार्य हस्तांतरण कम हो।"
+        hi: "छोटी यात्राओं या पारिवारिक मुलाकातों के लिए जब कार्य हस्तांतरण कम हो।",
       },
-      bestFor: { en: "Short trips / family visit", hi: "छोटी यात्रा / पारिवारिक यात्रा" },
+      bestFor: {
+        en: "Short trips / family visit",
+        hi: "छोटी यात्रा / पारिवारिक यात्रा",
+      },
       length: { en: "Short", hi: "छोटा" },
       difficulty: { en: "Easy", hi: "आसान" },
       content: {
@@ -109,19 +128,25 @@ Regards,
 कृपया मुझे अवकाश प्रदान करें।
 
 सादर,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* 3. LONG VACATION (7+ DAYS) */
     {
       id: "longVacation",
-      title: { en: "Long Vacation Leave (7+ days)", hi: "लंबी वैकेशन अवकाश (7+ दिन)" },
+      title: {
+        en: "Long Vacation Leave (7+ days)",
+        hi: "लंबी वैकेशन अवकाश (7+ दिन)",
+      },
       description: {
         en: "For extended holidays or planned trips that require prior approval and detailed handover.",
-        hi: "विस्तारित छुट्टियों या योजनाबद्ध यात्राओं के लिए जिनके लिए पूर्व-अनुमोदन और विस्तृत हैंडओवर आवश्यक हो।"
+        hi: "विस्तारित छुट्टियों या योजनाबद्ध यात्राओं के लिए जिनके लिए पूर्व-अनुमोदन और विस्तृत हैंडओवर आवश्यक हो।",
       },
-      bestFor: { en: "Extended holidays, international travel", hi: "लंबी छुट्टियाँ, अंतरराष्ट्रीय यात्रा" },
+      bestFor: {
+        en: "Extended holidays, international travel",
+        hi: "लंबी छुट्टियाँ, अंतरराष्ट्रीय यात्रा",
+      },
       length: { en: "Long", hi: "लंबा" },
       difficulty: { en: "Moderate", hi: "मध्यम" },
       content: {
@@ -154,19 +179,25 @@ Warm regards,
 
 सादर,  
 [आपका नाम]  
-[पद]`
-      }
+[पद]`,
+      },
     },
 
     /* 4. SEASONAL VACATION (SUMMER / WINTER) */
     {
       id: "seasonalVacation",
-      title: { en: "Seasonal Vacation Leave (Summer / Winter)", hi: "मौसमी छुट्टी (ग्रीष्म/शीतकालीन)" },
+      title: {
+        en: "Seasonal Vacation Leave (Summer / Winter)",
+        hi: "मौसमी छुट्टी (ग्रीष्म/शीतकालीन)",
+      },
       description: {
         en: "Used for planning leave during school/college holidays or popular vacation seasons.",
-        hi: "स्कूल/कॉलेज अवकाश या सामान्य छुट्टियों के मौसम में छुट्टी के लिए उपयोगी।"
+        hi: "स्कूल/कॉलेज अवकाश या सामान्य छुट्टियों के मौसम में छुट्टी के लिए उपयोगी।",
       },
-      bestFor: { en: "School holidays, festival season travel", hi: "विद्यालय अवकाश, त्योहारीन यात्राएँ" },
+      bestFor: {
+        en: "School holidays, festival season travel",
+        hi: "विद्यालय अवकाश, त्योहारीन यात्राएँ",
+      },
       length: { en: "Medium", hi: "मध्यम" },
       difficulty: { en: "Easy", hi: "आसान" },
       content: {
@@ -197,17 +228,20 @@ Thank you,
 कृपया अनुरोध स्वीकृत करें।
 
 धन्यवाद,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* 5. PRE-PLANNED VACATION (APPROVAL REQUEST) */
     {
       id: "prePlanned",
-      title: { en: "Pre-Planned Vacation (Approval Request)", hi: "पूर्व-योजित छुट्टी (अनुमोदन अनुरोध)" },
+      title: {
+        en: "Pre-Planned Vacation (Approval Request)",
+        hi: "पूर्व-योजित छुट्टी (अनुमोदन अनुरोध)",
+      },
       description: {
         en: "Formal request for vacations planned well in advance — mentions plans and assurance of minimal disruption.",
-        hi: "पूर्व में योजनाबद्ध छुट्टियों के लिए औपचारिक अनुरोध — योजनाएँ और न्यूनतम व्यवधान का आश्वासन।"
+        hi: "पूर्व में योजनाबद्ध छुट्टियों के लिए औपचारिक अनुरोध — योजनाएँ और न्यूनतम व्यवधान का आश्वासन।",
       },
       bestFor: { en: "Advance planned leave", hi: "पूर्व-नियोजित अवकाश" },
       length: { en: "Variable", hi: "परिवर्ती" },
@@ -240,17 +274,20 @@ Best regards,
 आपके विचार के लिए धन्यवाद।
 
 सादर,  
-[आपका नाम]`
-      }
+[आपका नाम]`,
+      },
     },
 
     /* 6. VACATION INTERRUPTION / EXTENSION REQUEST */
     {
       id: "extensionOrInterruption",
-      title: { en: "Vacation Extension / Interruption Request", hi: "छुट्टी बढ़ाने / बीच में रोकने हेतु अनुरोध" },
+      title: {
+        en: "Vacation Extension / Interruption Request",
+        hi: "छुट्टी बढ़ाने / बीच में रोकने हेतु अनुरोध",
+      },
       description: {
         en: "Templates for requesting extension of vacation or early return due to change in plan.",
-        hi: "योजना में बदलाव के कारण छुट्टी बढ़ाने या जल्दी लौटने के लिए अनुरोध।"
+        hi: "योजना में बदलाव के कारण छुट्टी बढ़ाने या जल्दी लौटने के लिए अनुरोध।",
       },
       bestFor: { en: "Extend or shorten vacation", hi: "छुट्टी बढ़ाना/घटाना" },
       length: { en: "Variable", hi: "परिवर्ती" },
@@ -283,70 +320,140 @@ Thank you,
 कृपया मेरे अवकाश में आवश्यक संशोधन स्वीकृत करें।
 
 धन्यवाद,  
-[आपका नाम]`
-      }
-    }
+[आपका नाम]`,
+      },
+    },
   ],
 
   howToWrite: {
-    title: { en: "Tips to Write a Vacation Leave Application", hi: "वैकेशन अवकाश आवेदन कैसे लिखें" },
+    title: {
+      en: "Tips to Write a Vacation Leave Application",
+      hi: "वैकेशन अवकाश आवेदन कैसे लिखें",
+    },
     tips: [
-      { text: { en: "State vacation dates clearly and mention purpose (brief).", hi: "छुट्टियों की तिथियाँ स्पष्ट रूप से लिखें और संक्षेप में उद्देश्य बताएं।" } },
-      { text: { en: "Confirm handover plan and responsible colleague.", hi: "हैंडओवर योजना और जिम्मेदार सहकर्मी का उल्लेख करें।" } },
-      { text: { en: "Request approval politely and provide contact details for emergencies.", hi: "विनम्रता से अनुमोदन माँगें और आपात स्थिति के लिए संपर्क जानकारी दें।" } },
-      { text: { en: "For long vacations, prepare a detailed handover document.", hi: "लंबी छुट्टियों के लिए विस्तृत हैंडओवर डॉक्यूमेंट तैयार करें।" } },
-      { text: { en: "Give sufficient notice whenever possible.", hi: "संभव हो तो पर्याप्त पूर्व सूचना दें।" } }
-    ]
+      {
+        text: {
+          en: "State vacation dates clearly and mention purpose (brief).",
+          hi: "छुट्टियों की तिथियाँ स्पष्ट रूप से लिखें और संक्षेप में उद्देश्य बताएं।",
+        },
+      },
+      {
+        text: {
+          en: "Confirm handover plan and responsible colleague.",
+          hi: "हैंडओवर योजना और जिम्मेदार सहकर्मी का उल्लेख करें।",
+        },
+      },
+      {
+        text: {
+          en: "Request approval politely and provide contact details for emergencies.",
+          hi: "विनम्रता से अनुमोदन माँगें और आपात स्थिति के लिए संपर्क जानकारी दें।",
+        },
+      },
+      {
+        text: {
+          en: "For long vacations, prepare a detailed handover document.",
+          hi: "लंबी छुट्टियों के लिए विस्तृत हैंडओवर डॉक्यूमेंट तैयार करें।",
+        },
+      },
+      {
+        text: {
+          en: "Give sufficient notice whenever possible.",
+          hi: "संभव हो तो पर्याप्त पूर्व सूचना दें।",
+        },
+      },
+    ],
   },
 
   relatedTemplates: [
     {
       title: { en: "Casual Leave Application", hi: "साधारण अवकाश आवेदन" },
-      description: { en: "Short personal leaves and quick breaks", hi: "छोटे व्यक्तिगत अवकाश" },
-      icon: 'FileText',
-      link: "/templates/casual-leave"
+      description: {
+        en: "Short personal leaves and quick breaks",
+        hi: "छोटे व्यक्तिगत अवकाश",
+      },
+      icon: "FileText",
+      link: "/templates/casual-leave",
     },
     {
       title: { en: "Long Leave / Sabbatical", hi: "लंबी छुट्टी / सैबटिकल" },
-      description: { en: "Requests for extended unpaid or sabbatical leave", hi: "लंबे अवकाश के लिए अनुरोध" },
-      icon: 'Briefcase',
-      link: "/templates/long-leave"
+      description: {
+        en: "Requests for extended unpaid or sabbatical leave",
+        hi: "लंबे अवकाश के लिए अनुरोध",
+      },
+      icon: "Briefcase",
+      link: "/templates/long-leave",
     },
     {
-      title: { en: "Pre-Planned Leave Request", hi: "पूर्व-योजित अवकाश अनुरोध" },
-      description: { en: "Formal advance notice templates", hi: "पूर्व में सूचित करने के लिए औपचारिक प्रारूप" },
-      icon: 'GraduationCap',
-      link: "/templates/pre-planned-leave"
-    }
+      title: {
+        en: "Pre-Planned Leave Request",
+        hi: "पूर्व-योजित अवकाश अनुरोध",
+      },
+      description: {
+        en: "Formal advance notice templates",
+        hi: "पूर्व में सूचित करने के लिए औपचारिक प्रारूप",
+      },
+      icon: "GraduationCap",
+      link: "/templates/pre-planned-leave",
+    },
   ],
 
   blogArticles: [
     {
-      title: { en: "How to Plan Vacation Leave Professionally", hi: "वैकेशन अवकाश को पेशेवर तरीके से कैसे प्लान करें" },
-      excerpt: { en: "Steps for planning, handover and approval.", hi: "योजना, हैंडओवर और अनुमोदन के चरण।" },
+      title: {
+        en: "How to Plan Vacation Leave Professionally",
+        hi: "वैकेशन अवकाश को पेशेवर तरीके से कैसे प्लान करें",
+      },
+      excerpt: {
+        en: "Steps for planning, handover and approval.",
+        hi: "योजना, हैंडओवर और अनुमोदन के चरण।",
+      },
       readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-      link: "/blog/plan-vacation-leave"
+      link: "/blog/plan-vacation-leave",
     },
     {
-      title: { en: "Handing Over Work Before Leave", hi: "छुट्टी से पहले कार्य का हैंडओवर कैसे करें" },
-      excerpt: { en: "Checklist and sample handover document.", hi: "चेकलिस्ट और हैंडओवर डॉक्यूमेंट का नमूना।" },
+      title: {
+        en: "Handing Over Work Before Leave",
+        hi: "छुट्टी से पहले कार्य का हैंडओवर कैसे करें",
+      },
+      excerpt: {
+        en: "Checklist and sample handover document.",
+        hi: "चेकलिस्ट और हैंडओवर डॉक्यूमेंट का नमूना।",
+      },
       readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-      link: "/blog/handover-checklist"
-    }
+      link: "/blog/handover-checklist",
+    },
   ],
 
   faqs: [
     {
-      question: { en: "How far in advance should I request vacation leave?", hi: "कितने समय पहले छुट्टी का अनुरोध करें?" },
-      answer: { en: "Ideally 2–4 weeks for short vacations and 1–2 months for long/peak-season plans.", hi: "छोटी छुट्टियों के लिए आदर्श रूप से 2–4 सप्ताह और लंबी/पीक-सीज़न योजनाओं के लिए 1–2 महीने।" }
+      question: {
+        en: "How far in advance should I request vacation leave?",
+        hi: "कितने समय पहले छुट्टी का अनुरोध करें?",
+      },
+      answer: {
+        en: "Ideally 2–4 weeks for short vacations and 1–2 months for long/peak-season plans.",
+        hi: "छोटी छुट्टियों के लिए आदर्श रूप से 2–4 सप्ताह और लंबी/पीक-सीज़न योजनाओं के लिए 1–2 महीने।",
+      },
     },
     {
-      question: { en: "Do I need to share travel details?", hi: "क्या मुझे यात्रा विवरण साझा करना चाहिए?" },
-      answer: { en: "Share only necessary details (dates, emergency contact). Full itinerary is optional.", hi: "केवल आवश्यक जानकारी साझा करें (तिथि, आपातकालीन संपर्क)। पूरा यात्रा विवरण वैकल्पिक है।" }
+      question: {
+        en: "Do I need to share travel details?",
+        hi: "क्या मुझे यात्रा विवरण साझा करना चाहिए?",
+      },
+      answer: {
+        en: "Share only necessary details (dates, emergency contact). Full itinerary is optional.",
+        hi: "केवल आवश्यक जानकारी साझा करें (तिथि, आपातकालीन संपर्क)। पूरा यात्रा विवरण वैकल्पिक है।",
+      },
     },
     {
-      question: { en: "Will vacation be paid?", hi: "क्या वैकेशन भुगतानयुक्त होगी?" },
-      answer: { en: "Depends on company policy and leave balance; check HR policy for paid/ unpaid rules.", hi: "कंपनी नीति और आपके छुट्टी बैलेंस पर निर्भर करता है; पेड/अनपेड नियमों के लिए HR नीति देखें।" }
-    }
-  ]
+      question: {
+        en: "Will vacation be paid?",
+        hi: "क्या वैकेशन भुगतानयुक्त होगी?",
+      },
+      answer: {
+        en: "Depends on company policy and leave balance; check HR policy for paid/ unpaid rules.",
+        hi: "कंपनी नीति और आपके छुट्टी बैलेंस पर निर्भर करता है; पेड/अनपेड नियमों के लिए HR नीति देखें।",
+      },
+    },
+  ],
 };

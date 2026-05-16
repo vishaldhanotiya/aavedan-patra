@@ -119,7 +119,7 @@ export const applicationsCategory: CategoryData = {
       title: { en: "Certificate Applications", hi: "प्रमाणपत्र आवेदन" },
       description: { en: "Request letters for certificates", hi: "प्रमाणपत्र के लिए अनुरोध पत्र" },
       count: 6,
-      slug: "certificate-request",
+      slug: "certificate",
     },
   ],
   templates: [
