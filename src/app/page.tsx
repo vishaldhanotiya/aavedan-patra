@@ -7,6 +7,7 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { Newsletter } from "@/components/Newsletter";
 import { QuickLinks } from "@/components/QuickLinks";
 import { RecentlyAdded } from "@/components/RecentlyAdded";
+import { SiteSchemas } from "@/components/SiteSchemas";
 import { ThemeToggle } from "@/components/ThemeToggle";
 //import { ThemeToggle } from "@/components/ThemeToggle";
 import { TrendingTemplates } from "@/components/TrendingTemplates";
@@ -15,6 +16,7 @@ export default function Home() {
   
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">
+      <SiteSchemas />
       {/* <LanguageSwitcher /> */}
       <Hero />
       <CategoryGrid />

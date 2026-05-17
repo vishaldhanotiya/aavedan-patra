@@ -22,6 +22,7 @@ export default function Page() {
         title={templateData.title}
         subtitle={templateData.subtitle}
         updatedDate={templateData.updatedDate}
+        breadcrumb={templateData.breadcrumb}
         howToWrite={templateData.howToWrite}
         faqs={templateData.faqs}
       />

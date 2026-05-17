@@ -24,7 +24,14 @@ import { Button } from "./ui/button";
 import { toast } from "sonner";
 import { TemplateEditorModal } from "./TemplateEditorModal";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import {
+  buildArticleSchema,
+  buildBreadcrumbListSchema,
+  buildFaqPageSchema,
+  buildHowToSchema,
+} from "@/lib/pillarSchema";
 interface TemplateVariation {
   id: string;
   title: { en: string; hi: string };
@@ -92,6 +99,7 @@ export function PillarTemplateDetailsPage({
   singleTemplate = false,
   suppressSchema = false,
 }: PillarTemplateDetailsPageProps) {
+  const pathname = usePathname() || "/";
   const [activeVariation, setActiveVariation] = useState<string>(
     data.variations[0]?.id || "",
   );
@@ -219,53 +227,35 @@ export function PillarTemplateDetailsPage({
     );
   };
 
-  // Generate FAQ Schema
-  const generateFAQSchema = () => {
-    return {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: data.faqs.map((faq) => ({
-        "@type": "Question",
-        name: faq.question.en,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: faq.answer.en,
-        },
-      })),
-    };
+  const schemaInput = {
+    title: data.title,
+    subtitle: data.subtitle,
+    updatedDate: data.updatedDate,
+    path: pathname,
+    breadcrumb: data.breadcrumb,
+    howToWrite: data.howToWrite,
+    faqs: data.faqs,
+    language: "hi" as const,
   };
 
-  // Generate Article Schema
-  const generateArticleSchema = () => {
-    return {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline: data.title.en,
-      description: data.subtitle.en,
-      dateModified: data.updatedDate,
-      author: {
-        "@type": "Organization",
-        name: "Sample Files",
-      },
-    };
-  };
+  const schemas = [
+    buildFaqPageSchema(schemaInput),
+    buildBreadcrumbListSchema(schemaInput, "https://aavedanpatra.in"),
+    buildArticleSchema(schemaInput, "https://aavedanpatra.in"),
+    ...(data.howToWrite.tips.length > 0 ? [buildHowToSchema(schemaInput)] : []),
+  ];
 
   return (
     <>
       {!suppressSchema && (
         <>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(generateFAQSchema()),
-            }}
-          />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(generateArticleSchema()),
-            }}
-          />
+          {schemas.map((schema, index) => (
+            <script
+              key={`${schema["@type"]}-${index}`}
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            />
+          ))}
         </>
       )}
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-violet-50 dark:from-slate-950 dark:via-blue-950 dark:to-violet-950">

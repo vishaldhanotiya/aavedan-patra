@@ -1,5 +1,6 @@
 import {
   buildArticleSchema,
+  buildBreadcrumbListSchema,
   buildFaqPageSchema,
   buildHowToSchema,
   type PillarSchemaInput,
@@ -18,6 +19,7 @@ export function PillarTemplateSchemas({
 }: PillarTemplateSchemasProps) {
   const schemas = [
     buildFaqPageSchema(input),
+    buildBreadcrumbListSchema(input, BASE_URL),
     buildArticleSchema(input, BASE_URL),
     ...(includeHowTo && input.howToWrite.tips.length > 0
       ? [buildHowToSchema(input)]
