@@ -10,7 +10,7 @@ const defaultOgImage = {
   alt: `${SITE_NAME} – Hindi application letter templates`,
 };
 
-export async function createMetadata({
+export function createMetadata({
   title,
   description,
   path,
@@ -23,7 +23,7 @@ export async function createMetadata({
   locale?: string;
   /** Use "website" for homepage/listing pages; "article" for template/content pages */
   type?: "website" | "article";
-}): Promise<Metadata> {
+}): Metadata {
   const normalizedPath = path.replace(/\/+$/, "") || "/";
   const canonicalUrl = `${BASE_URL}${normalizedPath}`;
 
