@@ -137,7 +137,7 @@ export const resumesCategory: CategoryData = {
       title: { en: "Certificates", hi: "प्रमाणपत्र" },
       description: { en: "Experience and bonafide certificates", hi: "अनुभव और बोनाफाइड प्रमाणपत्र" },
       count: 89,
-      slug: "certificates",
+      slug: "certificate",
     },
     {
       icon: 'Mail',

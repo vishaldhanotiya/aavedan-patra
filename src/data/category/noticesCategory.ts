@@ -145,7 +145,7 @@ export const noticesCategory: CategoryData = {
       title: { en: "Certificates", hi: "प्रमाणपत्र" },
       description: { en: "Official certificate formats", hi: "आधिकारिक प्रमाणपत्र प्रारूप" },
       count: 89,
-      slug: "certificates",
+      slug: "certificate",
     },
     {
       icon: 'FileSignature',

@@ -206,7 +206,7 @@ export const applicationsCategory: CategoryData = {
       title: { en: "Certificates", hi: "प्रमाणपत्र" },
       description: { en: "Professional certificate templates", hi: "पेशेवर प्रमाणपत्र टेम्पलेट" },
       count: 89,
-      slug: "certificates",
+      slug: "certificate",
     },
     {
       icon: 'FileSpreadsheet',

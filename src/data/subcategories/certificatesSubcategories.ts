@@ -9,7 +9,7 @@ import { SubcategoryData } from "../category/jobCategory";
 // 1. EXPERIENCE CERTIFICATES
 export const experienceCertificatesData: SubcategoryData = {
   slug: "experience",
-  categorySlug: "certificates",
+  categorySlug: "certificate",
   categoryName: { en: "Certificates", hi: "प्रमाणपत्र" },
   subcategoryName: { en: "Experience Certificates", hi: "अनुभव प्रमाणपत्र" },
   breadcrumb: [

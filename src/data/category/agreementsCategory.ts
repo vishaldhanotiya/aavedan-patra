@@ -151,7 +151,7 @@ export const agreementsCategory: CategoryData = {
       title: { en: "Certificates", hi: "प्रमाणपत्र" },
       description: { en: "Professional certificates", hi: "पेशेवर प्रमाणपत्र" },
       count: 89,
-      slug: "certificates",
+      slug: "certificate",
     },
   ],
   blogs: [

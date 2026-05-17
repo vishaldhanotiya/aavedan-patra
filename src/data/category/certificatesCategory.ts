@@ -64,7 +64,7 @@ export interface CategoryData {
 // CERTIFICATES CATEGORY
 // ===========================
 export const certificatesCategory: CategoryData = {
-  slug: "certificates",
+  slug: "certificate",
   name: {
     en: "Certificate Templates",
     hi: "प्रमाणपत्र टेम्पलेट",

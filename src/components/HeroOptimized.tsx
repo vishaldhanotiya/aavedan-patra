@@ -61,7 +61,7 @@ const quickNeeds: QuickNeed[] = [
     subtext: { en: "60+ templates", hi: "60+ टेम्पलेट" },
     color: "from-amber-500 to-orange-500",
     gradient: "from-amber-500/20 to-orange-500/20",
-    category: "certificates"
+    category: "certificate"
   },
 ];
 
