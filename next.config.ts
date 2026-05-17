@@ -169,6 +169,11 @@ const nextConfig: NextConfig = {
         permanent: true, // 301
       },
       {
+        source: "/applications/certificates",
+        destination: "/applications/certificate",
+        permanent: true, // 301
+      },
+      {
         source: "/applications/application-for-transfer-certificate-request",
         destination:
           "/applications/certificate/transfer-certificate-request-application",
@@ -176,8 +181,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-income-certificate",
-        destination:
-          "/applications/certificate/income-certificate-application",
+        destination: "/applications/certificate/income-certificate-application",
         permanent: true, // 301
       },
       {
@@ -198,12 +202,14 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/applications/application-for-office-assistant-job",
-        destination: "/applications/job/office-assistant-job-application-formats",
+        destination:
+          "/applications/job/office-assistant-job-application-formats",
         permanent: true, // 301
       },
       {
         source: "/applications/application-for-software-engineer-job",
-        destination: "/applications/job/software-engineer-job-application-formats",
+        destination:
+          "/applications/job/software-engineer-job-application-formats",
         permanent: true, // 301
       },
       {
