@@ -28,7 +28,6 @@ import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import {
   buildArticleSchema,
-  buildBreadcrumbListSchema,
   buildFaqPageSchema,
   buildHowToSchema,
 } from "@/lib/pillarSchema";
@@ -240,7 +239,6 @@ export function PillarTemplateDetailsPage({
 
   const schemas = [
     buildFaqPageSchema(schemaInput),
-    buildBreadcrumbListSchema(schemaInput, "https://aavedanpatra.in"),
     buildArticleSchema(schemaInput, "https://aavedanpatra.in"),
     ...(data.howToWrite.tips.length > 0 ? [buildHowToSchema(schemaInput)] : []),
   ];

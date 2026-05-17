@@ -2,6 +2,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { ThemeProvider } from "@/contexts/ThemeProvider";
+import { GlobalBreadcrumbSchema } from "@/components/GlobalBreadcrumbSchema";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { createMetadata } from "@/metadata/metadata";
@@ -22,12 +23,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hi">
+      <head>
+        <link
+          rel="alternate"
+          hrefLang="hi-IN"
+          href="https://aavedanpatra.in"
+        />
+      </head>
       {process.env.NODE_ENV !== "development" && (
         <GoogleAnalytics gaId="G-33VXHQ194F" />
       )}
       <body>
         <ThemeProvider>
           <LanguageProvider>
+            <GlobalBreadcrumbSchema />
             <LanguageSwitcher />
             <ThemeToggle />
             {children}
