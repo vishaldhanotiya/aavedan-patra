@@ -94,32 +94,32 @@ Sincerely,
     tips: [
       {
         text: {
-          en: "Clearly describe the issue such as noise, parking, garbage, or disturbance.",
-          hi: "शोर, पार्किंग, कचरा या अन्य परेशानी जैसी समस्या को स्पष्ट रूप से लिखें।",
+          en: "Clearly describe the neighbor-related issue such as noise, parking, garbage, pets, or property disturbance.",
+          hi: "शोर, पार्किंग, कचरा, पालतू जानवर या संपत्ति से जुड़ी पड़ोसी समस्या स्पष्ट रूप से लिखें।",
         },
       },
       {
         text: {
-          en: "Mention the date, time, and frequency of the problem if possible.",
-          hi: "संभव हो तो समस्या की तारीख, समय और आवृत्ति का उल्लेख करें।",
+          en: "Mention dates, times, frequency, and any previous polite requests you made.",
+          hi: "तारीख, समय, समस्या की आवृत्ति और पहले किए गए विनम्र अनुरोधों का उल्लेख करें।",
         },
       },
       {
         text: {
-          en: "Use polite and respectful language without personal attacks.",
-          hi: "व्यक्तिगत आरोप लगाए बिना विनम्र और सम्मानजनक भाषा का उपयोग करें।",
+          en: "Use polite language and focus on the problem instead of making personal attacks.",
+          hi: "विनम्र भाषा का उपयोग करें और व्यक्तिगत आरोपों के बजाय समस्या पर ध्यान दें।",
         },
       },
       {
         text: {
-          en: "Explain how the issue is affecting you or your family.",
-          hi: "बताएँ कि यह समस्या आपको या आपके परिवार को कैसे प्रभावित कर रही है।",
+          en: "Explain the impact on sleep, health, safety, cleanliness, or daily routine.",
+          hi: "नींद, स्वास्थ्य, सुरक्षा, सफाई या दैनिक दिनचर्या पर पड़ने वाला प्रभाव बताएं।",
         },
       },
       {
         text: {
-          en: "Request a peaceful resolution or appropriate action from the authority.",
-          hi: "शांतिपूर्ण समाधान या उचित कार्रवाई का अनुरोध करें।",
+          en: "Request a peaceful solution, society intervention, or official action if the issue continues.",
+          hi: "समस्या जारी रहने पर शांतिपूर्ण समाधान, सोसायटी हस्तक्षेप या आधिकारिक कार्रवाई का अनुरोध करें।",
         },
       },
     ],

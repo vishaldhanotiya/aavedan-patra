@@ -20,12 +20,12 @@ export const homeLoanTemplate = {
 
   title: {
     en: "Home Loan Application",
-    hi: "होम लोन के लिए आवेदन पत्र",
+    hi: "होम लोन आवेदन",
   },
 
   subtitle: {
-    en: "Learn how to write a home loan application for purchasing or constructing a house. This page includes the correct format, ready-to-use sample applications, important details required by banks or housing finance companies, and tips to make your loan request clear and professionally written.",
-    hi: "होम लोन के लिए आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है। इस पेज पर घर खरीदने या निर्माण के लिए लोन लेने हेतु सही प्रारूप, तैयार नमूना आवेदन पत्र, बैंक या हाउसिंग फाइनेंस कंपनियों द्वारा मांगी जाने वाली आवश्यक जानकारी और आवेदन को प्रभावी बनाने के महत्वपूर्ण सुझाव दिए गए हैं।",
+    en: "Application format for requesting a home loan from a bank or housing finance company for purchasing, constructing, or renovating a house.",
+    hi: "मकान खरीदने, निर्माण करने या रिनोवेशन के लिए बैंक या हाउसिंग फाइनेंस कंपनी से होम लोन मांगने का आवेदन प्रारूप। प्रॉपर्टी विवरण, आय प्रमाण और जरूरी दस्तावेज शामिल करें।",
   },
 
   category: { en: "Loan Applications", hi: "ऋण आवेदन" },

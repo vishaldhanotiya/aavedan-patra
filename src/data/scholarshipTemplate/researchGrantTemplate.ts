@@ -86,38 +86,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Scholarship Application",
-      hi: "छात्रवृत्ति आवेदन कैसे लिखें",
+      en: "How to Write a Research Grant Application",
+      hi: "रिसर्च ग्रांट आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your academic achievements clearly.",
-          hi: "अपनी शैक्षणिक उपलब्धियों का स्पष्ट उल्लेख करें।",
+          en: "State your research topic, objective, and expected academic or social impact clearly.",
+          hi: "अपने शोध विषय, उद्देश्य और अपेक्षित शैक्षणिक या सामाजिक प्रभाव को स्पष्ट लिखें।",
         },
       },
       {
         text: {
-          en: "Explain why you need the scholarship.",
-          hi: "बताएँ कि आपको छात्रवृत्ति की आवश्यकता क्यों है।",
+          en: "Explain why funding is required and how the grant amount will be used.",
+          hi: "बताएँ कि फंडिंग क्यों आवश्यक है और ग्रांट राशि का उपयोग कैसे होगा।",
         },
       },
       {
         text: {
-          en: "Keep the content honest and factual.",
-          hi: "सामग्री को ईमानदार और तथ्यात्मक रखें।",
+          en: "Add a brief research timeline, methodology, and budget summary.",
+          hi: "संक्षिप्त शोध समयरेखा, पद्धति और बजट सारांश जोड़ें।",
         },
       },
       {
         text: {
-          en: "Attach required documents like marksheets, ID, certificates.",
-          hi: "आवश्यक दस्तावेज़ जैसे मार्कशीट, आईडी, प्रमाणपत्र संलग्न करें।",
+          en: "Attach the research proposal, supervisor recommendation, CV, and relevant publications.",
+          hi: "रिसर्च प्रस्ताव, सुपरवाइजर की अनुशंसा, CV और संबंधित प्रकाशन संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Keep tone formal and respectful.",
-          hi: "लहजे को औपचारिक और सम्मानजनक रखें।",
+          en: "Keep the tone formal and show how the project matches the grant program.",
+          hi: "लहजे को औपचारिक रखें और दिखाएँ कि प्रोजेक्ट ग्रांट कार्यक्रम से कैसे मेल खाता है।",
         },
       },
     ],

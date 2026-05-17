@@ -14,11 +14,11 @@ export const meritScholarshipTemplate = {
   },
   title: {
     en: "Merit-Based Scholarship Application",
-    hi: "मेरिट छात्रवृत्ति आवेदन पत्र",
+    hi: "मेरिट छात्रवृत्ति आवेदन",
   },
   subtitle: {
-    en: "Pre-designed formats for academic excellence scholarship, high score based scholarship, competitive exam merit scholarship, and top-performer grant applications.",
-    hi: "शैक्षणिक उत्कृष्टता छात्रवृत्ति, उच्च अंक आधारित छात्रवृत्ति, प्रतियोगी परीक्षा मेधा छात्रवृत्ति और शीर्ष प्रदर्शनकर्ता अनुदान आवेदन के पूर्व-प्रारूपित प्रारूप।",
+    en: "Application formats for high-scoring students applying for merit scholarships, academic excellence awards, competitive exam scholarships, and top-performer grants.",
+    hi: "परीक्षा में उच्च अंक, प्रथम/द्वितीय स्थान या उत्कृष्ट शैक्षणिक प्रदर्शन के आधार पर मेरिट छात्रवृत्ति के लिए तैयार आवेदन प्रारूप। अंक तालिका और प्रमाण पत्र संलग्न करने के स्पष्ट सुझाव शामिल हैं।",
   },
 
   category: {

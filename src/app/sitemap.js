@@ -269,7 +269,7 @@ export default function sitemap() {
     },
     {
       url: "https://aavedanpatra.in/applications/loan/home-loan-application",
-      lastModified: "2026-05-14",
+      lastModified: "2026-05-17",
     },
     {
       url: "https://aavedanpatra.in/applications/loan/personal-loan-application",
@@ -327,7 +327,7 @@ export default function sitemap() {
     },
     {
       url: "https://aavedanpatra.in/applications/scholarship/merit-based-scholarship-application",
-      lastModified: "2026-05-14",
+      lastModified: "2026-05-17",
     },
     {
       url: "https://aavedanpatra.in/applications/scholarship/research-grant-application",

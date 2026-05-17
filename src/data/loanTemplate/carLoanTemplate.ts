@@ -108,38 +108,38 @@ Yours sincerely,
   // ----------------------------------------------------
   howToWrite: {
     title: {
-      en: "Tips to Write a Perfect Loan Application",
-      hi: "सही लोन आवेदन लिखने के टिप्स",
+      en: "Tips to Write a Perfect Car Loan Application",
+      hi: "सही कार लोन आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
-          en: "Mention the exact loan amount and reason clearly.",
-          hi: "लोन राशि और कारण को स्पष्ट रूप से लिखें।",
+          en: "Mention the car model, variant, on-road price, and requested loan amount clearly.",
+          hi: "कार मॉडल, वैरिएंट, ऑन-रोड कीमत और मांगी गई लोन राशि स्पष्ट रूप से लिखें।",
         },
       },
       {
         text: {
-          en: "Provide accurate financial and employment details.",
-          hi: "सही वित्तीय और रोजगार विवरण प्रदान करें।",
+          en: "Attach the dealer quotation, proforma invoice, or booking receipt if available.",
+          hi: "डीलर कोटेशन, प्रोफॉर्मा इनवॉइस या बुकिंग रसीद उपलब्ध हो तो संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Maintain a formal and respectful tone.",
-          hi: "औपचारिक और विनम्र भाषा का उपयोग करें।",
+          en: "Include your income proof and preferred EMI tenure to show repayment capacity.",
+          hi: "भुगतान क्षमता दिखाने के लिए आय प्रमाण और पसंदीदा EMI अवधि शामिल करें।",
         },
       },
       {
         text: {
-          en: "Attach all required supporting documents.",
-          hi: "सभी आवश्यक दस्तावेज संलग्न करें।",
+          en: "Mention expected RTO registration, insurance, and down payment details where relevant.",
+          hi: "जहाँ लागू हो, RTO रजिस्ट्रेशन, इंश्योरेंस और डाउन पेमेंट विवरण लिखें।",
         },
       },
       {
         text: {
-          en: "Keep the letter simple, clear and direct.",
-          hi: "पत्र को सरल, स्पष्ट और सीधा रखें।",
+          en: "Keep the request formal, short, and focused on vehicle purchase financing.",
+          hi: "अनुरोध को औपचारिक, संक्षिप्त और वाहन खरीद फाइनेंस पर केंद्रित रखें।",
         },
       },
     ],
