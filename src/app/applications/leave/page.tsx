@@ -7,7 +7,7 @@ export const metadata = createMetadata({
     "छुट्टी आवेदन पत्र हिंदी में – Leave Application Format - AavedanPatra",
   description:
     "स्कूल, कॉलेज और ऑफिस के लिए बीमारी, यात्रा, पर्सनल और तत्काल छुट्टी आवेदन पत्र। सरल हिंदी फॉर्मेट, तैयार नमूने",
-  path: "/applications/job",
+  path: "/applications/leave",
   type: "website",
 });
 

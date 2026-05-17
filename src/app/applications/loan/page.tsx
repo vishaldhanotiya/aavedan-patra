@@ -6,7 +6,7 @@ export const metadata = createMetadata({
     title: "लोन आवेदन पत्र – होम, कार, पर्सनल, एजुकेशन, बिजनेस - AavedanPatra",
     description:
       "होम लोन, कार लोन, पर्सनल लोन, एजुकेशन लोन और बिजनेस लोन के लिए हिंदी में आवेदन प्रारूप। बैंक और एनबीएफसी के लिए तैयार टेम्पलेट।",
-  path: "/applications/job",
+  path: "/applications/loan",
   type: "website",
 });
 
