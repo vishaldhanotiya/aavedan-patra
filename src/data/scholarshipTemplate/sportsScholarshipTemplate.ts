@@ -89,38 +89,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Scholarship Application",
-      hi: "छात्रवृत्ति आवेदन कैसे लिखें",
+      en: "How to Write a Sports Scholarship Application",
+      hi: "स्पोर्ट्स छात्रवृत्ति आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your academic achievements clearly.",
-          hi: "अपनी शैक्षणिक उपलब्धियों का स्पष्ट उल्लेख करें।",
+          en: "Highlight your sports achievements, medals, and tournament participation.",
+          hi: "अपनी खेल उपलब्धियाँ, मेडल और प्रतियोगिताओं में भागीदारी का उल्लेख करें।",
         },
       },
       {
         text: {
-          en: "Explain why you need the scholarship.",
-          hi: "बताएँ कि आपको छात्रवृत्ति की आवश्यकता क्यों है।",
+          en: "Mention your sport, playing level, and recent performance records.",
+          hi: "अपने खेल, प्रदर्शन स्तर और हाल की उपलब्धियों की जानकारी दें।",
         },
       },
       {
         text: {
-          en: "Keep the content honest and factual.",
-          hi: "सामग्री को ईमानदार और तथ्यात्मक रखें।",
+          en: "Attach sports certificates, ranking proofs, and achievement documents.",
+          hi: "खेल प्रमाणपत्र, रैंकिंग प्रमाण और उपलब्धि दस्तावेज संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Attach required documents like marksheets, ID, certificates.",
-          hi: "आवश्यक दस्तावेज़ जैसे मार्कशीट, आईडी, प्रमाणपत्र संलग्न करें।",
+          en: "Include recommendation details from your coach or sports authority if available.",
+          hi: "यदि उपलब्ध हो तो कोच या खेल प्राधिकरण की सिफारिश शामिल करें।",
         },
       },
       {
         text: {
-          en: "Keep tone formal and respectful.",
-          hi: "लहजे को औपचारिक और सम्मानजनक रखें।",
+          en: "Maintain an honest, professional, and confident tone throughout the application.",
+          hi: "पूरे आवेदन में ईमानदार, पेशेवर और आत्मविश्वासी भाषा रखें।",
         },
       },
     ],

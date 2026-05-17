@@ -116,38 +116,38 @@ Sincerely,
   // ----------------------------------------------------
   howToWrite: {
     title: {
-      en: "Tips to Write a Perfect Loan Application",
-      hi: "सही लोन आवेदन लिखने के टिप्स",
+      en: "Tips to Write an Education Loan Application",
+      hi: "शिक्षा ऋण आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
-          en: "Mention the exact loan amount and reason clearly.",
-          hi: "लोन राशि और कारण को स्पष्ट रूप से लिखें।",
+          en: "Mention the course name, college, and total education expenses clearly.",
+          hi: "कोर्स का नाम, कॉलेज और कुल शिक्षा खर्च स्पष्ट रूप से लिखें।",
         },
       },
       {
         text: {
-          en: "Provide accurate financial and employment details.",
-          hi: "सही वित्तीय और रोजगार विवरण प्रदान करें।",
+          en: "Include details of the co-applicant or guardian if required by the bank.",
+          hi: "यदि बैंक द्वारा आवश्यक हो तो सह-आवेदक या अभिभावक की जानकारी जोड़ें।",
         },
       },
       {
         text: {
-          en: "Maintain a formal and respectful tone.",
-          hi: "औपचारिक और विनम्र भाषा का उपयोग करें।",
+          en: "Attach admission proof, fee structure, and academic records.",
+          hi: "प्रवेश प्रमाण, फीस संरचना और शैक्षणिक रिकॉर्ड संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Attach all required supporting documents.",
-          hi: "सभी आवश्यक दस्तावेज संलग्न करें।",
+          en: "Mention repayment plans or future career goals confidently.",
+          hi: "भविष्य की करियर योजना या ऋण चुकाने की क्षमता का उल्लेख करें।",
         },
       },
       {
         text: {
-          en: "Keep the letter simple, clear and direct.",
-          hi: "पत्र को सरल, स्पष्ट और सीधा रखें।",
+          en: "Keep the application formal, concise, and factually accurate.",
+          hi: "आवेदन को औपचारिक, संक्षिप्त और तथ्यात्मक रखें।",
         },
       },
     ],
@@ -195,95 +195,95 @@ Sincerely,
     },
   ],
 
-blogArticles: [
-  {
-    title: {
-      en: "How to Write an Education Loan Application",
-      hi: "शिक्षा लोन आवेदन कैसे लिखें",
+  blogArticles: [
+    {
+      title: {
+        en: "How to Write an Education Loan Application",
+        hi: "शिक्षा लोन आवेदन कैसे लिखें",
+      },
+      excerpt: {
+        en: "Simple tips to write a professional education loan application for faster approval.",
+        hi: "तेज़ स्वीकृति के लिए पेशेवर शिक्षा लोन आवेदन लिखने के आसान सुझाव।",
+      },
+      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+      link: "/blog/how-to-write-education-loan-application",
     },
-    excerpt: {
-      en: "Simple tips to write a professional education loan application for faster approval.",
-      hi: "तेज़ स्वीकृति के लिए पेशेवर शिक्षा लोन आवेदन लिखने के आसान सुझाव।",
+    {
+      title: {
+        en: "Documents Required for Education Loan Approval",
+        hi: "शिक्षा लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
+      },
+      excerpt: {
+        en: "Checklist of important documents needed for education loan applications.",
+        hi: "शिक्षा लोन आवेदन के लिए आवश्यक महत्वपूर्ण दस्तावेज़ों की सूची।",
+      },
+      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+      link: "/blog/education-loan-documents",
     },
-    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-    link: "/blog/how-to-write-education-loan-application",
-  },
-  {
-    title: {
-      en: "Documents Required for Education Loan Approval",
-      hi: "शिक्षा लोन स्वीकृति के लिए आवश्यक दस्तावेज़",
+    {
+      title: {
+        en: "Common Mistakes in Education Loan Applications",
+        hi: "शिक्षा लोन आवेदनों में सामान्य गलतियाँ",
+      },
+      excerpt: {
+        en: "Avoid these mistakes to improve your education loan approval chances.",
+        hi: "शिक्षा लोन स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
+      },
+      readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
+      link: "/blog/education-loan-application-mistakes",
     },
-    excerpt: {
-      en: "Checklist of important documents needed for education loan applications.",
-      hi: "शिक्षा लोन आवेदन के लिए आवश्यक महत्वपूर्ण दस्तावेज़ों की सूची।",
-    },
-    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-    link: "/blog/education-loan-documents",
-  },
-  {
-    title: {
-      en: "Common Mistakes in Education Loan Applications",
-      hi: "शिक्षा लोन आवेदनों में सामान्य गलतियाँ",
-    },
-    excerpt: {
-      en: "Avoid these mistakes to improve your education loan approval chances.",
-      hi: "शिक्षा लोन स्वीकृति की संभावना बढ़ाने के लिए इन गलतियों से बचें।",
-    },
-    readTime: { en: "6 min read", hi: "6 मिनट पढ़ें" },
-    link: "/blog/education-loan-application-mistakes",
-  },
-],
+  ],
 
-faqs: [
-  {
-    question: {
-      en: "How long should an education loan application be?",
-      hi: "शिक्षा लोन आवेदन कितना लंबा होना चाहिए?",
+  faqs: [
+    {
+      question: {
+        en: "How long should an education loan application be?",
+        hi: "शिक्षा लोन आवेदन कितना लंबा होना चाहिए?",
+      },
+      answer: {
+        en: "One page is usually enough. Keep the information clear, accurate, and professional.",
+        hi: "आमतौर पर एक पेज पर्याप्त होता है। जानकारी स्पष्ट, सटीक और पेशेवर रखें।",
+      },
     },
-    answer: {
-      en: "One page is usually enough. Keep the information clear, accurate, and professional.",
-      hi: "आमतौर पर एक पेज पर्याप्त होता है। जानकारी स्पष्ट, सटीक और पेशेवर रखें।",
+    {
+      question: {
+        en: "Should I mention my admission details in the application?",
+        hi: "क्या मुझे आवेदन में अपने प्रवेश विवरण का उल्लेख करना चाहिए?",
+      },
+      answer: {
+        en: "Yes, mentioning course, institution, and admission details helps the bank process your loan faster.",
+        hi: "हाँ, कोर्स, संस्थान और प्रवेश विवरण लिखने से बैंक को लोन प्रक्रिया तेज़ करने में मदद मिलती है।",
+      },
     },
-  },
-  {
-    question: {
-      en: "Should I mention my admission details in the application?",
-      hi: "क्या मुझे आवेदन में अपने प्रवेश विवरण का उल्लेख करना चाहिए?",
+    {
+      question: {
+        en: "Is income proof necessary for an education loan?",
+        hi: "क्या शिक्षा लोन के लिए आय प्रमाण आवश्यक है?",
+      },
+      answer: {
+        en: "Yes, income proof of parents or guardians is generally required for education loan approval.",
+        hi: "हाँ, शिक्षा लोन स्वीकृति के लिए आमतौर पर माता-पिता या अभिभावकों का आय प्रमाण आवश्यक होता है।",
+      },
     },
-    answer: {
-      en: "Yes, mentioning course, institution, and admission details helps the bank process your loan faster.",
-      hi: "हाँ, कोर्स, संस्थान और प्रवेश विवरण लिखने से बैंक को लोन प्रक्रिया तेज़ करने में मदद मिलती है।",
+    {
+      question: {
+        en: "How long does education loan approval take?",
+        hi: "शिक्षा लोन स्वीकृति में कितना समय लगता है?",
+      },
+      answer: {
+        en: "Depending on the bank and verification process, approval may take 5–10 working days.",
+        hi: "बैंक और सत्यापन प्रक्रिया के अनुसार स्वीकृति में 5–10 कार्य दिवस लग सकते हैं।",
+      },
     },
-  },
-  {
-    question: {
-      en: "Is income proof necessary for an education loan?",
-      hi: "क्या शिक्षा लोन के लिए आय प्रमाण आवश्यक है?",
+    {
+      question: {
+        en: "Can I apply for an education loan online?",
+        hi: "क्या मैं शिक्षा लोन के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
+      },
+      answer: {
+        en: "Yes, most banks and financial institutions provide online education loan application facilities.",
+        hi: "हाँ, अधिकांश बैंक और वित्तीय संस्थान ऑनलाइन शिक्षा लोन आवेदन की सुविधा प्रदान करते हैं।",
+      },
     },
-    answer: {
-      en: "Yes, income proof of parents or guardians is generally required for education loan approval.",
-      hi: "हाँ, शिक्षा लोन स्वीकृति के लिए आमतौर पर माता-पिता या अभिभावकों का आय प्रमाण आवश्यक होता है।",
-    },
-  },
-  {
-    question: {
-      en: "How long does education loan approval take?",
-      hi: "शिक्षा लोन स्वीकृति में कितना समय लगता है?",
-    },
-    answer: {
-      en: "Depending on the bank and verification process, approval may take 5–10 working days.",
-      hi: "बैंक और सत्यापन प्रक्रिया के अनुसार स्वीकृति में 5–10 कार्य दिवस लग सकते हैं।",
-    },
-  },
-  {
-    question: {
-      en: "Can I apply for an education loan online?",
-      hi: "क्या मैं शिक्षा लोन के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
-    },
-    answer: {
-      en: "Yes, most banks and financial institutions provide online education loan application facilities.",
-      hi: "हाँ, अधिकांश बैंक और वित्तीय संस्थान ऑनलाइन शिक्षा लोन आवेदन की सुविधा प्रदान करते हैं।",
-    },
-  },
-],
+  ],
 };

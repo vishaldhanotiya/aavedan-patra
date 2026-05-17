@@ -88,35 +88,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Complaint Letter",
-      hi: "शिकायत पत्र कैसे लिखें",
+      en: "How to Write a Neighbor Complaint Letter",
+      hi: "पड़ोसी शिकायत पत्र कैसे लिखें",
     },
     tips: [
       {
-        text: { en: "Be clear and factual.", hi: "स्पष्ट और तथ्यपूर्ण रहें।" },
-      },
-      {
         text: {
-          en: "Mention date, receipt, order ID if applicable.",
-          hi: "तिथि, रसीद या ऑर्डर ID अवश्य लिखें।",
+          en: "Clearly describe the issue such as noise, parking, garbage, or disturbance.",
+          hi: "शोर, पार्किंग, कचरा या अन्य परेशानी जैसी समस्या को स्पष्ट रूप से लिखें।",
         },
       },
       {
         text: {
-          en: "Avoid emotional or rude language.",
-          hi: "भावुक या अशिष्ट भाषा न लिखें।",
+          en: "Mention the date, time, and frequency of the problem if possible.",
+          hi: "संभव हो तो समस्या की तारीख, समय और आवृत्ति का उल्लेख करें।",
         },
       },
       {
         text: {
-          en: "Request a proper action or resolution.",
-          hi: "उचित कार्रवाई या समाधान का अनुरोध करें।",
+          en: "Use polite and respectful language without personal attacks.",
+          hi: "व्यक्तिगत आरोप लगाए बिना विनम्र और सम्मानजनक भाषा का उपयोग करें।",
         },
       },
       {
         text: {
-          en: "Attach documents or photos if needed.",
-          hi: "जरूरत पड़े तो दस्तावेज़ या फोटो संलग्न करें।",
+          en: "Explain how the issue is affecting you or your family.",
+          hi: "बताएँ कि यह समस्या आपको या आपके परिवार को कैसे प्रभावित कर रही है।",
+        },
+      },
+      {
+        text: {
+          en: "Request a peaceful resolution or appropriate action from the authority.",
+          hi: "शांतिपूर्ण समाधान या उचित कार्रवाई का अनुरोध करें।",
         },
       },
     ],
