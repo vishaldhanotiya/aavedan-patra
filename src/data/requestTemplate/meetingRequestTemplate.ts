@@ -14,13 +14,13 @@ export const meetingRequestTemplate = {
   },
 
   title: {
-    en: "Request Application Letters",
-    hi: "अनुरोध आवेदन पत्र",
+    en: "Meeting Request Letter",
+    hi: "बैठक अनुरोध पत्र",
   },
 
   subtitle: {
-    en: "Professional formats for permission, information, meetings, sponsorship, donation, and recommendation requests.",
-    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।",
+    en: "Learn how to draft an effective meeting request letter for business, office, client, school, or formal discussions with ready-to-use templates.",
+    hi: "व्यवसाय, ऑफिस, ग्राहक, स्कूल या औपचारिक चर्चाओं के लिए प्रभावी बैठक अनुरोध पत्र लिखना सीखें। रेडी-टू-यूज़ टेम्पलेट्स शामिल हैं।",
   },
 
   category: {

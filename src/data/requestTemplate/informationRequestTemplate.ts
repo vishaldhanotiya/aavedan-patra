@@ -14,13 +14,13 @@ export const informationRequestTemplate = {
   },
 
   title: {
-    en: "Request Application Letters",
-    hi: "अनुरोध आवेदन पत्र",
+    en: "Information Request Letter",
+    hi: "जानकारी अनुरोध पत्र",
   },
 
   subtitle: {
-    en: "Professional formats for permission, information, meetings, sponsorship, donation, and recommendation requests.",
-    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।",
+    en: "Explore professional information request letter formats and examples to request details, documents, records, or clarification from organizations or individuals.",
+    hi: "संगठनों या व्यक्तियों से विवरण, दस्तावेज़, रिकॉर्ड या स्पष्टीकरण का अनुरोध करने के लिए पेशेवर सूचना अनुरोध पत्र प्रारूप और उदाहरण देखें।",
   },
 
   category: {

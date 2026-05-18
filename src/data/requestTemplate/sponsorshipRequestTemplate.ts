@@ -14,13 +14,13 @@ export const sponsorshipRequestTemplate = {
   },
 
   title: {
-    en: "Request Application Letters",
-    hi: "अनुरोध आवेदन पत्र",
+    en: "Sponsorship Request Letter",
+    hi: "प्रायोजन अनुरोध पत्र",
   },
 
   subtitle: {
-    en: "Professional formats for permission, information, meetings, sponsorship, donation, and recommendation requests.",
-    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।",
+    en: "Learn how to write a professional sponsorship request letter with proper format, examples, tips, and editable templates for events, education, sports, and business sponsorships.",
+    hi: " प्रायोजन अनुरोध पत्र – सही प्रारूप, उदाहरण, टिप्स और संपादन योग्य टेम्पलेट्स के साथ। कार्यक्रमों, शिक्षा, खेल और व्यवसायिक प्रायोजन हेतु",
   },
 
   category: {

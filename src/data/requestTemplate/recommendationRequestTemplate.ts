@@ -14,13 +14,13 @@ export const recommendationRequestTemplate = {
   },
 
   title: {
-    en: "Request Application Letters",
-    hi: "अनुरोध आवेदन पत्र",
+    en: "Recommendation Request Letter",
+    hi: "सिफारिश अनुरोध पत्र",
   },
 
   subtitle: {
-    en: "Professional formats for permission, information, meetings, sponsorship, donation, and recommendation requests.",
-    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।",
+    en: "Find the best formats and examples to write a recommendation request letter for jobs, colleges, scholarships, internships, and professional references.",
+    hi: "नौकरी, कॉलेज, छात्रवृत्ति, इंटर्नशिप और पेशेवर संदर्भ के लिए अनुशंसा अनुरोध पत्र लिखने के सर्वश्रेष्ठ प्रारूप और उदाहरण खोजें।",
   },
 
   category: {

@@ -14,13 +14,13 @@ export const permissionRequestTemplate = {
   },
 
   title: {
-    en: "Request Application Letters",
-    hi: "अनुरोध आवेदन पत्र",
+    en: "Permission Request Letter",
+    hi: "अनुमति अनुरोध पत्र",
   },
 
   subtitle: {
-    en: "Professional formats for permission, information, meetings, sponsorship, donation, and recommendation requests.",
-    hi: "अनुमति, जानकारी, बैठक, प्रायोजन, दान और सिफारिश के अनुरोध हेतु पेशेवर प्रारूप।",
+    en: "Discover the correct way to write a permission request letter for school, office, travel, events, leave, and other official purposes with sample formats.",
+    hi: "स्कूल, ऑफिस, यात्रा, कार्यक्रम, छुट्टी और अन्य आधिकारिक प्रयोजनों के लिए अनुमति अनुरोध पत्र लिखने का सही तरीका",
   },
 
   category: {
