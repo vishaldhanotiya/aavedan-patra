@@ -26,6 +26,7 @@ import { TemplateEditorModal } from "./TemplateEditorModal";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { trackContentFeedback } from "@/lib/feedbackAnalytics";
 import {
   buildArticleSchema,
   buildFaqPageSchema,
@@ -219,6 +220,13 @@ export function PillarTemplateDetailsPage({
 
   const handleFeedback = (type: "positive" | "negative") => {
     setFeedback(type);
+    trackContentFeedback({
+      vote: type,
+      contentType: "pillar_template",
+      pagePath: pathname,
+      pageTitle: data.title[language],
+      language,
+    });
     toast.success(
       language === "en"
         ? "Thank you for your feedback!"
@@ -242,6 +250,11 @@ export function PillarTemplateDetailsPage({
     buildArticleSchema(schemaInput, "https://aavedanpatra.in"),
     ...(data.howToWrite.tips.length > 0 ? [buildHowToSchema(schemaInput)] : []),
   ];
+  const backTarget = data.breadcrumb.subcategory.slug
+    ? data.breadcrumb.subcategory
+    : data.breadcrumb.category;
+  const backHref =
+    backTarget.slug || `/${backTarget.en.toLowerCase().replace(/\s+/g, "-")}`;
 
   return (
     <>
@@ -843,10 +856,10 @@ export function PillarTemplateDetailsPage({
               {/* Back to Category */}
               <div className="max-w-4xl mx-auto mt-16 text-center">
                 <Button asChild variant="outline" size="lg">
-                  <Link href={`/${data.breadcrumb.category.en.toLowerCase()}`}>
+                  <Link href={backHref}>
                     <ChevronRight className="w-5 h-5 mr-2 rotate-180" />
                     {language === "en" ? "Back to" : "वापस जाएं"}{" "}
-                    {data.breadcrumb.category[language]}
+                    {backTarget[language]}
                   </Link>
                 </Button>
               </div>

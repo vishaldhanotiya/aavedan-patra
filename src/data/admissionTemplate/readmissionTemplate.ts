@@ -14,13 +14,13 @@ export const readmissionTemplate = {
   },
 
   title: {
-    en: "Admission Application Letters",
-    hi: "प्रवेश आवेदन पत्र",
+    en: "Readmission Application Letter",
+    hi: "पुनः प्रवेश आवेदन पत्र",
   },
 
   subtitle: {
-    en: "Find ready-made formats for college, school, university, course admission, transfer, and readmission.",
-    hi: "कॉलेज, स्कूल, विश्वविद्यालय, कोर्स प्रवेश, ट्रांसफर और पुनः प्रवेश के तैयार आवेदन प्रारूप।",
+    en: "Ready-made readmission application format for students returning after a gap, absence, transfer, or discontinued studies.",
+    hi: "गैप, अनुपस्थिति, ट्रांसफर या पढ़ाई रुकने के बाद वापस प्रवेश लेने वाले छात्रों के लिए पुनः प्रवेश आवेदन प्रारूप।",
   },
 
   category: {
@@ -98,38 +98,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "Tips to Write an Admission Application",
-      hi: "प्रवेश आवेदन लिखने के टिप्स",
+      en: "Tips to Write a Readmission Application",
+      hi: "पुनः प्रवेश आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
-          en: "Clearly mention the purpose of admission.",
-          hi: "प्रवेश का उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention your previous class/course, roll number, admission number, and last attended session.",
+          hi: "अपनी पिछली कक्षा/कोर्स, रोल नंबर, प्रवेश संख्या और अंतिम उपस्थिति सत्र लिखें।",
         },
       },
       {
         text: {
-          en: "Keep the tone polite and formal.",
-          hi: "लहजा विनम्र और औपचारिक रखें।",
+          en: "Explain the reason for the gap or absence honestly and briefly.",
+          hi: "गैप या अनुपस्थिति का कारण ईमानदारी और संक्षेप में लिखें।",
         },
       },
       {
         text: {
-          en: "Add previous academic details where needed.",
-          hi: "आवश्यकतानुसार पूर्व शैक्षणिक विवरण जोड़ें।",
+          en: "Attach previous marksheet, fee clearance, transfer documents, or medical proof if relevant.",
+          hi: "जहाँ लागू हो वहाँ पिछली मार्कशीट, फीस क्लीयरेंस, ट्रांसफर दस्तावेज या मेडिकल प्रमाण संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Include supporting documents if required.",
-          hi: "आवश्यक होने पर सहायक दस्तावेज शामिल करें।",
+          en: "Request seat availability and permission to continue in the appropriate class or semester.",
+          hi: "उचित कक्षा या सेमेस्टर में जारी रखने के लिए सीट उपलब्धता और अनुमति का अनुरोध करें।",
         },
       },
       {
         text: {
-          en: "Keep the application short and clear.",
-          hi: "आवेदन को छोटा और स्पष्ट रखें।",
+          en: "Assure regular attendance, fee payment, and compliance with institution rules.",
+          hi: "नियमित उपस्थिति, फीस भुगतान और संस्था के नियमों का पालन करने का आश्वासन दें।",
         },
       },
     ],

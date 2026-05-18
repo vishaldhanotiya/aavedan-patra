@@ -97,33 +97,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Certificate Request Letter",
-      hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें",
+      en: "How to Write a Caste Certificate Application",
+      hi: "जाति प्रमाणपत्र आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your purpose clearly.",
-          hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the caste/community name and category exactly as used in official records.",
+          hi: "आधिकारिक रिकॉर्ड में दर्ज जाति/समुदाय का नाम और श्रेणी सही-सही लिखें।",
         },
       },
       {
         text: {
-          en: "Attach required documents.",
-          hi: "आवश्यक दस्तावेज संलग्न करें।",
-        },
-      },
-      { text: { en: "Keep the tone formal.", hi: "लहजे को औपचारिक रखें।" } },
-      {
-        text: {
-          en: "Include your ID/enrollment number.",
-          hi: "अपना आईडी/नामांकन नंबर जोड़ें।",
+          en: "State the purpose, such as reservation, scholarship, admission, job, or government scheme.",
+          hi: "आरक्षण, छात्रवृत्ति, प्रवेश, नौकरी या सरकारी योजना जैसे उद्देश्य को स्पष्ट करें।",
         },
       },
       {
         text: {
-          en: "Keep letter short and clear.",
-          hi: "पत्र को छोटा और स्पष्ट रखें।",
+          en: "Attach Aadhaar, address proof, family caste certificate, ration card, and school records if required.",
+          hi: "आधार, पता प्रमाण, परिवार का जाति प्रमाणपत्र, राशन कार्ड और स्कूल रिकॉर्ड यदि आवश्यक हों तो संलग्न करें।",
+        },
+      },
+      {
+        text: {
+          en: "Submit the request to the correct revenue authority, Tehsildar, SDM, or state portal.",
+          hi: "आवेदन सही राजस्व अधिकारी, तहसीलदार, एसडीएम या राज्य पोर्टल पर जमा करें।",
+        },
+      },
+      {
+        text: {
+          en: "Make sure names, father's name, address, and category match across all documents.",
+          hi: "सभी दस्तावेजों में नाम, पिता का नाम, पता और श्रेणी समान हों, यह सुनिश्चित करें।",
         },
       },
     ],

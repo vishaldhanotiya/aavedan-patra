@@ -97,33 +97,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Certificate Request Letter",
-      hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें",
+      en: "How to Write a Character Certificate Request",
+      hi: "चरित्र प्रमाणपत्र आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your purpose clearly.",
-          hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention whether the certificate is needed for a job, admission, visa, police verification, or another purpose.",
+          hi: "प्रमाणपत्र नौकरी, प्रवेश, वीजा, पुलिस सत्यापन या किसी अन्य उद्देश्य के लिए चाहिए, यह स्पष्ट लिखें।",
         },
       },
       {
         text: {
-          en: "Attach required documents.",
-          hi: "आवश्यक दस्तावेज संलग्न करें।",
-        },
-      },
-      { text: { en: "Keep the tone formal.", hi: "लहजे को औपचारिक रखें।" } },
-      {
-        text: {
-          en: "Include your ID/enrollment number.",
-          hi: "अपना आईडी/नामांकन नंबर जोड़ें।",
+          en: "Write your association with the institution, employer, or authority and the relevant dates.",
+          hi: "संस्था, नियोक्ता या प्राधिकरण से अपना संबंध और संबंधित तारीखें लिखें।",
         },
       },
       {
         text: {
-          en: "Keep letter short and clear.",
-          hi: "पत्र को छोटा और स्पष्ट रखें।",
+          en: "Include student ID, employee ID, or police reference number only if it applies.",
+          hi: "छात्र आईडी, कर्मचारी आईडी या पुलिस संदर्भ संख्या केवल तभी लिखें जब लागू हो।",
+        },
+      },
+      {
+        text: {
+          en: "Attach identity proof, address proof, photographs, and any clearance form requested by the authority.",
+          hi: "पहचान प्रमाण, पता प्रमाण, फोटो और प्राधिकरण द्वारा मांगा गया क्लीयरेंस फॉर्म संलग्न करें।",
+        },
+      },
+      {
+        text: {
+          en: "Use respectful wording and avoid making claims the issuing authority cannot verify.",
+          hi: "सम्मानजनक भाषा रखें और ऐसे दावे न करें जिन्हें जारी करने वाला प्राधिकरण सत्यापित नहीं कर सकता।",
         },
       },
     ],

@@ -98,33 +98,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Certificate Request Letter",
-      hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें",
+      en: "How to Write a Bonafide Certificate Request",
+      hi: "बोनाफाइड प्रमाणपत्र आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your purpose clearly.",
-          hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the purpose, such as scholarship, passport, bank account, exam, internship, or hostel verification.",
+          hi: "छात्रवृत्ति, पासपोर्ट, बैंक खाता, परीक्षा, इंटर्नशिप या हॉस्टल सत्यापन जैसे उद्देश्य को लिखें।",
         },
       },
       {
         text: {
-          en: "Attach required documents.",
-          hi: "आवश्यक दस्तावेज संलग्न करें।",
-        },
-      },
-      { text: { en: "Keep the tone formal.", hi: "लहजे को औपचारिक रखें।" } },
-      {
-        text: {
-          en: "Include your ID/enrollment number.",
-          hi: "अपना आईडी/नामांकन नंबर जोड़ें।",
+          en: "Add student name, class/course, roll number, admission number, and academic session.",
+          hi: "विद्यार्थी का नाम, कक्षा/कोर्स, रोल नंबर, प्रवेश संख्या और शैक्षणिक सत्र जोड़ें।",
         },
       },
       {
         text: {
-          en: "Keep letter short and clear.",
-          hi: "पत्र को छोटा और स्पष्ट रखें।",
+          en: "Attach student ID, fee receipt, application form, or department approval if required.",
+          hi: "यदि आवश्यक हो तो छात्र आईडी, फीस रसीद, आवेदन फॉर्म या विभागीय स्वीकृति संलग्न करें।",
+        },
+      },
+      {
+        text: {
+          en: "Request the certificate on institutional letterhead with seal and authorized signature.",
+          hi: "संस्था के लेटरहेड, मुहर और अधिकृत हस्ताक्षर के साथ प्रमाणपत्र जारी करने का अनुरोध करें।",
+        },
+      },
+      {
+        text: {
+          en: "Mention the submission deadline if the certificate is needed for an application date.",
+          hi: "यदि किसी आवेदन की अंतिम तारीख के लिए प्रमाणपत्र चाहिए तो समयसीमा अवश्य लिखें।",
         },
       },
     ],

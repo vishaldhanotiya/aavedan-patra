@@ -101,26 +101,26 @@ Sincerely,
       },
       {
         text: {
-          en: "Mention your sport, playing level, and recent performance records.",
-          hi: "अपने खेल, प्रदर्शन स्तर और हाल की उपलब्धियों की जानकारी दें।",
+          en: "Mention your sport, event/category, playing position, level, and recent performance records.",
+          hi: "अपने खेल, इवेंट/कैटेगरी, खेलने की पोजिशन, स्तर और हाल की उपलब्धियों की जानकारी दें।",
         },
       },
       {
         text: {
-          en: "Attach sports certificates, ranking proofs, and achievement documents.",
-          hi: "खेल प्रमाणपत्र, रैंकिंग प्रमाण और उपलब्धि दस्तावेज संलग्न करें।",
+          en: "Attach sports certificates, ranking proof, selection letters, and tournament result sheets.",
+          hi: "खेल प्रमाणपत्र, रैंकिंग प्रमाण, चयन पत्र और प्रतियोगिता परिणाम शीट संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Include recommendation details from your coach or sports authority if available.",
-          hi: "यदि उपलब्ध हो तो कोच या खेल प्राधिकरण की सिफारिश शामिल करें।",
+          en: "Include a coach reference, sports authority recommendation, or team manager verification if available.",
+          hi: "यदि उपलब्ध हो तो कोच संदर्भ, खेल प्राधिकरण की सिफारिश या टीम मैनेजर सत्यापन शामिल करें।",
         },
       },
       {
         text: {
-          en: "Maintain an honest, professional, and confident tone throughout the application.",
-          hi: "पूरे आवेदन में ईमानदार, पेशेवर और आत्मविश्वासी भाषा रखें।",
+          en: "Add a fitness certificate or medical clearance when the scholarship requires proof of physical readiness.",
+          hi: "यदि छात्रवृत्ति में शारीरिक फिटनेस प्रमाण चाहिए तो फिटनेस प्रमाणपत्र या मेडिकल क्लियरेंस जोड़ें।",
         },
       },
     ],

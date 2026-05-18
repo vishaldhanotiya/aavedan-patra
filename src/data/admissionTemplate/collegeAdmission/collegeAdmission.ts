@@ -99,38 +99,38 @@ Yours sincerely,
 
   howToWrite: {
     title: {
-      en: "Tips to Write an Admission Application",
-      hi: "प्रवेश आवेदन लिखने के टिप्स",
+      en: "Tips to Write a College Admission Application",
+      hi: "कॉलेज प्रवेश आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
-          en: "Clearly mention the purpose of admission.",
-          hi: "प्रवेश का उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the course, stream, semester/year, and admission session clearly.",
+          hi: "कोर्स, स्ट्रीम, सेमेस्टर/वर्ष और प्रवेश सत्र स्पष्ट रूप से लिखें।",
         },
       },
       {
         text: {
-          en: "Keep the tone polite and formal.",
-          hi: "लहजा विनम्र और औपचारिक रखें।",
+          en: "Add previous qualification details such as class 12, diploma, graduation, or entrance score.",
+          hi: "कक्षा 12, डिप्लोमा, स्नातक या प्रवेश परीक्षा स्कोर जैसे पूर्व योग्यता विवरण जोड़ें।",
         },
       },
       {
         text: {
-          en: "Add previous academic details where needed.",
-          hi: "आवश्यकतानुसार पूर्व शैक्षणिक विवरण जोड़ें।",
+          en: "Attach marksheets, transfer certificate, migration certificate, ID proof, and photographs if required.",
+          hi: "यदि आवश्यक हो तो मार्कशीट, ट्रांसफर सर्टिफिकेट, माइग्रेशन सर्टिफिकेट, पहचान प्रमाण और फोटो संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Include supporting documents if required.",
-          hi: "आवश्यक होने पर सहायक दस्तावेज शामिल करें।",
+          en: "Explain your interest in the college or program briefly without sounding exaggerated.",
+          hi: "कॉलेज या कार्यक्रम में अपनी रुचि संक्षेप में लिखें, पर अतिशयोक्ति न करें।",
         },
       },
       {
         text: {
-          en: "Keep the application short and clear.",
-          hi: "आवेदन को छोटा और स्पष्ट रखें।",
+          en: "Include parent or guardian contact details when the college admission office asks for them.",
+          hi: "यदि कॉलेज प्रवेश कार्यालय मांगे तो माता-पिता या अभिभावक का संपर्क विवरण शामिल करें।",
         },
       },
     ],

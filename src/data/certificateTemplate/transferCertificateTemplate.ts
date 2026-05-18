@@ -91,33 +91,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Certificate Request Letter",
-      hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें",
+      en: "How to Write a Transfer Certificate Request",
+      hi: "ट्रांसफर सर्टिफिकेट आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your purpose clearly.",
-          hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the student's name, class, roll number, and admission number clearly.",
+          hi: "विद्यार्थी का नाम, कक्षा, रोल नंबर और प्रवेश संख्या स्पष्ट रूप से लिखें।",
         },
       },
       {
         text: {
-          en: "Attach required documents.",
-          hi: "आवश्यक दस्तावेज संलग्न करें।",
-        },
-      },
-      { text: { en: "Keep the tone formal.", hi: "लहजे को औपचारिक रखें।" } },
-      {
-        text: {
-          en: "Include your ID/enrollment number.",
-          hi: "अपना आईडी/नामांकन नंबर जोड़ें।",
+          en: "State the reason for leaving, such as relocation, new admission, or school change.",
+          hi: "स्थान परिवर्तन, नए प्रवेश या स्कूल बदलने जैसे छोड़ने का कारण लिखें।",
         },
       },
       {
         text: {
-          en: "Keep letter short and clear.",
-          hi: "पत्र को छोटा और स्पष्ट रखें।",
+          en: "Confirm that fees, library books, and other school dues have been cleared.",
+          hi: "फीस, पुस्तकालय की पुस्तकें और अन्य स्कूल बकाया जमा होने की पुष्टि करें।",
+        },
+      },
+      {
+        text: {
+          en: "Attach parent ID proof, fee clearance receipt, and previous report card if requested.",
+          hi: "यदि मांगा जाए तो अभिभावक पहचान प्रमाण, फीस क्लीयरेंस रसीद और पिछला रिपोर्ट कार्ड संलग्न करें।",
+        },
+      },
+      {
+        text: {
+          en: "Request the TC, conduct certificate, and marksheet together if the new school needs them.",
+          hi: "यदि नए स्कूल को आवश्यकता हो तो टीसी, आचरण प्रमाणपत्र और मार्कशीट साथ में मांगें।",
         },
       },
     ],

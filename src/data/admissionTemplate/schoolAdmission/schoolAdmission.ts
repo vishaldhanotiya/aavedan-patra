@@ -102,32 +102,32 @@ Sincerely,
     tips: [
       {
         text: {
-          en: "Mention the student's name, class, and the academic session clearly.",
-          hi: "विद्यार्थी का नाम, कक्षा और शैक्षणिक सत्र स्पष्ट रूप से लिखें।",
+          en: "Mention the child's full name, date of birth, class sought, and academic session clearly.",
+          hi: "बच्चे का पूरा नाम, जन्म तिथि, जिस कक्षा में प्रवेश चाहिए और शैक्षणिक सत्र स्पष्ट लिखें।",
         },
       },
       {
         text: {
-          en: "Provide details of the previous school and academic background if applicable.",
-          hi: "यदि आवश्यक हो तो पिछले स्कूल और शैक्षणिक पृष्ठभूमि की जानकारी दें।",
+          en: "Attach the birth certificate or age proof because schools verify age eligibility by class.",
+          hi: "जन्म प्रमाणपत्र या आयु प्रमाण संलग्न करें क्योंकि स्कूल कक्षा के अनुसार आयु पात्रता जांचते हैं।",
         },
       },
       {
         text: {
-          en: "Include parent or guardian details along with contact information.",
-          hi: "माता-पिता या अभिभावक की जानकारी और संपर्क विवरण शामिल करें।",
+          en: "Add previous school details, report card, and transfer certificate if the child studied elsewhere.",
+          hi: "यदि बच्चा पहले कहीं पढ़ा है तो पिछले स्कूल का विवरण, रिपोर्ट कार्ड और ट्रांसफर सर्टिफिकेट जोड़ें।",
         },
       },
       {
         text: {
-          en: "Attach required documents such as birth certificate, marksheet, or transfer certificate.",
-          hi: "जन्म प्रमाणपत्र, मार्कशीट या ट्रांसफर सर्टिफिकेट जैसे आवश्यक दस्तावेज संलग्न करें।",
+          en: "Include parent or guardian details, address proof, contact number, and passport-size photographs.",
+          hi: "माता-पिता या अभिभावक का विवरण, पता प्रमाण, संपर्क नंबर और पासपोर्ट साइज फोटो शामिल करें।",
         },
       },
       {
         text: {
-          en: "Use polite and respectful language while requesting admission.",
-          hi: "प्रवेश का अनुरोध करते समय विनम्र और सम्मानजनक भाषा का उपयोग करें।",
+          en: "Mention vaccination record or health information for nursery and primary classes if the school asks for it.",
+          hi: "यदि स्कूल मांगे तो नर्सरी और प्राथमिक कक्षाओं के लिए टीकाकरण रिकॉर्ड या स्वास्थ्य जानकारी लिखें।",
         },
       },
     ],

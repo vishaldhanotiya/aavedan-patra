@@ -14,13 +14,13 @@ export const incomeCertificateTemplate = {
   },
 
   title: {
-    en: "Income Certificate Application",
-    hi: "आय प्रमाणपत्र आवेदन पत्र",
+    en: "Application Letter for Income Certificate",
+    hi: "आय प्रमाण पत्र के लिए आवेदन पत्र",
   },
 
   subtitle: {
-    en: "Ready-made formats for experience, income, TC, bonafide, character, and caste certificate applications.",
-    hi: "अनुभव, आय, टीसी, बोनाफाइड, चरित्र और जाति प्रमाणपत्र आवेदन के तैयार प्रारूप।",
+    en: "Ready-made income certificate application format for scholarship, government scheme, admission, subsidy, and financial assistance purposes.",
+    hi: "छात्रवृत्ति, सरकारी योजना, प्रवेश, सब्सिडी और आर्थिक सहायता हेतु आय प्रमाण पत्र आवेदन का तैयार प्रारूप।",
   },
 
   category: {
@@ -94,33 +94,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Certificate Request Letter",
-      hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें",
+      en: "How to Write an Income Certificate Application",
+      hi: "आय प्रमाणपत्र आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your purpose clearly.",
-          hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the exact purpose, such as scholarship, fee concession, government scheme, or admission.",
+          hi: "छात्रवृत्ति, फीस रियायत, सरकारी योजना या प्रवेश जैसे सही उद्देश्य को स्पष्ट लिखें।",
         },
       },
       {
         text: {
-          en: "Attach required documents.",
-          hi: "आवश्यक दस्तावेज संलग्न करें।",
-        },
-      },
-      { text: { en: "Keep the tone formal.", hi: "लहजे को औपचारिक रखें।" } },
-      {
-        text: {
-          en: "Include your ID/enrollment number.",
-          hi: "अपना आईडी/नामांकन नंबर जोड़ें।",
+          en: "Write the applicant's annual family income and income source carefully.",
+          hi: "आवेदक की वार्षिक पारिवारिक आय और आय के स्रोत को सावधानी से लिखें।",
         },
       },
       {
         text: {
-          en: "Keep letter short and clear.",
-          hi: "पत्र को छोटा और स्पष्ट रखें।",
+          en: "Attach income proof such as salary slip, employer certificate, ITR, pension record, or self-declaration.",
+          hi: "वेतन पर्ची, नियोक्ता प्रमाणपत्र, ITR, पेंशन रिकॉर्ड या स्व-घोषणा जैसे आय प्रमाण संलग्न करें।",
+        },
+      },
+      {
+        text: {
+          en: "Include identity proof, address proof, ration card, and any state portal application number if already generated.",
+          hi: "पहचान प्रमाण, पता प्रमाण, राशन कार्ड और यदि बना हो तो राज्य पोर्टल आवेदन नंबर शामिल करें।",
+        },
+      },
+      {
+        text: {
+          en: "Submit the application to the correct authority, usually the Tehsildar, SDM, revenue office, or local service center.",
+          hi: "आवेदन सही अधिकारी जैसे तहसीलदार, एसडीएम, राजस्व कार्यालय या लोक सेवा केंद्र में जमा करें।",
         },
       },
     ],
@@ -219,7 +224,7 @@ faqs: [
   {
     question: {
       en: "How long does it take to get an Income Certificate?",
-      hi: "आय प्रमाणपत्र प्राप्त करने में कितना time लगता है?",
+      hi: "आय प्रमाणपत्र प्राप्त करने में कितना समय लगता है?",
     },
     answer: {
       en: "The processing time generally ranges from 7 to 15 working days depending on the state authority.",

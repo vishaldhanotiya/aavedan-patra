@@ -528,7 +528,7 @@ export function UniversalSubcategoryPage({
                 : "अक्सर पूछे जाने वाले प्रश्न"}
             </h2>
             <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[24px] p-8">
-              <Accordion type="single" collapsible className="space-y-4">
+              <Accordion type="multiple" className="space-y-4">
                 {data.faqs.map((faq, index) => (
                   <AccordionItem
                     key={index}

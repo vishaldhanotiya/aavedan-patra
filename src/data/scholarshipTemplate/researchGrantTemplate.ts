@@ -110,14 +110,14 @@ Sincerely,
       },
       {
         text: {
-          en: "Attach the research proposal, supervisor recommendation, CV, and relevant publications.",
-          hi: "रिसर्च प्रस्ताव, सुपरवाइजर की अनुशंसा, CV और संबंधित प्रकाशन संलग्न करें।",
+          en: "Attach the research proposal, supervisor approval or signature, CV, and relevant publications.",
+          hi: "रिसर्च प्रस्ताव, सुपरवाइजर की स्वीकृति या हस्ताक्षर, CV और संबंधित प्रकाशन संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Keep the tone formal and show how the project matches the grant program.",
-          hi: "लहजे को औपचारिक रखें और दिखाएँ कि प्रोजेक्ट ग्रांट कार्यक्रम से कैसे मेल खाता है।",
+          en: "Mention ethics approval, lab access, field permission, or institutional support if the project needs it.",
+          hi: "यदि परियोजना में आवश्यकता हो तो एथिक्स अप्रूवल, लैब सुविधा, फील्ड अनुमति या संस्थागत समर्थन का उल्लेख करें।",
         },
       },
     ],

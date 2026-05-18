@@ -15,12 +15,12 @@ export const childCareLeave = {
   },
 
   title: {
-    en: "Sick Leave Application to Take Care of a Child",
-    hi: "बच्चे की देखभाल के लिए बीमारी की छुट्टी का आवेदन पत्र"
+    en: "Child Care Leave Application",
+    hi: "बच्चे की देखभाल के लिए अवकाश आवेदन"
   },
   subtitle: {
-    en: "Learn how to write a sick leave application to take care of your child.",
-    hi: "बच्चे की देखभाल के लिए बीमारी की छुट्टी का आवेदन पत्र कैसे लिखें, इसकी पूरी जानकारी यहाँ दी गई है।"
+    en: "Learn how to write a child care leave application for a child's illness, medical appointment, school emergency, or dependent-care need.",
+    hi: "बच्चे की बीमारी, मेडिकल अपॉइंटमेंट, स्कूल इमरजेंसी या देखभाल की आवश्यकता के लिए चाइल्ड केयर लीव आवेदन लिखने की पूरी जानकारी।"
   },
 
   category: {
@@ -112,14 +112,14 @@ Sincerely,
       },
       {
         text: {
-          en: "Attach medical certificate for long leave.",
-          hi: "लंबी छुट्टी पर मेडिकल सर्टिफिकेट संलग्न करें।",
+          en: "Attach a medical note, school notice, or appointment proof if the leave is for a specific child-care need.",
+          hi: "यदि छुट्टी किसी विशेष देखभाल आवश्यकता के लिए है तो मेडिकल नोट, स्कूल सूचना या अपॉइंटमेंट प्रमाण संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Promise work continuity after recovery.",
-          hi: "सुधार के बाद कार्य जारी रखने का आश्वासन दें।",
+          en: "Mention how urgent work will be handled or handed over during your absence.",
+          hi: "आपकी अनुपस्थिति में जरूरी काम कैसे संभाला या सौंपा जाएगा, यह लिखें।",
         },
       },
     ],
