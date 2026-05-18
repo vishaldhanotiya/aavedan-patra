@@ -90,33 +90,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "How to Write a Certificate Request Letter",
-      hi: "प्रमाणपत्र आवेदन पत्र कैसे लिखें",
+      en: "How to Write an Experience Certificate Request",
+      hi: "अनुभव प्रमाणपत्र आवेदन कैसे लिखें",
     },
     tips: [
       {
         text: {
-          en: "Mention your purpose clearly.",
-          hi: "अपना उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention your employee ID, designation, department, joining date, and last working day.",
+          hi: "अपना कर्मचारी आईडी, पद, विभाग, जॉइनिंग तारीख और अंतिम कार्य दिवस लिखें।",
         },
       },
       {
         text: {
-          en: "Attach required documents.",
-          hi: "आवश्यक दस्तावेज संलग्न करें।",
-        },
-      },
-      { text: { en: "Keep the tone formal.", hi: "लहजे को औपचारिक रखें।" } },
-      {
-        text: {
-          en: "Include your ID/enrollment number.",
-          hi: "अपना आईडी/नामांकन नंबर जोड़ें।",
+          en: "State why you need the certificate, such as a new job, higher studies, visa, or professional record.",
+          hi: "नौकरी, उच्च शिक्षा, वीजा या पेशेवर रिकॉर्ड जैसे प्रमाणपत्र की आवश्यकता का कारण लिखें।",
         },
       },
       {
         text: {
-          en: "Keep letter short and clear.",
-          hi: "पत्र को छोटा और स्पष्ट रखें।",
+          en: "Attach resignation acceptance, relieving letter, salary slip, or clearance confirmation if available.",
+          hi: "यदि उपलब्ध हो तो इस्तीफा स्वीकृति, रिलीविंग लेटर, वेतन पर्ची या क्लीयरेंस पुष्टि संलग्न करें।",
+        },
+      },
+      {
+        text: {
+          en: "Request HR or the reporting manager to include role, duration, conduct, and key responsibilities.",
+          hi: "HR या रिपोर्टिंग मैनेजर से पद, अवधि, आचरण और मुख्य जिम्मेदारियाँ शामिल करने का अनुरोध करें।",
+        },
+      },
+      {
+        text: {
+          en: "Keep the tone professional and mention any urgent submission deadline politely.",
+          hi: "भाषा पेशेवर रखें और यदि कोई अंतिम तारीख हो तो विनम्रता से लिखें।",
         },
       },
     ],

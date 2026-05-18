@@ -26,6 +26,7 @@ import { TemplateEditorModal } from "./TemplateEditorModal";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { trackContentFeedback } from "@/lib/feedbackAnalytics";
 import {
   buildArticleSchema,
   buildFaqPageSchema,
@@ -91,6 +92,59 @@ interface PillarTemplateDetailsPageProps {
   singleTemplate?: boolean;
   /** Skip client JSON-LD when server renders schemas via PillarTemplateSchemas */
   suppressSchema?: boolean;
+}
+
+function FaqItem({
+  faq,
+  index,
+  language,
+}: {
+  faq: FAQ;
+  index: number;
+  language: "en" | "hi";
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ delay: index * 0.05 }}
+      className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-2xl overflow-hidden"
+    >
+      <button
+        type="button"
+        aria-expanded={isOpen}
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full px-6 py-4 flex items-start gap-3 text-left hover:bg-slate-50 dark:hover:bg-white/5 transition-colors"
+      >
+        <span className="text-slate-900 dark:text-white font-medium flex-1">
+          {faq.question[language]}
+        </span>
+        {isOpen ? (
+          <ChevronUp className="w-5 h-5 text-slate-400 dark:text-white/40 flex-shrink-0 mt-0.5" />
+        ) : (
+          <ChevronDown className="w-5 h-5 text-slate-400 dark:text-white/40 flex-shrink-0 mt-0.5" />
+        )}
+      </button>
+
+      <motion.div
+        initial={false}
+        animate={{
+          height: isOpen ? "auto" : 0,
+          opacity: isOpen ? 1 : 0,
+        }}
+        transition={{ duration: 0.2 }}
+        aria-hidden={!isOpen}
+        className="border-t border-slate-200 dark:border-white/10 overflow-hidden"
+      >
+        <div className="px-6 py-4 text-slate-600 dark:text-white/70 leading-relaxed">
+          {faq.answer[language]}
+        </div>
+      </motion.div>
+    </motion.div>
+  );
 }
 
 export function PillarTemplateDetailsPage({
@@ -219,6 +273,13 @@ export function PillarTemplateDetailsPage({
 
   const handleFeedback = (type: "positive" | "negative") => {
     setFeedback(type);
+    trackContentFeedback({
+      vote: type,
+      contentType: "pillar_template",
+      pagePath: pathname,
+      pageTitle: data.title[language],
+      language,
+    });
     toast.success(
       language === "en"
         ? "Thank you for your feedback!"
@@ -242,6 +303,11 @@ export function PillarTemplateDetailsPage({
     buildArticleSchema(schemaInput, "https://aavedanpatra.in"),
     ...(data.howToWrite.tips.length > 0 ? [buildHowToSchema(schemaInput)] : []),
   ];
+  const backTarget = data.breadcrumb.subcategory.slug
+    ? data.breadcrumb.subcategory
+    : data.breadcrumb.category;
+  const backHref =
+    backTarget.slug || `/${backTarget.en.toLowerCase().replace(/\s+/g, "-")}`;
 
   return (
     <>
@@ -738,50 +804,14 @@ export function PillarTemplateDetailsPage({
                 </h2>
 
                 <div className="space-y-4">
-                  {data.faqs.map((faq, index) => {
-                    const [isOpen, setIsOpen] = useState(false);
-
-                    return (
-                      <motion.div
-                        key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: index * 0.05 }}
-                        className="bg-white dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-2xl overflow-hidden"
-                      >
-                        <button
-                          onClick={() => setIsOpen(!isOpen)}
-                          className="w-full px-6 py-4 flex items-start gap-3 text-left hover:bg-slate-50 dark:hover:bg-white/5 transition-colors"
-                        >
-                          <span className="text-slate-900 dark:text-white font-medium flex-1">
-                            {faq.question[language]}
-                          </span>
-                          {isOpen ? (
-                            <ChevronUp className="w-5 h-5 text-slate-400 dark:text-white/40 flex-shrink-0 mt-0.5" />
-                          ) : (
-                            <ChevronDown className="w-5 h-5 text-slate-400 dark:text-white/40 flex-shrink-0 mt-0.5" />
-                          )}
-                        </button>
-
-                        <AnimatePresence>
-                          {isOpen && (
-                            <motion.div
-                              initial={{ height: 0, opacity: 0 }}
-                              animate={{ height: "auto", opacity: 1 }}
-                              exit={{ height: 0, opacity: 0 }}
-                              transition={{ duration: 0.2 }}
-                              className="border-t border-slate-200 dark:border-white/10"
-                            >
-                              <div className="px-6 py-4 text-slate-600 dark:text-white/70 leading-relaxed">
-                                {faq.answer[language]}
-                              </div>
-                            </motion.div>
-                          )}
-                        </AnimatePresence>
-                      </motion.div>
-                    );
-                  })}
+                  {data.faqs.map((faq, index) => (
+                    <FaqItem
+                      key={index}
+                      faq={faq}
+                      index={index}
+                      language={language}
+                    />
+                  ))}
                 </div>
               </div>
 
@@ -843,10 +873,10 @@ export function PillarTemplateDetailsPage({
               {/* Back to Category */}
               <div className="max-w-4xl mx-auto mt-16 text-center">
                 <Button asChild variant="outline" size="lg">
-                  <Link href={`/${data.breadcrumb.category.en.toLowerCase()}`}>
+                  <Link href={backHref}>
                     <ChevronRight className="w-5 h-5 mr-2 rotate-180" />
                     {language === "en" ? "Back to" : "वापस जाएं"}{" "}
-                    {data.breadcrumb.category[language]}
+                    {backTarget[language]}
                   </Link>
                 </Button>
               </div>

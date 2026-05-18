@@ -94,38 +94,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "Tips to Write an Admission Application",
-      hi: "प्रवेश आवेदन लिखने के टिप्स",
+      en: "Tips to Write a Course Admission Application",
+      hi: "कोर्स प्रवेश आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
-          en: "Clearly mention the purpose of admission.",
-          hi: "प्रवेश का उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the course name, batch, duration, mode, and preferred start date.",
+          hi: "कोर्स का नाम, बैच, अवधि, मोड और पसंदीदा शुरुआत तारीख लिखें।",
         },
       },
       {
         text: {
-          en: "Keep the tone polite and formal.",
-          hi: "लहजा विनम्र और औपचारिक रखें।",
+          en: "Explain your eligibility, current qualification, and why the course is useful for you.",
+          hi: "अपनी पात्रता, वर्तमान योग्यता और कोर्स आपके लिए उपयोगी क्यों है, यह लिखें।",
         },
       },
       {
         text: {
-          en: "Add previous academic details where needed.",
-          hi: "आवश्यकतानुसार पूर्व शैक्षणिक विवरण जोड़ें।",
+          en: "Attach marksheets, ID proof, payment receipt, portfolio, or work experience proof if requested.",
+          hi: "यदि मांगा जाए तो मार्कशीट, पहचान प्रमाण, भुगतान रसीद, पोर्टफोलियो या कार्य अनुभव प्रमाण संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Include supporting documents if required.",
-          hi: "आवश्यक होने पर सहायक दस्तावेज शामिल करें।",
+          en: "Ask about seat availability, fee structure, and admission confirmation when relevant.",
+          hi: "जहाँ आवश्यक हो, सीट उपलब्धता, फीस संरचना और प्रवेश पुष्टि के बारे में पूछें।",
         },
       },
       {
         text: {
-          en: "Keep the application short and clear.",
-          hi: "आवेदन को छोटा और स्पष्ट रखें।",
+          en: "Keep the request focused on the selected course instead of listing unrelated programs.",
+          hi: "अन्य असंबंधित कार्यक्रमों की सूची देने के बजाय चुने गए कोर्स पर आवेदन केंद्रित रखें।",
         },
       },
     ],

@@ -25,7 +25,9 @@ import {
 } from "./ui/accordion";
 import { toast } from "sonner";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { trackContentFeedback } from "@/lib/feedbackAnalytics";
 
 interface BlogPageProps {
   article: {
@@ -61,6 +63,7 @@ interface BlogPageProps {
 }
 
 export function BlogPage({ article, relatedPosts }: BlogPageProps) {
+  const pathname = usePathname() || "/";
   const [tocOpen, setTocOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [feedback, setFeedback] = useState<"helpful" | "not-helpful" | null>(
@@ -98,6 +101,13 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
 
   const handleFeedback = (type: "helpful" | "not-helpful") => {
     setFeedback(type);
+    trackContentFeedback({
+      vote: type === "helpful" ? "positive" : "negative",
+      contentType: "blog_article",
+      pagePath: pathname,
+      pageTitle: article.title,
+      language,
+    });
     toast.success(
       type === "helpful"
         ? "Thanks for your feedback! 🎉"
@@ -287,7 +297,7 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
                   <h2 className="text-3xl text-slate-900 dark:text-white mb-6">
                     Frequently Asked Questions
                   </h2>
-                  <Accordion type="single" collapsible className="space-y-4">
+                  <Accordion type="multiple" className="space-y-4">
                     {article.faqs.map((faq, index) => (
                       <AccordionItem
                         key={index}

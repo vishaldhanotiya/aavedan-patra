@@ -38,16 +38,14 @@ import { useLanguage } from "@/contexts/LanguageContext";
 interface DynamicCategoryPageProps {
   category: CategoryData;
 }
-export function DynamicCategoryPage({
-  category,
-}: DynamicCategoryPageProps) {
+export function DynamicCategoryPage({ category }: DynamicCategoryPageProps) {
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedFormat, setSelectedFormat] = useState<string>("all");
   const [selectedDocLanguage, setSelectedDocLanguage] = useState<string>("all");
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
-  const {language}=useLanguage()
+  const { language } = useLanguage();
 
   // Helper function to get text in current language
   const getText = (content: { en: string; hi: string }) => {
@@ -238,193 +236,197 @@ export function DynamicCategoryPage({
 
         {/* Search and Filters Bar */}
         {language === "en" && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="mb-8"
-        >
-          <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-4 shadow-lg shadow-cyan-500/10">
-            <div className="flex flex-col md:flex-row gap-4">
-              <div className="flex-1 relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-white/40" />
-                <Input
-                  type="text"
-                  placeholder={
-                    language === "en"
-                      ? "Search templates..."
-                      : "टेम्पलेट खोजें..."
-                  }
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-10 bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white"
-                />
-                {searchQuery && (
-                  <button
-                    onClick={() => setSearchQuery("")}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 dark:text-white/40 hover:text-slate-600 dark:hover:text-white/60"
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="mb-8"
+          >
+            <div className="bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-4 shadow-lg shadow-cyan-500/10">
+              <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex-1 relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-white/40" />
+                  <Input
+                    type="text"
+                    placeholder={
+                      language === "en"
+                        ? "Search templates..."
+                        : "टेम्पलेट खोजें..."
+                    }
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="pl-10 bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white"
+                  />
+                  {searchQuery && (
+                    <button
+                      onClick={() => setSearchQuery("")}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 dark:text-white/40 hover:text-slate-600 dark:hover:text-white/60"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+                <div className="flex gap-3">
+                  <Select value={sortBy} onValueChange={setSortBy}>
+                    <SelectTrigger className="w-[140px] bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                      <SelectValue
+                        placeholder={
+                          language === "en" ? "Sort by" : "क्रमबद्ध करें"
+                        }
+                      />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="popular">
+                        {language === "en" ? "Popular" : "लोकप्रिय"}
+                      </SelectItem>
+                      <SelectItem value="newest">
+                        {language === "en" ? "Newest" : "नवीनतम"}
+                      </SelectItem>
+                      <SelectItem value="a-z">A-Z</SelectItem>
+                      <SelectItem value="z-a">Z-A</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <Button
+                    variant="outline"
+                    onClick={() => setShowFilters(!showFilters)}
+                    className={`border-slate-300 dark:border-white/30 text-slate-700 dark:text-white hover:bg-white/50 dark:hover:bg-white/10 ${
+                      showFilters ? "bg-white/70 dark:bg-white/10" : ""
+                    }`}
                   >
-                    <X className="w-4 h-4" />
-                  </button>
-                )}
+                    <SlidersHorizontal className="w-4 h-4 mr-2" />
+                    {language === "en" ? "Filters" : "फ़िल्टर"}
+                  </Button>
+                </div>
               </div>
-              <div className="flex gap-3">
-                <Select value={sortBy} onValueChange={setSortBy}>
-                  <SelectTrigger className="w-[140px] bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                    <SelectValue
-                      placeholder={
-                        language === "en" ? "Sort by" : "क्रमबद्ध करें"
-                      }
-                    />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="popular">
-                      {language === "en" ? "Popular" : "लोकप्रिय"}
-                    </SelectItem>
-                    <SelectItem value="newest">
-                      {language === "en" ? "Newest" : "नवीनतम"}
-                    </SelectItem>
-                    <SelectItem value="a-z">A-Z</SelectItem>
-                    <SelectItem value="z-a">Z-A</SelectItem>
-                  </SelectContent>
-                </Select>
-                <Button
-                  variant="outline"
-                  onClick={() => setShowFilters(!showFilters)}
-                  className={`border-slate-300 dark:border-white/30 text-slate-700 dark:text-white hover:bg-white/50 dark:hover:bg-white/10 ${
-                    showFilters ? "bg-white/70 dark:bg-white/10" : ""
-                  }`}
-                >
-                  <SlidersHorizontal className="w-4 h-4 mr-2" />
-                  {language === "en" ? "Filters" : "फ़िल्टर"}
-                </Button>
-              </div>
-            </div>
 
-            {/* Advanced Filters Panel */}
-            <AnimatePresence>
-              {showFilters && (
-                <motion.div
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: "auto" }}
-                  exit={{ opacity: 0, height: 0 }}
-                  className="mt-4 pt-4 border-t border-slate-200 dark:border-white/10"
-                >
-                  <div className="grid md:grid-cols-3 gap-6">
-                    {/* Format Filter */}
-                    <div>
-                      <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
-                        {language === "en" ? "Format" : "प्रारूप"}
-                      </label>
-                      <Select
-                        value={selectedFormat}
-                        onValueChange={setSelectedFormat}
-                      >
-                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                          <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="all">
-                            {language === "en" ? "All Formats" : "सभी प्रारूप"}
-                          </SelectItem>
-                          <SelectItem value="docx">DOCX</SelectItem>
-                          <SelectItem value="pdf">PDF</SelectItem>
-                          <SelectItem value="txt">TXT</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
+              {/* Advanced Filters Panel */}
+              <AnimatePresence>
+                {showFilters && (
+                  <motion.div
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: "auto" }}
+                    exit={{ opacity: 0, height: 0 }}
+                    className="mt-4 pt-4 border-t border-slate-200 dark:border-white/10"
+                  >
+                    <div className="grid md:grid-cols-3 gap-6">
+                      {/* Format Filter */}
+                      <div>
+                        <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
+                          {language === "en" ? "Format" : "प्रारूप"}
+                        </label>
+                        <Select
+                          value={selectedFormat}
+                          onValueChange={setSelectedFormat}
+                        >
+                          <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="all">
+                              {language === "en"
+                                ? "All Formats"
+                                : "सभी प्रारूप"}
+                            </SelectItem>
+                            <SelectItem value="docx">DOCX</SelectItem>
+                            <SelectItem value="pdf">PDF</SelectItem>
+                            <SelectItem value="txt">TXT</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
 
-                    {/* Document Language Filter */}
-                    <div>
-                      <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
-                        {language === "en"
-                          ? "Document Language"
-                          : "दस्तावेज़ भाषा"}
-                      </label>
-                      <Select
-                        value={selectedDocLanguage}
-                        onValueChange={setSelectedDocLanguage}
-                      >
-                        <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
-                          <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="all">
-                            {language === "en" ? "All Languages" : "सभी भाषाएं"}
-                          </SelectItem>
-                          <SelectItem value="en">English</SelectItem>
-                          <SelectItem value="hi">हिंदी</SelectItem>
-                          <SelectItem value="both">
-                            {language === "en" ? "Both" : "दोनों"}
-                          </SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
+                      {/* Document Language Filter */}
+                      <div>
+                        <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
+                          {language === "en"
+                            ? "Document Language"
+                            : "दस्तावेज़ भाषा"}
+                        </label>
+                        <Select
+                          value={selectedDocLanguage}
+                          onValueChange={setSelectedDocLanguage}
+                        >
+                          <SelectTrigger className="bg-white dark:bg-white/10 border-slate-300 dark:border-white/20 text-slate-900 dark:text-white">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="all">
+                              {language === "en"
+                                ? "All Languages"
+                                : "सभी भाषाएं"}
+                            </SelectItem>
+                            <SelectItem value="en">English</SelectItem>
+                            <SelectItem value="hi">हिंदी</SelectItem>
+                            <SelectItem value="both">
+                              {language === "en" ? "Both" : "दोनों"}
+                            </SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
 
-                    {/* Dynamic Type Filter */}
-                    <div>
-                      <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
-                        {language === "en" ? "Type" : "प्रकार"}
-                      </label>
-                      <div className="space-y-2 max-h-32 overflow-y-auto custom-scrollbar">
-                        {typeFilters.map((type, index) => (
-                          <div
-                            key={index}
-                            className="flex items-center space-x-2"
-                          >
-                            <Checkbox
-                              id={`type-${index}`}
-                              checked={selectedTypes.includes(type)}
-                              onCheckedChange={(checked) => {
-                                if (checked) {
-                                  setSelectedTypes([...selectedTypes, type]);
-                                } else {
-                                  setSelectedTypes(
-                                    selectedTypes.filter((t) => t !== type)
-                                  );
-                                }
-                              }}
-                            />
-                            <Label
-                              htmlFor={`type-${index}`}
-                              className="text-sm text-slate-700 dark:text-white/70 cursor-pointer"
+                      {/* Dynamic Type Filter */}
+                      <div>
+                        <label className="text-sm text-slate-600 dark:text-white/60 mb-3 block">
+                          {language === "en" ? "Type" : "प्रकार"}
+                        </label>
+                        <div className="space-y-2 max-h-32 overflow-y-auto custom-scrollbar">
+                          {typeFilters.map((type, index) => (
+                            <div
+                              key={index}
+                              className="flex items-center space-x-2"
                             >
-                              {type}
-                            </Label>
-                          </div>
-                        ))}
+                              <Checkbox
+                                id={`type-${index}`}
+                                checked={selectedTypes.includes(type)}
+                                onCheckedChange={(checked) => {
+                                  if (checked) {
+                                    setSelectedTypes([...selectedTypes, type]);
+                                  } else {
+                                    setSelectedTypes(
+                                      selectedTypes.filter((t) => t !== type),
+                                    );
+                                  }
+                                }}
+                              />
+                              <Label
+                                htmlFor={`type-${index}`}
+                                className="text-sm text-slate-700 dark:text-white/70 cursor-pointer"
+                              >
+                                {type}
+                              </Label>
+                            </div>
+                          ))}
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  {/* Clear Filters */}
-                  {(selectedFormat !== "all" ||
-                    selectedDocLanguage !== "all" ||
-                    selectedTypes.length > 0) && (
-                    <div className="mt-4 flex justify-end">
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={() => {
-                          setSelectedFormat("all");
-                          setSelectedDocLanguage("all");
-                          setSelectedTypes([]);
-                        }}
-                        className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300"
-                      >
-                        {language === "en"
-                          ? "Clear All Filters"
-                          : "सभी फ़िल्टर साफ़ करें"}
-                      </Button>
-                    </div>
-                  )}
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-        </motion.div>
+                    {/* Clear Filters */}
+                    {(selectedFormat !== "all" ||
+                      selectedDocLanguage !== "all" ||
+                      selectedTypes.length > 0) && (
+                      <div className="mt-4 flex justify-end">
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => {
+                            setSelectedFormat("all");
+                            setSelectedDocLanguage("all");
+                            setSelectedTypes([]);
+                          }}
+                          className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300"
+                        >
+                          {language === "en"
+                            ? "Clear All Filters"
+                            : "सभी फ़िल्टर साफ़ करें"}
+                        </Button>
+                      </div>
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          </motion.div>
         )}
-        
+
         {/* Template Grid */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}
@@ -443,45 +445,45 @@ export function DynamicCategoryPage({
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {sortedTemplates.map((template, index) => (
-              <Link key={index} href={template.href || '/letters'}>
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.05 }}
-                whileHover={{ y: -8 }}
-                className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-cyan-300 dark:hover:border-cyan-500/50 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300"
-              >
-                {template.tag && (
-                  <Badge className="mb-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white border-0 shadow-lg">
-                    {template.tag}
-                  </Badge>
-                )}
-                <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
-                  {getText(template.title)}
-                </h3>
-                <p className="text-slate-600 dark:text-white/60 mb-4 line-clamp-2">
-                  {getText(template.description)}
-                </p>
+              <Link key={index} href={template.href || "/letters"}>
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.05 }}
+                  whileHover={{ y: -8 }}
+                  className="group bg-white/80 dark:bg-white/5 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-[20px] p-6 hover:border-cyan-300 dark:hover:border-cyan-500/50 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300"
+                >
+                  {template.tag && (
+                    <Badge className="mb-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white border-0 shadow-lg">
+                      {template.tag}
+                    </Badge>
+                  )}
+                  <h3 className="text-lg text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+                    {getText(template.title)}
+                  </h3>
+                  <p className="text-slate-600 dark:text-white/60 mb-4 line-clamp-2">
+                    {getText(template.description)}
+                  </p>
 
-                <div className="flex items-center justify-between text-sm text-slate-500 dark:text-white/50 mb-4">
-                  <div className="flex items-center gap-4">
-                    <span className="flex items-center gap-1">
-                      <Eye className="w-3 h-3" />
-                      {template.views}
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <Calendar className="w-3 h-3" />
-                      {template.date}
-                    </span>
+                  <div className="flex items-center justify-between text-sm text-slate-500 dark:text-white/50 mb-4">
+                    <div className="flex items-center gap-4">
+                      <span className="flex items-center gap-1">
+                        <Eye className="w-3 h-3" />
+                        {template.views}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Calendar className="w-3 h-3" />
+                        {template.date}
+                      </span>
+                    </div>
                   </div>
-                </div>
 
-                <Button className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/20">
-                  {language === "en" ? "View Template" : "टेम्पलेट देखें"}
-                </Button>
-              </motion.div>
+                  <Button className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-white shadow-lg shadow-violet-500/20">
+                    {language === "en" ? "View Template" : "टेम्पलेट देखें"}
+                  </Button>
+                </motion.div>
               </Link>
             ))}
           </div>
@@ -606,7 +608,7 @@ export function DynamicCategoryPage({
               ? "Frequently Asked Questions"
               : "अक्सर पूछे जाने वाले प्रश्न"}
           </h2>
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="multiple" className="space-y-4">
             {category.faqs.map((faq, index) => (
               <AccordionItem
                 key={index}
@@ -616,8 +618,11 @@ export function DynamicCategoryPage({
                 <AccordionTrigger className="text-slate-900 dark:text-white hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors py-4">
                   {getText(faq.question)}
                 </AccordionTrigger>
-                <AccordionContent className="text-slate-600 dark:text-white/70 pb-4">
-                  {getText(faq.answer)}
+                <AccordionContent
+                  forceMount
+                  className="text-slate-600 dark:text-white/70 pb-4"
+                >
+                  <div>{getText(faq.answer)}</div>
                 </AccordionContent>
               </AccordionItem>
             ))}

@@ -101,7 +101,7 @@ export function FAQ() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="multiple" className="space-y-4">
             {faqData.faq.map((faq, index) => (
               <AccordionItem
                 key={index}

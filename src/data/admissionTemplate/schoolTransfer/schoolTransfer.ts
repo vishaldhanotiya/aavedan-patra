@@ -101,38 +101,38 @@ Sincerely,
 
   howToWrite: {
     title: {
-      en: "Tips to Write an Admission Application",
-      hi: "प्रवेश आवेदन लिखने के टिप्स",
+      en: "Tips to Write a School Transfer Application",
+      hi: "स्कूल स्थानांतरण आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
-          en: "Clearly mention the purpose of admission.",
-          hi: "प्रवेश का उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the student's name, class, roll number, admission number, and current academic session.",
+          hi: "विद्यार्थी का नाम, कक्षा, रोल नंबर, प्रवेश संख्या और वर्तमान शैक्षणिक सत्र लिखें।",
         },
       },
       {
         text: {
-          en: "Keep the tone polite and formal.",
-          hi: "लहजा विनम्र और औपचारिक रखें।",
+          en: "State the transfer reason clearly, such as relocation, parent job transfer, or admission to another school.",
+          hi: "स्थान परिवर्तन, अभिभावक का तबादला या दूसरे स्कूल में प्रवेश जैसे ट्रांसफर कारण को स्पष्ट लिखें।",
         },
       },
       {
         text: {
-          en: "Add previous academic details where needed.",
-          hi: "आवश्यकतानुसार पूर्व शैक्षणिक विवरण जोड़ें।",
+          en: "Request the transfer certificate, school leaving certificate, conduct certificate, and marksheet if needed.",
+          hi: "यदि आवश्यकता हो तो ट्रांसफर सर्टिफिकेट, स्कूल लीविंग सर्टिफिकेट, आचरण प्रमाणपत्र और मार्कशीट मांगें।",
         },
       },
       {
         text: {
-          en: "Include supporting documents if required.",
-          hi: "आवश्यक होने पर सहायक दस्तावेज शामिल करें।",
+          en: "Attach fee clearance, parent ID proof, new address proof, or new school admission proof if available.",
+          hi: "यदि उपलब्ध हो तो फीस क्लीयरेंस, अभिभावक पहचान प्रमाण, नया पता प्रमाण या नए स्कूल का प्रवेश प्रमाण संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Keep the application short and clear.",
-          hi: "आवेदन को छोटा और स्पष्ट रखें।",
+          en: "Ask for quick processing if the new school's admission deadline is near.",
+          hi: "यदि नए स्कूल की प्रवेश अंतिम तारीख पास हो तो शीघ्र प्रक्रिया का अनुरोध करें।",
         },
       },
     ],

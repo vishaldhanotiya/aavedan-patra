@@ -14,13 +14,13 @@ export const universityAdmissionTemplate = {
   },
 
   title: {
-    en: "Admission Application Letters",
-    hi: "प्रवेश आवेदन पत्र",
+    en: "University Admission Application Letter",
+    hi: "विश्वविद्यालय प्रवेश आवेदन पत्र",
   },
 
   subtitle: {
-    en: "Find ready-made formats for college, school, university, course admission, transfer, and readmission.",
-    hi: "कॉलेज, स्कूल, विश्वविद्यालय, कोर्स प्रवेश, ट्रांसफर और पुनः प्रवेश के तैयार आवेदन प्रारूप।",
+    en: "Ready-made university admission application format for degree programs, postgraduate courses, research programs, and campus admissions.",
+    hi: "डिग्री प्रोग्राम, परास्नातक कोर्स, रिसर्च प्रोग्राम और कैंपस प्रवेश हेतु विश्वविद्यालय आवेदन का तैयार प्रारूप।",
   },
 
   category: {
@@ -96,38 +96,38 @@ Subject: आवेदन पत्र – प्रवेश हेतु
 
   howToWrite: {
     title: {
-      en: "Tips to Write an Admission Application",
-      hi: "प्रवेश आवेदन लिखने के टिप्स",
+      en: "Tips to Write a University Admission Application",
+      hi: "विश्वविद्यालय प्रवेश आवेदन लिखने के टिप्स",
     },
     tips: [
       {
         text: {
-          en: "Clearly mention the purpose of admission.",
-          hi: "प्रवेश का उद्देश्य स्पष्ट रूप से लिखें।",
+          en: "Mention the university program, department, specialization, and academic session.",
+          hi: "विश्वविद्यालय कार्यक्रम, विभाग, विशेषज्ञता और शैक्षणिक सत्र लिखें।",
         },
       },
       {
         text: {
-          en: "Keep the tone polite and formal.",
-          hi: "लहजा विनम्र और औपचारिक रखें।",
+          en: "Add entrance exam score, eligibility details, and previous academic record where applicable.",
+          hi: "जहाँ लागू हो वहाँ प्रवेश परीक्षा स्कोर, पात्रता विवरण और पूर्व शैक्षणिक रिकॉर्ड जोड़ें।",
         },
       },
       {
         text: {
-          en: "Add previous academic details where needed.",
-          hi: "आवश्यकतानुसार पूर्व शैक्षणिक विवरण जोड़ें।",
+          en: "Attach transcripts, migration certificate, degree/provisional certificate, ID proof, and photographs.",
+          hi: "ट्रांसक्रिप्ट, माइग्रेशन सर्टिफिकेट, डिग्री/प्रोविजनल सर्टिफिकेट, पहचान प्रमाण और फोटो संलग्न करें।",
         },
       },
       {
         text: {
-          en: "Include supporting documents if required.",
-          hi: "आवश्यक होने पर सहायक दस्तावेज शामिल करें।",
+          en: "For research programs, mention proposed research interest and supervisor or department preference.",
+          hi: "रिसर्च प्रोग्राम के लिए प्रस्तावित शोध रुचि और सुपरवाइजर या विभाग की प्राथमिकता लिखें।",
         },
       },
       {
         text: {
-          en: "Keep the application short and clear.",
-          hi: "आवेदन को छोटा और स्पष्ट रखें।",
+          en: "Use a formal academic tone and avoid adding unrelated personal details.",
+          hi: "औपचारिक शैक्षणिक भाषा रखें और असंबंधित व्यक्तिगत विवरण न जोड़ें।",
         },
       },
     ],
