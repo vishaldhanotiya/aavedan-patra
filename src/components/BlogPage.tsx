@@ -28,6 +28,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { trackContentFeedback } from "@/lib/feedbackAnalytics";
+import { BilingualText } from "@/lib/pillarSchema";
 
 interface BlogPageProps {
   article: {
@@ -35,6 +36,12 @@ interface BlogPageProps {
     subtitle: string;
     breadcrumbs: string[];
     author: string;
+    pageMetaData: {
+      author: BilingualText;
+      updatedAt: string;
+      views: string;
+      likes: string;
+    };
     publishedDate: string;
     readTime: string;
     lastUpdated: string;
@@ -67,14 +74,14 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
   const [tocOpen, setTocOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [feedback, setFeedback] = useState<"helpful" | "not-helpful" | null>(
-    null
+    null,
   );
   const { language } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
       const sections = article.sections.map((s) =>
-        document.getElementById(s.id)
+        document.getElementById(s.id),
       );
       const scrollPosition = window.scrollY + 100;
 
@@ -111,7 +118,7 @@ export function BlogPage({ article, relatedPosts }: BlogPageProps) {
     toast.success(
       type === "helpful"
         ? "Thanks for your feedback! 🎉"
-        : "We'll work on improving this content."
+        : "We'll work on improving this content.",
     );
   };
 
