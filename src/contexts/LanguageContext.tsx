@@ -34,7 +34,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('language', language);
   }, [language, mounted]);
 
- const t = language === "hi" ? hi : en;
+  const renderedLanguage = mounted ? language : 'hi';
+  const t = renderedLanguage === "hi" ? hi : en;
 
   const toggleLanguage = () => {
     setLanguageState((prevLanguage) => prevLanguage === 'en' ? 'hi' : 'en');
@@ -45,7 +46,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   };
 
   const value: LanguageContextType = {
-    language,
+    language: renderedLanguage,
     toggleLanguage,
     setLanguage,
     t

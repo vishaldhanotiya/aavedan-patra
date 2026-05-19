@@ -14,13 +14,13 @@ export const informationRequestTemplate = {
   },
 
   title: {
-    en: "Information Request Letter",
-    hi: "जानकारी अनुरोध पत्र",
+    en: "Information Request Letter Format",
+    hi: "सूचना अनुरोध पत्र प्रारूप",
   },
 
   subtitle: {
-    en: "Explore professional information request letter formats and examples to request details, documents, records, or clarification from organizations or individuals.",
-    hi: "संगठनों या व्यक्तियों से विवरण, दस्तावेज़, रिकॉर्ड या स्पष्टीकरण का अनुरोध करने के लिए पेशेवर सूचना अनुरोध पत्र प्रारूप और उदाहरण देखें।",
+    en: "Ready-to-use information request letter for asking for details, records, documents, clarification, or official information.",
+    hi: "विवरण, रिकॉर्ड, दस्तावेज़, स्पष्टीकरण या आधिकारिक जानकारी मांगने के लिए तैयार सूचना अनुरोध पत्र।",
   },
 
   category: {
