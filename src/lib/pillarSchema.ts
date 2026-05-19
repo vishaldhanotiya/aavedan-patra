@@ -9,6 +9,12 @@ export interface PillarSchemaInput {
   title: BilingualText;
   subtitle: BilingualText;
   updatedDate: string;
+  pageMetaData: {
+    author: string;
+    updatedAt: string;
+    views: string;
+    likes: string;
+  };
   path: string;
   breadcrumb?: {
     category: BilingualText & { slug?: string };

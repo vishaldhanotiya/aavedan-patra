@@ -28,6 +28,13 @@ export const schoolAdmission = {
     hi: "प्रवेश आवेदन",
   },
 
+  pageMetaData: {
+    author: "Vishal Dhanotiya",
+    updatedAt: "January 2025",
+    views: "1200",
+    likes: "85",
+  },
+
   updatedDate: "January 2025",
 
   variations: [

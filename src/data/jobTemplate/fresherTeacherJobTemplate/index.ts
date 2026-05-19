@@ -28,6 +28,13 @@ export const fresherTeacherJobTemplate = {
     hi: "नौकरी आवेदन",
   },
 
+  pageMetaData: {
+    author: "Vishal Dhanotiya",
+    updatedAt: "January 2025",
+    views: "1200",
+    likes: "85",
+  },
+ 
   updatedDate: "January 2026",
 
   editorVariations: [],

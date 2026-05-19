@@ -27,6 +27,13 @@ export const researchGrantTemplate = {
     hi: "छात्रवृत्ति आवेदन",
   },
 
+  pageMetaData: {
+    author: "Vishal Dhanotiya",
+    updatedAt: "January 2025",
+    views: "1200",
+    likes: "85",
+  },
+
   updatedDate: "January 2025",
 
   variations: [
@@ -156,83 +163,83 @@ Sincerely,
     },
   ],
 
-blogArticles: [
-  {
-    title: {
-      en: "How to Apply for a Research Grant Scholarship",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए आवेदन कैसे करें",
+  blogArticles: [
+    {
+      title: {
+        en: "How to Apply for a Research Grant Scholarship",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए आवेदन कैसे करें",
+      },
+      excerpt: {
+        en: "Step-by-step guide to applying for research grant scholarships successfully.",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए सफलतापूर्वक आवेदन करने की चरणबद्ध गाइड।",
+      },
+      readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
+      link: "/blog/research-grant-scholarship-apply",
     },
-    excerpt: {
-      en: "Step-by-step guide to applying for research grant scholarships successfully.",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए सफलतापूर्वक आवेदन करने की चरणबद्ध गाइड।",
+    {
+      title: {
+        en: "Documents Required for Research Grant Scholarship",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए आवश्यक दस्तावेज",
+      },
+      excerpt: {
+        en: "Complete checklist of documents needed for research grant scholarship applications.",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति आवेदन के लिए आवश्यक दस्तावेजों की पूरी चेकलिस्ट।",
+      },
+      readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
+      link: "/blog/research-grant-scholarship-documents",
     },
-    readTime: { en: "5 min read", hi: "5 मिनट पढ़ें" },
-    link: "/blog/research-grant-scholarship-apply",
-  },
-  {
-    title: {
-      en: "Documents Required for Research Grant Scholarship",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए आवश्यक दस्तावेज",
-    },
-    excerpt: {
-      en: "Complete checklist of documents needed for research grant scholarship applications.",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति आवेदन के लिए आवश्यक दस्तावेजों की पूरी चेकलिस्ट।",
-    },
-    readTime: { en: "4 min read", hi: "4 मिनट पढ़ें" },
-    link: "/blog/research-grant-scholarship-documents",
-  },
-],
+  ],
 
-faqs: [
-  {
-    question: {
-      en: "What is a Research Grant Scholarship?",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति क्या है?",
+  faqs: [
+    {
+      question: {
+        en: "What is a Research Grant Scholarship?",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति क्या है?",
+      },
+      answer: {
+        en: "A research grant scholarship is financial support provided to students or researchers for academic research projects and studies.",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति छात्रों या शोधकर्ताओं को शैक्षणिक शोध परियोजनाओं और अध्ययन के लिए दी जाने वाली वित्तीय सहायता है।",
+      },
     },
-    answer: {
-      en: "A research grant scholarship is financial support provided to students or researchers for academic research projects and studies.",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति छात्रों या शोधकर्ताओं को शैक्षणिक शोध परियोजनाओं और अध्ययन के लिए दी जाने वाली वित्तीय सहायता है।",
+    {
+      question: {
+        en: "Who can apply for a Research Grant Scholarship?",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए कौन आवेदन कर सकता है?",
+      },
+      answer: {
+        en: "Students, research scholars, and academic professionals meeting the eligibility criteria can apply.",
+        hi: "पात्रता मानदंड पूरे करने वाले छात्र, शोधार्थी और शैक्षणिक पेशेवर आवेदन कर सकते हैं।",
+      },
     },
-  },
-  {
-    question: {
-      en: "Who can apply for a Research Grant Scholarship?",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए कौन आवेदन कर सकता है?",
+    {
+      question: {
+        en: "Which documents are required for a Research Grant Scholarship?",
+        hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए कौन-कौन से दस्तावेज आवश्यक हैं?",
+      },
+      answer: {
+        en: "Usually research proposal, academic records, recommendation letters, ID proof, and publication details are required.",
+        hi: "आमतौर पर रिसर्च प्रस्ताव, शैक्षणिक रिकॉर्ड, सिफारिश पत्र, पहचान प्रमाण और प्रकाशन विवरण आवश्यक होते हैं।",
+      },
     },
-    answer: {
-      en: "Students, research scholars, and academic professionals meeting the eligibility criteria can apply.",
-      hi: "पात्रता मानदंड पूरे करने वाले छात्र, शोधार्थी और शैक्षणिक पेशेवर आवेदन कर सकते हैं।",
+    {
+      question: {
+        en: "Can I apply for multiple Research Grant Scholarships?",
+        hi: "क्या मैं कई रिसर्च ग्रांट छात्रवृत्तियों के लिए आवेदन कर सकता/सकती हूँ?",
+      },
+      answer: {
+        en: "Yes, applicants can apply for multiple grants if allowed by the funding organizations.",
+        hi: "हाँ, यदि फंडिंग संगठन अनुमति देते हैं तो आवेदक कई ग्रांट के लिए आवेदन कर सकते हैं।",
+      },
     },
-  },
-  {
-    question: {
-      en: "Which documents are required for a Research Grant Scholarship?",
-      hi: "रिसर्च ग्रांट छात्रवृत्ति के लिए कौन-कौन से दस्तावेज आवश्यक हैं?",
+    {
+      question: {
+        en: "Can I apply for a Research Grant Scholarship online?",
+        hi: "क्या मैं रिसर्च ग्रांट छात्रवृत्ति के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
+      },
+      answer: {
+        en: "Yes, many universities, institutions, and funding agencies provide online application facilities.",
+        hi: "हाँ, कई विश्वविद्यालय, संस्थान और फंडिंग एजेंसियाँ ऑनलाइन आवेदन की सुविधा प्रदान करती हैं।",
+      },
     },
-    answer: {
-      en: "Usually research proposal, academic records, recommendation letters, ID proof, and publication details are required.",
-      hi: "आमतौर पर रिसर्च प्रस्ताव, शैक्षणिक रिकॉर्ड, सिफारिश पत्र, पहचान प्रमाण और प्रकाशन विवरण आवश्यक होते हैं।",
-    },
-  },
-  {
-    question: {
-      en: "Can I apply for multiple Research Grant Scholarships?",
-      hi: "क्या मैं कई रिसर्च ग्रांट छात्रवृत्तियों के लिए आवेदन कर सकता/सकती हूँ?",
-    },
-    answer: {
-      en: "Yes, applicants can apply for multiple grants if allowed by the funding organizations.",
-      hi: "हाँ, यदि फंडिंग संगठन अनुमति देते हैं तो आवेदक कई ग्रांट के लिए आवेदन कर सकते हैं।",
-    },
-  },
-  {
-    question: {
-      en: "Can I apply for a Research Grant Scholarship online?",
-      hi: "क्या मैं रिसर्च ग्रांट छात्रवृत्ति के लिए ऑनलाइन आवेदन कर सकता/सकती हूँ?",
-    },
-    answer: {
-      en: "Yes, many universities, institutions, and funding agencies provide online application facilities.",
-      hi: "हाँ, कई विश्वविद्यालय, संस्थान और फंडिंग एजेंसियाँ ऑनलाइन आवेदन की सुविधा प्रदान करती हैं।",
-    },
-  },
-],
+  ],
 };

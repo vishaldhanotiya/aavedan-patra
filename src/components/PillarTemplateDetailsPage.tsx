@@ -19,6 +19,9 @@ import {
   ChevronDown,
   ChevronUp,
   Home,
+  Calendar,
+
+  UserRoundPen,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import { toast } from "sonner";
@@ -74,6 +77,12 @@ interface PillarTemplateData {
   title: { en: string; hi: string };
   subtitle: { en: string; hi: string };
   category: { en: string; hi: string };
+  pageMetaData: {
+    author: string;
+    updatedAt: string;
+    views: string;
+    likes: string;
+  };
   updatedDate: string;
   variations: TemplateVariation[];
   editorVariations?: any[]; // Optional editor variations
@@ -291,6 +300,7 @@ export function PillarTemplateDetailsPage({
     title: data.title,
     subtitle: data.subtitle,
     updatedDate: data.updatedDate,
+    pageMetaData: data.pageMetaData,
     path: pathname,
     breadcrumb: data.breadcrumb,
     howToWrite: data.howToWrite,
@@ -401,16 +411,20 @@ export function PillarTemplateDetailsPage({
                 </p>
 
                 {/* Meta Info Row */}
-                {/* <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-600 dark:text-white/70">
+                <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-600 dark:text-white/70">
                   <div className="flex items-center gap-2">
-                    <Tag className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
-                    <span>{data.category[language]}</span>
+                    <UserRoundPen className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
+                    <span>
+                      {" "}
+                      {language === "en" ? "Author:" : "लेखक:"}{" "}
+                      {data.pageMetaData.author}
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4 text-violet-600 dark:text-violet-400" />
                     <span>
                       {language === "en" ? "Updated:" : "अपडेट:"}{" "}
-                      {data.updatedDate}
+                      {data.pageMetaData.updatedAt}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
@@ -420,7 +434,7 @@ export function PillarTemplateDetailsPage({
                       {data.variations.length}+
                     </span>
                   </div>
-                </div> */}
+                </div>
               </motion.div>
 
               {/* Variation Navigation */}

@@ -28,6 +28,13 @@ export const experiencedTeacherJobTemplate = {
     hi: "नौकरी आवेदन",
   },
 
+  pageMetaData: {
+    author: "Vishal Dhanotiya",
+    updatedAt: "January 2025",
+    views: "1200",
+    likes: "85",
+  },
+
   updatedDate: "January 2026",
 
   editorVariations: [],
@@ -271,13 +278,13 @@ Enclosures:
         hi: "मोंटेसरी शिक्षण नौकरी के लिए आवेदन",
       },
       description: {
-      en: "A universal format suitable for Montessori teaching positions",
+        en: "A universal format suitable for Montessori teaching positions",
         hi: "मोंटेसरी शिक्षण पदों के लिए उपयुक्त प्रारूप।",
       },
       icon: "Briefcase",
       link: "/applications/job/montessori-teacher-job-application",
     },
-        {
+    {
       title: {
         en: "Application for Mathematics Teacher Position",
         hi: "गणित टीचर पद के लिए आवेदन",
@@ -301,5 +308,5 @@ Enclosures:
       icon: "FileText",
       link: "/applications/job/science-teacher-job-application",
     },
-  ]
+  ],
 };

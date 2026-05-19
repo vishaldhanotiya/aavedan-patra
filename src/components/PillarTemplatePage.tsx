@@ -25,6 +25,7 @@ export function PillarTemplatePage({
         path={path}
         title={data.title}
         subtitle={data.subtitle}
+        pageMetaData={data.pageMetaData}
         updatedDate={data.updatedDate}
         breadcrumb={data.breadcrumb}
         howToWrite={data.howToWrite}

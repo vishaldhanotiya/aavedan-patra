@@ -21,6 +21,7 @@ export default function Page() {
         path={path}
         title={templateData.title}
         subtitle={templateData.subtitle}
+        pageMetaData={templateData.pageMetaData}
         updatedDate={templateData.updatedDate}
         breadcrumb={templateData.breadcrumb}
         howToWrite={templateData.howToWrite}
