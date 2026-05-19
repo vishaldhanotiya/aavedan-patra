@@ -10,7 +10,7 @@ const blogs = [
     key:1,
     title: "How to Write a Professional Job Application",
     excerpt: "Master the art of writing compelling job applications that get noticed by recruiters",
-    author:{ en:"Vishal Dhanotiya", hi:"विशाल धनोतिया" },
+    author: "Vishal Dhanotiya", 
     readTime: "5 min read",
     category: "Writing Tips",
     href:'/blog/how-to-write-a-job-application'
@@ -20,7 +20,7 @@ const blogs = [
     key:2,
     title: "Resume Format Guide 2025",
     excerpt: "Latest trends and best practices for creating standout resumes in the modern job market",
-    author:{ en:"Vishal Dhanotiya", hi:"विशाल धनोतिया" },
+    author: "Vishal Dhanotiya",
     readTime: "8 min read",
     category: "Career Guides",
     href:'/blog'
@@ -29,7 +29,7 @@ const blogs = [
     key:3,
     title: "Email Etiquette for Business Communication",
     excerpt: "Essential tips for professional email writing that leaves a lasting impression",
-    author:{ en:"Vishal Dhanotiya", hi:"विशाल धनोतिया" },
+    author: "Vishal Dhanotiya",
     readTime: "6 min read",
     category: "Communication",
     href:'/blog'
