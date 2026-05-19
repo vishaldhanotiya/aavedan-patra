@@ -10,7 +10,7 @@ export interface PillarSchemaInput {
   subtitle: BilingualText;
   updatedDate: string;
   pageMetaData: {
-    author: string;
+    author: BilingualText;
     updatedAt: string;
     views: string;
     likes: string;

@@ -30,7 +30,7 @@ export const generalSickLeave = {
   },
 
   pageMetaData: {
-    author: "Vishal Dhanotiya",
+    author:{ en:"Vishal Dhanotiya", hi:"विशाल धनोतिया" },
     updatedAt: "January 2025",
     views: "1200",
     likes: "85",

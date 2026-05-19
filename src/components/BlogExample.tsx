@@ -7,7 +7,7 @@ const sampleArticle = {
   title: "How to Write a Job Application (Step-by-Step Guide)",
   subtitle: "Learn how to structure and write a professional job application with format examples and expert tips.",
   breadcrumbs: ["Blog", "How to Write a Job Application"],
-  author: "Vishal Dhanotiya",
+  author:{ en:"Vishal Dhanotiya", hi:"विशाल धनोतिया" },
   publishedDate: "November 13, 2025",
   readTime: "5 min read",
   lastUpdated: "November 14, 2025",

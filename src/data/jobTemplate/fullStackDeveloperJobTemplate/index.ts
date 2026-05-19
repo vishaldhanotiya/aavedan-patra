@@ -28,6 +28,13 @@ export const fullStackDeveloperJobTemplate = {
     hi: "नौकरी आवेदन",
   },
 
+  pageMetaData: {
+    author:{ en:"Vishal Dhanotiya", hi:"विशाल धनोतिया" },
+    updatedAt: "January 2025",
+    views: "1200",
+    likes: "85",
+  },
+
   updatedDate: "November 2024",
 
   editorVariations: [],

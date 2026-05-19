@@ -31,6 +31,7 @@ import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { trackContentFeedback } from "@/lib/feedbackAnalytics";
 import {
+  BilingualText,
   buildArticleSchema,
   buildFaqPageSchema,
   buildHowToSchema,
@@ -78,7 +79,7 @@ interface PillarTemplateData {
   subtitle: { en: string; hi: string };
   category: { en: string; hi: string };
   pageMetaData: {
-    author: string;
+    author: BilingualText;
     updatedAt: string;
     views: string;
     likes: string;
@@ -415,9 +416,9 @@ export function PillarTemplateDetailsPage({
                   <div className="flex items-center gap-2">
                     <UserRoundPen className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
                     <span>
-                      {" "}
+
                       {language === "en" ? "Author:" : "लेखक:"}{" "}
-                      {data.pageMetaData.author}
+                      {data.pageMetaData.author[language]}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">

@@ -28,6 +28,13 @@ export const mathTeacherJobTemplate = {
     hi: "नौकरी आवेदन",
   },
 
+  pageMetaData: {
+    author:{ en:"Vishal Dhanotiya", hi:"विशाल धनोतिया" },
+    updatedAt: "January 2025",
+    views: "1200",
+    likes: "85",
+  },
+
   updatedDate: "January 2026",
 
   editorVariations: [],
@@ -174,58 +181,58 @@ Enclosures:
     ],
   },
 
-faqs: [
-  {
-    question: {
-      en: "Which format suits Math teachers?",
-      hi: "गणित शिक्षकों के लिए कौन सा प्रारूप उपयुक्त है?",
+  faqs: [
+    {
+      question: {
+        en: "Which format suits Math teachers?",
+        hi: "गणित शिक्षकों के लिए कौन सा प्रारूप उपयुक्त है?",
+      },
+      answer: {
+        en: "Math Teacher format focuses on concepts taught, board results (CBSE/State), and student performance metrics like 90%+ pass rates.",
+        hi: "गणित शिक्षक प्रारूप पढ़ाए गए अवधारणाओं, बोर्ड परिणामों (CBSE/राज्य) और छात्र प्रदर्शन (90%+ पास दर) पर केंद्रित है।",
+      },
     },
-    answer: {
-      en: "Math Teacher format focuses on concepts taught, board results (CBSE/State), and student performance metrics like 90%+ pass rates.",
-      hi: "गणित शिक्षक प्रारूप पढ़ाए गए अवधारणाओं, बोर्ड परिणामों (CBSE/राज्य) और छात्र प्रदर्शन (90%+ पास दर) पर केंद्रित है।",
+    {
+      question: {
+        en: "Should I mention board results?",
+        hi: "क्या बोर्ड परिणाम लिखने चाहिए?",
+      },
+      answer: {
+        en: "Yes, highlight specific achievements like 'Led Class 10 students to 95% CBSE pass rate' to build instant credibility.",
+        hi: "हाँ, विशिष्ट उपलब्धियाँ जैसे 'कक्षा 10 के छात्रों को 95% CBSE पास दर दिलाई' लिखें—तुरंत विश्वसनीयता बढ़ती है।",
+      },
     },
-  },
-  {
-    question: {
-      en: "Should I mention board results?",
-      hi: "क्या बोर्ड परिणाम लिखने चाहिए?",
+    {
+      question: {
+        en: "What salary can Math teachers expect?",
+        hi: "गणित शिक्षकों को कितनी सैलरी मिल सकती है?",
+      },
+      answer: {
+        en: "₹25,000-₹50,000/month in schools (2-5 yrs exp); ₹15,000-₹30,000 for coaching; higher in metros like Delhi/Mumbai.",
+        hi: "स्कूलों में ₹25,000-₹50,000/माह (2-5 साल अनुभव); कोचिंग में ₹15,000-₹30,000; दिल्ली/मुंबई में अधिक।",
+      },
     },
-    answer: {
-      en: "Yes, highlight specific achievements like 'Led Class 10 students to 95% CBSE pass rate' to build instant credibility.",
-      hi: "हाँ, विशिष्ट उपलब्धियाँ जैसे 'कक्षा 10 के छात्रों को 95% CBSE पास दर दिलाई' लिखें—तुरंत विश्वसनीयता बढ़ती है।",
+    {
+      question: {
+        en: "Is B.Ed compulsory for Math teaching?",
+        hi: "गणित शिक्षण के लिए B.Ed अनिवार्य है?",
+      },
+      answer: {
+        en: "Yes for government/private schools (CTET qualified preferred); optional for coaching/tuition but boosts chances significantly.",
+        hi: "सरकारी/निजी स्कूलों के लिए हाँ (CTET योग्यता पसंदीदा); कोचिंग/ट्यूशन के लिए वैकल्पिक लेकिन बहुत फायदा देता है।",
+      },
     },
-  },
-  {
-    question: {
-      en: "What salary can Math teachers expect?",
-      hi: "गणित शिक्षकों को कितनी सैलरी मिल सकती है?",
+    {
+      question: {
+        en: "What makes a strong Math teacher application?",
+        hi: "मजबूत गणित शिक्षक आवेदन की क्या खासियत है?",
+      },
+      answer: {
+        en: "Quantifiable results (e.g., 'Improved class average from 65% to 88%'), TET/CTET scores, and 2+ yrs experience stand out.",
+        hi: "मात्रात्मक परिणाम (जैसे 'कक्षा औसत 65% से 88% किया'), TET/CTET स्कोर और 2+ साल अनुभव सबसे प्रभावी हैं।",
+      },
     },
-    answer: {
-      en: "₹25,000-₹50,000/month in schools (2-5 yrs exp); ₹15,000-₹30,000 for coaching; higher in metros like Delhi/Mumbai.",
-      hi: "स्कूलों में ₹25,000-₹50,000/माह (2-5 साल अनुभव); कोचिंग में ₹15,000-₹30,000; दिल्ली/मुंबई में अधिक।",
-    },
-  },
-  {
-    question: {
-      en: "Is B.Ed compulsory for Math teaching?",
-      hi: "गणित शिक्षण के लिए B.Ed अनिवार्य है?",
-    },
-    answer: {
-      en: "Yes for government/private schools (CTET qualified preferred); optional for coaching/tuition but boosts chances significantly.",
-      hi: "सरकारी/निजी स्कूलों के लिए हाँ (CTET योग्यता पसंदीदा); कोचिंग/ट्यूशन के लिए वैकल्पिक लेकिन बहुत फायदा देता है।",
-    },
-  },
-  {
-    question: {
-      en: "What makes a strong Math teacher application?",
-      hi: "मजबूत गणित शिक्षक आवेदन की क्या खासियत है?",
-    },
-    answer: {
-      en: "Quantifiable results (e.g., 'Improved class average from 65% to 88%'), TET/CTET scores, and 2+ yrs experience stand out.",
-      hi: "मात्रात्मक परिणाम (जैसे 'कक्षा औसत 65% से 88% किया'), TET/CTET स्कोर और 2+ साल अनुभव सबसे प्रभावी हैं।",
-    },
-  }
-],
+  ],
 
   blogArticles: [
     {
@@ -281,7 +288,7 @@ faqs: [
         en: "Application for Experienced Teacher Job",
         hi: "अनुभवी शिक्षक नौकरी के लिए आवेदन",
       },
-    description: {
+      description: {
         en: "For teachers with 2+ years of experience",
         hi: "2+ वर्षों के अनुभव वाले शिक्षकों के लिए।",
       },
@@ -306,11 +313,11 @@ faqs: [
         hi: "मोंटेसरी शिक्षण नौकरी के लिए आवेदन",
       },
       description: {
-      en: "A universal format suitable for Montessori teaching positions",
+        en: "A universal format suitable for Montessori teaching positions",
         hi: "मोंटेसरी शिक्षण पदों के लिए उपयुक्त प्रारूप।",
       },
       icon: "Briefcase",
       link: "/applications/job/montessori-teacher-job-application",
     },
-  ]
+  ],
 };
